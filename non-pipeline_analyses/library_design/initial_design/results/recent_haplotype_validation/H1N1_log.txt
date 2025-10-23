@@ -1,0 +1,15 @@
+
+Excluding 2 haplotype(s) via override_select_recent_haplotypes:
+  - D.3.1:E283K,K302E (strain: A/Aragon/2049/2025, count: 3, valid_sequence: False)
+  - D.3.1:T186A (strain: A/SouthAustralia/2523011822/2025, count: 2, valid_sequence: False)
+Validation complete:
+  Sequence length: 566
+  Valid haplotypes: 414/421 (98.3%)
+  Invalid haplotypes: 7/421 (1.7%)
+  Selected haplotypes: 43/421 (10.2%)
+  Total sequences (valid): 2,787
+  Total sequences (selected): 1,903
+  Report: results/recent_haplotype_validation/H1N1_validation_report.txt
+  Scatter plot: results/recent_haplotype_validation/H1N1_count_scatter.pdf
+  Valid haplotypes TSV: results/recent_haplotype_validation/H1N1_valid_haplotypes.tsv
+  Invalid haplotypes TSV: results/recent_haplotype_validation/H1N1_invalid_haplotypes.tsv

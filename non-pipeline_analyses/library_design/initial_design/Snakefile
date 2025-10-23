@@ -1,0 +1,201 @@
+"""
+Snakemake pipeline for selecting influenza HA strains for neutralization assays.
+
+This pipeline processes H3N2 and H1N1 haplotype data to select ~100 diverse strains
+based on genetic distances, epitope mutations, and metadata (prevalence, fitness).
+"""
+
+snakemake.utils.min_version("9.0")
+
+configfile: "config.yaml"
+
+# Define subtypes as wildcards
+SUBTYPES = config["subtypes"]
+
+# Rule all: define final outputs
+rule all:
+    input:
+        expand("results/recent_haplotype_validation/{subtype}_validation_report.txt", subtype=SUBTYPES),
+        expand("results/recent_haplotype_validation/{subtype}_count_scatter.pdf", subtype=SUBTYPES),
+        expand("results/recent_haplotype_validation/{subtype}_valid_haplotypes.tsv", subtype=SUBTYPES),
+        expand("results/recent_haplotype_validation/{subtype}_invalid_haplotypes.tsv", subtype=SUBTYPES),
+        expand("results/curated_library/{subtype}_selected_haplotypes.tsv", subtype=SUBTYPES),
+        expand("results/curated_library/{subtype}_nonselected_haplotypes.tsv", subtype=SUBTYPES),
+        expand("results/site_annotations/{subtype}_site_annotations.tsv", subtype=SUBTYPES),
+        expand("results/tree/{subtype}_auspice.json", subtype=SUBTYPES),
+        "results/aggregated_library_strains/library_strains.tsv"
+
+
+# Rule to validate recent haplotypes
+rule validate_recent_haplotypes:
+    input:
+        tsv=lambda wildcards: config["recent_haplotypes"][wildcards.subtype]
+    output:
+        report="results/recent_haplotype_validation/{subtype}_validation_report.txt",
+        scatter="results/recent_haplotype_validation/{subtype}_count_scatter.pdf",
+        valid_haplotypes="results/recent_haplotype_validation/{subtype}_valid_haplotypes.tsv",
+        invalid_haplotypes="results/recent_haplotype_validation/{subtype}_invalid_haplotypes.tsv"
+    params:
+        select_cols=config["select_recent_haplotype_cols"],
+        override_haplotypes=lambda wildcards: config["override_select_recent_haplotypes"][wildcards.subtype]
+    log:
+        "results/recent_haplotype_validation/{subtype}_log.txt"
+    conda:
+        "environment.yml"
+    script:
+        "scripts/validate_recent_haplotypes.py"
+
+
+# Rule to curate library sequences by combining validated and additional haplotypes
+rule curate_library_sequences:
+    input:
+        valid_haplotypes="results/recent_haplotype_validation/{subtype}_valid_haplotypes.tsv",
+        additional_haplotypes=lambda wildcards: config["additional_haplotypes"][wildcards.subtype],
+        site_annotations="results/site_annotations/{subtype}_site_annotations.tsv"
+    output:
+        selected_haplotypes="results/curated_library/{subtype}_selected_haplotypes.tsv",
+        nonselected_haplotypes="results/curated_library/{subtype}_nonselected_haplotypes.tsv",
+        library_fasta="results/curated_library/{subtype}_library_haplotypes.fa"
+    log:
+        "results/curated_library/{subtype}_log.txt"
+    conda:
+        "environment.yml"
+    script:
+        "scripts/curate_library_sequences.py"
+
+
+# Rule to match library proteins to closest Genbank nucleotide sequences
+rule match_genbank:
+    input:
+        query_prots="results/curated_library/{subtype}_library_haplotypes.fa",
+        script="match_prot_to_genbank_nt/match_prot_to_genbank_nt.py"
+    output:
+        csv="results/genbank_match/{subtype}/match_prot_to_genbank_nt.csv"
+    params:
+        taxon="Influenza A virus",
+        outdir="results/genbank_match/{subtype}"
+    log:
+        "results/genbank_match/{subtype}/log.txt"
+    threads: 8
+    conda:
+        "match_prot_to_genbank_nt/environment.yaml"
+    shell:
+        """
+        python {input.script} \
+            --query-prots {input.query_prots} \
+            --taxon "{params.taxon}" \
+            --outdir {params.outdir} \
+            --existing-outdir keep \
+            --threads {threads} \
+            > {log} 2>&1
+        """
+
+
+# Rule to aggregate library strains from all subtypes
+rule aggregate_library_strains:
+    input:
+        csvs=expand("results/genbank_match/{subtype}/match_prot_to_genbank_nt.csv", subtype=SUBTYPES)
+    output:
+        tsv="results/aggregated_library_strains/library_strains.tsv"
+    params:
+        subtypes=SUBTYPES
+    log:
+        "results/aggregated_library_strains/log.txt"
+    conda:
+        "environment.yml"
+    script:
+        "scripts/aggregate_library_strains.py"
+
+
+# Rule to prepare nextstrain tree input files
+rule prepare_nextstrain_tree:
+    input:
+        selected="results/curated_library/{subtype}_selected_haplotypes.tsv",
+        nonselected="results/curated_library/{subtype}_nonselected_haplotypes.tsv"
+    output:
+        alignment="results/tree/{subtype}_nextstrain_input/alignment.fa",
+        metadata="results/tree/{subtype}_nextstrain_input/metadata.tsv"
+    params:
+        color_by_metadata=lambda wildcards: config["nextstrain_tree"][wildcards.subtype]["color_by_metadata"]
+    log:
+        "results/tree/{subtype}_nextstrain_input/log.txt"
+    conda:
+        "environment.yml"
+    script:
+        "scripts/prepare_nextstrain_tree.py"
+
+
+# Rule to fetch epitope site definitions
+rule fetch_epitope_sites:
+    output:
+        json="results/epitopes/{subtype}_{epitope_map}.json"
+    params:
+        url=lambda wildcards: config["epitope_sites"][wildcards.subtype][wildcards.epitope_map]
+    log:
+        "results/epitopes/{subtype}_{epitope_map}_log.txt"
+    conda:
+        "environment.yml"
+    shell:
+        """
+        curl -L -o {output.json} {params.url} 2> {log}
+        """
+
+
+# Rule to fetch GFF files for numbering scheme mapping
+rule fetch_gff:
+    output:
+        gff="results/gffs/{subtype}_genemap.gff"
+    params:
+        url=lambda wildcards: config["gffs"][wildcards.subtype]
+    log:
+        "results/gffs/{subtype}_log.txt"
+    conda:
+        "environment.yml"
+    shell:
+        """
+        curl -L -o {output.gff} {params.url} 2> {log}
+        """
+
+
+# Rule to parse GFF and epitope sites to create site annotations
+rule create_site_annotations:
+    input:
+        gff="results/gffs/{subtype}_genemap.gff",
+        epitope_jsons=lambda wildcards: [
+            f"results/epitopes/{wildcards.subtype}_{epitope_map}.json"
+            for epitope_map in config["epitope_sites"][wildcards.subtype]
+        ]
+    output:
+        tsv="results/site_annotations/{subtype}_site_annotations.tsv"
+    log:
+        "results/site_annotations/{subtype}_log.txt"
+    conda:
+        "environment.yml"
+    script:
+        "scripts/create_site_annotations.py"
+
+
+# Use nextstrain-prot-titers-tree as a module for each subtype
+for subtype in SUBTYPES:
+    module_name = f"nextstrain_prot_titers_tree_{subtype}"
+
+    module:
+        name:
+            module_name
+        snakefile:
+            "nextstrain-prot-titers-tree/Snakefile"
+        config:
+            {
+                "results_subdir": f"results/tree/{subtype}_results",
+                "auspice_json": f"results/tree/{subtype}_auspice.json",
+                "titers": "null",
+                "alignment": f"results/tree/{subtype}_nextstrain_input/alignment.fa",
+                "outgroup": config["nextstrain_tree"][subtype]["outgroup"],
+                "metadata": f"results/tree/{subtype}_nextstrain_input/metadata.tsv",
+                "site_numbering_map": f"results/site_annotations/{subtype}_site_annotations.tsv",
+                "color_by_metadata": config["nextstrain_tree"][subtype]["color_by_metadata"],
+                "display_defaults": config["nextstrain_tree"][subtype]["display_defaults"],
+                "addtl_export_args": config["nextstrain_tree"][subtype]["addtl_export_args"],
+            }
+
+    use rule * from module_name as module_name*

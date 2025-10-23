@@ -1,0 +1,6 @@
+[submodule "non-pipeline_analyses/library_design/initial_design/nextstrain-prot-titers-tree"]
+	path = non-pipeline_analyses/library_design/initial_design/nextstrain-prot-titers-tree
+	url = https://github.com/jbloomlab/nextstrain-prot-titers-tree
+[submodule "non-pipeline_analyses/library_design/initial_design/match_prot_to_genbank_nt"]
+	path = non-pipeline_analyses/library_design/initial_design/match_prot_to_genbank_nt
+	url = https://github.com/jbloom/match_prot_to_genbank_nt

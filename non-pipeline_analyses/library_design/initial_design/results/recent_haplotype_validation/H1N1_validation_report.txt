@@ -1,0 +1,42 @@
+HA Sequence Validation Report
+============================================================
+
+Input file: data/2025-NH-VCM-neutralization-library-strain-selection-H1N1.tsv
+
+Sequence Length Check:
+  All sequences have length: 566
+  ✓ All sequences are the same length (properly aligned)
+
+Amino Acid Validity Check:
+  Total haplotypes: 421
+  Haplotypes with valid amino acids only: 414 (98.3%)
+  Haplotypes with invalid characters: 7 (1.7%)
+
+  Total sequences (valid haplotypes): 2,787
+  Total sequences (invalid haplotypes): 11
+  Total sequences (all): 2,798
+
+Haplotype Selection:
+  Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection']
+  Override exclusions: 2 haplotype(s) specified
+  Excluded via override: 2 haplotype(s)
+    - D.3.1:E283K,K302E (strain: A/Aragon/2049/2025, count: 3)
+    - D.3.1:T186A (strain: A/SouthAustralia/2523011822/2025, count: 2)
+  Selected haplotypes: 43 (10.2%)
+  Total sequences (selected haplotypes): 1,903
+  ✓ All selected haplotypes have valid sequences
+
+  Invalid characters found: ['-', 'X']
+
+  Examples of haplotypes with invalid characters:
+    D.3.1:S157L,A261V: contains ['X']
+    D.3.1:P271T: contains ['X']
+    D.3.1:D35G,A277T,V307L: contains ['X']
+    D.3.1:E66G: contains ['X']
+    D.3.1:E283K,K302E: contains ['-', 'X']
+
+Sequence Count Distribution:
+  Total sequences represented: 2798
+  Mean sequences per haplotype: 6.6
+  Median sequences per haplotype: 1
+  Max sequences for a haplotype: 1333
