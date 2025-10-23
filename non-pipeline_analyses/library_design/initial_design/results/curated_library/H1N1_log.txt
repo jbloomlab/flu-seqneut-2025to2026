@@ -23,8 +23,8 @@ Reading site annotations from results/site_annotations/H1N1_site_annotations.tsv
 
 Computing epitope-specific distances to nearest library strain...
   Caton_epitope_distance: computed for 415 haplotypes
-  Selected Caton_epitope_distance: range 0-1
-  Non-selected Caton_epitope_distance: range 0-2
+  Selected Caton_epitope_distance: range 0-2
+  Non-selected Caton_epitope_distance: range 0-3
 
 Outputs:
   Selected haplotypes: results/curated_library/H1N1_selected_haplotypes.tsv

@@ -311,25 +311,15 @@ def curate_library_sequences(valid_haplotypes_path, additional_haplotypes_paths,
         epitope_distances = []
         for _, row in df_combined.iterrows():
             sequence = row['representative_strain_ha_sequence']
-            strain_name = row['representative_strain']
+            nearest_strain = row['nearest_library_strain']
 
-            # Find nearest library strain (excluding self)
-            min_distance = float('inf')
-            for lib_seq, lib_strain in zip(library_sequences, library_strains):
-                if lib_strain == strain_name:
-                    continue
-                dist = epitope_distance_at_positions(sequence, lib_seq, positions)
-                if dist < min_distance:
-                    min_distance = dist
+            # Find the sequence of the nearest library strain
+            nearest_strain_idx = list(library_strains).index(nearest_strain)
+            nearest_strain_seq = library_sequences[nearest_strain_idx]
 
-            if min_distance == float('inf'):
-                # Only one library strain, can't compute distance
-                raise ValueError(
-                    f"Cannot compute epitope distance for {strain_name}: "
-                    f"no other library strains available"
-                )
-
-            epitope_distances.append(min_distance)
+            # Compute epitope distance only to the nearest library strain
+            dist = epitope_distance_at_positions(sequence, nearest_strain_seq, positions)
+            epitope_distances.append(dist)
 
         # Add column to dataframe
         df_combined[distance_col_name] = epitope_distances
