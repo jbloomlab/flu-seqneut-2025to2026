@@ -25,10 +25,10 @@ Reading site annotations from results/site_annotations/H3N2_site_annotations.tsv
 Computing epitope-specific distances to nearest library strain...
   Wolf_epitope_distance: computed for 289 haplotypes
   Koel_epitope_distance: computed for 289 haplotypes
-  Selected Wolf_epitope_distance: range 0-3
+  Selected Wolf_epitope_distance: range 0-6
   Non-selected Wolf_epitope_distance: range 0-5
-  Selected Koel_epitope_distance: range 0-1
-  Non-selected Koel_epitope_distance: range 0-1
+  Selected Koel_epitope_distance: range 0-2
+  Non-selected Koel_epitope_distance: range 0-2
 
 Outputs:
   Selected haplotypes: results/curated_library/H3N2_selected_haplotypes.tsv
