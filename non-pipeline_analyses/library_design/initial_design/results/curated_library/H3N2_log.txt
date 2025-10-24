@@ -1,19 +1,19 @@
-Read 286 validated haplotypes from results/recent_haplotype_validation/H3N2_valid_haplotypes.tsv
-  Selected: 45
+Read 287 validated haplotypes from results/recent_haplotype_validation/H3N2_valid_haplotypes.tsv
+  Selected: 46
   Non-selected: 241
 
 Read 3 additional haplotypes from data/manually_fixed_recent_H3N2_haplotypes.tsv
   All additional haplotypes are marked as selected
 
-Combined dataframe contains 289 total haplotypes
-  Selected: 48
+Combined dataframe contains 290 total haplotypes
+  Selected: 49
   Non-selected: 241
   ✓ All representative_strain values are unique
   ✓ All sequences have length 566
   ✓ All sequences contain only valid amino acids
 
 Computing Hamming distances to nearest library strain...
-  Computed Hamming distances for 289 haplotypes
+  Computed Hamming distances for 290 haplotypes
   Selected haplotypes: distance range 1-6
   Non-selected haplotypes: distance range 1-7
 
@@ -23,8 +23,8 @@ Reading site annotations from results/site_annotations/H3N2_site_annotations.tsv
     Koel_epitope: 7 sites
 
 Computing epitope-specific distances to nearest library strain...
-  Wolf_epitope_distance: computed for 289 haplotypes
-  Koel_epitope_distance: computed for 289 haplotypes
+  Wolf_epitope_distance: computed for 290 haplotypes
+  Koel_epitope_distance: computed for 290 haplotypes
   Selected Wolf_epitope_distance: range 0-6
   Non-selected Wolf_epitope_distance: range 0-5
   Selected Koel_epitope_distance: range 0-2
@@ -32,10 +32,10 @@ Computing epitope-specific distances to nearest library strain...
 
 Outputs:
   Selected haplotypes: results/curated_library/H3N2_selected_haplotypes.tsv
-    48 haplotypes
+    49 haplotypes
   Non-selected haplotypes: results/curated_library/H3N2_nonselected_haplotypes.tsv
     241 haplotypes
   Library FASTA: results/curated_library/H3N2_library_haplotypes.fa
-    48 sequences
+    49 sequences
 
 Curation complete ✓

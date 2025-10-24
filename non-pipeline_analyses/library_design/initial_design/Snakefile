@@ -75,7 +75,7 @@ rule match_genbank:
         taxon="Influenza A virus",
         outdir="results/genbank_match/{subtype}"
     log:
-        "results/genbank_match/{subtype}/log.txt"
+        "results/genbank_match/{subtype}_log.txt"
     threads: 8
     conda:
         "match_prot_to_genbank_nt/environment.yaml"
@@ -85,9 +85,8 @@ rule match_genbank:
             --query-prots {input.query_prots} \
             --taxon "{params.taxon}" \
             --outdir {params.outdir} \
-            --existing-outdir keep \
-            --threads {threads} \
-            > {log} 2>&1
+            --existing-outdir delete \
+            --threads {threads} &> {log}
         """
 
 
@@ -137,7 +136,7 @@ rule fetch_epitope_sites:
         "environment.yml"
     shell:
         """
-        curl -L -o {output.json} {params.url} 2> {log}
+        curl -L -o {output.json} {params.url} &> {log}
         """
 
 
@@ -153,7 +152,7 @@ rule fetch_gff:
         "environment.yml"
     shell:
         """
-        curl -L -o {output.gff} {params.url} 2> {log}
+        curl -L -o {output.gff} {params.url} &> {log}
         """
 
 

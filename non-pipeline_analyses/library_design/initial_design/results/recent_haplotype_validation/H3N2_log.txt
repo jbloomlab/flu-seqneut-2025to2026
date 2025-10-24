@@ -1,15 +1,15 @@
 
 Excluding 3 haplotype(s) via override_select_recent_haplotypes:
   - J.2.4.1:K135E (strain: A/Malaysia/IMR/SARI/2406/2025, count: 1, valid_sequence: False)
-  - J.2:D104N,T135A,S145N,I160M,I267V (strain: A/SouthAustralia/2525607496/2025, count: 2, valid_sequence: False)
   - J.2.4.1:R189K (strain: A/Belgium/H0097/2025, count: 1, valid_sequence: False)
+  - J.2:D104N,T135A,S145N,I160M,I267V (strain: A/SouthAustralia/2525607496/2025, count: 2, valid_sequence: False)
 Validation complete:
   Sequence length: 566
-  Valid haplotypes: 286/311 (92.0%)
-  Invalid haplotypes: 25/311 (8.0%)
-  Selected haplotypes: 45/311 (14.5%)
-  Total sequences (valid): 1,129
-  Total sequences (selected): 605
+  Valid haplotypes: 287/312 (92.0%)
+  Invalid haplotypes: 25/312 (8.0%)
+  Selected haplotypes: 46/312 (14.7%)
+  Total sequences (valid): 1,130
+  Total sequences (selected): 606
   Report: results/recent_haplotype_validation/H3N2_validation_report.txt
   Scatter plot: results/recent_haplotype_validation/H3N2_count_scatter.pdf
   Valid haplotypes TSV: results/recent_haplotype_validation/H3N2_valid_haplotypes.tsv

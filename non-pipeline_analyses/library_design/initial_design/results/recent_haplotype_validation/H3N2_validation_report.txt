@@ -8,13 +8,13 @@ Sequence Length Check:
   ✓ All sequences are the same length (properly aligned)
 
 Amino Acid Validity Check:
-  Total haplotypes: 311
-  Haplotypes with valid amino acids only: 286 (92.0%)
+  Total haplotypes: 312
+  Haplotypes with valid amino acids only: 287 (92.0%)
   Haplotypes with invalid characters: 25 (8.0%)
 
-  Total sequences (valid haplotypes): 1,129
+  Total sequences (valid haplotypes): 1,130
   Total sequences (invalid haplotypes): 37
-  Total sequences (all): 1,166
+  Total sequences (all): 1,167
 
 Haplotype Selection:
   Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection']
@@ -23,8 +23,8 @@ Haplotype Selection:
     - J.2.4.1:K135E (strain: A/Malaysia/IMR/SARI/2406/2025, count: 1)
     - J.2:D104N,T135A,S145N,I160M,I267V (strain: A/SouthAustralia/2525607496/2025, count: 2)
     - J.2.4.1:R189K (strain: A/Belgium/H0097/2025, count: 1)
-  Selected haplotypes: 45 (14.5%)
-  Total sequences (selected haplotypes): 605
+  Selected haplotypes: 46 (14.7%)
+  Total sequences (selected haplotypes): 606
   ✓ All selected haplotypes have valid sequences
 
   Invalid characters found: ['-', 'X']
@@ -33,11 +33,11 @@ Haplotype Selection:
     J.2:Q57R,Q80R,K82R,T135A,S145N,P273L,S312G: contains ['X']
     J.2.4.1:K135E: contains ['X']
     J.2.4.1:N2K,R173Q: contains ['X']
+    J.2.4.1:R189K: contains ['-']
     J.2.2:T10M,R33Q,T65K,S145N,I217V: contains ['X']
-    J.2:D104N,T135A,S145N,I160M,I267V: contains ['X']
 
 Sequence Count Distribution:
-  Total sequences represented: 1166
+  Total sequences represented: 1167
   Mean sequences per haplotype: 3.7
   Median sequences per haplotype: 1
   Max sequences for a haplotype: 202
