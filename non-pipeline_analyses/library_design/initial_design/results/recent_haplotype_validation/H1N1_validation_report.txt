@@ -17,13 +17,13 @@ Amino Acid Validity Check:
   Total sequences (all): 2,798
 
 Haplotype Selection:
-  Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection']
+  Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection', 'Jesse_Bloom_addition']
   Override exclusions: 2 haplotype(s) specified
   Excluded via override: 2 haplotype(s)
     - D.3.1:E283K,K302E (strain: A/Aragon/2049/2025, count: 3)
     - D.3.1:T186A (strain: A/SouthAustralia/2523011822/2025, count: 2)
-  Selected haplotypes: 44 (10.5%)
-  Total sequences (selected haplotypes): 1,904
+  Selected haplotypes: 47 (11.2%)
+  Total sequences (selected haplotypes): 1,962
   ✓ All selected haplotypes have valid sequences
 
   Invalid characters found: ['-', 'X']
