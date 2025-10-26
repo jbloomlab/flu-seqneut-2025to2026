@@ -1,20 +1,20 @@
 Read 414 validated haplotypes from results/recent_haplotype_validation/H1N1_valid_haplotypes.tsv
-  Selected: 44
-  Non-selected: 370
+  Selected: 47
+  Non-selected: 367
 
 Read 1 additional haplotypes from data/manually_fixed_recent_H1N1_haplotypes.tsv
   All additional haplotypes are marked as selected
 
 Combined dataframe contains 415 total haplotypes
-  Selected: 45
-  Non-selected: 370
+  Selected: 48
+  Non-selected: 367
   ✓ All representative_strain values are unique
   ✓ All sequences have length 566
   ✓ All sequences contain only valid amino acids
 
 Computing Hamming distances to nearest library strain...
   Computed Hamming distances for 415 haplotypes
-  Selected haplotypes: distance range 1-5
+  Selected haplotypes: distance range 1-8
   Non-selected haplotypes: distance range 0-9
 
 Reading site annotations from results/site_annotations/H1N1_site_annotations.tsv
@@ -28,10 +28,10 @@ Computing epitope-specific distances to nearest library strain...
 
 Outputs:
   Selected haplotypes: results/curated_library/H1N1_selected_haplotypes.tsv
-    45 haplotypes
+    48 haplotypes
   Non-selected haplotypes: results/curated_library/H1N1_nonselected_haplotypes.tsv
-    370 haplotypes
+    367 haplotypes
   Library FASTA: results/curated_library/H1N1_library_haplotypes.fa
-    45 sequences
+    48 sequences
 
 Curation complete ✓

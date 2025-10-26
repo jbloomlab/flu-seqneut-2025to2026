@@ -18,6 +18,7 @@ recent_haplotypes:
 select_recent_haplotype_cols:
   - John_Huddleston_selection
   - Sam_Turner_selection
+  - Jesse_Bloom_addition
 
 # Override selected haplotypes with manual exclusions. These should be the names
 # given in the derived_haplotype column.
