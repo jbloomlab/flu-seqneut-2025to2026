@@ -1,0 +1,12 @@
+name: constructs
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.5
+  - biopython=1.85
+  - marimo
+  - pandas=2.2
+  - python=3.12
