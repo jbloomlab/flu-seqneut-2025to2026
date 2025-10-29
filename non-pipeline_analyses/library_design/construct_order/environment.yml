@@ -10,3 +10,4 @@ dependencies:
   - marimo
   - pandas=2.2
   - python=3.12
+  - snakemake

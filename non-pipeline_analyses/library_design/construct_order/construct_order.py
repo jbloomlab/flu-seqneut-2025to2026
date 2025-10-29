@@ -9,9 +9,7 @@ def _(mo):
     mo.md(
         r"""
     # Construct design notebook
-    This notebook takes the output of `initial_design` -- namely a list of nucleotide sequences for both H3N2 and H1N1 strains -- and generates a list of nucleotide inserts that can be submitted to Twist Biosciences for gene fragment synthesis and cloning. 
-
-    [some more details about the constructs]
+    This notebook takes the output of `initial_design` (namely, a list of nucleotide sequences for both H3N2 and H1N1 strains) and generates a list of nucleotide inserts that can be submitted to Twist Biosciences for gene fragment synthesis and cloning. These inserts are designed to fit between the BsmBI-v2 and XbaI cut sites in the Bloom lab vector 2851. They should begin after the 19th codon of WSN upstream signal peptide, and continue all the way through the end of the HA coding region, followed by a double stop codon and a 16-nucleotide barcode.
     """
     )
     return
@@ -46,6 +44,49 @@ def _(Path, mo, os):
 
 
 @app.cell
+def _(notebook_directory: "Path", snakemake, sys, yaml):
+    # Load configuration
+    def load_config():
+        config_path = notebook_directory / "config.yml"
+
+        # If running within Snakemake, it defines a 'snakemake' object
+        if "snakemake" in globals():
+            config_path = snakemake.configfile
+        elif len(sys.argv) > 1:
+            # Allow manual override from command-line argument
+            config_path = sys.argv[1]
+        with open(config_path) as f:
+            config = yaml.safe_load(f)
+        print(f"Loaded config from: {config_path}")
+        return config
+
+    config = load_config()
+    return (config,)
+
+
+@app.cell
+def _(config, notebook_directory: "Path", pd):
+    # Get barcode configuration
+
+    # Define global variables for insert design from config
+    n_barcodes = config['n_barcodes'] # Set the number of barcodes to design for
+    nucleotides = config['nucleotides']
+
+    # Initialize barcode index (list of barcodes that have been used by a construct already)
+    barcode_index = []
+
+    # Load past barcodes
+    loes2023 = pd.read_csv(notebook_directory / config['loes2023'])['barcode'].tolist()
+    kikawa2023 = pd.read_csv(notebook_directory / config['kikawa2023'])['barcode'].tolist()
+    kikawa2025 = pd.read_csv(notebook_directory / config['kikawa2025'])['barcode'].tolist()
+
+    barcode_index.extend(loes2023)
+    barcode_index.extend(kikawa2023)
+    barcode_index.extend(kikawa2025)
+    return barcode_index, n_barcodes, nucleotides
+
+
+@app.cell
 def _(
     barcode_index,
     n_barcodes,
@@ -62,7 +103,7 @@ def _(
                        ectodomain_start,
                        ectodomain_length,
                        endodomain_sequence,
-                       start_codon = "ATGAAG",
+                       start_codon,
                        special_start_codons = None,
                        append_additional_upstream_sequence = '',
                        append_additional_downstream_sequence = '',
@@ -73,7 +114,7 @@ def _(
         # Only design if the ordersheet hasn't been generated
         if os.path.exists(notebook_directory / construct_filepath):
             print(f"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.")
-    
+
         elif not os.path.exists(notebook_directory / construct_filepath): 
             print(f'Generating new barcodes at {construct_filepath}...')
             library_strains = pd.read_csv(notebook_directory / insert_filepath, sep='\t') # Input 
@@ -108,21 +149,19 @@ def _(
                     i+=1
                     # Get Genbank ID (and additional mutations) from FASTA header
                     genbank_id = row['accession_w_aa_muts_added']
-                
+
                     # Find the position of the first instance of 'ATGAAG' or other custom start
                     codon_to_use = special_start_codons.get(name, start_codon)
                     start_position = record.find(codon_to_use)
                     assert start_position != -1, f"For {name} - no start codon {codon_to_use} found"
-                    # start_position = record.find(start_codon)                
-                    # assert start_position != -1, f"For {name} - no start codon {start_codon} found"
-                
+
                     # Extract the sequence starting from the found position 
                     insert_start = start_position + ectodomain_start 
                     insert_end = start_position + (ectodomain_length) 
                     ectodomain_insert_seq = record[insert_start:insert_end]                
                     # Identify the endodomain region (subtype specific)
                     endodomain = endodomain_sequence
-                
+
                     # Insert sequence we need to order is just ectodomain, endodomain, and barcode
                     insert_seq = ectodomain_insert_seq + endodomain + barcode
 
@@ -136,80 +175,50 @@ def _(
                 virus_id+=1
 
             inserts_df = pd.DataFrame(inserts, columns = ['strain', 'genbank', 'name', 'sequence'])
-            # inserts_df = inserts_df.sort_values(by = 'name').reset_index(drop=True).to_csv(insert_filepath, index=False)
             inserts_df = inserts_df.to_csv(notebook_directory / construct_filepath, index=False) 
 
             return inserts
-
     return (design_inserts,)
 
 
 @app.cell
-def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
-    # Load configuration
-    def load_config():
-        config_path = notebook_directory / "config.yml"
-
-        # If running within Snakemake, it defines a 'snakemake' object
-        if "snakemake" in globals():
-            config_path = snakemake.configfile
-        elif len(sys.argv) > 1:
-            # Allow manual override from command-line argument
-            config_path = sys.argv[1]
-        with open(config_path) as f:
-            config = yaml.safe_load(f)
-        print(f"Loaded config from: {config_path}")
-        return config
-
-    config = load_config()
-
-
-    # Define global variables for insert design from config
-    n_barcodes = config['n_barcodes'] # Set the number of barcodes to design for
-    nucleotides = config['nucleotides']
-
-    # Initialize barcode index (list of barcodes that have been used by a construct already)
-    barcode_index = []
-
-    # Load past barcodes
-    loes2023 = pd.read_csv(notebook_directory / config['loes2023'])['barcode'].tolist()
-    kikawa2023 = pd.read_csv(notebook_directory / config['kikawa2023'])['barcode'].tolist()
-    kikawa2025 = pd.read_csv(notebook_directory / config['kikawa2025'])['barcode'].tolist()
-
-    barcode_index.extend(loes2023)
-    barcode_index.extend(kikawa2023)
-    barcode_index.extend(kikawa2025)
-    return barcode_index, config, n_barcodes, nucleotides
-
-
-@app.cell
-def _(config, design_inserts):
+def _(config, design_inserts, order):
     # Design all constructs configured in 'orders' key
-    for order in config['orders']:
+    # for order in config['orders']:
+    if "order" in globals():
+
+        curr_order = config['orders'][order]
 
         design = design_inserts(
-            library = config['orders'][order]['library'],
-            subtype = config['orders'][order]['subtype'],
-            insert_filepath = config['orders'][order]['input_file'],
-            construct_filepath = config['orders'][order]['output_file'],
-            upstream_signalpep = config['orders'][order]['upstream_signalpep'],
-            ectodomain_start = config['orders'][order]['ectodomain_start'],
-            ectodomain_length = config['orders'][order]['ectodomain_length'],
-            endodomain_sequence = config['orders'][order]['endodomain_sequence'],
-            append_additional_upstream_sequence = config['orders'][order]['append_additional_upstream_sequence'],
+            library = curr_order['library'],
+            subtype = curr_order['subtype'],
+            insert_filepath = curr_order['input_file'],
+            construct_filepath = curr_order['output_file'],
+            upstream_signalpep = curr_order['upstream_signalpep'],
+            ectodomain_start = curr_order['ectodomain_start'],
+            ectodomain_length = curr_order['ectodomain_length'],
+            endodomain_sequence = curr_order['endodomain_sequence'],
+            append_additional_upstream_sequence = curr_order['append_additional_upstream_sequence'],
+            start_codon = config['start_codon'],
             special_start_codons = config['special_start_codons']
         )
 
-        print(f'There are inserts to order at {config['orders'][order]['output_file']}')
-
+        print(f'There are inserts to order at {curr_order['output_file']}')
     return
 
 
 @app.cell
-def _(notebook_directory: "Path", pd):
-    library_strains_df = pd.read_csv(notebook_directory / "../initial_design/results/aggregated_library_strains/library_strains.tsv", sep='\t')
+def _():
+    return
 
-    library_strains_df.query('strain == "A/NewSouthWales/2525913630/2025_H1N1"')
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
     return
 
 

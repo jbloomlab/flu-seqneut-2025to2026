@@ -18,7 +18,7 @@ orders:
     library: 'flu-seqneut-25to26'
     subtype: "H3N2"
     input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
-    output_file: "./results/H3_order1.csv"
+    output_file: "results/H3_order1.csv"
     append_additional_upstream_sequence: ''
     upstream_signalpep: 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacaca' # WSN upstream 19 amino acids
     ectodomain_start: 48 # 16x3, start after first 16 amino acids
@@ -29,7 +29,7 @@ orders:
     library: 'flu-seqneut-25to26'
     subtype: "H1N1"
     input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
-    output_file: "./results/H1_order1.csv"
+    output_file: "results/H1_order1.csv"
     append_additional_upstream_sequence: 'ata' # 20th amino acid of upstream WSN signal peptide
     upstream_signalpep: 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacacaata' # WSN upstream 20 amino acids
     ectodomain_start: 60 # 20x3, start after first 20 amino acids
