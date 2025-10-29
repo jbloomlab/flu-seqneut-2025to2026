@@ -19,244 +19,197 @@ def _(mo):
 
 @app.cell
 def _():
+    import os
     import marimo as mo
     from pathlib import Path
+
+    import sys
+    import yaml
     import pandas as pd
     import Bio
     from Bio import SeqIO
     import random
-    return Path, SeqIO, mo, pd, random
+    return Path, mo, os, pd, random, sys, yaml
 
 
 @app.cell
-def _(Path, mo, pd):
-    ###### Get strains ######
-    # marimo path to notebook
+def _(Path, mo, os):
+    # Marimo path to notebook
     notebook_directory: Path = mo.notebook_dir()
-    library_strains_filepath = notebook_directory / "../initial_design/results/aggregated_library_strains/library_strains.tsv"
 
-    # load library strains
-    library_strains = pd.read_csv(library_strains_filepath, sep='\t')
-
-    ##### Get past barcodes #####
-    barcode = 'NNNNNNNNNNNNNNNN'
-    nucleotides = ['a', 'c', 'g', 't']
-
-    # Initialize barcode index (list of barcodes that have been used by a construct already)
-    barcode_index = []
-
-    # Add barcodes already used by prior viral libraries
-    kikawa2023 = pd.read_csv(notebook_directory / 'data/2023_H3N2_Kikawa.csv')['barcode'].tolist()
-    loes2023 = pd.read_csv(notebook_directory / 'data/pdmH1N1_lib2023_loes.csv')['barcode'].tolist()
-    kikawa2025 = pd.read_csv(notebook_directory / 'data/flu-seqneut-2025-barcode-to-strain_designed.csv')['barcode'].tolist()
-    barcode_index.extend(loes2023)
-    barcode_index.extend(kikawa2023)
-    barcode_index.extend(kikawa2025)
-    return barcode_index, nucleotides
+    # ID input and output directories
+    datadir = notebook_directory / './data/'
+    resultsdir = notebook_directory / './results/'
+    os.makedirs(datadir, exist_ok=True)
+    os.makedirs(resultsdir, exist_ok=True)
+    return (notebook_directory,)
 
 
 @app.cell
-def _():
-    ###### Get flanking sequences ######
-
-    # First 19 amino acids of WSN
-    wsn_upstream_19aa = 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacaca'
-
-    # First 20 amino acids of WSN
-    wsn_upstream_20aa = 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacacaata'
-
-    # H1 endodomain, representing amino acids 521 to 568 (48 amino acids)
-    h1_last_46aa_from_WSN = 'aaattggaatcaatgggagtgtatcagattctggcgatatattctacagtggcaagctccttagtactgctagtttctttaggagcgattagcttttggatgtgctccaacggCtcCCtAcaAtgTCgGatTtgTatTTAATAG'
-
-    # H3 endodomain, representing amino acids 521 to 560 (40 amino acids)
-    h3_endodomain = 'atcaagggagttgagctgaagtcaggatacaaagattggatcctatggatttcctttgccATGtcTtgCttCCtActGtgCgtAgcACtACtAggCttTatTatgtgggcGtgTcaGaaA'
-    # Downstream mutated WSN packaging signal with double stop codon (11 amino acids)
-    wsn_downstream = 'ggCtcCCtAcaAtgTCgGatTtgTatTTAATAG'
-    return (
-        h1_last_46aa_from_WSN,
-        h3_endodomain,
-        wsn_downstream,
-        wsn_upstream_19aa,
-        wsn_upstream_20aa,
-    )
-
-
-@app.cell
-def _(SeqIO, barcode_index, nucleotides, os, pd, random):
-    def design_inserts(subtype, 
+def _(
+    barcode_index,
+    n_barcodes,
+    notebook_directory: "Path",
+    nucleotides,
+    os,
+    pd,
+    random,
+):
+    def design_inserts(library, subtype, 
                        insert_filepath, 
-                       library_nucleotide_sequences,
+                       construct_filepath,
                        upstream_signalpep,
                        ectodomain_start,
                        ectodomain_length,
                        endodomain_sequence,
                        start_codon = "ATGAAG",
+                       special_start_codons = None,
                        append_additional_upstream_sequence = '',
                        append_additional_downstream_sequence = '',
-                       virus_id = 1 # start virus naming at this index
+                       virus_id = 1, # start virus naming at this index
+                       nucleotides = nucleotides
                       ):
 
         # Only design if the ordersheet hasn't been generated
-        if os.path.exists(insert_filepath):
-            print(f"File '{insert_filepath}' exists, reading that file and NOT regenerating barcodes.")
-        else:
-            # Input FASTA file of subtype nucleotide sequences
-            fasta_file = library_nucleotide_sequences
-        
-            # Define the custom start codon to search for
-            start_codon = start_codon
+        if os.path.exists(notebook_directory / construct_filepath):
+            print(f"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.")
     
-            # Define ordersheet name parameters
-            virus_id = virus_id
-    
-            # Initialize empty ordersheet to populate with name, sequence
-            inserts = []
-    
-            # Set the number of barcodes to design for
-            n_barcodes = 2
-        
-            # Open FASTA file and design constructs for each entry
-            with open(fasta_file, "r") as handle:
-        
-                for record in SeqIO.parse(handle, "fasta"):
-                    # Initialize barcode counter
-                    i=1
+        elif not os.path.exists(notebook_directory / construct_filepath): 
+            print(f'Generating new barcodes at {construct_filepath}...')
+            library_strains = pd.read_csv(notebook_directory / insert_filepath, sep='\t') # Input 
+            start_codon = start_codon # Define the custom start codon to search for        
+            virus_id = virus_id # Define ordersheet name parameters
+            inserts = [] # Initialize empty ordersheet to populate with name, sequence
+            subtype_specific_library_strains = library_strains.query(f'subtype=="{subtype}"') # Subtype specific strains
+            if special_start_codons is None: # Get special start codons if they exist
+                special_start_codons = {}
+
+            for index, row in subtype_specific_library_strains.iterrows():  
+                # Design barcode 
+                i=1 # Initialize barcode counter
+                for n in list(range(0,n_barcodes)):
+                    for n in list(range(0,100)): # Try 100 times to make a barcode 
+                        barcode = ''.join(random.choices(nucleotides, k=16))
+                        if barcode[0:2] == 'gg': # Don't use barcodes that start with GG
+                            continue
+                        if barcode in barcode_index: # Don't use barcodes that have already been used in the library
+                            continue
+                        if n == 100:
+                            print('something really rare happened, try resetting barcode_index')
+                        else:
+                            barcode_index.append(barcode)
+                            break
+
+                    # Get HA sequence
+                    record = row['nt_sequence']
+                    # Make a strain name with barcode info
+                    name = row['strain']
+                    name_barcoded = f'{library}_{subtype}_{virus_id}_bc{i}'
+                    i+=1
+                    # Get Genbank ID (and additional mutations) from FASTA header
+                    genbank_id = row['accession_w_aa_muts_added']
                 
-                    # Each strain needs barcodes designed 
-                    for n in list(range(0,n_barcodes)):
-        
-                        # Find the position of the first instance of 'ATGAAG'
-                        start_position = record.seq.find(start_codon)                
-                        assert start_position == -1, f"For {record.id} - no start codon {start_codon} found"
+                    # Find the position of the first instance of 'ATGAAG' or other custom start
+                    codon_to_use = special_start_codons.get(name, start_codon)
+                    start_position = record.find(codon_to_use)
+                    assert start_position != -1, f"For {name} - no start codon {codon_to_use} found"
+                    # start_position = record.find(start_codon)                
+                    # assert start_position != -1, f"For {name} - no start codon {start_codon} found"
+                
+                    # Extract the sequence starting from the found position 
+                    insert_start = start_position + ectodomain_start 
+                    insert_end = start_position + (ectodomain_length) 
+                    ectodomain_insert_seq = record[insert_start:insert_end]                
+                    # Identify the endodomain region (subtype specific)
+                    endodomain = endodomain_sequence
+                
+                    # Insert sequence we need to order is just ectodomain, endodomain, and barcode
+                    insert_seq = ectodomain_insert_seq + endodomain + barcode
 
-                        # Extract the sequence starting from the found position 
-                        insert_start = start_position + ectodomain_start # Insert will start after first 19 amino acids of WSN
-                        insert_end = start_position + (ectodomain_length) # Insert stops at amino acid 521
-                        ectodomain_insert_seq = record.seq[insert_start:insert_end]
-                        ectodomain_insert_translated_seq = ectodomain_insert_seq.translate()                
-                        # Identify the endodomain region (subtype specific)
-                        endodomain = endodomain_sequence
-                                    
-                        # Generate a barcode
-                        for n in list(range(0,100)): # Try 100 times to make a barcode 
-                            barcode = ''.join(random.choices(nucleotides, k=16))
-                            if barcode[0:2] == 'gg': # Don't use barcodes that start with GG
-                                continue
-                            if barcode in barcode_index: # Don't use barcodes that have already been used in the library
-                                continue
-                            if n == 100:
-                                print('something really rare happened, try resetting barcode_index')
-                            else:
-                                barcode_index.append(barcode)
-                                break
-            
-                        # Expected sequence, including fixed upstream WSN signal peptide
-                        expected_seq = upstream_signalpep + ectodomain_insert_seq + endodomain + barcode
-                        # Insert sequence we need to order
-                        # Ectodomain, endodomain, and barcode
-                        insert_seq = ectodomain_insert_seq + endodomain + barcode
+                    # Add upstream and downstream sequences if they exist
+                    insert_seq = (append_additional_upstream_sequence or '') + insert_seq + (append_additional_downstream_sequence or '')
 
-                        # Add upstream sequence
-                        if append_additional_upstream_sequence == '':
-                            pass
-                        else:
-                            insert_seq = append_additional_upstream_sequence + insert_seq
-                        # Add downstream sequence
-                        if append_additional_downstream_sequence == '':
-                            pass
-                        else:
-                            insert_seq = insert_seq + append_additional_downstream_sequence
-            
-                        # Make a strain name with barcode info
-                        name = record.id
-                        name_barcoded = f'{subtype}_{virus_id}_bc{i}'
-                        i+=1
+                    # Add to inserts list
+                    inserts.append([name, genbank_id, name_barcoded, str(insert_seq)])     
 
-                        # Get Genbank ID (and additional mutations) from FASTA header
-                        genbank_id = record.description[len(record.id):].strip('protein identical to ')
-    
-                        # Add to inserts list
-                        inserts.append([name, genbank_id, name_barcoded, str(insert_seq)])     
+                # Add to virus counter
+                virus_id+=1
 
-                    # Add to virus counter
-                    virus_id+=1
-    
-                inserts_df = pd.DataFrame(inserts, columns = ['strain', 'genbank', 'name', 'sequence'])
-                # inserts_df = inserts_df.sort_values(by = 'name').reset_index(drop=True).to_csv(insert_filepath, index=False)
-                inserts_df = inserts_df.to_csv(insert_filepath, index=False)
-        
+            inserts_df = pd.DataFrame(inserts, columns = ['strain', 'genbank', 'name', 'sequence'])
+            # inserts_df = inserts_df.sort_values(by = 'name').reset_index(drop=True).to_csv(insert_filepath, index=False)
+            inserts_df = inserts_df.to_csv(notebook_directory / construct_filepath, index=False) 
+
+            return inserts
 
     return (design_inserts,)
 
 
 @app.cell
-def _(mo):
-    mo.md(
-        r"""
-    ## Design H1 inserts
+def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
+    # Load configuration
+    def load_config():
+        config_path = notebook_directory / "config.yml"
 
-    These sequences should be XXXX nucleotides long
-    """
-    )
+        # If running within Snakemake, it defines a 'snakemake' object
+        if "snakemake" in globals():
+            config_path = snakemake.configfile
+        elif len(sys.argv) > 1:
+            # Allow manual override from command-line argument
+            config_path = sys.argv[1]
+        with open(config_path) as f:
+            config = yaml.safe_load(f)
+        print(f"Loaded config from: {config_path}")
+        return config
+
+    config = load_config()
+
+
+    # Define global variables for insert design from config
+    n_barcodes = config['n_barcodes'] # Set the number of barcodes to design for
+    nucleotides = config['nucleotides']
+
+    # Initialize barcode index (list of barcodes that have been used by a construct already)
+    barcode_index = []
+
+    # Load past barcodes
+    loes2023 = pd.read_csv(notebook_directory / config['loes2023'])['barcode'].tolist()
+    kikawa2023 = pd.read_csv(notebook_directory / config['kikawa2023'])['barcode'].tolist()
+    kikawa2025 = pd.read_csv(notebook_directory / config['kikawa2025'])['barcode'].tolist()
+
+    barcode_index.extend(loes2023)
+    barcode_index.extend(kikawa2023)
+    barcode_index.extend(kikawa2025)
+    return barcode_index, config, n_barcodes, nucleotides
+
+
+@app.cell
+def _(config, design_inserts):
+    # Design all constructs configured in 'orders' key
+    for order in config['orders']:
+
+        design = design_inserts(
+            library = config['orders'][order]['library'],
+            subtype = config['orders'][order]['subtype'],
+            insert_filepath = config['orders'][order]['input_file'],
+            construct_filepath = config['orders'][order]['output_file'],
+            upstream_signalpep = config['orders'][order]['upstream_signalpep'],
+            ectodomain_start = config['orders'][order]['ectodomain_start'],
+            ectodomain_length = config['orders'][order]['ectodomain_length'],
+            endodomain_sequence = config['orders'][order]['endodomain_sequence'],
+            append_additional_upstream_sequence = config['orders'][order]['append_additional_upstream_sequence'],
+            special_start_codons = config['special_start_codons']
+        )
+
+        print(f'There are inserts to order at {config['orders'][order]['output_file']}')
+
     return
 
 
 @app.cell
-def _(
-    design_inserts,
-    h1_last_46aa_from_WSN,
-    ordersheetsdir,
-    os,
-    pd,
-    wsn_upstream_20aa,
-):
-    design_inserts(
-        subtype = 'H1N1',
-        insert_filepath = os.path.join(ordersheetsdir, 'h1_inserts.csv'),
-        library_nucleotide_sequences = '../results/strains_for_library/h1_nt_seqs_for_library.fasta',
-        upstream_signalpep = wsn_upstream_20aa,
-        ectodomain_start = 20*3,
-        ectodomain_length = 520*3,
-        endodomain_sequence = h1_last_46aa_from_WSN,
-        append_additional_upstream_sequence = 'catttgtagctacagatgcagacaca' + 'ata', # Overlap with WSN signal peptide
-        append_additional_downstream_sequence = 'AGATCGGAAGAGCGTCGTGT', # Overlap with Illumina R1 priming sequence             
-    )
+def _(notebook_directory: "Path", pd):
+    library_strains_df = pd.read_csv(notebook_directory / "../initial_design/results/aggregated_library_strains/library_strains.tsv", sep='\t')
 
-    h1_inserts_df = pd.read_csv(os.path.join(ordersheetsdir, 'h1_inserts.csv'))
-    h1_inserts_df
-    return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""## Design H3 inserts""")
-    return
-
-
-@app.cell
-def _(
-    design_inserts,
-    h3_endodomain,
-    ordersheetsdir,
-    os,
-    pd,
-    wsn_downstream,
-    wsn_upstream_19aa,
-):
-    design_inserts(
-        subtype = 'H3N2',
-        insert_filepath = os.path.join(ordersheetsdir, 'h3_inserts.csv'),
-        library_nucleotide_sequences = '../results/strains_for_library/h3_nt_seqs_for_library.fasta',
-        upstream_signalpep = wsn_upstream_19aa,
-        ectodomain_start = 16*3,
-        ectodomain_length = 517*3,
-        endodomain_sequence = h3_endodomain + wsn_downstream,
-        append_additional_upstream_sequence = 'catttgtagctacagatgcagacaca', # Overlap with WSN signal peptide
-        append_additional_downstream_sequence = 'AGATCGGAAGAGCGTCGTGT', # Overlap with Illumina R1 priming sequence                    
-    )
-
-    h3_inserts_df = pd.read_csv(os.path.join(ordersheetsdir, 'h3_inserts.csv'))
-    h3_inserts_df
+    library_strains_df.query('strain == "A/NewSouthWales/2525913630/2025_H1N1"')
     return
 
 

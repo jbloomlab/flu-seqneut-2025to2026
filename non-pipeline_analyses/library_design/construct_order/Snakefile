@@ -1,0 +1,23 @@
+# Snakefile
+configfile: "config.yml"
+
+# Only use the keys under 'orders'
+ORDERS = list(config["orders"].keys())
+
+rule all:
+    input:
+        expand("{output}", output=[config["orders"][o]["output_file"] for o in ORDERS])
+
+rule run_construct_order_notebook:
+    input:
+        lambda wildcards: config["orders"][wildcards.order]["input_file"],
+        "config.yml"
+    output:
+        lambda wildcards: config["orders"][wildcards.order]["output_file"]
+    params:
+        order=lambda wildcards: wildcards.order,
+    shell:
+        """
+        echo "Running {params.order}"
+        marimo run construct_order.py {input} {output} {params.order}
+        """
