@@ -1,0 +1,40 @@
+###### Configure insert design ######
+start_codon: "ATGAAG"
+special_start_codons:
+  'A/NewSouthWales/2525913630/2025_H1N1': "ATGGAG"
+
+###### Past barcodes to avoid ######
+past_barcodes_to_avoid:
+  kikawa2023: 'data/2023_H3N2_Kikawa.csv'
+  loes2023: 'data/pdmH1N1_lib2023_loes.csv'
+  kikawa2025: 'data/flu-seqneut-2025-barcode-to-strain_designed.csv'
+  loes2025: 'data/DRIVE_AL_2025_viral_strain_to_barcode.csv'
+
+###### New barcode generation ######
+nucleotides: ['a', 'c', 'g', 't']
+n_barcodes: 2 # number of barcodes to generate per strain
+
+###### Order-specific configs ######
+orders:
+  H3-order1:
+    library: 'flu-seqneut-25to26'
+    subtype: "H3N2"
+    input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
+    output_file: "results/H3_order1.csv"
+    append_additional_upstream_sequence: ''
+    upstream_signalpep: 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacaca' # WSN upstream 19 amino acids
+    ectodomain_start: 48 # 16x3, start after first 16 amino acids
+    ectodomain_length: 1551 # 517x3, continue for 517 amino acids
+    endodomain_sequence: 'atcaagggagttgagctgaagtcaggatacaaagattggatcctatggatttcctttgccATGtcTtgCttCCtActGtgCgtAgcACtACtAggCttTatTatgtgggcGtgTcaGaaAggCtcCCtAcaAtgTCgGatTtgTatTTAATAG' # H3 endodomain and WSN CT
+    
+  H1-order1:
+    library: 'flu-seqneut-25to26'
+    subtype: "H1N1"
+    input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
+    output_file: "results/H1_order1.csv"
+    append_additional_upstream_sequence: 'ata' # 20th amino acid of upstream WSN signal peptide
+    upstream_signalpep: 'atgaaggcaaaactactggtcctgttatatgcatttgtagctacagatgcagacacaata' # WSN upstream 20 amino acids
+    ectodomain_start: 60 # 20x3, start after first 20 amino acids
+    ectodomain_length: 1560 # 520x3, continue for 520 amino acids
+    endodomain_sequence: 'aaattggaatcaatgggagtgtatcagattctggcgatatattctacagtggcaagctccttagtactgctagtttctttaggagcgattagcttttggatgtgctccaacggCtcCCtAcaAtgTCgGatTtgTatTTAATAG' # WSN endodomain and CT
+    
