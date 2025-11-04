@@ -171,10 +171,9 @@ def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
 
 
 @app.cell
-def _(config, design_inserts, order):
+def _(config, design_inserts):
     # Design all constructs configured in 'orders' key
-    # for order in config['orders']:
-    if "order" in globals():
+    for order in config['orders']:
 
         curr_order = config['orders'][order]
 
@@ -193,6 +192,11 @@ def _(config, design_inserts, order):
         )
 
         print(f'There are inserts to order at {curr_order['output_file']}')
+    return
+
+
+@app.cell
+def _():
     return
 
 
