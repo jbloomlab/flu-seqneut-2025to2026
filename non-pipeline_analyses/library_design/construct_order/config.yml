@@ -8,6 +8,7 @@ past_barcodes_to_avoid:
   kikawa2023: 'data/2023_H3N2_Kikawa.csv'
   loes2023: 'data/pdmH1N1_lib2023_loes.csv'
   kikawa2025: 'data/flu-seqneut-2025-barcode-to-strain_designed.csv'
+  loes2025: 'data/DRIVE_AL_2025_viral_strain_to_barcode.csv'
 
 ###### New barcode generation ######
 nucleotides: ['a', 'c', 'g', 't']
