@@ -27,6 +27,7 @@ def _():
     import Bio
     from Bio import SeqIO
     import random
+    random.seed(42) # random number generator seed value
     return Path, mo, os, pd, random, sys, yaml
 
 
