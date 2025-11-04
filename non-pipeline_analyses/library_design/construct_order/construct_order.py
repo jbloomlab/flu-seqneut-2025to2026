@@ -44,49 +44,6 @@ def _(Path, mo, os):
 
 
 @app.cell
-def _(notebook_directory: "Path", snakemake, sys, yaml):
-    # Load configuration
-    def load_config():
-        config_path = notebook_directory / "config.yml"
-
-        # If running within Snakemake, it defines a 'snakemake' object
-        if "snakemake" in globals():
-            config_path = snakemake.configfile
-        elif len(sys.argv) > 1:
-            # Allow manual override from command-line argument
-            config_path = sys.argv[1]
-        with open(config_path) as f:
-            config = yaml.safe_load(f)
-        print(f"Loaded config from: {config_path}")
-        return config
-
-    config = load_config()
-    return (config,)
-
-
-@app.cell
-def _(config, notebook_directory: "Path", pd):
-    # Get barcode configuration
-
-    # Define global variables for insert design from config
-    n_barcodes = config['n_barcodes'] # Set the number of barcodes to design for
-    nucleotides = config['nucleotides']
-
-    # Initialize barcode index (list of barcodes that have been used by a construct already)
-    barcode_index = []
-
-    # Load past barcodes
-    loes2023 = pd.read_csv(notebook_directory / config['loes2023'])['barcode'].tolist()
-    kikawa2023 = pd.read_csv(notebook_directory / config['kikawa2023'])['barcode'].tolist()
-    kikawa2025 = pd.read_csv(notebook_directory / config['kikawa2025'])['barcode'].tolist()
-
-    barcode_index.extend(loes2023)
-    barcode_index.extend(kikawa2023)
-    barcode_index.extend(kikawa2025)
-    return barcode_index, n_barcodes, nucleotides
-
-
-@app.cell
 def _(
     barcode_index,
     n_barcodes,
@@ -182,6 +139,38 @@ def _(
 
 
 @app.cell
+def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
+    # Load configuration
+    def load_config():
+        config_path = notebook_directory / "config.yml"
+
+        # If running within Snakemake, it defines a 'snakemake' object
+        if "snakemake" in globals():
+            config_path = snakemake.configfile
+        elif len(sys.argv) > 1:
+            # Allow manual override from command-line argument
+            config_path = sys.argv[1]
+        with open(config_path) as f:
+            config = yaml.safe_load(f)
+        print(f"Loaded config from: {config_path}")
+        return config
+
+    config = load_config()
+
+    # Get barcode configuration
+    # Define global variables for insert design from config
+    n_barcodes = config['n_barcodes'] # Set the number of barcodes to design for
+    nucleotides = config['nucleotides']
+
+    # Load past barcodes from config
+    barcode_index = []
+    for key in config['past_barcodes_to_avoid']:
+        key_barcodes = pd.read_csv(notebook_directory / config['past_barcodes_to_avoid'][key])['barcode'].tolist()
+        barcode_index.extend(key_barcodes)
+    return barcode_index, config, n_barcodes, nucleotides
+
+
+@app.cell
 def _(config, design_inserts, order):
     # Design all constructs configured in 'orders' key
     # for order in config['orders']:
@@ -204,21 +193,6 @@ def _(config, design_inserts, order):
         )
 
         print(f'There are inserts to order at {curr_order['output_file']}')
-    return
-
-
-@app.cell
-def _():
-    return
-
-
-@app.cell
-def _():
-    return
-
-
-@app.cell
-def _():
     return
 
 

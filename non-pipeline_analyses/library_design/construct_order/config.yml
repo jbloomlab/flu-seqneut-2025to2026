@@ -4,9 +4,10 @@ special_start_codons:
   'A/NewSouthWales/2525913630/2025_H1N1': "ATGGAG"
 
 ###### Past barcodes to avoid ######
-kikawa2023: 'data/2023_H3N2_Kikawa.csv'
-loes2023: 'data/pdmH1N1_lib2023_loes.csv'
-kikawa2025: 'data/flu-seqneut-2025-barcode-to-strain_designed.csv'
+past_barcodes_to_avoid:
+  kikawa2023: 'data/2023_H3N2_Kikawa.csv'
+  loes2023: 'data/pdmH1N1_lib2023_loes.csv'
+  kikawa2025: 'data/flu-seqneut-2025-barcode-to-strain_designed.csv'
 
 ###### New barcode generation ######
 nucleotides: ['a', 'c', 'g', 't']
