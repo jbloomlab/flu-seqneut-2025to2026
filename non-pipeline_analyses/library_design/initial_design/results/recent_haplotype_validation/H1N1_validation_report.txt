@@ -17,7 +17,7 @@ Amino Acid Validity Check:
   Total sequences (all): 2,798
 
 Haplotype Selection:
-  Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection', 'Jesse_Bloom_addition']
+  Selection columns: ['John_Huddleston_selection', 'Sam_Turner_selection', 'Jesse_Bloom_addition', 'Caroline_Kikawa_addition']
   Override exclusions: 2 haplotype(s) specified
   Excluded via override: 2 haplotype(s)
     - D.3.1:E283K,K302E (strain: A/Aragon/2049/2025, count: 3)
