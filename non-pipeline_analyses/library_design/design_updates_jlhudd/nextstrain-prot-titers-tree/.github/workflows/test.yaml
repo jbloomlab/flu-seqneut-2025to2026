@@ -1,0 +1,67 @@
+name: Run tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: checkout
+        uses: actions/checkout@v5
+        with:
+          lfs: true
+
+      - name: build conda environment
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          activate-environment: nextstrain-prot-titers-tree
+          environment-file: environment.yml
+          auto-activate-base: false
+          auto-update-conda: true
+          channel-priority: strict
+
+      - name: lint with ruff
+        # NOTE: must specify the shell so that conda init updates bashrc see:
+        #      https://github.com/conda-incubator/setup-miniconda#IMPORTANT
+        shell: bash -el {0}
+        run: ruff check .
+
+      - name: check code format with black
+        shell: bash -el {0}
+        run: black --check .
+
+      - name: check snakemake files format with snakefmt
+        shell: bash -el {0}
+        run: snakefmt --check .
+
+      - name: lint snakemake files with snakemake --lint
+        shell: bash -el {0}
+        run: snakemake --configfile example_config.yaml --lint
+
+      - name: run pipeline on example
+        shell: bash -el {0}
+        run: >
+          rm -rf auspice example_results
+          && snakemake --software-deployment-method conda -j 1 --configfile example_config.yaml
+      
+      - name: run pipeline on example without titers
+        shell: bash -el {0}
+        run: >
+          rm -rf auspice example_results
+          && snakemake --software-deployment-method conda -j 1 --configfile example_config.yaml --config titers=null
+
+      - name: upload results in case of error
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: example_results
+          path: example_results
+          retention-days: 7
