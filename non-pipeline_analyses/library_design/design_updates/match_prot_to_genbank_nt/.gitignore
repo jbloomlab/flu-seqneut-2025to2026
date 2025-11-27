@@ -1,0 +1,6 @@
+.*
+!.git*
+
+example_outdir/*
+!example_outdir/match_prot_to_genbank_nt.csv
+

@@ -1,0 +1,86 @@
+"""Snakemake file that gets additional strains to add."""
+
+import pandas as pd
+
+configfile: "config.yaml"
+
+subtypes = config["subtypes"]
+
+rule all:
+    input:
+        "to_add/strains_to_add.tsv",
+
+
+rule to_add:
+    input:
+        expand(
+            "results/curated_library/{subtype}_nonselected_haplotypes.tsv",
+            subtype=subtypes,
+        ),
+        expand(
+            "data/haplotype_strains_{subtype}.tsv",
+            subtype=subtypes,
+        ),
+        expand(
+            "results/curated_library/{subtype}_selected_haplotypes.tsv",
+            subtype=subtypes,
+        ),
+        expand(
+            "results/site_annotations/{subtype}_site_annotations.tsv",
+            subtype=subtypes,
+        ),
+        marimo_script="select_additional_strains.py",
+    output:
+        tsv="to_add/haplotypes_to_add.tsv",
+        fasta="to_add/haplotypes_to_add.fa",
+    conda:
+        "environment.yml"
+    shell:
+        "python {input.marimo_script}"
+
+
+rule match_genbank:
+    input:
+        query_prots="to_add/haplotypes_to_add.fa",
+        script="match_prot_to_genbank_nt/match_prot_to_genbank_nt.py"
+    output:
+        csv="to_add/genbank_match/match_prot_to_genbank_nt.csv"
+    params:
+        taxon="Influenza A virus",
+        outdir="to_add/genbank_match",
+    threads: 8
+    conda:
+        "match_prot_to_genbank_nt/environment.yaml"
+    shell:
+        """
+        python {input.script} \
+            --query-prots {input.query_prots} \
+            --taxon "{params.taxon}" \
+            --outdir {params.outdir} \
+            --existing-outdir delete \
+            --threads {threads} 
+        """
+
+rule add_nt_sequence:
+    input:
+        genbank_csv="to_add/genbank_match/match_prot_to_genbank_nt.csv",
+        haplotype_tsv="to_add/haplotypes_to_add.tsv",
+    output:
+        tsv="to_add/strains_to_add.tsv",
+    run:
+        genbank = pd.read_csv(input.genbank_csv)
+        haplotypes = pd.read_csv(input.haplotype_tsv, sep="\t")
+        assert len(genbank) == len(haplotypes)
+        assert genbank["nt_sequence"].notnull().all()
+        merged = (
+            haplotypes
+            .rename(columns={"representative_strain": "strain"})
+            [["subtype", "strain", "count", "latest_sequence", "closest_library_strain", "diffs_from_closest_library_strain"]]
+            .merge(
+                genbank[["strain", "accession_w_aa_muts_added", "prot_sequence", "nt_sequence"]],
+                on="strain",
+                validate="one_to_one",
+            )
+        )
+        assert len(merged) == len(haplotypes) == len(genbank)
+        merged.to_csv(output.tsv, index=False, sep="\t")
