@@ -1,4 +1,4 @@
-# Update to library design
+# Update to library design suggested by Jesse Bloom, Nov-26-2025
 This subdirectory contains a Snakemake pipeline for checking if we need updates to the initial library design described in [../initial_design](../initial_design).
 It does this by using the latest sequence data to see if there are any new strains in current sequencing data not well covered in that initial design.
 
