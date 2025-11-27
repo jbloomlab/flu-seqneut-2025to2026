@@ -1,0 +1,11 @@
+Validation complete:
+  Sequence length: 566
+  Valid haplotypes: 555/601 (92.3%)
+  Invalid haplotypes: 46/601 (7.7%)
+  Selected haplotypes: 4/601 (0.7%)
+  Total sequences (valid): 2,341
+  Total sequences (selected): 1,186
+  Report: results/recent_haplotype_validation/H3N2_validation_report.txt
+  Scatter plot: results/recent_haplotype_validation/H3N2_count_scatter.pdf
+  Valid haplotypes TSV: results/recent_haplotype_validation/H3N2_valid_haplotypes.tsv
+  Invalid haplotypes TSV: results/recent_haplotype_validation/H3N2_invalid_haplotypes.tsv

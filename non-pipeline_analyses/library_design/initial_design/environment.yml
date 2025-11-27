@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - snakemake=9.13
-  - pandas=2.3
+  - marimo=0.18
   - matplotlib=3.10
+  - pandas=2.3
+  - snakemake=9.13

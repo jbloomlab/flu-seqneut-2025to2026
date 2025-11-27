@@ -1,0 +1,73 @@
+# Configuration file for analysis
+
+# subtypes to analyze
+subtypes: [H3N2, H1N1]
+
+# TSVs giving recent haplotypes of HA proteins. Must have following columns:
+#  - count: recent sequence count for haplotype
+#  - derived_haplotype: a name given to the derived haplotype usually in terms of subclade + mutations
+#  - representative_strain: name of strain representative of haplotype
+#  - representative_strain_ha_sequence: HA protein sequence of haplotype (must be full-length)
+#  - all columns in `select_recent_haplotype_cols`
+#  - additional columns are allowed but not used by pipeline here
+recent_haplotypes:
+  H3N2: data/recent_H3N2_haplotypes.tsv
+  H1N1: data/recent_H1N1_haplotypes.tsv
+
+# select any recent haplotypes where any of these columns evaluate to True
+select_recent_haplotype_cols: []
+
+# Override selected haplotypes with manual exclusions. These should be the names
+# given in the derived_haplotype column.
+override_select_recent_haplotypes: {H3N2: [], H1N1: []}
+
+# For any additional haplotypes we want to add to library that are not part of `recent_haplotypes`,
+# specify list of TSV files. These files must have columns `representative_strain`,
+# `derived_haplotype` (can just be an arbitrary name if you want),
+# and `representative_strain_ha_sequence`
+additional_haplotypes:
+  H3N2:
+    - ../initial_design/results/curated_library/H3N2_selected_haplotypes.tsv
+  H1N1:
+    - ../initial_design/results/curated_library/H1N1_selected_haplotypes.tsv
+
+# GFF files interconverting sequential and HA1 / HA2 numbering
+gffs:
+  H3N2: https://raw.githubusercontent.com/nextstrain/seasonal-flu/refs/heads/master/config/h3n2/ha/genemap.gff
+  H1N1: https://raw.githubusercontent.com/nextstrain/seasonal-flu/refs/heads/master/config/h1n1pdm/ha/genemap.gff
+
+# JSONs defining the HA epitope sites
+epitope_sites:
+  H3N2:
+    Wolf: https://raw.githubusercontent.com/nextstrain/seasonal-flu/refs/heads/master/config/distance_maps/h3n2/ha/wolf.json  # https://doi.org/10.1186/1745-6150-1-34
+    Koel: https://raw.githubusercontent.com/nextstrain/seasonal-flu/refs/heads/master/config/distance_maps/h3n2/ha/koel.json  # https://doi.org/10.1126/science.1244730
+  H1N1:
+    Caton: https://raw.githubusercontent.com/nextstrain/seasonal-flu/refs/heads/master/config/distance_maps/h1n1pdm/ha/canton.json  # https://doi.org/10.1016/0092-8674(82)90135-0
+
+# For the protein-based nextstrain trees, we enable coloring of the tree by these columns defined
+# in the recent haplotypes TSVs. See https://github.com/jbloomlab/nextstrain-prot-titers-tree
+# for documentation of meaning of configuration.
+nextstrain_tree:
+  H3N2:
+    outgroup: data/H3N2_outgroup.fa
+    color_by_metadata:
+      selected_haplotype: {}
+      hamming_distance_nearest_library_strain: {scale_type: viridis_linear}
+      Koel_epitope_distance: {scale_type: viridis_linear}
+      Wolf_epitope_distance: {scale_type: viridis_linear}
+      count: {scale_type: viridis_log}
+      days_since_latest_sequence: {scale_type: viridis_linear}
+      median_ga: {scale_type: viridis_linear}
+    display_defaults: {color_by: selected_haplotype, distance_measure: div, branch_label: aa}
+    addtl_export_args: {title: H3N2 HAs selected for library}
+  H1N1:
+    outgroup: data/H1N1_outgroup.fa
+    color_by_metadata:
+      selected_haplotype: {}
+      hamming_distance_nearest_library_strain: {scale_type: viridis_linear}
+      Caton_epitope_distance: {scale_type: viridis_linear}
+      count: {scale_type: viridis_log}
+      days_since_latest_sequence: {scale_type: viridis_linear}
+      median_ga: {scale_type: viridis_linear}
+    display_defaults: {color_by: selected_haplotype, distance_measure: div, branch_label: aa}
+    addtl_export_args: {title: H1N1 HAs selected for library}

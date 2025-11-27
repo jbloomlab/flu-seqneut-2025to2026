@@ -1,0 +1,6 @@
+.*
+!.git*
+_*
+*.out
+
+example_results

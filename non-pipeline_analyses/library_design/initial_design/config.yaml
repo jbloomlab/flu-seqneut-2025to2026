@@ -8,7 +8,7 @@ subtypes: [H3N2, H1N1]
 #  - derived_haplotype: a name given to the derived haplotype usually in terms of subclade + mutations
 #  - representative_strain: name of strain representative of haplotype
 #  - representative_strain_ha_sequence: HA protein sequence of haplotype (must be full-length)
-#  - all columns in `keep_recent_haplotype_cols`
+#  - all columns in `select_recent_haplotype_cols`
 #  - additional columns are allowed but not used by pipeline here
 recent_haplotypes:
   H3N2: data/2025-NH-VCM-neutralization-library-strain-selection-H3N2.tsv

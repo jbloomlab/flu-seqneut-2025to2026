@@ -1,0 +1,16 @@
+name: nextstrain-prot-titers-tree
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - black-jupyter
+  - jupyterlab
+  - augur=31.4.0
+  - pandas=2.3
+  - pyarrow
+  - python=3.13
+  - snakefmt
+  - snakemake=9.11
+  - ruff
