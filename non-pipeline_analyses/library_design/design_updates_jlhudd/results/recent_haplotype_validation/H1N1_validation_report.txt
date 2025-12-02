@@ -1,0 +1,38 @@
+HA Sequence Validation Report
+============================================================
+
+Input file: data/H1N1_haplotypes.tsv
+
+Sequence Length Check:
+  All sequences have length: 566
+  ✓ All sequences are the same length (properly aligned)
+
+Amino Acid Validity Check:
+  Total haplotypes: 567
+  Haplotypes with valid amino acids only: 545 (96.1%)
+  Haplotypes with invalid characters: 22 (3.9%)
+
+  Total sequences (valid haplotypes): 1,190
+  Total sequences (invalid haplotypes): 120
+  Total sequences (all): 1,310
+
+Haplotype Selection:
+  Selection columns: ['JohnHuddleston_selections', 'JesseBloom_selections']
+  Selected haplotypes: 3 (0.5%)
+  Total sequences (selected haplotypes): 18
+  ✓ All selected haplotypes have valid sequences
+
+  Invalid characters found: ['-', 'X']
+
+  Examples of haplotypes with invalid characters:
+    D.3.1:R113K,A139D,E283K: contains ['-']
+    D.3.1:I267V: contains ['-']
+    D.3.1:I5V,R113K,A139D,E283K,K302E: contains ['X']
+    D.3.1:S157L,A261V: contains ['X']
+    D.3.1:A139D: contains ['X']
+
+Sequence Count Distribution:
+  Total sequences represented: 1310
+  Mean sequences per haplotype: 2.3
+  Median sequences per haplotype: 1
+  Max sequences for a haplotype: 83

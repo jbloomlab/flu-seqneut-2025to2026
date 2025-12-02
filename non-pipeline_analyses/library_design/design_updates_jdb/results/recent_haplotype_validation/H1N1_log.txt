@@ -1,0 +1,11 @@
+Validation complete:
+  Sequence length: 566
+  Valid haplotypes: 335/389 (86.1%)
+  Invalid haplotypes: 54/389 (13.9%)
+  Selected haplotypes: 0/389 (0.0%)
+  Total sequences (valid): 1,273
+  Total sequences (selected): 0
+  Report: results/recent_haplotype_validation/H1N1_validation_report.txt
+  Scatter plot: results/recent_haplotype_validation/H1N1_count_scatter.pdf
+  Valid haplotypes TSV: results/recent_haplotype_validation/H1N1_valid_haplotypes.tsv
+  Invalid haplotypes TSV: results/recent_haplotype_validation/H1N1_invalid_haplotypes.tsv
