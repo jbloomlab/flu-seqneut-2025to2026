@@ -20,6 +20,7 @@ orders:
   H3-order1:
     library: 'flu-seqneut-25to26'
     subtype: "H3N2"
+    virus_id: 1 # Starting index for virus alias
     input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
     output_file: "results/H3_order1.csv"
     append_additional_upstream_sequence: ''
@@ -30,6 +31,7 @@ orders:
   H1-order1:
     library: 'flu-seqneut-25to26'
     subtype: "H1N1"
+    virus_id: 1 # Starting index for virus alias
     input_file: "../initial_design/results/aggregated_library_strains/library_strains.tsv"
     output_file: "results/H1_order1.csv"
     append_additional_upstream_sequence: 'ata' # 20th amino acid of upstream WSN signal peptide
@@ -40,12 +42,13 @@ orders:
   H3-order2:
     library: 'flu-seqneut-25to26'
     subtype: "H3N2"
+    virus_id: 55 # Starting index for virus alias
     input_file: "../design_updates_jlhudd/strains_to_add.tsv"
     output_file: "results/H3_order2.csv"
     append_additional_upstream_sequence: ''
     ectodomain_start: 48 # 16x3, start after first 16 amino acids
     ectodomain_length: 1551 # 517x3, continue for 517 amino acids
     endodomain_sequence: 'atcaagggagttgagctgaagtcaggatacaaagattggatcctatggatttcctttgccATGtcTtgCttCCtActGtgCgtAgcACtACtAggCttTatTatgtgggcGtgTcaGaaAggCtcCCtAcaAtgTCgGatTtgTatTTAATAG' # H3 endodomain and WSN CT
-
+    
 ###### Final barcode-to-strain output file ######
 barcode_to_strain: 'flu-seqneut-2025to2026-barcode-to-strain-designed.csv'
