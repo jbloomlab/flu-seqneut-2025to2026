@@ -57,7 +57,6 @@ def _(
     def design_inserts(library, subtype, 
                        insert_filepath, 
                        construct_filepath,
-                       upstream_signalpep,
                        ectodomain_start,
                        ectodomain_length,
                        endodomain_sequence,
@@ -172,8 +171,10 @@ def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
 
 
 @app.cell
-def _(config, design_inserts):
+def _(config, design_inserts, notebook_directory: "Path", pd):
     # Design all constructs configured in 'orders' key
+    order_outputs = []
+
     for order in config['orders']:
 
         curr_order = config['orders'][order]
@@ -183,7 +184,6 @@ def _(config, design_inserts):
             subtype = curr_order['subtype'],
             insert_filepath = curr_order['input_file'],
             construct_filepath = curr_order['output_file'],
-            upstream_signalpep = curr_order['upstream_signalpep'],
             ectodomain_start = curr_order['ectodomain_start'],
             ectodomain_length = curr_order['ectodomain_length'],
             endodomain_sequence = curr_order['endodomain_sequence'],
@@ -193,6 +193,16 @@ def _(config, design_inserts):
         )
 
         print(f'There are inserts to order at {curr_order['output_file']}')
+
+        # Add TSV to list of order outputs
+        order_outputs.append(curr_order['output_file'])
+
+    # Add barcode-to-strain output file in top-level directory that aggregatess across all ordersheets in output
+    output_dir = notebook_directory / f'./{config['barcode_to_strain']}'
+    order_outputs_df = pd.concat([pd.read_csv(f'{notebook_directory}/{f}', sep=',') for f in order_outputs], ignore_index=True)
+    order_outputs_df['barcode'] = order_outputs_df['sequence'].str[-16:]
+    order_outputs_df.to_csv(output_dir)
+    print(f'\nSaved a final barcoce-to-strain map of all designed constructs to {output_dir}, use that for seqneut-pipeline input!')
     return
 
 
