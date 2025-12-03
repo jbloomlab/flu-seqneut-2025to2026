@@ -28,7 +28,7 @@ def _():
     from Bio import SeqIO
     import random
     random.seed(42) # random number generator seed value
-    return Path, mo, os, pd, random, sys, yaml
+    return Path, mo, os, pd, sys, yaml
 
 
 @app.cell
@@ -44,20 +44,11 @@ def _(Path, mo, os):
     return (notebook_directory,)
 
 
-@app.cell
-def _(
-    barcode_index,
-    n_barcodes,
-    notebook_directory: "Path",
-    nucleotides,
-    os,
-    pd,
-    random,
-):
+app._unparsable_cell(
+    r"""
     def design_inserts(library, subtype, 
                        insert_filepath, 
                        construct_filepath,
-                       upstream_signalpep,
                        ectodomain_start,
                        ectodomain_length,
                        endodomain_sequence,
@@ -65,13 +56,13 @@ def _(
                        special_start_codons = None,
                        append_additional_upstream_sequence = '',
                        append_additional_downstream_sequence = '',
-                       virus_id = 1, # start virus naming at this index
+                       virus_id, # start virus naming at this index
                        nucleotides = nucleotides
                       ):
 
         # Only design if the ordersheet hasn't been generated
         if os.path.exists(notebook_directory / construct_filepath):
-            print(f"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.")
+            print(f\"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.\")
 
         elif not os.path.exists(notebook_directory / construct_filepath): 
             print(f'Generating new barcodes at {construct_filepath}...')
@@ -79,7 +70,7 @@ def _(
             start_codon = start_codon # Define the custom start codon to search for        
             virus_id = virus_id # Define ordersheet name parameters
             inserts = [] # Initialize empty ordersheet to populate with name, sequence
-            subtype_specific_library_strains = library_strains.query(f'subtype=="{subtype}"') # Subtype specific strains
+            subtype_specific_library_strains = library_strains.query(f'subtype==\"{subtype}\"') # Subtype specific strains
             if special_start_codons is None: # Get special start codons if they exist
                 special_start_codons = {}
 
@@ -111,7 +102,7 @@ def _(
                     # Find the position of the first instance of 'ATGAAG' or other custom start
                     codon_to_use = special_start_codons.get(name, start_codon)
                     start_position = record.find(codon_to_use)
-                    assert start_position != -1, f"For {name} - no start codon {codon_to_use} found"
+                    assert start_position != -1, f\"For {name} - no start codon {codon_to_use} found\"
 
                     # Extract the sequence starting from the found position 
                     insert_start = start_position + ectodomain_start 
@@ -136,7 +127,9 @@ def _(
             inserts_df = inserts_df.to_csv(notebook_directory / construct_filepath, index=False) 
 
             return inserts
-    return (design_inserts,)
+    """,
+    name="_"
+)
 
 
 @app.cell
@@ -168,12 +161,14 @@ def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
     for key in config['past_barcodes_to_avoid']:
         key_barcodes = pd.read_csv(notebook_directory / config['past_barcodes_to_avoid'][key])['barcode'].tolist()
         barcode_index.extend(key_barcodes)
-    return barcode_index, config, n_barcodes, nucleotides
+    return (config,)
 
 
 @app.cell
-def _(config, design_inserts):
+def _(config, design_inserts, notebook_directory: "Path", pd):
     # Design all constructs configured in 'orders' key
+    order_outputs = []
+
     for order in config['orders']:
 
         curr_order = config['orders'][order]
@@ -181,9 +176,9 @@ def _(config, design_inserts):
         design = design_inserts(
             library = curr_order['library'],
             subtype = curr_order['subtype'],
+            virus_id = curr_order['virus_id'],
             insert_filepath = curr_order['input_file'],
             construct_filepath = curr_order['output_file'],
-            upstream_signalpep = curr_order['upstream_signalpep'],
             ectodomain_start = curr_order['ectodomain_start'],
             ectodomain_length = curr_order['ectodomain_length'],
             endodomain_sequence = curr_order['endodomain_sequence'],
@@ -193,6 +188,16 @@ def _(config, design_inserts):
         )
 
         print(f'There are inserts to order at {curr_order['output_file']}')
+
+        # Add TSV to list of order outputs
+        order_outputs.append(curr_order['output_file'])
+
+    # Add barcode-to-strain output file in top-level directory that aggregatess across all ordersheets in output
+    output_dir = notebook_directory / f'./{config['barcode_to_strain']}'
+    order_outputs_df = pd.concat([pd.read_csv(f'{notebook_directory}/{f}', sep=',') for f in order_outputs], ignore_index=True)
+    order_outputs_df['barcode'] = order_outputs_df['sequence'].str[-16:]
+    order_outputs_df.to_csv(output_dir)
+    print(f'\nSaved a final barcoce-to-strain map of all designed constructs to {output_dir}, use that for seqneut-pipeline input!')
     return
 
 
