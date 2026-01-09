@@ -1,0 +1,17 @@
+﻿well,serum,dilution_factor,replicate,fastq
+A1,none,4,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_4_rep1_S1_R1_001.fastq.gz
+B1,none,8,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_8_rep1_S2_R1_001.fastq.gz
+C1,none,16,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_16_rep1_S3_R1_001.fastq.gz
+D1,none,32,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_32_rep1_S4_R1_001.fastq.gz
+E1,none,64,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_64_rep1_S5_R1_001.fastq.gz
+F1,none,128,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_128_rep1_S6_R1_001.fastq.gz
+G1,none,256,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_256_rep1_S7_R1_001.fastq.gz
+H1,none,512,1,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_512_rep1_S8_R1_001.fastq.gz
+A2,none,4,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_4_rep_2_S9_R1_001.fastq.gz
+B2,none,8,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_8_rep_2_S10_R1_001.fastq.gz
+C2,none,16,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_16_rep_2_S11_R1_001.fastq.gz
+D2,none,32,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_32_rep_2_S12_R1_001.fastq.gz
+E2,none,64,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_64_rep_2_S13_R1_001.fastq.gz
+F2,none,128,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_128_rep_2_S14_R1_001.fastq.gz
+G2,none,256,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_256_rep_2_S15_R1_001.fastq.gz
+H2,none,512,2,/shared/ngs/illumina/bloom_lab/260107_VH00319_595_AAH5VWMM5/Unaligned/Project_bloom_lab/equal_vol_pool_dilution_512_rep_2_S16_R1_001.fastq.gz
