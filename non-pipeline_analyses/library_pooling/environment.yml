@@ -1,0 +1,15 @@
+name: library_pooling
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - jupyterlab
+  - python>=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - altair=5.5
+  - ruamel.yaml
+  - pip
+  - pip:
+    - altair
