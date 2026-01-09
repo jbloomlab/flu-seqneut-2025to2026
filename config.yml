@@ -1,0 +1,83 @@
+# === Analysis configuration file ======================================================
+
+__use_yte__: true  # use YAML Template Engine formatting
+
+# --- Configuration for `seqneut-pipeline` ----------------------------------------------
+
+seqneut-pipeline: seqneut-pipeline
+
+description: |
+  # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection for the Northern Hemisphere in February 2026
+
+  Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the fall-winter of 2025-2026 against a set of human sera collected in 2025.
+
+  The numerical data and computer code are at [https://github.com/jbloomlab/flu-seqneut-2025to2026](https://github.com/jbloomlab/flu-seqneut-2025to2026)
+
+viral_libraries:
+  designed: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
+
+# viral_strain_plot_order: 
+
+curve_display_method: svg  # set to png8 if HTMLs of notebooks to big
+
+neut_standard_sets:
+  loes2023: data/neut_standard_sets/loes2023_neut_standards.csv
+
+illumina_barcode_parser_params:
+  upstream: CCTACAATGTCGGATTTGTATTTAATAG
+  downstream: ''
+  minq: 20
+  upstream_mismatch: 4
+  bc_orientation: R2
+
+default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
+  avg_barcode_counts_per_well: 500
+  min_neut_standard_frac_per_well: 0.005
+  no_serum_per_viral_barcode_filters:
+    min_frac: 0.0001
+    max_fold_change: 4
+    max_wells: 2
+  per_neut_standard_barcode_filters:
+    min_frac: 0.005
+    max_fold_change: 4
+    max_wells: 2
+  min_neut_standard_count_per_well: 1000
+  min_no_serum_count_per_viral_barcode_well: 100
+  max_frac_infectivity_per_viral_barcode_well: 3
+  min_dilutions_per_barcode_serum_replicate: 6
+
+default_process_plate_curvefit_params: &default_process_plate_curvefit_params
+  frac_infectivity_ceiling: 1
+  fixtop: [0.6, 1] 
+  fixbottom: 0
+  fixslope: [0.8, 10]
+
+default_process_plate_curvefit_qc:  &default_process_plate_curvefit_qc
+  max_frac_infectivity_at_least: 0.0  # Allow 'completely neutralized' straight lines to be fit
+  goodness_of_fit:  # EITHER R2 must be >= min_R2 or RMSD must be <= max_RMSD
+    min_R2: 0.5
+    max_RMSD: 0.15  # you may be able to increase this to more like 0.1
+  serum_replicates_ignore_curvefit_qc: []
+  barcode_serum_replicates_ignore_curvefit_qc: []
+
+default_serum_titer_as: midpoint
+
+default_serum_qc_thresholds: &default_serum_qc_thresholds
+  min_replicates: 1
+  max_fold_change_from_median: 6
+  viruses_ignore_qc: []
+
+sera_override_defaults: {}
+
+plates: {}
+
+miscellaneous_plates:
+
+    20260108_equal_vol_pool:
+      date: 2026-01-08
+      viral_library: designed
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2026-01-08_equal_vol_pool.csv
+      illumina_barcode_parser_params:
+        upstream2: GCTACA # Fwd1
+        upstream2_mismatch: 1
