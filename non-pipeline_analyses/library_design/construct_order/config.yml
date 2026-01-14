@@ -52,3 +52,29 @@ orders:
     
 ###### Final barcode-to-strain output file ######
 barcode_to_strain: 'flu-seqneut-2025to2026-barcode-to-strain-designed.csv'
+
+previously_made_strains_to_add:
+  strain1:
+    name: 'A/Croatia/10136RV/2023-egg_H3N2'
+    library: kikawa2025
+  strain2:
+    name: 'A/DistrictOfColumbia/27/2023_H3N2'
+    library: kikawa2025
+  strain3:
+    name: 'A/Thailand/8/2022_H3N2'
+    library: kikawa2025
+  strain4:
+    name: 'A/Massachusetts/18/2022_H3N2'
+    library: kikawa2025
+  strain5:
+    name: 'A/Victoria/4897/2022_IVR-238_H1N1'
+    library: kikawa2025
+  strain6:
+    name: 'A/Wisconsin/67/2022_H1N1'
+    library: kikawa2025
+  strain7:
+    name: 'A/Wisconsin/588/2019_H1N1'
+    library: kikawa2025
+  strain8:
+    name: 'A/Hawaii/70/2019_H1N1'
+    library: kikawa2025 

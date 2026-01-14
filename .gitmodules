@@ -4,3 +4,6 @@
 [submodule "non-pipeline_analyses/library_design/initial_design/match_prot_to_genbank_nt"]
 	path = non-pipeline_analyses/library_design/initial_design/match_prot_to_genbank_nt
 	url = https://github.com/jbloom/match_prot_to_genbank_nt
+[submodule "seqneut-pipeline"]
+	path = seqneut-pipeline
+	url = https://github.com/jbloomlab/seqneut-pipeline

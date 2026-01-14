@@ -6,12 +6,10 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _(mo):
-    mo.md(
-        r"""
+    mo.md(r"""
     # Construct design notebook
     This notebook takes the output of `initial_design` (namely, a list of nucleotide sequences for both H3N2 and H1N1 strains) and generates a list of nucleotide inserts that can be submitted to Twist Biosciences for gene fragment synthesis and cloning. These inserts are designed to fit between the BsmBI-v2 and XbaI cut sites in the Bloom lab vector 2851. They should begin after the 19th codon of WSN upstream signal peptide, and continue all the way through the end of the HA coding region, followed by a double stop codon and a 16-nucleotide barcode.
-    """
-    )
+    """)
     return
 
 
@@ -28,7 +26,7 @@ def _():
     from Bio import SeqIO
     import random
     random.seed(42) # random number generator seed value
-    return Path, mo, os, pd, sys, yaml
+    return Path, mo, os, pd, random, sys, yaml
 
 
 @app.cell
@@ -44,8 +42,16 @@ def _(Path, mo, os):
     return (notebook_directory,)
 
 
-app._unparsable_cell(
-    r"""
+@app.cell
+def _(
+    barcode_index,
+    n_barcodes,
+    notebook_directory: "Path",
+    nucleotides,
+    os,
+    pd,
+    random,
+):
     def design_inserts(library, subtype, 
                        insert_filepath, 
                        construct_filepath,
@@ -53,16 +59,16 @@ app._unparsable_cell(
                        ectodomain_length,
                        endodomain_sequence,
                        start_codon,
+                       virus_id, # start virus naming at this index
                        special_start_codons = None,
                        append_additional_upstream_sequence = '',
                        append_additional_downstream_sequence = '',
-                       virus_id, # start virus naming at this index
                        nucleotides = nucleotides
                       ):
 
         # Only design if the ordersheet hasn't been generated
         if os.path.exists(notebook_directory / construct_filepath):
-            print(f\"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.\")
+            print(f"Already designed '{construct_filepath}', reading that file and NOT regenerating barcodes.")
 
         elif not os.path.exists(notebook_directory / construct_filepath): 
             print(f'Generating new barcodes at {construct_filepath}...')
@@ -70,7 +76,7 @@ app._unparsable_cell(
             start_codon = start_codon # Define the custom start codon to search for        
             virus_id = virus_id # Define ordersheet name parameters
             inserts = [] # Initialize empty ordersheet to populate with name, sequence
-            subtype_specific_library_strains = library_strains.query(f'subtype==\"{subtype}\"') # Subtype specific strains
+            subtype_specific_library_strains = library_strains.query(f'subtype=="{subtype}"') # Subtype specific strains
             if special_start_codons is None: # Get special start codons if they exist
                 special_start_codons = {}
 
@@ -102,7 +108,7 @@ app._unparsable_cell(
                     # Find the position of the first instance of 'ATGAAG' or other custom start
                     codon_to_use = special_start_codons.get(name, start_codon)
                     start_position = record.find(codon_to_use)
-                    assert start_position != -1, f\"For {name} - no start codon {codon_to_use} found\"
+                    assert start_position != -1, f"For {name} - no start codon {codon_to_use} found"
 
                     # Extract the sequence starting from the found position 
                     insert_start = start_position + ectodomain_start 
@@ -127,9 +133,7 @@ app._unparsable_cell(
             inserts_df = inserts_df.to_csv(notebook_directory / construct_filepath, index=False) 
 
             return inserts
-    """,
-    name="_"
-)
+    return (design_inserts,)
 
 
 @app.cell
@@ -161,7 +165,7 @@ def _(notebook_directory: "Path", pd, snakemake, sys, yaml):
     for key in config['past_barcodes_to_avoid']:
         key_barcodes = pd.read_csv(notebook_directory / config['past_barcodes_to_avoid'][key])['barcode'].tolist()
         barcode_index.extend(key_barcodes)
-    return (config,)
+    return barcode_index, config, n_barcodes, nucleotides
 
 
 @app.cell
@@ -195,14 +199,40 @@ def _(config, design_inserts, notebook_directory: "Path", pd):
     # Add barcode-to-strain output file in top-level directory that aggregatess across all ordersheets in output
     output_dir = notebook_directory / f'./{config['barcode_to_strain']}'
     order_outputs_df = pd.concat([pd.read_csv(f'{notebook_directory}/{f}', sep=',') for f in order_outputs], ignore_index=True)
-    order_outputs_df['barcode'] = order_outputs_df['sequence'].str[-16:]
-    order_outputs_df.to_csv(output_dir)
+    order_outputs_df['barcode'] = order_outputs_df['sequence'].str[-16:].str.upper()
+    order_outputs_df['strain_type'] = 'circulating_2025to2026'
+    order_outputs_df['subtype'] = order_outputs_df['strain'].str.split('_').str[1]
+    order_outputs_df = order_outputs_df.rename(columns={
+        'genbank': 'accession',
+        'sequence': 'nt_sequence_HA_ectodomain'
+    })
+
+    # Add strains to output designed library based on config
+    # Get unique libraries needed from config
+    libraries_needed = set(
+        s['library'] for s in config['previously_made_strains_to_add'].values()
+    )
+    # Load each library dataframe and filter for matching strains
+    filtered_strains_list = []
+    for library_name in libraries_needed:
+        # Load the library dataframe
+        library_df = pd.read_csv(config['past_barcodes_to_avoid'][library_name])  # adjust key name as needed  
+        # Get strain names for this library
+        strain_names = [
+            s['name'] for s in config['previously_made_strains_to_add'].values()
+            if s['library'] == library_name
+        ]
+    
+        # Filter and add to list
+        filtered = library_df[library_df['strain'].isin(strain_names)].copy()
+        filtered_strains_list.append(filtered)
+    # Combine all filtered strains into single dataframe
+    filtered_strains = pd.concat(filtered_strains_list, ignore_index=True)
+
+    # Merge and save designed library
+    library_designed = pd.concat([order_outputs_df, filtered_strains], ignore_index=True)
+    library_designed.to_csv(output_dir, index=False)
     print(f'\nSaved a final barcoce-to-strain map of all designed constructs to {output_dir}, use that for seqneut-pipeline input!')
-    return
-
-
-@app.cell
-def _():
     return
 
 
