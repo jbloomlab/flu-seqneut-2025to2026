@@ -62,3 +62,7 @@ results/aggregated_analyses/*
 !results/aggregated_analyses/human_sera_metadata.csv
 !results/aggregated_analyses/human_sera_titers.csv
 !results/aggregated_analyses/human_sera_titers_summarized.csv
+
+!results/validate_viral_library
+results/validate_viral_library/*
+!results/validate_viral_library/*_validation.txt
