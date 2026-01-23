@@ -2,6 +2,68 @@
 
 __use_yte__: true  # use YAML Template Engine formatting
 
+# --- Configuration for custom analyses in Snakefile outside of seqneut-pipeline --------
+
+# subtypes of strains
+subtypes: [H1N1, H3N2]
+
+# `strain_type` assigned to the recent circulating strains in the viral barcodes CSV
+circulating_strain_type: circulating_2025to2026
+
+# For the most part our analyses separate recent and historical vaccine strains, but
+# consider these vaccine strains to be "recent" and include them alongside the recent strains.
+# Maps strain name to label for display (e.g., "A/Wisconsin/67/2022_H1N1": "2024-2025 cell vaccine")
+recent_vaccine_strains: {}
+
+# When building the alignment for nextstrain-prot-titers-tree, prepend this sequence onto
+# each sequence in the alignment:
+nextstrain-prot-titers-tree_prefix_alignment:
+  H3N2: ""  # no prefix needed as HAs in viral_barcodes start at HA1 site 1
+  H1N1: DTL  # add these three amino acids as HAs in viral barcode miss first 3 ectodomain aas
+
+# Configuration for `nextstrain-prot-titers-tree`. For each subtype, provide the indicated arguments
+# that have the same meaning described at https://github.com/jbloomlab/nextstrain-prot-titers-tree
+# NOTE: titers set to null until titer data is available
+nextstrain-prot-titers-tree_config:
+  H3N2:
+    alignment: results/nextstrain-prot-titers-tree/H3N2/alignment.fa  # built by pipeline
+    outgroup: data/nextstrain-prot-titers-tree_data/H3N2_outgroup.fa
+    site_numbering_map: data/nextstrain-prot-titers-tree_data/H3N2_site_numbering_map.tsv
+    metadata: results/nextstrain-prot-titers-tree/H3N2/metadata.tsv  # built by pipeline
+    color_by_metadata:
+      strain_type: {}
+      subclade: {}
+    titers: null  # no titer data yet
+    display_defaults:
+      color_by: subclade
+      distance_measure: div
+      branch_label: aa
+    results_subdir: results/nextstrain-prot-titers-tree/H3N2/pipeline_results
+    auspice_json: auspice/flu-seqneut-2025to2026_H3N2.json
+    addtl_export_args:
+      title: Near real-time data on human neutralizing antibody landscape to H3N2 influenza virus for February 2026 vaccine selection
+      build-url: https://github.com/jbloomlab/flu-seqneut-2025to2026
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
+  H1N1:
+    alignment: results/nextstrain-prot-titers-tree/H1N1/alignment.fa  # built by pipeline
+    outgroup: data/nextstrain-prot-titers-tree_data/H1N1_outgroup.fa
+    site_numbering_map: data/nextstrain-prot-titers-tree_data/H1N1_site_numbering_map.tsv
+    metadata: results/nextstrain-prot-titers-tree/H1N1/metadata.tsv  # built by pipeline
+    color_by_metadata:
+      strain_type: {}
+      subclade: {}
+    titers: null  # no titer data yet
+    display_defaults:
+      color_by: subclade
+      distance_measure: div
+      branch_label: aa
+    results_subdir: results/nextstrain-prot-titers-tree/H1N1/pipeline_results
+    auspice_json: auspice/flu-seqneut-2025to2026_H1N1.json
+    addtl_export_args:
+      title: Near real-time data on human neutralizing antibody landscape to H1N1 influenza virus for February 2026 vaccine selection
+      build-url: https://github.com/jbloomlab/flu-seqneut-2025to2026
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
+
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 
 seqneut-pipeline: seqneut-pipeline
@@ -16,10 +78,7 @@ description: |
 viral_libraries:
   designed: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
 
-# `strain_type` assigned to the recent circulating strains in the viral barcodes CSV
-circulating_strain_type: circulating_2025to2026
-
-# viral_strain_plot_order: 
+# viral_strain_plot_order:
 
 curve_display_method: svg  # set to png8 if HTMLs of notebooks to big
 
@@ -51,7 +110,7 @@ default_process_plate_qc_thresholds: &default_process_plate_qc_thresholds
 
 default_process_plate_curvefit_params: &default_process_plate_curvefit_params
   frac_infectivity_ceiling: 1
-  fixtop: [0.6, 1] 
+  fixtop: [0.6, 1]
   fixbottom: 0
   fixslope: [0.8, 10]
 
