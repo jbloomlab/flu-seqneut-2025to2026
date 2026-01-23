@@ -16,6 +16,7 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 - ✅ **Library Pooling QC**: Equal volume pool tested on 2026-01-08 to optimize pooling proportions
 - ✅ **Pipeline Configuration**: `config.yml` configured with viral library, neutralization standards, and QC thresholds
 - ✅ **Cluster Execution**: Slurm submission script ready (`run_Hutch_cluster.bash`)
+- ✅ **Nextstrain Trees**: Interactive protein trees via [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) submodule (titers will be added when available)
 
 ### Pending
 - ⏳ Human serum sample collection and processing
@@ -101,14 +102,18 @@ flu-seqneut-2025to2026/
 ├── config.yml                   # Main configuration (CRITICAL FILE)
 ├── run_Hutch_cluster.bash       # Slurm cluster submission
 ├── scripts/
-│   └── validate_viral_library.py  # Viral library validation script
+│   ├── validate_viral_library.py  # Viral library validation script
+│   └── nextstrain_prot_titers_tree_alignment_and_metadata.py  # Tree input prep
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes
-│   └── miscellaneous_plates/    # QC and pooling plate data
+│   ├── miscellaneous_plates/    # QC and pooling plate data
+│   └── nextstrain-prot-titers-tree_data/  # Outgroup and site numbering for trees
 ├── results/                     # Pipeline outputs (partially tracked in git)
-└── seqneut-pipeline/            # Analysis pipeline (git submodule v6.1.0)
-    └── CLAUDE.md                # Detailed pipeline documentation
+├── auspice/                     # Nextstrain auspice JSON files for tree visualization
+├── seqneut-pipeline/            # Analysis pipeline (git submodule)
+│   └── CLAUDE.md                # Detailed pipeline documentation
+└── nextstrain-prot-titers-tree/ # Tree building pipeline (git submodule)
 ```
 
 ### Non-Pipeline Analyses (GENERALLY IGNORE)
@@ -224,6 +229,17 @@ Can be overridden per serum or group in `sera_override_defaults`.
   - Simpler configuration: viral_library, neut_standard_set, samples_csv
 
 See `config.yml` for current plate configuration.
+
+### Nextstrain Tree Configuration
+The `nextstrain-prot-titers-tree_config` section in `config.yml` controls tree building for each subtype (H3N2, H1N1). Key parameters:
+- `alignment`, `metadata`: Built by pipeline from viral library
+- `outgroup`: Reference sequence for tree rooting (in `data/nextstrain-prot-titers-tree_data/`)
+- `site_numbering_map`: Maps alignment positions to HA1/HA2 numbering
+- `color_by_metadata`: Metadata columns to color tree by (strain_type, subclade, titers when available)
+- `titers`: Set to `null` until titer data available; later points to titers TSV
+- `auspice_json`: Output path for Nextstrain visualization
+
+The `recent_vaccine_strains` config maps strain names to display labels for vaccine strains to include alongside circulating strains.
 
 ## Common Tasks for Claude
 

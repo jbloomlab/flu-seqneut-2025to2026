@@ -21,19 +21,16 @@ circulating_strain_type = snakemake.params.circulating_strain_type
 recent_vaccine_strains = snakemake.params.recent_vaccine_strains
 prefix_alignment = snakemake.params.prefix_alignment
 
-viruses = (
-    pd.read_csv(snakemake.input.viral_libraries_csv)[
-        [
-            "strain",
-            "subtype",
-            "strain_type",
-            "protein_sequence_HA_ectodomain",
-            "subclade",
-            "collection_date",
-        ]
+viruses = pd.read_csv(snakemake.input.viral_libraries_csv)[
+    [
+        "strain",
+        "subtype",
+        "strain_type",
+        "protein_sequence_HA_ectodomain",
+        "subclade",
+        "collection_date",
     ]
-    .drop_duplicates()
-)
+].drop_duplicates()
 
 assert len(viruses) == viruses["strain"].nunique(), "Duplicate strain entries found"
 
