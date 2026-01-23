@@ -299,6 +299,36 @@ The complete analysis workflow proceeds through these stages:
 - `results/qc_drops/*.yml` - Comprehensive QC summaries (tracked in git)
 - `docs/` - Complete HTML documentation
 
+### 11. Nextstrain Protein Trees
+
+**Pipeline Rules**: `nextstrain_prot_titers_tree_alignment_and_metadata`, plus rules from [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) submodule
+
+**Goal**: Build interactive phylogenetic trees of library sequences that can be colored by neutralization titers.
+
+**Process**:
+- Extracts protein sequences from viral library for circulating strains and recent vaccine strains
+- Prepends prefix amino acids if needed (H1N1 sequences need "DTL" added to match full ectodomain)
+- Generates alignment FASTA and metadata TSV for each subtype
+- Builds phylogenetic tree using IQ-TREE
+- Refines tree and extracts amino acid mutations using TreeTime
+- Exports to Auspice JSON format for Nextstrain visualization
+- Optionally overlays per-serum titer measurements (when titer data available)
+
+**Key Inputs** (in `data/nextstrain-prot-titers-tree_data/`):
+- `{subtype}_outgroup.fa` - Reference sequence for rooting the tree
+- `{subtype}_site_numbering_map.tsv` - Maps alignment positions to HA1/HA2 numbering
+
+**Key Outputs**:
+- `results/nextstrain-prot-titers-tree/{subtype}/alignment.fa` - Protein alignment
+- `results/nextstrain-prot-titers-tree/{subtype}/metadata.tsv` - Strain metadata
+- `auspice/flu-seqneut-2025to2026_{subtype}.json` - Auspice tree JSON (tracked in git)
+
+**Visualization**: Trees are viewable as [Nextstrain Community Builds](https://docs.nextstrain.org/en/latest/guides/share/community-builds.html):
+- H3N2: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2
+- H1N1: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1
+
+**Configuration**: Tree parameters are in `config.yml` under `nextstrain-prot-titers-tree_config`. Key settings include `color_by_metadata` (columns to color by), `titers` (set to `null` until titer data available), and `display_defaults`.
+
 ## Quality Control Philosophy
 
 The pipeline implements **multi-stage QC**:

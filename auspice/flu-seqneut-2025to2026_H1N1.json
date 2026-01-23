@@ -1,0 +1,1739 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Near real-time data on human neutralizing antibody landscape to H1N1 influenza virus for February 2026 vaccine selection",
+    "updated": "2026-01-23",
+    "build_url": "https://github.com/jbloomlab/flu-seqneut-2025to2026",
+    "maintainers": [
+      {
+        "name": "Caroline Kikawa, John Huddleston, Jesse Bloom",
+        "url": "https://jbloomlab.org"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "subclade",
+      "distance_measure": "div",
+      "branch_label": "aa"
+    },
+    "genome_annotations": {
+      "nuc": {
+        "start": 1,
+        "end": 1509,
+        "strand": "+",
+        "type": "source"
+      },
+      "HA1": {
+        "start": 1,
+        "end": 981,
+        "strand": "+",
+        "type": "gene"
+      },
+      "HA2": {
+        "start": 982,
+        "end": 1509,
+        "strand": "+",
+        "type": "gene"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "strain_type",
+        "title": "strain_type",
+        "type": "categorical"
+      },
+      {
+        "key": "subclade",
+        "title": "subclade",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "strain_type",
+      "subclade"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000044",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2018.919
+      }
+    },
+    "branch_attrs": {},
+    "children": [
+      {
+        "name": "NODE_0000045",
+        "node_attrs": {
+          "div": 1.034118,
+          "num_date": {
+            "value": 2020.701
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "HA1": [
+              "K169Q"
+            ]
+          },
+          "labels": {
+            "aa": "HA1: K169Q"
+          }
+        },
+        "children": [
+          {
+            "name": "A/Ghana/ARI-25-1125/2025",
+            "node_attrs": {
+              "div": 1.035476,
+              "strain_type": {
+                "value": "circulating_2025to2026"
+              },
+              "subclade": {
+                "value": "C.1.9.1"
+              }
+            },
+            "branch_attrs": {}
+          },
+          {
+            "name": "NODE_0000046",
+            "node_attrs": {
+              "div": 3.038724,
+              "num_date": {
+                "value": 2024.078
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA1": [
+                  "S83P",
+                  "I166V"
+                ]
+              },
+              "labels": {
+                "aa": "HA1: S83P, I166V"
+              }
+            },
+            "children": [
+              {
+                "name": "A/Malaysia/IMR-SARI1798/2025",
+                "node_attrs": {
+                  "div": 5.043179,
+                  "num_date": {
+                    "value": 2025.75
+                  },
+                  "strain_type": {
+                    "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "C.1.9.3"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "N56D",
+                      "A141E"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: N56D, A141E"
+                  }
+                }
+              },
+              {
+                "name": "A/England/1822256/2025",
+                "node_attrs": {
+                  "div": 4.039341,
+                  "num_date": {
+                    "value": 2025.74
+                  },
+                  "strain_type": {
+                    "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "C.1.9.3"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "T82K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: T82K"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000043",
+        "node_attrs": {
+          "div": 6.047167,
+          "num_date": {
+            "value": 2022.228
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "HA1": [
+              "K142R",
+              "T216A",
+              "D260E",
+              "T277A"
+            ],
+            "HA2": [
+              "E29D",
+              "N124H"
+            ]
+          },
+          "labels": {
+            "aa": "HA1: K142R, T216A, D260E, T277A; HA2: E29D, N124H"
+          }
+        },
+        "children": [
+          {
+            "name": "A/Hawaii/44/2025",
+            "node_attrs": {
+              "div": 12.051528,
+              "num_date": {
+                "value": 2025.6
+              },
+              "strain_type": {
+                "value": "circulating_2025to2026"
+              },
+              "subclade": {
+                "value": "D.1"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA1": [
+                  "R45K",
+                  "D86N",
+                  "A120T",
+                  "S157M",
+                  "R205K"
+                ],
+                "HA2": [
+                  "L2I"
+                ]
+              },
+              "labels": {
+                "aa": "HA1: R45K, D86N, A120T, S157M, R205K; HA2: L2I"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000010",
+            "node_attrs": {
+              "div": 8.087687,
+              "num_date": {
+                "value": 2023.86
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "HA2": [
+                  "I45V",
+                  "I133T"
+                ]
+              },
+              "labels": {
+                "aa": "HA2: I45V, I133T"
+              }
+            },
+            "children": [
+              {
+                "name": "A/Bangkok/P3067/2025",
+                "node_attrs": {
+                  "div": 10.09189,
+                  "num_date": {
+                    "value": 2025.71
+                  },
+                  "strain_type": {
+                    "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "D.3.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "D94N",
+                      "D168N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: D94N, D168N"
+                  }
+                }
+              },
+              {
+                "name": "A/California/63/2025",
+                "node_attrs": {
+                  "div": 10.09189,
+                  "num_date": {
+                    "value": 2025.73
+                  },
+                  "strain_type": {
+                    "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "D.3.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "T270A"
+                    ],
+                    "HA2": [
+                      "H72N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: T270A; HA2: H72N"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000021",
+                "node_attrs": {
+                  "div": 8.653813,
+                  "num_date": {
+                    "value": 2024.461
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "A/SouthAustralia/2519001037/2025",
+                    "node_attrs": {
+                      "div": 9.219738,
+                      "num_date": {
+                        "value": 2025.58
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "A141S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: A141S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Zacapa/FLU-261/2025",
+                    "node_attrs": {
+                      "div": 10.526029,
+                      "num_date": {
+                        "value": 2025.6
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "A141T",
+                          "T310I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: A141T, T310I"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000022",
+                "node_attrs": {
+                  "div": 9.088808,
+                  "num_date": {
+                    "value": 2024.529
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "V152I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: V152I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Catalonia/NSVH102686666/2025",
+                    "node_attrs": {
+                      "div": 10.090281,
+                      "num_date": {
+                        "value": 2025.73
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA2": [
+                          "N146D"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA2: N146D"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/Chinautla/FLU-331/2025",
+                    "node_attrs": {
+                      "div": 11.093011,
+                      "num_date": {
+                        "value": 2025.62
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "S69P",
+                          "A141T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: S69P, A141T"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000024",
+                "node_attrs": {
+                  "div": 9.088355,
+                  "num_date": {
+                    "value": 2024.738
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "A261S"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: A261S"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Alagoas/4131/2025",
+                    "node_attrs": {
+                      "div": 9.089814,
+                      "num_date": {
+                        "value": 2025.74
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {}
+                  },
+                  {
+                    "name": "A/SouthAustralia/2518911830/2025",
+                    "node_attrs": {
+                      "div": 11.092558,
+                      "num_date": {
+                        "value": 2025.6
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "K43R",
+                          "Q54L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: K43R, Q54L"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000027",
+                "node_attrs": {
+                  "div": 9.088808,
+                  "num_date": {
+                    "value": 2024.824
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA2": [
+                      "V152I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA2: V152I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Norway/9107/2025",
+                    "node_attrs": {
+                      "div": 10.089979,
+                      "num_date": {
+                        "value": 2025.69
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "S71A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: S71A"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/SouthAustralia/2523012764/2025",
+                    "node_attrs": {
+                      "div": 10.089979,
+                      "num_date": {
+                        "value": 2025.73
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "S121I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: S121I"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000030",
+                "node_attrs": {
+                  "div": 9.088757,
+                  "num_date": {
+                    "value": 2024.81
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "I185T"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: I185T"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/SouthAustralia/2521506017/2025",
+                    "node_attrs": {
+                      "div": 10.089677,
+                      "num_date": {
+                        "value": 2025.65
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "R205K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: R205K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/CoteDIvoire/2007/2025",
+                    "node_attrs": {
+                      "div": 10.089627,
+                      "num_date": {
+                        "value": 2025.75
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA2": [
+                          "A65S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA2: A65S"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000039",
+                "node_attrs": {
+                  "div": 8.654517,
+                  "num_date": {
+                    "value": 2024.448
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "A/Guangxi-Qingxiu/SWL11742/2025",
+                    "node_attrs": {
+                      "div": 9.220191,
+                      "num_date": {
+                        "value": 2025.57
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "S137Y"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: S137Y"
+                      }
+                    }
+                  },
+                  {
+                    "name": "A/SouthAustralia/2520702747/2025",
+                    "node_attrs": {
+                      "div": 10.527036,
+                      "num_date": {
+                        "value": 2025.57
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "R45K",
+                          "S137P"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: R45K, S137P"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "div": 9.088707,
+                  "num_date": {
+                    "value": 2024.556
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "HA1": [
+                      "S157L"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "HA1: S157L"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "A/Bangkok/P2277/2025",
+                    "node_attrs": {
+                      "div": 9.090166,
+                      "num_date": {
+                        "value": 2025.71
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {}
+                  },
+                  {
+                    "name": "A/BritishColumbia/PHL-2478/2025",
+                    "node_attrs": {
+                      "div": 10.089727,
+                      "num_date": {
+                        "value": 2025.62
+                      },
+                      "strain_type": {
+                        "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "E66K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: E66K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000017",
+                    "node_attrs": {
+                      "div": 10.089878,
+                      "num_date": {
+                        "value": 2024.896
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "V321I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: V321I"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/Denmark/3070/2025",
+                        "node_attrs": {
+                          "div": 10.091337,
+                          "num_date": {
+                            "value": 2025.67
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {}
+                      },
+                      {
+                        "name": "A/SouthAustralia/2518902563/2025",
+                        "node_attrs": {
+                          "div": 13.099327,
+                          "num_date": {
+                            "value": 2025.61
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "L157S",
+                              "I267T",
+                              "P271Q"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: L157S, I267T, P271Q"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "div": 8.62987,
+                  "num_date": {
+                    "value": 2024.04
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "div": 8.739122,
+                      "num_date": {
+                        "value": 2024.238
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "A/Canberra/530/2025",
+                        "node_attrs": {
+                          "div": 9.304745,
+                          "num_date": {
+                            "value": 2025.57
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "A139S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: A139S"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/BritishColumbia/PHL-2473/2025",
+                        "node_attrs": {
+                          "div": 10.61164,
+                          "num_date": {
+                            "value": 2025.64
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "A139T",
+                              "A261T"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: A139T, A261T"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000005",
+                    "node_attrs": {
+                      "div": 11.554061,
+                      "num_date": {
+                        "value": 2024.833
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "R113K",
+                          "A139D",
+                          "E283K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: R113K, A139D, E283K"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/Sydney/400/2025",
+                        "node_attrs": {
+                          "div": 12.555081,
+                          "num_date": {
+                            "value": 2025.52
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "N130K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: N130K"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000006",
+                        "node_attrs": {
+                          "div": 12.555081,
+                          "num_date": {
+                            "value": 2025.38
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "G155E"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: G155E"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/Norway/9556/2025",
+                            "node_attrs": {
+                              "div": 13.556152,
+                              "num_date": {
+                                "value": 2025.71
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "K302E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: K302E"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Bangkok/1803/2025",
+                            "node_attrs": {
+                              "div": 12.556087,
+                              "num_date": {
+                                "value": 2025.62
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
+                              }
+                            },
+                            "branch_attrs": {}
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000000",
+                        "node_attrs": {
+                          "div": 12.555081,
+                          "num_date": {
+                            "value": 2025.18
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "K302E"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: K302E"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/Colorado/105/2025",
+                            "node_attrs": {
+                              "div": 13.555699,
+                              "num_date": {
+                                "value": 2025.75
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "K169R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: K169R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/France/ARA-HCL025155099501/2025",
+                            "node_attrs": {
+                              "div": 13.556202,
+                              "num_date": {
+                                "value": 2025.75
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "K259Q"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: K259Q"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Andalucia/PMC-00977/2025",
+                            "node_attrs": {
+                              "div": 12.555584,
+                              "num_date": {
+                                "value": 2025.76
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "A/Aragon/2046/2025",
+                            "node_attrs": {
+                              "div": 13.556152,
+                              "num_date": {
+                                "value": 2025.73
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "K154R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: K154R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/SouthAustralia/2527612456/2025",
+                            "node_attrs": {
+                              "div": 13.556152,
+                              "num_date": {
+                                "value": 2025.76
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "G264S"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: G264S"
+                              }
+                            }
+                          },
+                          {
+                            "name": "A/Galicia/GA-CHUAC-449/2025",
+                            "node_attrs": {
+                              "div": 13.556152,
+                              "num_date": {
+                                "value": 2025.75
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "E260D"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: E260D"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000019",
+                "node_attrs": {
+                  "div": 8.087687,
+                  "num_date": {
+                    "value": 2024.458
+                  }
+                },
+                "branch_attrs": {},
+                "children": [
+                  {
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "div": 9.088707,
+                      "num_date": {
+                        "value": 2025.287
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "HA1": [
+                          "I96V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "HA1: I96V"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "A/SouthAustralia/2524712956/2025",
+                        "node_attrs": {
+                          "div": 10.089727,
+                          "num_date": {
+                            "value": 2025.71
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "S157L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: S157L"
+                          }
+                        }
+                      },
+                      {
+                        "name": "A/Canberra/465/2025",
+                        "node_attrs": {
+                          "div": 9.089914,
+                          "num_date": {
+                            "value": 2025.68
+                          },
+                          "strain_type": {
+                            "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
+                          }
+                        },
+                        "branch_attrs": {}
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000037",
+                    "node_attrs": {
+                      "div": 8.087687,
+                      "num_date": {
+                        "value": 2024.523
+                      }
+                    },
+                    "branch_attrs": {},
+                    "children": [
+                      {
+                        "name": "NODE_0000029",
+                        "node_attrs": {
+                          "div": 9.088707,
+                          "num_date": {
+                            "value": 2025.341
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "HA1": [
+                              "D86N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "HA1: D86N"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "A/BritishColumbia/PHL-2467/2025",
+                            "node_attrs": {
+                              "div": 9.090115,
+                              "num_date": {
+                                "value": 2025.71
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
+                              }
+                            },
+                            "branch_attrs": {}
+                          },
+                          {
+                            "name": "A/NewSouthWales/2525913630/2025",
+                            "node_attrs": {
+                              "div": 10.089727,
+                              "num_date": {
+                                "value": 2025.76
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "I185T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: I185T"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 8.087687,
+                          "num_date": {
+                            "value": 2024.759
+                          }
+                        },
+                        "branch_attrs": {},
+                        "children": [
+                          {
+                            "name": "A/Bangkok/P2229/2025",
+                            "node_attrs": {
+                              "div": 9.088707,
+                              "num_date": {
+                                "value": 2025.59
+                              },
+                              "strain_type": {
+                                "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "HA1": [
+                                  "N147T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "HA1: N147T"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000025",
+                            "node_attrs": {
+                              "div": 8.087687,
+                              "num_date": {
+                                "value": 2024.778
+                              }
+                            },
+                            "branch_attrs": {},
+                            "children": [
+                              {
+                                "name": "A/Victoria/1493/2025",
+                                "node_attrs": {
+                                  "div": 9.088808,
+                                  "num_date": {
+                                    "value": 2025.6
+                                  },
+                                  "strain_type": {
+                                    "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "HA1": [
+                                      "Q163K"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "HA1: Q163K"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 8.087687,
+                                  "num_date": {
+                                    "value": 2024.787
+                                  }
+                                },
+                                "branch_attrs": {},
+                                "children": [
+                                  {
+                                    "name": "A/SouthAustralia/2523011822/2025",
+                                    "node_attrs": {
+                                      "div": 9.088757,
+                                      "num_date": {
+                                        "value": 2025.63
+                                      },
+                                      "strain_type": {
+                                        "value": "circulating_2025to2026"
+                                      },
+                                      "subclade": {
+                                        "value": "D.3.1"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "HA1": [
+                                          "T186A"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "HA1: T186A"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000028",
+                                    "node_attrs": {
+                                      "div": 8.087687,
+                                      "num_date": {
+                                        "value": 2024.799
+                                      }
+                                    },
+                                    "branch_attrs": {},
+                                    "children": [
+                                      {
+                                        "name": "A/Queensland/159/2025",
+                                        "node_attrs": {
+                                          "div": 9.088757,
+                                          "num_date": {
+                                            "value": 2025.64
+                                          },
+                                          "strain_type": {
+                                            "value": "circulating_2025to2026"
+                                          },
+                                          "subclade": {
+                                            "value": "D.3.1"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "HA1": [
+                                              "S190R"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "HA1: S190R"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000031",
+                                        "node_attrs": {
+                                          "div": 8.087687,
+                                          "num_date": {
+                                            "value": 2024.818
+                                          }
+                                        },
+                                        "branch_attrs": {},
+                                        "children": [
+                                          {
+                                            "name": "A/SouthAustralia/2521715152/2025",
+                                            "node_attrs": {
+                                              "div": 9.088808,
+                                              "num_date": {
+                                                "value": 2025.65
+                                              },
+                                              "strain_type": {
+                                                "value": "circulating_2025to2026"
+                                              },
+                                              "subclade": {
+                                                "value": "D.3.1"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "HA1": [
+                                                  "L70F"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "HA1: L70F"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000032",
+                                            "node_attrs": {
+                                              "div": 8.087687,
+                                              "num_date": {
+                                                "value": 2024.852
+                                              }
+                                            },
+                                            "branch_attrs": {},
+                                            "children": [
+                                              {
+                                                "name": "A/Lao/820-2765/2025",
+                                                "node_attrs": {
+                                                  "div": 9.088958,
+                                                  "num_date": {
+                                                    "value": 2025.68
+                                                  },
+                                                  "strain_type": {
+                                                    "value": "circulating_2025to2026"
+                                                  },
+                                                  "subclade": {
+                                                    "value": "D.3.1"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "HA1": [
+                                                      "E260K"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "HA1: E260K"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000033",
+                                                "node_attrs": {
+                                                  "div": 8.087687,
+                                                  "num_date": {
+                                                    "value": 2024.865
+                                                  }
+                                                },
+                                                "branch_attrs": {},
+                                                "children": [
+                                                  {
+                                                    "name": "A/Darwin/1405/2025",
+                                                    "node_attrs": {
+                                                      "div": 9.088757,
+                                                      "num_date": {
+                                                        "value": 2025.7
+                                                      },
+                                                      "strain_type": {
+                                                        "value": "circulating_2025to2026"
+                                                      },
+                                                      "subclade": {
+                                                        "value": "D.3.1"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "HA1": [
+                                                          "R308K"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "HA1: R308K"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000034",
+                                                    "node_attrs": {
+                                                      "div": 8.087687,
+                                                      "num_date": {
+                                                        "value": 2024.867
+                                                      }
+                                                    },
+                                                    "branch_attrs": {},
+                                                    "children": [
+                                                      {
+                                                        "name": "A/Philippines/SARI25-1425/2025",
+                                                        "node_attrs": {
+                                                          "div": 9.088707,
+                                                          "num_date": {
+                                                            "value": 2025.71
+                                                          },
+                                                          "strain_type": {
+                                                            "value": "circulating_2025to2026"
+                                                          },
+                                                          "subclade": {
+                                                            "value": "D.3.1"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "HA1": [
+                                                              "G155E"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "HA1: G155E"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000035",
+                                                        "node_attrs": {
+                                                          "div": 8.087687,
+                                                          "num_date": {
+                                                            "value": 2024.884
+                                                          }
+                                                        },
+                                                        "branch_attrs": {},
+                                                        "children": [
+                                                          {
+                                                            "name": "A/Catalonia/NSAV198331894/2025",
+                                                            "node_attrs": {
+                                                              "div": 9.088707,
+                                                              "num_date": {
+                                                                "value": 2025.73
+                                                              },
+                                                              "strain_type": {
+                                                                "value": "circulating_2025to2026"
+                                                              },
+                                                              "subclade": {
+                                                                "value": "D.3.1"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "HA1": [
+                                                                  "K259R"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "HA1: K259R"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000036",
+                                                            "node_attrs": {
+                                                              "div": 8.087687,
+                                                              "num_date": {
+                                                                "value": 2024.938
+                                                              }
+                                                            },
+                                                            "branch_attrs": {},
+                                                            "children": [
+                                                              {
+                                                                "name": "A/Catalonia/NSVH102689455/2025",
+                                                                "node_attrs": {
+                                                                  "div": 9.088757,
+                                                                  "num_date": {
+                                                                    "value": 2025.74
+                                                                  },
+                                                                  "strain_type": {
+                                                                    "value": "circulating_2025to2026"
+                                                                  },
+                                                                  "subclade": {
+                                                                    "value": "D.3.1"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "HA1": [
+                                                                      "A197T"
+                                                                    ]
+                                                                  },
+                                                                  "labels": {
+                                                                    "aa": "HA1: A197T"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "A/Alagoas/3579/2025",
+                                                                "node_attrs": {
+                                                                  "div": 8.089145,
+                                                                  "num_date": {
+                                                                    "value": 2025.76
+                                                                  },
+                                                                  "strain_type": {
+                                                                    "value": "circulating_2025to2026"
+                                                                  },
+                                                                  "subclade": {
+                                                                    "value": "D.3.1"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {}
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "root_sequence": {
+    "nuc": "NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN",
+    "HA1": "DTLCIGYHANNSTDTVDTVLEKNVTVTHSVNLLEDKHNGKLCKLRGVAPLHLGQCNIAGWILGNPECESLSTARSWSYIVETSNSDNGTCYPGDFINYEELREQLSSVSSFERFEIFPKASSWPNHDSDNGVTAACSHAGAKSFYKNLIWLVKKGKSYPKINQTYINDKGKEVLVLWGIHHPPTITDQESLYQNADAYVFVGTSRYSKKFKPEIATRPKVRDQAGRMNYYWTLVEPGDKITFEATGNLVAPRYAFTMEKDAGSGIIISDTPVHDCNTTCQTPEGAINTSLPFQNVHPITIGKCPKYVRSTKLRLATGLRNVPSIQSR",
+    "HA2": "GLFGAIAGFIEGGWTGMVDGWYGYHHQNEQGSGYAADLKSTQNAIDKITNKVNSVIEKMNTQFTAVGKEFNHLEKRIENLNKKVDDGFLDVWTYNAELLVLLENERTLDYHDSNVKNLYEKVRNQLKNNAKEIGNGCFEFYHKCDNTCMESVKNGTYDYPKYSEEAKLNREKIDGV"
+  }
+}
