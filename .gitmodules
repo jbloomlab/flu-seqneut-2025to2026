@@ -7,3 +7,6 @@
 [submodule "seqneut-pipeline"]
 	path = seqneut-pipeline
 	url = https://github.com/jbloomlab/seqneut-pipeline
+[submodule "nextstrain-prot-titers-tree"]
+	path = nextstrain-prot-titers-tree
+	url = https://github.com/jbloomlab/nextstrain-prot-titers-tree
