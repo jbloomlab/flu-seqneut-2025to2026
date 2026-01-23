@@ -12,6 +12,7 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 
 ### Currently Implemented
 - ✅ **Viral Library Design**: Influenza strains (H1N1 and H3N2) from late 2025 circulation with multiple barcodes per strain for redundancy (see `data/viral_libraries/`)
+- ✅ **Viral Library Validation**: Automated validation of library CSVs against README specifications (see `scripts/validate_viral_library.py`)
 - ✅ **Library Pooling QC**: Equal volume pool tested on 2026-01-08 to optimize pooling proportions
 - ✅ **Pipeline Configuration**: `config.yml` configured with viral library, neutralization standards, and QC thresholds
 - ✅ **Cluster Execution**: Slurm submission script ready (`run_Hutch_cluster.bash`)
@@ -99,6 +100,8 @@ flu-seqneut-2025to2026/
 ├── Snakefile                    # Top-level workflow orchestration
 ├── config.yml                   # Main configuration (CRITICAL FILE)
 ├── run_Hutch_cluster.bash       # Slurm cluster submission
+├── scripts/
+│   └── validate_viral_library.py  # Viral library validation script
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes

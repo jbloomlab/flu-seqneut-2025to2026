@@ -6,6 +6,11 @@ The goal is to provide near real-time neutralization data to inform the **Februa
 
 The data here are described in *Add link to preprint*.
 
+## Quick links
+Here are quick links with key data and results:
+
+- Viral library: [data/viral_libraries](data/viral_libraries)
+
 ## Study Overview
 
 ### Assay Method
@@ -14,8 +19,25 @@ Sequencing-based neutralization assays as described in [Loes et al. (2024), *Jou
 ### Viral Library
 - Influenza strains (H3N2 and H1N1 pdm09) from late 2025 to early 2026 circulation
 - Multiple barcodes per strain for redundancy
-- Each viral construct contains the circulating HA ectodomain with WSN-derived signal peptide, endodomain, and C-terminus
-- Library defined in [data/viral_libraries/](data/viral_libraries) (see [config.yml](config.yml) for active library file for each experiment)
+- Each viral construct contains the circulating HA ectodomain with signal peptide, endodomain, and cytoplasmid tail constant across strains for a given subtype
+- Library defined in in CSVs in [data/viral_libraries/](data/viral_libraries) (see [config.yml](config.yml) for active library file for each experiment)
+- Each viral library CSV must have the following required columns (additional columns are allowed):
+  - *strain*: strain name; there can be multiple rows for each strain (as we may have several barcodes for a strain), but each strain name must be uniquely paired with a single value for all other required columns except *barcode* (where a strain can be paired with multiple *barcode* values). Note that non-required columns (like *Twist_name*) may vary per barcode. Strain name must also end in "_H3N2" or "_H1N1"
+  - *subtype*: H3N2 or H1N1
+  - *strain_type*: should be "vaccine" or the *circulating_strain_type* defined in `config.yml` (eg "circulating_2025to2026")
+  - *vaccine_type*: if *strain_type* is "vaccine", this should be "egg" or "cell"; otherwise it should be null
+  - *barcode*: should be 16-nt string, all barcode entries should be unique for each row
+  - *accession*: Genbank accession if available
+  - *subclade*: can only be null for *strain_type* of "vaccine"
+  - *derived_haplotype*: description of derived haplotype from clade (eg, clade plus additional HA1 mutations), can only be null for *strain_type* of "vaccine". Note that HA2 mutations are not included in the derived_haplotype naming, so multiple strains may share the same derived_haplotype if they differ only in HA2.
+  - *collection_date*: collection date as float (eg, 2025.5); in many cases this may refer to the date that HA1 haplotype was last identified rather than the actual collection date of the particular named strain.
+  - *nt_sequence_HA_ectodomain*: nucleotide sequence of HA ectodomain, must be all A, T, C, or G (either case) and length multiple of three. Note that this is not the same as the full Twist synthesized insert, rather it is the part of the HA that is taken from that strain, and does not include flanking constant regions not derived from the strain (recall signal peptide and transmembrane / cytoplasmic tail are constant in our barcoded constructs), so it is not the full-length HA.
+  - *protein_sequence_HA_ectodomain*: protein sequence, must meet these criteria:
+      + must not contain any stop codons ("*" characters) and must be the result of translating *nt_sequence_HA_ectodomain*.
+      + must start with "CIGY" if a H1N1 *subtype*, and with "Q[KNR][IL]P" if a H3N2 *subtype* (note this is start of HA ectodomain for H3N2, for H1N1 a "DTL" must be added to get HA ectodomain since the plasmid construct used in experiments provides the first 3 ectodomain amino acids from WSN strain).
+      + must end with "NNRFQ" if a H3N2 *subtype*, and "[EK]IDG[VI]" if a *H1N1* subtype.
+      + the length should be 500 for H1N1 *subtype* and 501 for *H3N2* subtype (note this might change of H1N1 is modified to include pre-2009 seasonal H1N1 as well as pdmH1N1 lineage).
+      + Each unique protein sequence should only be associated with one *strain*.
 
 ### Human Sera
 - Collection in mid to late 2025 from multiple cohorts
@@ -143,6 +165,8 @@ The complete analysis workflow proceeds through these stages:
 - Gene synthesis by Twist Biosciences
 
 **Output**: Barcode-to-strain mapping CSV in `data/viral_libraries/`
+
+**Validation**: The pipeline validates viral library CSVs against the specifications above using `scripts/validate_viral_library.py`. Validation output is written to `results/validate_viral_library/`.
 
 ### 2. Library Production and Pooling
 

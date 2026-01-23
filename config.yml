@@ -16,6 +16,9 @@ description: |
 viral_libraries:
   designed: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
 
+# `strain_type` assigned to the recent circulating strains in the viral barcodes CSV
+circulating_strain_type: circulating_2025to2026
+
 # viral_strain_plot_order: 
 
 curve_display_method: svg  # set to png8 if HTMLs of notebooks to big
