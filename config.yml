@@ -81,3 +81,12 @@ miscellaneous_plates:
       illumina_barcode_parser_params:
         upstream2: GCTACA # Fwd1
         upstream2_mismatch: 1
+
+    20260115_single_well:
+      date: 2026-01-15
+      viral_library: designed
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2026-01-15-single-well.csv
+      illumina_barcode_parser_params:
+        upstream2: ATCGAT # Fwd2
+        upstream2_mismatch: 1
