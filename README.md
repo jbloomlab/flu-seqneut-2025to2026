@@ -93,21 +93,7 @@ This repository uses the following git submodules:
 
 ### Non-Pipeline Analyses
 
-The [`non-pipeline_analyses/`](non-pipeline_analyses/) subdirectory contains auxiliary workflows separate from the main neutralization assay pipeline:
-
-- **`library_design/`**: Workflows for selecting influenza strains
-  - `initial_design/` - Primary strain selection pipeline
-  - `construct_order/` - Design of HA insert sequences for synthesis
-  - `design_updates_jdb/` - Design refinements from Jesse Bloom
-  - `design_updates_jlhudd/` - Design refinements from John Huddleston
-
-- **`library_pooling/`**: Analysis for optimizing viral library pooling proportions
-  - Notebooks analyzing equal volume pool (2026-01-08)
-  - Pooling calculations for balanced sequencing coverage
-
-
-These are run manually and are not part of the main pijpeline.
-See the [README in non-pipeline_analyses](non-pipeline_analyses/README.md) for details.
+The [`non-pipeline_analyses/`](non-pipeline_analyses/) subdirectory contains auxiliary workflows (library design and pooling optimization) that are separate from the main neutralization assay pipeline. See the [README in non-pipeline_analyses](non-pipeline_analyses/README.md) for details.
 
 ## Configuration
 
@@ -161,34 +147,13 @@ The command to publish to the *gh-pages* branch must be run manually, and GitHub
 
 The complete analysis workflow proceeds through these stages:
 
-### 1. Viral Library Design
+### 1. Viral Library Design and Production
 
-**Goal**: Select phylogenetically diverse influenza strains representative of late 2025 - early 2026 circulation.
+The viral library (barcode-to-strain mapping CSV in `data/viral_libraries/`) is designed and produced prior to running the main pipeline. See `non-pipeline_analyses/` for library design and pooling optimization workflows (documented separately in that directory).
 
-**Implementation**: `non-pipeline_analyses/library_design/`
-- Initial strain selection based on phylogenetic clustering and sequence diversity
-- Iterative design refinements with expert curation
-- HA insert design for gene synthesis
-- Barcode assignment (typically 16-nt unique sequences)
-- Gene synthesis by Twist Biosciences
+The pipeline validates viral library CSVs against the specifications above using `scripts/validate_viral_library.py`. Validation output is written to `results/validate_viral_library/`.
 
-**Output**: Barcode-to-strain mapping CSV in `data/viral_libraries/`
-
-**Validation**: The pipeline validates viral library CSVs against the specifications above using `scripts/validate_viral_library.py`. Validation output is written to `results/validate_viral_library/`.
-
-### 2. Library Production and Pooling
-
-**Goal**: Generate barcoded virions and pool at equal proportions.
-
-**Implementation**: `non-pipeline_analyses/library_pooling/`
-- Barcoded virions produced following Loes et al. (2024)
-- Equal volume pool created and sequenced to determine relative barcode proportions
-- Pooling proportions optimized based on barcode representation to equalize all barcodes
-- Master pool created for neutralization assays
-
-**Output**: QC results in `results/miscellaneous_plates/20260108_equal_vol_pool/`
-
-### 3. Neutralization Assay Setup
+### 2. Neutralization Assay Setup
 
 **Goal**: Incubate viral library with serially diluted human sera to measure neutralization.
 
@@ -200,7 +165,7 @@ The complete analysis workflow proceeds through these stages:
 
 **Configuration**: Plates configured in `config.yml` with sample metadata CSV specifying wells, sera, dilutions, replicates, and FASTQ file paths.
 
-### 4. High-Throughput Sequencing
+### 3. High-Throughput Sequencing
 
 **Goal**: Generate FASTQ files with barcode counts for each well.
 
@@ -212,7 +177,7 @@ The complete analysis workflow proceeds through these stages:
 
 **Output**: FASTQ files listed in plate sample CSVs.
 
-### 5. Barcode Counting
+### 4. Barcode Counting
 
 **Pipeline Rule**: `count_barcodes`
 
@@ -227,7 +192,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/barcode_fates/{sample}.csv` - Read fate statistics
 - `results/barcode_invalid/{sample}.csv` - Counts of invalid barcodes; not tracked in GitHub repo but can be useful for debugging
 
-### 6. Plate Processing and QC
+### 5. Plate Processing and QC
 
 **Pipeline Rule**: `process_plate`
 
@@ -242,7 +207,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/plates/{plate}/qc_drops.yml` - QC filtering documentation
 - `results/plates/{plate}/process_plate.html` - Interactive QC report
 
-### 7. Neutralization Curve Fitting
+### 6. Neutralization Curve Fitting
 
 **Pipeline Rule**: Integrated into `process_plate`
 
@@ -257,7 +222,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/plates/{plate}/curvefits.pickle` - Pickled `neutcurve.CurveFits` objects
 - Curve plots in `process_plate.html`
 
-### 8. Serum-Level Titer Aggregation
+### 7. Serum-Level Titer Aggregation
 
 **Pipeline Rule**: `group_serum_titers`
 
@@ -273,7 +238,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/sera/{group}_{serum}/curves.pdf` - Neutralization curves
 - `results/sera/{group}_{serum}/qc_drops.yml` - Serum-level QC drops
 
-### 9. Final Titer Aggregation
+### 8. Final Titer Aggregation
 
 **Pipeline Rule**: `aggregate_titers`
 
@@ -286,7 +251,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/aggregated_titers/titers_{group}.csv` - Final titer matrix (tracked in git)
 - `results/aggregated_titers/curvefits_{group}.pickle` - All curve fits for custom analysis
 
-### 10. QC Summary and Documentation
+### 9. QC Summary and Documentation
 
 **Pipeline Rules**: `aggregate_qc_drops`, `build_docs`
 
@@ -299,7 +264,7 @@ The complete analysis workflow proceeds through these stages:
 - `results/qc_drops/*.yml` - Comprehensive QC summaries (tracked in git)
 - `docs/` - Complete HTML documentation
 
-### 11. Nextstrain Protein Trees
+### 10. Nextstrain Protein Trees
 
 **Pipeline Rules**: `nextstrain_prot_titers_tree_alignment_and_metadata`, plus rules from [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) submodule
 

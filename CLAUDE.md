@@ -118,24 +118,7 @@ flu-seqneut-2025to2026/
 
 ### Non-Pipeline Analyses (GENERALLY IGNORE)
 
-**Important**: The `non-pipeline_analyses/` directory contains **one-off analyses for library design and pooling optimization**. These are **NOT part of the main neutralization assay pipeline** and should be **ignored** unless the user specifically asks about them.
-
-```
-non-pipeline_analyses/
-├── library_design/              # Strain selection workflows (completed)
-│   ├── initial_design/          # Initial library design pipeline
-│   ├── construct_order/         # Generate insert sequences for synthesis
-│   ├── design_updates_jdb/      # Design updates from Jesse Bloom
-│   └── design_updates_jlhudd/   # Design updates from John Huddleston
-└── library_pooling/             # Library pooling analysis (in progress)
-    ├── notebooks/               # Jupyter analysis
-    └── results/                 # Pooling calculations
-```
-
-**When to work on non-pipeline_analyses**:
-- User explicitly asks about library design or strain selection
-- User asks about library pooling optimization
-- Otherwise: **focus on the main pipeline** (Snakefile, config.yml, data/, results/)
+The `non-pipeline_analyses/` directory contains one-off analyses for library design and pooling optimization. These are **NOT part of the main neutralization assay pipeline** and are documented separately in that directory. Ignore unless the user specifically asks about them.
 
 ## Code Style and Quality Requirements
 
@@ -276,10 +259,7 @@ The `recent_vaccine_strains` config maps strain names to display labels for vacc
 3. Metadata includes: subtype (H1N1/H3N2), subclade, collection date, vaccine type
 
 ### When Modifying Non-Pipeline Analyses
-**Warning**: Ask user to confirm - these analyses are typically one-off and complete.
-- Library design: Used to select strains for the viral library
-- Library pooling: Optimizing pooling proportions for balanced sequencing
-- These use separate Snakemake pipelines with their own configs
+**Warning**: Ask user to confirm - these analyses are typically one-off and complete. They are documented separately in the `non-pipeline_analyses/` directory.
 
 ## Relationship to Similar Projects
 
@@ -307,7 +287,7 @@ This repository follows the same structure as [flu-seqneut-2025](https://github.
 
 - **Pipeline issues**: See `seqneut-pipeline/CLAUDE.md` and pipeline documentation
 - **Configuration questions**: Check `config.yml` and seqneut-pipeline docs
-- **Strain selection**: See `non-pipeline_analyses/library_design/` (but typically complete)
+- **Non-pipeline analyses**: See `non-pipeline_analyses/` (documented separately in that directory)
 - **Git submodule issues**: `git submodule update --init --recursive`
 
 ## Quick Reference
