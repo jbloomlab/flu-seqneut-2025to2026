@@ -12,8 +12,11 @@ circulating_strain_type: circulating_2025to2026
 
 # For the most part our analyses separate recent and historical vaccine strains, but
 # consider these vaccine strains to be "recent" and include them alongside the recent strains.
-# Maps strain name to label for display (e.g., "A/Wisconsin/67/2022_H1N1": "2024-2025 cell vaccine")
-recent_vaccine_strains: {}
+recent_vaccine_strains:
+  A/Sydney/1359/2024_H3N2: 2026 cell-based vaccine  # originally called A/Alaska/63/2025_H3N2 in library design
+  A/Missouri/11/2025_H1N1: 2026 cell-based vaccine  # originally called A/Alagoas/3579/2025_H1N1 in library design
+  A/DistrictOfColumbia/27/2023_H3N2: 2025-2026 cell-based vaccine
+  A/Wisconsin/67/2022_H1N1: 2025-2026 cell-based vaccine
 
 # When building the alignment for nextstrain-prot-titers-tree, prepend this sequence onto
 # each sequence in the alignment:

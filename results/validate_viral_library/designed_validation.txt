@@ -31,8 +31,8 @@ VALIDATION SUMMARY
 Library file: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
 Total rows (barcodes): 235
 Unique strains: 114
-  - Vaccine strains: 8 (23 barcodes)
-  - Circulating strains: 106 (212 barcodes)
+  - Vaccine strains: 10 (27 barcodes)
+  - Circulating strains: 104 (208 barcodes)
 
 By subtype:
   - H1N1: 108 barcodes
