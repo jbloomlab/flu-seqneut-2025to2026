@@ -1,0 +1,130 @@
+wells:
+  A3: avg_barcode_counts_per_well
+  H9: avg_barcode_counts_per_well
+barcodes:
+  AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
+  ACCATGTCTAATACAA: min_neut_standard_frac_per_well
+  ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
+  ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
+  ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
+  ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
+  CACAATATGACAGAGT: min_neut_standard_frac_per_well
+  CACAGACGAGACACAC: min_neut_standard_frac_per_well
+  CACTTTCGGGAACACG: min_neut_standard_frac_per_well
+  CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
+  GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
+  GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
+  GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
+  GCCCTACCTAACTACC: min_neut_standard_frac_per_well
+  GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
+  GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
+  TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
+  TAGACTGGATACGTGA: min_neut_standard_frac_per_well
+  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+  TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
+  TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
+  TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
+barcode_wells:
+  GAAGTGCTGCTGAAGT C4: max_frac_infectivity_per_viral_barcode_well
+  GAAGTGCTGCTGAAGT F4: max_frac_infectivity_per_viral_barcode_well
+  CGTACGTATGTCCCAG F4: max_frac_infectivity_per_viral_barcode_well
+  GTTGATTCGATCATAT F5: max_frac_infectivity_per_viral_barcode_well
+  GTCGCCGCTAATCCGA F5: max_frac_infectivity_per_viral_barcode_well
+barcode_serum_replicates:
+  GTGCAATTCCGCGTCC seqneut25to26_sera_0013: goodness_of_fit
+  TACACTCAAACGATGC seqneut25to26_sera_0013: goodness_of_fit
+  TCACACCGCTCAGCCT seqneut25to26_sera_0013: goodness_of_fit
+  AACACTCAATACCGGT seqneut25to26_sera_0014: goodness_of_fit
+  ACGTCGCTAGACTTTA seqneut25to26_sera_0014: goodness_of_fit
+  AGACCATCGCACCCAA seqneut25to26_sera_0014: goodness_of_fit
+  AGCAGTCCCGCTAGTC seqneut25to26_sera_0014: goodness_of_fit
+  AGGAACATGTCCATAC seqneut25to26_sera_0014: goodness_of_fit
+  AGTCCTATCCTCAAAT seqneut25to26_sera_0014: goodness_of_fit
+  ATCGCAAGTACCAGTT seqneut25to26_sera_0014: goodness_of_fit
+  CACGGCTGGAGCGGCC seqneut25to26_sera_0014: goodness_of_fit
+  CAGGTACGCGTTTCTG seqneut25to26_sera_0014: goodness_of_fit
+  CATGTGGAGGGTCGAG seqneut25to26_sera_0014: goodness_of_fit
+  CCTTATGAATTACGCG seqneut25to26_sera_0014: goodness_of_fit
+  CGTACGTATGTCCCAG seqneut25to26_sera_0014: goodness_of_fit
+  CTGCCGCCTGCTGTGT seqneut25to26_sera_0014: goodness_of_fit
+  GATCGGAATAACCGTA seqneut25to26_sera_0014: goodness_of_fit
+  GCTGATAAACAATCTA seqneut25to26_sera_0014: goodness_of_fit
+  GTTGATTCGATCATAT seqneut25to26_sera_0014: goodness_of_fit
+  TACACTCAAACGATGC seqneut25to26_sera_0014: goodness_of_fit
+  TCACACCGCTCAGCCT seqneut25to26_sera_0014: goodness_of_fit
+  TCCACACCCCTAGCTA seqneut25to26_sera_0014: goodness_of_fit
+  TCCCTTCTTCGCAACT seqneut25to26_sera_0014: goodness_of_fit
+  TCGCGGATTAAACCAT seqneut25to26_sera_0014: goodness_of_fit
+  TCGGAGAGCGATCCGC seqneut25to26_sera_0014: goodness_of_fit
+  TTCTAACGATTGTAGG seqneut25to26_sera_0014: goodness_of_fit
+  TTTATTACTCTTATGG seqneut25to26_sera_0014: goodness_of_fit
+  AACACTCAATACCGGT seqneut25to26_sera_0015: goodness_of_fit
+  AATCCGAAATTTATTC seqneut25to26_sera_0015: goodness_of_fit
+  ACGTCGCTAGACTTTA seqneut25to26_sera_0015: goodness_of_fit
+  AGGAACATGTCCATAC seqneut25to26_sera_0015: goodness_of_fit
+  ATTTCATGAGATAGGG seqneut25to26_sera_0015: goodness_of_fit
+  CATCGACAGGTCCCAC seqneut25to26_sera_0015: goodness_of_fit
+  CCAGGATCTATCCTTC seqneut25to26_sera_0015: goodness_of_fit
+  GATTGAGGGGTCCGGG seqneut25to26_sera_0015: goodness_of_fit
+  GCTCCTGGTCATATAT seqneut25to26_sera_0015: goodness_of_fit
+  GTCGCCGCTAATCCGA seqneut25to26_sera_0015: goodness_of_fit
+  GTGCAATTCCGCGTCC seqneut25to26_sera_0015: goodness_of_fit
+  TACACTCAAACGATGC seqneut25to26_sera_0015: goodness_of_fit
+  TCACACCGCTCAGCCT seqneut25to26_sera_0015: goodness_of_fit
+  TCCCAAGACAAGCGAC seqneut25to26_sera_0015: goodness_of_fit
+  TCGGAGAGCGATCCGC seqneut25to26_sera_0015: goodness_of_fit
+  TTTAGCCGGCTGTAAC seqneut25to26_sera_0015: goodness_of_fit
+  TTTCGGGGCCCCAATG seqneut25to26_sera_0015: goodness_of_fit
+  CACGGCTGGAGCGGCC seqneut25to26_sera_0016: goodness_of_fit
+  GTCGCCGCTAATCCGA seqneut25to26_sera_0016: goodness_of_fit
+  TCGGAGAGCGATCCGC seqneut25to26_sera_0016: goodness_of_fit
+  AACACTCAATACCGGT seqneut25to26_sera_0018: goodness_of_fit
+  ATACATCCGACGCTTT seqneut25to26_sera_0018: goodness_of_fit
+  ATAGCCCTAACGAAAG seqneut25to26_sera_0018: goodness_of_fit
+  CGACGCGCCGTCGCTG seqneut25to26_sera_0018: goodness_of_fit
+  GATCGGAATAACCGTA seqneut25to26_sera_0018: goodness_of_fit
+  GATTGAGGGGTCCGGG seqneut25to26_sera_0018: goodness_of_fit
+  GTGCAATTCCGCGTCC seqneut25to26_sera_0018: goodness_of_fit
+  TCGGAGAGCGATCCGC seqneut25to26_sera_0018: goodness_of_fit
+  TTTATTACTCTTATGG seqneut25to26_sera_0018: goodness_of_fit
+  AGGAAGATCAAAAGCG seqneut25to26_sera_0020: goodness_of_fit
+  ATACATCCGACGCTTT seqneut25to26_sera_0020: goodness_of_fit
+  CACGGCTGGAGCGGCC seqneut25to26_sera_0020: goodness_of_fit
+  GCTCCTGGTCATATAT seqneut25to26_sera_0020: goodness_of_fit
+  GTGCAATTCCGCGTCC seqneut25to26_sera_0020: goodness_of_fit
+  TACACTCAAACGATGC seqneut25to26_sera_0020: goodness_of_fit
+  TCACACCGCTCAGCCT seqneut25to26_sera_0020: goodness_of_fit
+  TCCACACCCCTAGCTA seqneut25to26_sera_0020: goodness_of_fit
+  TCCCTTCTTCGCAACT seqneut25to26_sera_0020: goodness_of_fit
+  TGGTAGTCCTTAACCG seqneut25to26_sera_0020: goodness_of_fit
+  TTCTAACGATTGTAGG seqneut25to26_sera_0020: goodness_of_fit
+  TTGAAACTCTTGTCCT seqneut25to26_sera_0020: goodness_of_fit
+  TTTACTCGATCCTCGC seqneut25to26_sera_0020: goodness_of_fit
+  TTTATTACTCTTATGG seqneut25to26_sera_0020: goodness_of_fit
+  TTTCGGGGCCCCAATG seqneut25to26_sera_0020: goodness_of_fit
+  TTTTCTGACGATGCAG seqneut25to26_sera_0020: goodness_of_fit
+  AGTCCTATCCTCAAAT seqneut25to26_sera_0021: goodness_of_fit
+  AAGCGCTTCCCAGCCA seqneut25to26_sera_0022: goodness_of_fit
+  ACATCCGCCCTTCGGT seqneut25to26_sera_0022: goodness_of_fit
+  ACGTCGCTAGACTTTA seqneut25to26_sera_0022: goodness_of_fit
+  AGAACGGCTTGACACT seqneut25to26_sera_0022: goodness_of_fit
+  AGCTCCACATTTGGCC seqneut25to26_sera_0022: goodness_of_fit
+  AGGAACATGTCCATAC seqneut25to26_sera_0022: goodness_of_fit
+  ATAAATTCTTTATGGA seqneut25to26_sera_0022: goodness_of_fit
+  ATACATCCGACGCTTT seqneut25to26_sera_0022: goodness_of_fit
+  ATCCGTTGGGCGACAA seqneut25to26_sera_0022: goodness_of_fit
+  ATTGGCTGTCGTGGCC seqneut25to26_sera_0022: goodness_of_fit
+  CACGGCTGGAGCGGCC seqneut25to26_sera_0022: goodness_of_fit
+  CATGTGGAGGGTCGAG seqneut25to26_sera_0022: goodness_of_fit
+  CCATACCACGCCCTGT seqneut25to26_sera_0022: goodness_of_fit
+  GAACACAATTACTTAG seqneut25to26_sera_0022: goodness_of_fit
+  GAACGGAGATCTGTTG seqneut25to26_sera_0022: goodness_of_fit
+  GATGACGCGACCTCCT seqneut25to26_sera_0022: goodness_of_fit
+  GCATACTGGTTACATT seqneut25to26_sera_0022: goodness_of_fit
+  GTGCAATTCCGCGTCC seqneut25to26_sera_0022: goodness_of_fit
+  TAGCCTATAATCAAGT seqneut25to26_sera_0022: goodness_of_fit
+  TCCACACCCCTAGCTA seqneut25to26_sera_0022: goodness_of_fit
+  TTTATTACTCTTATGG seqneut25to26_sera_0022: goodness_of_fit
+  TTTCGGGGCCCCAATG seqneut25to26_sera_0022: goodness_of_fit
+  TTTGGCGAGCAGCCCG seqneut25to26_sera_0022: goodness_of_fit
+serum_replicates: {}

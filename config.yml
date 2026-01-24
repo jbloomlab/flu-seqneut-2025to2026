@@ -80,7 +80,8 @@ description: |
 
 viral_libraries:
   designed: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
-
+  actual: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
+  
 # viral_strain_plot_order:
 
 curve_display_method: svg  # set to png8 if HTMLs of notebooks to big
@@ -134,7 +135,279 @@ default_serum_qc_thresholds: &default_serum_qc_thresholds
 
 sera_override_defaults: {}
 
-plates: {}
+plates:
+
+  plate1:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate1.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate2:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate2.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate3:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate3.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate4:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate4.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+  
+  plate5:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate5.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GTCTAA # Fwd5
+      upstream2_mismatch: 1
+
+  plate6:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate6.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ACGCTG # Fwd6
+      upstream2_mismatch: 1
+
+  plate7:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate7.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TATAGC # Fwd7
+      upstream2_mismatch: 1
+
+  plate8:
+    group: human
+    date: 2026-01-20
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-20_plate8.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CGAGCT # Fwd8
+      upstream2_mismatch: 1
+  
+  plate9:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate9.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate10:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate10.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate11:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate11.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate12:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate12.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+  
+  plate13:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate13.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GTCTAA # Fwd5
+      upstream2_mismatch: 1
+
+  plate14:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate14.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ACGCTG # Fwd6
+      upstream2_mismatch: 1
+
+  plate15:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate15.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TATAGC # Fwd7
+      upstream2_mismatch: 1
+
+  plate16:
+    group: human
+    date: 2026-01-22
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-01-22_plate16.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CGAGCT # Fwd8
+      upstream2_mismatch: 1
 
 miscellaneous_plates:
 
@@ -154,4 +427,13 @@ miscellaneous_plates:
       samples_csv: data/miscellaneous_plates/2026-01-15-single-well.csv
       illumina_barcode_parser_params:
         upstream2: ATCGAT # Fwd2
+        upstream2_mismatch: 1
+
+    20260122_repool:
+      date: 2026-01-22
+      viral_library: actual
+      neut_standard_set: loes2023
+      samples_csv: data/miscellaneous_plates/2026-01-22_repool.csv
+      illumina_barcode_parser_params:
+        upstream2: CGAGCT # Fwd8
         upstream2_mismatch: 1
