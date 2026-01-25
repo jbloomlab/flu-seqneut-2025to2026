@@ -1,0 +1,41 @@
+Reading viral library from: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
+Loaded 209 rows
+[PASS] Required columns exist: All present
+[PASS] Strain names end with _H3N2 or _H1N1: All valid
+[PASS] Strain values consistent across barcodes: All consistent
+[PASS] Subtype is H3N2 or H1N1: All valid
+[PASS] Strain type is 'vaccine' or 'circulating_2025to2026': All valid
+[PASS] Vaccine type valid: All valid
+[PASS] Barcode format (16-nt ATCG): All valid
+[PASS] Barcodes unique: All unique
+[INFO] Accession: no validation required (can be null)
+[PASS] Subclade present for non-vaccines: All non-vaccines have subclade
+[PASS] Derived haplotype present for non-vaccines: All non-vaccines have derived_haplotype
+[PASS] Collection date is valid float: All valid
+[PASS] NT sequence contains only ATCG: All valid
+[PASS] NT sequence length multiple of 3: All valid
+[PASS] Protein sequence has no stop codons: No stop codons
+[PASS] Protein equals translation of NT sequence: All match
+[PASS] H1N1 protein starts with CIGY: All valid
+[PASS] H1N1 protein ends with [EK]IDG[VI]: All valid
+[PASS] H1N1 protein length is 500: All valid
+[PASS] H3N2 protein starts with Q[KNR][IL]P: All valid
+[PASS] H3N2 protein ends with NNRFQ: All valid
+[PASS] H3N2 protein length is 501: All valid
+[PASS] Each unique protein sequence maps to one strain: All unique
+
+======================================================================
+VALIDATION SUMMARY
+======================================================================
+
+Library file: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
+Total rows (barcodes): 209
+Unique strains: 101
+  - Vaccine strains: 8 (23 barcodes)
+  - Circulating strains: 93 (186 barcodes)
+
+By subtype:
+  - H1N1: 82 barcodes
+  - H3N2: 127 barcodes
+
+All 22 validations PASSED

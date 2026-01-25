@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Near real-time data on human neutralizing antibody landscape to H1N1 influenza virus for February 2026 vaccine selection",
-    "updated": "2026-01-23",
+    "updated": "2026-01-25",
     "build_url": "https://github.com/jbloomlab/flu-seqneut-2025to2026",
     "maintainers": [
       {
@@ -58,8 +58,8 @@
       }
     ],
     "filters": [
-      "subclade",
-      "strain_type"
+      "strain_type",
+      "subclade"
     ],
     "panels": [
       "tree",
@@ -100,11 +100,11 @@
             "name": "A/Ghana/ARI-25-1125/2025",
             "node_attrs": {
               "div": 2.00355,
-              "subclade": {
-                "value": "C.1.9.1"
-              },
               "strain_type": {
                 "value": "circulating_2025to2026"
+              },
+              "subclade": {
+                "value": "C.1.9.1"
               }
             },
             "branch_attrs": {}
@@ -136,11 +136,11 @@
                   "num_date": {
                     "value": 2025.75
                   },
-                  "subclade": {
-                    "value": "C.1.9.3"
-                  },
                   "strain_type": {
                     "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "C.1.9.3"
                   }
                 },
                 "branch_attrs": {
@@ -162,11 +162,11 @@
                   "num_date": {
                     "value": 2025.74
                   },
-                  "subclade": {
-                    "value": "C.1.9.3"
-                  },
                   "strain_type": {
                     "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "C.1.9.3"
                   }
                 },
                 "branch_attrs": {
@@ -216,11 +216,11 @@
               "num_date": {
                 "value": 2022.82
               },
-              "subclade": {
-                "value": "C.1.1"
-              },
               "strain_type": {
                 "value": "2025-2026 cell-based vaccine"
+              },
+              "subclade": {
+                "value": "C.1.1"
               }
             },
             "branch_attrs": {}
@@ -251,11 +251,11 @@
                   "num_date": {
                     "value": 2025.6
                   },
-                  "subclade": {
-                    "value": "D.1"
-                  },
                   "strain_type": {
                     "value": "circulating_2025to2026"
+                  },
+                  "subclade": {
+                    "value": "D.1"
                   }
                 },
                 "branch_attrs": {
@@ -305,11 +305,11 @@
                       "num_date": {
                         "value": 2025.73
                       },
-                      "subclade": {
-                        "value": "D.3.1"
-                      },
                       "strain_type": {
                         "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
                       }
                     },
                     "branch_attrs": {
@@ -333,11 +333,11 @@
                       "num_date": {
                         "value": 2025.71
                       },
-                      "subclade": {
-                        "value": "D.3.1"
-                      },
                       "strain_type": {
                         "value": "circulating_2025to2026"
+                      },
+                      "subclade": {
+                        "value": "D.3.1"
                       }
                     },
                     "branch_attrs": {
@@ -353,7 +353,7 @@
                     }
                   },
                   {
-                    "name": "NODE_0000016",
+                    "name": "NODE_0000013",
                     "node_attrs": {
                       "div": 10.042395,
                       "num_date": {
@@ -378,11 +378,11 @@
                           "num_date": {
                             "value": 2025.74
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {}
@@ -394,11 +394,11 @@
                           "num_date": {
                             "value": 2025.6
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -416,7 +416,7 @@
                     ]
                   },
                   {
-                    "name": "NODE_0000025",
+                    "name": "NODE_0000022",
                     "node_attrs": {
                       "div": 10.042496,
                       "num_date": {
@@ -441,11 +441,11 @@
                           "num_date": {
                             "value": 2025.69
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -466,11 +466,11 @@
                           "num_date": {
                             "value": 2025.73
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -512,11 +512,11 @@
                           "num_date": {
                             "value": 2025.65
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -537,11 +537,11 @@
                           "num_date": {
                             "value": 2025.75
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -574,11 +574,11 @@
                           "num_date": {
                             "value": 2025.57
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -599,11 +599,11 @@
                           "num_date": {
                             "value": 2025.57
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -637,11 +637,11 @@
                           "num_date": {
                             "value": 2025.58
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -662,11 +662,11 @@
                           "num_date": {
                             "value": 2025.6
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -709,11 +709,11 @@
                           "num_date": {
                             "value": 2025.73
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -734,11 +734,11 @@
                           "num_date": {
                             "value": 2025.62
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -781,11 +781,11 @@
                           "num_date": {
                             "value": 2025.71
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {}
@@ -797,11 +797,11 @@
                           "num_date": {
                             "value": 2025.62
                           },
-                          "subclade": {
-                            "value": "D.3.1"
-                          },
                           "strain_type": {
                             "value": "circulating_2025to2026"
+                          },
+                          "subclade": {
+                            "value": "D.3.1"
                           }
                         },
                         "branch_attrs": {
@@ -841,11 +841,11 @@
                               "num_date": {
                                 "value": 2025.67
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {}
@@ -857,11 +857,11 @@
                               "num_date": {
                                 "value": 2025.61
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {
@@ -908,11 +908,11 @@
                               "num_date": {
                                 "value": 2025.57
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {
@@ -933,11 +933,11 @@
                               "num_date": {
                                 "value": 2025.64
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {
@@ -982,11 +982,11 @@
                               "num_date": {
                                 "value": 2025.52
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {
@@ -1026,11 +1026,11 @@
                                   "num_date": {
                                     "value": 2025.71
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1051,11 +1051,11 @@
                                   "num_date": {
                                     "value": 2025.62
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1088,11 +1088,11 @@
                                   "num_date": {
                                     "value": 2025.75
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1113,11 +1113,11 @@
                                   "num_date": {
                                     "value": 2025.75
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1138,11 +1138,11 @@
                                   "num_date": {
                                     "value": 2025.76
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1154,11 +1154,11 @@
                                   "num_date": {
                                     "value": 2025.73
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1179,11 +1179,11 @@
                                   "num_date": {
                                     "value": 2025.76
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1204,11 +1204,11 @@
                                   "num_date": {
                                     "value": 2025.75
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1264,11 +1264,11 @@
                               "num_date": {
                                 "value": 2025.71
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {
@@ -1289,11 +1289,11 @@
                               "num_date": {
                                 "value": 2025.68
                               },
-                              "subclade": {
-                                "value": "D.3.1"
-                              },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
+                              },
+                              "subclade": {
+                                "value": "D.3.1"
                               }
                             },
                             "branch_attrs": {}
@@ -1336,11 +1336,11 @@
                                   "num_date": {
                                     "value": 2025.71
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1"
                                   }
                                 },
                                 "branch_attrs": {}
@@ -1352,11 +1352,11 @@
                                   "num_date": {
                                     "value": 2025.76
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1389,11 +1389,11 @@
                                   "num_date": {
                                     "value": 2025.59
                                   },
-                                  "subclade": {
-                                    "value": "D.3.1"
-                                  },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
+                                  },
+                                  "subclade": {
+                                    "value": "D.3.1"
                                   }
                                 },
                                 "branch_attrs": {
@@ -1424,11 +1424,11 @@
                                       "num_date": {
                                         "value": 2025.6
                                       },
-                                      "subclade": {
-                                        "value": "D.3.1"
-                                      },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
+                                      },
+                                      "subclade": {
+                                        "value": "D.3.1"
                                       }
                                     },
                                     "branch_attrs": {
@@ -1443,7 +1443,7 @@
                                     }
                                   },
                                   {
-                                    "name": "NODE_0000026",
+                                    "name": "NODE_0000025",
                                     "node_attrs": {
                                       "div": 9.041475,
                                       "num_date": {
@@ -1459,11 +1459,11 @@
                                           "num_date": {
                                             "value": 2025.63
                                           },
-                                          "subclade": {
-                                            "value": "D.3.1"
-                                          },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
+                                          },
+                                          "subclade": {
+                                            "value": "D.3.1"
                                           }
                                         },
                                         "branch_attrs": {
@@ -1478,7 +1478,7 @@
                                         }
                                       },
                                       {
-                                        "name": "NODE_0000027",
+                                        "name": "NODE_0000026",
                                         "node_attrs": {
                                           "div": 9.041475,
                                           "num_date": {
@@ -1494,11 +1494,11 @@
                                               "num_date": {
                                                 "value": 2025.64
                                               },
-                                              "subclade": {
-                                                "value": "D.3.1"
-                                              },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
+                                              },
+                                              "subclade": {
+                                                "value": "D.3.1"
                                               }
                                             },
                                             "branch_attrs": {
@@ -1513,7 +1513,7 @@
                                             }
                                           },
                                           {
-                                            "name": "NODE_0000028",
+                                            "name": "NODE_0000027",
                                             "node_attrs": {
                                               "div": 9.041475,
                                               "num_date": {
@@ -1529,11 +1529,11 @@
                                                   "num_date": {
                                                     "value": 2025.65
                                                   },
-                                                  "subclade": {
-                                                    "value": "D.3.1"
-                                                  },
                                                   "strain_type": {
                                                     "value": "circulating_2025to2026"
+                                                  },
+                                                  "subclade": {
+                                                    "value": "D.3.1"
                                                   }
                                                 },
                                                 "branch_attrs": {
@@ -1548,7 +1548,7 @@
                                                 }
                                               },
                                               {
-                                                "name": "NODE_0000030",
+                                                "name": "NODE_0000028",
                                                 "node_attrs": {
                                                   "div": 9.041475,
                                                   "num_date": {
@@ -1564,11 +1564,11 @@
                                                       "num_date": {
                                                         "value": 2025.68
                                                       },
-                                                      "subclade": {
-                                                        "value": "D.3.1"
-                                                      },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
+                                                      },
+                                                      "subclade": {
+                                                        "value": "D.3.1"
                                                       }
                                                     },
                                                     "branch_attrs": {
@@ -1583,7 +1583,7 @@
                                                     }
                                                   },
                                                   {
-                                                    "name": "NODE_0000037",
+                                                    "name": "NODE_0000030",
                                                     "node_attrs": {
                                                       "div": 9.041475,
                                                       "num_date": {
@@ -1599,11 +1599,11 @@
                                                           "num_date": {
                                                             "value": 2025.7
                                                           },
-                                                          "subclade": {
-                                                            "value": "D.3.1"
-                                                          },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
+                                                          },
+                                                          "subclade": {
+                                                            "value": "D.3.1"
                                                           }
                                                         },
                                                         "branch_attrs": {
@@ -1618,7 +1618,7 @@
                                                         }
                                                       },
                                                       {
-                                                        "name": "NODE_0000039",
+                                                        "name": "NODE_0000037",
                                                         "node_attrs": {
                                                           "div": 9.041475,
                                                           "num_date": {
@@ -1634,11 +1634,11 @@
                                                               "num_date": {
                                                                 "value": 2025.71
                                                               },
-                                                              "subclade": {
-                                                                "value": "D.3.1"
-                                                              },
                                                               "strain_type": {
                                                                 "value": "circulating_2025to2026"
+                                                              },
+                                                              "subclade": {
+                                                                "value": "D.3.1"
                                                               }
                                                             },
                                                             "branch_attrs": {
@@ -1653,7 +1653,7 @@
                                                             }
                                                           },
                                                           {
-                                                            "name": "NODE_0000040",
+                                                            "name": "NODE_0000039",
                                                             "node_attrs": {
                                                               "div": 9.041475,
                                                               "num_date": {
@@ -1669,11 +1669,11 @@
                                                                   "num_date": {
                                                                     "value": 2025.73
                                                                   },
-                                                                  "subclade": {
-                                                                    "value": "D.3.1"
-                                                                  },
                                                                   "strain_type": {
                                                                     "value": "circulating_2025to2026"
+                                                                  },
+                                                                  "subclade": {
+                                                                    "value": "D.3.1"
                                                                   }
                                                                 },
                                                                 "branch_attrs": {
@@ -1688,7 +1688,7 @@
                                                                 }
                                                               },
                                                               {
-                                                                "name": "NODE_0000043",
+                                                                "name": "NODE_0000040",
                                                                 "node_attrs": {
                                                                   "div": 9.041475,
                                                                   "num_date": {
@@ -1704,11 +1704,11 @@
                                                                       "num_date": {
                                                                         "value": 2025.74
                                                                       },
-                                                                      "subclade": {
-                                                                        "value": "D.3.1"
-                                                                      },
                                                                       "strain_type": {
                                                                         "value": "circulating_2025to2026"
+                                                                      },
+                                                                      "subclade": {
+                                                                        "value": "D.3.1"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {
@@ -1729,11 +1729,11 @@
                                                                       "num_date": {
                                                                         "value": 2025.76
                                                                       },
-                                                                      "subclade": {
-                                                                        "value": "D.3.1"
-                                                                      },
                                                                       "strain_type": {
                                                                         "value": "2026 cell-based vaccine"
+                                                                      },
+                                                                      "subclade": {
+                                                                        "value": "D.3.1"
                                                                       }
                                                                     },
                                                                     "branch_attrs": {}

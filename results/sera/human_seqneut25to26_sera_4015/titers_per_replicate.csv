@@ -1,0 +1,4 @@
+group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
+human,seqneut25to26_sera_4015,A/Vermont/73/2025_H3N2,plate16-GATGACGCGACCTCCT,40,upper,midpoint,40,40,0.7132,0,9.999
+human,seqneut25to26_sera_4015,A/Michigan/110/2025_H3N2,plate16-GACTTCTTCCGCTCTT,40,upper,midpoint,40,40,0.73,0,10
+human,seqneut25to26_sera_4015,A/England/1837737/2025_H3N2,plate16-ATTGGCTGTCGTGGCC,40,upper,midpoint,40,40,0.7067,0,10
