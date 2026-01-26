@@ -117,7 +117,6 @@ def _(alt, countsdir, fate_csvs, pd, samples, samples_df):
     )
 
     fates_chart
-
     return
 
 
@@ -174,7 +173,7 @@ def _(
 
         if expected_strain_in_well == strain_that_barcode_links:
             linked_barcode_class_list.append([row.barcode, row.well, 'expected linked barcode'])
-        
+
         elif expected_strain_in_well != strain_that_barcode_links:
             if strain_that_barcode_links == 'no linked barcode':
                 linked_barcode_class_list.append([row.barcode, row.well, 'no linked barcode'])

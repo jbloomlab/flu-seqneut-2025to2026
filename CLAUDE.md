@@ -16,13 +16,12 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 - ✅ **Library Pooling QC**: Equal volume pool tested on 2026-01-08 to optimize pooling proportions
 - ✅ **Pipeline Configuration**: `config.yml` configured with viral library, neutralization standards, and QC thresholds
 - ✅ **Cluster Execution**: Slurm submission script ready (`run_Hutch_cluster.bash`)
-- ✅ **Nextstrain Trees**: Interactive protein trees via [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) submodule (titers will be added when available)
+- ✅ **Nextstrain Trees**: Interactive protein trees via [nextstrain-prot-titers-tree](https://github.com/jbloomlab/nextstrain-prot-titers-tree) submodule
+- ✅ **Neutralization Assay Plates**: Human serum neutralization plates configured and running through pipeline
+- ✅ **Aggregated Titers**: Pipeline producing titer results in `results/aggregated_titers/`
 
-### Pending
-- ⏳ Human serum sample collection and processing
-- ⏳ Neutralization assay plates with serum dilutions
-- ⏳ Main pipeline execution for titer calculations
-- ⏳ Aggregated results and visualization
+### Ongoing
+- 🔄 Additional plates being added as experiments complete
 
 ## Critical Scientific Coding Principles
 
@@ -107,6 +106,7 @@ flu-seqneut-2025to2026/
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes
+│   ├── plates/                  # Per-plate sample metadata CSVs
 │   ├── miscellaneous_plates/    # QC and pooling plate data
 │   └── nextstrain-prot-titers-tree_data/  # Outgroup and site numbering for trees
 ├── results/                     # Pipeline outputs (partially tracked in git)
@@ -150,9 +150,11 @@ snakemake -j 4 --software-deployment-method conda
 ### Viral Library
 **Location**: `data/viral_libraries/`
 
-The viral library contains influenza strains (H1N1 pdm09 and H3N2) from late 2025 circulation with multiple barcodes per strain for redundancy. Files may include:
-- `*-designed.csv`: Designed library from strain selection
-- `*-actual.csv`: Actual library after synthesis and QC (if applicable)
+The viral library contains influenza strains (H1N1 pdm09 and H3N2) from late 2025 circulation with multiple barcodes per strain for redundancy. Two library CSVs exist:
+- `*-designed.csv`: Originally designed library from strain selection
+- `*-actual.csv`: Library with strains that passed QC and are used for titer measurements (may have fewer strains than designed)
+
+The actual library includes additional QC-tracking columns (e.g., `dropped_by_Caroline`, `note`). Plates in `config.yml` reference libraries by key name (e.g., `viral_library: actual`).
 
 Each row represents one barcode-to-strain mapping with HA ectodomain sequences and metadata.
 
@@ -161,10 +163,10 @@ Each row represents one barcode-to-strain mapping with HA ectodomain sequences a
 - `barcode`: Unique barcode sequence (typically 16-nt)
 - `subtype`: H1N1 or H3N2
 - `subclade`: Phylogenetic subclade
-- `num_date`: Decimal collection date
+- `collection_date`: Decimal collection date
 - `nt_sequence_HA_ectodomain`: Circulating HA ectodomain nucleotide sequence
 - `protein_sequence_HA_ectodomain`: Translated protein sequence
-- Plus: accession, name, strain_type, vaccine_type
+- Plus: accession, strain_type, vaccine_type
 
 ### Neutralization Standards
 **File**: `data/neut_standard_sets/loes2023_neut_standards.csv`
@@ -173,7 +175,7 @@ Each row represents one barcode-to-strain mapping with HA ectodomain sequences a
 - Used in QC thresholds for minimum fraction per well
 
 ### Configuration
-**File**: `config.yml` (2965 bytes)
+**File**: `config.yml`
 - Single source of truth for all pipeline parameters
 - See "Configuration Guide" section below for details
 
@@ -184,11 +186,11 @@ The `config.yml` file controls all analysis parameters. Key sections:
 ### Viral Library Configuration
 ```yaml
 viral_libraries:
-  designed:
-    barcode_to_strain_csv: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
+  designed: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-designed.csv
+  actual: data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
 ```
 
-Which library is used may differ across plates; we may eventually have an actual as well as designed library if some strains are dropped during QC.
+Plates reference libraries by key name (e.g., `viral_library: actual`). Typically QC/pooling plates use `designed` while serum neutralization plates use `actual` (strains that passed QC).
 
 ### QC Thresholds (Plate-Level)
 Configured per plate in `plates.{plate_name}.qc_thresholds`. Critical parameters:
@@ -208,10 +210,13 @@ Can be overridden per serum or group in `sera_override_defaults`.
 - **Regular plates** (`plates:`): Serum neutralization assay plates with full curve fitting
   - Each plate requires: group, date, viral_library, neut_standard_set, samples_csv
   - Plus: qc_thresholds, curvefit_params, manual_drops (optional)
+  - `illumina_barcode_parser_params`: Plate-specific barcode parsing settings, including `upstream2` primer sequence for multiplexed sequencing demultiplexing
+  - Sample CSVs stored in `data/plates/` with columns: well, serum, dilution_factor, replicate, fastq
 - **Miscellaneous plates** (`miscellaneous_plates:`): QC/pooling plates with barcode counting only
   - Simpler configuration: viral_library, neut_standard_set, samples_csv
+  - Sample CSVs stored in `data/miscellaneous_plates/`
 
-See `config.yml` for current plate configuration.
+Plates use YAML anchors (`<<: *default_...`) to inherit shared defaults while allowing plate-specific overrides. See `config.yml` for current plate configuration.
 
 ### Nextstrain Tree Configuration
 The `nextstrain-prot-titers-tree_config` section in `config.yml` controls tree building for each subtype (H3N2, H1N1). Key parameters:

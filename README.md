@@ -9,7 +9,10 @@ The data here are described in *Add link to preprint*.
 ## Quick links
 Here are quick links with key data and results:
 
-- Viral library: [data/viral_libraries](data/viral_libraries)
+- Viral library: [data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv](data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv) has details of the barcoded viral strains in the actual library used for the titer measurements.
+
+- Measured neutralization titers: [results/aggregated_titers/](results/aggregated_titers/)
+
 - Interactive Nextstrain protein trees (colored by subclade; titers will be added when available):
   - [H3N2](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2)
   - [H1N1](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1)
@@ -42,11 +45,14 @@ Sequencing-based neutralization assays as described in [Loes et al. (2024), *Jou
       + the length should be 500 for H1N1 *subtype* and 501 for *H3N2* subtype (note this might change of H1N1 is modified to include pre-2009 seasonal H1N1 as well as pdmH1N1 lineage).
       + Each unique protein sequence should only be associated with one *strain*.
 
+There are two CSVs in [data/viral_libraries](data/viral_libraries), one giving the originally designed library and the other giving the library that had strains that passed various QC and are used for the actual titer measurements.
+The strain used for the actual measurements are in [data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv](data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv).
+
 ### Human Sera
 - Collection in mid to late 2025 from multiple cohorts
 
 ### Aggregated titers
-*Add links to titers as available*
+The titers aggregated across plates are in [results/aggregated_titers/](results/aggregated_titers/).
 
 ## Repository Structure
 
@@ -61,6 +67,7 @@ flu-seqneut-2025to2026/
 ├── data/                        # Input data
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes (Loes et al. 2024)
+│   ├── plates/                  # Per-plate sample metadata CSVs
 │   ├── miscellaneous_plates/    # QC and pooling validation data
 │   └── nextstrain-prot-titers-tree_data/  # Outgroup and site numbering for trees
 │
