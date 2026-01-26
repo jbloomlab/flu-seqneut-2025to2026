@@ -1,7 +1,5 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-human,seqneut25to26_sera_0025,A/Alagoas/3579/2025_H1N1,576.9,interpolated,51.56,2,midpoint
 human,seqneut25to26_sera_0025,A/Alagoas/4130/2025_H3N2,92,upper,0,2,midpoint
-human,seqneut25to26_sera_0025,A/Alaska/63/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Anapolis/LEIAL6543/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Andalucia/PMC-00977/2025_H1N1,523.4,interpolated,38.34,2,midpoint
 human,seqneut25to26_sera_0025,A/Aragon/2046/2025_H1N1,577.1,interpolated,65.25,2,midpoint
@@ -60,6 +58,7 @@ human,seqneut25to26_sera_0025,A/Malaysia/IMR/SARI/2517/2025_H3N2,92,upper,0,2,mi
 human,seqneut25to26_sera_0025,A/Massachusetts/18/2022_H3N2,92,upper,0,3,midpoint
 human,seqneut25to26_sera_0025,A/Michigan/110/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Minnesota/96/2025_H3N2,92,upper,,1,midpoint
+human,seqneut25to26_sera_0025,A/Missouri/11/2025_H1N1,576.9,interpolated,51.56,2,midpoint
 human,seqneut25to26_sera_0025,A/NewSouthWales/2526015582/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/NewSouthWales/2526015584/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Norway/8765/2025_H3N2,92,upper,0,2,midpoint
@@ -82,6 +81,7 @@ human,seqneut25to26_sera_0025,A/SouthAustralia/2527003588/2025_H3N2,92,upper,0,2
 human,seqneut25to26_sera_0025,A/SouthAustralia/2527213276/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/SouthAustralia/2527612456/2025_H1N1,478.6,interpolated,3.133,2,midpoint
 human,seqneut25to26_sera_0025,A/SouthAustralia/2527902708/2025_H3N2,92,upper,0,2,midpoint
+human,seqneut25to26_sera_0025,A/Sydney/1359/2024_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Sydney/400/2025_H1N1,1424,interpolated,63.15,2,midpoint
 human,seqneut25to26_sera_0025,A/Tasmania/2521815682/2025_H3N2,92,upper,0,2,midpoint
 human,seqneut25to26_sera_0025,A/Thailand/8/2022_H3N2,92,upper,0,2,midpoint

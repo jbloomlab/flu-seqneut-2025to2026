@@ -119,10 +119,10 @@ human,seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/27/2023_H3N2,plate9-GAATA
 human,seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/27/2023_H3N2,plate9-AAGAAGCTATAGAAGT,815.5,interpolated,midpoint,815.5,815.5,1,0,0.8
 human,seqneut25to26_sera_1004_d28,A/Croatia/10136RV/2023-egg_H3N2,plate9-GAAGTGCTGCTGAAGT,239.8,interpolated,midpoint,256.6,239.8,0.7539,0,10
 human,seqneut25to26_sera_1004_d28,A/Croatia/10136RV/2023-egg_H3N2,plate9-GTCGCCGCTAATCCGA,398.1,interpolated,midpoint,1200,398.1,0.6,0,1.459
-human,seqneut25to26_sera_1004_d28,A/Alaska/63/2025_H3N2,plate9-AACTCCAATTTGTTTT,562.9,interpolated,midpoint,670.9,562.9,0.9287,0,0.8763
-human,seqneut25to26_sera_1004_d28,A/Alaska/63/2025_H3N2,plate9-CAGGCTGCTGGGCCGC,194.5,interpolated,midpoint,274,194.5,0.7262,0,2.315
-human,seqneut25to26_sera_1004_d28,A/Alagoas/3579/2025_H1N1,plate9-GTCACAGTCATCGTGT,216.4,interpolated,midpoint,220.8,216.4,0.9096,0,10
-human,seqneut25to26_sera_1004_d28,A/Alagoas/3579/2025_H1N1,plate9-ACGGCATCCCAATTGA,339.3,interpolated,midpoint,345.5,339.3,0.9814,0,2.074
+human,seqneut25to26_sera_1004_d28,A/Sydney/1359/2024_H3N2,plate9-AACTCCAATTTGTTTT,562.9,interpolated,midpoint,670.9,562.9,0.9287,0,0.8763
+human,seqneut25to26_sera_1004_d28,A/Sydney/1359/2024_H3N2,plate9-CAGGCTGCTGGGCCGC,194.5,interpolated,midpoint,274,194.5,0.7262,0,2.315
+human,seqneut25to26_sera_1004_d28,A/Missouri/11/2025_H1N1,plate9-GTCACAGTCATCGTGT,216.4,interpolated,midpoint,220.8,216.4,0.9096,0,10
+human,seqneut25to26_sera_1004_d28,A/Missouri/11/2025_H1N1,plate9-ACGGCATCCCAATTGA,339.3,interpolated,midpoint,345.5,339.3,0.9814,0,2.074
 human,seqneut25to26_sera_1004_d28,A/Bangkok/P2229/2025_H1N1,plate9-AAGCGACGCGCGACGG,254.9,interpolated,midpoint,270.4,254.9,0.9371,0,2.285
 human,seqneut25to26_sera_1004_d28,A/Bangkok/P2229/2025_H1N1,plate9-GCTTGTTAGCCTGAAG,311.7,interpolated,midpoint,321.1,311.7,0.9698,0,2.087
 human,seqneut25to26_sera_1004_d28,A/France/ARA-HCL025155099501/2025_H1N1,plate9-ATTAACCAATTGAGCA,299.3,interpolated,midpoint,314.4,299.3,0.9593,0,1.725

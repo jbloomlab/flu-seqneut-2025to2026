@@ -1,7 +1,5 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-human,seqneut25to26_sera_4005,A/Alagoas/3579/2025_H1N1,97.69,interpolated,43.22,2,midpoint
 human,seqneut25to26_sera_4005,A/Alagoas/4130/2025_H3N2,256.3,interpolated,82.31,2,midpoint
-human,seqneut25to26_sera_4005,A/Alaska/63/2025_H3N2,228,interpolated,109,2,midpoint
 human,seqneut25to26_sera_4005,A/Anapolis/LEIAL6543/2025_H3N2,281.5,interpolated,30.38,2,midpoint
 human,seqneut25to26_sera_4005,A/Andalucia/PMC-00977/2025_H1N1,49,interpolated,1.495,2,midpoint
 human,seqneut25to26_sera_4005,A/Aragon/2046/2025_H1N1,70.69,interpolated,4.122,2,midpoint
@@ -60,6 +58,7 @@ human,seqneut25to26_sera_4005,A/Malaysia/IMR/SARI/2517/2025_H3N2,202.3,interpola
 human,seqneut25to26_sera_4005,A/Massachusetts/18/2022_H3N2,68.78,interpolated,79.52,3,midpoint
 human,seqneut25to26_sera_4005,A/Michigan/110/2025_H3N2,332,interpolated,79.1,2,midpoint
 human,seqneut25to26_sera_4005,A/Minnesota/96/2025_H3N2,263.1,interpolated,52.99,2,midpoint
+human,seqneut25to26_sera_4005,A/Missouri/11/2025_H1N1,97.69,interpolated,43.22,2,midpoint
 human,seqneut25to26_sera_4005,A/NewSouthWales/2526015582/2025_H3N2,129.5,interpolated,28.08,2,midpoint
 human,seqneut25to26_sera_4005,A/NewSouthWales/2526015584/2025_H3N2,394.9,interpolated,95.27,2,midpoint
 human,seqneut25to26_sera_4005,A/Norway/8765/2025_H3N2,107.8,interpolated,20.62,2,midpoint
@@ -82,6 +81,7 @@ human,seqneut25to26_sera_4005,A/SouthAustralia/2527003588/2025_H3N2,82.79,interp
 human,seqneut25to26_sera_4005,A/SouthAustralia/2527213276/2025_H3N2,117.5,interpolated,49.88,2,midpoint
 human,seqneut25to26_sera_4005,A/SouthAustralia/2527612456/2025_H1N1,40.16,upper,0.1603,2,midpoint
 human,seqneut25to26_sera_4005,A/SouthAustralia/2527902708/2025_H3N2,67.84,interpolated,25.88,2,midpoint
+human,seqneut25to26_sera_4005,A/Sydney/1359/2024_H3N2,228,interpolated,109,2,midpoint
 human,seqneut25to26_sera_4005,A/Sydney/400/2025_H1N1,52.45,upper,12.45,2,midpoint
 human,seqneut25to26_sera_4005,A/Tasmania/2521815682/2025_H3N2,153.5,interpolated,71.57,2,midpoint
 human,seqneut25to26_sera_4005,A/Thailand/8/2022_H3N2,122.4,interpolated,22.26,3,midpoint

@@ -51,12 +51,12 @@ human,seqneut25to26_sera_0001,A/England/1837734/2025_H3N2,plate1-ATAGCCCTAACGAAA
 human,seqneut25to26_sera_0001,A/England/1837734/2025_H3N2,plate1-TCACACCGCTCAGCCT,82.03,interpolated,midpoint,119.5,82.03,0.8442,0,0.993
 human,seqneut25to26_sera_0001,A/SouthAustralia/2520702747/2025_H1N1,plate1-GCGTAGTTTGATTCAT,58.08,interpolated,midpoint,63.35,58.08,0.9496,0,1.222
 human,seqneut25to26_sera_0001,A/SouthAustralia/2520702747/2025_H1N1,plate1-TCGTGCTGTCATGCAG,51.77,interpolated,midpoint,60.65,51.77,0.8929,0,1.521
-human,seqneut25to26_sera_0001,A/Alaska/63/2025_H3N2,plate1-AACTCCAATTTGTTTT,40,upper,midpoint,62.11,40,0.7489,0,1.398
-human,seqneut25to26_sera_0001,A/Alaska/63/2025_H3N2,plate1-CAGGCTGCTGGGCCGC,83.62,interpolated,midpoint,191.2,83.62,0.758,0,0.8
+human,seqneut25to26_sera_0001,A/Sydney/1359/2024_H3N2,plate1-AACTCCAATTTGTTTT,40,upper,midpoint,62.11,40,0.7489,0,1.398
+human,seqneut25to26_sera_0001,A/Sydney/1359/2024_H3N2,plate1-CAGGCTGCTGGGCCGC,83.62,interpolated,midpoint,191.2,83.62,0.758,0,0.8
 human,seqneut25to26_sera_0001,A/Bangkok/P3263/2025_H3N2,plate1-TATGCTAAGACTTTTT,153.9,interpolated,midpoint,300.3,153.9,0.7894,0,0.8183
 human,seqneut25to26_sera_0001,A/Bangkok/P3263/2025_H3N2,plate1-CTGCCGCCTGCTGTGT,500.6,interpolated,midpoint,829.5,500.6,0.7797,0,1.15
-human,seqneut25to26_sera_0001,A/Alagoas/3579/2025_H1N1,plate1-GTCACAGTCATCGTGT,40,upper,midpoint,45.57,40,0.8787,0,1.393
-human,seqneut25to26_sera_0001,A/Alagoas/3579/2025_H1N1,plate1-ACGGCATCCCAATTGA,49.88,interpolated,midpoint,53.49,49.88,0.9076,0,2.928
+human,seqneut25to26_sera_0001,A/Missouri/11/2025_H1N1,plate1-GTCACAGTCATCGTGT,40,upper,midpoint,45.57,40,0.8787,0,1.393
+human,seqneut25to26_sera_0001,A/Missouri/11/2025_H1N1,plate1-ACGGCATCCCAATTGA,49.88,interpolated,midpoint,53.49,49.88,0.9076,0,2.928
 human,seqneut25to26_sera_0001,A/Minnesota/96/2025_H3N2,plate1-AACTCCCATGGGGCAG,72.08,interpolated,midpoint,80.76,72.08,0.926,0,1.411
 human,seqneut25to26_sera_0001,A/Minnesota/96/2025_H3N2,plate1-ATCCGTTGGGCGACAA,108.6,interpolated,midpoint,195.1,108.6,0.6982,0,1.581
 human,seqneut25to26_sera_0001,A/Vermont/73/2025_H3N2,plate1-GATGACGCGACCTCCT,42.88,interpolated,midpoint,70.52,42.88,0.8358,0,0.8

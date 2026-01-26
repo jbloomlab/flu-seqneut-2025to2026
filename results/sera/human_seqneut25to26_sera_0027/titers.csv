@@ -1,7 +1,5 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-human,seqneut25to26_sera_0027,A/Alagoas/3579/2025_H1N1,71.73,interpolated,21.39,2,midpoint
 human,seqneut25to26_sera_0027,A/Alagoas/4130/2025_H3N2,54.52,interpolated,8.669,2,midpoint
-human,seqneut25to26_sera_0027,A/Alaska/63/2025_H3N2,45.14,upper,5.141,2,midpoint
 human,seqneut25to26_sera_0027,A/Anapolis/LEIAL6543/2025_H3N2,48.3,interpolated,1.427,2,midpoint
 human,seqneut25to26_sera_0027,A/Andalucia/PMC-00977/2025_H1N1,64.77,interpolated,6.767,2,midpoint
 human,seqneut25to26_sera_0027,A/Aragon/2046/2025_H1N1,104,interpolated,26.28,2,midpoint
@@ -60,6 +58,7 @@ human,seqneut25to26_sera_0027,A/Malaysia/IMR/SARI/2517/2025_H3N2,42.15,interpola
 human,seqneut25to26_sera_0027,A/Massachusetts/18/2022_H3N2,40,upper,0,3,midpoint
 human,seqneut25to26_sera_0027,A/Michigan/110/2025_H3N2,40,upper,0,2,midpoint
 human,seqneut25to26_sera_0027,A/Minnesota/96/2025_H3N2,40,upper,0,2,midpoint
+human,seqneut25to26_sera_0027,A/Missouri/11/2025_H1N1,71.73,interpolated,21.39,2,midpoint
 human,seqneut25to26_sera_0027,A/NewSouthWales/2526015582/2025_H3N2,40.14,upper,0.1399,2,midpoint
 human,seqneut25to26_sera_0027,A/NewSouthWales/2526015584/2025_H3N2,73.85,interpolated,13.25,2,midpoint
 human,seqneut25to26_sera_0027,A/Norway/8765/2025_H3N2,40,upper,0,2,midpoint
@@ -82,6 +81,7 @@ human,seqneut25to26_sera_0027,A/SouthAustralia/2527003588/2025_H3N2,40,upper,0,2
 human,seqneut25to26_sera_0027,A/SouthAustralia/2527213276/2025_H3N2,40,upper,0,2,midpoint
 human,seqneut25to26_sera_0027,A/SouthAustralia/2527612456/2025_H1N1,70.94,interpolated,19.16,2,midpoint
 human,seqneut25to26_sera_0027,A/SouthAustralia/2527902708/2025_H3N2,40.71,interpolated,,1,midpoint
+human,seqneut25to26_sera_0027,A/Sydney/1359/2024_H3N2,45.14,upper,5.141,2,midpoint
 human,seqneut25to26_sera_0027,A/Sydney/400/2025_H1N1,55,interpolated,0.1952,2,midpoint
 human,seqneut25to26_sera_0027,A/Tasmania/2521815682/2025_H3N2,40,upper,0,2,midpoint
 human,seqneut25to26_sera_0027,A/Thailand/8/2022_H3N2,40,upper,3.81,3,midpoint

@@ -1,7 +1,5 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-human,seqneut25to26_sera_0015,A/Alagoas/3579/2025_H1N1,41.52,interpolated,0.1661,2,midpoint
 human,seqneut25to26_sera_0015,A/Alagoas/4130/2025_H3N2,118.7,interpolated,15.62,2,midpoint
-human,seqneut25to26_sera_0015,A/Alaska/63/2025_H3N2,48.07,upper,8.07,2,midpoint
 human,seqneut25to26_sera_0015,A/Anapolis/LEIAL6543/2025_H3N2,75.13,interpolated,,1,midpoint
 human,seqneut25to26_sera_0015,A/Andalucia/PMC-00977/2025_H1N1,44.05,upper,4.048,2,midpoint
 human,seqneut25to26_sera_0015,A/Aragon/2046/2025_H1N1,40,upper,0,2,midpoint
@@ -60,6 +58,7 @@ human,seqneut25to26_sera_0015,A/Malaysia/IMR/SARI/2517/2025_H3N2,66.41,interpola
 human,seqneut25to26_sera_0015,A/Massachusetts/18/2022_H3N2,147.6,interpolated,28.23,3,midpoint
 human,seqneut25to26_sera_0015,A/Michigan/110/2025_H3N2,40,upper,,1,midpoint
 human,seqneut25to26_sera_0015,A/Minnesota/96/2025_H3N2,87.06,interpolated,9.921,2,midpoint
+human,seqneut25to26_sera_0015,A/Missouri/11/2025_H1N1,41.52,interpolated,0.1661,2,midpoint
 human,seqneut25to26_sera_0015,A/NewSouthWales/2526015582/2025_H3N2,76.07,interpolated,5.632,2,midpoint
 human,seqneut25to26_sera_0015,A/NewSouthWales/2526015584/2025_H3N2,76.5,interpolated,3,2,midpoint
 human,seqneut25to26_sera_0015,A/Norway/8765/2025_H3N2,81.12,interpolated,34.21,2,midpoint
@@ -81,6 +80,7 @@ human,seqneut25to26_sera_0015,A/SouthAustralia/2527003588/2025_H3N2,40,upper,0,2
 human,seqneut25to26_sera_0015,A/SouthAustralia/2527213276/2025_H3N2,62.16,interpolated,17.44,2,midpoint
 human,seqneut25to26_sera_0015,A/SouthAustralia/2527612456/2025_H1N1,40,upper,0,2,midpoint
 human,seqneut25to26_sera_0015,A/SouthAustralia/2527902708/2025_H3N2,40,upper,,1,midpoint
+human,seqneut25to26_sera_0015,A/Sydney/1359/2024_H3N2,48.07,upper,8.07,2,midpoint
 human,seqneut25to26_sera_0015,A/Sydney/400/2025_H1N1,47.1,upper,7.099,2,midpoint
 human,seqneut25to26_sera_0015,A/Tasmania/2521815682/2025_H3N2,52,interpolated,1.531,2,midpoint
 human,seqneut25to26_sera_0015,A/Thailand/8/2022_H3N2,79.73,interpolated,4.945,3,midpoint

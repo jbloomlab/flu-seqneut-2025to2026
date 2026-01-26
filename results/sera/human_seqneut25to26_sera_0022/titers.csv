@@ -1,7 +1,5 @@
 group,serum,virus,titer,titer_bound,titer_sem,n_replicates,titer_as
-human,seqneut25to26_sera_0022,A/Alagoas/3579/2025_H1N1,97.68,interpolated,12.52,2,midpoint
 human,seqneut25to26_sera_0022,A/Alagoas/4130/2025_H3N2,107.3,interpolated,14.32,2,midpoint
-human,seqneut25to26_sera_0022,A/Alaska/63/2025_H3N2,105.9,interpolated,2.438,2,midpoint
 human,seqneut25to26_sera_0022,A/Anapolis/LEIAL6543/2025_H3N2,55.13,interpolated,2.023,2,midpoint
 human,seqneut25to26_sera_0022,A/Andalucia/PMC-00977/2025_H1N1,60.61,interpolated,5.73,2,midpoint
 human,seqneut25to26_sera_0022,A/Aragon/2046/2025_H1N1,65.26,interpolated,16.3,2,midpoint
@@ -58,6 +56,7 @@ human,seqneut25to26_sera_0022,A/Malaysia/IMR/SARI/2517/2025_H3N2,55.36,interpola
 human,seqneut25to26_sera_0022,A/Massachusetts/18/2022_H3N2,115.5,interpolated,18.18,2,midpoint
 human,seqneut25to26_sera_0022,A/Michigan/110/2025_H3N2,53.06,interpolated,1.648,2,midpoint
 human,seqneut25to26_sera_0022,A/Minnesota/96/2025_H3N2,71.53,interpolated,,1,midpoint
+human,seqneut25to26_sera_0022,A/Missouri/11/2025_H1N1,97.68,interpolated,12.52,2,midpoint
 human,seqneut25to26_sera_0022,A/NewSouthWales/2526015582/2025_H3N2,67.89,interpolated,9,2,midpoint
 human,seqneut25to26_sera_0022,A/NewSouthWales/2526015584/2025_H3N2,104.3,interpolated,21.35,2,midpoint
 human,seqneut25to26_sera_0022,A/Norway/8765/2025_H3N2,56.55,interpolated,1.24,2,midpoint
@@ -80,6 +79,7 @@ human,seqneut25to26_sera_0022,A/SouthAustralia/2527003588/2025_H3N2,40,upper,0,2
 human,seqneut25to26_sera_0022,A/SouthAustralia/2527213276/2025_H3N2,73.13,interpolated,14.19,2,midpoint
 human,seqneut25to26_sera_0022,A/SouthAustralia/2527612456/2025_H1N1,46.01,upper,6.013,2,midpoint
 human,seqneut25to26_sera_0022,A/SouthAustralia/2527902708/2025_H3N2,40,upper,,1,midpoint
+human,seqneut25to26_sera_0022,A/Sydney/1359/2024_H3N2,105.9,interpolated,2.438,2,midpoint
 human,seqneut25to26_sera_0022,A/Sydney/400/2025_H1N1,44.36,upper,4.355,2,midpoint
 human,seqneut25to26_sera_0022,A/Thailand/8/2022_H3N2,143,interpolated,21.9,3,midpoint
 human,seqneut25to26_sera_0022,A/Vermont/73/2025_H3N2,82.89,interpolated,,1,midpoint
