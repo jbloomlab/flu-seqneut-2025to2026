@@ -1,0 +1,49 @@
+bloom_lab_id,cohort,species,age,sex,collection_date,exposure_info
+seqneut25to26_sera_3001,HKU,human,10-19y,female,Aug-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3002,HKU,human,10-19y,female,Aug-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3003,HKU,human,10-19y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3004,HKU,human,10-19y,female,Nov-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3005,HKU,human,10-19y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3006,HKU,human,10-19y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3007,HKU,human,20-29y,male,Aug-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3008,HKU,human,20-29y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3009,HKU,human,20-29y,female,Aug-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3010,HKU,human,20-29y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3011,HKU,human,20-29y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3012,HKU,human,20-29y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3013,HKU,human,30-39y,female,Jul-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3014,HKU,human,30-39y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3015,HKU,human,30-39y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3016,HKU,human,30-39y,female,Jul-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3017,HKU,human,30-39y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3018,HKU,human,30-39y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3019,HKU,human,40-49y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3020,HKU,human,40-49y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3021,HKU,human,40-49y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3022,HKU,human,40-49y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3023,HKU,human,40-49y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3024,HKU,human,40-49y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3025,HKU,human,50-59y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3026,HKU,human,50-59y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3027,HKU,human,50-59y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3028,HKU,human,50-59y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3029,HKU,human,50-59y,female,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3030,HKU,human,50-59y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3031,HKU,human,60-69y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3032,HKU,human,60-69y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3033,HKU,human,60-69y,female,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3034,HKU,human,60-69y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3035,HKU,human,60-69y,male,Oct-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3036,HKU,human,60-69y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3037,HKU,human,70-79y,female,Nov-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3038,HKU,human,70-79y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3039,HKU,human,70-79y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3040,HKU,human,70-79y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3041,HKU,human,70-79y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3042,HKU,human,70-79y,male,Sep-2025,Rountine FU - no reported infection
+seqneut25to26_sera_3043,HKU,human,60-69y,female,Jan-2025,Rountine FU - pre-infection (infection on Aug-2025)
+seqneut25to26_sera_3044,HKU,human,70-79y,male,Jan-2025,Rountine FU - pre-infection (infection on Aug-2025)
+seqneut25to26_sera_3045,HKU,human,40-49y,male,Jul-2025,Rountine FU - pre-infection (infection on Aug-2025)
+seqneut25to26_sera_3046,HKU,human,50-59y,female,Apr-2025,Rountine FU - pre-infection (infection on May-2025)
+seqneut25to26_sera_3047,HKU,human,40-49y,male,Sep-2025,Active surv - post-infection ARI day 28 (infection on Aug-2025)
+seqneut25to26_sera_3048,HKU,human,50-59y,female,Jun-2025,Active surv - post-infection ARI day 28 (infection on May-2025)

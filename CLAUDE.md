@@ -13,6 +13,7 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 ### Currently Implemented
 - ✅ **Viral Library Design**: Influenza strains (H1N1 and H3N2) from late 2025 circulation with multiple barcodes per strain for redundancy (see `data/viral_libraries/`)
 - ✅ **Viral Library Validation**: Automated validation of library CSVs against README specifications (see `scripts/validate_viral_library.py`)
+- ✅ **Sera Metadata Aggregation**: Per-cohort metadata validated and aggregated (see `scripts/aggregate_sera_metadata.py`)
 - ✅ **Library Pooling QC**: Equal volume pool tested on 2026-01-08 to optimize pooling proportions
 - ✅ **Pipeline Configuration**: `config.yml` configured with viral library, neutralization standards, and QC thresholds
 - ✅ **Cluster Execution**: Slurm submission script ready (`run_Hutch_cluster.bash`)
@@ -102,12 +103,14 @@ flu-seqneut-2025to2026/
 ├── run_Hutch_cluster.bash       # Slurm cluster submission
 ├── scripts/
 │   ├── validate_viral_library.py  # Viral library validation script
+│   ├── aggregate_sera_metadata.py # Sera metadata aggregation and validation
 │   └── nextstrain_prot_titers_tree_alignment_and_metadata.py  # Tree input prep
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes
 │   ├── plates/                  # Per-plate sample metadata CSVs
 │   ├── miscellaneous_plates/    # QC and pooling plate data
+│   ├── sera_metadata/           # Per-cohort serum metadata CSVs
 │   └── nextstrain-prot-titers-tree_data/  # Outgroup and site numbering for trees
 ├── results/                     # Pipeline outputs (partially tracked in git)
 ├── auspice/                     # Nextstrain auspice JSON files for tree visualization
@@ -173,6 +176,32 @@ Each row represents one barcode-to-strain mapping with HA ectodomain sequences a
 - Control barcodes used to normalize plate-to-plate variation
 - From Loes et al. (2024) publication
 - Used in QC thresholds for minimum fraction per well
+
+### Sera Metadata
+**Location**: `data/sera_metadata/`
+
+Per-cohort CSV files containing serum sample metadata. The list of files to aggregate is configured in `config.yml` under `sera_metadata`.
+
+**Required columns**:
+- `bloom_lab_id`: Unique identifier for each serum (renamed to `serum` in output)
+- `cohort`: Cohort identifier (e.g., "HKU", "NIID", "PENN", "SCH", "CTS")
+- `species`: Species of serum donor (e.g., "human")
+- `age`: Age of donor; supports numeric, ranges ("10-19y", "18-29"), and open-ended ("75+")
+- `sex`: Sex of donor; accepts "M"/"F", "male"/"female", "Male"/"Female"
+- `collection_date`: Date of collection; accepts "Mon-YYYY" or "Mon-YY" formats
+
+**Aggregation and Validation** (`scripts/aggregate_sera_metadata.py`, rule `aggregate_sera_metadata`):
+- Validates all required columns exist in each input file
+- Ensures no existing `serum` column (would conflict with rename)
+- Validates `bloom_lab_id` is unique within and across all files
+- Validates `cohort` and `species` are non-null
+- Strips whitespace from all string values
+- Normalizes `sex` to "Male", "Female", or "Unknown"
+- Parses `age` to `age_numeric` (midpoint for ranges, lower bound for open-ended like "75+")
+- Standardizes `collection_date` to "YYYY-MM" format
+- Raises explicit errors for any validation failures (fail-fast principle)
+
+**Output**: `results/sera_metadata/all_sera_metadata.csv` with columns: `serum`, `cohort`, `species`, `age`, `sex`, `collection_date`, `age_numeric`, plus any additional columns from source files
 
 ### Configuration
 **File**: `config.yml`
