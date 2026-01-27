@@ -67,6 +67,14 @@ nextstrain-prot-titers-tree_config:
       build-url: https://github.com/jbloomlab/flu-seqneut-2025to2026
       maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
 
+# Sera metadata files to aggregate
+sera_metadata:
+  - data/sera_metadata/sera_for_flu-seqneut-2025to2026_HKU.csv
+  - data/sera_metadata/sera_for_flu-seqneut-2025to2026_NIID.csv
+  - data/sera_metadata/sera_for_flu-seqneut-2025to2026_PENN.csv
+  - data/sera_metadata/sera_for_flu-seqneut-2025to2026_SCH.csv
+  - data/sera_metadata/sera_for_flu-seqneut-2025to2026_UCSF-CTS.csv
+
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 
 seqneut-pipeline: seqneut-pipeline

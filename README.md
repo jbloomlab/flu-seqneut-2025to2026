@@ -48,8 +48,24 @@ Sequencing-based neutralization assays as described in [Loes et al. (2024), *Jou
 There are two CSVs in [data/viral_libraries](data/viral_libraries), one giving the originally designed library and the other giving the library that had strains that passed various QC and are used for the actual titer measurements.
 The strain used for the actual measurements are in [data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv](data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv).
 
-### Human Sera
-- Collection in mid to late 2025 from multiple cohorts
+### Sera
+- Human sera collected in mid to late 2025 from multiple cohorts
+- Per-cohort metadata CSVs stored in [data/sera_metadata/](data/sera_metadata); note that sera may be listed here for which no titers were measured
+- Each sera metadata CSV must have the following required columns (additional columns are allowed):
+  - *bloom_lab_id*: unique identifier for each serum sample; must be non-null and unique across all files
+  - *cohort*: cohort identifier (e.g., "HKU", "NIID", "PENN"); must be non-null
+  - *species*: species of serum donor (e.g., "human"); must be non-null
+  - *age*: age of donor; can be numeric (e.g., "45"), a range with or without 'y' suffix (e.g., "10-19y", "18-29"), or open-ended (e.g., "75+")
+  - *sex*: sex of donor; accepts various formats ("M"/"F", "male"/"female", "Male"/"Female") which are normalized during aggregation
+  - *collection_date*: date of serum collection; accepts "Mon-YYYY" (e.g., "Aug-2025") or "Mon-YY" (e.g., "Nov-25") formats
+
+The per-cohort metadata files are aggregated and validated by `scripts/aggregate_sera_metadata.py` (Snakemake rule `aggregate_sera_metadata`) into [results/sera_metadata/all_sera_metadata.csv](results/sera_metadata/all_sera_metadata.csv).
+The aggregation performs these standardizations:
+  - Renames *bloom_lab_id* to *serum*
+  - Normalizes *sex* to "Male", "Female", or "Unknown"
+  - Parses *age* to create *age_numeric* column (midpoint in years for ranges, lower bound for open-ended)
+  - Standardizes *collection_date* to "YYYY-MM" format
+  - Validates uniqueness of serum IDs across all cohorts
 
 ### Aggregated titers
 The titers aggregated across plates are in [results/aggregated_titers/](results/aggregated_titers/).
@@ -69,6 +85,7 @@ flu-seqneut-2025to2026/
 │   ├── neut_standard_sets/      # Neutralization control barcodes (Loes et al. 2024)
 │   ├── plates/                  # Per-plate sample metadata CSVs
 │   ├── miscellaneous_plates/    # QC and pooling validation data
+│   ├── sera_metadata/           # Per-cohort serum metadata CSVs
 │   └── nextstrain-prot-titers-tree_data/  # Outgroup and site numbering for trees
 │
 ├── results/                     # Pipeline outputs (key files tracked in git)

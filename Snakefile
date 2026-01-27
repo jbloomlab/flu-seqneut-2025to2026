@@ -30,6 +30,8 @@ rule all:
         ),
         # auspice JSONs from nextstrain-prot-titers-tree
         auspice_jsons,
+        # aggregated sera metadata
+        "results/sera_metadata/all_sera_metadata.csv",
 
 
 # =======================================================================================
@@ -52,6 +54,23 @@ rule validate_viral_library:
         "seqneut-pipeline/environment.yml"
     script:
         "scripts/validate_viral_library.py"
+
+
+# Aggregate and validate sera metadata --------------------------------------------------
+
+
+rule aggregate_sera_metadata:
+    """Aggregate and validate sera metadata from multiple cohorts."""
+    input:
+        csvs=config["sera_metadata"],
+    output:
+        csv="results/sera_metadata/all_sera_metadata.csv",
+    log:
+        "results/logs/aggregate_sera_metadata.txt",
+    conda:
+        "seqneut-pipeline/environment.yml"
+    script:
+        "scripts/aggregate_sera_metadata.py"
 
 
 # Build nextstrain-prot-titers-tree inputs ----------------------------------------------

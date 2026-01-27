@@ -66,3 +66,7 @@ results/aggregated_analyses/*
 !results/validate_viral_library
 results/validate_viral_library/*
 !results/validate_viral_library/*_validation.txt
+
+!results/sera_metadata
+results/sera_metadata/*
+!results/sera_metadata/all_sera_metadata.csv
