@@ -27,6 +27,7 @@ viruses = pd.read_csv(snakemake.input.viral_libraries_csv)[
     [
         "strain",
         "subtype",
+        "derived_haplotype",
         "strain_type",
         "protein_sequence_HA_ectodomain",
         "subclade",
