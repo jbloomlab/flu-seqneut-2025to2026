@@ -7,11 +7,14 @@ The goal is to provide near real-time neutralization data to inform the **Februa
 The data here are described in *Add link to preprint*.
 
 ## Quick links
-Here are quick links with key data and results:
+Here are quick links with key data/results:
 
-- Viral library: [data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv](data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv) has details of the barcoded viral strains in the actual library used for the titer measurements.
-
-- Measured neutralization titers: [results/aggregated_titers/](results/aggregated_titers/)
+- [results/final_titer_data](results/final_titer_data) has the final titer data and information on the viruses and sera for which these final data were obtained. Specifically:
+  + For human sera:
+    * [results/final_titer_data/human_titers.csv](results/final_titer_data/human_titers.csv): final set of titers for each virus/serum pair (keeping only viruses for which titers measured against most sera, and sera for which titers measured against most viruses).
+    * [results/final_titer_data/human_sera.csv](results/final_titer_data/human_sera.csv): detailed information about the sera for which these titers were measured.
+    * [results/final_titer_data/human_viruses.csv](results/final_titer_data/human_viruses.csv): detailed information about the viruses for which these titers were measured.
+    * [results/final_titer_data/human_titers_summarized_by_virus.csv](results/final_titer_data/human_titers_summarized_by_virus.csv): summary statistics about the titers against each virus.
 
 - Interactive Nextstrain protein trees (colored by subclade; titers will be added when available):
   - [H3N2](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2)
@@ -21,6 +24,9 @@ Here are quick links with key data and results:
 
 ### Assay Method
 Sequencing-based neutralization assays as described in [Loes et al. (2024), *Journal of Virology*](https://doi.org/10.1128/jvi.00689-24) and [Kikawa et al. (2025), *Virus Evolution*](https://academic.oup.com/ve/article/11/1/veaf086/8313343).
+
+### Final QC-ed titer data
+If you don't care to understand the overall repo structure and are just looking for final QC-ed titer data and information on the sera / viruses for which those titers were generated, look in [results/final_titer_data/](results/final_titer_data/).
 
 ### Viral Library
 - Influenza strains (H3N2 and H1N1 pdm09) from late 2025 to early 2026 circulation
@@ -48,6 +54,8 @@ Sequencing-based neutralization assays as described in [Loes et al. (2024), *Jou
 There are two CSVs in [data/viral_libraries](data/viral_libraries), one giving the originally designed library and the other giving the library that had strains that passed various QC and are used for the actual titer measurements.
 The strain used for the actual measurements are in [data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv](data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv).
 
+Details about the viruses in these files that are actually used to generate final titer data are in [results/final_titer_data/](results/final_titer_data/).
+
 ### Sera
 - Human sera collected in mid to late 2025 from multiple cohorts
 - Per-cohort metadata CSVs stored in [data/sera_metadata/](data/sera_metadata); note that sera may be listed here for which no titers were measured
@@ -67,8 +75,12 @@ The aggregation performs these standardizations:
   - Standardizes *collection_date* to "YYYY-MM" format
   - Validates uniqueness of serum IDs across all cohorts
 
+Details about the sera in these files for which we actually obtained high-quality titer data are in [results/final_titer_data/](results/final_titer_data/).
+
 ### Aggregated titers
 The titers aggregated across plates are in [results/aggregated_titers/](results/aggregated_titers/).
+
+The titers after classifying by species from which the sera came and subsetting for just titers for viruses and sera which are well measured are in [results/final_titer_data/](results/final_titer_data/).
 
 ## Repository Structure
 
@@ -317,6 +329,28 @@ The pipeline validates viral library CSVs against the specifications above using
 - H1N1: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1
 
 **Configuration**: Tree parameters are in `config.yml` under `nextstrain-prot-titers-tree_config`. Key settings include `color_by_metadata` (columns to color by), `titers` (set to `null` until titer data available), and `display_defaults`.
+
+### 11. Final Titer Data Processing
+
+**Pipeline Rule**: `process_final_titer_data`
+
+**Goal**: Produce QC'd, publication-ready titer datasets with associated metadata.
+
+**Process**:
+- Validates that all sera and viruses in titers have corresponding metadata
+- Drops explicitly specified sera and viruses (configured in `process_final_titer_data`)
+- Filters sera/viruses that don't meet minimum completeness thresholds
+- Generates separate CSV files for titers, sera metadata, and virus metadata
+- Computes summary statistics by virus and cohort
+
+**Key Outputs** (in `results/final_titer_data/`):
+- `{group}_titers.csv` - One row per serum-virus titer measurement
+- `{group}_sera.csv` - Metadata for sera included in final dataset
+- `{group}_viruses.csv` - Metadata for viruses included in final dataset
+- `{group}_titers_summarized_by_virus.csv` - Per-virus statistics across sera
+- `{group}_summary.txt` - Processing log with counts at each step
+
+**Configuration**: Parameters in `config.yml` under `process_final_titer_data`.
 
 ## Quality Control Philosophy
 

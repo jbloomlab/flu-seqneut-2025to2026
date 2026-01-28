@@ -75,6 +75,18 @@ sera_metadata:
   - data/sera_metadata/sera_for_flu-seqneut-2025to2026_SCH.csv
   - data/sera_metadata/sera_for_flu-seqneut-2025to2026_UCSF-CTS.csv
 
+# Aggregate and QC final processed titer data for each serum group, which must match
+# the species designation in the serum metadata.
+process_final_titer_data:
+  viral_library: actual  # must specify viral library in viral_libraries used to run plate
+  min_frac_viruses: 0.9  # only include sera w titers against this fraction of viral strains
+  min_frac_sera: 0.8  # only include strains w titers against this fraction of sera
+  min_frac_action: drop  # "drop" sera / strains below min_frac, or "raise" an error
+  sera_to_drop: []  # list names of sera to drop
+  viruses_to_drop: []  # list names of viral strains to drop
+  titer_cutoffs: [140]  # report fraction sera w titer below this cutoff for each cutoff
+
+
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 
 seqneut-pipeline: seqneut-pipeline

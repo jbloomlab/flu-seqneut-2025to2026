@@ -70,3 +70,8 @@ results/validate_viral_library/*
 !results/sera_metadata
 results/sera_metadata/*
 !results/sera_metadata/all_sera_metadata.csv
+
+!results/final_titer_data
+results/final_titer_data/*
+!results/final_titer_data/*.csv
+!results/final_titer_data/*_summary.txt
