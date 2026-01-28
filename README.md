@@ -16,7 +16,7 @@ Here are quick links with key data/results:
     * [results/final_titer_data/human_viruses.csv](results/final_titer_data/human_viruses.csv): detailed information about the viruses for which these titers were measured.
     * [results/final_titer_data/human_titers_summarized_by_virus.csv](results/final_titer_data/human_titers_summarized_by_virus.csv): summary statistics about the titers against each virus.
 
-- Interactive Nextstrain protein trees (colored by subclade; titers will be added when available):
+- Interactive Nextstrain protein trees (can be colored by subclade, median titer, or fraction below titer cutoff for each cohort):
   - [H3N2](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2)
   - [H1N1](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1)
 
@@ -310,10 +310,11 @@ The pipeline validates viral library CSVs against the specifications above using
 - Extracts protein sequences from viral library for circulating strains and recent vaccine strains
 - Prepends prefix amino acids if needed (H1N1 sequences need "DTL" added to match full ectodomain)
 - Generates alignment FASTA and metadata TSV for each subtype
+- When titers configured: processes summarized titers to add median titer and fraction below cutoff columns to metadata, and creates per-serum titers TSV for measurements panel
 - Builds phylogenetic tree using IQ-TREE
 - Refines tree and extracts amino acid mutations using TreeTime
 - Exports to Auspice JSON format for Nextstrain visualization
-- Optionally overlays per-serum titer measurements (when titer data available)
+- Overlays per-serum titer measurements in interactive measurements panel
 
 **Key Inputs** (in `data/nextstrain-prot-titers-tree_data/`):
 - `{subtype}_outgroup.fa` - Reference sequence for rooting the tree
@@ -321,14 +322,21 @@ The pipeline validates viral library CSVs against the specifications above using
 
 **Key Outputs**:
 - `results/nextstrain-prot-titers-tree/{subtype}/alignment.fa` - Protein alignment
-- `results/nextstrain-prot-titers-tree/{subtype}/metadata.tsv` - Strain metadata
+- `results/nextstrain-prot-titers-tree/{subtype}/metadata.tsv` - Strain metadata with titer summary columns
+- `results/nextstrain-prot-titers-tree/{subtype}/titers.tsv` - Per-serum titers for tree overlay
 - `auspice/flu-seqneut-2025to2026_{subtype}.json` - Auspice tree JSON (tracked in git)
+- `auspice/flu-seqneut-2025to2026_{subtype}_measurements.json` - Auspice titer measurements JSON (tracked in git), created only if titers specified for tree
 
 **Visualization**: Trees are viewable as [Nextstrain Community Builds](https://docs.nextstrain.org/en/latest/guides/share/community-builds.html):
 - H3N2: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2
 - H1N1: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1
 
-**Configuration**: Tree parameters are in `config.yml` under `nextstrain-prot-titers-tree_config`. Key settings include `color_by_metadata` (columns to color by), `titers` (set to `null` until titer data available), and `display_defaults`.
+**Configuration**: Tree parameters are in `config.yml` under `nextstrain-prot-titers-tree_config`. Key settings:
+- `nextstrain-prot-titers-tree_titers_from`: Species for titer data (e.g., `human`). When set, enables titer overlay on trees with input files derived from `results/final_titer_data/{species}_*.csv`.
+- `serum_cohorts_for_tree`: List of cohorts to include in tree coloring. Generates `median_titer_{cohort}_sera` and `frac_w_titer_below_{cutoff}_{cohort}_sera` columns.
+- `color_by_metadata`: Columns available for tree coloring (strain_type, subclade, and titer columns).
+- `titers`: Configuration for the per-serum titers measurement panel.
+- `display_defaults`: Default tree display options (color_by, distance_measure, branch_label).
 
 ### 11. Final Titer Data Processing
 

@@ -273,9 +273,13 @@ The `nextstrain-prot-titers-tree_config` section in `config.yml` controls tree b
 - `alignment`, `metadata`: Built by pipeline from viral library
 - `outgroup`: Reference sequence for tree rooting (in `data/nextstrain-prot-titers-tree_data/`)
 - `site_numbering_map`: Maps alignment positions to HA1/HA2 numbering
-- `color_by_metadata`: Metadata columns to color tree by (strain_type, subclade, titers when available)
-- `titers`: Set to `null` until titer data available; later points to titers TSV
+- `color_by_metadata`: Metadata columns to color tree by. When titers are configured, YTE templating adds columns for each cohort in `serum_cohorts_for_tree` and each cutoff in `titer_cutoffs` (e.g., `median_titer_{cohort}_sera`, `frac_w_titer_below_{cutoff}_{cohort}_sera`).
+- `titers`: When configured, specifies the titers TSV path, titer column (`log2_titer`), and grouping columns for the measurements panel.
 - `auspice_json`: Output path for Nextstrain visualization
+
+Additional config keys for titer overlay:
+- `nextstrain-prot-titers-tree_titers_from`: Species from which titer data is taken (e.g., `human`). When set, enables titer overlay on trees. Input files are derived as `results/final_titer_data/{species}_titers.csv`, `{species}_sera.csv`, and `{species}_titers_summarized_by_virus.csv`. Set to `null` to disable titer overlay.
+- `serum_cohorts_for_tree`: List of cohorts (from `cohort` column in summarized titers) to include in tree coloring.
 
 The `recent_vaccine_strains` config maps strain names to display labels for vaccine strains to include alongside circulating strains.
 

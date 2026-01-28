@@ -2,7 +2,7 @@
   "version": "v2",
   "meta": {
     "title": "Near real-time data on human neutralizing antibody landscape to H3N2 influenza virus for February 2026 vaccine selection",
-    "updated": "2026-01-25",
+    "updated": "2026-01-28",
     "build_url": "https://github.com/jbloomlab/flu-seqneut-2025to2026",
     "maintainers": [
       {
@@ -11,7 +11,7 @@
       }
     ],
     "display_defaults": {
-      "color_by": "subclade",
+      "color_by": "median_titer_All_sera",
       "distance_measure": "div",
       "branch_label": "aa"
     },
@@ -55,15 +55,892 @@
         "key": "subclade",
         "title": "subclade",
         "type": "categorical"
+      },
+      {
+        "key": "median_titer_All_sera",
+        "title": "median_titer_All_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            188.10000000000014,
+            "#fde725"
+          ],
+          [
+            238.43710498220653,
+            "#a0da39"
+          ],
+          [
+            302.2448327075797,
+            "#4ac16d"
+          ],
+          [
+            383.1280324647878,
+            "#1fa187"
+          ],
+          [
+            485.65624082101425,
+            "#277f8e"
+          ],
+          [
+            615.6218398612647,
+            "#365c8d"
+          ],
+          [
+            780.3673006929262,
+            "#46327e"
+          ],
+          [
+            989.2000000000013,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 188.10000000000014,
+            "display": "188"
+          },
+          {
+            "value": 238.43710498220653,
+            "display": "238"
+          },
+          {
+            "value": 302.2448327075797,
+            "display": "302"
+          },
+          {
+            "value": 383.1280324647878,
+            "display": "383"
+          },
+          {
+            "value": 485.65624082101425,
+            "display": "486"
+          },
+          {
+            "value": 615.6218398612647,
+            "display": "616"
+          },
+          {
+            "value": 780.3673006929262,
+            "display": "780"
+          },
+          {
+            "value": 989.2000000000013,
+            "display": "989"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_All_sera",
+        "title": "frac_w_titer_below_140_All_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.07831,
+            "#440154"
+          ],
+          [
+            0.12656571428571428,
+            "#46327e"
+          ],
+          [
+            0.17482142857142857,
+            "#365c8d"
+          ],
+          [
+            0.22307714285714286,
+            "#277f8e"
+          ],
+          [
+            0.27133285714285715,
+            "#1fa187"
+          ],
+          [
+            0.31958857142857144,
+            "#4ac16d"
+          ],
+          [
+            0.36784428571428573,
+            "#a0da39"
+          ],
+          [
+            0.4161,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.07831,
+            "display": "0.0783"
+          },
+          {
+            "value": 0.12656571428571428,
+            "display": "0.127"
+          },
+          {
+            "value": 0.17482142857142857,
+            "display": "0.175"
+          },
+          {
+            "value": 0.22307714285714286,
+            "display": "0.223"
+          },
+          {
+            "value": 0.27133285714285715,
+            "display": "0.271"
+          },
+          {
+            "value": 0.31958857142857144,
+            "display": "0.32"
+          },
+          {
+            "value": 0.36784428571428573,
+            "display": "0.368"
+          },
+          {
+            "value": 0.4161,
+            "display": "0.416"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_NIID_sera",
+        "title": "median_titer_NIID_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            77.30000000000003,
+            "#fde725"
+          ],
+          [
+            104.44192840660445,
+            "#a0da39"
+          ],
+          [
+            141.11405445394928,
+            "#4ac16d"
+          ],
+          [
+            190.66266458531754,
+            "#1fa187"
+          ],
+          [
+            257.6090085955002,
+            "#277f8e"
+          ],
+          [
+            348.0618581193733,
+            "#365c8d"
+          ],
+          [
+            470.2749245378172,
+            "#46327e"
+          ],
+          [
+            635.4000000000003,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 77.30000000000003,
+            "display": "77.3"
+          },
+          {
+            "value": 104.44192840660445,
+            "display": "104"
+          },
+          {
+            "value": 141.11405445394928,
+            "display": "141"
+          },
+          {
+            "value": 190.66266458531754,
+            "display": "191"
+          },
+          {
+            "value": 257.6090085955002,
+            "display": "258"
+          },
+          {
+            "value": 348.0618581193733,
+            "display": "348"
+          },
+          {
+            "value": 470.2749245378172,
+            "display": "470"
+          },
+          {
+            "value": 635.4000000000003,
+            "display": "635"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_NIID_sera",
+        "title": "frac_w_titer_below_140_NIID_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.1111,
+            "#440154"
+          ],
+          [
+            0.19047142857142857,
+            "#46327e"
+          ],
+          [
+            0.26984285714285716,
+            "#365c8d"
+          ],
+          [
+            0.3492142857142857,
+            "#277f8e"
+          ],
+          [
+            0.42858571428571424,
+            "#1fa187"
+          ],
+          [
+            0.5079571428571428,
+            "#4ac16d"
+          ],
+          [
+            0.5873285714285714,
+            "#a0da39"
+          ],
+          [
+            0.6667,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.1111,
+            "display": "0.111"
+          },
+          {
+            "value": 0.19047142857142857,
+            "display": "0.19"
+          },
+          {
+            "value": 0.26984285714285716,
+            "display": "0.27"
+          },
+          {
+            "value": 0.3492142857142857,
+            "display": "0.349"
+          },
+          {
+            "value": 0.42858571428571424,
+            "display": "0.429"
+          },
+          {
+            "value": 0.5079571428571428,
+            "display": "0.508"
+          },
+          {
+            "value": 0.5873285714285714,
+            "display": "0.587"
+          },
+          {
+            "value": 0.6667,
+            "display": "0.667"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_PENN_sera",
+        "title": "median_titer_PENN_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            190.70000000000007,
+            "#fde725"
+          ],
+          [
+            246.44548368522308,
+            "#a0da39"
+          ],
+          [
+            318.4865046085137,
+            "#4ac16d"
+          ],
+          [
+            411.5865793154754,
+            "#1fa187"
+          ],
+          [
+            531.9016969992067,
+            "#277f8e"
+          ],
+          [
+            687.3873675404329,
+            "#365c8d"
+          ],
+          [
+            888.3246579581233,
+            "#46327e"
+          ],
+          [
+            1147.9999999999998,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 190.70000000000007,
+            "display": "191"
+          },
+          {
+            "value": 246.44548368522308,
+            "display": "246"
+          },
+          {
+            "value": 318.4865046085137,
+            "display": "318"
+          },
+          {
+            "value": 411.5865793154754,
+            "display": "412"
+          },
+          {
+            "value": 531.9016969992067,
+            "display": "532"
+          },
+          {
+            "value": 687.3873675404329,
+            "display": "687"
+          },
+          {
+            "value": 888.3246579581233,
+            "display": "888"
+          },
+          {
+            "value": 1147.9999999999998,
+            "display": "1.15e+03"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_PENN_sera",
+        "title": "frac_w_titer_below_140_PENN_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.008475,
+            "#440154"
+          ],
+          [
+            0.059764285714285714,
+            "#46327e"
+          ],
+          [
+            0.11105357142857142,
+            "#365c8d"
+          ],
+          [
+            0.16234285714285715,
+            "#277f8e"
+          ],
+          [
+            0.21363214285714285,
+            "#1fa187"
+          ],
+          [
+            0.2649214285714286,
+            "#4ac16d"
+          ],
+          [
+            0.3162107142857143,
+            "#a0da39"
+          ],
+          [
+            0.3675,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.008475,
+            "display": "0.00847"
+          },
+          {
+            "value": 0.059764285714285714,
+            "display": "0.0598"
+          },
+          {
+            "value": 0.11105357142857142,
+            "display": "0.111"
+          },
+          {
+            "value": 0.16234285714285715,
+            "display": "0.162"
+          },
+          {
+            "value": 0.21363214285714285,
+            "display": "0.214"
+          },
+          {
+            "value": 0.2649214285714286,
+            "display": "0.265"
+          },
+          {
+            "value": 0.3162107142857143,
+            "display": "0.316"
+          },
+          {
+            "value": 0.3675,
+            "display": "0.367"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_PENN_0-days-post-vax_sera",
+        "title": "median_titer_PENN_0-days-post-vax_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            162.09999999999997,
+            "#fde725"
+          ],
+          [
+            204.597927750998,
+            "#a0da39"
+          ],
+          [
+            258.23758198644424,
+            "#4ac16d"
+          ],
+          [
+            325.94000087510784,
+            "#1fa187"
+          ],
+          [
+            411.39203423939244,
+            "#277f8e"
+          ],
+          [
+            519.2471172032534,
+            "#365c8d"
+          ],
+          [
+            655.3786808788731,
+            "#46327e"
+          ],
+          [
+            827.2,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 162.09999999999997,
+            "display": "162"
+          },
+          {
+            "value": 204.597927750998,
+            "display": "205"
+          },
+          {
+            "value": 258.23758198644424,
+            "display": "258"
+          },
+          {
+            "value": 325.94000087510784,
+            "display": "326"
+          },
+          {
+            "value": 411.39203423939244,
+            "display": "411"
+          },
+          {
+            "value": 519.2471172032534,
+            "display": "519"
+          },
+          {
+            "value": 655.3786808788731,
+            "display": "655"
+          },
+          {
+            "value": 827.2,
+            "display": "827"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_PENN_0-days-post-vax_sera",
+        "title": "frac_w_titer_below_140_PENN_0-days-post-vax_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.01695,
+            "#440154"
+          ],
+          [
+            0.08232857142857142,
+            "#46327e"
+          ],
+          [
+            0.14770714285714284,
+            "#365c8d"
+          ],
+          [
+            0.21308571428571427,
+            "#277f8e"
+          ],
+          [
+            0.2784642857142857,
+            "#1fa187"
+          ],
+          [
+            0.3438428571428571,
+            "#4ac16d"
+          ],
+          [
+            0.40922142857142857,
+            "#a0da39"
+          ],
+          [
+            0.4746,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.01695,
+            "display": "0.0169"
+          },
+          {
+            "value": 0.08232857142857142,
+            "display": "0.0823"
+          },
+          {
+            "value": 0.14770714285714284,
+            "display": "0.148"
+          },
+          {
+            "value": 0.21308571428571427,
+            "display": "0.213"
+          },
+          {
+            "value": 0.2784642857142857,
+            "display": "0.278"
+          },
+          {
+            "value": 0.3438428571428571,
+            "display": "0.344"
+          },
+          {
+            "value": 0.40922142857142857,
+            "display": "0.409"
+          },
+          {
+            "value": 0.4746,
+            "display": "0.475"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_PENN_28-days-post-vax_sera",
+        "title": "median_titer_PENN_28-days-post-vax_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            275.99999999999983,
+            "#fde725"
+          ],
+          [
+            360.438949497529,
+            "#a0da39"
+          ],
+          [
+            470.71100114087744,
+            "#4ac16d"
+          ],
+          [
+            614.7194882903918,
+            "#1fa187"
+          ],
+          [
+            802.7856760690129,
+            "#277f8e"
+          ],
+          [
+            1048.3884991086188,
+            "#365c8d"
+          ],
+          [
+            1369.1306133478313,
+            "#46327e"
+          ],
+          [
+            1788.0000000000005,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 275.99999999999983,
+            "display": "276"
+          },
+          {
+            "value": 360.438949497529,
+            "display": "360"
+          },
+          {
+            "value": 470.71100114087744,
+            "display": "471"
+          },
+          {
+            "value": 614.7194882903918,
+            "display": "615"
+          },
+          {
+            "value": 802.7856760690129,
+            "display": "803"
+          },
+          {
+            "value": 1048.3884991086188,
+            "display": "1.05e+03"
+          },
+          {
+            "value": 1369.1306133478313,
+            "display": "1.37e+03"
+          },
+          {
+            "value": 1788.0000000000005,
+            "display": "1.79e+03"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_PENN_28-days-post-vax_sera",
+        "title": "frac_w_titer_below_140_PENN_28-days-post-vax_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.0,
+            "#440154"
+          ],
+          [
+            0.036942857142857145,
+            "#46327e"
+          ],
+          [
+            0.07388571428571429,
+            "#365c8d"
+          ],
+          [
+            0.11082857142857144,
+            "#277f8e"
+          ],
+          [
+            0.14777142857142858,
+            "#1fa187"
+          ],
+          [
+            0.18471428571428572,
+            "#4ac16d"
+          ],
+          [
+            0.22165714285714289,
+            "#a0da39"
+          ],
+          [
+            0.2586,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.0,
+            "display": "0"
+          },
+          {
+            "value": 0.036942857142857145,
+            "display": "0.0369"
+          },
+          {
+            "value": 0.07388571428571429,
+            "display": "0.0739"
+          },
+          {
+            "value": 0.11082857142857144,
+            "display": "0.111"
+          },
+          {
+            "value": 0.14777142857142858,
+            "display": "0.148"
+          },
+          {
+            "value": 0.18471428571428572,
+            "display": "0.185"
+          },
+          {
+            "value": 0.22165714285714289,
+            "display": "0.222"
+          },
+          {
+            "value": 0.2586,
+            "display": "0.259"
+          }
+        ]
+      },
+      {
+        "key": "median_titer_SCH_sera",
+        "title": "median_titer_SCH_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            93.56,
+            "#fde725"
+          ],
+          [
+            121.95461543941074,
+            "#a0da39"
+          ],
+          [
+            158.9667403481676,
+            "#4ac16d"
+          ],
+          [
+            207.21171106046856,
+            "#1fa187"
+          ],
+          [
+            270.0985948794542,
+            "#277f8e"
+          ],
+          [
+            352.07108026131925,
+            "#365c8d"
+          ],
+          [
+            458.9214749958006,
+            "#46327e"
+          ],
+          [
+            598.2000000000002,
+            "#440154"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 93.56,
+            "display": "93.6"
+          },
+          {
+            "value": 121.95461543941074,
+            "display": "122"
+          },
+          {
+            "value": 158.9667403481676,
+            "display": "159"
+          },
+          {
+            "value": 207.21171106046856,
+            "display": "207"
+          },
+          {
+            "value": 270.0985948794542,
+            "display": "270"
+          },
+          {
+            "value": 352.07108026131925,
+            "display": "352"
+          },
+          {
+            "value": 458.9214749958006,
+            "display": "459"
+          },
+          {
+            "value": 598.2000000000002,
+            "display": "598"
+          }
+        ]
+      },
+      {
+        "key": "frac_w_titer_below_140_SCH_sera",
+        "title": "frac_w_titer_below_140_SCH_sera",
+        "type": "continuous",
+        "scale": [
+          [
+            0.2308,
+            "#440154"
+          ],
+          [
+            0.2820714285714286,
+            "#46327e"
+          ],
+          [
+            0.33334285714285716,
+            "#365c8d"
+          ],
+          [
+            0.3846142857142857,
+            "#277f8e"
+          ],
+          [
+            0.4358857142857143,
+            "#1fa187"
+          ],
+          [
+            0.48715714285714284,
+            "#4ac16d"
+          ],
+          [
+            0.5384285714285715,
+            "#a0da39"
+          ],
+          [
+            0.5897,
+            "#fde725"
+          ]
+        ],
+        "legend": [
+          {
+            "value": 0.2308,
+            "display": "0.231"
+          },
+          {
+            "value": 0.2820714285714286,
+            "display": "0.282"
+          },
+          {
+            "value": 0.33334285714285716,
+            "display": "0.333"
+          },
+          {
+            "value": 0.3846142857142857,
+            "display": "0.385"
+          },
+          {
+            "value": 0.4358857142857143,
+            "display": "0.436"
+          },
+          {
+            "value": 0.48715714285714284,
+            "display": "0.487"
+          },
+          {
+            "value": 0.5384285714285715,
+            "display": "0.538"
+          },
+          {
+            "value": 0.5897,
+            "display": "0.59"
+          }
+        ]
       }
     ],
     "filters": [
-      "strain_type",
-      "subclade"
+      "subclade",
+      "strain_type"
     ],
     "panels": [
       "tree",
-      "entropy"
+      "entropy",
+      "measurements"
     ]
   },
   "tree": {
@@ -83,8 +960,44 @@
           "num_date": {
             "value": 2025.63
           },
+          "median_titer_PENN_0-days-post-vax_sera": {
+            "value": "372.0"
+          },
+          "frac_w_titer_below_140_All_sera": {
+            "value": "0.1879"
+          },
+          "median_titer_PENN_sera": {
+            "value": "570.5"
+          },
+          "frac_w_titer_below_140_PENN_sera": {
+            "value": "0.1186"
+          },
           "subclade": {
             "value": "G.1.3.1"
+          },
+          "frac_w_titer_below_140_NIID_sera": {
+            "value": "0.3333"
+          },
+          "median_titer_SCH_sera": {
+            "value": "345.8"
+          },
+          "frac_w_titer_below_140_SCH_sera": {
+            "value": "0.3684"
+          },
+          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+            "value": "0.0678"
+          },
+          "median_titer_All_sera": {
+            "value": "534.4"
+          },
+          "median_titer_NIID_sera": {
+            "value": "162.3"
+          },
+          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+            "value": "0.1695"
+          },
+          "median_titer_PENN_28-days-post-vax_sera": {
+            "value": "858.3"
           },
           "strain_type": {
             "value": "circulating_2025to2026"
@@ -155,8 +1068,44 @@
                   "num_date": {
                     "value": 2025.67
                   },
+                  "median_titer_PENN_0-days-post-vax_sera": {
+                    "value": "367.4"
+                  },
+                  "frac_w_titer_below_140_All_sera": {
+                    "value": "0.2317"
+                  },
+                  "median_titer_PENN_sera": {
+                    "value": "582.8"
+                  },
+                  "frac_w_titer_below_140_PENN_sera": {
+                    "value": "0.161"
+                  },
                   "subclade": {
                     "value": "J.2"
+                  },
+                  "frac_w_titer_below_140_NIID_sera": {
+                    "value": "0.3333"
+                  },
+                  "median_titer_SCH_sera": {
+                    "value": "478.1"
+                  },
+                  "frac_w_titer_below_140_SCH_sera": {
+                    "value": "0.4324"
+                  },
+                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                    "value": "0.0678"
+                  },
+                  "median_titer_All_sera": {
+                    "value": "534.2"
+                  },
+                  "median_titer_NIID_sera": {
+                    "value": "185.8"
+                  },
+                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                    "value": "0.2542"
+                  },
+                  "median_titer_PENN_28-days-post-vax_sera": {
+                    "value": "857.4"
                   },
                   "strain_type": {
                     "value": "circulating_2025to2026"
@@ -180,8 +1129,44 @@
                   "num_date": {
                     "value": 2025.73
                   },
+                  "median_titer_PENN_0-days-post-vax_sera": {
+                    "value": "411.7"
+                  },
+                  "frac_w_titer_below_140_All_sera": {
+                    "value": "0.2364"
+                  },
+                  "median_titer_PENN_sera": {
+                    "value": "557.8"
+                  },
+                  "frac_w_titer_below_140_PENN_sera": {
+                    "value": "0.161"
+                  },
                   "subclade": {
                     "value": "J.2"
+                  },
+                  "frac_w_titer_below_140_NIID_sera": {
+                    "value": "0.3333"
+                  },
+                  "median_titer_SCH_sera": {
+                    "value": "533.5"
+                  },
+                  "frac_w_titer_below_140_SCH_sera": {
+                    "value": "0.4474"
+                  },
+                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                    "value": "0.0678"
+                  },
+                  "median_titer_All_sera": {
+                    "value": "536.2"
+                  },
+                  "median_titer_NIID_sera": {
+                    "value": "163.4"
+                  },
+                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                    "value": "0.2542"
+                  },
+                  "median_titer_PENN_28-days-post-vax_sera": {
+                    "value": "699.2"
                   },
                   "strain_type": {
                     "value": "circulating_2025to2026"
@@ -196,8 +1181,44 @@
                   "num_date": {
                     "value": 2025.73
                   },
+                  "median_titer_PENN_0-days-post-vax_sera": {
+                    "value": "342.5"
+                  },
+                  "frac_w_titer_below_140_All_sera": {
+                    "value": "0.253"
+                  },
+                  "median_titer_PENN_sera": {
+                    "value": "510.4"
+                  },
+                  "frac_w_titer_below_140_PENN_sera": {
+                    "value": "0.178"
+                  },
                   "subclade": {
                     "value": "J.2"
+                  },
+                  "frac_w_titer_below_140_NIID_sera": {
+                    "value": "0.3333"
+                  },
+                  "median_titer_SCH_sera": {
+                    "value": "413.5"
+                  },
+                  "frac_w_titer_below_140_SCH_sera": {
+                    "value": "0.4615"
+                  },
+                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                    "value": "0.08475"
+                  },
+                  "median_titer_All_sera": {
+                    "value": "489.8"
+                  },
+                  "median_titer_NIID_sera": {
+                    "value": "176.1"
+                  },
+                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                    "value": "0.2712"
+                  },
+                  "median_titer_PENN_28-days-post-vax_sera": {
+                    "value": "793.6"
                   },
                   "strain_type": {
                     "value": "circulating_2025to2026"
@@ -263,8 +1284,44 @@
                       "num_date": {
                         "value": 2025.74
                       },
+                      "median_titer_PENN_0-days-post-vax_sera": {
+                        "value": "233.4"
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": "0.2892"
+                      },
+                      "median_titer_PENN_sera": {
+                        "value": "463.8"
+                      },
+                      "frac_w_titer_below_140_PENN_sera": {
+                        "value": "0.2203"
+                      },
                       "subclade": {
                         "value": "J.2"
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": "0.3333"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": "544.0"
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": "0.4872"
+                      },
+                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                        "value": "0.08475"
+                      },
+                      "median_titer_All_sera": {
+                        "value": "460.0"
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": "205.2"
+                      },
+                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                        "value": "0.3559"
+                      },
+                      "median_titer_PENN_28-days-post-vax_sera": {
+                        "value": "776.4"
                       },
                       "strain_type": {
                         "value": "circulating_2025to2026"
@@ -301,8 +1358,44 @@
                           "num_date": {
                             "value": 2025.71
                           },
+                          "median_titer_PENN_0-days-post-vax_sera": {
+                            "value": "326.7"
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": "0.2364"
+                          },
+                          "median_titer_PENN_sera": {
+                            "value": "508.1"
+                          },
+                          "frac_w_titer_below_140_PENN_sera": {
+                            "value": "0.1441"
+                          },
                           "subclade": {
                             "value": "J.2"
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": "0.4444"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": "345.4"
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": "0.4737"
+                          },
+                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                            "value": "0.0678"
+                          },
+                          "median_titer_All_sera": {
+                            "value": "456.3"
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": "227.8"
+                          },
+                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                            "value": "0.2203"
+                          },
+                          "median_titer_PENN_28-days-post-vax_sera": {
+                            "value": "886.2"
                           },
                           "strain_type": {
                             "value": "circulating_2025to2026"
@@ -346,8 +1439,44 @@
                               "num_date": {
                                 "value": 2025.73
                               },
+                              "median_titer_PENN_0-days-post-vax_sera": {
+                                "value": "413.3"
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": "0.179"
+                              },
+                              "median_titer_PENN_sera": {
+                                "value": "576.4"
+                              },
+                              "frac_w_titer_below_140_PENN_sera": {
+                                "value": "0.1034"
+                              },
                               "subclade": {
                                 "value": "J.2.2"
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": "0.3333"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": "384.3"
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": "0.3784"
+                              },
+                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                "value": "0.01695"
+                              },
+                              "median_titer_All_sera": {
+                                "value": "568.2"
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": "143.9"
+                              },
+                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                "value": "0.193"
+                              },
+                              "median_titer_PENN_28-days-post-vax_sera": {
+                                "value": "886.5"
                               },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
@@ -394,8 +1523,44 @@
                                   "num_date": {
                                     "value": 2025.71
                                   },
+                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                    "value": "415.4"
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": "0.1807"
+                                  },
+                                  "median_titer_PENN_sera": {
+                                    "value": "742.5"
+                                  },
+                                  "frac_w_titer_below_140_PENN_sera": {
+                                    "value": "0.09322"
+                                  },
                                   "subclade": {
                                     "value": "J.2.2"
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": "0.3333"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": "362.8"
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": "0.4103"
+                                  },
+                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                    "value": "0.01695"
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": "637.9"
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": "216.4"
+                                  },
+                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                    "value": "0.1695"
+                                  },
+                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                    "value": "1022.0"
                                   },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
@@ -429,8 +1594,44 @@
                                       "num_date": {
                                         "value": 2025.51
                                       },
+                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                        "value": "419.8"
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": "0.1627"
+                                      },
+                                      "median_titer_PENN_sera": {
+                                        "value": "696.0"
+                                      },
+                                      "frac_w_titer_below_140_PENN_sera": {
+                                        "value": "0.09322"
+                                      },
                                       "subclade": {
                                         "value": "J.2.2"
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": "0.3333"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": "377.8"
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": "0.3333"
+                                      },
+                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                        "value": "0.0"
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": "664.1"
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": "400.4"
+                                      },
+                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                        "value": "0.1864"
+                                      },
+                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                        "value": "1305.0"
                                       },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
@@ -476,8 +1677,44 @@
                                           "num_date": {
                                             "value": 2025.65
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "481.9"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.1386"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "684.8"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.05932"
+                                          },
                                           "subclade": {
                                             "value": "J.2.2"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.4444"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "538.5"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.3077"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.05085"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "643.7"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "176.9"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.0678"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "1024.0"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -492,8 +1729,44 @@
                                           "num_date": {
                                             "value": 2025.62
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "440.0"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.2289"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "511.4"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.1441"
+                                          },
                                           "subclade": {
                                             "value": "J.2.2"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.3333"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "261.0"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.4615"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.0339"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "488.9"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "225.2"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.2542"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "816.0"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -540,8 +1813,44 @@
                                           "num_date": {
                                             "value": 2025.59
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "488.9"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.1273"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "779.6"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.04274"
+                                          },
                                           "subclade": {
                                             "value": "J.2.2"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.1111"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "469.0"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.3846"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.01695"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "634.9"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "241.9"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.06897"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "1449.0"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -587,8 +1896,44 @@
                                               "num_date": {
                                                 "value": 2025.52
                                               },
+                                              "median_titer_PENN_0-days-post-vax_sera": {
+                                                "value": "827.2"
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": "0.07831"
+                                              },
+                                              "median_titer_PENN_sera": {
+                                                "value": "1148.0"
+                                              },
+                                              "frac_w_titer_below_140_PENN_sera": {
+                                                "value": "0.008475"
+                                              },
                                               "subclade": {
                                                 "value": "J.2.2"
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": "0.3333"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": "598.2"
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": "0.2308"
+                                              },
+                                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                "value": "0.0"
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": "989.2"
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": "635.4"
+                                              },
+                                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                "value": "0.01695"
+                                              },
+                                              "median_titer_PENN_28-days-post-vax_sera": {
+                                                "value": "1788.0"
                                               },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
@@ -616,8 +1961,44 @@
                                               "num_date": {
                                                 "value": 2025.56
                                               },
+                                              "median_titer_PENN_0-days-post-vax_sera": {
+                                                "value": "579.4"
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": "0.1325"
+                                              },
+                                              "median_titer_PENN_sera": {
+                                                "value": "866.0"
+                                              },
+                                              "frac_w_titer_below_140_PENN_sera": {
+                                                "value": "0.04237"
+                                              },
                                               "subclade": {
                                                 "value": "J.2.2"
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": "0.3333"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": "594.8"
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": "0.359"
+                                              },
+                                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                "value": "0.0"
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": "783.7"
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": "253.2"
+                                              },
+                                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                "value": "0.08475"
+                                              },
+                                              "median_titer_PENN_28-days-post-vax_sera": {
+                                                "value": "1507.0"
                                               },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
@@ -660,8 +2041,44 @@
                                           "num_date": {
                                             "value": 2025.71
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "513.0"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.1205"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "764.5"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.0339"
+                                          },
                                           "subclade": {
                                             "value": "J.2.2"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.2222"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "394.9"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.359"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.0"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "680.6"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "337.3"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.0678"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "1238.0"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -696,8 +2113,44 @@
                                               "num_date": {
                                                 "value": 2025.71
                                               },
+                                              "median_titer_PENN_0-days-post-vax_sera": {
+                                                "value": "586.7"
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": "0.1049"
+                                              },
+                                              "median_titer_PENN_sera": {
+                                                "value": "773.5"
+                                              },
+                                              "frac_w_titer_below_140_PENN_sera": {
+                                                "value": "0.05172"
+                                              },
                                               "subclade": {
                                                 "value": "J.2.2"
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": "0.2222"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": "572.4"
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": "0.2432"
+                                              },
+                                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                "value": "0.01724"
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": "731.7"
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": "205.8"
+                                              },
+                                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                "value": "0.08621"
+                                              },
+                                              "median_titer_PENN_28-days-post-vax_sera": {
+                                                "value": "1274.0"
                                               },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
@@ -712,8 +2165,44 @@
                                               "num_date": {
                                                 "value": 2025.76
                                               },
+                                              "median_titer_PENN_0-days-post-vax_sera": {
+                                                "value": "311.8"
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": "0.1928"
+                                              },
+                                              "median_titer_PENN_sera": {
+                                                "value": "493.3"
+                                              },
+                                              "frac_w_titer_below_140_PENN_sera": {
+                                                "value": "0.1271"
+                                              },
                                               "subclade": {
                                                 "value": "J.2.2"
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": "0.3333"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": "421.7"
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": "0.359"
+                                              },
+                                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                "value": "0.05085"
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": "483.8"
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": "253.8"
+                                              },
+                                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                "value": "0.2034"
+                                              },
+                                              "median_titer_PENN_28-days-post-vax_sera": {
+                                                "value": "927.4"
                                               },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
@@ -761,8 +2250,44 @@
                       "num_date": {
                         "value": 2023.94
                       },
+                      "median_titer_PENN_0-days-post-vax_sera": {
+                        "value": "461.0"
+                      },
+                      "frac_w_titer_below_140_All_sera": {
+                        "value": "0.1747"
+                      },
+                      "median_titer_PENN_sera": {
+                        "value": "573.5"
+                      },
+                      "frac_w_titer_below_140_PENN_sera": {
+                        "value": "0.07627"
+                      },
                       "subclade": {
                         "value": "J.2"
+                      },
+                      "frac_w_titer_below_140_NIID_sera": {
+                        "value": "0.3333"
+                      },
+                      "median_titer_SCH_sera": {
+                        "value": "208.2"
+                      },
+                      "frac_w_titer_below_140_SCH_sera": {
+                        "value": "0.4359"
+                      },
+                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                        "value": "0.0339"
+                      },
+                      "median_titer_All_sera": {
+                        "value": "539.8"
+                      },
+                      "median_titer_NIID_sera": {
+                        "value": "157.7"
+                      },
+                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                        "value": "0.1186"
+                      },
+                      "median_titer_PENN_28-days-post-vax_sera": {
+                        "value": "1048.0"
                       },
                       "strain_type": {
                         "value": "2025-2026 cell-based vaccine"
@@ -787,8 +2312,44 @@
                           "num_date": {
                             "value": 2025.6
                           },
+                          "median_titer_PENN_0-days-post-vax_sera": {
+                            "value": "206.5"
+                          },
+                          "frac_w_titer_below_140_All_sera": {
+                            "value": "0.2667"
+                          },
+                          "median_titer_PENN_sera": {
+                            "value": "360.6"
+                          },
+                          "frac_w_titer_below_140_PENN_sera": {
+                            "value": "0.1864"
+                          },
                           "subclade": {
                             "value": "J.2"
+                          },
+                          "frac_w_titer_below_140_NIID_sera": {
+                            "value": "0.4444"
+                          },
+                          "median_titer_SCH_sera": {
+                            "value": "386.0"
+                          },
+                          "frac_w_titer_below_140_SCH_sera": {
+                            "value": "0.4737"
+                          },
+                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                            "value": "0.0678"
+                          },
+                          "median_titer_All_sera": {
+                            "value": "344.1"
+                          },
+                          "median_titer_NIID_sera": {
+                            "value": "210.6"
+                          },
+                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                            "value": "0.3051"
+                          },
+                          "median_titer_PENN_28-days-post-vax_sera": {
+                            "value": "802.1"
                           },
                           "strain_type": {
                             "value": "circulating_2025to2026"
@@ -835,8 +2396,44 @@
                               "num_date": {
                                 "value": 2025.57
                               },
+                              "median_titer_PENN_0-days-post-vax_sera": {
+                                "value": "460.7"
+                              },
+                              "frac_w_titer_below_140_All_sera": {
+                                "value": "0.1386"
+                              },
+                              "median_titer_PENN_sera": {
+                                "value": "611.8"
+                              },
+                              "frac_w_titer_below_140_PENN_sera": {
+                                "value": "0.05932"
+                              },
                               "subclade": {
                                 "value": "J.2"
+                              },
+                              "frac_w_titer_below_140_NIID_sera": {
+                                "value": "0.3333"
+                              },
+                              "median_titer_SCH_sera": {
+                                "value": "227.1"
+                              },
+                              "frac_w_titer_below_140_SCH_sera": {
+                                "value": "0.3333"
+                              },
+                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                "value": "0.0"
+                              },
+                              "median_titer_All_sera": {
+                                "value": "575.0"
+                              },
+                              "median_titer_NIID_sera": {
+                                "value": "239.7"
+                              },
+                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                "value": "0.1186"
+                              },
+                              "median_titer_PENN_28-days-post-vax_sera": {
+                                "value": "877.5"
                               },
                               "strain_type": {
                                 "value": "circulating_2025to2026"
@@ -879,8 +2476,44 @@
                                   "num_date": {
                                     "value": 2025.61
                                   },
+                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                    "value": "460.8"
+                                  },
+                                  "frac_w_titer_below_140_All_sera": {
+                                    "value": "0.1515"
+                                  },
+                                  "median_titer_PENN_sera": {
+                                    "value": "588.6"
+                                  },
+                                  "frac_w_titer_below_140_PENN_sera": {
+                                    "value": "0.02542"
+                                  },
                                   "subclade": {
                                     "value": "J.2"
+                                  },
+                                  "frac_w_titer_below_140_NIID_sera": {
+                                    "value": "0.4444"
+                                  },
+                                  "median_titer_SCH_sera": {
+                                    "value": "216.6"
+                                  },
+                                  "frac_w_titer_below_140_SCH_sera": {
+                                    "value": "0.4737"
+                                  },
+                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                    "value": "0.0"
+                                  },
+                                  "median_titer_All_sera": {
+                                    "value": "506.4"
+                                  },
+                                  "median_titer_NIID_sera": {
+                                    "value": "152.4"
+                                  },
+                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                    "value": "0.05085"
+                                  },
+                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                    "value": "830.4"
                                   },
                                   "strain_type": {
                                     "value": "circulating_2025to2026"
@@ -914,8 +2547,44 @@
                                       "num_date": {
                                         "value": 2025.65
                                       },
+                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                        "value": "517.8"
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": "0.1205"
+                                      },
+                                      "median_titer_PENN_sera": {
+                                        "value": "738.8"
+                                      },
+                                      "frac_w_titer_below_140_PENN_sera": {
+                                        "value": "0.008475"
+                                      },
                                       "subclade": {
                                         "value": "J.2.3"
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": "0.4444"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": "232.1"
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": "0.3846"
+                                      },
+                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                        "value": "0.0"
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": "626.1"
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": "156.7"
+                                      },
+                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                        "value": "0.01695"
+                                      },
+                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                        "value": "1188.0"
                                       },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
@@ -942,8 +2611,44 @@
                                       "num_date": {
                                         "value": 2025.7
                                       },
+                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                        "value": "308.6"
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": "0.241"
+                                      },
+                                      "median_titer_PENN_sera": {
+                                        "value": "467.4"
+                                      },
+                                      "frac_w_titer_below_140_PENN_sera": {
+                                        "value": "0.1271"
+                                      },
                                       "subclade": {
                                         "value": "J.2.3"
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": "0.6667"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": "160.1"
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": "0.4872"
+                                      },
+                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                        "value": "0.05085"
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": "378.0"
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": "95.58"
+                                      },
+                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                        "value": "0.2034"
+                                      },
+                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                        "value": "730.6"
                                       },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
@@ -979,8 +2684,44 @@
                                           "num_date": {
                                             "value": 2025.7
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "389.8"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.1576"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "536.7"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.05085"
+                                          },
                                           "subclade": {
                                             "value": "J.2.3"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.5556"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "210.6"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.3947"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.01695"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "473.7"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "126.6"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.08475"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "721.5"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -995,8 +2736,44 @@
                                           "num_date": {
                                             "value": 2025.7
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "330.6"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.1646"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "453.4"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.05085"
+                                          },
                                           "subclade": {
                                             "value": "J.2.3"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.4444"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "167.9"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.4595"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.01695"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "357.1"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "154.7"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.08475"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "624.4"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -1067,8 +2844,44 @@
                                       "num_date": {
                                         "value": 2025.69
                                       },
+                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                        "value": "289.7"
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": "0.2831"
+                                      },
+                                      "median_titer_PENN_sera": {
+                                        "value": "385.5"
+                                      },
+                                      "frac_w_titer_below_140_PENN_sera": {
+                                        "value": "0.178"
+                                      },
                                       "subclade": {
                                         "value": "J.2.4"
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": "0.5556"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": "113.8"
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": "0.5385"
+                                      },
+                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                        "value": "0.08475"
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": "301.5"
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": "80.1"
+                                      },
+                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                        "value": "0.2712"
+                                      },
+                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                        "value": "560.3"
                                       },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
@@ -1083,8 +2896,44 @@
                                       "num_date": {
                                         "value": 2025.73
                                       },
+                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                        "value": "215.4"
+                                      },
+                                      "frac_w_titer_below_140_All_sera": {
+                                        "value": "0.3394"
+                                      },
+                                      "median_titer_PENN_sera": {
+                                        "value": "390.5"
+                                      },
+                                      "frac_w_titer_below_140_PENN_sera": {
+                                        "value": "0.2458"
+                                      },
                                       "subclade": {
                                         "value": "J.2.4"
+                                      },
+                                      "frac_w_titer_below_140_NIID_sera": {
+                                        "value": "0.6667"
+                                      },
+                                      "median_titer_SCH_sera": {
+                                        "value": "93.56"
+                                      },
+                                      "frac_w_titer_below_140_SCH_sera": {
+                                        "value": "0.5526"
+                                      },
+                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                        "value": "0.1525"
+                                      },
+                                      "median_titer_All_sera": {
+                                        "value": "291.0"
+                                      },
+                                      "median_titer_NIID_sera": {
+                                        "value": "77.3"
+                                      },
+                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                        "value": "0.339"
+                                      },
+                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                        "value": "579.5"
                                       },
                                       "strain_type": {
                                         "value": "circulating_2025to2026"
@@ -1130,8 +2979,44 @@
                                           "num_date": {
                                             "value": 2025.75
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "302.5"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.253"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "444.1"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.1695"
+                                          },
                                           "subclade": {
                                             "value": "J.2.4"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.4444"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "189.9"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.4615"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.0678"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "401.4"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "228.0"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.2712"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "767.4"
                                           },
                                           "strain_type": {
                                             "value": "2026 cell-based vaccine"
@@ -1146,8 +3031,44 @@
                                           "num_date": {
                                             "value": 2025.7
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "281.2"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.2364"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "495.6"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.1525"
+                                          },
                                           "subclade": {
                                             "value": "J.2.4"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.4444"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "152.5"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.4474"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.08475"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "439.6"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "181.6"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.2203"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "862.7"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -1192,8 +3113,44 @@
                                           "num_date": {
                                             "value": 2025.7
                                           },
+                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                            "value": "287.1"
+                                          },
+                                          "frac_w_titer_below_140_All_sera": {
+                                            "value": "0.2711"
+                                          },
+                                          "median_titer_PENN_sera": {
+                                            "value": "440.8"
+                                          },
+                                          "frac_w_titer_below_140_PENN_sera": {
+                                            "value": "0.1864"
+                                          },
                                           "subclade": {
                                             "value": "J.2.4"
+                                          },
+                                          "frac_w_titer_below_140_NIID_sera": {
+                                            "value": "0.4444"
+                                          },
+                                          "median_titer_SCH_sera": {
+                                            "value": "175.3"
+                                          },
+                                          "frac_w_titer_below_140_SCH_sera": {
+                                            "value": "0.4872"
+                                          },
+                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                            "value": "0.0678"
+                                          },
+                                          "median_titer_All_sera": {
+                                            "value": "383.3"
+                                          },
+                                          "median_titer_NIID_sera": {
+                                            "value": "180.8"
+                                          },
+                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                            "value": "0.3051"
+                                          },
+                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                            "value": "677.4"
                                           },
                                           "strain_type": {
                                             "value": "circulating_2025to2026"
@@ -1229,8 +3186,44 @@
                                               "num_date": {
                                                 "value": 2025.74
                                               },
+                                              "median_titer_PENN_0-days-post-vax_sera": {
+                                                "value": "311.1"
+                                              },
+                                              "frac_w_titer_below_140_All_sera": {
+                                                "value": "0.1928"
+                                              },
+                                              "median_titer_PENN_sera": {
+                                                "value": "464.9"
+                                              },
+                                              "frac_w_titer_below_140_PENN_sera": {
+                                                "value": "0.1017"
+                                              },
                                               "subclade": {
                                                 "value": "J.2.4"
+                                              },
+                                              "frac_w_titer_below_140_NIID_sera": {
+                                                "value": "0.3333"
+                                              },
+                                              "median_titer_SCH_sera": {
+                                                "value": "163.4"
+                                              },
+                                              "frac_w_titer_below_140_SCH_sera": {
+                                                "value": "0.4359"
+                                              },
+                                              "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                "value": "0.05085"
+                                              },
+                                              "median_titer_All_sera": {
+                                                "value": "372.9"
+                                              },
+                                              "median_titer_NIID_sera": {
+                                                "value": "193.9"
+                                              },
+                                              "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                "value": "0.1525"
+                                              },
+                                              "median_titer_PENN_28-days-post-vax_sera": {
+                                                "value": "554.4"
                                               },
                                               "strain_type": {
                                                 "value": "circulating_2025to2026"
@@ -1274,8 +3267,44 @@
                                                   "num_date": {
                                                     "value": 2025.72
                                                   },
+                                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                                    "value": "249.2"
+                                                  },
+                                                  "frac_w_titer_below_140_All_sera": {
+                                                    "value": "0.247"
+                                                  },
+                                                  "median_titer_PENN_sera": {
+                                                    "value": "330.1"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_sera": {
+                                                    "value": "0.1695"
+                                                  },
                                                   "subclade": {
                                                     "value": "J.2.4"
+                                                  },
+                                                  "frac_w_titer_below_140_NIID_sera": {
+                                                    "value": "0.3333"
+                                                  },
+                                                  "median_titer_SCH_sera": {
+                                                    "value": "155.3"
+                                                  },
+                                                  "frac_w_titer_below_140_SCH_sera": {
+                                                    "value": "0.4615"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                    "value": "0.08475"
+                                                  },
+                                                  "median_titer_All_sera": {
+                                                    "value": "285.8"
+                                                  },
+                                                  "median_titer_NIID_sera": {
+                                                    "value": "187.5"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                    "value": "0.2542"
+                                                  },
+                                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                                    "value": "478.9"
                                                   },
                                                   "strain_type": {
                                                     "value": "circulating_2025to2026"
@@ -1290,8 +3319,44 @@
                                                   "num_date": {
                                                     "value": 2025.6
                                                   },
+                                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                                    "value": "228.9"
+                                                  },
+                                                  "frac_w_titer_below_140_All_sera": {
+                                                    "value": "0.297"
+                                                  },
+                                                  "median_titer_PENN_sera": {
+                                                    "value": "319.0"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_sera": {
+                                                    "value": "0.2119"
+                                                  },
                                                   "subclade": {
                                                     "value": "J.2.4"
+                                                  },
+                                                  "frac_w_titer_below_140_NIID_sera": {
+                                                    "value": "0.4444"
+                                                  },
+                                                  "median_titer_SCH_sera": {
+                                                    "value": "123.0"
+                                                  },
+                                                  "frac_w_titer_below_140_SCH_sera": {
+                                                    "value": "0.5263"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                    "value": "0.1017"
+                                                  },
+                                                  "median_titer_All_sera": {
+                                                    "value": "278.2"
+                                                  },
+                                                  "median_titer_NIID_sera": {
+                                                    "value": "153.5"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                    "value": "0.322"
+                                                  },
+                                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                                    "value": "488.0"
                                                   },
                                                   "strain_type": {
                                                     "value": "circulating_2025to2026"
@@ -1315,8 +3380,44 @@
                                                   "num_date": {
                                                     "value": 2025.65
                                                   },
+                                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                                    "value": "214.9"
+                                                  },
+                                                  "frac_w_titer_below_140_All_sera": {
+                                                    "value": "0.2892"
+                                                  },
+                                                  "median_titer_PENN_sera": {
+                                                    "value": "281.4"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_sera": {
+                                                    "value": "0.1949"
+                                                  },
                                                   "subclade": {
                                                     "value": "J.2.4"
+                                                  },
+                                                  "frac_w_titer_below_140_NIID_sera": {
+                                                    "value": "0.5556"
+                                                  },
+                                                  "median_titer_SCH_sera": {
+                                                    "value": "125.9"
+                                                  },
+                                                  "frac_w_titer_below_140_SCH_sera": {
+                                                    "value": "0.5128"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                    "value": "0.08475"
+                                                  },
+                                                  "median_titer_All_sera": {
+                                                    "value": "253.3"
+                                                  },
+                                                  "median_titer_NIID_sera": {
+                                                    "value": "97.07"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                    "value": "0.3051"
+                                                  },
+                                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                                    "value": "486.9"
                                                   },
                                                   "strain_type": {
                                                     "value": "circulating_2025to2026"
@@ -1364,8 +3465,44 @@
                                                   "num_date": {
                                                     "value": 2025.63
                                                   },
+                                                  "median_titer_PENN_0-days-post-vax_sera": {
+                                                    "value": "318.9"
+                                                  },
+                                                  "frac_w_titer_below_140_All_sera": {
+                                                    "value": "0.2349"
+                                                  },
+                                                  "median_titer_PENN_sera": {
+                                                    "value": "420.9"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_sera": {
+                                                    "value": "0.161"
+                                                  },
                                                   "subclade": {
                                                     "value": "K"
+                                                  },
+                                                  "frac_w_titer_below_140_NIID_sera": {
+                                                    "value": "0.4444"
+                                                  },
+                                                  "median_titer_SCH_sera": {
+                                                    "value": "193.5"
+                                                  },
+                                                  "frac_w_titer_below_140_SCH_sera": {
+                                                    "value": "0.4103"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                    "value": "0.1017"
+                                                  },
+                                                  "median_titer_All_sera": {
+                                                    "value": "362.8"
+                                                  },
+                                                  "median_titer_NIID_sera": {
+                                                    "value": "182.8"
+                                                  },
+                                                  "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                    "value": "0.2203"
+                                                  },
+                                                  "median_titer_PENN_28-days-post-vax_sera": {
+                                                    "value": "582.6"
                                                   },
                                                   "strain_type": {
                                                     "value": "circulating_2025to2026"
@@ -1408,8 +3545,44 @@
                                                       "num_date": {
                                                         "value": 2025.64
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "222.6"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.2892"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "326.8"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.1864"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.4444"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "108.0"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5641"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.08475"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "300.7"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "151.5"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.2881"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "454.3"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1433,8 +3606,44 @@
                                                       "num_date": {
                                                         "value": 2025.59
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "299.0"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.2289"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "415.0"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.1525"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.4444"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "173.7"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.4103"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.05085"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "368.1"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "257.7"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.2542"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "464.0"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1458,8 +3667,44 @@
                                                       "num_date": {
                                                         "value": 2025.64
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "219.5"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.2952"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "291.9"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.1949"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.4444"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "126.2"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5641"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.1017"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "276.5"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "152.7"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.2881"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "418.8"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1483,8 +3728,44 @@
                                                       "num_date": {
                                                         "value": 2025.71
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "312.7"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.1446"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "395.6"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.07627"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.2222"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "216.3"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.3333"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.0339"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "356.2"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "307.4"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.1186"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "493.7"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1508,8 +3789,44 @@
                                                       "num_date": {
                                                         "value": 2025.73
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "251.4"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.3072"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "321.5"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.2034"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.5556"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "98.14"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5641"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.08475"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "273.5"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "128.8"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.322"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "455.6"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1533,8 +3850,44 @@
                                                       "num_date": {
                                                         "value": 2025.71
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "188.5"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.3394"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "299.0"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.2542"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.4444"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "113.2"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5789"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.1356"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "224.3"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "142.8"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.3729"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "422.2"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1561,8 +3914,44 @@
                                                       "num_date": {
                                                         "value": 2025.74
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "244.8"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.2349"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "397.1"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.1271"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.5556"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "158.5"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.4872"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.0678"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "313.1"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "139.5"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.1864"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "575.9"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1589,8 +3978,44 @@
                                                       "num_date": {
                                                         "value": 2025.72
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "187.3"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.3313"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "259.3"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.2458"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.3333"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "96.35"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5897"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.1356"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "228.9"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "233.1"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.3559"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "291.8"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1614,8 +4039,44 @@
                                                       "num_date": {
                                                         "value": 2025.71
                                                       },
+                                                      "median_titer_PENN_0-days-post-vax_sera": {
+                                                        "value": "250.1"
+                                                      },
+                                                      "frac_w_titer_below_140_All_sera": {
+                                                        "value": "0.2485"
+                                                      },
+                                                      "median_titer_PENN_sera": {
+                                                        "value": "341.8"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_sera": {
+                                                        "value": "0.1453"
+                                                      },
                                                       "subclade": {
                                                         "value": "K"
+                                                      },
+                                                      "frac_w_titer_below_140_NIID_sera": {
+                                                        "value": "0.3333"
+                                                      },
+                                                      "median_titer_SCH_sera": {
+                                                        "value": "128.6"
+                                                      },
+                                                      "frac_w_titer_below_140_SCH_sera": {
+                                                        "value": "0.5385"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                        "value": "0.0678"
+                                                      },
+                                                      "median_titer_All_sera": {
+                                                        "value": "314.5"
+                                                      },
+                                                      "median_titer_NIID_sera": {
+                                                        "value": "210.0"
+                                                      },
+                                                      "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                        "value": "0.2241"
+                                                      },
+                                                      "median_titer_PENN_28-days-post-vax_sera": {
+                                                        "value": "436.9"
                                                       },
                                                       "strain_type": {
                                                         "value": "circulating_2025to2026"
@@ -1659,8 +4120,44 @@
                                                           "num_date": {
                                                             "value": 2025.75
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "162.1"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.4161"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "237.6"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.3675"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.625"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "98.35"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.5278"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.2586"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "216.2"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "102.1"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.4746"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "276.0"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1675,8 +4172,44 @@
                                                           "num_date": {
                                                             "value": 2025.76
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "166.2"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.3438"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "190.7"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.3043"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.375"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "180.5"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.4595"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.2542"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "188.1"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "170.3"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.3571"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "276.8"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1721,8 +4254,44 @@
                                                           "num_date": {
                                                             "value": 2025.75
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "230.6"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.3072"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "329.7"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.2034"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.5556"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "107.1"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.5641"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.0678"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "283.5"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "129.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.339"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "510.4"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1737,8 +4306,44 @@
                                                           "num_date": {
                                                             "value": 2025.73
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "289.6"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.2108"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "405.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.1186"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.4444"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "178.6"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.4359"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.05085"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "354.7"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "348.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.1864"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "525.5"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1783,8 +4388,44 @@
                                                           "num_date": {
                                                             "value": 2025.7
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "448.5"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.08434"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "525.0"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.02542"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.2222"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "286.3"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.2308"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.0"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "444.6"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "363.9"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.05085"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "698.5"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1809,8 +4450,44 @@
                                                           "num_date": {
                                                             "value": 2025.71
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "231.6"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.2771"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "353.2"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.1864"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.4444"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "125.5"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.5128"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.0678"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "318.1"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "171.2"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.3051"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "429.8"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1825,8 +4502,44 @@
                                                           "num_date": {
                                                             "value": 2025.71
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "350.5"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.1394"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "426.0"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.05983"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.4444"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "238.5"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.3077"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.03448"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "390.9"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "371.0"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.08475"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "548.7"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1850,8 +4563,44 @@
                                                           "num_date": {
                                                             "value": 2025.62
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "229.8"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.3313"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "324.7"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.2458"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.4444"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "107.4"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.5641"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.08475"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "284.8"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "148.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.4068"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "524.9"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -1913,8 +4662,44 @@
                                                           "num_date": {
                                                             "value": 2025.75
                                                           },
+                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                            "value": "207.0"
+                                                          },
+                                                          "frac_w_titer_below_140_All_sera": {
+                                                            "value": "0.3193"
+                                                          },
+                                                          "median_titer_PENN_sera": {
+                                                            "value": "281.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                            "value": "0.2373"
+                                                          },
                                                           "subclade": {
                                                             "value": "K"
+                                                          },
+                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                            "value": "0.5556"
+                                                          },
+                                                          "median_titer_SCH_sera": {
+                                                            "value": "116.6"
+                                                          },
+                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                            "value": "0.5128"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                            "value": "0.1186"
+                                                          },
+                                                          "median_titer_All_sera": {
+                                                            "value": "248.2"
+                                                          },
+                                                          "median_titer_NIID_sera": {
+                                                            "value": "135.5"
+                                                          },
+                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                            "value": "0.3559"
+                                                          },
+                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                            "value": "363.8"
                                                           },
                                                           "strain_type": {
                                                             "value": "circulating_2025to2026"
@@ -2078,8 +4863,44 @@
                                                                           "num_date": {
                                                                             "value": 2025.76
                                                                           },
+                                                                          "median_titer_PENN_0-days-post-vax_sera": {
+                                                                            "value": "242.3"
+                                                                          },
+                                                                          "frac_w_titer_below_140_All_sera": {
+                                                                            "value": "0.2892"
+                                                                          },
+                                                                          "median_titer_PENN_sera": {
+                                                                            "value": "304.1"
+                                                                          },
+                                                                          "frac_w_titer_below_140_PENN_sera": {
+                                                                            "value": "0.1864"
+                                                                          },
                                                                           "subclade": {
                                                                             "value": "K"
+                                                                          },
+                                                                          "frac_w_titer_below_140_NIID_sera": {
+                                                                            "value": "0.5556"
+                                                                          },
+                                                                          "median_titer_SCH_sera": {
+                                                                            "value": "116.7"
+                                                                          },
+                                                                          "frac_w_titer_below_140_SCH_sera": {
+                                                                            "value": "0.5385"
+                                                                          },
+                                                                          "frac_w_titer_below_140_PENN_28-days-post-vax_sera": {
+                                                                            "value": "0.0678"
+                                                                          },
+                                                                          "median_titer_All_sera": {
+                                                                            "value": "281.7"
+                                                                          },
+                                                                          "median_titer_NIID_sera": {
+                                                                            "value": "107.8"
+                                                                          },
+                                                                          "frac_w_titer_below_140_PENN_0-days-post-vax_sera": {
+                                                                            "value": "0.3051"
+                                                                          },
+                                                                          "median_titer_PENN_28-days-post-vax_sera": {
+                                                                            "value": "442.5"
                                                                           },
                                                                           "strain_type": {
                                                                             "value": "circulating_2025to2026"

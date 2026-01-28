@@ -114,11 +114,33 @@ rule process_final_titer_data:
 
 # Build nextstrain-prot-titers-tree inputs ----------------------------------------------
 
+# Check if any subtype has titers configured (non-null titers key in config)
+_any_tree_has_titers = any(
+    config["nextstrain-prot-titers-tree_config"][subtype].get("titers")
+    for subtype in config["subtypes"]
+)
+
 
 rule nextstrain_prot_titers_tree_alignment_and_metadata:
-    """Build alignment and metadata used by `nextstrain-prot-titers-tree`."""
+    """Build alignment, metadata, and titers TSV used by `nextstrain-prot-titers-tree`."""
     input:
         viral_libraries_csv=config["viral_libraries"]["designed"],
+        # Only include titer inputs if titers are configured for any tree
+        summarized_titers_csv=(
+            f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_titers_summarized_by_virus.csv"
+            if _any_tree_has_titers
+            else []
+        ),
+        titers_csv=(
+            f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_titers.csv"
+            if _any_tree_has_titers
+            else []
+        ),
+        sera_metadata_csv=(
+            f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_sera.csv"
+            if _any_tree_has_titers
+            else []
+        ),
     output:
         **{
             f"alignment_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/alignment.fa"
@@ -128,11 +150,24 @@ rule nextstrain_prot_titers_tree_alignment_and_metadata:
             f"metadata_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/metadata.tsv"
             for subtype in config["subtypes"]
         },
+        # Only output titers TSV for subtypes that have titers configured
+        **{
+            f"titers_{subtype}": f"results/nextstrain-prot-titers-tree/{subtype}/titers.tsv"
+            for subtype in config["subtypes"]
+            if config["nextstrain-prot-titers-tree_config"][subtype].get("titers")
+        },
     params:
         subtypes=config["subtypes"],
         circulating_strain_type=config["circulating_strain_type"],
         recent_vaccine_strains=config["recent_vaccine_strains"],
         prefix_alignment=config["nextstrain-prot-titers-tree_prefix_alignment"],
+        frac_below_cols=[
+            f"frac_w_titer_below_{cutoff}" for cutoff in config["titer_cutoffs"]
+        ],
+        serum_cohorts_for_tree=(
+            config["serum_cohorts_for_tree"] if _any_tree_has_titers else []
+        ),
+        has_titers=_any_tree_has_titers,
     conda:
         "seqneut-pipeline/environment.yml"
     log:
