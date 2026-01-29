@@ -6,13 +6,14 @@ The goal is to provide near real-time neutralization data to inform the **Februa
 
 The data here are described in *Add link to preprint*.
 
-## Quick links
+## Quick links to key results
 Here are quick links with key data/results:
 
 - [results/final_titer_data](results/final_titer_data) has the final titer data and information on the viruses and sera for which these final data were obtained. Specifically:
   + For human sera:
     * [results/final_titer_data/human_titers.csv](results/final_titer_data/human_titers.csv): final set of titers for each virus/serum pair (keeping only viruses for which titers measured against most sera, and sera for which titers measured against most viruses).
     * [results/final_titer_data/human_sera.csv](results/final_titer_data/human_sera.csv): detailed information about the sera for which these titers were measured.
+    * [results/final_titer_data/human_sera_multicohort.csv](results/final_titer_data/human_sera_multicohort.csv): sera assigned to multiple cohorts (original, "All", and days-post-vax cohorts); differs from [results/final_titer_data/human_sera.csv](results/final_titer_data/human_sera.csv) in that each serum may appear in multiple rows.
     * [results/final_titer_data/human_viruses.csv](results/final_titer_data/human_viruses.csv): detailed information about the viruses for which these titers were measured.
     * [results/final_titer_data/human_titers_summarized_by_virus.csv](results/final_titer_data/human_titers_summarized_by_virus.csv): summary statistics about the titers against each virus.
 
@@ -353,9 +354,10 @@ The pipeline validates viral library CSVs against the specifications above using
 
 **Key Outputs** (in `results/final_titer_data/`):
 - `{group}_titers.csv` - One row per serum-virus titer measurement
-- `{group}_sera.csv` - Metadata for sera included in final dataset
+- `{group}_sera.csv` - Metadata for sera included in final dataset (one row per serum)
+- `{group}_sera_multicohort.csv` - Sera with multi-cohort assignments; each serum appears in multiple rows (once for "All", once for its original cohort, and once for each days-post-vax cohort if applicable)
 - `{group}_viruses.csv` - Metadata for viruses included in final dataset
-- `{group}_titers_summarized_by_virus.csv` - Per-virus statistics across sera
+- `{group}_titers_summarized_by_virus.csv` - Per-virus statistics across sera, computed for each cohort
 - `{group}_summary.txt` - Processing log with counts at each step
 
 **Configuration**: Parameters in `config.yml` under `process_final_titer_data`.

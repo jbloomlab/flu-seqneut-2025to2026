@@ -211,9 +211,10 @@ Processed titer data after QC filtering, with separate files for titers, sera me
 
 **Output files per group**:
 - `{group}_titers.csv`: Titer measurements with columns: serum, virus, titer, titer_bound, titer_sem, n_replicates, titer_as
-- `{group}_sera.csv`: Sera metadata with columns: serum, cohort, age, sex, serum_collection_date, age_numeric, plus optional columns
+- `{group}_sera.csv`: Sera metadata with columns: serum, cohort, age, sex, serum_collection_date, age_numeric, plus optional columns (one row per serum)
+- `{group}_sera_multicohort.csv`: Sera with multi-cohort assignments for joining with titers. Each serum appears multiple times: once for "All" cohort, once for its original cohort, and once for each days-post-vax cohort (if applicable). Same columns as `{group}_sera.csv` but with `cohort` containing the derived cohort name.
 - `{group}_viruses.csv`: Virus metadata with columns: virus, subtype, strain_type, vaccine_type, subclade, derived_haplotype, virus_collection_date, protein_sequence_HA_ectodomain, nt_sequence_HA_ectodomain
-- `{group}_titers_summarized_by_virus.csv`: Summary statistics by virus and cohort
+- `{group}_titers_summarized_by_virus.csv`: Summary statistics by virus and cohort (uses cohorts from sera_multicohort)
 - `{group}_summary.txt`: Processing log
 
 **Configuration** (in `config.yml` under `process_final_titer_data`):

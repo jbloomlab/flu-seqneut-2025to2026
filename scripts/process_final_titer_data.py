@@ -34,6 +34,7 @@ titers_csv = snakemake.input.titers
 
 output_titers_csv = snakemake.output.titers
 output_sera_csv = snakemake.output.sera
+output_sera_multicohort_csv = snakemake.output.sera_multicohort
 output_viruses_csv = snakemake.output.viruses
 output_titers_summarized_csv = snakemake.output.titers_summarized
 output_summary_txt = snakemake.output.summary
@@ -357,7 +358,72 @@ sera_output = sera_output[sera_cols + other_sera_cols]
 sera_output.to_csv(output_sera_csv, index=False)
 log_message(f"  Written: {output_sera_csv} ({len(sera_output)} rows)")
 
-# --- Output 3: Viruses CSV ---
+# --- Output 3: Sera multicohort CSV ---
+# First validate no conflicting cohort names (fail fast)
+original_cohorts = sera_output["cohort"].unique()
+
+# Check for "All" conflict (case-insensitive)
+if any(c.lower() == "all" for c in original_cohorts if pd.notna(c)):
+    raise ValueError(
+        "Cannot have a cohort named 'all' (case-insensitive) as it conflicts with "
+        "the derived 'All' cohort"
+    )
+
+# Build list of derived days-post-vax cohort names that will be created
+derived_dpv_cohorts = set()
+if "days_post_vax" in sera_output.columns:
+    for _, row in sera_output.iterrows():
+        if pd.notna(row.get("days_post_vax")):
+            days = int(row["days_post_vax"])
+            dpv_cohort = f"{row['cohort']}_{days}-days-post-vax"
+            derived_dpv_cohorts.add(dpv_cohort)
+
+# Check for conflicts with derived days-post-vax cohort names
+conflicting_cohorts = set(original_cohorts) & derived_dpv_cohorts
+if conflicting_cohorts:
+    raise ValueError(
+        f"Original cohort names conflict with derived days-post-vax cohort names: "
+        f"{sorted(conflicting_cohorts)}"
+    )
+
+# Build cohort assignments: each serum gets "All", their original cohort,
+# and optionally a days-post-vax cohort
+cohort_assignments = []
+for _, row in sera_output.iterrows():
+    serum = row["serum"]
+    original_cohort = row["cohort"]
+
+    # All sera belong to "All" cohort
+    cohort_assignments.append({"serum": serum, "cohort": "All"})
+
+    # Original cohort
+    cohort_assignments.append({"serum": serum, "cohort": original_cohort})
+
+    # Days-post-vax cohort if applicable
+    if "days_post_vax" in sera_output.columns and pd.notna(row.get("days_post_vax")):
+        days = int(row["days_post_vax"])
+        dpv_cohort = f"{original_cohort}_{days}-days-post-vax"
+        cohort_assignments.append({"serum": serum, "cohort": dpv_cohort})
+
+cohort_assignments_df = pd.DataFrame(cohort_assignments)
+
+# Merge with sera metadata (drop original cohort column first to avoid conflict)
+sera_multicohort = cohort_assignments_df.merge(
+    sera_output.drop(columns=["cohort"]),
+    on="serum",
+    how="left",
+    validate="many_to_one",
+)
+
+# Reorder columns
+sera_mc_cols = ["serum", "cohort", "age", "sex", "serum_collection_date", "age_numeric"]
+other_mc_cols = [c for c in sera_multicohort.columns if c not in sera_mc_cols]
+sera_multicohort = sera_multicohort[sera_mc_cols + other_mc_cols]
+
+sera_multicohort.to_csv(output_sera_multicohort_csv, index=False)
+log_message(f"  Written: {output_sera_multicohort_csv} ({len(sera_multicohort)} rows)")
+
+# --- Output 4: Viruses CSV ---
 # Filter to viruses in final titers
 viruses_output = viral_library_df[
     viral_library_df["strain"].isin(final_viruses_list)
@@ -407,31 +473,21 @@ if (virus_counts > 1).any():
 viruses_output.to_csv(output_viruses_csv, index=False)
 log_message(f"  Written: {output_viruses_csv} ({len(viruses_output)} rows)")
 
-# --- Output 4: Titers summarized by virus ---
-# Merge titers with sera metadata to get cohort and days_post_vax
-titers_with_cohort = titers_df.merge(
-    sera_output[
-        ["serum", "cohort"]
-        + (["days_post_vax"] if "days_post_vax" in sera_output.columns else [])
-    ],
+# --- Output 5: Titers summarized by virus ---
+# Merge titers with multi-cohort sera assignments (one-to-many: each titer row
+# is duplicated for each cohort the serum belongs to)
+titers_multicohort = titers_output.merge(
+    sera_multicohort[["serum", "cohort"]],
     on="serum",
     how="left",
-    validate="many_to_one",
+    validate="many_to_many",  # many titers per serum, many cohorts per serum
 )
 
-# Check for cohort named "all" (case-insensitive)
-cohorts = titers_with_cohort["cohort"].unique()
-if any(c.lower() == "all" for c in cohorts if pd.notna(c)):
-    raise ValueError(
-        "Cannot have a cohort named 'all' (case-insensitive) as it conflicts with "
-        "the 'All' summary cohort"
-    )
 
-
-def compute_virus_summary(df, cohort_name):
-    """Compute summary statistics for each virus."""
+def compute_virus_summary(df):
+    """Compute summary statistics for each virus-cohort combination."""
     summary = (
-        df.groupby("virus")
+        df.groupby(["virus", "cohort"])
         .agg(
             n_sera=pd.NamedAgg("serum", "nunique"),
             median_titer=pd.NamedAgg("titer", "median"),
@@ -446,60 +502,54 @@ def compute_virus_summary(df, cohort_name):
     for cutoff in titer_cutoffs:
         col_name = f"frac_w_titer_below_{cutoff}"
         frac_below = (
-            df.groupby("virus")["titer"]
+            df.groupby(["virus", "cohort"])["titer"]
             .apply(lambda x: (x < cutoff).mean())
             .reset_index(name=col_name)
         )
-        summary = summary.merge(frac_below, on="virus")
+        summary = summary.merge(frac_below, on=["virus", "cohort"])
 
-    summary.insert(1, "cohort", cohort_name)
     return summary
 
 
-# Track all cohorts info for logging (cohort_name, n_sera, n_titers)
-all_cohorts_info = []
+titers_summarized = compute_virus_summary(titers_multicohort)
 
-# Compute summary for "All" cohorts
-summaries = [compute_virus_summary(titers_with_cohort, "All")]
-all_cohorts_info.append(
-    ("All", titers_with_cohort["serum"].nunique(), len(titers_with_cohort))
+
+# Sort by virus, then cohort (with "All" first, original cohorts second, dpv last)
+def cohort_sort_key(cohort):
+    if cohort == "All":
+        return (0, "")
+    elif "-days-post-vax" in cohort:
+        return (2, cohort)
+    else:
+        return (1, cohort)
+
+
+titers_summarized["_sort_key"] = titers_summarized["cohort"].apply(cohort_sort_key)
+titers_summarized = titers_summarized.sort_values(["virus", "_sort_key"]).drop(
+    columns=["_sort_key"]
 )
 
-# Compute summary for each cohort
-for cohort in sorted(cohorts):
-    cohort_df = titers_with_cohort[titers_with_cohort["cohort"] == cohort]
-    summaries.append(compute_virus_summary(cohort_df, cohort))
-    all_cohorts_info.append((cohort, cohort_df["serum"].nunique(), len(cohort_df)))
+# Get cohort counts for summary logging
+cohort_info = (
+    sera_multicohort.groupby("cohort")["serum"]
+    .nunique()
+    .reset_index()
+    .rename(columns={"serum": "n_sera"})
+)
+# Add titer counts
+titer_counts = titers_multicohort.groupby("cohort").size().reset_index(name="n_titers")
+cohort_info = cohort_info.merge(titer_counts, on="cohort")
+# Sort cohort info same way as summary
+cohort_info["_sort_key"] = cohort_info["cohort"].apply(cohort_sort_key)
+cohort_info = cohort_info.sort_values("_sort_key").drop(columns=["_sort_key"])
 
-# Compute summary for cohort + days_post_vax combinations if days_post_vax exists
-if "days_post_vax" in titers_with_cohort.columns:
-    # Get unique cohort-days combinations with non-null days_post_vax
-    cohort_days = titers_with_cohort[titers_with_cohort["days_post_vax"].notna()][
-        ["cohort", "days_post_vax"]
-    ].drop_duplicates()
-
-    for _, row in cohort_days.iterrows():
-        cohort = row["cohort"]
-        days = int(row["days_post_vax"])
-        cohort_name = f"{cohort}_{days}-days-post-vax"
-        cohort_df = titers_with_cohort[
-            (titers_with_cohort["cohort"] == cohort)
-            & (titers_with_cohort["days_post_vax"] == days)
-        ]
-        if len(cohort_df) > 0:
-            summaries.append(compute_virus_summary(cohort_df, cohort_name))
-            all_cohorts_info.append(
-                (cohort_name, cohort_df["serum"].nunique(), len(cohort_df))
-            )
-
-titers_summarized = pd.concat(summaries, ignore_index=True)
 titers_summarized.to_csv(output_titers_summarized_csv, index=False, float_format="%.4g")
 log_message(
     f"  Written: {output_titers_summarized_csv} ({len(titers_summarized)} rows)"
 )
 log_message("")
 
-# --- Output 5: Summary text file ---
+# --- Output 6: Summary text file ---
 log_message("=" * 70)
 log_message("FINAL SUMMARY")
 log_message("=" * 70)
@@ -509,8 +559,8 @@ log_message(f"Viruses: {final_viruses}")
 log_message(f"Total titers: {final_rows}")
 log_message("")
 log_message("Cohorts in titers_summarized_by_virus.csv:")
-for cohort_name, n_sera, n_titers in all_cohorts_info:
-    log_message(f"  {cohort_name}: {n_sera} sera, {n_titers} titers")
+for _, row in cohort_info.iterrows():
+    log_message(f"  {row['cohort']}: {row['n_sera']} sera, {row['n_titers']} titers")
 log_message("")
 
 log_message("Viruses per subtype:")

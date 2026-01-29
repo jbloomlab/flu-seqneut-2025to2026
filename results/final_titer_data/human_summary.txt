@@ -40,6 +40,7 @@ Processing complete:
 Generating output files...
   Written: results/final_titer_data/human_titers.csv (15063 rows)
   Written: results/final_titer_data/human_sera.csv (166 rows)
+  Written: results/final_titer_data/human_sera_multicohort.csv (450 rows)
   Written: results/final_titer_data/human_viruses.csv (91 rows)
   Written: results/final_titer_data/human_titers_summarized_by_virus.csv (546 rows)
 

@@ -40,7 +40,13 @@ rule all:
         expand(
             "results/final_titer_data/{group}_{output_type}.csv",
             group=groups,
-            output_type=["titers", "sera", "viruses", "titers_summarized_by_virus"],
+            output_type=[
+                "titers",
+                "sera",
+                "sera_multicohort",
+                "viruses",
+                "titers_summarized_by_virus",
+            ],
         ),
         expand("results/final_titer_data/{group}_summary.txt", group=groups),
 
@@ -99,6 +105,7 @@ rule process_final_titer_data:
     output:
         titers="results/final_titer_data/{group}_titers.csv",
         sera="results/final_titer_data/{group}_sera.csv",
+        sera_multicohort="results/final_titer_data/{group}_sera_multicohort.csv",
         viruses="results/final_titer_data/{group}_viruses.csv",
         titers_summarized="results/final_titer_data/{group}_titers_summarized_by_virus.csv",
         summary="results/final_titer_data/{group}_summary.txt",
