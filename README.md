@@ -349,7 +349,10 @@ The pipeline validates viral library CSVs against the specifications above using
 **Process**:
 - Validates that all sera and viruses in titers have corresponding metadata
 - Drops explicitly specified sera and viruses (configured in `process_final_titer_data`)
-- Filters sera/viruses that don't meet minimum completeness thresholds
+- Filters sera/viruses that don't meet minimum completeness thresholds:
+  - `min_frac_viruses`: Minimum fraction of viruses each serum must have titers against
+  - `min_frac_sera`: Minimum fraction of sera each virus must have titers from (applies to ALL viruses in viral library, including those with 0 titer measurements)
+  - Viruses with no titers (0 measurements) are evaluated and reported; they have frac_sera=0.0 and fail filtering unless min_frac_sera=0
 - Generates separate CSV files for titers, sera metadata, and virus metadata
 - Computes summary statistics by virus and cohort
 

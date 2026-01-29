@@ -86,7 +86,8 @@ def validate_group_column(titers_df, expected_group):
     if len(invalid_groups) > 0:
         invalid_values = invalid_groups["group"].unique().tolist()
         raise ValueError(
-            f"Titer data contains rows with group != '{expected_group}': {invalid_values}"
+            f"Titer data contains rows with group != '{expected_group}': "
+            f"{invalid_values}"
         )
 
 
@@ -123,9 +124,10 @@ def validate_viruses_in_library(titers_df, viral_library_df):
 
     missing_viruses = set(titers_viruses) - set(library_strains)
     if missing_viruses:
+        ellipsis = "..." if len(missing_viruses) > 10 else ""
         raise ValueError(
             f"Viruses in titers not found in viral library: "
-            f"{sorted(missing_viruses)[:10]}{'...' if len(missing_viruses) > 10 else ''}"
+            f"{sorted(missing_viruses)[:10]}{ellipsis}"
         )
 
 
@@ -143,6 +145,9 @@ log_message("  All sera found in metadata")
 validate_viruses_in_library(titers_df, viral_library_df)
 log_message("  All viruses found in viral library")
 log_message("")
+
+# Extract viral library strains for filtering
+viral_library_strains = viral_library_df["strain"].unique()
 
 
 # =============================================================================
@@ -178,7 +183,9 @@ def drop_explicit_items(titers_df, sera_to_drop, viruses_to_drop):
     return titers_df
 
 
-def apply_min_frac_filters(titers_df, min_frac_viruses, min_frac_sera, action):
+def apply_min_frac_filters(
+    titers_df, min_frac_viruses, min_frac_sera, action, viral_library_strains
+):
     """Apply minimum fraction filters iteratively until stable.
 
     Args:
@@ -186,14 +193,17 @@ def apply_min_frac_filters(titers_df, min_frac_viruses, min_frac_sera, action):
         min_frac_viruses: Minimum fraction of viruses a serum must have titers for
         min_frac_sera: Minimum fraction of sera a virus must have titers from
         action: "drop" to remove failing items, "raise" to error
+        viral_library_strains: Set of all virus names from viral library to check
 
     Returns:
-        Filtered DataFrame
+        Tuple of (filtered DataFrame, set of excluded viruses)
     """
     iteration = 0
     max_iterations = 100  # Safety limit
     all_dropped_sera = []  # Track all dropped sera with their fractions
     all_dropped_viruses = []  # Track all dropped viruses with their fractions
+    # Track all viruses failing min_frac_sera across iterations
+    excluded_viruses = set()
 
     while iteration < max_iterations:
         iteration += 1
@@ -218,9 +228,25 @@ def apply_min_frac_filters(titers_df, min_frac_viruses, min_frac_sera, action):
             titers_df = titers_df[~titers_df["serum"].isin(failing_sera)]
 
         # Check min_frac_sera - each virus must have titers from X% of sera
+        # This includes ALL viruses from viral library, including those with 0 titers
         total_sera = titers_df["serum"].nunique()
         if total_sera > 0:
-            virus_sera_counts = titers_df.groupby("virus")["serum"].nunique()
+            # Only check viruses not yet excluded
+            viruses_to_check_iter = viral_library_strains - excluded_viruses
+
+            # Get counts from titers_df (missing viruses have count=0)
+            virus_sera_counts_from_titers = titers_df.groupby("virus")[
+                "serum"
+            ].nunique()
+
+            # Create complete series for all viruses to check (missing = 0)
+            virus_sera_counts = pd.Series(
+                {
+                    v: virus_sera_counts_from_titers.get(v, 0)
+                    for v in viruses_to_check_iter
+                }
+            )
+
             virus_frac = virus_sera_counts / total_sera
             failing_virus_frac = virus_frac[virus_frac < min_frac_sera]
             failing_viruses = failing_virus_frac.index.tolist()
@@ -228,11 +254,16 @@ def apply_min_frac_filters(titers_df, min_frac_viruses, min_frac_sera, action):
             if failing_viruses:
                 if action == "raise":
                     raise ValueError(
-                        f"Viruses below min_frac_sera={min_frac_sera}: {failing_viruses}"
+                        f"Viruses below min_frac_sera={min_frac_sera}: "
+                        f"{failing_viruses}"
                     )
-                # Record dropped viruses with their fractions
+                # Record newly dropped viruses (avoid duplicates)
                 for virus in failing_viruses:
                     all_dropped_viruses.append((virus, failing_virus_frac[virus]))
+                    excluded_viruses.add(virus)
+
+                # Remove failing viruses from titers_df
+                # (no-op for viruses with 0 titers)
                 titers_df = titers_df[~titers_df["virus"].isin(failing_viruses)]
 
         # Check for convergence
@@ -273,7 +304,7 @@ def apply_min_frac_filters(titers_df, min_frac_viruses, min_frac_sera, action):
         for virus, frac in sorted(all_dropped_viruses, key=lambda x: x[1]):
             log_message(f"    {virus}: frac_sera={frac:.4f}")
 
-    return titers_df
+    return titers_df, excluded_viruses
 
 
 # =============================================================================
@@ -293,17 +324,17 @@ log_message("Step 1: Dropping explicitly specified sera and viruses...")
 titers_df = drop_explicit_items(titers_df, sera_to_drop, viruses_to_drop)
 log_message("")
 
-# Step 2: Drop any sera/viruses with zero remaining titers (shouldn't happen, but safety)
-sera_with_titers = titers_df["serum"].unique()
-viruses_with_titers = titers_df["virus"].unique()
+# Determine viruses to check against min_frac_sera threshold
+# (all library viruses except those explicitly dropped)
+viruses_to_check = set(viral_library_strains) - set(viruses_to_drop)
 
-# Step 3: Apply min_frac filters
+# Step 2: Apply min_frac filters
 log_message(
     f"Step 2: Applying min_frac_viruses={min_frac_viruses}, "
     f"min_frac_sera={min_frac_sera} (action={min_frac_action})..."
 )
-titers_df = apply_min_frac_filters(
-    titers_df, min_frac_viruses, min_frac_sera, min_frac_action
+titers_df, excluded_viruses_set = apply_min_frac_filters(
+    titers_df, min_frac_viruses, min_frac_sera, min_frac_action, viruses_to_check
 )
 log_message("")
 
@@ -424,9 +455,13 @@ sera_multicohort.to_csv(output_sera_multicohort_csv, index=False)
 log_message(f"  Written: {output_sera_multicohort_csv} ({len(sera_multicohort)} rows)")
 
 # --- Output 4: Viruses CSV ---
-# Filter to viruses in final titers
+# Filter to viruses that passed all filtering
+# (all library viruses except explicitly dropped and failing min_frac_sera)
+viruses_that_passed = (
+    set(viral_library_strains) - set(viruses_to_drop) - excluded_viruses_set
+)
 viruses_output = viral_library_df[
-    viral_library_df["strain"].isin(final_viruses_list)
+    viral_library_df["strain"].isin(viruses_that_passed)
 ].copy()
 
 # Verify no existing virus or virus_collection_date column
@@ -443,7 +478,7 @@ viruses_output = viruses_output.rename(
     columns={"strain": "virus", "collection_date": "virus_collection_date"}
 )
 
-# Select only the columns we want (this excludes barcode, Twist_name, etc.)
+# Select only the columns we want (excludes barcode, Twist_name, etc.)
 virus_cols = [
     "virus",
     "subtype",
@@ -459,7 +494,7 @@ virus_cols = [
 virus_cols = [c for c in virus_cols if c in viruses_output.columns]
 viruses_output = viruses_output[virus_cols]
 
-# Drop duplicates (multiple barcodes per strain have identical metadata after selecting columns)
+# Drop duplicates (multiple barcodes per strain have identical metadata)
 viruses_output = viruses_output.drop_duplicates()
 
 # Verify single row per virus

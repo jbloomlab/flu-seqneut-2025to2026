@@ -121,8 +121,8 @@ sera_metadata:
 # the species designation in the serum metadata.
 process_final_titer_data:
   viral_library: actual  # must specify viral library in viral_libraries used to run plate
-  min_frac_viruses: 0.9  # only include sera w titers against this fraction of viral strains
-  min_frac_sera: 0.8  # only include strains w titers against this fraction of sera
+  min_frac_viruses: 0.9  # only include sera w titers against this fraction of viral strains (among viruses with at least one titer)
+  min_frac_sera: 0.8  # only include viral strains w titers against this fraction of sera
   min_frac_action: drop  # "drop" sera / strains below min_frac, or "raise" an error
   sera_to_drop: []  # list names of sera to drop
   viruses_to_drop: []  # list names of viral strains to drop

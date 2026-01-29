@@ -220,8 +220,8 @@ Processed titer data after QC filtering, with separate files for titers, sera me
 **Configuration** (in `config.yml` under `process_final_titer_data`):
 - `viral_library`: Which library key to use for virus metadata
 - `min_frac_viruses`: Minimum fraction of viruses a serum must have titers against
-- `min_frac_sera`: Minimum fraction of sera a virus must have titers from
-- `min_frac_action`: "drop" to remove failing items, "raise" to error
+- `min_frac_sera`: Minimum fraction of sera a virus must have titers from. **Important**: This filtering checks ALL viruses in the viral library, including those with no titer measurements (0 titers). Viruses with 0 titers have frac_sera=0.0 and will fail the threshold unless min_frac_sera=0.
+- `min_frac_action`: "drop" to remove failing items, "raise" to error. Applies to both viruses with titers below threshold and viruses with no titers.
 - `sera_to_drop`, `viruses_to_drop`: Explicit exclusion lists
 - `titer_cutoffs`: Cutoffs for reporting fraction of sera below threshold
 
