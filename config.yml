@@ -24,9 +24,23 @@ nextstrain-prot-titers-tree_prefix_alignment:
   H3N2: ""  # no prefix needed as HAs in viral_barcodes start at HA1 site 1
   H1N1: DTL  # add these three amino acids as HAs in viral barcode miss first 3 ectodomain aas
 
+# Viral library to use for building nextstrain-prot-titers-tree alignment and metadata.
+# References a key from viral_libraries (e.g., "designed" or "actual").
+nextstrain-prot-titers-tree_viral_library: actual
+
+# Species for which to build tree titers (used to construct input file paths from final_titer_data).
+# Set to null to disable titer overlay on trees.
+nextstrain-prot-titers-tree_titers_from: human
+
+# Cohorts to show on tree (from cohort column in summarized titers)
+serum_cohorts_for_tree: ["All", "NIID", "PENN", "PENN_0-days-post-vax", "PENN_28-days-post-vax", "SCH"]
+
+# Titer cutoffs for reporting fraction of sera below threshold (used in tree coloring
+# and in process_final_titer_data).
+titer_cutoffs: &titer_cutoffs [140]
+
 # Configuration for `nextstrain-prot-titers-tree`. For each subtype, provide the indicated arguments
 # that have the same meaning described at https://github.com/jbloomlab/nextstrain-prot-titers-tree
-# NOTE: titers set to null until titer data is available
 nextstrain-prot-titers-tree_config:
   H3N2:
     alignment: results/nextstrain-prot-titers-tree/H3N2/alignment.fa  # built by pipeline
@@ -36,9 +50,23 @@ nextstrain-prot-titers-tree_config:
     color_by_metadata:
       strain_type: {}
       subclade: {}
-    titers: null  # no titer data yet
+      ?for cohort in doc["serum_cohorts_for_tree"]:
+        ?f"median_titer_{cohort}_sera":
+          scale_type: viridis_r_log
+        ?for cutoff in doc["titer_cutoffs"]:
+          ?f"frac_w_titer_below_{cutoff}_{cohort}_sera":
+            scale_type: viridis_linear
+    metadata_columns: [derived_haplotype]
+    titers:
+      titers_tsv: results/nextstrain-prot-titers-tree/H3N2/titers.tsv  # built by pipeline
+      titer_col: log2_titer
+      grouping_columns: [serum, cohort]
+      addtl_args:
+        title: serum neutralizing titers
+        x-axis-label: log2 titer
+        measurements-display: raw
     display_defaults:
-      color_by: subclade
+      color_by: median_titer_All_sera
       distance_measure: div
       branch_label: aa
     results_subdir: results/nextstrain-prot-titers-tree/H3N2/pipeline_results
@@ -55,9 +83,23 @@ nextstrain-prot-titers-tree_config:
     color_by_metadata:
       strain_type: {}
       subclade: {}
-    titers: null  # no titer data yet
+      ?for cohort in doc["serum_cohorts_for_tree"]:
+        ?f"median_titer_{cohort}_sera":
+          scale_type: viridis_r_log
+        ?for cutoff in doc["titer_cutoffs"]:
+          ?f"frac_w_titer_below_{cutoff}_{cohort}_sera":
+            scale_type: viridis_linear
+    metadata_columns: [derived_haplotype]
+    titers:
+      titers_tsv: results/nextstrain-prot-titers-tree/H1N1/titers.tsv  # built by pipeline
+      titer_col: log2_titer
+      grouping_columns: [serum, cohort]
+      addtl_args:
+        title: serum neutralizing titers
+        x-axis-label: log2 titer
+        measurements-display: raw
     display_defaults:
-      color_by: subclade
+      color_by: median_titer_All_sera
       distance_measure: div
       branch_label: aa
     results_subdir: results/nextstrain-prot-titers-tree/H1N1/pipeline_results
@@ -74,6 +116,18 @@ sera_metadata:
   - data/sera_metadata/sera_for_flu-seqneut-2025to2026_PENN.csv
   - data/sera_metadata/sera_for_flu-seqneut-2025to2026_SCH.csv
   - data/sera_metadata/sera_for_flu-seqneut-2025to2026_UCSF-CTS.csv
+
+# Aggregate and QC final processed titer data for each serum group, which must match
+# the species designation in the serum metadata.
+process_final_titer_data:
+  viral_library: actual  # must specify viral library in viral_libraries used to run plate
+  min_frac_viruses: 0.9  # only include sera w titers against this fraction of viral strains (among viruses with at least one titer)
+  min_frac_sera: 0.8  # only include viral strains w titers against this fraction of sera
+  min_frac_action: drop  # "drop" sera / strains below min_frac, or "raise" an error
+  sera_to_drop: []  # list names of sera to drop
+  viruses_to_drop: []  # list names of viral strains to drop
+  titer_cutoffs: *titer_cutoffs  # report fraction below cutoff
+
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 

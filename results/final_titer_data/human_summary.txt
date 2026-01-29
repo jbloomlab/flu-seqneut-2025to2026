@@ -1,0 +1,77 @@
+======================================================================
+Processing final titer data for group: human
+======================================================================
+
+Loading input data...
+  Loaded 15093 titer measurements from results/aggregated_titers/titers_human.csv
+  Loaded 446 sera from results/sera_metadata/all_sera_metadata.csv
+  Loaded 209 barcodes from data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
+
+Validating input data...
+  All rows have correct group
+  All serum-virus pairs are unique
+  All sera found in metadata
+  All viruses found in viral library
+
+Processing titer data...
+  Initial: 15093 rows, 173 sera, 91 viruses
+
+Step 1: Dropping explicitly specified sera and viruses...
+  No viruses specified in viruses_to_drop
+  No sera specified in sera_to_drop
+
+Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
+  Iteration 1: dropped 7 sera, 0 viruses
+  min_frac filters converged after 2 iterations
+
+  Sera dropped for min_frac_viruses < 0.9 (7 total):
+    seqneut25to26_sera_0040: frac_viruses=0.0110
+    seqneut25to26_sera_4011: frac_viruses=0.0110
+    seqneut25to26_sera_4013: frac_viruses=0.0110
+    seqneut25to26_sera_4016: frac_viruses=0.0110
+    seqneut25to26_sera_4010: frac_viruses=0.0220
+    seqneut25to26_sera_4015: frac_viruses=0.0330
+    seqneut25to26_sera_4009: frac_viruses=0.2308
+
+  Viruses dropped for min_frac_sera < 0.8 (10 total):
+    A/BritishColumbia/PHL-2467/2025_H1N1: frac_sera=0.0000
+    A/England/1845724/2025_H3N2: frac_sera=0.0000
+    A/SouthAustralia/2523011822/2025_H1N1: frac_sera=0.0000
+    A/SuratThani/P3371/2025_H3N2: frac_sera=0.0000
+    A/Catalonia/NSAV198331894/2025_H1N1: frac_sera=0.0000
+    A/Bahrain/4684/2025_H3N2: frac_sera=0.0000
+    A/Malaysia/IMR-SARI1798/2025_H1N1: frac_sera=0.0000
+    A/Delaware/81/2025_H3N2: frac_sera=0.0000
+    A/Galicia/GA-CHUAC-449/2025_H1N1: frac_sera=0.0000
+    A/Aberystwyth/5654/2025_H3N2: frac_sera=0.0000
+
+Processing complete:
+  Final: 15063 rows, 166 sera, 91 viruses
+  Dropped: 30 rows, 7 sera, 0 viruses
+
+Generating output files...
+  Written: results/final_titer_data/human_titers.csv (15063 rows)
+  Written: results/final_titer_data/human_sera.csv (166 rows)
+  Written: results/final_titer_data/human_sera_multicohort.csv (450 rows)
+  Written: results/final_titer_data/human_viruses.csv (91 rows)
+  Written: results/final_titer_data/human_titers_summarized_by_virus.csv (546 rows)
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+Group: human
+Sera: 166
+Viruses: 91
+Total titers: 15063
+
+Cohorts in titers_summarized_by_virus.csv:
+  All: 166 sera, 15063 titers
+  NIID: 9 sera, 817 titers
+  PENN: 118 sera, 10720 titers
+  SCH: 39 sera, 3526 titers
+  PENN_0-days-post-vax: 59 sera, 5356 titers
+  PENN_28-days-post-vax: 59 sera, 5364 titers
+
+Viruses per subtype:
+  H1N1: 34
+  H3N2: 57
