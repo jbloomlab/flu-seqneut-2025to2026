@@ -4,6 +4,10 @@ This script prepares input files for the nextstrain-prot-titers-tree pipeline:
 - Alignment FASTA with protein sequences (with optional prefix for H1N1)
 - Metadata TSV with strain information and titer summary columns
 - Titers TSV with per-serum titer data for tree overlay (when titers configured)
+
+For titers, uses sera_multicohort.csv so each serum appears once per cohort it
+belongs to (original cohort, "All", and any days-post-vax cohorts), enabling
+grouping/filtering by all cohorts in the tree measurements panel.
 """
 
 import datetime
@@ -117,23 +121,38 @@ if has_titers:
     titers = titers[titers["strain"].isin(df["strain"])]
     print(f"After filtering to tree strains: {len(titers)=} rows")
 
-    # Read sera metadata
-    sera_metadata = pd.read_csv(snakemake.input.sera_metadata_csv)[
+    # Read sera metadata (multicohort format: each serum appears once per cohort)
+    sera_multicohort = pd.read_csv(snakemake.input.sera_metadata_csv)[
         ["serum", "cohort", "serum_collection_date", "age_numeric", "sex"]
     ]
-    assert len(sera_metadata) == sera_metadata["serum"].nunique(), "Duplicate sera"
+    # Validate each (serum, cohort) pair is unique
+    assert len(sera_multicohort) == len(
+        sera_multicohort[["serum", "cohort"]].drop_duplicates()
+    ), "Duplicate (serum, cohort) pairs"
     assert set(titers["serum"]).issubset(
-        sera_metadata["serum"]
-    ), f"Titers have sera not in metadata: {set(titers['serum']) - set(sera_metadata['serum'])}"
+        sera_multicohort["serum"]
+    ), f"Titers have sera not in metadata: {set(titers['serum']) - set(sera_multicohort['serum'])}"
 
-    # Validate unique serum-strain pairs
+    # Validate unique serum-strain pairs (before join expands rows)
     assert len(titers) == len(
         titers[["serum", "strain"]].drop_duplicates()
     ), "Duplicate serum-strain pairs in titers"
 
-    # Join titers with sera metadata
-    titers = titers.merge(sera_metadata, on="serum", validate="many_to_one")
-    print(f"Joined titers with sera metadata: {titers['serum'].nunique()=} sera")
+    # Join titers with sera multicohort (one-to-many: each titer row expands to
+    # multiple rows, one per cohort the serum belongs to)
+    n_titers_before = len(titers)
+    titers = titers.merge(sera_multicohort, on="serum", validate="many_to_many")
+    print(
+        f"Joined titers with sera multicohort: {n_titers_before} -> {len(titers)} rows "
+        f"({titers['serum'].nunique()} sera, {titers['cohort'].nunique()} cohorts)"
+    )
+
+    # Create unique serum identifier for tree (serum + cohort) since
+    # nextstrain-prot-titers-tree requires unique serum identifiers
+    titers["serum_for_tree"] = titers["serum"] + "_" + titers["cohort"]
+    assert len(titers) == len(
+        titers[["serum_for_tree", "strain"]].drop_duplicates()
+    ), "Duplicate serum_for_tree-strain pairs after cohort expansion"
 
 # Process each subtype
 for subtype in subtypes:
@@ -176,13 +195,15 @@ for subtype in subtypes:
         # Filter using original strain names (before suffix removal)
         subtype_titers = titers[titers["strain"].isin(original_strain_names)]
         print(
-            f"{len(subtype_titers)=} of {len(titers)=} titers are for {subtype=} strains"
+            f"{len(subtype_titers)} of {len(titers)} titer rows are for {subtype=} strains "
+            f"({subtype_titers[['serum', 'strain']].drop_duplicates().shape[0]} unique serum-strain pairs)"
         )
 
         print(f"Writing titers to {titers_file=}")
         (
             subtype_titers.assign(
-                strain=lambda x: x["strain"].map(strain_rename)
+                strain=lambda x: x["strain"].map(strain_rename),
+                serum=lambda x: x["serum_for_tree"],  # Use cohort-specific serum ID
             ).to_csv(titers_file, sep="\t", index=False, float_format="%.6g")
         )
 

@@ -144,7 +144,7 @@ rule nextstrain_prot_titers_tree_alignment_and_metadata:
             else []
         ),
         sera_metadata_csv=(
-            f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_sera.csv"
+            f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_sera_multicohort.csv"
             if _any_tree_has_titers
             else []
         ),

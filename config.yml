@@ -56,7 +56,7 @@ nextstrain-prot-titers-tree_config:
     titers:
       titers_tsv: results/nextstrain-prot-titers-tree/H3N2/titers.tsv  # built by pipeline
       titer_col: log2_titer
-      grouping_columns: [serum, cohort, serum_collection_date, age_numeric, sex]
+      grouping_columns: [serum, cohort]
       addtl_args:
         title: serum neutralizing titers
         x-axis-label: log2 titer
@@ -89,7 +89,7 @@ nextstrain-prot-titers-tree_config:
     titers:
       titers_tsv: results/nextstrain-prot-titers-tree/H1N1/titers.tsv  # built by pipeline
       titer_col: log2_titer
-      grouping_columns: [serum, cohort, serum_collection_date, age_numeric, sex]
+      grouping_columns: [serum, cohort]
       addtl_args:
         title: serum neutralizing titers
         x-axis-label: log2 titer

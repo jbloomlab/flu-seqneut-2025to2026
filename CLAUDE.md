@@ -279,7 +279,7 @@ The `nextstrain-prot-titers-tree_config` section in `config.yml` controls tree b
 - `auspice_json`: Output path for Nextstrain visualization
 
 Additional config keys for titer overlay:
-- `nextstrain-prot-titers-tree_titers_from`: Species from which titer data is taken (e.g., `human`). When set, enables titer overlay on trees. Input files are derived as `results/final_titer_data/{species}_titers.csv`, `{species}_sera.csv`, and `{species}_titers_summarized_by_virus.csv`. Set to `null` to disable titer overlay.
+- `nextstrain-prot-titers-tree_titers_from`: Species from which titer data is taken (e.g., `human`). When set, enables titer overlay on trees. Input files are derived as `results/final_titer_data/{species}_titers.csv`, `{species}_sera_multicohort.csv`, and `{species}_titers_summarized_by_virus.csv`. Set to `null` to disable titer overlay.
 - `serum_cohorts_for_tree`: List of cohorts (from `cohort` column in summarized titers) to include in tree coloring.
 
 The `recent_vaccine_strains` config maps strain names to display labels for vaccine strains to include alongside circulating strains.
