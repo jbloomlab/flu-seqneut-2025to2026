@@ -131,7 +131,9 @@ _any_tree_has_titers = any(
 rule nextstrain_prot_titers_tree_alignment_and_metadata:
     """Build alignment, metadata, and titers TSV used by `nextstrain-prot-titers-tree`."""
     input:
-        viral_libraries_csv=config["viral_libraries"]["designed"],
+        viral_libraries_csv=config["viral_libraries"][
+            config["nextstrain-prot-titers-tree_viral_library"]
+        ],
         # Only include titer inputs if titers are configured for any tree
         summarized_titers_csv=(
             f"results/final_titer_data/{config['nextstrain-prot-titers-tree_titers_from']}_titers_summarized_by_virus.csv"

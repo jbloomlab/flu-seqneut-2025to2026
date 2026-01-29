@@ -24,6 +24,10 @@ nextstrain-prot-titers-tree_prefix_alignment:
   H3N2: ""  # no prefix needed as HAs in viral_barcodes start at HA1 site 1
   H1N1: DTL  # add these three amino acids as HAs in viral barcode miss first 3 ectodomain aas
 
+# Viral library to use for building nextstrain-prot-titers-tree alignment and metadata.
+# References a key from viral_libraries (e.g., "designed" or "actual").
+nextstrain-prot-titers-tree_viral_library: actual
+
 # Species for which to build tree titers (used to construct input file paths from final_titer_data).
 # Set to null to disable titer overlay on trees.
 nextstrain-prot-titers-tree_titers_from: human

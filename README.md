@@ -333,6 +333,7 @@ The pipeline validates viral library CSVs against the specifications above using
 - H1N1: https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1
 
 **Configuration**: Tree parameters are in `config.yml` under `nextstrain-prot-titers-tree_config`. Key settings:
+- `nextstrain-prot-titers-tree_viral_library`: Which viral library key to use for building tree alignment and metadata (e.g., `designed` or `actual`).
 - `nextstrain-prot-titers-tree_titers_from`: Species for titer data (e.g., `human`). When set, enables titer overlay on trees with input files derived from `results/final_titer_data/{species}_*.csv`.
 - `serum_cohorts_for_tree`: List of cohorts to include in tree coloring. Generates `median_titer_{cohort}_sera` and `frac_w_titer_below_{cutoff}_{cohort}_sera` columns.
 - `color_by_metadata`: Columns available for tree coloring (strain_type, subclade, and titer columns).

@@ -278,7 +278,8 @@ The `nextstrain-prot-titers-tree_config` section in `config.yml` controls tree b
 - `titers`: When configured, specifies the titers TSV path, titer column (`log2_titer`), and grouping columns for the measurements panel.
 - `auspice_json`: Output path for Nextstrain visualization
 
-Additional config keys for titer overlay:
+Additional config keys:
+- `nextstrain-prot-titers-tree_viral_library`: Which viral library key to use for building tree alignment and metadata (e.g., `designed` or `actual`).
 - `nextstrain-prot-titers-tree_titers_from`: Species from which titer data is taken (e.g., `human`). When set, enables titer overlay on trees. Input files are derived as `results/final_titer_data/{species}_titers.csv`, `{species}_sera_multicohort.csv`, and `{species}_titers_summarized_by_virus.csv`. Set to `null` to disable titer overlay.
 - `serum_cohorts_for_tree`: List of cohorts (from `cohort` column in summarized titers) to include in tree coloring.
 
