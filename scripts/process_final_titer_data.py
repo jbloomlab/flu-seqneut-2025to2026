@@ -301,7 +301,7 @@ def apply_min_frac_filters(
             f"  Viruses dropped for min_frac_sera < {min_frac_sera} "
             f"({len(all_dropped_viruses)} total):"
         )
-        for virus, frac in sorted(all_dropped_viruses, key=lambda x: x[1]):
+        for virus, frac in sorted(all_dropped_viruses, key=lambda x: (x[1], x[0])):
             log_message(f"    {virus}: frac_sera={frac:.4f}")
 
     return titers_df, excluded_viruses
@@ -406,7 +406,7 @@ if "days_post_vax" in sera_output.columns:
     for _, row in sera_output.iterrows():
         if pd.notna(row.get("days_post_vax")):
             days = int(row["days_post_vax"])
-            dpv_cohort = f"{row['cohort']}_{days}-days-post-vax"
+            dpv_cohort = f"{row['cohort']}_{days}d-post-vax"
             derived_dpv_cohorts.add(dpv_cohort)
 
 # Check for conflicts with derived days-post-vax cohort names
@@ -433,7 +433,7 @@ for _, row in sera_output.iterrows():
     # Days-post-vax cohort if applicable
     if "days_post_vax" in sera_output.columns and pd.notna(row.get("days_post_vax")):
         days = int(row["days_post_vax"])
-        dpv_cohort = f"{original_cohort}_{days}-days-post-vax"
+        dpv_cohort = f"{original_cohort}_{days}d-post-vax"
         cohort_assignments.append({"serum": serum, "cohort": dpv_cohort})
 
 cohort_assignments_df = pd.DataFrame(cohort_assignments)
@@ -553,7 +553,7 @@ titers_summarized = compute_virus_summary(titers_multicohort)
 def cohort_sort_key(cohort):
     if cohort == "All":
         return (0, "")
-    elif "-days-post-vax" in cohort:
+    elif "d-post-vax" in cohort:
         return (2, cohort)
     else:
         return (1, cohort)

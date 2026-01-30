@@ -33,7 +33,7 @@ nextstrain-prot-titers-tree_viral_library: actual
 nextstrain-prot-titers-tree_titers_from: human
 
 # Cohorts to show on tree (from cohort column in summarized titers)
-serum_cohorts_for_tree: ["All", "NIID", "PENN", "PENN_0-days-post-vax", "PENN_28-days-post-vax", "SCH"]
+serum_cohorts_for_tree: ["All", "NIID", "PENN", "PENN_0d-post-vax", "PENN_28d-post-vax", "SCH"]
 
 # Titer cutoffs for reporting fraction of sera below threshold (used in tree coloring
 # and in process_final_titer_data).
@@ -127,6 +127,26 @@ process_final_titer_data:
   sera_to_drop: []  # list names of sera to drop
   viruses_to_drop: []  # list names of viral strains to drop
   titer_cutoffs: *titer_cutoffs  # report fraction below cutoff
+
+# Parameters for titer summary plots
+plot_titer_summaries_params:
+  titer_cutoff: 140  # initial slider value for fraction below cutoff
+  titer_lower_limit: 40  # lower limit of titers for log scale
+  facet_size: 150  # width of each cohort facet column
+  prop_colors:  # pre-assigned colors for vaccine type labels
+    cell vaccine: black
+    egg vaccine: gray
+  other_prop_colors:  # colors for subclade labels (assigned per subtype)
+    - "#ffed6f"
+    - "#ccebc5"
+    - "#bc80bd"
+    - "#fccde5"
+    - "#b3de69"
+    - "#fdb462"
+    - "#80b1d3"
+    - "#fb8072"
+    - "#bebada"
+    - "#8dd3c7"
 
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------

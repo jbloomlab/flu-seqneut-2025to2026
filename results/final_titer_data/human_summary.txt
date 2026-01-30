@@ -34,16 +34,16 @@ Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
     seqneut25to26_sera_4009: frac_viruses=0.2308
 
   Viruses dropped for min_frac_sera < 0.8 (10 total):
+    A/Aberystwyth/5654/2025_H3N2: frac_sera=0.0000
+    A/Bahrain/4684/2025_H3N2: frac_sera=0.0000
     A/BritishColumbia/PHL-2467/2025_H1N1: frac_sera=0.0000
+    A/Catalonia/NSAV198331894/2025_H1N1: frac_sera=0.0000
+    A/Delaware/81/2025_H3N2: frac_sera=0.0000
     A/England/1845724/2025_H3N2: frac_sera=0.0000
+    A/Galicia/GA-CHUAC-449/2025_H1N1: frac_sera=0.0000
+    A/Malaysia/IMR-SARI1798/2025_H1N1: frac_sera=0.0000
     A/SouthAustralia/2523011822/2025_H1N1: frac_sera=0.0000
     A/SuratThani/P3371/2025_H3N2: frac_sera=0.0000
-    A/Catalonia/NSAV198331894/2025_H1N1: frac_sera=0.0000
-    A/Bahrain/4684/2025_H3N2: frac_sera=0.0000
-    A/Malaysia/IMR-SARI1798/2025_H1N1: frac_sera=0.0000
-    A/Delaware/81/2025_H3N2: frac_sera=0.0000
-    A/Galicia/GA-CHUAC-449/2025_H1N1: frac_sera=0.0000
-    A/Aberystwyth/5654/2025_H3N2: frac_sera=0.0000
 
 Processing complete:
   Final: 15063 rows, 166 sera, 91 viruses
@@ -69,8 +69,8 @@ Cohorts in titers_summarized_by_virus.csv:
   NIID: 9 sera, 817 titers
   PENN: 118 sera, 10720 titers
   SCH: 39 sera, 3526 titers
-  PENN_0-days-post-vax: 59 sera, 5356 titers
-  PENN_28-days-post-vax: 59 sera, 5364 titers
+  PENN_0d-post-vax: 59 sera, 5356 titers
+  PENN_28d-post-vax: 59 sera, 5364 titers
 
 Viruses per subtype:
   H1N1: 34

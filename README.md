@@ -17,6 +17,8 @@ Here are quick links with key data/results:
     * [results/final_titer_data/human_viruses.csv](results/final_titer_data/human_viruses.csv): detailed information about the viruses for which these titers were measured.
     * [results/final_titer_data/human_titers_summarized_by_virus.csv](results/final_titer_data/human_titers_summarized_by_virus.csv): summary statistics about the titers against each virus.
 
+- Interactive titer summary plots showing median titers, individual serum titers, interquartile ranges, and fraction of sera below titer cutoffs for each subtype and strain type. These plots are generated in `results/titer_plots/` (not tracked in git) but viewable at the bottom of the GitHub Pages documentation at [https://jbloomlab.github.io/flu-seqneut-2025to2026](https://jbloomlab.github.io/flu-seqneut-2025to2026). This documentation also has detailed QC for all of the curves, titers, etc.
+
 - Interactive Nextstrain protein trees (can be colored by subclade, median titer, or fraction below titer cutoff for each cohort):
   - [H3N2](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H3N2)
   - [H1N1](https://nextstrain.org/community/jbloomlab/flu-seqneut-2025to2026@main/H1N1)
@@ -93,6 +95,15 @@ flu-seqneut-2025to2026/
 ├── config.yml                   # Main pipeline configuration
 ├── run_Hutch_cluster.bash       # SLURM cluster submission script
 │
+├── scripts/                     # Custom analysis scripts
+│   ├── validate_viral_library.py                              # Viral library validation
+│   ├── aggregate_sera_metadata.py                             # Sera metadata aggregation
+│   ├── process_final_titer_data.py                            # Final titer data processing
+│   └── nextstrain_prot_titers_tree_alignment_and_metadata.py  # Tree input preparation
+│
+├── notebooks/                   # Marimo notebooks for visualizations
+│   └── plot_titer_summaries.py  # Interactive titer summary plots
+│
 ├── data/                        # Input data
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes (Loes et al. 2024)
@@ -107,6 +118,8 @@ flu-seqneut-2025to2026/
 │   ├── plates/                  # Per-plate analyses
 │   ├── sera/                    # Per-serum titer aggregations
 │   ├── aggregated_titers/       # Final titer matrices
+│   ├── final_titer_data/        # QC'd titer data with metadata (tracked in git)
+│   ├── titer_plots/             # Interactive titer summary plots (not tracked in git)
 │   ├── qc_drops/                # QC filtering documentation
 │   └── miscellaneous_plates/    # Library pooling QC results
 │
@@ -365,6 +378,44 @@ The pipeline validates viral library CSVs against the specifications above using
 - `{group}_summary.txt` - Processing log with counts at each step
 
 **Configuration**: Parameters in `config.yml` under `process_final_titer_data`.
+
+### 12. Titer Summary Plots
+
+**Pipeline Rule**: `plot_titer_summaries`
+
+**Goal**: Generate interactive Altair visualizations summarizing titer data across sera and viruses.
+
+**Process**:
+- Reads final titer data, sera metadata (including multi-cohort assignments), and virus metadata
+- Creates interactive charts with selections for filtering by cohort, age range, and virus subclade/vaccine type
+- Generates plots for each subtype (H1N1, H3N2) × strain type (recent, vaccine) × chart type
+- Outputs both vertical and horizontal orientations for each chart
+- Adds charts to auto-generated pipeline documentation
+
+**Chart Types**:
+- `individual_sera`: Shows median titers (points) and per-serum titers (lines) for each virus
+- `interquartile_range`: Shows median titers (points) and interquartile range bands
+- `frac_below_cutoff`: Bar chart showing fraction of sera below a configurable titer cutoff
+
+**Interactive Features**:
+- Click legend to filter by serum cohort or virus subclade/vaccine type
+- Adjust age range sliders to filter sera by donor age
+- Hover for detailed tooltips (virus name, derived haplotype, titer values, serum metadata)
+- Adjustable titer cutoff slider for fraction-below-cutoff charts
+
+**Key Outputs** (in `results/titer_plots/`, not tracked in git but included in GitHub Pages documentation):
+- `{group}_plot_titer_summaries_{orientation}.html` - Full marimo notebook with all charts
+- `{group}_plot_titer_summaries_{orientation}_context.pickle` - Context pickle for interactive editing
+- `{group}_{subtype}_{strain_type}_{chart_type}_{orientation}.html` - Individual chart HTMLs (12 per group per orientation)
+
+**Configuration**: Parameters in `config.yml` under `plot_titer_summaries_params`:
+- `titer_cutoff`: Initial slider value for fraction-below-cutoff charts
+- `titer_lower_limit`: Lower limit for log-scale titer axis
+- `facet_size`: Width/height of each cohort facet
+- `prop_colors`: Pre-assigned colors for vaccine type labels
+- `other_prop_colors`: Color palette for subclade labels
+
+**Notebook**: `notebooks/plot_titer_summaries.py` - Marimo notebook implementing the visualizations
 
 ## Quality Control Philosophy
 
