@@ -21,6 +21,7 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 - ✅ **Neutralization Assay Plates**: Human serum neutralization plates configured and running through pipeline
 - ✅ **Aggregated Titers**: Pipeline producing titer results in `results/aggregated_titers/`
 - ✅ **Final Titer Processing**: QC'd titer data with sera/virus metadata (see `scripts/process_final_titer_data.py`)
+- ✅ **Titer Summary Plots**: Interactive Altair visualizations of titer data (see `notebooks/plot_titer_summaries.py`)
 
 ### Ongoing
 - 🔄 Additional plates being added as experiments complete
@@ -105,7 +106,10 @@ flu-seqneut-2025to2026/
 ├── scripts/
 │   ├── validate_viral_library.py  # Viral library validation script
 │   ├── aggregate_sera_metadata.py # Sera metadata aggregation and validation
+│   ├── process_final_titer_data.py  # Final titer data processing and QC
 │   └── nextstrain_prot_titers_tree_alignment_and_metadata.py  # Tree input prep
+├── notebooks/
+│   └── plot_titer_summaries.py    # Marimo notebook for titer summary plots
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes
@@ -284,6 +288,22 @@ Additional config keys:
 - `serum_cohorts_for_tree`: List of cohorts (from `cohort` column in summarized titers) to include in tree coloring.
 
 The `recent_vaccine_strains` config maps strain names to display labels for vaccine strains to include alongside circulating strains.
+
+### Titer Summary Plots Configuration
+The `plot_titer_summaries_params` section in `config.yml` controls the interactive titer visualization charts:
+- `titer_cutoff`: Initial slider value for fraction-below-cutoff charts
+- `titer_lower_limit`: Lower limit for log-scale titer axis
+- `facet_size`: Width/height of each cohort facet column
+- `prop_colors`: Pre-assigned colors for vaccine type labels (e.g., "cell vaccine": black)
+- `other_prop_colors`: Color palette for subclade labels (assigned per subtype)
+
+The rule `plot_titer_summaries` (in `Snakefile`) generates charts for each group with both vertical and horizontal orientations. Outputs go to `results/titer_plots/` and are added to the auto-generated documentation via `add_htmls_to_docs`.
+
+**Notebook**: `notebooks/plot_titer_summaries.py` implements the visualizations using Altair with transform_lookup pattern for efficiency. Key features:
+- Cohort assignments from `sera_multicohort.csv` (includes "All" and derived cohorts like days-post-vax)
+- Interactive filtering by cohort, age range, and virus subclade/vaccine type
+- Axis labels show derived_haplotype (if defined) or strain name
+- Tooltips show both virus name and derived_haplotype
 
 ## Common Tasks for Claude
 
