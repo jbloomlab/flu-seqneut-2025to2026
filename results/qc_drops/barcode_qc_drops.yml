@@ -1,40 +1,11 @@
 AAACTCTAACTGAGTT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
-AAAGCTCTTTTCGTTC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AAAGGAAGCCCCTCAC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate20 seqneut25to26_sera_3038: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
 AAAGGAGTAGGATTAA:
   barcodes:
@@ -45,8 +16,15 @@ AAAGGAGTAGGATTAA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -57,216 +35,91 @@ AAAGGAGTAGGATTAA:
 AAATATTGAGACTAAT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
 AACACTCAATACCGGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
 AACTCCAATTTGTTTT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate19 seqneut25to26_sera_3023: goodness_of_fit
 AACTCCCATGGGGCAG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 AAGAAGCTATAGAAGT:
   barcode_serum_replicates:
     plate11 seqneut25to26_sera_1046_d28: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate18 seqneut25to26_sera_3012: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d0: goodness_of_fit
     plate8 seqneut25to26_sera_0032: goodness_of_fit
-AAGACCTAGTTTGAAC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AAGACGAAGCGTTTGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate13 seqneut25to26_sera_0037: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
+  barcode_wells:
+    plate21 E2: max_frac_infectivity_per_viral_barcode_well
 AAGCAGTTTGCCCCCA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-AAGCGACGCGCGACGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 AAGCGCTTCCCAGCCA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
-AAGTTAAGAGAAAGTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AATCATACATGCTTCT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
 AATCCGAAATTTATTC:
   barcode_serum_replicates:
     plate14 seqneut25to26_sera_0038: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate3 seqneut25to26_sera_0024: goodness_of_fit
+  barcode_wells:
+    plate19 G4: max_frac_infectivity_per_viral_barcode_well
+    plate22 H10: max_frac_infectivity_per_viral_barcode_well
 ACATCCGCCCTTCGGT:
   barcode_serum_replicates:
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate19 seqneut25to26_sera_3023: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
-ACATTTAGCGGACCGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+  barcode_wells:
+    plate20 G5: max_frac_infectivity_per_viral_barcode_well
+    plate22 F10: max_frac_infectivity_per_viral_barcode_well
+    plate24 H1: max_frac_infectivity_per_viral_barcode_well
 ACCAGGTGGCAGTACA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 ACCATGTCTAATACAA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -276,8 +129,15 @@ ACCATGTCTAATACAA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -294,8 +154,15 @@ ACCCATTTAGGCTCAT:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -308,16 +175,8 @@ ACGAGAAGCAGGGGGC:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
@@ -330,8 +189,15 @@ ACGATAGGAAGCGTTA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -339,43 +205,14 @@ ACGATAGGAAGCGTTA:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-ACGATCGTCGGAGGTC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ACGATTTTTTCTACAT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
 ACGGCATCCCAATTGA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
 ACGTCGCTAGACTTTA:
   barcode_serum_replicates:
@@ -384,20 +221,12 @@ ACGTCGCTAGACTTTA:
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4004: goodness_of_fit
     plate15 seqneut25to26_sera_4005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate21 seqneut25to26_sera_3045: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
@@ -411,8 +240,15 @@ ACTACGAGCAGATTAC:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -420,44 +256,12 @@ ACTACGAGCAGATTAC:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-ACTTTCCTCCCATGCG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AGAAAAGATAGGAAAG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
 AGAACGGCTTGACACT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 AGACCATCGCACCCAA:
   barcode_serum_replicates:
@@ -465,16 +269,7 @@ AGACCATCGCACCCAA:
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d28: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
@@ -484,191 +279,83 @@ AGACCATCGCACCCAA:
     plate4 G7: max_frac_infectivity_per_viral_barcode_well
     plate4 H6: max_frac_infectivity_per_viral_barcode_well
     plate9 G11: max_frac_infectivity_per_viral_barcode_well
-AGAGCTAAAAAGAGGA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AGAGGCCGGACGTAAA:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+  barcode_wells:
+    plate24 H2: max_frac_infectivity_per_viral_barcode_well
 AGCAGTCCCGCTAGTC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
 AGCTCCACATTTGGCC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
-AGGAAAGAAACTGGAG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AGGAACATGTCCATAC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate11 seqneut25to26_sera_1046_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate18 seqneut25to26_sera_3021: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate20 seqneut25to26_sera_3038: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
 AGGAAGATCAAAAGCG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
-AGGACCTAAATGAAGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AGGCGGACTAACTGCA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
-AGTAAACATGCATTGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 AGTCCTATCCTCAAAT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0021: goodness_of_fit
     plate5 seqneut25to26_sera_1025_d0: goodness_of_fit
+  barcode_wells:
+    plate19 F4: max_frac_infectivity_per_viral_barcode_well
 ATAAATTCTTTATGGA:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 ATACATCCGACGCTTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
@@ -676,124 +363,27 @@ ATACATCCGACGCTTT:
     plate7 seqneut25to26_sera_1040_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
     plate9 seqneut25to26_sera_1004_d0: goodness_of_fit
-ATAGAATCGCAAATTA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ATAGCCCTAACGAAAG:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
-ATCAAGGACCCTGGGC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-ATCATAGCACTAAAAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ATCCGTTGGGCGACAA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate18 seqneut25to26_sera_3018: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
 ATCGATCGAGATAACG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 ATCGCAAGTACCAGTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d28: goodness_of_fit
-ATCTCGGCCGGCCAAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-ATCTTGTATGATATGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ATGAATCTGTGTTGGG:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -803,8 +393,15 @@ ATGAATCTGTGTTGGG:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -812,131 +409,39 @@ ATGAATCTGTGTTGGG:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-ATGAGCTAAACATGAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-ATGCCGGGCCGTTACT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ATGCGTTTATCGATTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-ATTAACCAATTGAGCA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 ATTACAACCCAGACAA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
 ATTGCAACGCCGGTGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 ATTGGCTGTCGTGGCC:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
 ATTTCATGAGATAGGG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
 CAAATATAATGTCCTG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-CAAATGGGCTGCAGGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 CACAATATGACAGAGT:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -946,8 +451,15 @@ CACAATATGACAGAGT:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -960,15 +472,13 @@ CACACCTCTCTCGCCG:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
     plate1 seqneut25to26_sera_0006: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate18 seqneut25to26_sera_3018: goodness_of_fit
+    plate18 seqneut25to26_sera_3019: goodness_of_fit
+    plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
 CACAGACGAGACACAC:
@@ -980,8 +490,15 @@ CACAGACGAGACACAC:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -989,31 +506,15 @@ CACAGACGAGACACAC:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-CACAGCGCTGGCCTTG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 CACATACAACACGACC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate12 seqneut25to26_sera_1018_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate22 seqneut25to26_sera_5010: goodness_of_fit
     plate9 seqneut25to26_sera_1054_d0: goodness_of_fit
 CACGGCTGGAGCGGCC:
   barcode_serum_replicates:
@@ -1031,21 +532,26 @@ CACGGCTGGAGCGGCC:
     plate14 seqneut25to26_sera_1029_d28: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate18 seqneut25to26_sera_3014: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0016: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
+    plate21 seqneut25to26_sera_3045: goodness_of_fit
+    plate21 seqneut25to26_sera_3048: goodness_of_fit
+    plate22 seqneut25to26_sera_5009: goodness_of_fit
+    plate22 seqneut25to26_sera_5011: goodness_of_fit
+    plate22 seqneut25to26_sera_5013: goodness_of_fit
+    plate24 seqneut25to26_sera_5030: goodness_of_fit
+    plate24 seqneut25to26_sera_5034: goodness_of_fit
+    plate24 seqneut25to26_sera_5039: goodness_of_fit
     plate3 seqneut25to26_sera_0024: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
     plate3 seqneut25to26_sera_1002_d28: goodness_of_fit
@@ -1065,11 +571,20 @@ CACGGCTGGAGCGGCC:
     plate12 G5: max_frac_infectivity_per_viral_barcode_well
     plate12 H10: max_frac_infectivity_per_viral_barcode_well
     plate13 B12: min_no_serum_count_per_viral_barcode_well
+    plate17 D3: max_frac_infectivity_per_viral_barcode_well
+    plate18 E12: min_no_serum_count_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
+    plate24 D8: max_frac_infectivity_per_viral_barcode_well
+    plate24 G6: max_frac_infectivity_per_viral_barcode_well
+    plate24 G8: max_frac_infectivity_per_viral_barcode_well
     plate3 G3: max_frac_infectivity_per_viral_barcode_well
     plate4 H4: max_frac_infectivity_per_viral_barcode_well
     plate5 H10: max_frac_infectivity_per_viral_barcode_well
     plate6 G3: max_frac_infectivity_per_viral_barcode_well
     plate6 G9: max_frac_infectivity_per_viral_barcode_well
+  barcodes:
+    plate19: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
 CACTTTCGGGAACACG:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -1079,8 +594,15 @@ CACTTTCGGGAACACG:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -1091,16 +613,10 @@ CACTTTCGGGAACACG:
 CAGGCTGCTGGGCCGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate22 seqneut25to26_sera_5010: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 CAGGTACGCGTTTCTG:
   barcode_serum_replicates:
@@ -1108,16 +624,7 @@ CAGGTACGCGTTTCTG:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
 CATAAAAGACTGTATA:
@@ -1127,43 +634,23 @@ CATAAAAGACTGTATA:
     plate14 seqneut25to26_sera_1029_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
     plate15 seqneut25to26_sera_4006: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate19 seqneut25to26_sera_3024: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1058_d0: goodness_of_fit
 CATCGACAGGTCCCAC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate19 seqneut25to26_sera_3023: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
 CATGTGGAGGGTCGAG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate3 seqneut25to26_sera_0027: goodness_of_fit
@@ -1172,27 +659,11 @@ CATTTCTGATGAATTG:
     plate13 seqneut25to26_sera_0037: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 CCAGGATCTATCCTTC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
 CCATACCACGCCCTGT:
   barcode_serum_replicates:
@@ -1203,83 +674,30 @@ CCATACCACGCCCTGT:
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1022_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
+    plate23 seqneut25to26_sera_5029: goodness_of_fit
     plate3 seqneut25to26_sera_0027: goodness_of_fit
     plate4 seqneut25to26_sera_1020_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1008_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
-CCGTGTGTTGTGCGCA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 CCGTTAGGGATTCCTC:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
+    plate21 seqneut25to26_sera_3046: goodness_of_fit
+  barcode_wells:
+    plate18 H6: max_frac_infectivity_per_viral_barcode_well
+    plate22 H4: max_frac_infectivity_per_viral_barcode_well
 CCTACGCTCGTATCCC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-CCTAGCCGGAAACATG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-CCTCTGTGTACTAATT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
 CCTGCATCGGGCTTAA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -1289,8 +707,15 @@ CCTGCATCGGGCTTAA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -1304,69 +729,21 @@ CCTTATGAATTACGCG:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate11 seqneut25to26_sera_1026_d0: goodness_of_fit
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
 CGAACATGGGAACTAA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
 CGAAGATGAGCCCTCG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 CGACGCGCCGTCGCTG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
-CGACTCTGTCGGGTAA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 CGATCTTTACGAAAAA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -1379,58 +756,29 @@ CGATCTTTACGAAAAA:
     plate14 seqneut25to26_sera_1029_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate19 seqneut25to26_sera_3023: goodness_of_fit
+    plate20 seqneut25to26_sera_3039: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate9 seqneut25to26_sera_1004_d0: goodness_of_fit
   barcode_wells:
     plate14 D11: max_frac_infectivity_per_viral_barcode_well
+    plate22 H3: max_frac_infectivity_per_viral_barcode_well
     plate4 E3: max_frac_infectivity_per_viral_barcode_well
-CGATTACGCTTTCCGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 CGGGTCCTAGGCGAGG:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
 CGGTAAGTTTCGAGGA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
 CGTACGTATGTCCCAG:
   barcode_serum_replicates:
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
@@ -1439,92 +787,25 @@ CGTACGTATGTCCCAG:
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
     plate15 seqneut25to26_sera_4008: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
   barcode_wells:
     plate2 F4: max_frac_infectivity_per_viral_barcode_well
 CGTACTAATCACTCCG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
-CGTCAATGGGTCATCG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 CGTTGCATGTAGCAGG:
   barcode_serum_replicates:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-CTCGCGGGTATATAGA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-CTGAACTTGTCGATAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 CTGAGTATGGGGCTCA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
 CTGCCGCCTGCTGTGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -1542,17 +823,18 @@ CTGCCGCCTGCTGTGT:
     plate15 seqneut25to26_sera_4006: goodness_of_fit
     plate15 seqneut25to26_sera_4007: goodness_of_fit
     plate15 seqneut25to26_sera_4008: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate18 seqneut25to26_sera_3013: goodness_of_fit
+    plate18 seqneut25to26_sera_3018: goodness_of_fit
+    plate18 seqneut25to26_sera_3019: goodness_of_fit
+    plate18 seqneut25to26_sera_3021: goodness_of_fit
+    plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
+    plate20 seqneut25to26_sera_3035: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
+    plate22 seqneut25to26_sera_5010: goodness_of_fit
+    plate22 seqneut25to26_sera_5011: goodness_of_fit
+    plate23 seqneut25to26_sera_5023: goodness_of_fit
+    plate23 seqneut25to26_sera_5029: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
@@ -1563,103 +845,57 @@ CTGCCGCCTGCTGTGT:
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
     plate9 seqneut25to26_sera_1054_d28: goodness_of_fit
   barcode_wells:
-    plate16 A6: max_frac_infectivity_per_viral_barcode_well
-    plate16 B9: max_frac_infectivity_per_viral_barcode_well
-    plate16 E8: max_frac_infectivity_per_viral_barcode_well
-    plate16 G4: max_frac_infectivity_per_viral_barcode_well
+    plate17 F6: max_frac_infectivity_per_viral_barcode_well
+    plate17 F8: max_frac_infectivity_per_viral_barcode_well
+    plate17 F9: max_frac_infectivity_per_viral_barcode_well
+    plate19 C3: max_frac_infectivity_per_viral_barcode_well
+    plate19 E10: max_frac_infectivity_per_viral_barcode_well
+    plate19 E11: max_frac_infectivity_per_viral_barcode_well
+    plate19 G3: max_frac_infectivity_per_viral_barcode_well
+    plate20 B2: max_frac_infectivity_per_viral_barcode_well
+    plate20 H7: max_frac_infectivity_per_viral_barcode_well
+    plate22 F8: max_frac_infectivity_per_viral_barcode_well
+    plate22 G4: max_frac_infectivity_per_viral_barcode_well
+    plate22 H6: max_frac_infectivity_per_viral_barcode_well
+    plate23 A5: max_frac_infectivity_per_viral_barcode_well
+    plate23 E8: max_frac_infectivity_per_viral_barcode_well
+    plate23 G6: max_frac_infectivity_per_viral_barcode_well
+    plate24 E10: max_frac_infectivity_per_viral_barcode_well
+    plate24 G5: max_frac_infectivity_per_viral_barcode_well
     plate4 H1: max_frac_infectivity_per_viral_barcode_well
 CTTGAACCAGCAGTGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate21 seqneut25to26_sera_3046: goodness_of_fit
+  barcode_wells:
+    plate18 H8: max_frac_infectivity_per_viral_barcode_well
+    plate19 F3: max_frac_infectivity_per_viral_barcode_well
+    plate24 F2: max_frac_infectivity_per_viral_barcode_well
 CTTTTCCGTGTCCTCT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
 GAAAGACCGATGCCAG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
 GAACACAATTACTTAG:
   barcode_serum_replicates:
     plate10 seqneut25to26_sera_1055_d0: goodness_of_fit
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate4 seqneut25to26_sera_1011_d0: goodness_of_fit
 GAACCTACAAGCAGTC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d28: goodness_of_fit
 GAACGGAGATCTGTTG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
-GAAGAAACTATAACCA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 GAAGGACGCACTGGTT:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -1669,8 +905,15 @@ GAAGGACGCACTGGTT:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -1680,29 +923,12 @@ GAAGGACGCACTGGTT:
     plate9: min_neut_standard_frac_per_well
 GAAGGACTTGGGGCTC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
 GAAGTGCTGCTGAAGT:
   barcode_serum_replicates:
     plate14 seqneut25to26_sera_1022_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4001: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
     plate5 seqneut25to26_sera_1015_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1025_d0: goodness_of_fit
@@ -1711,85 +937,31 @@ GAAGTGCTGCTGAAGT:
   barcode_wells:
     plate1 D1: max_frac_infectivity_per_viral_barcode_well
     plate1 G1: max_frac_infectivity_per_viral_barcode_well
-    plate16 G5: max_frac_infectivity_per_viral_barcode_well
+    plate18 F7: max_frac_infectivity_per_viral_barcode_well
     plate2 C4: max_frac_infectivity_per_viral_barcode_well
     plate2 F4: max_frac_infectivity_per_viral_barcode_well
     plate4 H1: max_frac_infectivity_per_viral_barcode_well
 GAATAATAGAACAGAG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
-GAATCTCCCGCGTATA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GACGGACTATCAACGA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 GACTTCTTCCGCTCTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 GAGATAAAAGAGCTCT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
 GAGGACAGCGGTCGTC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GAGTGCCCAGGTGTTG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -1803,15 +975,20 @@ GAGTGCCCAGGTGTTG:
     plate14 seqneut25to26_sera_1022_d28: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate18 seqneut25to26_sera_3021: goodness_of_fit
+    plate19 seqneut25to26_sera_3023: goodness_of_fit
+    plate19 seqneut25to26_sera_3027: goodness_of_fit
+    plate19 seqneut25to26_sera_3033: goodness_of_fit
+    plate20 seqneut25to26_sera_3044: goodness_of_fit
+    plate22 seqneut25to26_sera_5010: goodness_of_fit
+    plate22 seqneut25to26_sera_5014: goodness_of_fit
+    plate22 seqneut25to26_sera_5016: goodness_of_fit
+    plate23 seqneut25to26_sera_5022: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate6 seqneut25to26_sera_1031_d0: goodness_of_fit
@@ -1821,6 +998,22 @@ GAGTGCCCAGGTGTTG:
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
   barcode_wells:
     plate12 H5: max_frac_infectivity_per_viral_barcode_well
+    plate17 F6: max_frac_infectivity_per_viral_barcode_well
+    plate18 E4: max_frac_infectivity_per_viral_barcode_well
+    plate18 F8: max_frac_infectivity_per_viral_barcode_well
+    plate20 D6: max_frac_infectivity_per_viral_barcode_well
+    plate20 E8: max_frac_infectivity_per_viral_barcode_well
+    plate20 F10: max_frac_infectivity_per_viral_barcode_well
+    plate20 F6: max_frac_infectivity_per_viral_barcode_well
+    plate20 G3: max_frac_infectivity_per_viral_barcode_well
+    plate20 G7: max_frac_infectivity_per_viral_barcode_well
+    plate20 H4: max_frac_infectivity_per_viral_barcode_well
+    plate20 H8: max_frac_infectivity_per_viral_barcode_well
+    plate20 H9: max_frac_infectivity_per_viral_barcode_well
+    plate23 C5: max_frac_infectivity_per_viral_barcode_well
+    plate23 G2: max_frac_infectivity_per_viral_barcode_well
+    plate23 H10: max_frac_infectivity_per_viral_barcode_well
+    plate23 H3: max_frac_infectivity_per_viral_barcode_well
 GATAGGTCTTATCCGA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -1830,8 +1023,15 @@ GATAGGTCTTATCCGA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -1842,57 +1042,30 @@ GATAGGTCTTATCCGA:
 GATCGGAATAACCGTA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 GATGACGCGACCTCCT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 GATGCCCCTTGGCTCT:
   barcode_serum_replicates:
     plate13 seqneut25to26_sera_1050_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GATTGAGGGGTCCGGG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate18 seqneut25to26_sera_3019: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
 GATTGTAAGTTCCTCG:
   barcodes:
@@ -1903,8 +1076,15 @@ GATTGTAAGTTCCTCG:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -1912,81 +1092,24 @@ GATTGTAAGTTCCTCG:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-GCAGAAAGAGGTAATA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GCAGCTTGAATGATGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 GCATACTGGTTACATT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3002: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
 GCCAACTTTCACTTGG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GCCAGCCGAAAGCCGT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GCCCACGTTTAACTTT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
 GCCCTACCTAACTACC:
   barcodes:
@@ -1997,8 +1120,15 @@ GCCCTACCTAACTACC:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2008,108 +1138,29 @@ GCCCTACCTAACTACC:
     plate9: min_neut_standard_frac_per_well
 GCGGACAGCGGTTATC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GCGGCGCCCGGTTGAT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GCGTAGTTTGATTCAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GCTCAGTCGCCACGTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GCTCCTGGTCATATAT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
+    plate20 seqneut25to26_sera_3036: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
 GCTGATAAACAATCTA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
-GCTTGTTAGCCTGAAG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GTACACTCTTTCAATT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 GTACCGCCTCGCTCCT:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -2119,8 +1170,15 @@ GTACCGCCTCGCTCCT:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2131,15 +1189,8 @@ GTACCGCCTCGCTCCT:
 GTATAGAAATGGGTCA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
 GTATCACGTCGTTTAC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -2151,46 +1202,28 @@ GTATCACGTCGTTTAC:
     plate11 seqneut25to26_sera_1046_d0: goodness_of_fit
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4008: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate18 seqneut25to26_sera_3012: goodness_of_fit
+    plate19 seqneut25to26_sera_3024: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
+    plate21 seqneut25to26_sera_5001: goodness_of_fit
+    plate23 seqneut25to26_sera_5021: goodness_of_fit
+    plate23 seqneut25to26_sera_5022: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate6 seqneut25to26_sera_1031_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
     plate8 seqneut25to26_sera_0032: goodness_of_fit
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
+  barcode_wells:
+    plate22 C7: max_frac_infectivity_per_viral_barcode_well
 GTATTGAATGTCCGGC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate19 seqneut25to26_sera_3025: goodness_of_fit
 GTCACAGTCATCGTGT:
   barcode_serum_replicates:
     plate15 seqneut25to26_sera_4001: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
 GTCCACTCAACTTCCT:
   barcodes:
@@ -2201,8 +1234,15 @@ GTCCACTCAACTTCCT:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2212,15 +1252,8 @@ GTCCACTCAACTTCCT:
     plate9: min_neut_standard_frac_per_well
 GTCCATAGTTTCGTGA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 GTCGCCGCTAATCCGA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -2230,17 +1263,18 @@ GTCGCCGCTAATCCGA:
     plate13 seqneut25to26_sera_0037: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate15 seqneut25to26_sera_1019_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0016: goodness_of_fit
+    plate20 seqneut25to26_sera_3037: goodness_of_fit
+    plate20 seqneut25to26_sera_3038: goodness_of_fit
+    plate22 seqneut25to26_sera_5009: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
+    plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
@@ -2249,37 +1283,18 @@ GTCGCCGCTAATCCGA:
     plate9 seqneut25to26_sera_1033_d0: goodness_of_fit
   barcode_wells:
     plate1 D1: max_frac_infectivity_per_viral_barcode_well
-    plate16 A1: max_frac_infectivity_per_viral_barcode_well
-    plate16 D5: max_frac_infectivity_per_viral_barcode_well
-    plate16 G10: max_frac_infectivity_per_viral_barcode_well
-    plate16 G11: max_frac_infectivity_per_viral_barcode_well
+    plate18 G7: max_frac_infectivity_per_viral_barcode_well
+    plate18 G8: max_frac_infectivity_per_viral_barcode_well
+    plate18 H7: max_frac_infectivity_per_viral_barcode_well
+    plate19 G8: max_frac_infectivity_per_viral_barcode_well
+    plate19 G9: max_frac_infectivity_per_viral_barcode_well
+    plate19 H2: max_frac_infectivity_per_viral_barcode_well
     plate2 F5: max_frac_infectivity_per_viral_barcode_well
     plate3 H11: max_frac_infectivity_per_viral_barcode_well
     plate4 H3: max_frac_infectivity_per_viral_barcode_well
 GTCGTCCGTAAGTTCA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-GTCTTGTCGATTGGTA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+  barcode_wells:
+    plate21 H1: max_frac_infectivity_per_viral_barcode_well
 GTGCAATTCCGCGTCC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -2293,22 +1308,20 @@ GTGCAATTCCGCGTCC:
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
     plate15 seqneut25to26_sera_4007: goodness_of_fit
     plate15 seqneut25to26_sera_4008: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate18 seqneut25to26_sera_3018: goodness_of_fit
     plate2 seqneut25to26_sera_0013: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate22 seqneut25to26_sera_5009: goodness_of_fit
+    plate23 seqneut25to26_sera_5022: goodness_of_fit
+    plate23 seqneut25to26_sera_5023: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
+    plate24 seqneut25to26_sera_5037: goodness_of_fit
     plate3 seqneut25to26_sera_0027: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
@@ -2318,16 +1331,6 @@ GTGCAATTCCGCGTCC:
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
 GTTGACTGCCTTTCTT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
 GTTGATTCGATCATAT:
   barcode_serum_replicates:
@@ -2336,16 +1339,17 @@ GTTGATTCGATCATAT:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate18 seqneut25to26_sera_3016: goodness_of_fit
+    plate19 seqneut25to26_sera_3025: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
+    plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
+    plate21 seqneut25to26_sera_5003: goodness_of_fit
+    plate21 seqneut25to26_sera_5004: goodness_of_fit
+    plate23 seqneut25to26_sera_5021: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
@@ -2353,16 +1357,6 @@ GTTGATTCGATCATAT:
     plate2 F5: max_frac_infectivity_per_viral_barcode_well
 TAAAAGCTCCCATTAC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d28: goodness_of_fit
@@ -2375,8 +1369,15 @@ TAAAGTAGGTAACGTG:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2386,31 +1387,19 @@ TAAAGTAGGTAACGTG:
     plate9: min_neut_standard_frac_per_well
 TAACCGGTCAGATGTT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
 TACACTCAAACGATGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate11 seqneut25to26_sera_1026_d0: goodness_of_fit
     plate11 seqneut25to26_sera_1048_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate19 seqneut25to26_sera_3033: goodness_of_fit
     plate2 seqneut25to26_sera_0013: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
@@ -2418,18 +1407,6 @@ TACACTCAAACGATGC:
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
-TACGATACTCGGAAGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TAGACTGGATACGTGA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -2439,8 +1416,15 @@ TAGACTGGATACGTGA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2450,102 +1434,21 @@ TAGACTGGATACGTGA:
     plate9: min_neut_standard_frac_per_well
 TAGATAACTCGCTAGG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
-TAGATTTGTCCGTACA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TAGCCTATAATCAAGT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 TAGTACTAACACCAGA:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
-TATATTAGTAACATAA:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TATCCGGGTCTGATGC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TATGCTAAGACTTTTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TATGTCCGCACCGCCG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TCACACCGCTCAGCCT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
@@ -2553,20 +1456,14 @@ TCACACCGCTCAGCCT:
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4006: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4017: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0013: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
 TCCACACCCCTAGCTA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -2574,50 +1471,33 @@ TCCACACCCCTAGCTA:
     plate13 seqneut25to26_sera_1049_d28: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate9 seqneut25to26_sera_1033_d0: goodness_of_fit
+  barcode_wells:
+    plate21 H2: max_frac_infectivity_per_viral_barcode_well
 TCCCAAGACAAGCGAC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
 TCCCTTCTTCGCAACT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate13 seqneut25to26_sera_0037: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate19 seqneut25to26_sera_3030: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
+    plate20 seqneut25to26_sera_3044: goodness_of_fit
+    plate21 seqneut25to26_sera_3048: goodness_of_fit
+    plate23 seqneut25to26_sera_5023: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
 TCCGCACTGCGATCAC:
   barcodes:
@@ -2628,8 +1508,15 @@ TCCGCACTGCGATCAC:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2639,58 +1526,20 @@ TCCGCACTGCGATCAC:
     plate9: min_neut_standard_frac_per_well
 TCGATTTCTAAATTCC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
 TCGCGGATTAAACCAT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
-TCGCTTTAGCCGGACC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TCGGAGAGCGATCCGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate14 seqneut25to26_sera_1022_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4001: goodness_of_fit
     plate15 seqneut25to26_sera_4005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0016: goodness_of_fit
@@ -2703,52 +1552,10 @@ TCGGTCGGGCGAAGGC:
   barcode_serum_replicates:
     plate10 seqneut25to26_sera_1055_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1022_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TCGTGCTGTCATGCAG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TCTGTAGCTCCCTCAC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TCTGTGCGAGCATCGG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 TCTTCAAGTCGTGTTA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -2758,8 +1565,15 @@ TCTTCAAGTCGTGTTA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2767,67 +1581,9 @@ TCTTCAAGTCGTGTTA:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-TGAGTGTCCAGGTACT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TGATATCTGGAATCTG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TGATGCCGTCAGCCTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TGCGATGCATAGTTCG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TGGAATCGTCACCGAT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TGGACTGGCCATCCTA:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -2837,8 +1593,15 @@ TGGACTGGCCATCCTA:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2852,58 +1615,18 @@ TGGTAGTCCTTAACCG:
     plate11 seqneut25to26_sera_1048_d0: goodness_of_fit
     plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
+    plate20 seqneut25to26_sera_3043: goodness_of_fit
+    plate22 seqneut25to26_sera_5011: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
     plate8 seqneut25to26_sera_0032: goodness_of_fit
     plate9 seqneut25to26_sera_1004_d28: goodness_of_fit
-TGTCGGGGTACGGGAC:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TGTCGGTGCGCCGCTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TGTCTGCGCTTAAGTT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TGTGCCAGTGGCACCC:
   barcodes:
     plate1: min_neut_standard_frac_per_well
@@ -2913,8 +1636,15 @@ TGTGCCAGTGGCACCC:
     plate13: min_neut_standard_frac_per_well
     plate14: min_neut_standard_frac_per_well
     plate15: min_neut_standard_frac_per_well
-    plate16: min_neut_standard_frac_per_well
+    plate17: min_neut_standard_frac_per_well
+    plate18: min_neut_standard_frac_per_well
+    plate19: min_neut_standard_frac_per_well
     plate2: min_neut_standard_frac_per_well
+    plate20: min_neut_standard_frac_per_well
+    plate21: min_neut_standard_frac_per_well
+    plate22: min_neut_standard_frac_per_well
+    plate23: min_neut_standard_frac_per_well
+    plate24: min_neut_standard_frac_per_well
     plate3: min_neut_standard_frac_per_well
     plate4: min_neut_standard_frac_per_well
     plate5: min_neut_standard_frac_per_well
@@ -2922,102 +1652,36 @@ TGTGCCAGTGGCACCC:
     plate7: min_neut_standard_frac_per_well
     plate8: min_neut_standard_frac_per_well
     plate9: min_neut_standard_frac_per_well
-TGTGCGAAGTTGATGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TTACCTTAAATCAAAG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TTCGACAAGTATACGT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TTCTAACGATTGTAGG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
 TTGAAACTCTTGTCCT:
   barcode_serum_replicates:
     plate10 seqneut25to26_sera_1055_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 TTTACTCGATCCTCGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate11 seqneut25to26_sera_1046_d0: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
 TTTAGCCGGCTGTAAC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
+    plate18 seqneut25to26_sera_3019: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 TTTATTACTCTTATGG:
   barcode_serum_replicates:
@@ -3026,16 +1690,10 @@ TTTATTACTCTTATGG:
     plate12 seqneut25to26_sera_1012_d28: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4008: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
@@ -3043,18 +1701,6 @@ TTTATTACTCTTATGG:
     plate3 seqneut25to26_sera_0025: goodness_of_fit
     plate3 seqneut25to26_sera_0027: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
-TTTCCAGGGCTTCCCG:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
 TTTCGGGGCCCCAATG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -3064,85 +1710,46 @@ TTTCGGGGCCCCAATG:
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d28: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3003: goodness_of_fit
+    plate17 seqneut25to26_sera_3005: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3007: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate18 seqneut25to26_sera_3019: goodness_of_fit
     plate2 seqneut25to26_sera_0015: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate3 seqneut25to26_sera_0027: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
     plate9 seqneut25to26_sera_1004_d0: goodness_of_fit
 TTTGCTACAAGTGAGC:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3001: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
 TTTGGCGAGCAGCCCG:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 TTTGGTGAGGCCCAAT:
   barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
-TTTTCGATAATAATCT:
-  barcode_serum_replicates:
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3006: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3009: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
 TTTTCTGACGATGCAG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
-    plate16 seqneut25to26_sera_0040: goodness_of_fit
-    plate16 seqneut25to26_sera_4009: goodness_of_fit
-    plate16 seqneut25to26_sera_4010: goodness_of_fit
-    plate16 seqneut25to26_sera_4011: goodness_of_fit
-    plate16 seqneut25to26_sera_4012: goodness_of_fit
-    plate16 seqneut25to26_sera_4013: goodness_of_fit
-    plate16 seqneut25to26_sera_4014: goodness_of_fit
-    plate16 seqneut25to26_sera_4015: goodness_of_fit
-    plate16 seqneut25to26_sera_4016: goodness_of_fit
-    plate16 seqneut25to26_sera_4018: goodness_of_fit
+    plate17 seqneut25to26_sera_3008: goodness_of_fit
+    plate17 seqneut25to26_sera_3010: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
+    plate22 seqneut25to26_sera_5009: goodness_of_fit
+    plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
     plate8 seqneut25to26_sera_1017_d0: goodness_of_fit
+  barcode_wells:
+    plate23 H10: max_frac_infectivity_per_viral_barcode_well
