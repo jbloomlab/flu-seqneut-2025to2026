@@ -1,0 +1,17 @@
+﻿well,serum,dilution_factor,replicate,fastq
+A1,none,4,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_17_S97_R1_001.fastq.gz
+B1,none,8,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_18_S98_R1_001.fastq.gz
+C1,none,16,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_19_S99_R1_001.fastq.gz
+D1,none,32,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_20_S100_R1_001.fastq.gz
+E1,none,64,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_21_S101_R1_001.fastq.gz
+F1,none,128,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_22_S102_R1_001.fastq.gz
+G1,none,256,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_23_S103_R1_001.fastq.gz
+H1,none,512,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_24_S104_R1_001.fastq.gz
+A2,none,4,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_25_S105_R1_001.fastq.gz
+B2,none,8,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_26_S106_R1_001.fastq.gz
+C2,none,16,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_27_S107_R1_001.fastq.gz
+D2,none,32,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_28_S108_R1_001.fastq.gz
+E2,none,64,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_29_S109_R1_001.fastq.gz
+F2,none,128,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_30_S110_R1_001.fastq.gz
+G2,none,256,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_31_S111_R1_001.fastq.gz
+H2,none,512,2,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260130_VH00319_599_AAF23LGHV/Unaligned/Project_bloom_lab/PlateA_32_S112_R1_001.fastq.gz
