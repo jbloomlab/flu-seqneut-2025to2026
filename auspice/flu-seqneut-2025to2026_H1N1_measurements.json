@@ -80352,1825 +80352,1825 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.6596
+          "value": 7.0693
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.6596
+          "value": 7.0693
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.4982
+          "value": 6.9853
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.4982
+          "value": 6.9853
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 6.8887
+          "value": 7.3327
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 6.8887
+          "value": 7.3327
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.9495
+          "value": 7.2036
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.9495
+          "value": 7.2036
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.0367
+          "value": 8.1184
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.0367
+          "value": 8.1184
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.7266
+          "value": 6.9507
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.7266
+          "value": 6.9507
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/California/63/2025",
-          "value": 7.4229
+          "value": 7.8918
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/California/63/2025",
-          "value": 7.4229
+          "value": 7.8918
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Canberra/465/2025",
-          "value": 7.0168
+          "value": 7.2817
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Canberra/465/2025",
-          "value": 7.0168
+          "value": 7.2817
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Canberra/530/2025",
-          "value": 6.7238
+          "value": 6.9057
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/Canberra/530/2025",
-          "value": 6.7238
+          "value": 6.9057
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.1689
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.1689
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 6.4935
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 6.4935
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.2211
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.2211
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 6.9646
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 6.9646
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 6.7428
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 6.7428
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/England/1822256/2025",
-          "value": 7.4463
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 7.4463
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.8875
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.8875
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 7.8741
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 7.8741
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 6.8505
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 6.8505
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Hawaii/44/2025",
-          "value": 6.2401
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Hawaii/44/2025",
-          "value": 6.2401
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Missouri/11/2025",
-          "value": 7.065
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Missouri/11/2025",
-          "value": 7.065
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Norway/9107/2025",
-          "value": 6.8728
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Norway/9107/2025",
-          "value": 6.8728
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Norway/9556/2025",
-          "value": 6.1402
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Norway/9556/2025",
-          "value": 6.1402
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 6.239
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 6.239
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.8189
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.8189
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.6178
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.6178
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.7046
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.7046
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.6935
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.6935
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 5.9823
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 5.9823
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Sydney/400/2025",
-          "value": 9.3416
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Sydney/400/2025",
-          "value": 9.3416
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Wisconsin/67/2022",
-          "value": 7.3443
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Wisconsin/67/2022",
-          "value": 7.3443
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3001_All",
-          "strain": "A/Zacapa/FLU-261/2025",
-          "value": 6.7721
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3001_HKU",
-          "strain": "A/Zacapa/FLU-261/2025",
-          "value": 6.7721
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 8.7662
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 8.7662
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Aragon/2046/2025",
-          "value": 8.9301
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Aragon/2046/2025",
-          "value": 8.9301
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Bangkok/1803/2025",
-          "value": 8.3837
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Bangkok/1803/2025",
-          "value": 8.3837
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Bangkok/P2229/2025",
-          "value": 8.7873
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Bangkok/P2229/2025",
-          "value": 8.7873
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Bangkok/P3067/2025",
-          "value": 8.9638
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Bangkok/P3067/2025",
-          "value": 8.9638
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.9093
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.9093
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/California/63/2025",
-          "value": 9.0629
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/California/63/2025",
-          "value": 9.0629
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Canberra/465/2025",
-          "value": 9.061
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Canberra/465/2025",
-          "value": 9.061
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Canberra/530/2025",
-          "value": 9.0824
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Canberra/530/2025",
-          "value": 9.0824
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 9.1017
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 9.1017
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 8.2896
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 8.2896
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 9.0983
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 9.0983
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 9.1586
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 9.1586
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.4009
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.4009
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/England/1822256/2025",
-          "value": 8.8543
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 8.8543
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 8.3206
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 8.3206
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 8.7235
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 8.7235
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 9.1677
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 9.1677
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Hawaii/44/2025",
-          "value": 8.397
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Hawaii/44/2025",
-          "value": 8.397
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.1148
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.1148
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Norway/9107/2025",
-          "value": 8.8771
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Norway/9107/2025",
-          "value": 8.8771
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Norway/9556/2025",
-          "value": 7.6228
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Norway/9556/2025",
-          "value": 7.6228
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.088
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.088
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.7388
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.7388
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.9941
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.9941
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.543
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.543
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.5034
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.5034
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 8.33
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 8.33
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Sydney/400/2025",
-          "value": 9.1719
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Sydney/400/2025",
-          "value": 9.1719
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Wisconsin/67/2022",
-          "value": 9.0309
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Wisconsin/67/2022",
-          "value": 9.0309
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3002_All",
-          "strain": "A/Zacapa/FLU-261/2025",
-          "value": 9.0447
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3002_HKU",
-          "strain": "A/Zacapa/FLU-261/2025",
-          "value": 9.0447
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 9.0869
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 9.0869
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Aragon/2046/2025",
-          "value": 9.2004
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Aragon/2046/2025",
-          "value": 9.2004
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Bangkok/1803/2025",
-          "value": 7.0509
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Bangkok/1803/2025",
-          "value": 7.0509
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Bangkok/P2229/2025",
-          "value": 9.0257
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Bangkok/P2229/2025",
-          "value": 9.0257
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Bangkok/P3067/2025",
-          "value": 8.9839
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Bangkok/P3067/2025",
-          "value": 8.9839
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 9.1051
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 9.1051
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/California/63/2025",
-          "value": 9.3919
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/California/63/2025",
-          "value": 9.3919
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Canberra/465/2025",
-          "value": 9.5022
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Canberra/465/2025",
-          "value": 9.5022
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Canberra/530/2025",
-          "value": 9.3405
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Canberra/530/2025",
-          "value": 9.3405
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 9.42
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 9.42
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 9.0458
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 9.0458
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 9.4707
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 9.4707
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 9.2731
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 9.2731
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.6717
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.6717
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/England/1822256/2025",
-          "value": 9.5683
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 9.5683
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 9.014
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 9.014
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 10.055
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 10.055
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 9.3215
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 9.3215
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Hawaii/44/2025",
-          "value": 8.9015
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Hawaii/44/2025",
-          "value": 8.9015
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.5601
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.5601
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Norway/9107/2025",
-          "value": 9.2058
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Norway/9107/2025",
-          "value": 9.2058
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3003_All",
-          "strain": "A/Norway/9556/2025",
           "value": 7.4246
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3003_HKU",
-          "strain": "A/Norway/9556/2025",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
           "value": 7.4246
         },
         {
           "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.6146
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.6146
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.8093
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.8093
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.3219
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.3219
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.0661
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.0661
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/England/1822256/2025",
+          "value": 7.9087
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 7.9087
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.4733
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.4733
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.138
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.138
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 7.1406
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 7.1406
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 6.5558
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 6.5558
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 7.3794
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 7.3794
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Norway/9107/2025",
+          "value": 7.4051
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Norway/9107/2025",
+          "value": 7.4051
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Norway/9556/2025",
+          "value": 6.8061
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Norway/9556/2025",
+          "value": 6.8061
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 6.8061
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 6.8061
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 7.388
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 7.388
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 7.0639
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 7.0639
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 6.9635
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 6.9635
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 7.1231
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 7.1231
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 6.7549
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 6.7549
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.3923
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.3923
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 7.6373
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 7.6373
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3001_All",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 7.1789
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3001_HKU",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 7.1789
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 9.0896
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 9.0896
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Aragon/2046/2025",
+          "value": 8.9935
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Aragon/2046/2025",
+          "value": 8.9935
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 8.4874
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 8.4874
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Bangkok/P2229/2025",
+          "value": 8.8144
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Bangkok/P2229/2025",
+          "value": 8.8144
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 9.0728
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 9.0728
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 9.0123
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 9.0123
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/California/63/2025",
+          "value": 9.0954
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/California/63/2025",
+          "value": 9.0954
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Canberra/465/2025",
+          "value": 9.0691
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 9.0691
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 9.2458
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 9.2458
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 9.1252
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 9.1252
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 8.4178
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 8.4178
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 9.2962
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 9.2962
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 9.2666
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 9.2666
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.4537
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.4537
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/England/1822256/2025",
+          "value": 8.9776
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 8.9776
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 8.6103
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 8.6103
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.9275
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.9275
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 9.2415
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 9.2415
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 8.5326
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 8.5326
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.264
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.264
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Norway/9107/2025",
+          "value": 8.9652
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Norway/9107/2025",
+          "value": 8.9652
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Norway/9556/2025",
+          "value": 7.7649
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Norway/9556/2025",
+          "value": 7.7649
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 8.2226
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 8.2226
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 8.8367
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 8.8367
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 9.1657
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 9.1657
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 8.6373
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 8.6373
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 8.629
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 8.629
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 8.5407
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 8.5407
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.2808
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.2808
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 9.0856
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 9.0856
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3002_All",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 9.4145
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3002_HKU",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 9.4145
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 9.2014
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 9.2014
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Aragon/2046/2025",
+          "value": 9.1948
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Aragon/2046/2025",
+          "value": 9.1948
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 7.1749
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 7.1749
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Bangkok/P2229/2025",
+          "value": 9.0307
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Bangkok/P2229/2025",
+          "value": 9.0307
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 9.0028
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 9.0028
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 9.2221
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 9.2221
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/California/63/2025",
+          "value": 9.4531
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/California/63/2025",
+          "value": 9.4531
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Canberra/465/2025",
+          "value": 9.8654
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 9.8654
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 9.4543
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 9.4543
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 9.5046
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 9.5046
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 9.218
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 9.218
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 9.7897
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 9.7897
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 9.3665
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 9.3665
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.7259
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.7259
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/England/1822256/2025",
+          "value": 9.6846
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 9.6846
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 9.1928
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 9.1928
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 10.09
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 10.09
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 9.3833
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 9.3833
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 8.9218
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 8.9218
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.8231
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.8231
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Norway/9107/2025",
+          "value": 9.299
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Norway/9107/2025",
+          "value": 9.299
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3003_All",
+          "strain": "A/Norway/9556/2025",
+          "value": 7.5314
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3003_HKU",
+          "strain": "A/Norway/9556/2025",
+          "value": 7.5314
+        },
+        {
+          "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.1195
+          "value": 8.1764
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.1195
+          "value": 8.1764
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 9.1727
+          "value": 9.37
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 9.1727
+          "value": 9.37
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 9.748
+          "value": 9.8025
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 9.748
+          "value": 9.8025
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 9.0803
+          "value": 9.0983
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 9.0803
+          "value": 9.0983
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.5999
+          "value": 8.7764
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.5999
+          "value": 8.7764
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 9.0757
+          "value": 9.3387
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 9.0757
+          "value": 9.3387
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/Sydney/400/2025",
-          "value": 9.7347
+          "value": 9.7376
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 9.7347
+          "value": 9.7376
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 9.7366
+          "value": 9.5821
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 9.7366
+          "value": 9.5821
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 9.7579
+          "value": 9.7833
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 9.7579
+          "value": 9.7833
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 11.457
+          "value": 11.622
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 11.457
+          "value": 11.622
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 11.281
+          "value": 11.297
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 11.281
+          "value": 11.297
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 9.909
+          "value": 10.039
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 9.909
+          "value": 10.039
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 11.513
+          "value": 11.626
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 11.513
+          "value": 11.626
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 11.729
+          "value": 12.011
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 11.729
+          "value": 12.011
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 11.627
+          "value": 11.769
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 11.627
+          "value": 11.769
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/California/63/2025",
-          "value": 11.56
+          "value": 12.258
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/California/63/2025",
-          "value": 11.56
+          "value": 12.258
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Canberra/465/2025",
-          "value": 11.792
+          "value": 11.837
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Canberra/465/2025",
-          "value": 11.792
+          "value": 11.837
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Canberra/530/2025",
-          "value": 11.639
+          "value": 11.775
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Canberra/530/2025",
-          "value": 11.639
+          "value": 11.775
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 11.771
+          "value": 11.656
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 11.771
+          "value": 11.656
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Colorado/105/2025",
-          "value": 11.5
+          "value": 11.93
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Colorado/105/2025",
-          "value": 11.5
+          "value": 11.93
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 11.678
+          "value": 11.695
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 11.678
+          "value": 11.695
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Darwin/1405/2025",
-          "value": 11.777
+          "value": 11.927
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Darwin/1405/2025",
-          "value": 11.777
+          "value": 11.927
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Denmark/3070/2025",
-          "value": 9.3372
+          "value": 9.3809
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Denmark/3070/2025",
-          "value": 9.3372
+          "value": 9.3809
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/England/1822256/2025",
-          "value": 11.427
+          "value": 11.722
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/England/1822256/2025",
-          "value": 11.427
+          "value": 11.722
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 11.339
+          "value": 11.391
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 11.339
+          "value": 11.391
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 11.663
+          "value": 11.744
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 11.663
+          "value": 11.744
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 11.699
+          "value": 11.857
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 11.699
+          "value": 11.857
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Hawaii/44/2025",
-          "value": 9.409
+          "value": 9.5992
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Hawaii/44/2025",
-          "value": 9.409
+          "value": 9.5992
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Missouri/11/2025",
-          "value": 11.481
+          "value": 11.533
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Missouri/11/2025",
-          "value": 11.481
+          "value": 11.533
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Norway/9107/2025",
-          "value": 11.519
+          "value": 11.566
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Norway/9107/2025",
-          "value": 11.519
+          "value": 11.566
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Norway/9556/2025",
-          "value": 9.5143
+          "value": 9.8919
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 9.5143
+          "value": 9.8919
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 10.38
+          "value": 10.445
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 10.38
+          "value": 10.445
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 11.999
+          "value": 12.114
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 11.999
+          "value": 12.114
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 12.001
+          "value": 12.241
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 12.001
+          "value": 12.241
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 11.933
+          "value": 12.232
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 11.933
+          "value": 12.232
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 9.817
+          "value": 10.013
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 9.817
+          "value": 10.013
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 11.814
+          "value": 11.599
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 11.814
+          "value": 11.599
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Sydney/400/2025",
-          "value": 13.153
+          "value": 12.304
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 13.153
+          "value": 12.304
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3004_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 11.968
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3004_HKU",
-          "strain": "A/Wisconsin/67/2022",
-          "value": 11.968
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3004_All",
-          "strain": "A/Zacapa/FLU-261/2025",
           "value": 11.974
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3004_HKU",
-          "strain": "A/Zacapa/FLU-261/2025",
+          "strain": "A/Wisconsin/67/2022",
           "value": 11.974
         },
         {
           "cohort": "All",
+          "serum": "seqneut25to26_sera_3004_All",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 12.222
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3004_HKU",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 12.222
+        },
+        {
+          "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.0953
+          "value": 6.134
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.0953
+          "value": 6.134
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.1568
+          "value": 6.1583
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.1568
+          "value": 6.1583
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 6.5812
+          "value": 6.588
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 6.5812
+          "value": 6.588
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.9355
+          "value": 6.926
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.9355
+          "value": 6.926
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 6.2566
+          "value": 6.3189
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 6.2566
+          "value": 6.3189
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.3656
+          "value": 6.3612
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.3656
+          "value": 6.3612
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/California/63/2025",
-          "value": 6.2672
+          "value": 6.257
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/California/63/2025",
-          "value": 6.2672
+          "value": 6.257
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Canberra/465/2025",
-          "value": 7.0885
+          "value": 7.1385
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Canberra/465/2025",
-          "value": 7.0885
+          "value": 7.1385
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Canberra/530/2025",
-          "value": 6.544
+          "value": 6.2703
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Canberra/530/2025",
-          "value": 6.544
+          "value": 6.2703
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 6.6525
+          "value": 6.6288
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 6.6525
+          "value": 6.6288
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Colorado/105/2025",
-          "value": 6.2298
+          "value": 6.2542
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Colorado/105/2025",
-          "value": 6.2298
+          "value": 6.2542
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.2555
+          "value": 7.3309
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.2555
+          "value": 7.3309
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Darwin/1405/2025",
-          "value": 6.7602
+          "value": 6.8839
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Darwin/1405/2025",
-          "value": 6.7602
+          "value": 6.8839
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Denmark/3070/2025",
-          "value": 6.8354
+          "value": 6.7735
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Denmark/3070/2025",
-          "value": 6.8354
+          "value": 6.7735
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/England/1822256/2025",
-          "value": 6.4635
+          "value": 6.5265
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/England/1822256/2025",
-          "value": 6.4635
+          "value": 6.5265
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.1291
+          "value": 6.1926
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.1291
+          "value": 6.1926
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 6.6229
+          "value": 6.6267
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 6.6229
+          "value": 6.6267
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 6.6109
+          "value": 6.5706
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 6.6109
+          "value": 6.5706
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Hawaii/44/2025",
-          "value": 5.9798
+          "value": 6.0237
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Hawaii/44/2025",
-          "value": 5.9798
+          "value": 6.0237
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Missouri/11/2025",
-          "value": 6.5245
+          "value": 6.4288
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Missouri/11/2025",
-          "value": 6.5245
+          "value": 6.4288
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Norway/9107/2025",
-          "value": 6.6525
+          "value": 6.7615
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Norway/9107/2025",
-          "value": 6.6525
+          "value": 6.7615
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Norway/9556/2025",
-          "value": 6.0961
+          "value": 6.1418
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 6.0961
+          "value": 6.1418
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 6.5715
+          "value": 6.6093
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 6.5715
+          "value": 6.6093
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.7695
+          "value": 6.843
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.7695
+          "value": 6.843
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.7046
+          "value": 6.7156
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.7046
+          "value": 6.7156
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.7535
+          "value": 6.7455
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.7535
+          "value": 6.7455
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.6767
+          "value": 6.6781
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.6767
+          "value": 6.6781
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 5.405
+          "value": 5.4874
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 5.405
+          "value": 5.4874
         },
         {
           "cohort": "All",
@@ -82188,1885 +82188,2257 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 6.9761
+          "value": 6.8629
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 6.9761
+          "value": 6.8629
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3005_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 7.0
+          "value": 6.9875
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3005_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 7.0
+          "value": 6.9875
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 7.9117
+          "value": 8.3505
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 7.9117
+          "value": 8.3505
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 7.7421
+          "value": 8.2143
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 7.7421
+          "value": 8.2143
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.7827
+          "value": 8.0235
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.7827
+          "value": 8.0235
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 8.574
+          "value": 8.9069
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 8.574
+          "value": 8.9069
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 8.4454
+          "value": 8.7011
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 8.4454
+          "value": 8.7011
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.3273
+          "value": 8.6618
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.3273
+          "value": 8.6618
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/California/63/2025",
-          "value": 8.6883
+          "value": 8.8997
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/California/63/2025",
-          "value": 8.6883
+          "value": 8.8997
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Canberra/465/2025",
+          "value": 8.6348
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 8.6348
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 8.939
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 8.939
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 8.7967
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 8.7967
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 8.317
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 8.317
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 8.6496
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 8.6496
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 8.7853
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 8.7853
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.347
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.347
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/England/1822256/2025",
+          "value": 8.1649
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 8.1649
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 8.4471
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 8.4471
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.4128
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 8.4128
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 8.8685
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 8.8685
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 7.3282
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 7.3282
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.7279
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3006_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.7279
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3006_All",
+          "strain": "A/Norway/9107/2025",
           "value": 8.43
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Canberra/465/2025",
+          "strain": "A/Norway/9107/2025",
           "value": 8.43
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Canberra/530/2025",
-          "value": 8.4709
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Canberra/530/2025",
-          "value": 8.4709
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 8.7333
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 8.7333
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 7.7755
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 7.7755
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 8.485
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 8.485
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 8.3242
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 8.3242
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 7.3147
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 7.3147
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/England/1822256/2025",
-          "value": 7.9784
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 7.9784
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 7.808
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 7.808
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 8.2006
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 8.2006
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.8028
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.8028
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Hawaii/44/2025",
-          "value": 7.1967
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Hawaii/44/2025",
-          "value": 7.1967
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.049
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Missouri/11/2025",
-          "value": 9.049
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
-          "strain": "A/Norway/9107/2025",
-          "value": 8.0493
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3006_HKU",
-          "strain": "A/Norway/9107/2025",
-          "value": 8.0493
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Norway/9556/2025",
-          "value": 6.9413
+          "value": 7.6308
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 6.9413
+          "value": 7.6308
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.3381
+          "value": 7.5125
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.3381
+          "value": 7.5125
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.2905
+          "value": 8.236
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.2905
+          "value": 8.236
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.5259
+          "value": 8.7944
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.5259
+          "value": 8.7944
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.3403
+          "value": 8.601
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.3403
+          "value": 8.601
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 7.6294
+          "value": 7.9248
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 7.6294
+          "value": 7.9248
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 7.9159
+          "value": 8.2588
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 7.9159
+          "value": 8.2588
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Sydney/400/2025",
-          "value": 8.3763
+          "value": 8.4413
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 8.3763
+          "value": 8.4413
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 8.1928
+          "value": 8.3251
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 8.1928
+          "value": 8.3251
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3006_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 8.3269
+          "value": 8.5263
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3006_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 8.3269
+          "value": 8.5263
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 10.114
+          "value": 10.235
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 10.114
+          "value": 10.235
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 8.9966
+          "value": 9.0392
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 8.9966
+          "value": 9.0392
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.69
+          "value": 7.7596
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.69
+          "value": 7.7596
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 10.495
+          "value": 10.67
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 10.495
+          "value": 10.67
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 10.013
+          "value": 10.069
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 10.013
+          "value": 10.069
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 10.392
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 10.392
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/California/63/2025",
+          "value": 10.518
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/California/63/2025",
+          "value": 10.518
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Canberra/465/2025",
+          "value": 10.167
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 10.167
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 10.314
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 10.314
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 10.283
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 10.283
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 10.295
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 10.295
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 10.46
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 10.46
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 10.402
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 10.402
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.3923
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 8.3923
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/England/1822256/2025",
           "value": 10.226
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "strain": "A/England/1822256/2025",
           "value": 10.226
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/California/63/2025",
-          "value": 10.316
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/California/63/2025",
-          "value": 10.316
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Canberra/465/2025",
-          "value": 10.332
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Canberra/465/2025",
-          "value": 10.332
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Canberra/530/2025",
-          "value": 10.179
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Canberra/530/2025",
-          "value": 10.179
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 10.248
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 10.248
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 10.191
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 10.191
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 10.366
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 10.366
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 10.359
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 10.359
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.3514
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 8.3514
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
-          "strain": "A/England/1822256/2025",
-          "value": 10.181
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3007_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 10.181
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 10.242
+          "value": 10.488
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 10.242
+          "value": 10.488
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 10.415
+          "value": 10.42
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 10.415
+          "value": 10.42
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 10.623
+          "value": 10.659
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 10.623
+          "value": 10.659
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Hawaii/44/2025",
-          "value": 8.1319
+          "value": 8.2403
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Hawaii/44/2025",
-          "value": 8.1319
+          "value": 8.2403
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Missouri/11/2025",
-          "value": 10.347
+          "value": 10.393
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Missouri/11/2025",
-          "value": 10.347
+          "value": 10.393
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Norway/9107/2025",
-          "value": 10.166
+          "value": 10.182
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Norway/9107/2025",
-          "value": 10.166
+          "value": 10.182
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Norway/9556/2025",
-          "value": 7.8227
+          "value": 8.1205
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 7.8227
+          "value": 8.1205
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.4915
+          "value": 8.4899
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.4915
+          "value": 8.4899
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 10.288
+          "value": 10.121
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 10.288
+          "value": 10.121
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 10.619
+          "value": 10.708
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 10.619
+          "value": 10.708
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 10.412
+          "value": 10.575
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 10.412
+          "value": 10.575
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.6795
+          "value": 8.8138
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.6795
+          "value": 8.8138
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 9.8756
+          "value": 9.9297
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 9.8756
+          "value": 9.9297
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Sydney/400/2025",
-          "value": 11.233
+          "value": 11.469
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 11.233
+          "value": 11.469
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 10.755
+          "value": 10.775
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 10.755
+          "value": 10.775
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 10.678
+          "value": 10.732
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3007_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 10.678
+          "value": 10.732
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.6135
+          "value": 9.5816
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.6135
+          "value": 9.5816
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.9932
+          "value": 9.856
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.9932
+          "value": 9.856
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.2221
+          "value": 9.0515
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.2221
+          "value": 9.0515
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.8679
+          "value": 9.765
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 6.8679
+          "value": 9.765
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.4635
+          "value": 10.32
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.4635
+          "value": 10.32
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 7.1324
+          "value": 9.6605
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 7.1324
+          "value": 9.6605
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/California/63/2025",
-          "value": 7.2715
+          "value": 9.9248
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/California/63/2025",
-          "value": 7.2715
+          "value": 9.9248
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Canberra/465/2025",
-          "value": 7.7142
+          "value": 10.12
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Canberra/465/2025",
-          "value": 7.7142
+          "value": 10.12
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Canberra/530/2025",
-          "value": 7.1075
+          "value": 9.7564
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Canberra/530/2025",
-          "value": 7.1075
+          "value": 9.7564
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.0758
+          "value": 9.6018
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.0758
+          "value": 9.6018
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Colorado/105/2025",
-          "value": 6.5111
+          "value": 9.5511
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Colorado/105/2025",
-          "value": 6.5111
+          "value": 9.5511
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.6044
+          "value": 10.049
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.6044
+          "value": 10.049
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Darwin/1405/2025",
-          "value": 7.2992
+          "value": 9.9334
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Darwin/1405/2025",
-          "value": 7.2992
+          "value": 9.9334
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Denmark/3070/2025",
-          "value": 6.7602
+          "value": 8.9689
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/Denmark/3070/2025",
-          "value": 6.7602
+          "value": 8.9689
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/England/1822256/2025",
-          "value": 6.5794
+          "value": 10.247
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/England/1822256/2025",
-          "value": 6.5794
+          "value": 10.247
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.7682
+          "value": 9.7968
         },
         {
           "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3009_HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.7682
+          "value": 9.7968
         },
         {
           "cohort": "All",
-          "serum": "seqneut25to26_sera_3009_All",
+          "serum": "seqneut25to26_sera_3008_All",
           "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 10.174
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 10.174
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 10.26
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 10.26
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 9.0996
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 9.0996
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.7106
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 9.7106
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Norway/9107/2025",
+          "value": 9.9362
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Norway/9107/2025",
+          "value": 9.9362
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Norway/9556/2025",
+          "value": 9.1626
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Norway/9556/2025",
+          "value": 9.1626
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 9.5
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Philippines/SARI25-1425/2025",
+          "value": 9.5
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 9.8243
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/SouthAustralia/2519001037/2025",
+          "value": 9.8243
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 10.522
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/SouthAustralia/2520702747/2025",
+          "value": 10.522
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 10.136
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/SouthAustralia/2523012764/2025",
+          "value": 10.136
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 9.2583
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/SouthAustralia/2524712956/2025",
+          "value": 9.2583
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 9.5838
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/SouthAustralia/2527612456/2025",
+          "value": 9.5838
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.4568
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Sydney/400/2025",
+          "value": 9.4568
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 10.15
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Wisconsin/67/2022",
+          "value": 10.15
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3008_All",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 9.8957
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3008_HKU",
+          "strain": "A/Zacapa/FLU-261/2025",
+          "value": 9.8957
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 6.7957
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Andalucia/PMC-00977/2025",
+          "value": 6.7957
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Aragon/2046/2025",
+          "value": 7.2677
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Aragon/2046/2025",
+          "value": 7.2677
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 7.4545
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Bangkok/1803/2025",
+          "value": 7.4545
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Bangkok/P2229/2025",
           "value": 7.224
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
+          "strain": "A/Bangkok/P2229/2025",
           "value": 7.224
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 7.5977
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Bangkok/P3067/2025",
+          "value": 7.5977
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 7.507
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/BritishColumbia/PHL-2473/2025",
+          "value": 7.507
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/California/63/2025",
+          "value": 7.3038
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/California/63/2025",
+          "value": 7.3038
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Canberra/465/2025",
+          "value": 8.2789
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 8.2789
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 7.3165
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 7.3165
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 7.247
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 7.247
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.4046
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.4046
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.9738
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.9738
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.4405
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.4405
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 6.9425
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 6.9425
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/England/1822256/2025",
+          "value": 6.853
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 6.853
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.2432
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.2432
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 7.55
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3009_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 7.55
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 7.2974
+          "value": 7.438
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 7.2974
+          "value": 7.438
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Hawaii/44/2025",
-          "value": 6.8329
+          "value": 7.1272
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Hawaii/44/2025",
-          "value": 6.8329
+          "value": 7.1272
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Missouri/11/2025",
-          "value": 7.0822
+          "value": 7.2489
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Missouri/11/2025",
-          "value": 7.0822
+          "value": 7.2489
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Norway/9107/2025",
-          "value": 6.7866
+          "value": 7.1629
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Norway/9107/2025",
-          "value": 6.7866
+          "value": 7.1629
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Norway/9556/2025",
-          "value": 6.6738
+          "value": 7.0034
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 6.6738
+          "value": 7.0034
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.2611
+          "value": 7.4195
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.2611
+          "value": 7.4195
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 7.5022
+          "value": 7.7814
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 7.5022
+          "value": 7.7814
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 7.1477
+          "value": 7.3174
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 7.1477
+          "value": 7.3174
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 7.5835
+          "value": 7.9565
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 7.5835
+          "value": 7.9565
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 7.2153
+          "value": 8.2635
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 7.2153
+          "value": 8.2635
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 6.5952
+          "value": 6.946
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 6.5952
+          "value": 6.946
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Sydney/400/2025",
-          "value": 7.5259
+          "value": 7.7354
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 7.5259
+          "value": 7.7354
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 7.2346
+          "value": 7.2863
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 7.2346
+          "value": 7.2863
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 6.975
+          "value": 7.0607
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 6.975
+          "value": 7.0607
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.717
+          "value": 6.8455
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 6.717
+          "value": 6.8455
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.6767
+          "value": 6.7374
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 6.6767
+          "value": 6.7374
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.2808
+          "value": 7.3029
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 7.2808
+          "value": 7.3029
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 7.009
+          "value": 7.0607
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 7.009
+          "value": 7.0607
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.0736
+          "value": 7.1898
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 7.0736
+          "value": 7.1898
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.7225
+          "value": 6.7522
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 6.7225
+          "value": 6.7522
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/California/63/2025",
-          "value": 8.0933
+          "value": 8.3029
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/California/63/2025",
-          "value": 8.0933
+          "value": 8.3029
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Canberra/465/2025",
+          "value": 7.2036
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Canberra/465/2025",
+          "value": 7.2036
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Canberra/530/2025",
+          "value": 7.7129
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Canberra/530/2025",
+          "value": 7.7129
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 7.3416
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Catalonia/NSVH102689455/2025",
+          "value": 7.3416
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.7905
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Colorado/105/2025",
+          "value": 6.7905
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.8704
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/CoteDIvoire/2007/2025",
+          "value": 7.8704
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.4119
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Darwin/1405/2025",
+          "value": 7.4119
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.3906
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Denmark/3070/2025",
+          "value": 7.3906
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/England/1822256/2025",
+          "value": 7.1649
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/England/1822256/2025",
+          "value": 7.1649
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.0618
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/France/ARA-HCL025155099501/2025",
+          "value": 7.0618
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 7.4429
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Ghana/ARI-25-1125/2025",
+          "value": 7.4429
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 8.0157
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
+          "value": 8.0157
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Hawaii/44/2025",
+          "value": 6.6795
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Hawaii/44/2025",
+          "value": 6.6795
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Missouri/11/2025",
+          "value": 7.3165
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3010_HKU",
+          "strain": "A/Missouri/11/2025",
+          "value": 7.3165
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3010_All",
+          "strain": "A/Norway/9107/2025",
           "value": 7.3318
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Canberra/465/2025",
+          "strain": "A/Norway/9107/2025",
           "value": 7.3318
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Canberra/530/2025",
-          "value": 7.5932
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Canberra/530/2025",
-          "value": 7.5932
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.3407
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 7.3407
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Colorado/105/2025",
-          "value": 6.6539
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Colorado/105/2025",
-          "value": 6.6539
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.7197
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/CoteDIvoire/2007/2025",
-          "value": 7.7197
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Darwin/1405/2025",
-          "value": 7.4741
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Darwin/1405/2025",
-          "value": 7.4741
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Denmark/3070/2025",
-          "value": 7.3452
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Denmark/3070/2025",
-          "value": 7.3452
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/England/1822256/2025",
-          "value": 7.0747
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/England/1822256/2025",
-          "value": 7.0747
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.9784
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 6.9784
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 7.2696
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 7.2696
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.0688
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.0688
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Hawaii/44/2025",
-          "value": 6.6389
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Hawaii/44/2025",
-          "value": 6.6389
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Missouri/11/2025",
-          "value": 7.3237
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Missouri/11/2025",
-          "value": 7.3237
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
-          "strain": "A/Norway/9107/2025",
-          "value": 7.2451
-        },
-        {
-          "cohort": "HKU",
-          "serum": "seqneut25to26_sera_3010_HKU",
-          "strain": "A/Norway/9107/2025",
-          "value": 7.2451
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Norway/9556/2025",
-          "value": 6.6738
+          "value": 7.0444
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 6.6738
+          "value": 7.0444
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.7873
+          "value": 7.7669
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 7.7873
+          "value": 7.7669
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.9045
+          "value": 6.946
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 6.9045
+          "value": 6.946
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.9565
+          "value": 6.9449
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 6.9565
+          "value": 6.9449
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.8215
+          "value": 6.8555
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 6.8215
+          "value": 6.8555
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.9864
+          "value": 6.9658
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 6.9864
+          "value": 6.9658
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 6.1139
+          "value": 6.1741
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 6.1139
+          "value": 6.1741
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Sydney/400/2025",
-          "value": 7.4446
+          "value": 7.2065
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 7.4446
+          "value": 7.2065
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 7.7177
+          "value": 7.6893
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 7.7177
+          "value": 7.6893
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3010_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 7.0466
+          "value": 7.0301
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3010_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 7.0466
+          "value": 7.0301
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 8.4409
+          "value": 8.4446
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Andalucia/PMC-00977/2025",
-          "value": 8.4409
+          "value": 8.4446
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Aragon/2046/2025",
-          "value": 8.4064
+          "value": 8.5086
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Aragon/2046/2025",
-          "value": 8.4064
+          "value": 8.5086
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Bangkok/1803/2025",
-          "value": 8.4178
+          "value": 8.4935
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Bangkok/1803/2025",
-          "value": 8.4178
+          "value": 8.4935
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 8.9678
+          "value": 9.0093
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Bangkok/P2229/2025",
-          "value": 8.9678
+          "value": 9.0093
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 8.7774
+          "value": 8.8224
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Bangkok/P3067/2025",
-          "value": 8.7774
+          "value": 8.8224
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.3452
+          "value": 8.3755
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/BritishColumbia/PHL-2473/2025",
-          "value": 8.3452
+          "value": 8.3755
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/California/63/2025",
-          "value": 8.7431
+          "value": 8.7592
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/California/63/2025",
-          "value": 8.7431
+          "value": 8.7592
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Canberra/465/2025",
-          "value": 9.0051
+          "value": 8.8784
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Canberra/465/2025",
-          "value": 9.0051
+          "value": 8.8784
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Canberra/530/2025",
-          "value": 8.4051
+          "value": 8.4798
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Canberra/530/2025",
-          "value": 8.4051
+          "value": 8.4798
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 8.7859
+          "value": 8.7672
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Catalonia/NSVH102689455/2025",
-          "value": 8.7859
+          "value": 8.7672
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Colorado/105/2025",
-          "value": 8.3768
+          "value": 8.3807
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Colorado/105/2025",
-          "value": 8.3768
+          "value": 8.3807
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 8.89
+          "value": 9.0691
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/CoteDIvoire/2007/2025",
-          "value": 8.89
+          "value": 9.0691
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Darwin/1405/2025",
-          "value": 8.6334
+          "value": 8.707
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Darwin/1405/2025",
-          "value": 8.6334
+          "value": 8.707
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Denmark/3070/2025",
-          "value": 8.2143
+          "value": 8.2172
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Denmark/3070/2025",
-          "value": 8.2143
+          "value": 8.2172
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/England/1822256/2025",
-          "value": 8.7455
+          "value": 8.7957
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/England/1822256/2025",
-          "value": 8.7455
+          "value": 8.7957
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 8.4761
+          "value": 8.5823
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/France/ARA-HCL025155099501/2025",
-          "value": 8.4761
+          "value": 8.5823
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 9.321
+          "value": 9.3637
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Ghana/ARI-25-1125/2025",
-          "value": 9.321
+          "value": 9.3637
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.5573
+          "value": 8.6132
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Guangxi-Qingxiu/SWL11742/2025",
-          "value": 8.5573
+          "value": 8.6132
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Hawaii/44/2025",
-          "value": 7.9641
+          "value": 8.0378
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Hawaii/44/2025",
-          "value": 7.9641
+          "value": 8.0378
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Missouri/11/2025",
-          "value": 8.96
+          "value": 8.9986
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Missouri/11/2025",
-          "value": 8.96
+          "value": 8.9986
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Norway/9107/2025",
-          "value": 8.505
+          "value": 8.5721
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Norway/9107/2025",
-          "value": 8.505
+          "value": 8.5721
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Norway/9556/2025",
-          "value": 8.1528
+          "value": 8.3024
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Norway/9556/2025",
-          "value": 8.1528
+          "value": 8.3024
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.296
+          "value": 8.3111
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Philippines/SARI25-1425/2025",
-          "value": 8.296
+          "value": 8.3111
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.8608
+          "value": 8.9036
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/SouthAustralia/2519001037/2025",
-          "value": 8.8608
+          "value": 8.9036
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.906
+          "value": 8.7908
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/SouthAustralia/2520702747/2025",
-          "value": 8.906
+          "value": 8.7908
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.2124
+          "value": 8.225
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/SouthAustralia/2523012764/2025",
-          "value": 8.2124
+          "value": 8.225
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.2065
+          "value": 8.3394
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/SouthAustralia/2524712956/2025",
-          "value": 8.2065
+          "value": 8.3394
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 7.8436
+          "value": 7.9425
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/SouthAustralia/2527612456/2025",
-          "value": 7.8436
+          "value": 7.9425
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Sydney/400/2025",
-          "value": 8.7807
+          "value": 8.8057
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Sydney/400/2025",
-          "value": 8.7807
+          "value": 8.8057
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Wisconsin/67/2022",
-          "value": 8.9821
+          "value": 8.896
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Wisconsin/67/2022",
-          "value": 8.9821
+          "value": 8.896
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 8.8392
+          "value": 8.7418
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/Zacapa/FLU-261/2025",
-          "value": 8.8392
+          "value": 8.7418
         },
         {
           "cohort": "All",

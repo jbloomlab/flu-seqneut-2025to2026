@@ -3,7 +3,7 @@ Processing final titer data for group: human
 ======================================================================
 
 Loading input data...
-  Loaded 22923 titer measurements from results/aggregated_titers/titers_human.csv
+  Loaded 22967 titer measurements from results/aggregated_titers/titers_human.csv
   Loaded 446 sera from results/sera_metadata/all_sera_metadata.csv
   Loaded 209 barcodes from data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
 
@@ -14,18 +14,14 @@ Validating input data...
   All viruses found in viral library
 
 Processing titer data...
-  Initial: 22923 rows, 253 sera, 91 viruses
+  Initial: 22967 rows, 253 sera, 91 viruses
 
 Step 1: Dropping explicitly specified sera and viruses...
   No viruses specified in viruses_to_drop
   No sera specified in sera_to_drop
 
 Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
-  Iteration 1: dropped 1 sera, 0 viruses
-  min_frac filters converged after 2 iterations
-
-  Sera dropped for min_frac_viruses < 0.9 (1 total):
-    seqneut25to26_sera_3008: frac_viruses=0.6703
+  min_frac filters converged after 1 iterations
 
   Viruses dropped for min_frac_sera < 0.8 (10 total):
     A/Aberystwyth/5654/2025_H3N2: frac_sera=0.0000
@@ -40,13 +36,13 @@ Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
     A/SuratThani/P3371/2025_H3N2: frac_sera=0.0000
 
 Processing complete:
-  Final: 22862 rows, 252 sera, 91 viruses
-  Dropped: 61 rows, 1 sera, 0 viruses
+  Final: 22967 rows, 253 sera, 91 viruses
+  Dropped: 0 rows, 0 sera, 0 viruses
 
 Generating output files...
-  Written: results/final_titer_data/human_titers.csv (22862 rows)
-  Written: results/final_titer_data/human_sera.csv (252 rows)
-  Written: results/final_titer_data/human_sera_multicohort.csv (622 rows)
+  Written: results/final_titer_data/human_titers.csv (22967 rows)
+  Written: results/final_titer_data/human_sera.csv (253 rows)
+  Written: results/final_titer_data/human_sera_multicohort.csv (624 rows)
   Written: results/final_titer_data/human_viruses.csv (91 rows)
   Written: results/final_titer_data/human_titers_summarized_by_virus.csv (728 rows)
 
@@ -54,14 +50,14 @@ Generating output files...
 FINAL SUMMARY
 ======================================================================
 Group: human
-Sera: 252
+Sera: 253
 Viruses: 91
-Total titers: 22862
+Total titers: 22967
 
 Cohorts in titers_summarized_by_virus.csv:
-  All: 252 sera, 22862 titers
+  All: 253 sera, 22967 titers
   CTS: 40 sera, 3637 titers
-  HKU: 47 sera, 4252 titers
+  HKU: 48 sera, 4357 titers
   NIID: 8 sera, 727 titers
   PENN: 118 sera, 10720 titers
   SCH: 39 sera, 3526 titers

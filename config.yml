@@ -474,6 +474,7 @@ plates:
       upstream2: TATAGC # Fwd7
       upstream2_mismatch: 1
 
+# Dropped due to experimental setup issues
   # plate16:
   #   group: human
   #   date: 2026-01-22
@@ -497,7 +498,8 @@ plates:
     viral_library: actual
     neut_standard_set: loes2023
     samples_csv: data/plates/2026-01-29_plate17.csv
-    manual_drops: {}
+    manual_drops:
+      wells: [H1, H2, H3, H4, H5, H6, H7, H8, H9, H10, H11, H12]
     qc_thresholds:
       <<: *default_process_plate_qc_thresholds
     curvefit_params:
@@ -648,6 +650,7 @@ miscellaneous_plates:
         upstream2: ATCGAT # Fwd2
         upstream2_mismatch: 1
 
+  # Dropped due to experimental setup issues
     # 20260122_repool:
     #   date: 2026-01-22
     #   viral_library: actual
