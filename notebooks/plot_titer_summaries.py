@@ -383,7 +383,6 @@ def _(
         for _, row in viruses.iterrows()
     }
     labelText_expr = f"({json.dumps(label_mapping)})[datum.label] || datum.label"
-
     return labelColor_expr, labelText_expr, strain_color_prop
 
 
@@ -587,7 +586,6 @@ def _(
         color_prop_selection,
         dummy_cohort_chart,
         facet_and_add_lookups,
-        facet_orientation,
         serum_selection,
         titer_encoding,
         titers_base_nolookup,
@@ -612,7 +610,14 @@ def _(alt, titer_encoding, titer_scale, titers_base_nolookup, virus_selection):
     median_points = (
         titers_base_nolookup.transform_aggregate(
             median_titer="median(titer)",
-            groupby=["virus", "subtype", "strain_type", "subclade", "cohort"],
+            groupby=[
+                "virus",
+                "subtype",
+                "derived_haplotype",
+                "strain_type",
+                "subclade",
+                "cohort",
+            ],
         )
         .encode(
             **{
@@ -722,7 +727,14 @@ def _(
         .transform_aggregate(
             n_below_cutoff="sum(below_cutoff)",
             n_total="distinct(serum)",
-            groupby=["virus", "subtype", "strain_type", "subclade", "cohort"],
+            groupby=[
+                "virus",
+                "subtype",
+                "derived_haplotype",
+                "strain_type",
+                "subclade",
+                "cohort",
+            ],
         )
         .transform_calculate(
             frac_below_cutoff=alt.datum["n_below_cutoff"] / alt.datum["n_total"]
