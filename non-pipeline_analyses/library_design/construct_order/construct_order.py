@@ -6,10 +6,12 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _(mo):
-    mo.md(r"""
+    mo.md(
+        r"""
     # Construct design notebook
     This notebook takes the output of `initial_design` (namely, a list of nucleotide sequences for both H3N2 and H1N1 strains) and generates a list of nucleotide inserts that can be submitted to Twist Biosciences for gene fragment synthesis and cloning. These inserts are designed to fit between the BsmBI-v2 and XbaI cut sites in the Bloom lab vector 2851. They should begin after the 19th codon of WSN upstream signal peptide, and continue all the way through the end of the HA coding region, followed by a double stop codon and a 16-nucleotide barcode.
-    """)
+    """
+    )
     return
 
 
@@ -222,7 +224,7 @@ def _(config, design_inserts, notebook_directory: "Path", pd):
             s['name'] for s in config['previously_made_strains_to_add'].values()
             if s['library'] == library_name
         ]
-    
+
         # Filter and add to list
         filtered = library_df[library_df['strain'].isin(strain_names)].copy()
         filtered_strains_list.append(filtered)
