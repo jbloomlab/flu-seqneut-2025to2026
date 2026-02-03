@@ -39,7 +39,6 @@ human:
   seqneut25to26_sera_0037: {}
   seqneut25to26_sera_0038: {}
   seqneut25to26_sera_0039: {}
-  seqneut25to26_sera_0040: {}
   seqneut25to26_sera_1001_d0: {}
   seqneut25to26_sera_1001_d28: {}
   seqneut25to26_sera_1002_d0:
@@ -166,6 +165,57 @@ human:
   seqneut25to26_sera_1058_d28: {}
   seqneut25to26_sera_1059_d0: {}
   seqneut25to26_sera_1059_d28: {}
+  seqneut25to26_sera_3001: {}
+  seqneut25to26_sera_3002: {}
+  seqneut25to26_sera_3003: {}
+  seqneut25to26_sera_3004: {}
+  seqneut25to26_sera_3005: {}
+  seqneut25to26_sera_3006: {}
+  seqneut25to26_sera_3007:
+    A/England/174/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3008: {}
+  seqneut25to26_sera_3009: {}
+  seqneut25to26_sera_3010: {}
+  seqneut25to26_sera_3011: {}
+  seqneut25to26_sera_3012: {}
+  seqneut25to26_sera_3013: {}
+  seqneut25to26_sera_3014: {}
+  seqneut25to26_sera_3015: {}
+  seqneut25to26_sera_3016: {}
+  seqneut25to26_sera_3017: {}
+  seqneut25to26_sera_3018: {}
+  seqneut25to26_sera_3019: {}
+  seqneut25to26_sera_3020: {}
+  seqneut25to26_sera_3021: {}
+  seqneut25to26_sera_3022: {}
+  seqneut25to26_sera_3023: {}
+  seqneut25to26_sera_3024: {}
+  seqneut25to26_sera_3025: {}
+  seqneut25to26_sera_3026: {}
+  seqneut25to26_sera_3027: {}
+  seqneut25to26_sera_3028: {}
+  seqneut25to26_sera_3029: {}
+  seqneut25to26_sera_3030: {}
+  seqneut25to26_sera_3031: {}
+  seqneut25to26_sera_3032: {}
+  seqneut25to26_sera_3033: {}
+  seqneut25to26_sera_3034: {}
+  seqneut25to26_sera_3035: {}
+  seqneut25to26_sera_3036: {}
+  seqneut25to26_sera_3037: {}
+  seqneut25to26_sera_3038: {}
+  seqneut25to26_sera_3039: {}
+  seqneut25to26_sera_3040: {}
+  seqneut25to26_sera_3041: {}
+  seqneut25to26_sera_3042:
+    A/England/174/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3043: {}
+  seqneut25to26_sera_3044: {}
+  seqneut25to26_sera_3045:
+    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3046: {}
+  seqneut25to26_sera_3047: {}
+  seqneut25to26_sera_3048: {}
   seqneut25to26_sera_4001: {}
   seqneut25to26_sera_4002: {}
   seqneut25to26_sera_4003: {}
@@ -174,10 +224,45 @@ human:
   seqneut25to26_sera_4006: {}
   seqneut25to26_sera_4007: {}
   seqneut25to26_sera_4008: {}
-  seqneut25to26_sera_4009: {}
-  seqneut25to26_sera_4010: {}
-  seqneut25to26_sera_4011: {}
-  seqneut25to26_sera_4013: {}
-  seqneut25to26_sera_4015: {}
-  seqneut25to26_sera_4016: {}
-  seqneut25to26_sera_4017: {}
+  seqneut25to26_sera_5001: {}
+  seqneut25to26_sera_5002: {}
+  seqneut25to26_sera_5003: {}
+  seqneut25to26_sera_5004:
+    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_5005: {}
+  seqneut25to26_sera_5006: {}
+  seqneut25to26_sera_5007: {}
+  seqneut25to26_sera_5008: {}
+  seqneut25to26_sera_5009: {}
+  seqneut25to26_sera_5010: {}
+  seqneut25to26_sera_5011: {}
+  seqneut25to26_sera_5012: {}
+  seqneut25to26_sera_5013: {}
+  seqneut25to26_sera_5014: {}
+  seqneut25to26_sera_5015: {}
+  seqneut25to26_sera_5016: {}
+  seqneut25to26_sera_5017: {}
+  seqneut25to26_sera_5018: {}
+  seqneut25to26_sera_5019: {}
+  seqneut25to26_sera_5020: {}
+  seqneut25to26_sera_5021: {}
+  seqneut25to26_sera_5022: {}
+  seqneut25to26_sera_5023: {}
+  seqneut25to26_sera_5024: {}
+  seqneut25to26_sera_5025: {}
+  seqneut25to26_sera_5026: {}
+  seqneut25to26_sera_5027: {}
+  seqneut25to26_sera_5028: {}
+  seqneut25to26_sera_5029:
+    A/HongKong/1382/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_5030: {}
+  seqneut25to26_sera_5031: {}
+  seqneut25to26_sera_5032: {}
+  seqneut25to26_sera_5033: {}
+  seqneut25to26_sera_5034: {}
+  seqneut25to26_sera_5035: {}
+  seqneut25to26_sera_5036: {}
+  seqneut25to26_sera_5037: {}
+  seqneut25to26_sera_5038: {}
+  seqneut25to26_sera_5039: {}
+  seqneut25to26_sera_5040: {}
