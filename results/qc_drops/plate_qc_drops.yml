@@ -3,28 +3,8 @@ plate1:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GAAGTGCTGCTGAAGT D1: max_frac_infectivity_per_viral_barcode_well
     GTCGCCGCTAATCCGA D1: max_frac_infectivity_per_viral_barcode_well
@@ -119,31 +99,10 @@ plate1:
   serum_replicates: {}
 plate2:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GAAGTGCTGCTGAAGT C4: max_frac_infectivity_per_viral_barcode_well
     GAAGTGCTGCTGAAGT F4: max_frac_infectivity_per_viral_barcode_well
@@ -159,22 +118,18 @@ plate2:
     AGACCATCGCACCCAA seqneut25to26_sera_0014: goodness_of_fit
     AGCAGTCCCGCTAGTC seqneut25to26_sera_0014: goodness_of_fit
     AGGAACATGTCCATAC seqneut25to26_sera_0014: goodness_of_fit
-    AGTCCTATCCTCAAAT seqneut25to26_sera_0014: goodness_of_fit
     ATCGCAAGTACCAGTT seqneut25to26_sera_0014: goodness_of_fit
     CACGGCTGGAGCGGCC seqneut25to26_sera_0014: goodness_of_fit
-    CAGGTACGCGTTTCTG seqneut25to26_sera_0014: goodness_of_fit
     CATGTGGAGGGTCGAG seqneut25to26_sera_0014: goodness_of_fit
     CCTTATGAATTACGCG seqneut25to26_sera_0014: goodness_of_fit
     CGTACGTATGTCCCAG seqneut25to26_sera_0014: goodness_of_fit
     CTGCCGCCTGCTGTGT seqneut25to26_sera_0014: goodness_of_fit
     GATCGGAATAACCGTA seqneut25to26_sera_0014: goodness_of_fit
-    GCTGATAAACAATCTA seqneut25to26_sera_0014: goodness_of_fit
     GTTGATTCGATCATAT seqneut25to26_sera_0014: goodness_of_fit
     TACACTCAAACGATGC seqneut25to26_sera_0014: goodness_of_fit
     TCACACCGCTCAGCCT seqneut25to26_sera_0014: goodness_of_fit
     TCCACACCCCTAGCTA seqneut25to26_sera_0014: goodness_of_fit
     TCCCTTCTTCGCAACT seqneut25to26_sera_0014: goodness_of_fit
-    TCGCGGATTAAACCAT seqneut25to26_sera_0014: goodness_of_fit
     TCGGAGAGCGATCCGC seqneut25to26_sera_0014: goodness_of_fit
     TTCTAACGATTGTAGG seqneut25to26_sera_0014: goodness_of_fit
     TTTATTACTCTTATGG seqneut25to26_sera_0014: goodness_of_fit
@@ -253,28 +208,8 @@ plate3:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC G3: max_frac_infectivity_per_viral_barcode_well
     GTCGCCGCTAATCCGA H11: max_frac_infectivity_per_viral_barcode_well
@@ -322,28 +257,8 @@ plate4:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GAAGTGCTGCTGAAGT H1: max_frac_infectivity_per_viral_barcode_well
     CTGCCGCCTGCTGTGT H1: max_frac_infectivity_per_viral_barcode_well
@@ -391,35 +306,13 @@ plate4:
   serum_replicates: {}
 plate5:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC H10: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
-    GAAGTGCTGCTGAAGT seqneut25to26_sera_1015_d0: goodness_of_fit
     AGTCCTATCCTCAAAT seqneut25to26_sera_1025_d0: goodness_of_fit
     CACGGCTGGAGCGGCC seqneut25to26_sera_1025_d0: goodness_of_fit
     GAAGTGCTGCTGAAGT seqneut25to26_sera_1025_d0: goodness_of_fit
@@ -444,28 +337,8 @@ plate6:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC G3: max_frac_infectivity_per_viral_barcode_well
     CACGGCTGGAGCGGCC G9: max_frac_infectivity_per_viral_barcode_well
@@ -482,28 +355,8 @@ plate7:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells: {}
   barcode_serum_replicates:
     CCATACCACGCCCTGT seqneut25to26_sera_1008_d0: goodness_of_fit
@@ -551,28 +404,8 @@ plate8:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells: {}
   barcode_serum_replicates:
     AAGAAGCTATAGAAGT seqneut25to26_sera_0032: goodness_of_fit
@@ -597,28 +430,8 @@ plate9:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     AGACCATCGCACCCAA G11: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
@@ -637,28 +450,8 @@ plate9:
 plate10:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC H2: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
@@ -675,28 +468,8 @@ plate11:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells: {}
   barcode_serum_replicates:
     CACGGCTGGAGCGGCC seqneut25to26_sera_1026_d0: goodness_of_fit
@@ -726,31 +499,10 @@ plate11:
   serum_replicates: {}
 plate12:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC F2: max_frac_infectivity_per_viral_barcode_well
     CACGGCTGGAGCGGCC G2: max_frac_infectivity_per_viral_barcode_well
@@ -760,24 +512,24 @@ plate12:
   barcode_serum_replicates:
     CACGGCTGGAGCGGCC seqneut25to26_sera_1012_d28: goodness_of_fit
     TTTATTACTCTTATGG seqneut25to26_sera_1012_d28: goodness_of_fit
-    AGACCATCGCACCCAA seqneut25to26_sera_1018_d0: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_1018_d0: goodness_of_fit
+    AAGCAGTTTGCCCCCA seqneut25to26_sera_1018_d0: goodness_of_fit
     AGAGGCCGGACGTAAA seqneut25to26_sera_1018_d0: goodness_of_fit
-    ATAAATTCTTTATGGA seqneut25to26_sera_1018_d0: goodness_of_fit
+    AGGCGGACTAACTGCA seqneut25to26_sera_1018_d0: goodness_of_fit
     ATAGCCCTAACGAAAG seqneut25to26_sera_1018_d0: goodness_of_fit
-    ATTGGCTGTCGTGGCC seqneut25to26_sera_1018_d0: goodness_of_fit
-    CCGTTAGGGATTCCTC seqneut25to26_sera_1018_d0: goodness_of_fit
+    ATCGATCGAGATAACG seqneut25to26_sera_1018_d0: goodness_of_fit
     CCTTATGAATTACGCG seqneut25to26_sera_1018_d0: goodness_of_fit
     CGATCTTTACGAAAAA seqneut25to26_sera_1018_d0: goodness_of_fit
-    CGGGTCCTAGGCGAGG seqneut25to26_sera_1018_d0: goodness_of_fit
-    CGTTGCATGTAGCAGG seqneut25to26_sera_1018_d0: goodness_of_fit
+    CGTACGTATGTCCCAG seqneut25to26_sera_1018_d0: goodness_of_fit
+    CTTGAACCAGCAGTGT seqneut25to26_sera_1018_d0: goodness_of_fit
     GAACACAATTACTTAG seqneut25to26_sera_1018_d0: goodness_of_fit
-    GAGTGCCCAGGTGTTG seqneut25to26_sera_1018_d0: goodness_of_fit
     GTATCACGTCGTTTAC seqneut25to26_sera_1018_d0: goodness_of_fit
     GTCGCCGCTAATCCGA seqneut25to26_sera_1018_d0: goodness_of_fit
-    GTGCAATTCCGCGTCC seqneut25to26_sera_1018_d0: goodness_of_fit
     GTTGATTCGATCATAT seqneut25to26_sera_1018_d0: goodness_of_fit
-    TCACACCGCTCAGCCT seqneut25to26_sera_1018_d0: goodness_of_fit
+    TCCCTTCTTCGCAACT seqneut25to26_sera_1018_d0: goodness_of_fit
     TGGTAGTCCTTAACCG seqneut25to26_sera_1018_d0: goodness_of_fit
+    TTGAAACTCTTGTCCT seqneut25to26_sera_1018_d0: goodness_of_fit
+    TTTCGGGGCCCCAATG seqneut25to26_sera_1018_d0: goodness_of_fit
     CACATACAACACGACC seqneut25to26_sera_1018_d28: goodness_of_fit
     CACGGCTGGAGCGGCC seqneut25to26_sera_1034_d0: goodness_of_fit
     GTCGCCGCTAATCCGA seqneut25to26_sera_1038_d28: goodness_of_fit
@@ -787,28 +539,8 @@ plate13:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC B12: min_no_serum_count_per_viral_barcode_well
   barcode_serum_replicates:
@@ -852,28 +584,8 @@ plate14:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CGATCTTTACGAAAAA D11: max_frac_infectivity_per_viral_barcode_well
     AGACCATCGCACCCAA G11: max_frac_infectivity_per_viral_barcode_well
@@ -918,28 +630,8 @@ plate15:
     A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells: {}
   barcode_serum_replicates:
     GTCGCCGCTAATCCGA seqneut25to26_sera_1019_d0: goodness_of_fit
@@ -980,28 +672,8 @@ plate17:
     H11: manual_drop
     H12: manual_drop
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GAGTGCCCAGGTGTTG F6: max_frac_infectivity_per_viral_barcode_well
     CTGCCGCCTGCTGTGT F6: max_frac_infectivity_per_viral_barcode_well
@@ -1088,28 +760,8 @@ plate17:
 plate18:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CACGGCTGGAGCGGCC E12: min_no_serum_count_per_viral_barcode_well
     GAGTGCCCAGGTGTTG E4: max_frac_infectivity_per_viral_barcode_well
@@ -1143,29 +795,9 @@ plate18:
 plate19:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
     CACGGCTGGAGCGGCC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GTCGCCGCTAATCCGA H2: max_frac_infectivity_per_viral_barcode_well
     CTGCCGCCTGCTGTGT C3: max_frac_infectivity_per_viral_barcode_well
@@ -1205,28 +837,8 @@ plate19:
 plate20:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CTGCCGCCTGCTGTGT B2: max_frac_infectivity_per_viral_barcode_well
     GAGTGCCCAGGTGTTG G3: max_frac_infectivity_per_viral_barcode_well
@@ -1265,28 +877,8 @@ plate20:
 plate21:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GTCGTCCGTAAGTTCA H1: max_frac_infectivity_per_viral_barcode_well
     AAGACGAAGCGTTTGC E2: max_frac_infectivity_per_viral_barcode_well
@@ -1305,28 +897,8 @@ plate21:
 plate22:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     CGATCTTTACGAAAAA H3: max_frac_infectivity_per_viral_barcode_well
     CTGCCGCCTGCTGTGT G4: max_frac_infectivity_per_viral_barcode_well
@@ -1355,29 +927,9 @@ plate22:
 plate23:
   wells: {}
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
     CACGGCTGGAGCGGCC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     GAGTGCCCAGGTGTTG G2: max_frac_infectivity_per_viral_barcode_well
     GAGTGCCCAGGTGTTG H3: max_frac_infectivity_per_viral_barcode_well
@@ -1418,28 +970,8 @@ plate24:
   wells:
     C12: avg_barcode_counts_per_well
   barcodes:
-    AAAGGAGTAGGATTAA: min_neut_standard_frac_per_well
-    ACCATGTCTAATACAA: min_neut_standard_frac_per_well
-    ACCCATTTAGGCTCAT: min_neut_standard_frac_per_well
-    ACGATAGGAAGCGTTA: min_neut_standard_frac_per_well
-    ACTACGAGCAGATTAC: min_neut_standard_frac_per_well
-    ATGAATCTGTGTTGGG: min_neut_standard_frac_per_well
-    CACAATATGACAGAGT: min_neut_standard_frac_per_well
-    CACAGACGAGACACAC: min_neut_standard_frac_per_well
-    CACTTTCGGGAACACG: min_neut_standard_frac_per_well
-    CCTGCATCGGGCTTAA: min_neut_standard_frac_per_well
-    GAAGGACGCACTGGTT: min_neut_standard_frac_per_well
-    GATAGGTCTTATCCGA: min_neut_standard_frac_per_well
-    GATTGTAAGTTCCTCG: min_neut_standard_frac_per_well
     GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-    GTACCGCCTCGCTCCT: min_neut_standard_frac_per_well
-    GTCCACTCAACTTCCT: min_neut_standard_frac_per_well
-    TAAAGTAGGTAACGTG: min_neut_standard_frac_per_well
-    TAGACTGGATACGTGA: min_neut_standard_frac_per_well
     TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-    TCTTCAAGTCGTGTTA: min_neut_standard_frac_per_well
-    TGGACTGGCCATCCTA: min_neut_standard_frac_per_well
-    TGTGCCAGTGGCACCC: min_neut_standard_frac_per_well
   barcode_wells:
     ACATCCGCCCTTCGGT H1: max_frac_infectivity_per_viral_barcode_well
     CTTGAACCAGCAGTGT F2: max_frac_infectivity_per_viral_barcode_well

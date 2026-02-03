@@ -5,31 +5,6 @@ AAAGGAAGCCCCTCAC:
   barcode_serum_replicates:
     plate20 seqneut25to26_sera_3038: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
-AAAGGAGTAGGATTAA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 AAATATTGAGACTAAT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -59,6 +34,7 @@ AAGAAGCTATAGAAGT:
 AAGACGAAGCGTTTGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_0037: goodness_of_fit
     plate17 seqneut25to26_sera_3005: goodness_of_fit
     plate17 seqneut25to26_sera_3007: goodness_of_fit
@@ -68,6 +44,9 @@ AAGACGAAGCGTTTGC:
     plate23 seqneut25to26_sera_5028: goodness_of_fit
   barcode_wells:
     plate21 E2: max_frac_infectivity_per_viral_barcode_well
+AAGCAGTTTGCCCCCA:
+  barcode_serum_replicates:
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
 AAGCGCTTCCCAGCCA:
   barcode_serum_replicates:
     plate2 seqneut25to26_sera_0022: goodness_of_fit
@@ -94,56 +73,6 @@ ACATCCGCCCTTCGGT:
     plate20 G5: max_frac_infectivity_per_viral_barcode_well
     plate22 F10: max_frac_infectivity_per_viral_barcode_well
     plate24 H1: max_frac_infectivity_per_viral_barcode_well
-ACCATGTCTAATACAA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
-ACCCATTTAGGCTCAT:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 ACGAGAAGCAGGGGGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -153,31 +82,6 @@ ACGAGAAGCAGGGGGC:
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate7 seqneut25to26_sera_1036_d0: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
-ACGATAGGAAGCGTTA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 ACGATTTTTTCTACAT:
   barcode_serum_replicates:
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
@@ -200,31 +104,6 @@ ACGTCGCTAGACTTTA:
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
     plate8 seqneut25to26_sera_1005_d0: goodness_of_fit
     plate8 seqneut25to26_sera_1013_d0: goodness_of_fit
-ACTACGAGCAGATTAC:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 AGAAAAGATAGGAAAG:
   barcode_serum_replicates:
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
@@ -234,7 +113,6 @@ AGAACGGCTTGACACT:
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 AGACCATCGCACCCAA:
   barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d28: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
@@ -285,17 +163,16 @@ AGGAAGATCAAAAGCG:
     plate2 seqneut25to26_sera_0020: goodness_of_fit
 AGGCGGACTAACTGCA:
   barcode_serum_replicates:
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
 AGTCCTATCCTCAAAT:
   barcode_serum_replicates:
-    plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate2 seqneut25to26_sera_0021: goodness_of_fit
     plate5 seqneut25to26_sera_1025_d0: goodness_of_fit
   barcode_wells:
     plate19 F4: max_frac_infectivity_per_viral_barcode_well
 ATAAATTCTTTATGGA:
   barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
 ATACATCCGACGCTTT:
   barcode_serum_replicates:
@@ -324,6 +201,9 @@ ATCCGTTGGGCGACAA:
     plate18 seqneut25to26_sera_3018: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
+ATCGATCGAGATAACG:
+  barcode_serum_replicates:
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
 ATCGCAAGTACCAGTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -331,31 +211,6 @@ ATCGCAAGTACCAGTT:
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
     plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d28: goodness_of_fit
-ATGAATCTGTGTTGGG:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 ATGCGTTTATCGATTT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -365,7 +220,6 @@ ATTGCAACGCCGGTGT:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
 ATTGGCTGTCGTGGCC:
   barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate17 seqneut25to26_sera_3003: goodness_of_fit
     plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
@@ -379,31 +233,6 @@ CAAATATAATGTCCTG:
     plate17 seqneut25to26_sera_3003: goodness_of_fit
     plate17 seqneut25to26_sera_3006: goodness_of_fit
     plate17 seqneut25to26_sera_3007: goodness_of_fit
-CACAATATGACAGAGT:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 CACACCTCTCTCGCCG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
@@ -417,31 +246,6 @@ CACACCTCTCTCGCCG:
     plate19 seqneut25to26_sera_3031: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
-CACAGACGAGACACAC:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 CACATACAACACGACC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -517,31 +321,6 @@ CACGGCTGGAGCGGCC:
   barcodes:
     plate19: min_neut_standard_frac_per_well
     plate23: min_neut_standard_frac_per_well
-CACTTTCGGGAACACG:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 CAGGCTGCTGGGCCGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -554,7 +333,6 @@ CAGGTACGCGTTTCTG:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
-    plate2 seqneut25to26_sera_0014: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
 CATAAAAGACTGTATA:
   barcode_serum_replicates:
@@ -608,7 +386,6 @@ CCATACCACGCCCTGT:
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
 CCGTTAGGGATTCCTC:
   barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate19 seqneut25to26_sera_3030: goodness_of_fit
     plate21 seqneut25to26_sera_3046: goodness_of_fit
   barcode_wells:
@@ -617,31 +394,6 @@ CCGTTAGGGATTCCTC:
 CCTACGCTCGTATCCC:
   barcode_serum_replicates:
     plate17 seqneut25to26_sera_3003: goodness_of_fit
-CCTGCATCGGGCTTAA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 CCTTATGAATTACGCG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
@@ -680,7 +432,6 @@ CGATCTTTACGAAAAA:
     plate4 E3: max_frac_infectivity_per_viral_barcode_well
 CGGGTCCTAGGCGAGG:
   barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate17 seqneut25to26_sera_3005: goodness_of_fit
     plate17 seqneut25to26_sera_3009: goodness_of_fit
     plate20 seqneut25to26_sera_3036: goodness_of_fit
@@ -691,6 +442,7 @@ CGGTAAGTTTCGAGGA:
     plate17 seqneut25to26_sera_3007: goodness_of_fit
 CGTACGTATGTCCCAG:
   barcode_serum_replicates:
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1052_d0: goodness_of_fit
@@ -706,9 +458,6 @@ CGTACGTATGTCCCAG:
 CGTACTAATCACTCCG:
   barcode_serum_replicates:
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
-CGTTGCATGTAGCAGG:
-  barcode_serum_replicates:
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
 CTGCCGCCTGCTGTGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -768,6 +517,7 @@ CTGCCGCCTGCTGTGT:
 CTTGAACCAGCAGTGT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0001: goodness_of_fit
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate21 seqneut25to26_sera_3046: goodness_of_fit
   barcode_wells:
     plate18 H8: max_frac_infectivity_per_viral_barcode_well
@@ -793,31 +543,6 @@ GAACGGAGATCTGTTG:
   barcode_serum_replicates:
     plate17 seqneut25to26_sera_3003: goodness_of_fit
     plate2 seqneut25to26_sera_0022: goodness_of_fit
-GAAGGACGCACTGGTT:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 GAAGGACTTGGGGCTC:
   barcode_serum_replicates:
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
@@ -827,7 +552,6 @@ GAAGTGCTGCTGAAGT:
     plate15 seqneut25to26_sera_4001: goodness_of_fit
     plate17 seqneut25to26_sera_3005: goodness_of_fit
     plate3 seqneut25to26_sera_0025: goodness_of_fit
-    plate5 seqneut25to26_sera_1015_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1025_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d0: goodness_of_fit
     plate9 seqneut25to26_sera_1044_d28: goodness_of_fit
@@ -858,7 +582,6 @@ GAGTGCCCAGGTGTTG:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate11 seqneut25to26_sera_1046_d28: goodness_of_fit
     plate11 seqneut25to26_sera_1048_d0: goodness_of_fit
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1049_d0: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
     plate14 seqneut25to26_sera_1022_d28: goodness_of_fit
@@ -902,31 +625,6 @@ GAGTGCCCAGGTGTTG:
     plate23 G2: max_frac_infectivity_per_viral_barcode_well
     plate23 H10: max_frac_infectivity_per_viral_barcode_well
     plate23 H3: max_frac_infectivity_per_viral_barcode_well
-GATAGGTCTTATCCGA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 GATCGGAATAACCGTA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -949,31 +647,6 @@ GATTGAGGGGTCCGGG:
     plate2 seqneut25to26_sera_0018: goodness_of_fit
     plate23 seqneut25to26_sera_5028: goodness_of_fit
     plate3 seqneut25to26_sera_0026: goodness_of_fit
-GATTGTAAGTTCCTCG:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 GCATACTGGTTACATT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -1023,34 +696,6 @@ GCTCCTGGTCATATAT:
     plate23 seqneut25to26_sera_5024: goodness_of_fit
     plate7 seqneut25to26_sera_1040_d0: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d28: goodness_of_fit
-GCTGATAAACAATCTA:
-  barcode_serum_replicates:
-    plate2 seqneut25to26_sera_0014: goodness_of_fit
-GTACCGCCTCGCTCCT:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 GTATAGAAATGGGTCA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -1087,31 +732,6 @@ GTCACAGTCATCGTGT:
   barcode_serum_replicates:
     plate15 seqneut25to26_sera_4001: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
-GTCCACTCAACTTCCT:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 GTCGCCGCTAATCCGA:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -1159,7 +779,6 @@ GTGCAATTCCGCGTCC:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate1 seqneut25to26_sera_0010: goodness_of_fit
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
     plate14 seqneut25to26_sera_1010_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1042_d28: goodness_of_fit
@@ -1218,31 +837,6 @@ TAAAAGCTCCCATTAC:
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
     plate5 seqneut25to26_sera_1047_d28: goodness_of_fit
-TAAAGTAGGTAACGTG:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 TACACTCAAACGATGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
@@ -1259,31 +853,6 @@ TACACTCAAACGATGC:
     plate3 seqneut25to26_sera_0026: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d28: goodness_of_fit
     plate7 seqneut25to26_sera_1041_d0: goodness_of_fit
-TAGACTGGATACGTGA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 TAGATAACTCGCTAGG:
   barcode_serum_replicates:
     plate17 seqneut25to26_sera_3003: goodness_of_fit
@@ -1300,7 +869,6 @@ TCACACCGCTCAGCCT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
     plate11 seqneut25to26_sera_1046_d0: goodness_of_fit
-    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1027_d0: goodness_of_fit
     plate15 seqneut25to26_sera_4006: goodness_of_fit
     plate17 seqneut25to26_sera_3003: goodness_of_fit
@@ -1330,6 +898,7 @@ TCCCAAGACAAGCGAC:
 TCCCTTCTTCGCAACT:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_0037: goodness_of_fit
     plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate19 seqneut25to26_sera_3030: goodness_of_fit
@@ -1367,9 +936,6 @@ TCCGCACTGCGATCAC:
 TCGATTTCTAAATTCC:
   barcode_serum_replicates:
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
-TCGCGGATTAAACCAT:
-  barcode_serum_replicates:
-    plate2 seqneut25to26_sera_0014: goodness_of_fit
 TCGGAGAGCGATCCGC:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
@@ -1390,59 +956,9 @@ TCGGTCGGGCGAAGGC:
     plate10 seqneut25to26_sera_1055_d0: goodness_of_fit
     plate14 seqneut25to26_sera_1022_d0: goodness_of_fit
     plate17 seqneut25to26_sera_3003: goodness_of_fit
-TCTTCAAGTCGTGTTA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 TGCGATGCATAGTTCG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0004: goodness_of_fit
-TGGACTGGCCATCCTA:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 TGGTAGTCCTTAACCG:
   barcode_serum_replicates:
     plate1 seqneut25to26_sera_0007: goodness_of_fit
@@ -1460,31 +976,6 @@ TGGTAGTCCTTAACCG:
     plate5 seqneut25to26_sera_1047_d0: goodness_of_fit
     plate8 seqneut25to26_sera_0032: goodness_of_fit
     plate9 seqneut25to26_sera_1004_d28: goodness_of_fit
-TGTGCCAGTGGCACCC:
-  barcodes:
-    plate1: min_neut_standard_frac_per_well
-    plate10: min_neut_standard_frac_per_well
-    plate11: min_neut_standard_frac_per_well
-    plate12: min_neut_standard_frac_per_well
-    plate13: min_neut_standard_frac_per_well
-    plate14: min_neut_standard_frac_per_well
-    plate15: min_neut_standard_frac_per_well
-    plate17: min_neut_standard_frac_per_well
-    plate18: min_neut_standard_frac_per_well
-    plate19: min_neut_standard_frac_per_well
-    plate2: min_neut_standard_frac_per_well
-    plate20: min_neut_standard_frac_per_well
-    plate21: min_neut_standard_frac_per_well
-    plate22: min_neut_standard_frac_per_well
-    plate23: min_neut_standard_frac_per_well
-    plate24: min_neut_standard_frac_per_well
-    plate3: min_neut_standard_frac_per_well
-    plate4: min_neut_standard_frac_per_well
-    plate5: min_neut_standard_frac_per_well
-    plate6: min_neut_standard_frac_per_well
-    plate7: min_neut_standard_frac_per_well
-    plate8: min_neut_standard_frac_per_well
-    plate9: min_neut_standard_frac_per_well
 TTCTAACGATTGTAGG:
   barcode_serum_replicates:
     plate2 seqneut25to26_sera_0014: goodness_of_fit
@@ -1492,6 +983,7 @@ TTCTAACGATTGTAGG:
 TTGAAACTCTTGTCCT:
   barcode_serum_replicates:
     plate10 seqneut25to26_sera_1055_d0: goodness_of_fit
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate17 seqneut25to26_sera_3008: goodness_of_fit
     plate2 seqneut25to26_sera_0020: goodness_of_fit
     plate4 seqneut25to26_sera_1043_d0: goodness_of_fit
@@ -1531,6 +1023,7 @@ TTTCGGGGCCCCAATG:
     plate1 seqneut25to26_sera_0005: goodness_of_fit
     plate11 seqneut25to26_sera_1026_d0: goodness_of_fit
     plate11 seqneut25to26_sera_1048_d0: goodness_of_fit
+    plate12 seqneut25to26_sera_1018_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d0: goodness_of_fit
     plate13 seqneut25to26_sera_1050_d28: goodness_of_fit
     plate14 seqneut25to26_sera_0038: goodness_of_fit
