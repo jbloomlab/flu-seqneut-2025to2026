@@ -44,7 +44,13 @@ def _(Path, mo, os, pd):
 
     plasmiddir = notebook_directory / './plasmids/'
     os.makedirs(plasmiddir, exist_ok=True)
-    return date, designed_viral_library_df, library_name, plasmiddir
+    return (
+        date,
+        designed_viral_library_df,
+        library_name,
+        notebook_directory,
+        plasmiddir,
+    )
 
 
 @app.cell
@@ -173,11 +179,16 @@ def _(designed_viral_library_df):
 def _(
     SeqIO,
     circulating_designed_viral_library_df,
+    notebook_directory: "Path",
     os,
+    pd,
     plasmiddir,
     write_genbank,
 ):
     # Write records for all plasmids
+
+    # Initialize mapping list so we can map strains to Bloom lab plasmid log IDs
+    strain_to_plasmid_log_map = []
 
     # First make an index of plasmid IDs for plate-based logging in Bloom lab
     plasmid_index = []
@@ -252,10 +263,12 @@ def _(
             ectodomain = temp_df.nt_sequence_HA_ectodomain.values[0]
             )
                                  )
-    
+
         outfile = os.path.join(plasmiddir, f'{plasmid_name}.gb')
         with open(outfile, 'w') as f:
             SeqIO.write(record, f, 'genbank')
+
+        strain_to_plasmid_log_map.append([name, f'{plasmid_name}.gb'])
 
         i+=1
 
@@ -287,6 +300,11 @@ def _(
             SeqIO.write(record, f, 'genbank')
 
         n+=1
+
+    strain_to_plasmid_log_map_df = pd.DataFrame(strain_to_plasmid_log_map, columns=['strain', 'plasmid_log_ID'])
+    outfile = notebook_directory / 'flu-seqneut-2025to2026-strain-to-plasmid-log.csv'
+    print(f'saving strain to plasmid log ID map to {outfile}...')
+    strain_to_plasmid_log_map_df.to_csv(outfile, index=False)
     return
 
 
