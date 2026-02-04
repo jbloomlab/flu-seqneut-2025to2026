@@ -84,7 +84,6 @@ human,seqneut25to26_sera_5006,A/Wisconsin/67/2022_H1N1,plate21-AGGAAAGAAACTGGAG,
 human,seqneut25to26_sera_5006,A/Wisconsin/67/2022_H1N1,plate21-CTGAACTTGTCGATAT,605.9,interpolated,midpoint,605.9,605.9,1,0,1.467
 human,seqneut25to26_sera_5006,A/Wisconsin/67/2022_H1N1,plate21-AAAGCTCTTTTCGTTC,433.1,interpolated,midpoint,447.9,433.1,0.9758,0,1.479
 human,seqneut25to26_sera_5006,A/England/174/2025_H3N2,plate21-CCTTATGAATTACGCG,8097,interpolated,midpoint,8097,8097,1,0,1.236
-human,seqneut25to26_sera_5006,A/England/174/2025_H3N2,plate21-CACGGCTGGAGCGGCC,5075,interpolated,midpoint,5075,5075,1,0,2.015
 human,seqneut25to26_sera_5006,A/Thailand/8/2022_H3N2,plate21-CATAAAAGACTGTATA,2995,interpolated,midpoint,3465,2995,0.6163,0,10
 human,seqneut25to26_sera_5006,A/Thailand/8/2022_H3N2,plate21-AGACCATCGCACCCAA,3379,interpolated,midpoint,5195,3379,0.697,0,2.165
 human,seqneut25to26_sera_5006,A/Thailand/8/2022_H3N2,plate21-CGTACGTATGTCCCAG,2932,interpolated,midpoint,3018,2932,0.8737,0,10

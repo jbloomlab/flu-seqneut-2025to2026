@@ -1,6 +1,5 @@
 group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,slope
 human,seqneut25to26_sera_3038,A/England/174/2025_H3N2,plate20-CCTTATGAATTACGCG,40,upper,midpoint,40,40,0.9071,0,0.8
-human,seqneut25to26_sera_3038,A/England/174/2025_H3N2,plate20-CACGGCTGGAGCGGCC,313.9,interpolated,midpoint,313.9,313.9,1,0,0.9521
 human,seqneut25to26_sera_3038,A/Bangkok/P2391/2025_H3N2,plate20-CGGGTCCTAGGCGAGG,40,upper,midpoint,44.29,40,0.7531,0,0.9852
 human,seqneut25to26_sera_3038,A/Bangkok/P2391/2025_H3N2,plate20-TCGGAGAGCGATCCGC,103.1,interpolated,midpoint,105.6,103.1,0.894,0,10
 human,seqneut25to26_sera_3038,A/Bhutan/7/2025_H3N2,plate20-ATGCGTTTATCGATTT,88.57,interpolated,midpoint,89.52,88.57,0.9958,0,0.8

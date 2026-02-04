@@ -145,8 +145,6 @@ human,seqneut25to26_sera_1056_d28,A/SouthAustralia/2525607496/2025_H3N2,plate4-C
 human,seqneut25to26_sera_1056_d28,A/SouthAustralia/2525607496/2025_H3N2,plate4-GTTGATTCGATCATAT,2890,interpolated,midpoint,2890,2890,1,0,10
 human,seqneut25to26_sera_1056_d28,A/HongKong/1257/2025_H3N2,plate4-CACACCTCTCTCGCCG,3329,interpolated,midpoint,3329,3329,1,0,2.244
 human,seqneut25to26_sera_1056_d28,A/HongKong/1257/2025_H3N2,plate4-GTATAGAAATGGGTCA,2527,interpolated,midpoint,2527,2527,1,0,1.912
-human,seqneut25to26_sera_1056_d28,A/England/174/2025_H3N2,plate4-CACGGCTGGAGCGGCC,3793,interpolated,midpoint,3793,3793,1,0,1.366
-human,seqneut25to26_sera_1056_d28,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,3354,interpolated,midpoint,3354,3354,1,0,3.681
 human,seqneut25to26_sera_1056_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-CATGTGGAGGGTCGAG,2793,interpolated,midpoint,2793,2793,1,0,2.58
 human,seqneut25to26_sera_1056_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-TAGCCTATAATCAAGT,2450,interpolated,midpoint,2450,2450,1,0,3.091
 human,seqneut25to26_sera_1056_d28,A/Massachusetts/18/2022_H3N2,plate4-CATTTCTGATGAATTG,2549,interpolated,midpoint,2549,2549,1,0,3.703
@@ -156,6 +154,7 @@ human,seqneut25to26_sera_1056_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate4-CCATACCA
 human,seqneut25to26_sera_1056_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate4-GAACACAATTACTTAG,1702,interpolated,midpoint,1702,1702,1,0,3
 human,seqneut25to26_sera_1056_d28,A/Ghana/ARI-25-1125/2025_H1N1,plate4-CCGTTAGGGATTCCTC,2978,interpolated,midpoint,2978,2978,1,0,4.09
 human,seqneut25to26_sera_1056_d28,A/Ghana/ARI-25-1125/2025_H1N1,plate4-GACGGACTATCAACGA,2690,interpolated,midpoint,2690,2690,1,0,4.041
+human,seqneut25to26_sera_1056_d28,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,3354,interpolated,midpoint,3354,3354,1,0,3.681
 human,seqneut25to26_sera_1056_d28,A/NewSouthWales/2526015582/2025_H3N2,plate4-CGAAGATGAGCCCTCG,2763,interpolated,midpoint,2763,2763,1,0,2.764
 human,seqneut25to26_sera_1056_d28,A/NewSouthWales/2526015582/2025_H3N2,plate4-TTTGCTACAAGTGAGC,2626,interpolated,midpoint,2727,2626,0.9477,0,2.912
 human,seqneut25to26_sera_1056_d28,A/Bangkok/P2391/2025_H3N2,plate4-CGGGTCCTAGGCGAGG,2099,interpolated,midpoint,2099,2099,1,0,1.793

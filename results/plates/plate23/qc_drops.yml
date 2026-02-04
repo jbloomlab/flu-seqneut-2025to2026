@@ -1,8 +1,5 @@
 wells: {}
-barcodes:
-  CACGGCTGGAGCGGCC: min_neut_standard_frac_per_well
-  GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   GAGTGCCCAGGTGTTG G2: max_frac_infectivity_per_viral_barcode_well
   GAGTGCCCAGGTGTTG H3: max_frac_infectivity_per_viral_barcode_well

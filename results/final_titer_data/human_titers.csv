@@ -33,7 +33,7 @@ seqneut25to26_sera_0001,A/DistrictOfColumbia/27/2023_H3N2,100.6,interpolated,22.
 seqneut25to26_sera_0001,A/DistrictOfColumbia/57/2025_H3N2,40,upper,0,2,midpoint
 seqneut25to26_sera_0001,A/DistritoFederal/250106000728/2025_H3N2,48.58,upper,8.581,2,midpoint
 seqneut25to26_sera_0001,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0001,A/England/174/2025_H3N2,142.2,interpolated,12.58,2,midpoint
+seqneut25to26_sera_0001,A/England/174/2025_H3N2,129.6,interpolated,,1,midpoint
 seqneut25to26_sera_0001,A/England/1822256/2025_H1N1,40,upper,0,2,midpoint
 seqneut25to26_sera_0001,A/England/1837734/2025_H3N2,103.8,interpolated,21.81,2,midpoint
 seqneut25to26_sera_0001,A/England/1837737/2025_H3N2,41.14,upper,1.144,2,midpoint
@@ -124,7 +124,7 @@ seqneut25to26_sera_0002,A/DistrictOfColumbia/27/2023_H3N2,5674,interpolated,1198
 seqneut25to26_sera_0002,A/DistrictOfColumbia/57/2025_H3N2,1752,interpolated,387.9,2,midpoint
 seqneut25to26_sera_0002,A/DistritoFederal/250106000728/2025_H3N2,1264,interpolated,420.9,2,midpoint
 seqneut25to26_sera_0002,A/DistritoFederal/2578578201/2025_H3N2,2527,interpolated,724.1,2,midpoint
-seqneut25to26_sera_0002,A/England/174/2025_H3N2,5531,interpolated,2310,2,midpoint
+seqneut25to26_sera_0002,A/England/174/2025_H3N2,7841,interpolated,,1,midpoint
 seqneut25to26_sera_0002,A/England/1822256/2025_H1N1,752.4,interpolated,195.4,2,midpoint
 seqneut25to26_sera_0002,A/England/1837734/2025_H3N2,1681,interpolated,416,2,midpoint
 seqneut25to26_sera_0002,A/England/1837737/2025_H3N2,1557,interpolated,282.7,2,midpoint
@@ -215,7 +215,7 @@ seqneut25to26_sera_0003,A/DistrictOfColumbia/27/2023_H3N2,1.362e+04,lower,0,2,mi
 seqneut25to26_sera_0003,A/DistrictOfColumbia/57/2025_H3N2,1.362e+04,lower,0,2,midpoint
 seqneut25to26_sera_0003,A/DistritoFederal/250106000728/2025_H3N2,1.036e+04,interpolated,1138,2,midpoint
 seqneut25to26_sera_0003,A/DistritoFederal/2578578201/2025_H3N2,1.362e+04,lower,0,2,midpoint
-seqneut25to26_sera_0003,A/England/174/2025_H3N2,1.362e+04,lower,0,2,midpoint
+seqneut25to26_sera_0003,A/England/174/2025_H3N2,1.362e+04,lower,,1,midpoint
 seqneut25to26_sera_0003,A/England/1822256/2025_H1N1,217.2,interpolated,1.681,2,midpoint
 seqneut25to26_sera_0003,A/England/1837734/2025_H3N2,1.362e+04,lower,0,2,midpoint
 seqneut25to26_sera_0003,A/England/1837737/2025_H3N2,1.362e+04,lower,0,2,midpoint
@@ -390,7 +390,6 @@ seqneut25to26_sera_0005,A/DistrictOfColumbia/27/2023_H3N2,113.6,interpolated,13.
 seqneut25to26_sera_0005,A/DistrictOfColumbia/57/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_0005,A/DistritoFederal/250106000728/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_0005,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0005,A/England/174/2025_H3N2,429,interpolated,,1,midpoint
 seqneut25to26_sera_0005,A/England/1822256/2025_H1N1,114.4,interpolated,37.12,2,midpoint
 seqneut25to26_sera_0005,A/England/1837734/2025_H3N2,58.11,upper,18.11,2,midpoint
 seqneut25to26_sera_0005,A/England/1837737/2025_H3N2,65.46,upper,25.46,2,midpoint
@@ -479,7 +478,7 @@ seqneut25to26_sera_0006,A/DistrictOfColumbia/27/2023_H3N2,563.6,interpolated,25.
 seqneut25to26_sera_0006,A/DistrictOfColumbia/57/2025_H3N2,220.8,interpolated,2.877,2,midpoint
 seqneut25to26_sera_0006,A/DistritoFederal/250106000728/2025_H3N2,199.8,interpolated,63.39,2,midpoint
 seqneut25to26_sera_0006,A/DistritoFederal/2578578201/2025_H3N2,378.2,interpolated,34.96,2,midpoint
-seqneut25to26_sera_0006,A/England/174/2025_H3N2,633.5,interpolated,243.3,2,midpoint
+seqneut25to26_sera_0006,A/England/174/2025_H3N2,876.8,interpolated,,1,midpoint
 seqneut25to26_sera_0006,A/England/1822256/2025_H1N1,377.9,interpolated,30.21,2,midpoint
 seqneut25to26_sera_0006,A/England/1837734/2025_H3N2,249.9,interpolated,3.979,2,midpoint
 seqneut25to26_sera_0006,A/England/1837737/2025_H3N2,266.4,interpolated,14.15,2,midpoint
@@ -656,7 +655,7 @@ seqneut25to26_sera_0008,A/DistrictOfColumbia/27/2023_H3N2,2465,interpolated,153.
 seqneut25to26_sera_0008,A/DistrictOfColumbia/57/2025_H3N2,541.5,interpolated,214.3,2,midpoint
 seqneut25to26_sera_0008,A/DistritoFederal/250106000728/2025_H3N2,327.5,interpolated,48.13,2,midpoint
 seqneut25to26_sera_0008,A/DistritoFederal/2578578201/2025_H3N2,668.4,interpolated,151.9,2,midpoint
-seqneut25to26_sera_0008,A/England/174/2025_H3N2,3686,interpolated,1302,2,midpoint
+seqneut25to26_sera_0008,A/England/174/2025_H3N2,2384,interpolated,,1,midpoint
 seqneut25to26_sera_0008,A/England/1822256/2025_H1N1,427.9,interpolated,25.5,2,midpoint
 seqneut25to26_sera_0008,A/England/1837734/2025_H3N2,458.8,interpolated,157.6,2,midpoint
 seqneut25to26_sera_0008,A/England/1837737/2025_H3N2,1087,interpolated,149.9,2,midpoint
@@ -747,7 +746,7 @@ seqneut25to26_sera_0009,A/DistrictOfColumbia/27/2023_H3N2,1627,interpolated,523.
 seqneut25to26_sera_0009,A/DistrictOfColumbia/57/2025_H3N2,936.2,interpolated,469.3,2,midpoint
 seqneut25to26_sera_0009,A/DistritoFederal/250106000728/2025_H3N2,267.5,interpolated,65.66,2,midpoint
 seqneut25to26_sera_0009,A/DistritoFederal/2578578201/2025_H3N2,430.6,interpolated,77.49,2,midpoint
-seqneut25to26_sera_0009,A/England/174/2025_H3N2,2570,interpolated,141.8,2,midpoint
+seqneut25to26_sera_0009,A/England/174/2025_H3N2,2428,interpolated,,1,midpoint
 seqneut25to26_sera_0009,A/England/1822256/2025_H1N1,5921,lower,0,2,midpoint
 seqneut25to26_sera_0009,A/England/1837734/2025_H3N2,678.4,interpolated,265.4,2,midpoint
 seqneut25to26_sera_0009,A/France/ARA-HCL025155099501/2025_H1N1,5921,lower,,1,midpoint
@@ -837,7 +836,7 @@ seqneut25to26_sera_0010,A/DistrictOfColumbia/27/2023_H3N2,67.92,interpolated,22.
 seqneut25to26_sera_0010,A/DistrictOfColumbia/57/2025_H3N2,62.1,interpolated,0.2809,2,midpoint
 seqneut25to26_sera_0010,A/DistritoFederal/250106000728/2025_H3N2,50.31,upper,10.31,2,midpoint
 seqneut25to26_sera_0010,A/DistritoFederal/2578578201/2025_H3N2,339.7,interpolated,1.144,2,midpoint
-seqneut25to26_sera_0010,A/England/174/2025_H3N2,380.2,interpolated,64.28,2,midpoint
+seqneut25to26_sera_0010,A/England/174/2025_H3N2,315.9,interpolated,,1,midpoint
 seqneut25to26_sera_0010,A/England/1822256/2025_H1N1,86.81,interpolated,3.153,2,midpoint
 seqneut25to26_sera_0010,A/England/1837734/2025_H3N2,127,interpolated,16.92,2,midpoint
 seqneut25to26_sera_0010,A/England/1837737/2025_H3N2,75.19,interpolated,3.451,2,midpoint
@@ -928,7 +927,7 @@ seqneut25to26_sera_0011,A/DistrictOfColumbia/27/2023_H3N2,165.1,interpolated,70.
 seqneut25to26_sera_0011,A/DistrictOfColumbia/57/2025_H3N2,85.32,interpolated,18.16,2,midpoint
 seqneut25to26_sera_0011,A/DistritoFederal/250106000728/2025_H3N2,82.13,interpolated,7.639,2,midpoint
 seqneut25to26_sera_0011,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0011,A/England/174/2025_H3N2,124.6,interpolated,3.498,2,midpoint
+seqneut25to26_sera_0011,A/England/174/2025_H3N2,128.1,interpolated,,1,midpoint
 seqneut25to26_sera_0011,A/England/1822256/2025_H1N1,133.9,interpolated,1.127,2,midpoint
 seqneut25to26_sera_0011,A/England/1837734/2025_H3N2,136.6,interpolated,16.66,2,midpoint
 seqneut25to26_sera_0011,A/England/1837737/2025_H3N2,95.13,interpolated,53.14,2,midpoint
@@ -1019,7 +1018,7 @@ seqneut25to26_sera_0012,A/DistrictOfColumbia/27/2023_H3N2,1335,interpolated,166.
 seqneut25to26_sera_0012,A/DistrictOfColumbia/57/2025_H3N2,525.7,interpolated,14.38,2,midpoint
 seqneut25to26_sera_0012,A/DistritoFederal/250106000728/2025_H3N2,834.5,interpolated,247.9,2,midpoint
 seqneut25to26_sera_0012,A/DistritoFederal/2578578201/2025_H3N2,1031,interpolated,3.712,2,midpoint
-seqneut25to26_sera_0012,A/England/174/2025_H3N2,2235,interpolated,103.6,2,midpoint
+seqneut25to26_sera_0012,A/England/174/2025_H3N2,2132,interpolated,,1,midpoint
 seqneut25to26_sera_0012,A/England/1822256/2025_H1N1,190.7,interpolated,17.92,2,midpoint
 seqneut25to26_sera_0012,A/England/1837734/2025_H3N2,539.9,interpolated,35.92,2,midpoint
 seqneut25to26_sera_0012,A/England/1837737/2025_H3N2,788.8,interpolated,16.83,2,midpoint
@@ -1110,7 +1109,7 @@ seqneut25to26_sera_0013,A/DistrictOfColumbia/27/2023_H3N2,192.1,interpolated,92.
 seqneut25to26_sera_0013,A/DistrictOfColumbia/57/2025_H3N2,130,interpolated,52.38,2,midpoint
 seqneut25to26_sera_0013,A/DistritoFederal/250106000728/2025_H3N2,152.4,interpolated,32.89,2,midpoint
 seqneut25to26_sera_0013,A/DistritoFederal/2578578201/2025_H3N2,52.74,interpolated,2.727,2,midpoint
-seqneut25to26_sera_0013,A/England/174/2025_H3N2,422.2,interpolated,55.85,2,midpoint
+seqneut25to26_sera_0013,A/England/174/2025_H3N2,366.4,interpolated,,1,midpoint
 seqneut25to26_sera_0013,A/England/1822256/2025_H1N1,42.66,upper,2.665,2,midpoint
 seqneut25to26_sera_0013,A/England/1837734/2025_H3N2,110.7,interpolated,,1,midpoint
 seqneut25to26_sera_0013,A/England/1837737/2025_H3N2,59.78,interpolated,,1,midpoint
@@ -1290,7 +1289,7 @@ seqneut25to26_sera_0015,A/DistrictOfColumbia/27/2023_H3N2,77.94,interpolated,24.
 seqneut25to26_sera_0015,A/DistrictOfColumbia/57/2025_H3N2,60.05,interpolated,,1,midpoint
 seqneut25to26_sera_0015,A/DistritoFederal/250106000728/2025_H3N2,72.55,interpolated,6.995,2,midpoint
 seqneut25to26_sera_0015,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0015,A/England/174/2025_H3N2,189.5,interpolated,108.4,2,midpoint
+seqneut25to26_sera_0015,A/England/174/2025_H3N2,81.11,interpolated,,1,midpoint
 seqneut25to26_sera_0015,A/England/1822256/2025_H1N1,40,upper,0,2,midpoint
 seqneut25to26_sera_0015,A/England/1837734/2025_H3N2,62.97,interpolated,,1,midpoint
 seqneut25to26_sera_0015,A/England/1837737/2025_H3N2,40,upper,,1,midpoint
@@ -1471,7 +1470,7 @@ seqneut25to26_sera_0017,A/DistrictOfColumbia/27/2023_H3N2,1380,interpolated,143,
 seqneut25to26_sera_0017,A/DistrictOfColumbia/57/2025_H3N2,1395,interpolated,158.1,2,midpoint
 seqneut25to26_sera_0017,A/DistritoFederal/250106000728/2025_H3N2,963.4,interpolated,32.97,2,midpoint
 seqneut25to26_sera_0017,A/DistritoFederal/2578578201/2025_H3N2,1230,interpolated,38.8,2,midpoint
-seqneut25to26_sera_0017,A/England/174/2025_H3N2,1475,interpolated,247.4,2,midpoint
+seqneut25to26_sera_0017,A/England/174/2025_H3N2,1228,interpolated,,1,midpoint
 seqneut25to26_sera_0017,A/England/1822256/2025_H1N1,276.3,interpolated,31.48,2,midpoint
 seqneut25to26_sera_0017,A/England/1837734/2025_H3N2,1987,interpolated,506.2,2,midpoint
 seqneut25to26_sera_0017,A/England/1837737/2025_H3N2,1363,interpolated,132,2,midpoint
@@ -1562,7 +1561,7 @@ seqneut25to26_sera_0018,A/DistrictOfColumbia/27/2023_H3N2,78.66,interpolated,11.
 seqneut25to26_sera_0018,A/DistrictOfColumbia/57/2025_H3N2,40,upper,0,2,midpoint
 seqneut25to26_sera_0018,A/DistritoFederal/250106000728/2025_H3N2,44.21,interpolated,,1,midpoint
 seqneut25to26_sera_0018,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0018,A/England/174/2025_H3N2,93.8,interpolated,34.49,2,midpoint
+seqneut25to26_sera_0018,A/England/174/2025_H3N2,59.31,interpolated,,1,midpoint
 seqneut25to26_sera_0018,A/England/1822256/2025_H1N1,112.5,interpolated,21.1,2,midpoint
 seqneut25to26_sera_0018,A/England/1837734/2025_H3N2,56.35,interpolated,,1,midpoint
 seqneut25to26_sera_0018,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -1653,7 +1652,7 @@ seqneut25to26_sera_0019,A/DistrictOfColumbia/27/2023_H3N2,815,interpolated,102.6
 seqneut25to26_sera_0019,A/DistrictOfColumbia/57/2025_H3N2,589.4,interpolated,18.56,2,midpoint
 seqneut25to26_sera_0019,A/DistritoFederal/250106000728/2025_H3N2,262.6,interpolated,14.78,2,midpoint
 seqneut25to26_sera_0019,A/DistritoFederal/2578578201/2025_H3N2,1032,interpolated,155,2,midpoint
-seqneut25to26_sera_0019,A/England/174/2025_H3N2,5250,interpolated,2177,2,midpoint
+seqneut25to26_sera_0019,A/England/174/2025_H3N2,3073,interpolated,,1,midpoint
 seqneut25to26_sera_0019,A/England/1822256/2025_H1N1,1785,interpolated,116.9,2,midpoint
 seqneut25to26_sera_0019,A/England/1837734/2025_H3N2,629.3,interpolated,114.7,2,midpoint
 seqneut25to26_sera_0019,A/England/1837737/2025_H3N2,623,interpolated,225.6,2,midpoint
@@ -1833,7 +1832,7 @@ seqneut25to26_sera_0021,A/DistrictOfColumbia/27/2023_H3N2,1010,interpolated,51.9
 seqneut25to26_sera_0021,A/DistrictOfColumbia/57/2025_H3N2,530.5,interpolated,51.35,2,midpoint
 seqneut25to26_sera_0021,A/DistritoFederal/250106000728/2025_H3N2,360.8,interpolated,16.5,2,midpoint
 seqneut25to26_sera_0021,A/DistritoFederal/2578578201/2025_H3N2,620.8,interpolated,147.8,2,midpoint
-seqneut25to26_sera_0021,A/England/174/2025_H3N2,572.4,interpolated,20.71,2,midpoint
+seqneut25to26_sera_0021,A/England/174/2025_H3N2,593.1,interpolated,,1,midpoint
 seqneut25to26_sera_0021,A/England/1822256/2025_H1N1,41.77,upper,1.77,2,midpoint
 seqneut25to26_sera_0021,A/England/1837734/2025_H3N2,593.6,interpolated,37.26,2,midpoint
 seqneut25to26_sera_0021,A/England/1837737/2025_H3N2,329.8,interpolated,79.04,2,midpoint
@@ -2012,7 +2011,7 @@ seqneut25to26_sera_0023,A/DistrictOfColumbia/27/2023_H3N2,2662,interpolated,1388
 seqneut25to26_sera_0023,A/DistrictOfColumbia/57/2025_H3N2,275.4,interpolated,52.65,2,midpoint
 seqneut25to26_sera_0023,A/DistritoFederal/250106000728/2025_H3N2,229.8,interpolated,3.027,2,midpoint
 seqneut25to26_sera_0023,A/DistritoFederal/2578578201/2025_H3N2,3222,interpolated,619.5,2,midpoint
-seqneut25to26_sera_0023,A/England/174/2025_H3N2,6221,interpolated,2737,2,midpoint
+seqneut25to26_sera_0023,A/England/174/2025_H3N2,8958,interpolated,,1,midpoint
 seqneut25to26_sera_0023,A/England/1822256/2025_H1N1,91.1,interpolated,0.459,2,midpoint
 seqneut25to26_sera_0023,A/England/1837734/2025_H3N2,318.3,interpolated,104.8,2,midpoint
 seqneut25to26_sera_0023,A/England/1837737/2025_H3N2,2813,interpolated,371.8,2,midpoint
@@ -2285,7 +2284,7 @@ seqneut25to26_sera_0026,A/DistrictOfColumbia/27/2023_H3N2,66.36,interpolated,5.1
 seqneut25to26_sera_0026,A/DistrictOfColumbia/57/2025_H3N2,40.2,interpolated,,1,midpoint
 seqneut25to26_sera_0026,A/DistritoFederal/250106000728/2025_H3N2,41.58,upper,1.582,2,midpoint
 seqneut25to26_sera_0026,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0026,A/England/174/2025_H3N2,166.7,upper,126.7,2,midpoint
+seqneut25to26_sera_0026,A/England/174/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_0026,A/England/1822256/2025_H1N1,653.6,interpolated,0.1299,2,midpoint
 seqneut25to26_sera_0026,A/England/1837734/2025_H3N2,60.37,interpolated,18.62,2,midpoint
 seqneut25to26_sera_0026,A/England/1837737/2025_H3N2,40,upper,,1,midpoint
@@ -2376,7 +2375,7 @@ seqneut25to26_sera_0027,A/DistrictOfColumbia/27/2023_H3N2,43.04,interpolated,0.6
 seqneut25to26_sera_0027,A/DistrictOfColumbia/57/2025_H3N2,40,upper,0,2,midpoint
 seqneut25to26_sera_0027,A/DistritoFederal/250106000728/2025_H3N2,40,upper,0,2,midpoint
 seqneut25to26_sera_0027,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0027,A/England/174/2025_H3N2,44.63,interpolated,2.262,2,midpoint
+seqneut25to26_sera_0027,A/England/174/2025_H3N2,42.37,interpolated,,1,midpoint
 seqneut25to26_sera_0027,A/England/1822256/2025_H1N1,120.3,interpolated,13.83,2,midpoint
 seqneut25to26_sera_0027,A/England/1837734/2025_H3N2,42.72,interpolated,1.753,2,midpoint
 seqneut25to26_sera_0027,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -2467,7 +2466,7 @@ seqneut25to26_sera_0028,A/DistrictOfColumbia/27/2023_H3N2,1.362e+04,lower,0,2,mi
 seqneut25to26_sera_0028,A/DistrictOfColumbia/57/2025_H3N2,1.186e+04,lower,1762,2,midpoint
 seqneut25to26_sera_0028,A/DistritoFederal/250106000728/2025_H3N2,1.362e+04,lower,0,2,midpoint
 seqneut25to26_sera_0028,A/DistritoFederal/2578578201/2025_H3N2,1.362e+04,lower,0,2,midpoint
-seqneut25to26_sera_0028,A/England/174/2025_H3N2,1.362e+04,lower,0,2,midpoint
+seqneut25to26_sera_0028,A/England/174/2025_H3N2,1.362e+04,lower,,1,midpoint
 seqneut25to26_sera_0028,A/England/1822256/2025_H1N1,1.362e+04,lower,0,2,midpoint
 seqneut25to26_sera_0028,A/England/1837734/2025_H3N2,1.262e+04,lower,1002,2,midpoint
 seqneut25to26_sera_0028,A/England/1837737/2025_H3N2,1.362e+04,lower,0,2,midpoint
@@ -2558,7 +2557,7 @@ seqneut25to26_sera_0029,A/DistrictOfColumbia/27/2023_H3N2,541,interpolated,187.4
 seqneut25to26_sera_0029,A/DistrictOfColumbia/57/2025_H3N2,689.9,interpolated,183.8,2,midpoint
 seqneut25to26_sera_0029,A/DistritoFederal/250106000728/2025_H3N2,265.4,interpolated,30.76,2,midpoint
 seqneut25to26_sera_0029,A/DistritoFederal/2578578201/2025_H3N2,984.9,interpolated,188.9,2,midpoint
-seqneut25to26_sera_0029,A/England/174/2025_H3N2,1729,interpolated,108.9,2,midpoint
+seqneut25to26_sera_0029,A/England/174/2025_H3N2,1620,interpolated,,1,midpoint
 seqneut25to26_sera_0029,A/England/1822256/2025_H1N1,751.2,interpolated,69.25,2,midpoint
 seqneut25to26_sera_0029,A/England/1837734/2025_H3N2,408.6,interpolated,20.93,2,midpoint
 seqneut25to26_sera_0029,A/England/1837737/2025_H3N2,225.2,interpolated,40.55,2,midpoint
@@ -2649,7 +2648,7 @@ seqneut25to26_sera_0030,A/DistrictOfColumbia/27/2023_H3N2,9565,interpolated,797,
 seqneut25to26_sera_0030,A/DistrictOfColumbia/57/2025_H3N2,7959,interpolated,587.4,2,midpoint
 seqneut25to26_sera_0030,A/DistritoFederal/250106000728/2025_H3N2,981,interpolated,143.1,2,midpoint
 seqneut25to26_sera_0030,A/DistritoFederal/2578578201/2025_H3N2,3007,interpolated,192.4,2,midpoint
-seqneut25to26_sera_0030,A/England/174/2025_H3N2,1.182e+04,lower,1802,2,midpoint
+seqneut25to26_sera_0030,A/England/174/2025_H3N2,1.002e+04,interpolated,,1,midpoint
 seqneut25to26_sera_0030,A/England/1822256/2025_H1N1,2290,interpolated,516.5,2,midpoint
 seqneut25to26_sera_0030,A/England/1837734/2025_H3N2,9439,interpolated,3070,2,midpoint
 seqneut25to26_sera_0030,A/England/1837737/2025_H3N2,3137,interpolated,62.55,2,midpoint
@@ -2740,7 +2739,7 @@ seqneut25to26_sera_0031,A/DistrictOfColumbia/27/2023_H3N2,2945,interpolated,1018
 seqneut25to26_sera_0031,A/DistrictOfColumbia/57/2025_H3N2,126.2,interpolated,18.98,2,midpoint
 seqneut25to26_sera_0031,A/DistritoFederal/250106000728/2025_H3N2,285.3,interpolated,33.9,2,midpoint
 seqneut25to26_sera_0031,A/DistritoFederal/2578578201/2025_H3N2,168.9,interpolated,27.8,2,midpoint
-seqneut25to26_sera_0031,A/England/174/2025_H3N2,1220,interpolated,111.4,2,midpoint
+seqneut25to26_sera_0031,A/England/174/2025_H3N2,1332,interpolated,,1,midpoint
 seqneut25to26_sera_0031,A/England/1822256/2025_H1N1,40.36,upper,0.3608,2,midpoint
 seqneut25to26_sera_0031,A/England/1837734/2025_H3N2,170.1,interpolated,0.2078,2,midpoint
 seqneut25to26_sera_0031,A/England/1837737/2025_H3N2,141,interpolated,58.16,2,midpoint
@@ -2831,7 +2830,7 @@ seqneut25to26_sera_0032,A/DistrictOfColumbia/27/2023_H3N2,81.53,interpolated,,1,
 seqneut25to26_sera_0032,A/DistrictOfColumbia/57/2025_H3N2,50.6,interpolated,0.1095,2,midpoint
 seqneut25to26_sera_0032,A/DistritoFederal/250106000728/2025_H3N2,61.09,interpolated,15.85,2,midpoint
 seqneut25to26_sera_0032,A/DistritoFederal/2578578201/2025_H3N2,83.54,interpolated,12.35,2,midpoint
-seqneut25to26_sera_0032,A/England/174/2025_H3N2,336.7,interpolated,158,2,midpoint
+seqneut25to26_sera_0032,A/England/174/2025_H3N2,494.7,interpolated,,1,midpoint
 seqneut25to26_sera_0032,A/England/1822256/2025_H1N1,236.3,interpolated,31.46,2,midpoint
 seqneut25to26_sera_0032,A/England/1837734/2025_H3N2,74.03,interpolated,6.079,2,midpoint
 seqneut25to26_sera_0032,A/England/1837737/2025_H3N2,52.51,upper,12.51,2,midpoint
@@ -2922,7 +2921,7 @@ seqneut25to26_sera_0033,A/DistrictOfColumbia/27/2023_H3N2,583,interpolated,85.36
 seqneut25to26_sera_0033,A/DistrictOfColumbia/57/2025_H3N2,615.7,interpolated,79.98,2,midpoint
 seqneut25to26_sera_0033,A/DistritoFederal/250106000728/2025_H3N2,358.1,interpolated,30.8,2,midpoint
 seqneut25to26_sera_0033,A/DistritoFederal/2578578201/2025_H3N2,377.9,interpolated,32.09,2,midpoint
-seqneut25to26_sera_0033,A/England/174/2025_H3N2,821.4,interpolated,1.807,2,midpoint
+seqneut25to26_sera_0033,A/England/174/2025_H3N2,823.3,interpolated,,1,midpoint
 seqneut25to26_sera_0033,A/England/1822256/2025_H1N1,47.63,interpolated,6.956,2,midpoint
 seqneut25to26_sera_0033,A/England/1837734/2025_H3N2,447.6,interpolated,115.7,2,midpoint
 seqneut25to26_sera_0033,A/England/1837737/2025_H3N2,298.3,interpolated,26.99,2,midpoint
@@ -3013,7 +3012,7 @@ seqneut25to26_sera_0034,A/DistrictOfColumbia/27/2023_H3N2,208.2,interpolated,37.
 seqneut25to26_sera_0034,A/DistrictOfColumbia/57/2025_H3N2,74.16,interpolated,6.594,2,midpoint
 seqneut25to26_sera_0034,A/DistritoFederal/250106000728/2025_H3N2,167.9,interpolated,48.18,2,midpoint
 seqneut25to26_sera_0034,A/DistritoFederal/2578578201/2025_H3N2,160.1,interpolated,46.16,2,midpoint
-seqneut25to26_sera_0034,A/England/174/2025_H3N2,154,interpolated,31.12,2,midpoint
+seqneut25to26_sera_0034,A/England/174/2025_H3N2,185.1,interpolated,,1,midpoint
 seqneut25to26_sera_0034,A/England/1822256/2025_H1N1,157.3,interpolated,13.61,2,midpoint
 seqneut25to26_sera_0034,A/England/1837734/2025_H3N2,63.78,interpolated,7.9,2,midpoint
 seqneut25to26_sera_0034,A/England/1837737/2025_H3N2,55.53,upper,15.53,2,midpoint
@@ -3104,7 +3103,7 @@ seqneut25to26_sera_0035,A/DistrictOfColumbia/27/2023_H3N2,655.5,interpolated,137
 seqneut25to26_sera_0035,A/DistrictOfColumbia/57/2025_H3N2,191.7,interpolated,2.376,2,midpoint
 seqneut25to26_sera_0035,A/DistritoFederal/250106000728/2025_H3N2,317.7,interpolated,1.022,2,midpoint
 seqneut25to26_sera_0035,A/DistritoFederal/2578578201/2025_H3N2,240.9,interpolated,47,2,midpoint
-seqneut25to26_sera_0035,A/England/174/2025_H3N2,725.7,interpolated,139.4,2,midpoint
+seqneut25to26_sera_0035,A/England/174/2025_H3N2,865.1,interpolated,,1,midpoint
 seqneut25to26_sera_0035,A/England/1822256/2025_H1N1,441.8,interpolated,16.37,2,midpoint
 seqneut25to26_sera_0035,A/England/1837734/2025_H3N2,125,interpolated,27.96,2,midpoint
 seqneut25to26_sera_0035,A/England/1837737/2025_H3N2,384.6,interpolated,59.96,2,midpoint
@@ -3195,7 +3194,7 @@ seqneut25to26_sera_0036,A/DistrictOfColumbia/27/2023_H3N2,533.9,interpolated,171
 seqneut25to26_sera_0036,A/DistrictOfColumbia/57/2025_H3N2,111.6,interpolated,12.91,2,midpoint
 seqneut25to26_sera_0036,A/DistritoFederal/250106000728/2025_H3N2,122.4,interpolated,7.674,2,midpoint
 seqneut25to26_sera_0036,A/DistritoFederal/2578578201/2025_H3N2,85.45,interpolated,9.001,2,midpoint
-seqneut25to26_sera_0036,A/England/174/2025_H3N2,1585,interpolated,181,2,midpoint
+seqneut25to26_sera_0036,A/England/174/2025_H3N2,1766,interpolated,,1,midpoint
 seqneut25to26_sera_0036,A/England/1822256/2025_H1N1,609.9,interpolated,76.99,2,midpoint
 seqneut25to26_sera_0036,A/England/1837734/2025_H3N2,128.6,interpolated,33.32,2,midpoint
 seqneut25to26_sera_0036,A/England/1837737/2025_H3N2,100.4,interpolated,4.448,2,midpoint
@@ -3286,7 +3285,7 @@ seqneut25to26_sera_0037,A/DistrictOfColumbia/27/2023_H3N2,47.9,interpolated,7.20
 seqneut25to26_sera_0037,A/DistrictOfColumbia/57/2025_H3N2,43.97,interpolated,3.19,2,midpoint
 seqneut25to26_sera_0037,A/DistritoFederal/250106000728/2025_H3N2,52.74,upper,12.74,2,midpoint
 seqneut25to26_sera_0037,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_0037,A/England/174/2025_H3N2,48.08,interpolated,7.452,2,midpoint
+seqneut25to26_sera_0037,A/England/174/2025_H3N2,55.54,interpolated,,1,midpoint
 seqneut25to26_sera_0037,A/England/1822256/2025_H1N1,57.28,interpolated,2.673,2,midpoint
 seqneut25to26_sera_0037,A/England/1837734/2025_H3N2,57.17,upper,17.17,2,midpoint
 seqneut25to26_sera_0037,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -3468,7 +3467,7 @@ seqneut25to26_sera_0039,A/DistrictOfColumbia/27/2023_H3N2,1.327e+04,lower,347.4,
 seqneut25to26_sera_0039,A/DistrictOfColumbia/57/2025_H3N2,8483,interpolated,1950,2,midpoint
 seqneut25to26_sera_0039,A/DistritoFederal/250106000728/2025_H3N2,6690,interpolated,1881,2,midpoint
 seqneut25to26_sera_0039,A/DistritoFederal/2578578201/2025_H3N2,1.122e+04,interpolated,554.3,2,midpoint
-seqneut25to26_sera_0039,A/England/174/2025_H3N2,1.362e+04,lower,0,2,midpoint
+seqneut25to26_sera_0039,A/England/174/2025_H3N2,1.362e+04,lower,,1,midpoint
 seqneut25to26_sera_0039,A/England/1822256/2025_H1N1,6980,interpolated,744.5,2,midpoint
 seqneut25to26_sera_0039,A/England/1837734/2025_H3N2,6742,interpolated,237,2,midpoint
 seqneut25to26_sera_0039,A/England/1837737/2025_H3N2,8357,interpolated,928.4,2,midpoint
@@ -3559,7 +3558,7 @@ seqneut25to26_sera_1001_d0,A/DistrictOfColumbia/27/2023_H3N2,1149,interpolated,1
 seqneut25to26_sera_1001_d0,A/DistrictOfColumbia/57/2025_H3N2,419.8,interpolated,120.1,2,midpoint
 seqneut25to26_sera_1001_d0,A/DistritoFederal/250106000728/2025_H3N2,381.9,interpolated,3.705,2,midpoint
 seqneut25to26_sera_1001_d0,A/DistritoFederal/2578578201/2025_H3N2,1020,interpolated,133,2,midpoint
-seqneut25to26_sera_1001_d0,A/England/174/2025_H3N2,1516,interpolated,402.3,2,midpoint
+seqneut25to26_sera_1001_d0,A/England/174/2025_H3N2,1919,interpolated,,1,midpoint
 seqneut25to26_sera_1001_d0,A/England/1822256/2025_H1N1,861.6,interpolated,13.14,2,midpoint
 seqneut25to26_sera_1001_d0,A/England/1837734/2025_H3N2,432.3,interpolated,33.29,2,midpoint
 seqneut25to26_sera_1001_d0,A/England/1837737/2025_H3N2,487.9,interpolated,144.4,2,midpoint
@@ -3650,7 +3649,7 @@ seqneut25to26_sera_1001_d28,A/DistrictOfColumbia/27/2023_H3N2,1631,interpolated,
 seqneut25to26_sera_1001_d28,A/DistrictOfColumbia/57/2025_H3N2,667.6,interpolated,39.01,2,midpoint
 seqneut25to26_sera_1001_d28,A/DistritoFederal/250106000728/2025_H3N2,607.7,interpolated,23.12,2,midpoint
 seqneut25to26_sera_1001_d28,A/DistritoFederal/2578578201/2025_H3N2,1476,interpolated,276.9,2,midpoint
-seqneut25to26_sera_1001_d28,A/England/174/2025_H3N2,2715,interpolated,312.2,2,midpoint
+seqneut25to26_sera_1001_d28,A/England/174/2025_H3N2,2403,interpolated,,1,midpoint
 seqneut25to26_sera_1001_d28,A/England/1822256/2025_H1N1,1233,interpolated,13.18,2,midpoint
 seqneut25to26_sera_1001_d28,A/England/1837734/2025_H3N2,579.8,interpolated,177.2,2,midpoint
 seqneut25to26_sera_1001_d28,A/England/1837737/2025_H3N2,985.8,interpolated,421.5,2,midpoint
@@ -3741,7 +3740,7 @@ seqneut25to26_sera_1002_d0,A/DistrictOfColumbia/27/2023_H3N2,673.4,interpolated,
 seqneut25to26_sera_1002_d0,A/DistrictOfColumbia/57/2025_H3N2,178.7,interpolated,26.4,2,midpoint
 seqneut25to26_sera_1002_d0,A/DistritoFederal/250106000728/2025_H3N2,85.09,interpolated,16.95,2,midpoint
 seqneut25to26_sera_1002_d0,A/DistritoFederal/2578578201/2025_H3N2,145.6,interpolated,2.24,2,midpoint
-seqneut25to26_sera_1002_d0,A/England/174/2025_H3N2,363.5,interpolated,239,2,midpoint
+seqneut25to26_sera_1002_d0,A/England/174/2025_H3N2,124.6,interpolated,,1,midpoint
 seqneut25to26_sera_1002_d0,A/England/1822256/2025_H1N1,1255,interpolated,145.5,2,midpoint
 seqneut25to26_sera_1002_d0,A/England/1837734/2025_H3N2,338.9,interpolated,149.5,2,midpoint
 seqneut25to26_sera_1002_d0,A/England/1837737/2025_H3N2,160,interpolated,28.59,2,midpoint
@@ -4013,7 +4012,7 @@ seqneut25to26_sera_1003_d28,A/DistrictOfColumbia/27/2023_H3N2,259.3,interpolated
 seqneut25to26_sera_1003_d28,A/DistrictOfColumbia/57/2025_H3N2,184.9,interpolated,38.69,2,midpoint
 seqneut25to26_sera_1003_d28,A/DistritoFederal/250106000728/2025_H3N2,378.5,interpolated,91.47,2,midpoint
 seqneut25to26_sera_1003_d28,A/DistritoFederal/2578578201/2025_H3N2,399,interpolated,107.3,2,midpoint
-seqneut25to26_sera_1003_d28,A/England/174/2025_H3N2,280.9,interpolated,0.426,2,midpoint
+seqneut25to26_sera_1003_d28,A/England/174/2025_H3N2,281.3,interpolated,,1,midpoint
 seqneut25to26_sera_1003_d28,A/England/1822256/2025_H1N1,793.7,interpolated,37.88,2,midpoint
 seqneut25to26_sera_1003_d28,A/England/1837734/2025_H3N2,154.8,interpolated,32.61,2,midpoint
 seqneut25to26_sera_1003_d28,A/England/1837737/2025_H3N2,137.2,interpolated,26.15,2,midpoint
@@ -4104,7 +4103,7 @@ seqneut25to26_sera_1004_d0,A/DistrictOfColumbia/27/2023_H3N2,121.9,interpolated,
 seqneut25to26_sera_1004_d0,A/DistrictOfColumbia/57/2025_H3N2,128.1,interpolated,49.91,2,midpoint
 seqneut25to26_sera_1004_d0,A/DistritoFederal/250106000728/2025_H3N2,139.3,interpolated,19.7,2,midpoint
 seqneut25to26_sera_1004_d0,A/DistritoFederal/2578578201/2025_H3N2,221.3,interpolated,103.2,2,midpoint
-seqneut25to26_sera_1004_d0,A/England/174/2025_H3N2,315.1,interpolated,250,2,midpoint
+seqneut25to26_sera_1004_d0,A/England/174/2025_H3N2,65.11,interpolated,,1,midpoint
 seqneut25to26_sera_1004_d0,A/England/1822256/2025_H1N1,476.7,interpolated,11.46,2,midpoint
 seqneut25to26_sera_1004_d0,A/England/1837734/2025_H3N2,130.7,interpolated,36.2,2,midpoint
 seqneut25to26_sera_1004_d0,A/England/1837737/2025_H3N2,69.47,interpolated,10.52,2,midpoint
@@ -4195,7 +4194,7 @@ seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/27/2023_H3N2,605.4,interpolated
 seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/57/2025_H3N2,181,interpolated,56.56,2,midpoint
 seqneut25to26_sera_1004_d28,A/DistritoFederal/250106000728/2025_H3N2,216.5,interpolated,20.91,2,midpoint
 seqneut25to26_sera_1004_d28,A/DistritoFederal/2578578201/2025_H3N2,271,interpolated,77.13,2,midpoint
-seqneut25to26_sera_1004_d28,A/England/174/2025_H3N2,1346,interpolated,1053,2,midpoint
+seqneut25to26_sera_1004_d28,A/England/174/2025_H3N2,292.7,interpolated,,1,midpoint
 seqneut25to26_sera_1004_d28,A/England/1822256/2025_H1N1,881.7,interpolated,10.19,2,midpoint
 seqneut25to26_sera_1004_d28,A/England/1837734/2025_H3N2,243.5,interpolated,49.17,2,midpoint
 seqneut25to26_sera_1004_d28,A/England/1837737/2025_H3N2,135.1,interpolated,11.24,2,midpoint
@@ -4285,7 +4284,7 @@ seqneut25to26_sera_1005_d0,A/DistrictOfColumbia/27/2023_H3N2,3716,interpolated,1
 seqneut25to26_sera_1005_d0,A/DistrictOfColumbia/57/2025_H3N2,262.6,interpolated,64.96,2,midpoint
 seqneut25to26_sera_1005_d0,A/DistritoFederal/250106000728/2025_H3N2,288,interpolated,1.542,2,midpoint
 seqneut25to26_sera_1005_d0,A/DistritoFederal/2578578201/2025_H3N2,195,interpolated,51.35,2,midpoint
-seqneut25to26_sera_1005_d0,A/England/174/2025_H3N2,2359,interpolated,1644,2,midpoint
+seqneut25to26_sera_1005_d0,A/England/174/2025_H3N2,4003,interpolated,,1,midpoint
 seqneut25to26_sera_1005_d0,A/England/1822256/2025_H1N1,430.5,interpolated,27.63,2,midpoint
 seqneut25to26_sera_1005_d0,A/England/1837734/2025_H3N2,266.3,interpolated,20.96,2,midpoint
 seqneut25to26_sera_1005_d0,A/England/1837737/2025_H3N2,637.5,interpolated,252.7,2,midpoint
@@ -4376,7 +4375,7 @@ seqneut25to26_sera_1005_d28,A/DistrictOfColumbia/27/2023_H3N2,3162,interpolated,
 seqneut25to26_sera_1005_d28,A/DistrictOfColumbia/57/2025_H3N2,406.3,interpolated,113.7,2,midpoint
 seqneut25to26_sera_1005_d28,A/DistritoFederal/250106000728/2025_H3N2,226.1,interpolated,80.73,2,midpoint
 seqneut25to26_sera_1005_d28,A/DistritoFederal/2578578201/2025_H3N2,567,interpolated,36.24,2,midpoint
-seqneut25to26_sera_1005_d28,A/England/174/2025_H3N2,5243,interpolated,567.6,2,midpoint
+seqneut25to26_sera_1005_d28,A/England/174/2025_H3N2,4675,interpolated,,1,midpoint
 seqneut25to26_sera_1005_d28,A/England/1822256/2025_H1N1,2365,interpolated,305.9,2,midpoint
 seqneut25to26_sera_1005_d28,A/England/1837734/2025_H3N2,389.3,interpolated,31.98,2,midpoint
 seqneut25to26_sera_1005_d28,A/England/1837737/2025_H3N2,1623,interpolated,415.2,2,midpoint
@@ -4467,7 +4466,7 @@ seqneut25to26_sera_1006_d0,A/DistrictOfColumbia/27/2023_H3N2,1223,interpolated,4
 seqneut25to26_sera_1006_d0,A/DistrictOfColumbia/57/2025_H3N2,593.3,interpolated,80.08,2,midpoint
 seqneut25to26_sera_1006_d0,A/DistritoFederal/250106000728/2025_H3N2,3560,interpolated,514.3,2,midpoint
 seqneut25to26_sera_1006_d0,A/DistritoFederal/2578578201/2025_H3N2,2118,interpolated,26.89,2,midpoint
-seqneut25to26_sera_1006_d0,A/England/174/2025_H3N2,2230,interpolated,707.8,2,midpoint
+seqneut25to26_sera_1006_d0,A/England/174/2025_H3N2,1522,interpolated,,1,midpoint
 seqneut25to26_sera_1006_d0,A/England/1822256/2025_H1N1,1196,interpolated,156.8,2,midpoint
 seqneut25to26_sera_1006_d0,A/England/1837734/2025_H3N2,470.9,interpolated,20,2,midpoint
 seqneut25to26_sera_1006_d0,A/England/1837737/2025_H3N2,637.7,interpolated,130,2,midpoint
@@ -4558,7 +4557,7 @@ seqneut25to26_sera_1006_d28,A/DistrictOfColumbia/27/2023_H3N2,3176,interpolated,
 seqneut25to26_sera_1006_d28,A/DistrictOfColumbia/57/2025_H3N2,1251,interpolated,247.9,2,midpoint
 seqneut25to26_sera_1006_d28,A/DistritoFederal/250106000728/2025_H3N2,5434,interpolated,2222,2,midpoint
 seqneut25to26_sera_1006_d28,A/DistritoFederal/2578578201/2025_H3N2,3337,interpolated,417.5,2,midpoint
-seqneut25to26_sera_1006_d28,A/England/174/2025_H3N2,1516,interpolated,935.7,2,midpoint
+seqneut25to26_sera_1006_d28,A/England/174/2025_H3N2,2452,interpolated,,1,midpoint
 seqneut25to26_sera_1006_d28,A/England/1822256/2025_H1N1,2740,interpolated,26.85,2,midpoint
 seqneut25to26_sera_1006_d28,A/England/1837734/2025_H3N2,1137,interpolated,302.3,2,midpoint
 seqneut25to26_sera_1006_d28,A/England/1837737/2025_H3N2,1514,interpolated,565.6,2,midpoint
@@ -4740,7 +4739,7 @@ seqneut25to26_sera_1007_d28,A/DistrictOfColumbia/27/2023_H3N2,484.8,interpolated
 seqneut25to26_sera_1007_d28,A/DistrictOfColumbia/57/2025_H3N2,256.5,interpolated,35.79,2,midpoint
 seqneut25to26_sera_1007_d28,A/DistritoFederal/250106000728/2025_H3N2,1317,interpolated,114.4,2,midpoint
 seqneut25to26_sera_1007_d28,A/DistritoFederal/2578578201/2025_H3N2,1.129e+04,interpolated,1282,2,midpoint
-seqneut25to26_sera_1007_d28,A/England/174/2025_H3N2,2203,interpolated,1586,2,midpoint
+seqneut25to26_sera_1007_d28,A/England/174/2025_H3N2,3789,interpolated,,1,midpoint
 seqneut25to26_sera_1007_d28,A/England/1822256/2025_H1N1,2402,interpolated,336.4,2,midpoint
 seqneut25to26_sera_1007_d28,A/England/1837734/2025_H3N2,280.3,interpolated,57.01,2,midpoint
 seqneut25to26_sera_1007_d28,A/England/1837737/2025_H3N2,587,interpolated,272.1,2,midpoint
@@ -4831,7 +4830,7 @@ seqneut25to26_sera_1008_d0,A/DistrictOfColumbia/27/2023_H3N2,155.8,interpolated,
 seqneut25to26_sera_1008_d0,A/DistrictOfColumbia/57/2025_H3N2,68.68,interpolated,9.366,2,midpoint
 seqneut25to26_sera_1008_d0,A/DistritoFederal/250106000728/2025_H3N2,194,interpolated,13.19,2,midpoint
 seqneut25to26_sera_1008_d0,A/DistritoFederal/2578578201/2025_H3N2,130.6,interpolated,23.67,2,midpoint
-seqneut25to26_sera_1008_d0,A/England/174/2025_H3N2,236.7,interpolated,9.487,2,midpoint
+seqneut25to26_sera_1008_d0,A/England/174/2025_H3N2,246.1,interpolated,,1,midpoint
 seqneut25to26_sera_1008_d0,A/England/1822256/2025_H1N1,93.81,interpolated,2.511,2,midpoint
 seqneut25to26_sera_1008_d0,A/England/1837734/2025_H3N2,73.64,interpolated,1.481,2,midpoint
 seqneut25to26_sera_1008_d0,A/England/1837737/2025_H3N2,220.2,interpolated,3.02,2,midpoint
@@ -4922,7 +4921,7 @@ seqneut25to26_sera_1008_d28,A/DistrictOfColumbia/27/2023_H3N2,1555,interpolated,
 seqneut25to26_sera_1008_d28,A/DistrictOfColumbia/57/2025_H3N2,3024,interpolated,1008,2,midpoint
 seqneut25to26_sera_1008_d28,A/DistritoFederal/250106000728/2025_H3N2,1527,interpolated,559.3,2,midpoint
 seqneut25to26_sera_1008_d28,A/DistritoFederal/2578578201/2025_H3N2,2413,interpolated,449.6,2,midpoint
-seqneut25to26_sera_1008_d28,A/England/174/2025_H3N2,1813,interpolated,169.9,2,midpoint
+seqneut25to26_sera_1008_d28,A/England/174/2025_H3N2,1643,interpolated,,1,midpoint
 seqneut25to26_sera_1008_d28,A/England/1822256/2025_H1N1,1294,interpolated,87.79,2,midpoint
 seqneut25to26_sera_1008_d28,A/England/1837734/2025_H3N2,2414,interpolated,429.3,2,midpoint
 seqneut25to26_sera_1008_d28,A/England/1837737/2025_H3N2,2732,interpolated,12.34,2,midpoint
@@ -5013,7 +5012,7 @@ seqneut25to26_sera_1009_d0,A/DistrictOfColumbia/27/2023_H3N2,377.7,interpolated,
 seqneut25to26_sera_1009_d0,A/DistrictOfColumbia/57/2025_H3N2,137.2,interpolated,21.04,2,midpoint
 seqneut25to26_sera_1009_d0,A/DistritoFederal/250106000728/2025_H3N2,200.9,interpolated,50.68,2,midpoint
 seqneut25to26_sera_1009_d0,A/DistritoFederal/2578578201/2025_H3N2,200.7,interpolated,17.27,2,midpoint
-seqneut25to26_sera_1009_d0,A/England/174/2025_H3N2,725.3,interpolated,202.9,2,midpoint
+seqneut25to26_sera_1009_d0,A/England/174/2025_H3N2,928.1,interpolated,,1,midpoint
 seqneut25to26_sera_1009_d0,A/England/1822256/2025_H1N1,473.8,interpolated,56.14,2,midpoint
 seqneut25to26_sera_1009_d0,A/England/1837734/2025_H3N2,148,interpolated,3.988,2,midpoint
 seqneut25to26_sera_1009_d0,A/England/1837737/2025_H3N2,147.8,interpolated,5.418,2,midpoint
@@ -5104,6 +5103,7 @@ seqneut25to26_sera_1009_d28,A/DistrictOfColumbia/27/2023_H3N2,496.4,interpolated
 seqneut25to26_sera_1009_d28,A/DistrictOfColumbia/57/2025_H3N2,259.4,interpolated,121.8,2,midpoint
 seqneut25to26_sera_1009_d28,A/DistritoFederal/250106000728/2025_H3N2,185.9,interpolated,31.01,2,midpoint
 seqneut25to26_sera_1009_d28,A/DistritoFederal/2578578201/2025_H3N2,277.9,interpolated,55.12,2,midpoint
+seqneut25to26_sera_1009_d28,A/England/174/2025_H3N2,370.7,interpolated,,1,midpoint
 seqneut25to26_sera_1009_d28,A/England/1822256/2025_H1N1,753.1,interpolated,76,2,midpoint
 seqneut25to26_sera_1009_d28,A/England/1837734/2025_H3N2,227.5,interpolated,14.2,2,midpoint
 seqneut25to26_sera_1009_d28,A/England/1837737/2025_H3N2,391.4,interpolated,175.5,2,midpoint
@@ -5194,7 +5194,7 @@ seqneut25to26_sera_1010_d0,A/DistrictOfColumbia/27/2023_H3N2,504.3,interpolated,
 seqneut25to26_sera_1010_d0,A/DistrictOfColumbia/57/2025_H3N2,303.5,interpolated,45.56,2,midpoint
 seqneut25to26_sera_1010_d0,A/DistritoFederal/250106000728/2025_H3N2,461.8,interpolated,215.9,2,midpoint
 seqneut25to26_sera_1010_d0,A/DistritoFederal/2578578201/2025_H3N2,435,interpolated,153,2,midpoint
-seqneut25to26_sera_1010_d0,A/England/174/2025_H3N2,465.7,interpolated,127.6,2,midpoint
+seqneut25to26_sera_1010_d0,A/England/174/2025_H3N2,593.3,interpolated,,1,midpoint
 seqneut25to26_sera_1010_d0,A/England/1822256/2025_H1N1,376.5,interpolated,4.71,2,midpoint
 seqneut25to26_sera_1010_d0,A/England/1837734/2025_H3N2,329.6,interpolated,5.816,2,midpoint
 seqneut25to26_sera_1010_d0,A/England/1837737/2025_H3N2,198.8,interpolated,9.515,2,midpoint
@@ -5285,7 +5285,7 @@ seqneut25to26_sera_1010_d28,A/DistrictOfColumbia/27/2023_H3N2,584.3,interpolated
 seqneut25to26_sera_1010_d28,A/DistrictOfColumbia/57/2025_H3N2,418.8,interpolated,143,2,midpoint
 seqneut25to26_sera_1010_d28,A/DistritoFederal/250106000728/2025_H3N2,376.9,interpolated,103.3,2,midpoint
 seqneut25to26_sera_1010_d28,A/DistritoFederal/2578578201/2025_H3N2,336.7,interpolated,18.28,2,midpoint
-seqneut25to26_sera_1010_d28,A/England/174/2025_H3N2,915.6,interpolated,398,2,midpoint
+seqneut25to26_sera_1010_d28,A/England/174/2025_H3N2,1314,interpolated,,1,midpoint
 seqneut25to26_sera_1010_d28,A/England/1822256/2025_H1N1,298.7,interpolated,13.13,2,midpoint
 seqneut25to26_sera_1010_d28,A/England/1837734/2025_H3N2,433.3,interpolated,133.4,2,midpoint
 seqneut25to26_sera_1010_d28,A/England/1837737/2025_H3N2,863.2,interpolated,374.4,2,midpoint
@@ -5376,7 +5376,7 @@ seqneut25to26_sera_1011_d0,A/DistrictOfColumbia/27/2023_H3N2,1264,interpolated,3
 seqneut25to26_sera_1011_d0,A/DistrictOfColumbia/57/2025_H3N2,1522,interpolated,844.9,2,midpoint
 seqneut25to26_sera_1011_d0,A/DistritoFederal/250106000728/2025_H3N2,885.5,interpolated,158,2,midpoint
 seqneut25to26_sera_1011_d0,A/DistritoFederal/2578578201/2025_H3N2,975.3,interpolated,4.213,2,midpoint
-seqneut25to26_sera_1011_d0,A/England/174/2025_H3N2,741.5,interpolated,89.23,2,midpoint
+seqneut25to26_sera_1011_d0,A/England/174/2025_H3N2,652.2,interpolated,,1,midpoint
 seqneut25to26_sera_1011_d0,A/England/1822256/2025_H1N1,426.2,interpolated,42.69,2,midpoint
 seqneut25to26_sera_1011_d0,A/England/1837734/2025_H3N2,1301,interpolated,286.9,2,midpoint
 seqneut25to26_sera_1011_d0,A/England/1837737/2025_H3N2,580.1,interpolated,76.49,2,midpoint
@@ -5467,7 +5467,7 @@ seqneut25to26_sera_1011_d28,A/DistrictOfColumbia/27/2023_H3N2,1826,interpolated,
 seqneut25to26_sera_1011_d28,A/DistrictOfColumbia/57/2025_H3N2,2205,interpolated,210.2,2,midpoint
 seqneut25to26_sera_1011_d28,A/DistritoFederal/250106000728/2025_H3N2,1059,interpolated,36.31,2,midpoint
 seqneut25to26_sera_1011_d28,A/DistritoFederal/2578578201/2025_H3N2,1312,interpolated,250.6,2,midpoint
-seqneut25to26_sera_1011_d28,A/England/174/2025_H3N2,3663,interpolated,2039,2,midpoint
+seqneut25to26_sera_1011_d28,A/England/174/2025_H3N2,1624,interpolated,,1,midpoint
 seqneut25to26_sera_1011_d28,A/England/1822256/2025_H1N1,925.4,interpolated,44.26,2,midpoint
 seqneut25to26_sera_1011_d28,A/England/1837734/2025_H3N2,2686,interpolated,159.7,2,midpoint
 seqneut25to26_sera_1011_d28,A/England/1837737/2025_H3N2,1169,interpolated,576.1,2,midpoint
@@ -5558,7 +5558,7 @@ seqneut25to26_sera_1012_d0,A/DistrictOfColumbia/27/2023_H3N2,352.2,interpolated,
 seqneut25to26_sera_1012_d0,A/DistrictOfColumbia/57/2025_H3N2,438.1,interpolated,18.53,2,midpoint
 seqneut25to26_sera_1012_d0,A/DistritoFederal/250106000728/2025_H3N2,1192,interpolated,42.2,2,midpoint
 seqneut25to26_sera_1012_d0,A/DistritoFederal/2578578201/2025_H3N2,586.6,interpolated,64.65,2,midpoint
-seqneut25to26_sera_1012_d0,A/England/174/2025_H3N2,507.9,interpolated,259.4,2,midpoint
+seqneut25to26_sera_1012_d0,A/England/174/2025_H3N2,767.3,interpolated,,1,midpoint
 seqneut25to26_sera_1012_d0,A/England/1822256/2025_H1N1,156.8,interpolated,17.83,2,midpoint
 seqneut25to26_sera_1012_d0,A/England/1837734/2025_H3N2,547.7,interpolated,148.1,2,midpoint
 seqneut25to26_sera_1012_d0,A/England/1837737/2025_H3N2,215.2,interpolated,12.13,2,midpoint
@@ -5740,7 +5740,7 @@ seqneut25to26_sera_1013_d0,A/DistrictOfColumbia/27/2023_H3N2,100.1,interpolated,
 seqneut25to26_sera_1013_d0,A/DistrictOfColumbia/57/2025_H3N2,229.7,interpolated,52.27,2,midpoint
 seqneut25to26_sera_1013_d0,A/DistritoFederal/250106000728/2025_H3N2,223.2,interpolated,108.4,2,midpoint
 seqneut25to26_sera_1013_d0,A/DistritoFederal/2578578201/2025_H3N2,168.9,interpolated,25.52,2,midpoint
-seqneut25to26_sera_1013_d0,A/England/174/2025_H3N2,200.1,interpolated,68.46,2,midpoint
+seqneut25to26_sera_1013_d0,A/England/174/2025_H3N2,131.7,interpolated,,1,midpoint
 seqneut25to26_sera_1013_d0,A/England/1822256/2025_H1N1,44.6,interpolated,2.868,2,midpoint
 seqneut25to26_sera_1013_d0,A/England/1837734/2025_H3N2,344.1,interpolated,170.3,2,midpoint
 seqneut25to26_sera_1013_d0,A/England/1837737/2025_H3N2,334.4,interpolated,111.4,2,midpoint
@@ -5831,7 +5831,7 @@ seqneut25to26_sera_1013_d28,A/DistrictOfColumbia/27/2023_H3N2,504,interpolated,1
 seqneut25to26_sera_1013_d28,A/DistrictOfColumbia/57/2025_H3N2,536.4,interpolated,46.62,2,midpoint
 seqneut25to26_sera_1013_d28,A/DistritoFederal/250106000728/2025_H3N2,291.9,interpolated,39.1,2,midpoint
 seqneut25to26_sera_1013_d28,A/DistritoFederal/2578578201/2025_H3N2,539.3,interpolated,47.69,2,midpoint
-seqneut25to26_sera_1013_d28,A/England/174/2025_H3N2,537,interpolated,85.85,2,midpoint
+seqneut25to26_sera_1013_d28,A/England/174/2025_H3N2,622.8,interpolated,,1,midpoint
 seqneut25to26_sera_1013_d28,A/England/1822256/2025_H1N1,97.79,interpolated,5.402,2,midpoint
 seqneut25to26_sera_1013_d28,A/England/1837734/2025_H3N2,404.4,interpolated,21.27,2,midpoint
 seqneut25to26_sera_1013_d28,A/England/1837737/2025_H3N2,496.6,interpolated,53.94,2,midpoint
@@ -5922,7 +5922,7 @@ seqneut25to26_sera_1014_d0,A/DistrictOfColumbia/27/2023_H3N2,240.7,interpolated,
 seqneut25to26_sera_1014_d0,A/DistrictOfColumbia/57/2025_H3N2,277.6,interpolated,16,2,midpoint
 seqneut25to26_sera_1014_d0,A/DistritoFederal/250106000728/2025_H3N2,316,interpolated,112.6,2,midpoint
 seqneut25to26_sera_1014_d0,A/DistritoFederal/2578578201/2025_H3N2,782.2,interpolated,265.4,2,midpoint
-seqneut25to26_sera_1014_d0,A/England/174/2025_H3N2,207.9,interpolated,41.97,2,midpoint
+seqneut25to26_sera_1014_d0,A/England/174/2025_H3N2,166,interpolated,,1,midpoint
 seqneut25to26_sera_1014_d0,A/England/1822256/2025_H1N1,209.5,interpolated,7.971,2,midpoint
 seqneut25to26_sera_1014_d0,A/England/1837734/2025_H3N2,553.5,interpolated,283.5,2,midpoint
 seqneut25to26_sera_1014_d0,A/England/1837737/2025_H3N2,110.7,interpolated,11.86,2,midpoint
@@ -6013,7 +6013,7 @@ seqneut25to26_sera_1014_d28,A/DistrictOfColumbia/27/2023_H3N2,274.7,interpolated
 seqneut25to26_sera_1014_d28,A/DistrictOfColumbia/57/2025_H3N2,293.1,interpolated,55.99,2,midpoint
 seqneut25to26_sera_1014_d28,A/DistritoFederal/250106000728/2025_H3N2,220.2,interpolated,4.755,2,midpoint
 seqneut25to26_sera_1014_d28,A/DistritoFederal/2578578201/2025_H3N2,711.6,interpolated,402.3,2,midpoint
-seqneut25to26_sera_1014_d28,A/England/174/2025_H3N2,209,interpolated,89.48,2,midpoint
+seqneut25to26_sera_1014_d28,A/England/174/2025_H3N2,298.5,interpolated,,1,midpoint
 seqneut25to26_sera_1014_d28,A/England/1822256/2025_H1N1,255,interpolated,11.62,2,midpoint
 seqneut25to26_sera_1014_d28,A/England/1837734/2025_H3N2,308.9,interpolated,13.64,2,midpoint
 seqneut25to26_sera_1014_d28,A/England/1837737/2025_H3N2,246,interpolated,108,2,midpoint
@@ -6104,7 +6104,7 @@ seqneut25to26_sera_1015_d0,A/DistrictOfColumbia/27/2023_H3N2,336.4,interpolated,
 seqneut25to26_sera_1015_d0,A/DistrictOfColumbia/57/2025_H3N2,263.1,interpolated,5.213,2,midpoint
 seqneut25to26_sera_1015_d0,A/DistritoFederal/250106000728/2025_H3N2,354,interpolated,61.69,2,midpoint
 seqneut25to26_sera_1015_d0,A/DistritoFederal/2578578201/2025_H3N2,213.6,interpolated,6.309,2,midpoint
-seqneut25to26_sera_1015_d0,A/England/174/2025_H3N2,584.7,interpolated,39.29,2,midpoint
+seqneut25to26_sera_1015_d0,A/England/174/2025_H3N2,545.4,interpolated,,1,midpoint
 seqneut25to26_sera_1015_d0,A/England/1822256/2025_H1N1,458.9,interpolated,26.22,2,midpoint
 seqneut25to26_sera_1015_d0,A/England/1837734/2025_H3N2,228.3,interpolated,15.27,2,midpoint
 seqneut25to26_sera_1015_d0,A/England/1837737/2025_H3N2,225.3,interpolated,7.165,2,midpoint
@@ -6195,7 +6195,7 @@ seqneut25to26_sera_1015_d28,A/DistrictOfColumbia/27/2023_H3N2,3939,interpolated,
 seqneut25to26_sera_1015_d28,A/DistrictOfColumbia/57/2025_H3N2,1930,interpolated,336.5,2,midpoint
 seqneut25to26_sera_1015_d28,A/DistritoFederal/250106000728/2025_H3N2,1693,interpolated,436.5,2,midpoint
 seqneut25to26_sera_1015_d28,A/DistritoFederal/2578578201/2025_H3N2,1969,interpolated,30.17,2,midpoint
-seqneut25to26_sera_1015_d28,A/England/174/2025_H3N2,3970,interpolated,252,2,midpoint
+seqneut25to26_sera_1015_d28,A/England/174/2025_H3N2,4222,interpolated,,1,midpoint
 seqneut25to26_sera_1015_d28,A/England/1822256/2025_H1N1,2807,interpolated,75.81,2,midpoint
 seqneut25to26_sera_1015_d28,A/England/1837734/2025_H3N2,2006,interpolated,779.1,2,midpoint
 seqneut25to26_sera_1015_d28,A/England/1837737/2025_H3N2,2167,interpolated,473.5,2,midpoint
@@ -6377,7 +6377,7 @@ seqneut25to26_sera_1016_d28,A/DistrictOfColumbia/27/2023_H3N2,1742,interpolated,
 seqneut25to26_sera_1016_d28,A/DistrictOfColumbia/57/2025_H3N2,2220,interpolated,604.8,2,midpoint
 seqneut25to26_sera_1016_d28,A/DistritoFederal/250106000728/2025_H3N2,715.9,interpolated,27.46,2,midpoint
 seqneut25to26_sera_1016_d28,A/DistritoFederal/2578578201/2025_H3N2,1448,interpolated,252,2,midpoint
-seqneut25to26_sera_1016_d28,A/England/174/2025_H3N2,2316,interpolated,763.3,2,midpoint
+seqneut25to26_sera_1016_d28,A/England/174/2025_H3N2,3079,interpolated,,1,midpoint
 seqneut25to26_sera_1016_d28,A/England/1822256/2025_H1N1,4867,interpolated,7.522,2,midpoint
 seqneut25to26_sera_1016_d28,A/England/1837734/2025_H3N2,3217,interpolated,227.6,2,midpoint
 seqneut25to26_sera_1016_d28,A/England/1837737/2025_H3N2,1370,interpolated,137.1,2,midpoint
@@ -6468,7 +6468,7 @@ seqneut25to26_sera_1017_d0,A/DistrictOfColumbia/27/2023_H3N2,77.13,interpolated,
 seqneut25to26_sera_1017_d0,A/DistrictOfColumbia/57/2025_H3N2,46.02,upper,6.023,2,midpoint
 seqneut25to26_sera_1017_d0,A/DistritoFederal/250106000728/2025_H3N2,192.7,interpolated,6.889,2,midpoint
 seqneut25to26_sera_1017_d0,A/DistritoFederal/2578578201/2025_H3N2,85.7,interpolated,41.93,2,midpoint
-seqneut25to26_sera_1017_d0,A/England/174/2025_H3N2,487.5,interpolated,378.8,2,midpoint
+seqneut25to26_sera_1017_d0,A/England/174/2025_H3N2,108.7,interpolated,,1,midpoint
 seqneut25to26_sera_1017_d0,A/England/1822256/2025_H1N1,153.9,interpolated,2.311,2,midpoint
 seqneut25to26_sera_1017_d0,A/England/1837734/2025_H3N2,41.53,upper,1.531,2,midpoint
 seqneut25to26_sera_1017_d0,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -6558,7 +6558,7 @@ seqneut25to26_sera_1017_d28,A/DistrictOfColumbia/27/2023_H3N2,310.1,interpolated
 seqneut25to26_sera_1017_d28,A/DistrictOfColumbia/57/2025_H3N2,290.7,interpolated,12.46,2,midpoint
 seqneut25to26_sera_1017_d28,A/DistritoFederal/250106000728/2025_H3N2,669.1,interpolated,345.5,2,midpoint
 seqneut25to26_sera_1017_d28,A/DistritoFederal/2578578201/2025_H3N2,310.1,interpolated,15.4,2,midpoint
-seqneut25to26_sera_1017_d28,A/England/174/2025_H3N2,632,interpolated,195.8,2,midpoint
+seqneut25to26_sera_1017_d28,A/England/174/2025_H3N2,827.8,interpolated,,1,midpoint
 seqneut25to26_sera_1017_d28,A/England/1822256/2025_H1N1,1510,interpolated,103.8,2,midpoint
 seqneut25to26_sera_1017_d28,A/England/1837734/2025_H3N2,378.7,interpolated,236.9,2,midpoint
 seqneut25to26_sera_1017_d28,A/England/1837737/2025_H3N2,129.6,interpolated,11.38,2,midpoint
@@ -6648,7 +6648,6 @@ seqneut25to26_sera_1018_d0,A/DistrictOfColumbia/27/2023_H3N2,51.18,interpolated,
 seqneut25to26_sera_1018_d0,A/DistrictOfColumbia/57/2025_H3N2,40,upper,0,2,midpoint
 seqneut25to26_sera_1018_d0,A/DistritoFederal/250106000728/2025_H3N2,162.3,interpolated,16.98,2,midpoint
 seqneut25to26_sera_1018_d0,A/DistritoFederal/2578578201/2025_H3N2,48.65,interpolated,1.083,2,midpoint
-seqneut25to26_sera_1018_d0,A/England/174/2025_H3N2,269.3,interpolated,,1,midpoint
 seqneut25to26_sera_1018_d0,A/England/1822256/2025_H1N1,60.86,interpolated,2.974,2,midpoint
 seqneut25to26_sera_1018_d0,A/England/1837734/2025_H3N2,75.5,interpolated,,1,midpoint
 seqneut25to26_sera_1018_d0,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -6739,7 +6738,7 @@ seqneut25to26_sera_1018_d28,A/DistrictOfColumbia/27/2023_H3N2,99.39,interpolated
 seqneut25to26_sera_1018_d28,A/DistrictOfColumbia/57/2025_H3N2,90.58,interpolated,10.79,2,midpoint
 seqneut25to26_sera_1018_d28,A/DistritoFederal/250106000728/2025_H3N2,264.3,interpolated,6.865,2,midpoint
 seqneut25to26_sera_1018_d28,A/DistritoFederal/2578578201/2025_H3N2,212.3,interpolated,50.65,2,midpoint
-seqneut25to26_sera_1018_d28,A/England/174/2025_H3N2,138.1,interpolated,2.222,2,midpoint
+seqneut25to26_sera_1018_d28,A/England/174/2025_H3N2,140.3,interpolated,,1,midpoint
 seqneut25to26_sera_1018_d28,A/England/1822256/2025_H1N1,201.8,interpolated,10.17,2,midpoint
 seqneut25to26_sera_1018_d28,A/England/1837734/2025_H3N2,45.33,upper,5.325,2,midpoint
 seqneut25to26_sera_1018_d28,A/England/1837737/2025_H3N2,136.7,interpolated,43.72,2,midpoint
@@ -6830,7 +6829,7 @@ seqneut25to26_sera_1019_d0,A/DistrictOfColumbia/27/2023_H3N2,578,interpolated,43
 seqneut25to26_sera_1019_d0,A/DistrictOfColumbia/57/2025_H3N2,533.7,interpolated,23.56,2,midpoint
 seqneut25to26_sera_1019_d0,A/DistritoFederal/250106000728/2025_H3N2,1556,interpolated,171.5,2,midpoint
 seqneut25to26_sera_1019_d0,A/DistritoFederal/2578578201/2025_H3N2,1517,interpolated,55.92,2,midpoint
-seqneut25to26_sera_1019_d0,A/England/174/2025_H3N2,1534,interpolated,491.4,2,midpoint
+seqneut25to26_sera_1019_d0,A/England/174/2025_H3N2,1043,interpolated,,1,midpoint
 seqneut25to26_sera_1019_d0,A/England/1822256/2025_H1N1,318.9,interpolated,89.63,2,midpoint
 seqneut25to26_sera_1019_d0,A/England/1837734/2025_H3N2,477,interpolated,38.17,2,midpoint
 seqneut25to26_sera_1019_d0,A/England/1837737/2025_H3N2,332.7,interpolated,83.03,2,midpoint
@@ -6921,7 +6920,7 @@ seqneut25to26_sera_1019_d28,A/DistrictOfColumbia/27/2023_H3N2,2900,interpolated,
 seqneut25to26_sera_1019_d28,A/DistrictOfColumbia/57/2025_H3N2,886.6,interpolated,114.6,2,midpoint
 seqneut25to26_sera_1019_d28,A/DistritoFederal/250106000728/2025_H3N2,2336,interpolated,432.5,2,midpoint
 seqneut25to26_sera_1019_d28,A/DistritoFederal/2578578201/2025_H3N2,3432,interpolated,78.68,2,midpoint
-seqneut25to26_sera_1019_d28,A/England/174/2025_H3N2,2005,interpolated,531.9,2,midpoint
+seqneut25to26_sera_1019_d28,A/England/174/2025_H3N2,1473,interpolated,,1,midpoint
 seqneut25to26_sera_1019_d28,A/England/1822256/2025_H1N1,666.8,interpolated,54.87,2,midpoint
 seqneut25to26_sera_1019_d28,A/England/1837734/2025_H3N2,624.9,interpolated,73.73,2,midpoint
 seqneut25to26_sera_1019_d28,A/England/1837737/2025_H3N2,487.5,interpolated,47.36,2,midpoint
@@ -7012,7 +7011,7 @@ seqneut25to26_sera_1020_d0,A/DistrictOfColumbia/27/2023_H3N2,627.7,interpolated,
 seqneut25to26_sera_1020_d0,A/DistrictOfColumbia/57/2025_H3N2,936.3,interpolated,175.6,2,midpoint
 seqneut25to26_sera_1020_d0,A/DistritoFederal/250106000728/2025_H3N2,297.3,interpolated,35.6,2,midpoint
 seqneut25to26_sera_1020_d0,A/DistritoFederal/2578578201/2025_H3N2,389.2,interpolated,21.98,2,midpoint
-seqneut25to26_sera_1020_d0,A/England/174/2025_H3N2,417.2,interpolated,211.2,2,midpoint
+seqneut25to26_sera_1020_d0,A/England/174/2025_H3N2,628.4,interpolated,,1,midpoint
 seqneut25to26_sera_1020_d0,A/England/1822256/2025_H1N1,2208,interpolated,148.1,2,midpoint
 seqneut25to26_sera_1020_d0,A/England/1837734/2025_H3N2,1016,interpolated,168.1,2,midpoint
 seqneut25to26_sera_1020_d0,A/England/1837737/2025_H3N2,543.7,interpolated,110.5,2,midpoint
@@ -7103,7 +7102,7 @@ seqneut25to26_sera_1020_d28,A/DistrictOfColumbia/27/2023_H3N2,2011,interpolated,
 seqneut25to26_sera_1020_d28,A/DistrictOfColumbia/57/2025_H3N2,1497,interpolated,108.9,2,midpoint
 seqneut25to26_sera_1020_d28,A/DistritoFederal/250106000728/2025_H3N2,741.5,interpolated,92.26,2,midpoint
 seqneut25to26_sera_1020_d28,A/DistritoFederal/2578578201/2025_H3N2,1462,interpolated,17.06,2,midpoint
-seqneut25to26_sera_1020_d28,A/England/174/2025_H3N2,1785,interpolated,90.35,2,midpoint
+seqneut25to26_sera_1020_d28,A/England/174/2025_H3N2,1875,interpolated,,1,midpoint
 seqneut25to26_sera_1020_d28,A/England/1822256/2025_H1N1,4940,interpolated,439.3,2,midpoint
 seqneut25to26_sera_1020_d28,A/England/1837734/2025_H3N2,1545,interpolated,363.9,2,midpoint
 seqneut25to26_sera_1020_d28,A/England/1837737/2025_H3N2,2116,interpolated,732,2,midpoint
@@ -7194,7 +7193,7 @@ seqneut25to26_sera_1021_d0,A/DistrictOfColumbia/27/2023_H3N2,2120,interpolated,6
 seqneut25to26_sera_1021_d0,A/DistrictOfColumbia/57/2025_H3N2,1376,interpolated,253,2,midpoint
 seqneut25to26_sera_1021_d0,A/DistritoFederal/250106000728/2025_H3N2,331.5,interpolated,134.9,2,midpoint
 seqneut25to26_sera_1021_d0,A/DistritoFederal/2578578201/2025_H3N2,495,interpolated,2.251,2,midpoint
-seqneut25to26_sera_1021_d0,A/England/174/2025_H3N2,1452,interpolated,870.6,2,midpoint
+seqneut25to26_sera_1021_d0,A/England/174/2025_H3N2,2323,interpolated,,1,midpoint
 seqneut25to26_sera_1021_d0,A/England/1822256/2025_H1N1,204,interpolated,13.9,2,midpoint
 seqneut25to26_sera_1021_d0,A/England/1837734/2025_H3N2,1040,interpolated,153.9,2,midpoint
 seqneut25to26_sera_1021_d0,A/England/1837737/2025_H3N2,1131,interpolated,49.69,2,midpoint
@@ -7285,7 +7284,7 @@ seqneut25to26_sera_1021_d28,A/DistrictOfColumbia/27/2023_H3N2,2483,interpolated,
 seqneut25to26_sera_1021_d28,A/DistrictOfColumbia/57/2025_H3N2,1897,interpolated,310.6,2,midpoint
 seqneut25to26_sera_1021_d28,A/DistritoFederal/250106000728/2025_H3N2,624.4,interpolated,186.6,2,midpoint
 seqneut25to26_sera_1021_d28,A/DistritoFederal/2578578201/2025_H3N2,894.4,interpolated,132.2,2,midpoint
-seqneut25to26_sera_1021_d28,A/England/174/2025_H3N2,3026,interpolated,692.3,2,midpoint
+seqneut25to26_sera_1021_d28,A/England/174/2025_H3N2,2333,interpolated,,1,midpoint
 seqneut25to26_sera_1021_d28,A/England/1822256/2025_H1N1,285.6,interpolated,27.61,2,midpoint
 seqneut25to26_sera_1021_d28,A/England/1837734/2025_H3N2,1209,interpolated,158.4,2,midpoint
 seqneut25to26_sera_1021_d28,A/England/1837737/2025_H3N2,3345,interpolated,414.2,2,midpoint
@@ -7376,7 +7375,7 @@ seqneut25to26_sera_1022_d0,A/DistrictOfColumbia/27/2023_H3N2,448.6,interpolated,
 seqneut25to26_sera_1022_d0,A/DistrictOfColumbia/57/2025_H3N2,219.5,interpolated,106.7,2,midpoint
 seqneut25to26_sera_1022_d0,A/DistritoFederal/250106000728/2025_H3N2,206.8,interpolated,55.05,2,midpoint
 seqneut25to26_sera_1022_d0,A/DistritoFederal/2578578201/2025_H3N2,104,upper,63.98,2,midpoint
-seqneut25to26_sera_1022_d0,A/England/174/2025_H3N2,212.6,interpolated,20.08,2,midpoint
+seqneut25to26_sera_1022_d0,A/England/174/2025_H3N2,192.5,interpolated,,1,midpoint
 seqneut25to26_sera_1022_d0,A/England/1822256/2025_H1N1,87.33,interpolated,2.758,2,midpoint
 seqneut25to26_sera_1022_d0,A/England/1837734/2025_H3N2,67.46,interpolated,9.821,2,midpoint
 seqneut25to26_sera_1022_d0,A/England/1837737/2025_H3N2,80.07,upper,40.07,2,midpoint
@@ -7467,7 +7466,7 @@ seqneut25to26_sera_1022_d28,A/DistrictOfColumbia/27/2023_H3N2,1919,interpolated,
 seqneut25to26_sera_1022_d28,A/DistrictOfColumbia/57/2025_H3N2,478.4,interpolated,183,2,midpoint
 seqneut25to26_sera_1022_d28,A/DistritoFederal/250106000728/2025_H3N2,2366,interpolated,109.1,2,midpoint
 seqneut25to26_sera_1022_d28,A/DistritoFederal/2578578201/2025_H3N2,1046,interpolated,210.3,2,midpoint
-seqneut25to26_sera_1022_d28,A/England/174/2025_H3N2,1202,interpolated,608.5,2,midpoint
+seqneut25to26_sera_1022_d28,A/England/174/2025_H3N2,1810,interpolated,,1,midpoint
 seqneut25to26_sera_1022_d28,A/England/1822256/2025_H1N1,183,interpolated,13.03,2,midpoint
 seqneut25to26_sera_1022_d28,A/England/1837734/2025_H3N2,451.2,interpolated,73.67,2,midpoint
 seqneut25to26_sera_1022_d28,A/England/1837737/2025_H3N2,423,interpolated,171.6,2,midpoint
@@ -7558,7 +7557,7 @@ seqneut25to26_sera_1023_d0,A/DistrictOfColumbia/27/2023_H3N2,1423,interpolated,1
 seqneut25to26_sera_1023_d0,A/DistrictOfColumbia/57/2025_H3N2,278.3,interpolated,60.34,2,midpoint
 seqneut25to26_sera_1023_d0,A/DistritoFederal/250106000728/2025_H3N2,700.3,interpolated,320,2,midpoint
 seqneut25to26_sera_1023_d0,A/DistritoFederal/2578578201/2025_H3N2,480.2,interpolated,99.04,2,midpoint
-seqneut25to26_sera_1023_d0,A/England/174/2025_H3N2,1538,interpolated,46.28,2,midpoint
+seqneut25to26_sera_1023_d0,A/England/174/2025_H3N2,1584,interpolated,,1,midpoint
 seqneut25to26_sera_1023_d0,A/England/1822256/2025_H1N1,919.7,interpolated,43.9,2,midpoint
 seqneut25to26_sera_1023_d0,A/England/1837734/2025_H3N2,344.8,interpolated,54.94,2,midpoint
 seqneut25to26_sera_1023_d0,A/England/1837737/2025_H3N2,489.9,interpolated,53.15,2,midpoint
@@ -7649,7 +7648,7 @@ seqneut25to26_sera_1023_d28,A/DistrictOfColumbia/27/2023_H3N2,4257,interpolated,
 seqneut25to26_sera_1023_d28,A/DistrictOfColumbia/57/2025_H3N2,1136,interpolated,114.3,2,midpoint
 seqneut25to26_sera_1023_d28,A/DistritoFederal/250106000728/2025_H3N2,2171,interpolated,653.7,2,midpoint
 seqneut25to26_sera_1023_d28,A/DistritoFederal/2578578201/2025_H3N2,1910,interpolated,552.3,2,midpoint
-seqneut25to26_sera_1023_d28,A/England/174/2025_H3N2,3785,interpolated,855.8,2,midpoint
+seqneut25to26_sera_1023_d28,A/England/174/2025_H3N2,4641,interpolated,,1,midpoint
 seqneut25to26_sera_1023_d28,A/England/1822256/2025_H1N1,1727,interpolated,391.6,2,midpoint
 seqneut25to26_sera_1023_d28,A/England/1837734/2025_H3N2,2726,interpolated,959.9,2,midpoint
 seqneut25to26_sera_1023_d28,A/England/1837737/2025_H3N2,941.2,interpolated,260.5,2,midpoint
@@ -7740,7 +7739,7 @@ seqneut25to26_sera_1024_d0,A/DistrictOfColumbia/27/2023_H3N2,1570,interpolated,3
 seqneut25to26_sera_1024_d0,A/DistrictOfColumbia/57/2025_H3N2,1181,interpolated,519,2,midpoint
 seqneut25to26_sera_1024_d0,A/DistritoFederal/250106000728/2025_H3N2,762.4,interpolated,60.92,2,midpoint
 seqneut25to26_sera_1024_d0,A/DistritoFederal/2578578201/2025_H3N2,641.2,interpolated,211.7,2,midpoint
-seqneut25to26_sera_1024_d0,A/England/174/2025_H3N2,1129,interpolated,0.1353,2,midpoint
+seqneut25to26_sera_1024_d0,A/England/174/2025_H3N2,1129,interpolated,,1,midpoint
 seqneut25to26_sera_1024_d0,A/England/1822256/2025_H1N1,136.9,interpolated,1.429,2,midpoint
 seqneut25to26_sera_1024_d0,A/England/1837734/2025_H3N2,750.1,interpolated,206.4,2,midpoint
 seqneut25to26_sera_1024_d0,A/England/1837737/2025_H3N2,564.9,interpolated,155.4,2,midpoint
@@ -7831,7 +7830,7 @@ seqneut25to26_sera_1024_d28,A/DistrictOfColumbia/27/2023_H3N2,2920,interpolated,
 seqneut25to26_sera_1024_d28,A/DistrictOfColumbia/57/2025_H3N2,1802,interpolated,130.4,2,midpoint
 seqneut25to26_sera_1024_d28,A/DistritoFederal/250106000728/2025_H3N2,1524,interpolated,163.6,2,midpoint
 seqneut25to26_sera_1024_d28,A/DistritoFederal/2578578201/2025_H3N2,1490,interpolated,173.5,2,midpoint
-seqneut25to26_sera_1024_d28,A/England/174/2025_H3N2,3313,interpolated,1031,2,midpoint
+seqneut25to26_sera_1024_d28,A/England/174/2025_H3N2,2282,interpolated,,1,midpoint
 seqneut25to26_sera_1024_d28,A/England/1822256/2025_H1N1,251.9,interpolated,19.77,2,midpoint
 seqneut25to26_sera_1024_d28,A/England/1837734/2025_H3N2,1786,interpolated,619.7,2,midpoint
 seqneut25to26_sera_1024_d28,A/England/1837737/2025_H3N2,1347,interpolated,329.9,2,midpoint
@@ -8013,7 +8012,7 @@ seqneut25to26_sera_1025_d28,A/DistrictOfColumbia/27/2023_H3N2,785.8,interpolated
 seqneut25to26_sera_1025_d28,A/DistrictOfColumbia/57/2025_H3N2,294.1,interpolated,64.14,2,midpoint
 seqneut25to26_sera_1025_d28,A/DistritoFederal/250106000728/2025_H3N2,488.9,interpolated,41.56,2,midpoint
 seqneut25to26_sera_1025_d28,A/DistritoFederal/2578578201/2025_H3N2,381.5,interpolated,54.14,2,midpoint
-seqneut25to26_sera_1025_d28,A/England/174/2025_H3N2,737.7,interpolated,210.7,2,midpoint
+seqneut25to26_sera_1025_d28,A/England/174/2025_H3N2,948.5,interpolated,,1,midpoint
 seqneut25to26_sera_1025_d28,A/England/1822256/2025_H1N1,239.5,interpolated,8.081,2,midpoint
 seqneut25to26_sera_1025_d28,A/England/1837734/2025_H3N2,315.2,interpolated,79.45,2,midpoint
 seqneut25to26_sera_1025_d28,A/England/1837737/2025_H3N2,275.2,interpolated,7.716,2,midpoint
@@ -8194,7 +8193,7 @@ seqneut25to26_sera_1026_d28,A/DistrictOfColumbia/27/2023_H3N2,204.2,interpolated
 seqneut25to26_sera_1026_d28,A/DistrictOfColumbia/57/2025_H3N2,97.65,interpolated,26.38,2,midpoint
 seqneut25to26_sera_1026_d28,A/DistritoFederal/250106000728/2025_H3N2,164.6,interpolated,21.28,2,midpoint
 seqneut25to26_sera_1026_d28,A/DistritoFederal/2578578201/2025_H3N2,122.1,interpolated,12.26,2,midpoint
-seqneut25to26_sera_1026_d28,A/England/174/2025_H3N2,250.7,interpolated,9.595,2,midpoint
+seqneut25to26_sera_1026_d28,A/England/174/2025_H3N2,260.2,interpolated,,1,midpoint
 seqneut25to26_sera_1026_d28,A/England/1822256/2025_H1N1,102,interpolated,5.352,2,midpoint
 seqneut25to26_sera_1026_d28,A/England/1837734/2025_H3N2,105.5,interpolated,10.26,2,midpoint
 seqneut25to26_sera_1026_d28,A/England/1837737/2025_H3N2,123.8,interpolated,42.26,2,midpoint
@@ -8285,7 +8284,7 @@ seqneut25to26_sera_1027_d0,A/DistrictOfColumbia/27/2023_H3N2,168.7,interpolated,
 seqneut25to26_sera_1027_d0,A/DistrictOfColumbia/57/2025_H3N2,87.79,interpolated,8.922,2,midpoint
 seqneut25to26_sera_1027_d0,A/DistritoFederal/250106000728/2025_H3N2,230.9,interpolated,,1,midpoint
 seqneut25to26_sera_1027_d0,A/DistritoFederal/2578578201/2025_H3N2,47.38,upper,7.382,2,midpoint
-seqneut25to26_sera_1027_d0,A/England/174/2025_H3N2,95.24,interpolated,5.168,2,midpoint
+seqneut25to26_sera_1027_d0,A/England/174/2025_H3N2,100.4,interpolated,,1,midpoint
 seqneut25to26_sera_1027_d0,A/England/1822256/2025_H1N1,57.99,interpolated,8.121,2,midpoint
 seqneut25to26_sera_1027_d0,A/England/1837734/2025_H3N2,132.9,interpolated,,1,midpoint
 seqneut25to26_sera_1027_d0,A/England/1837737/2025_H3N2,59.06,interpolated,8.295,2,midpoint
@@ -8376,7 +8375,7 @@ seqneut25to26_sera_1027_d28,A/DistrictOfColumbia/27/2023_H3N2,356.9,interpolated
 seqneut25to26_sera_1027_d28,A/DistrictOfColumbia/57/2025_H3N2,235.6,interpolated,17.91,2,midpoint
 seqneut25to26_sera_1027_d28,A/DistritoFederal/250106000728/2025_H3N2,436.3,interpolated,33.01,2,midpoint
 seqneut25to26_sera_1027_d28,A/DistritoFederal/2578578201/2025_H3N2,406.6,interpolated,236,2,midpoint
-seqneut25to26_sera_1027_d28,A/England/174/2025_H3N2,587.7,interpolated,337.9,2,midpoint
+seqneut25to26_sera_1027_d28,A/England/174/2025_H3N2,249.9,interpolated,,1,midpoint
 seqneut25to26_sera_1027_d28,A/England/1822256/2025_H1N1,268.1,interpolated,53.48,2,midpoint
 seqneut25to26_sera_1027_d28,A/England/1837734/2025_H3N2,372.6,interpolated,127,2,midpoint
 seqneut25to26_sera_1027_d28,A/England/1837737/2025_H3N2,186.6,interpolated,40.33,2,midpoint
@@ -8467,7 +8466,7 @@ seqneut25to26_sera_1028_d0,A/DistrictOfColumbia/27/2023_H3N2,538.5,interpolated,
 seqneut25to26_sera_1028_d0,A/DistrictOfColumbia/57/2025_H3N2,277.8,interpolated,33.98,2,midpoint
 seqneut25to26_sera_1028_d0,A/DistritoFederal/250106000728/2025_H3N2,101.2,interpolated,29.91,2,midpoint
 seqneut25to26_sera_1028_d0,A/DistritoFederal/2578578201/2025_H3N2,132.2,interpolated,8.121,2,midpoint
-seqneut25to26_sera_1028_d0,A/England/174/2025_H3N2,198.6,interpolated,141.4,2,midpoint
+seqneut25to26_sera_1028_d0,A/England/174/2025_H3N2,340,interpolated,,1,midpoint
 seqneut25to26_sera_1028_d0,A/England/1822256/2025_H1N1,64.6,interpolated,7.689,2,midpoint
 seqneut25to26_sera_1028_d0,A/England/1837734/2025_H3N2,199.3,interpolated,38.3,2,midpoint
 seqneut25to26_sera_1028_d0,A/England/1837737/2025_H3N2,92.14,interpolated,27.86,2,midpoint
@@ -8558,7 +8557,7 @@ seqneut25to26_sera_1028_d28,A/DistrictOfColumbia/27/2023_H3N2,508.2,interpolated
 seqneut25to26_sera_1028_d28,A/DistrictOfColumbia/57/2025_H3N2,313.6,interpolated,48.67,2,midpoint
 seqneut25to26_sera_1028_d28,A/DistritoFederal/250106000728/2025_H3N2,282.8,interpolated,140.9,2,midpoint
 seqneut25to26_sera_1028_d28,A/DistritoFederal/2578578201/2025_H3N2,306.3,interpolated,24.69,2,midpoint
-seqneut25to26_sera_1028_d28,A/England/174/2025_H3N2,542.5,interpolated,13.25,2,midpoint
+seqneut25to26_sera_1028_d28,A/England/174/2025_H3N2,529.2,interpolated,,1,midpoint
 seqneut25to26_sera_1028_d28,A/England/1822256/2025_H1N1,96.71,interpolated,25.45,2,midpoint
 seqneut25to26_sera_1028_d28,A/England/1837734/2025_H3N2,395.1,interpolated,42.53,2,midpoint
 seqneut25to26_sera_1028_d28,A/England/1837737/2025_H3N2,446.9,interpolated,178.3,2,midpoint
@@ -8649,7 +8648,7 @@ seqneut25to26_sera_1029_d0,A/DistrictOfColumbia/27/2023_H3N2,1266,interpolated,1
 seqneut25to26_sera_1029_d0,A/DistrictOfColumbia/57/2025_H3N2,413.4,interpolated,51.23,2,midpoint
 seqneut25to26_sera_1029_d0,A/DistritoFederal/250106000728/2025_H3N2,1780,interpolated,378,2,midpoint
 seqneut25to26_sera_1029_d0,A/DistritoFederal/2578578201/2025_H3N2,2432,interpolated,8.087,2,midpoint
-seqneut25to26_sera_1029_d0,A/England/174/2025_H3N2,444,interpolated,73.51,2,midpoint
+seqneut25to26_sera_1029_d0,A/England/174/2025_H3N2,370.5,interpolated,,1,midpoint
 seqneut25to26_sera_1029_d0,A/England/1822256/2025_H1N1,295.6,interpolated,38.95,2,midpoint
 seqneut25to26_sera_1029_d0,A/England/1837734/2025_H3N2,361.2,interpolated,60.66,2,midpoint
 seqneut25to26_sera_1029_d0,A/England/1837737/2025_H3N2,632.3,interpolated,322.5,2,midpoint
@@ -8830,7 +8829,7 @@ seqneut25to26_sera_1030_d0,A/DistrictOfColumbia/27/2023_H3N2,480.3,interpolated,
 seqneut25to26_sera_1030_d0,A/DistrictOfColumbia/57/2025_H3N2,268.8,interpolated,19,2,midpoint
 seqneut25to26_sera_1030_d0,A/DistritoFederal/250106000728/2025_H3N2,236.5,interpolated,72.75,2,midpoint
 seqneut25to26_sera_1030_d0,A/DistritoFederal/2578578201/2025_H3N2,343.1,interpolated,83.55,2,midpoint
-seqneut25to26_sera_1030_d0,A/England/174/2025_H3N2,920.6,interpolated,324.1,2,midpoint
+seqneut25to26_sera_1030_d0,A/England/174/2025_H3N2,596.4,interpolated,,1,midpoint
 seqneut25to26_sera_1030_d0,A/England/1822256/2025_H1N1,413.9,interpolated,3.239,2,midpoint
 seqneut25to26_sera_1030_d0,A/England/1837734/2025_H3N2,308.9,interpolated,64.53,2,midpoint
 seqneut25to26_sera_1030_d0,A/England/1837737/2025_H3N2,581.3,interpolated,282.3,2,midpoint
@@ -8921,7 +8920,7 @@ seqneut25to26_sera_1030_d28,A/DistrictOfColumbia/27/2023_H3N2,1379,interpolated,
 seqneut25to26_sera_1030_d28,A/DistrictOfColumbia/57/2025_H3N2,678.8,interpolated,175.6,2,midpoint
 seqneut25to26_sera_1030_d28,A/DistritoFederal/250106000728/2025_H3N2,667.5,interpolated,119.6,2,midpoint
 seqneut25to26_sera_1030_d28,A/DistritoFederal/2578578201/2025_H3N2,1454,interpolated,285.8,2,midpoint
-seqneut25to26_sera_1030_d28,A/England/174/2025_H3N2,1415,interpolated,83.39,2,midpoint
+seqneut25to26_sera_1030_d28,A/England/174/2025_H3N2,1331,interpolated,,1,midpoint
 seqneut25to26_sera_1030_d28,A/England/1822256/2025_H1N1,719.9,interpolated,86.65,2,midpoint
 seqneut25to26_sera_1030_d28,A/England/1837734/2025_H3N2,598.3,interpolated,42.01,2,midpoint
 seqneut25to26_sera_1030_d28,A/England/1837737/2025_H3N2,993.5,interpolated,197.8,2,midpoint
@@ -9012,7 +9011,7 @@ seqneut25to26_sera_1031_d0,A/DistrictOfColumbia/27/2023_H3N2,1919,interpolated,6
 seqneut25to26_sera_1031_d0,A/DistrictOfColumbia/57/2025_H3N2,140.7,interpolated,36.49,2,midpoint
 seqneut25to26_sera_1031_d0,A/DistritoFederal/250106000728/2025_H3N2,3258,interpolated,1241,2,midpoint
 seqneut25to26_sera_1031_d0,A/DistritoFederal/2578578201/2025_H3N2,321.1,interpolated,44.62,2,midpoint
-seqneut25to26_sera_1031_d0,A/England/174/2025_H3N2,1101,interpolated,416.8,2,midpoint
+seqneut25to26_sera_1031_d0,A/England/174/2025_H3N2,1518,interpolated,,1,midpoint
 seqneut25to26_sera_1031_d0,A/England/1822256/2025_H1N1,653.9,interpolated,87.93,2,midpoint
 seqneut25to26_sera_1031_d0,A/England/1837734/2025_H3N2,153.1,interpolated,38.27,2,midpoint
 seqneut25to26_sera_1031_d0,A/England/1837737/2025_H3N2,191.7,interpolated,83.25,2,midpoint
@@ -9103,7 +9102,7 @@ seqneut25to26_sera_1031_d28,A/DistrictOfColumbia/27/2023_H3N2,3468,interpolated,
 seqneut25to26_sera_1031_d28,A/DistrictOfColumbia/57/2025_H3N2,232.5,interpolated,31.19,2,midpoint
 seqneut25to26_sera_1031_d28,A/DistritoFederal/250106000728/2025_H3N2,2817,interpolated,516.5,2,midpoint
 seqneut25to26_sera_1031_d28,A/DistritoFederal/2578578201/2025_H3N2,575.1,interpolated,29.14,2,midpoint
-seqneut25to26_sera_1031_d28,A/England/174/2025_H3N2,2963,interpolated,1073,2,midpoint
+seqneut25to26_sera_1031_d28,A/England/174/2025_H3N2,1890,interpolated,,1,midpoint
 seqneut25to26_sera_1031_d28,A/England/1822256/2025_H1N1,960.1,interpolated,404,2,midpoint
 seqneut25to26_sera_1031_d28,A/England/1837734/2025_H3N2,283.2,interpolated,103.9,2,midpoint
 seqneut25to26_sera_1031_d28,A/England/1837737/2025_H3N2,439,interpolated,150.5,2,midpoint
@@ -9194,7 +9193,7 @@ seqneut25to26_sera_1032_d0,A/DistrictOfColumbia/27/2023_H3N2,284.2,interpolated,
 seqneut25to26_sera_1032_d0,A/DistrictOfColumbia/57/2025_H3N2,880.5,interpolated,97.99,2,midpoint
 seqneut25to26_sera_1032_d0,A/DistritoFederal/250106000728/2025_H3N2,504.4,interpolated,124.4,2,midpoint
 seqneut25to26_sera_1032_d0,A/DistritoFederal/2578578201/2025_H3N2,373.1,interpolated,59.77,2,midpoint
-seqneut25to26_sera_1032_d0,A/England/174/2025_H3N2,1058,interpolated,103.1,2,midpoint
+seqneut25to26_sera_1032_d0,A/England/174/2025_H3N2,955.3,interpolated,,1,midpoint
 seqneut25to26_sera_1032_d0,A/England/1822256/2025_H1N1,1032,interpolated,89.13,2,midpoint
 seqneut25to26_sera_1032_d0,A/England/1837734/2025_H3N2,569.2,interpolated,50.17,2,midpoint
 seqneut25to26_sera_1032_d0,A/England/1837737/2025_H3N2,507.3,interpolated,185,2,midpoint
@@ -9285,7 +9284,7 @@ seqneut25to26_sera_1032_d28,A/DistrictOfColumbia/27/2023_H3N2,2145,interpolated,
 seqneut25to26_sera_1032_d28,A/DistrictOfColumbia/57/2025_H3N2,5701,interpolated,1134,2,midpoint
 seqneut25to26_sera_1032_d28,A/DistritoFederal/250106000728/2025_H3N2,1414,interpolated,277.4,2,midpoint
 seqneut25to26_sera_1032_d28,A/DistritoFederal/2578578201/2025_H3N2,2291,interpolated,144.3,2,midpoint
-seqneut25to26_sera_1032_d28,A/England/174/2025_H3N2,4627,interpolated,74.49,2,midpoint
+seqneut25to26_sera_1032_d28,A/England/174/2025_H3N2,4702,interpolated,,1,midpoint
 seqneut25to26_sera_1032_d28,A/England/1822256/2025_H1N1,2156,interpolated,213.8,2,midpoint
 seqneut25to26_sera_1032_d28,A/England/1837734/2025_H3N2,6197,interpolated,814.5,2,midpoint
 seqneut25to26_sera_1032_d28,A/England/1837737/2025_H3N2,6014,interpolated,3047,2,midpoint
@@ -9467,7 +9466,7 @@ seqneut25to26_sera_1033_d28,A/DistrictOfColumbia/27/2023_H3N2,545.7,interpolated
 seqneut25to26_sera_1033_d28,A/DistrictOfColumbia/57/2025_H3N2,316.3,interpolated,63.89,2,midpoint
 seqneut25to26_sera_1033_d28,A/DistritoFederal/250106000728/2025_H3N2,370.9,interpolated,82.16,2,midpoint
 seqneut25to26_sera_1033_d28,A/DistritoFederal/2578578201/2025_H3N2,522.5,interpolated,19.26,2,midpoint
-seqneut25to26_sera_1033_d28,A/England/174/2025_H3N2,1078,interpolated,405.2,2,midpoint
+seqneut25to26_sera_1033_d28,A/England/174/2025_H3N2,673.2,interpolated,,1,midpoint
 seqneut25to26_sera_1033_d28,A/England/1822256/2025_H1N1,414.3,interpolated,53.84,2,midpoint
 seqneut25to26_sera_1033_d28,A/England/1837734/2025_H3N2,519.5,interpolated,93.66,2,midpoint
 seqneut25to26_sera_1033_d28,A/England/1837737/2025_H3N2,389.6,interpolated,3.855,2,midpoint
@@ -9649,7 +9648,7 @@ seqneut25to26_sera_1034_d28,A/DistrictOfColumbia/27/2023_H3N2,1846,interpolated,
 seqneut25to26_sera_1034_d28,A/DistrictOfColumbia/57/2025_H3N2,1203,interpolated,9.592,2,midpoint
 seqneut25to26_sera_1034_d28,A/DistritoFederal/250106000728/2025_H3N2,2198,interpolated,417.4,2,midpoint
 seqneut25to26_sera_1034_d28,A/DistritoFederal/2578578201/2025_H3N2,1663,interpolated,69.35,2,midpoint
-seqneut25to26_sera_1034_d28,A/England/174/2025_H3N2,2773,interpolated,1143,2,midpoint
+seqneut25to26_sera_1034_d28,A/England/174/2025_H3N2,1630,interpolated,,1,midpoint
 seqneut25to26_sera_1034_d28,A/England/1822256/2025_H1N1,630.7,interpolated,84.77,2,midpoint
 seqneut25to26_sera_1034_d28,A/England/1837734/2025_H3N2,1305,interpolated,209.5,2,midpoint
 seqneut25to26_sera_1034_d28,A/England/1837737/2025_H3N2,750.7,interpolated,321.6,2,midpoint
@@ -9740,7 +9739,7 @@ seqneut25to26_sera_1035_d0,A/DistrictOfColumbia/27/2023_H3N2,512.4,interpolated,
 seqneut25to26_sera_1035_d0,A/DistrictOfColumbia/57/2025_H3N2,194.9,interpolated,62.1,2,midpoint
 seqneut25to26_sera_1035_d0,A/DistritoFederal/250106000728/2025_H3N2,217.4,interpolated,10.24,2,midpoint
 seqneut25to26_sera_1035_d0,A/DistritoFederal/2578578201/2025_H3N2,211.6,interpolated,37.84,2,midpoint
-seqneut25to26_sera_1035_d0,A/England/174/2025_H3N2,250.7,interpolated,7.421,2,midpoint
+seqneut25to26_sera_1035_d0,A/England/174/2025_H3N2,258.2,interpolated,,1,midpoint
 seqneut25to26_sera_1035_d0,A/England/1822256/2025_H1N1,175.3,interpolated,3.744,2,midpoint
 seqneut25to26_sera_1035_d0,A/England/1837734/2025_H3N2,107.8,interpolated,0.2035,2,midpoint
 seqneut25to26_sera_1035_d0,A/England/1837737/2025_H3N2,215.4,interpolated,65.81,2,midpoint
@@ -9831,7 +9830,7 @@ seqneut25to26_sera_1035_d28,A/DistrictOfColumbia/27/2023_H3N2,733.5,interpolated
 seqneut25to26_sera_1035_d28,A/DistrictOfColumbia/57/2025_H3N2,843.1,interpolated,366.2,2,midpoint
 seqneut25to26_sera_1035_d28,A/DistritoFederal/250106000728/2025_H3N2,481.8,interpolated,114.9,2,midpoint
 seqneut25to26_sera_1035_d28,A/DistritoFederal/2578578201/2025_H3N2,779.2,interpolated,202.6,2,midpoint
-seqneut25to26_sera_1035_d28,A/England/174/2025_H3N2,578.5,interpolated,151.2,2,midpoint
+seqneut25to26_sera_1035_d28,A/England/174/2025_H3N2,729.7,interpolated,,1,midpoint
 seqneut25to26_sera_1035_d28,A/England/1822256/2025_H1N1,398,interpolated,34.64,2,midpoint
 seqneut25to26_sera_1035_d28,A/England/1837734/2025_H3N2,430.5,interpolated,75.71,2,midpoint
 seqneut25to26_sera_1035_d28,A/England/1837737/2025_H3N2,753.1,interpolated,97.62,2,midpoint
@@ -10012,7 +10011,7 @@ seqneut25to26_sera_1036_d28,A/DistrictOfColumbia/27/2023_H3N2,3056,interpolated,
 seqneut25to26_sera_1036_d28,A/DistrictOfColumbia/57/2025_H3N2,1261,interpolated,351.5,2,midpoint
 seqneut25to26_sera_1036_d28,A/DistritoFederal/250106000728/2025_H3N2,678.3,interpolated,258.3,2,midpoint
 seqneut25to26_sera_1036_d28,A/DistritoFederal/2578578201/2025_H3N2,1861,interpolated,1160,2,midpoint
-seqneut25to26_sera_1036_d28,A/England/174/2025_H3N2,1931,interpolated,1053,2,midpoint
+seqneut25to26_sera_1036_d28,A/England/174/2025_H3N2,2983,interpolated,,1,midpoint
 seqneut25to26_sera_1036_d28,A/England/1822256/2025_H1N1,110.9,interpolated,0.88,2,midpoint
 seqneut25to26_sera_1036_d28,A/England/1837734/2025_H3N2,937.2,interpolated,37.76,2,midpoint
 seqneut25to26_sera_1036_d28,A/England/1837737/2025_H3N2,2039,interpolated,75.54,2,midpoint
@@ -10103,7 +10102,7 @@ seqneut25to26_sera_1037_d0,A/DistrictOfColumbia/27/2023_H3N2,2625,interpolated,2
 seqneut25to26_sera_1037_d0,A/DistrictOfColumbia/57/2025_H3N2,194.3,interpolated,87.38,2,midpoint
 seqneut25to26_sera_1037_d0,A/DistritoFederal/250106000728/2025_H3N2,588.1,interpolated,139.4,2,midpoint
 seqneut25to26_sera_1037_d0,A/DistritoFederal/2578578201/2025_H3N2,517.3,interpolated,71.7,2,midpoint
-seqneut25to26_sera_1037_d0,A/England/174/2025_H3N2,3791,interpolated,877.2,2,midpoint
+seqneut25to26_sera_1037_d0,A/England/174/2025_H3N2,2914,interpolated,,1,midpoint
 seqneut25to26_sera_1037_d0,A/England/1822256/2025_H1N1,94.33,interpolated,12.53,2,midpoint
 seqneut25to26_sera_1037_d0,A/England/1837734/2025_H3N2,242,interpolated,64.94,2,midpoint
 seqneut25to26_sera_1037_d0,A/England/1837737/2025_H3N2,605.5,interpolated,208.2,2,midpoint
@@ -10194,7 +10193,7 @@ seqneut25to26_sera_1037_d28,A/DistrictOfColumbia/27/2023_H3N2,2162,interpolated,
 seqneut25to26_sera_1037_d28,A/DistrictOfColumbia/57/2025_H3N2,388.8,interpolated,15.36,2,midpoint
 seqneut25to26_sera_1037_d28,A/DistritoFederal/250106000728/2025_H3N2,868.4,interpolated,309.1,2,midpoint
 seqneut25to26_sera_1037_d28,A/DistritoFederal/2578578201/2025_H3N2,690.7,interpolated,125.6,2,midpoint
-seqneut25to26_sera_1037_d28,A/England/174/2025_H3N2,4612,interpolated,2644,2,midpoint
+seqneut25to26_sera_1037_d28,A/England/174/2025_H3N2,1968,interpolated,,1,midpoint
 seqneut25to26_sera_1037_d28,A/England/1822256/2025_H1N1,287,interpolated,21.19,2,midpoint
 seqneut25to26_sera_1037_d28,A/England/1837734/2025_H3N2,578.3,interpolated,163.4,2,midpoint
 seqneut25to26_sera_1037_d28,A/England/1837737/2025_H3N2,885.4,interpolated,178.1,2,midpoint
@@ -10285,7 +10284,7 @@ seqneut25to26_sera_1038_d0,A/DistrictOfColumbia/27/2023_H3N2,1288,interpolated,2
 seqneut25to26_sera_1038_d0,A/DistrictOfColumbia/57/2025_H3N2,700.6,interpolated,124.3,2,midpoint
 seqneut25to26_sera_1038_d0,A/DistritoFederal/250106000728/2025_H3N2,1969,interpolated,473.8,2,midpoint
 seqneut25to26_sera_1038_d0,A/DistritoFederal/2578578201/2025_H3N2,1929,interpolated,629.4,2,midpoint
-seqneut25to26_sera_1038_d0,A/England/174/2025_H3N2,1617,interpolated,18.36,2,midpoint
+seqneut25to26_sera_1038_d0,A/England/174/2025_H3N2,1636,interpolated,,1,midpoint
 seqneut25to26_sera_1038_d0,A/England/1822256/2025_H1N1,1120,interpolated,20.59,2,midpoint
 seqneut25to26_sera_1038_d0,A/England/1837734/2025_H3N2,782.4,interpolated,70.95,2,midpoint
 seqneut25to26_sera_1038_d0,A/England/1837737/2025_H3N2,650.1,interpolated,192.3,2,midpoint
@@ -10376,7 +10375,7 @@ seqneut25to26_sera_1038_d28,A/DistrictOfColumbia/27/2023_H3N2,1375,interpolated,
 seqneut25to26_sera_1038_d28,A/DistrictOfColumbia/57/2025_H3N2,1248,interpolated,108,2,midpoint
 seqneut25to26_sera_1038_d28,A/DistritoFederal/250106000728/2025_H3N2,1761,interpolated,531.5,2,midpoint
 seqneut25to26_sera_1038_d28,A/DistritoFederal/2578578201/2025_H3N2,2314,interpolated,60.66,2,midpoint
-seqneut25to26_sera_1038_d28,A/England/174/2025_H3N2,4935,interpolated,1935,2,midpoint
+seqneut25to26_sera_1038_d28,A/England/174/2025_H3N2,2999,interpolated,,1,midpoint
 seqneut25to26_sera_1038_d28,A/England/1822256/2025_H1N1,1232,interpolated,22.73,2,midpoint
 seqneut25to26_sera_1038_d28,A/England/1837734/2025_H3N2,1424,interpolated,41.01,2,midpoint
 seqneut25to26_sera_1038_d28,A/England/1837737/2025_H3N2,893.1,interpolated,18.85,2,midpoint
@@ -10467,7 +10466,7 @@ seqneut25to26_sera_1039_d0,A/DistrictOfColumbia/27/2023_H3N2,2004,interpolated,1
 seqneut25to26_sera_1039_d0,A/DistrictOfColumbia/57/2025_H3N2,1033,interpolated,228.9,2,midpoint
 seqneut25to26_sera_1039_d0,A/DistritoFederal/250106000728/2025_H3N2,1321,interpolated,143.4,2,midpoint
 seqneut25to26_sera_1039_d0,A/DistritoFederal/2578578201/2025_H3N2,2991,interpolated,187.4,2,midpoint
-seqneut25to26_sera_1039_d0,A/England/174/2025_H3N2,3239,interpolated,346.3,2,midpoint
+seqneut25to26_sera_1039_d0,A/England/174/2025_H3N2,2892,interpolated,,1,midpoint
 seqneut25to26_sera_1039_d0,A/England/1822256/2025_H1N1,182,interpolated,21.29,2,midpoint
 seqneut25to26_sera_1039_d0,A/England/1837734/2025_H3N2,1408,interpolated,178.2,2,midpoint
 seqneut25to26_sera_1039_d0,A/England/1837737/2025_H3N2,846.3,interpolated,80.91,2,midpoint
@@ -10558,7 +10557,7 @@ seqneut25to26_sera_1039_d28,A/DistrictOfColumbia/27/2023_H3N2,3136,interpolated,
 seqneut25to26_sera_1039_d28,A/DistrictOfColumbia/57/2025_H3N2,2078,interpolated,57.23,2,midpoint
 seqneut25to26_sera_1039_d28,A/DistritoFederal/250106000728/2025_H3N2,2613,interpolated,798.9,2,midpoint
 seqneut25to26_sera_1039_d28,A/DistritoFederal/2578578201/2025_H3N2,4450,interpolated,305.7,2,midpoint
-seqneut25to26_sera_1039_d28,A/England/174/2025_H3N2,8113,interpolated,4556,2,midpoint
+seqneut25to26_sera_1039_d28,A/England/174/2025_H3N2,3557,interpolated,,1,midpoint
 seqneut25to26_sera_1039_d28,A/England/1822256/2025_H1N1,347.5,interpolated,72.22,2,midpoint
 seqneut25to26_sera_1039_d28,A/England/1837734/2025_H3N2,2459,interpolated,122,2,midpoint
 seqneut25to26_sera_1039_d28,A/England/1837737/2025_H3N2,1871,interpolated,286.6,2,midpoint
@@ -10740,7 +10739,7 @@ seqneut25to26_sera_1040_d28,A/DistrictOfColumbia/27/2023_H3N2,1461,interpolated,
 seqneut25to26_sera_1040_d28,A/DistrictOfColumbia/57/2025_H3N2,974.6,interpolated,135.6,2,midpoint
 seqneut25to26_sera_1040_d28,A/DistritoFederal/250106000728/2025_H3N2,146.7,interpolated,,1,midpoint
 seqneut25to26_sera_1040_d28,A/DistritoFederal/2578578201/2025_H3N2,249.1,interpolated,41.98,2,midpoint
-seqneut25to26_sera_1040_d28,A/England/174/2025_H3N2,1552,interpolated,758.9,2,midpoint
+seqneut25to26_sera_1040_d28,A/England/174/2025_H3N2,2311,interpolated,,1,midpoint
 seqneut25to26_sera_1040_d28,A/England/1822256/2025_H1N1,303.3,interpolated,1.974,2,midpoint
 seqneut25to26_sera_1040_d28,A/England/1837734/2025_H3N2,2293,interpolated,1393,2,midpoint
 seqneut25to26_sera_1040_d28,A/England/1837737/2025_H3N2,1803,interpolated,337.8,2,midpoint
@@ -10922,7 +10921,7 @@ seqneut25to26_sera_1041_d28,A/DistrictOfColumbia/27/2023_H3N2,183.4,interpolated
 seqneut25to26_sera_1041_d28,A/DistrictOfColumbia/57/2025_H3N2,113.7,interpolated,12.85,2,midpoint
 seqneut25to26_sera_1041_d28,A/DistritoFederal/250106000728/2025_H3N2,214.6,interpolated,10.8,2,midpoint
 seqneut25to26_sera_1041_d28,A/DistritoFederal/2578578201/2025_H3N2,153,interpolated,7.402,2,midpoint
-seqneut25to26_sera_1041_d28,A/England/174/2025_H3N2,167.1,interpolated,27.78,2,midpoint
+seqneut25to26_sera_1041_d28,A/England/174/2025_H3N2,139.3,interpolated,,1,midpoint
 seqneut25to26_sera_1041_d28,A/England/1822256/2025_H1N1,40,upper,0,2,midpoint
 seqneut25to26_sera_1041_d28,A/England/1837734/2025_H3N2,192.8,interpolated,95.94,2,midpoint
 seqneut25to26_sera_1041_d28,A/England/1837737/2025_H3N2,55.42,interpolated,,1,midpoint
@@ -11102,7 +11101,7 @@ seqneut25to26_sera_1042_d28,A/DistrictOfColumbia/27/2023_H3N2,1054,interpolated,
 seqneut25to26_sera_1042_d28,A/DistrictOfColumbia/57/2025_H3N2,123.3,interpolated,1.683,2,midpoint
 seqneut25to26_sera_1042_d28,A/DistritoFederal/250106000728/2025_H3N2,1309,interpolated,67.61,2,midpoint
 seqneut25to26_sera_1042_d28,A/DistritoFederal/2578578201/2025_H3N2,701,interpolated,234.6,2,midpoint
-seqneut25to26_sera_1042_d28,A/England/174/2025_H3N2,530.3,interpolated,402.7,2,midpoint
+seqneut25to26_sera_1042_d28,A/England/174/2025_H3N2,933,interpolated,,1,midpoint
 seqneut25to26_sera_1042_d28,A/England/1822256/2025_H1N1,292.2,interpolated,9.356,2,midpoint
 seqneut25to26_sera_1042_d28,A/England/1837734/2025_H3N2,253.3,interpolated,31.02,2,midpoint
 seqneut25to26_sera_1042_d28,A/England/1837737/2025_H3N2,412.7,interpolated,27.87,2,midpoint
@@ -11192,7 +11191,7 @@ seqneut25to26_sera_1043_d0,A/DistrictOfColumbia/27/2023_H3N2,94.6,interpolated,2
 seqneut25to26_sera_1043_d0,A/DistrictOfColumbia/57/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_1043_d0,A/DistritoFederal/250106000728/2025_H3N2,46.34,interpolated,,1,midpoint
 seqneut25to26_sera_1043_d0,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_1043_d0,A/England/174/2025_H3N2,93.72,interpolated,11.08,2,midpoint
+seqneut25to26_sera_1043_d0,A/England/174/2025_H3N2,82.64,interpolated,,1,midpoint
 seqneut25to26_sera_1043_d0,A/England/1822256/2025_H1N1,108.2,interpolated,3.555,2,midpoint
 seqneut25to26_sera_1043_d0,A/England/1837734/2025_H3N2,126.6,interpolated,38.12,2,midpoint
 seqneut25to26_sera_1043_d0,A/England/1837737/2025_H3N2,40.25,upper,0.2464,2,midpoint
@@ -11372,7 +11371,7 @@ seqneut25to26_sera_1044_d0,A/DistrictOfColumbia/27/2023_H3N2,170.6,interpolated,
 seqneut25to26_sera_1044_d0,A/DistrictOfColumbia/57/2025_H3N2,132.8,interpolated,27.26,2,midpoint
 seqneut25to26_sera_1044_d0,A/DistritoFederal/250106000728/2025_H3N2,245.1,interpolated,95.24,2,midpoint
 seqneut25to26_sera_1044_d0,A/DistritoFederal/2578578201/2025_H3N2,193.5,interpolated,44.26,2,midpoint
-seqneut25to26_sera_1044_d0,A/England/174/2025_H3N2,175.3,interpolated,43.19,2,midpoint
+seqneut25to26_sera_1044_d0,A/England/174/2025_H3N2,218.5,interpolated,,1,midpoint
 seqneut25to26_sera_1044_d0,A/England/1822256/2025_H1N1,252.7,interpolated,3.894,2,midpoint
 seqneut25to26_sera_1044_d0,A/England/1837734/2025_H3N2,192.4,interpolated,61.25,2,midpoint
 seqneut25to26_sera_1044_d0,A/England/1837737/2025_H3N2,118.5,interpolated,35.56,2,midpoint
@@ -11463,7 +11462,7 @@ seqneut25to26_sera_1044_d28,A/DistrictOfColumbia/27/2023_H3N2,850.2,interpolated
 seqneut25to26_sera_1044_d28,A/DistrictOfColumbia/57/2025_H3N2,280.6,interpolated,45.49,2,midpoint
 seqneut25to26_sera_1044_d28,A/DistritoFederal/250106000728/2025_H3N2,512.6,interpolated,221.8,2,midpoint
 seqneut25to26_sera_1044_d28,A/DistritoFederal/2578578201/2025_H3N2,261.8,interpolated,2.807,2,midpoint
-seqneut25to26_sera_1044_d28,A/England/174/2025_H3N2,651.1,interpolated,74.12,2,midpoint
+seqneut25to26_sera_1044_d28,A/England/174/2025_H3N2,577,interpolated,,1,midpoint
 seqneut25to26_sera_1044_d28,A/England/1822256/2025_H1N1,698.4,interpolated,32.79,2,midpoint
 seqneut25to26_sera_1044_d28,A/England/1837734/2025_H3N2,341.8,interpolated,43.07,2,midpoint
 seqneut25to26_sera_1044_d28,A/England/1837737/2025_H3N2,304.3,interpolated,62.5,2,midpoint
@@ -11554,7 +11553,7 @@ seqneut25to26_sera_1045_d0,A/DistrictOfColumbia/27/2023_H3N2,245.5,interpolated,
 seqneut25to26_sera_1045_d0,A/DistrictOfColumbia/57/2025_H3N2,190.2,interpolated,56.09,2,midpoint
 seqneut25to26_sera_1045_d0,A/DistritoFederal/250106000728/2025_H3N2,330.6,interpolated,70.63,2,midpoint
 seqneut25to26_sera_1045_d0,A/DistritoFederal/2578578201/2025_H3N2,171.3,interpolated,9.902,2,midpoint
-seqneut25to26_sera_1045_d0,A/England/174/2025_H3N2,227.6,interpolated,0.02601,2,midpoint
+seqneut25to26_sera_1045_d0,A/England/174/2025_H3N2,227.5,interpolated,,1,midpoint
 seqneut25to26_sera_1045_d0,A/England/1822256/2025_H1N1,203.2,interpolated,10.06,2,midpoint
 seqneut25to26_sera_1045_d0,A/England/1837734/2025_H3N2,159.6,interpolated,4.755,2,midpoint
 seqneut25to26_sera_1045_d0,A/England/1837737/2025_H3N2,168.9,interpolated,34.75,2,midpoint
@@ -11644,7 +11643,7 @@ seqneut25to26_sera_1045_d28,A/DistrictOfColumbia/27/2023_H3N2,841,interpolated,9
 seqneut25to26_sera_1045_d28,A/DistrictOfColumbia/57/2025_H3N2,255.1,interpolated,17.73,2,midpoint
 seqneut25to26_sera_1045_d28,A/DistritoFederal/250106000728/2025_H3N2,647.9,interpolated,5.559,2,midpoint
 seqneut25to26_sera_1045_d28,A/DistritoFederal/2578578201/2025_H3N2,884.3,interpolated,81.84,2,midpoint
-seqneut25to26_sera_1045_d28,A/England/174/2025_H3N2,1030,interpolated,403.2,2,midpoint
+seqneut25to26_sera_1045_d28,A/England/174/2025_H3N2,626.8,interpolated,,1,midpoint
 seqneut25to26_sera_1045_d28,A/England/1822256/2025_H1N1,292.9,interpolated,13.81,2,midpoint
 seqneut25to26_sera_1045_d28,A/England/1837734/2025_H3N2,237.7,interpolated,36.62,2,midpoint
 seqneut25to26_sera_1045_d28,A/England/1837737/2025_H3N2,228.3,interpolated,77.15,2,midpoint
@@ -11735,7 +11734,7 @@ seqneut25to26_sera_1046_d0,A/DistrictOfColumbia/27/2023_H3N2,257.3,interpolated,
 seqneut25to26_sera_1046_d0,A/DistrictOfColumbia/57/2025_H3N2,84.23,interpolated,,1,midpoint
 seqneut25to26_sera_1046_d0,A/DistritoFederal/250106000728/2025_H3N2,262.8,interpolated,20.84,2,midpoint
 seqneut25to26_sera_1046_d0,A/DistritoFederal/2578578201/2025_H3N2,264.6,interpolated,49.31,2,midpoint
-seqneut25to26_sera_1046_d0,A/England/174/2025_H3N2,511,interpolated,12.67,2,midpoint
+seqneut25to26_sera_1046_d0,A/England/174/2025_H3N2,523.6,interpolated,,1,midpoint
 seqneut25to26_sera_1046_d0,A/England/1822256/2025_H1N1,67.33,interpolated,14.52,2,midpoint
 seqneut25to26_sera_1046_d0,A/England/1837734/2025_H3N2,133.7,interpolated,,1,midpoint
 seqneut25to26_sera_1046_d0,A/England/1837737/2025_H3N2,77.92,interpolated,7.273,2,midpoint
@@ -11826,7 +11825,7 @@ seqneut25to26_sera_1046_d28,A/DistrictOfColumbia/27/2023_H3N2,569.1,interpolated
 seqneut25to26_sera_1046_d28,A/DistrictOfColumbia/57/2025_H3N2,192.9,interpolated,31.78,2,midpoint
 seqneut25to26_sera_1046_d28,A/DistritoFederal/250106000728/2025_H3N2,344.8,interpolated,90.87,2,midpoint
 seqneut25to26_sera_1046_d28,A/DistritoFederal/2578578201/2025_H3N2,454.5,interpolated,86.5,2,midpoint
-seqneut25to26_sera_1046_d28,A/England/174/2025_H3N2,368,interpolated,113.1,2,midpoint
+seqneut25to26_sera_1046_d28,A/England/174/2025_H3N2,481.1,interpolated,,1,midpoint
 seqneut25to26_sera_1046_d28,A/England/1822256/2025_H1N1,135.2,interpolated,0.4112,2,midpoint
 seqneut25to26_sera_1046_d28,A/England/1837734/2025_H3N2,178.1,interpolated,13.52,2,midpoint
 seqneut25to26_sera_1046_d28,A/England/1837737/2025_H3N2,148,interpolated,8.75,2,midpoint
@@ -11917,7 +11916,7 @@ seqneut25to26_sera_1047_d0,A/DistrictOfColumbia/27/2023_H3N2,170.3,interpolated,
 seqneut25to26_sera_1047_d0,A/DistrictOfColumbia/57/2025_H3N2,101.8,upper,61.81,2,midpoint
 seqneut25to26_sera_1047_d0,A/DistritoFederal/250106000728/2025_H3N2,175.3,interpolated,35.07,2,midpoint
 seqneut25to26_sera_1047_d0,A/DistritoFederal/2578578201/2025_H3N2,229.6,interpolated,12.05,2,midpoint
-seqneut25to26_sera_1047_d0,A/England/174/2025_H3N2,816.2,interpolated,495,2,midpoint
+seqneut25to26_sera_1047_d0,A/England/174/2025_H3N2,321.2,interpolated,,1,midpoint
 seqneut25to26_sera_1047_d0,A/England/1822256/2025_H1N1,122.5,interpolated,10.8,2,midpoint
 seqneut25to26_sera_1047_d0,A/England/1837734/2025_H3N2,174.7,interpolated,36.99,2,midpoint
 seqneut25to26_sera_1047_d0,A/England/1837737/2025_H3N2,518.1,interpolated,143.9,2,midpoint
@@ -12007,7 +12006,7 @@ seqneut25to26_sera_1047_d28,A/DistrictOfColumbia/27/2023_H3N2,204.9,interpolated
 seqneut25to26_sera_1047_d28,A/DistrictOfColumbia/57/2025_H3N2,199.3,interpolated,108.1,2,midpoint
 seqneut25to26_sera_1047_d28,A/DistritoFederal/250106000728/2025_H3N2,182,interpolated,16.14,2,midpoint
 seqneut25to26_sera_1047_d28,A/DistritoFederal/2578578201/2025_H3N2,737.5,interpolated,93.03,2,midpoint
-seqneut25to26_sera_1047_d28,A/England/174/2025_H3N2,472.5,interpolated,235.9,2,midpoint
+seqneut25to26_sera_1047_d28,A/England/174/2025_H3N2,708.4,interpolated,,1,midpoint
 seqneut25to26_sera_1047_d28,A/England/1822256/2025_H1N1,246.6,interpolated,35.62,2,midpoint
 seqneut25to26_sera_1047_d28,A/England/1837734/2025_H3N2,260.3,interpolated,83.79,2,midpoint
 seqneut25to26_sera_1047_d28,A/England/1837737/2025_H3N2,270.8,interpolated,77.87,2,midpoint
@@ -12280,7 +12279,7 @@ seqneut25to26_sera_1049_d0,A/DistrictOfColumbia/27/2023_H3N2,363.8,interpolated,
 seqneut25to26_sera_1049_d0,A/DistrictOfColumbia/57/2025_H3N2,164.6,interpolated,4.423,2,midpoint
 seqneut25to26_sera_1049_d0,A/DistritoFederal/250106000728/2025_H3N2,504.5,interpolated,262,2,midpoint
 seqneut25to26_sera_1049_d0,A/DistritoFederal/2578578201/2025_H3N2,182.8,interpolated,45,2,midpoint
-seqneut25to26_sera_1049_d0,A/England/174/2025_H3N2,217.3,interpolated,64.31,2,midpoint
+seqneut25to26_sera_1049_d0,A/England/174/2025_H3N2,152.9,interpolated,,1,midpoint
 seqneut25to26_sera_1049_d0,A/England/1822256/2025_H1N1,146.7,interpolated,1.779,2,midpoint
 seqneut25to26_sera_1049_d0,A/England/1837734/2025_H3N2,167.1,interpolated,3.657,2,midpoint
 seqneut25to26_sera_1049_d0,A/England/1837737/2025_H3N2,137.8,interpolated,27.23,2,midpoint
@@ -12461,7 +12460,7 @@ seqneut25to26_sera_1050_d0,A/DistrictOfColumbia/27/2023_H3N2,91.95,interpolated,
 seqneut25to26_sera_1050_d0,A/DistrictOfColumbia/57/2025_H3N2,49.09,interpolated,2.978,2,midpoint
 seqneut25to26_sera_1050_d0,A/DistritoFederal/250106000728/2025_H3N2,144.5,interpolated,65.12,2,midpoint
 seqneut25to26_sera_1050_d0,A/DistritoFederal/2578578201/2025_H3N2,52.36,interpolated,6.97,2,midpoint
-seqneut25to26_sera_1050_d0,A/England/174/2025_H3N2,194.4,interpolated,69.91,2,midpoint
+seqneut25to26_sera_1050_d0,A/England/174/2025_H3N2,124.5,interpolated,,1,midpoint
 seqneut25to26_sera_1050_d0,A/England/1822256/2025_H1N1,96.05,interpolated,2.726,2,midpoint
 seqneut25to26_sera_1050_d0,A/England/1837734/2025_H3N2,65.47,interpolated,3.675,2,midpoint
 seqneut25to26_sera_1050_d0,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -12552,7 +12551,7 @@ seqneut25to26_sera_1050_d28,A/DistrictOfColumbia/27/2023_H3N2,208.4,interpolated
 seqneut25to26_sera_1050_d28,A/DistrictOfColumbia/57/2025_H3N2,67.65,interpolated,4.056,2,midpoint
 seqneut25to26_sera_1050_d28,A/DistritoFederal/250106000728/2025_H3N2,160.9,interpolated,67.25,2,midpoint
 seqneut25to26_sera_1050_d28,A/DistritoFederal/2578578201/2025_H3N2,64.83,interpolated,6.818,2,midpoint
-seqneut25to26_sera_1050_d28,A/England/174/2025_H3N2,171.9,interpolated,48.66,2,midpoint
+seqneut25to26_sera_1050_d28,A/England/174/2025_H3N2,220.6,interpolated,,1,midpoint
 seqneut25to26_sera_1050_d28,A/England/1822256/2025_H1N1,158.5,interpolated,5.387,2,midpoint
 seqneut25to26_sera_1050_d28,A/England/1837734/2025_H3N2,136.1,interpolated,15.46,2,midpoint
 seqneut25to26_sera_1050_d28,A/England/1837737/2025_H3N2,74.98,interpolated,9.07,2,midpoint
@@ -12733,7 +12732,7 @@ seqneut25to26_sera_1051_d28,A/DistrictOfColumbia/27/2023_H3N2,926.6,interpolated
 seqneut25to26_sera_1051_d28,A/DistrictOfColumbia/57/2025_H3N2,333.3,interpolated,13.17,2,midpoint
 seqneut25to26_sera_1051_d28,A/DistritoFederal/250106000728/2025_H3N2,641.8,interpolated,36.92,2,midpoint
 seqneut25to26_sera_1051_d28,A/DistritoFederal/2578578201/2025_H3N2,730.6,interpolated,54.61,2,midpoint
-seqneut25to26_sera_1051_d28,A/England/174/2025_H3N2,912.8,interpolated,476.2,2,midpoint
+seqneut25to26_sera_1051_d28,A/England/174/2025_H3N2,436.6,interpolated,,1,midpoint
 seqneut25to26_sera_1051_d28,A/England/1822256/2025_H1N1,626.5,interpolated,103.7,2,midpoint
 seqneut25to26_sera_1051_d28,A/England/1837734/2025_H3N2,436.9,interpolated,49.84,2,midpoint
 seqneut25to26_sera_1051_d28,A/England/1837737/2025_H3N2,579.5,interpolated,116.9,2,midpoint
@@ -12824,7 +12823,7 @@ seqneut25to26_sera_1052_d0,A/DistrictOfColumbia/27/2023_H3N2,404.9,interpolated,
 seqneut25to26_sera_1052_d0,A/DistrictOfColumbia/57/2025_H3N2,497.6,interpolated,12.71,2,midpoint
 seqneut25to26_sera_1052_d0,A/DistritoFederal/250106000728/2025_H3N2,1305,interpolated,152.2,2,midpoint
 seqneut25to26_sera_1052_d0,A/DistritoFederal/2578578201/2025_H3N2,453.4,interpolated,39.01,2,midpoint
-seqneut25to26_sera_1052_d0,A/England/174/2025_H3N2,1306,interpolated,410.7,2,midpoint
+seqneut25to26_sera_1052_d0,A/England/174/2025_H3N2,1717,interpolated,,1,midpoint
 seqneut25to26_sera_1052_d0,A/England/1822256/2025_H1N1,2833,interpolated,716.2,2,midpoint
 seqneut25to26_sera_1052_d0,A/England/1837734/2025_H3N2,819.2,interpolated,216.8,2,midpoint
 seqneut25to26_sera_1052_d0,A/England/1837737/2025_H3N2,883.3,interpolated,327.4,2,midpoint
@@ -12915,7 +12914,7 @@ seqneut25to26_sera_1052_d28,A/DistrictOfColumbia/27/2023_H3N2,1157,interpolated,
 seqneut25to26_sera_1052_d28,A/DistrictOfColumbia/57/2025_H3N2,1110,interpolated,255.7,2,midpoint
 seqneut25to26_sera_1052_d28,A/DistritoFederal/250106000728/2025_H3N2,653.3,interpolated,3.373,2,midpoint
 seqneut25to26_sera_1052_d28,A/DistritoFederal/2578578201/2025_H3N2,1193,interpolated,301.4,2,midpoint
-seqneut25to26_sera_1052_d28,A/England/174/2025_H3N2,1767,interpolated,634.1,2,midpoint
+seqneut25to26_sera_1052_d28,A/England/174/2025_H3N2,1133,interpolated,,1,midpoint
 seqneut25to26_sera_1052_d28,A/England/1822256/2025_H1N1,2120,interpolated,181.7,2,midpoint
 seqneut25to26_sera_1052_d28,A/England/1837734/2025_H3N2,1037,interpolated,104.3,2,midpoint
 seqneut25to26_sera_1052_d28,A/England/1837737/2025_H3N2,1959,interpolated,147.5,2,midpoint
@@ -13097,7 +13096,7 @@ seqneut25to26_sera_1053_d28,A/DistrictOfColumbia/27/2023_H3N2,2959,interpolated,
 seqneut25to26_sera_1053_d28,A/DistrictOfColumbia/57/2025_H3N2,282,interpolated,45.99,2,midpoint
 seqneut25to26_sera_1053_d28,A/DistritoFederal/250106000728/2025_H3N2,548.7,interpolated,29.85,2,midpoint
 seqneut25to26_sera_1053_d28,A/DistritoFederal/2578578201/2025_H3N2,592.4,interpolated,46.84,2,midpoint
-seqneut25to26_sera_1053_d28,A/England/174/2025_H3N2,2037,interpolated,520.5,2,midpoint
+seqneut25to26_sera_1053_d28,A/England/174/2025_H3N2,1516,interpolated,,1,midpoint
 seqneut25to26_sera_1053_d28,A/England/1822256/2025_H1N1,138.1,interpolated,11.55,2,midpoint
 seqneut25to26_sera_1053_d28,A/England/1837734/2025_H3N2,500.6,interpolated,196.9,2,midpoint
 seqneut25to26_sera_1053_d28,A/England/1837737/2025_H3N2,1264,interpolated,623.6,2,midpoint
@@ -13188,7 +13187,7 @@ seqneut25to26_sera_1054_d0,A/DistrictOfColumbia/27/2023_H3N2,530.8,interpolated,
 seqneut25to26_sera_1054_d0,A/DistrictOfColumbia/57/2025_H3N2,197.8,interpolated,8.547,2,midpoint
 seqneut25to26_sera_1054_d0,A/DistritoFederal/250106000728/2025_H3N2,599.4,interpolated,83.92,2,midpoint
 seqneut25to26_sera_1054_d0,A/DistritoFederal/2578578201/2025_H3N2,1089,interpolated,70.18,2,midpoint
-seqneut25to26_sera_1054_d0,A/England/174/2025_H3N2,1668,interpolated,704.3,2,midpoint
+seqneut25to26_sera_1054_d0,A/England/174/2025_H3N2,964.2,interpolated,,1,midpoint
 seqneut25to26_sera_1054_d0,A/England/1822256/2025_H1N1,182.6,interpolated,17.52,2,midpoint
 seqneut25to26_sera_1054_d0,A/England/1837734/2025_H3N2,322.9,interpolated,4.895,2,midpoint
 seqneut25to26_sera_1054_d0,A/England/1837737/2025_H3N2,291,interpolated,74.04,2,midpoint
@@ -13279,7 +13278,7 @@ seqneut25to26_sera_1054_d28,A/DistrictOfColumbia/27/2023_H3N2,1048,interpolated,
 seqneut25to26_sera_1054_d28,A/DistrictOfColumbia/57/2025_H3N2,386.8,interpolated,176.4,2,midpoint
 seqneut25to26_sera_1054_d28,A/DistritoFederal/250106000728/2025_H3N2,731.7,interpolated,71.28,2,midpoint
 seqneut25to26_sera_1054_d28,A/DistritoFederal/2578578201/2025_H3N2,821.9,interpolated,250.8,2,midpoint
-seqneut25to26_sera_1054_d28,A/England/174/2025_H3N2,1851,interpolated,1334,2,midpoint
+seqneut25to26_sera_1054_d28,A/England/174/2025_H3N2,517.7,interpolated,,1,midpoint
 seqneut25to26_sera_1054_d28,A/England/1822256/2025_H1N1,144.9,interpolated,13.81,2,midpoint
 seqneut25to26_sera_1054_d28,A/England/1837734/2025_H3N2,226.9,interpolated,15.07,2,midpoint
 seqneut25to26_sera_1054_d28,A/England/1837737/2025_H3N2,153.4,interpolated,62.44,2,midpoint
@@ -13370,7 +13369,7 @@ seqneut25to26_sera_1055_d0,A/DistrictOfColumbia/27/2023_H3N2,165.1,interpolated,
 seqneut25to26_sera_1055_d0,A/DistrictOfColumbia/57/2025_H3N2,69.39,interpolated,7.36,2,midpoint
 seqneut25to26_sera_1055_d0,A/DistritoFederal/250106000728/2025_H3N2,141.1,interpolated,10.47,2,midpoint
 seqneut25to26_sera_1055_d0,A/DistritoFederal/2578578201/2025_H3N2,136.2,interpolated,20.13,2,midpoint
-seqneut25to26_sera_1055_d0,A/England/174/2025_H3N2,134.5,interpolated,37.74,2,midpoint
+seqneut25to26_sera_1055_d0,A/England/174/2025_H3N2,172.2,interpolated,,1,midpoint
 seqneut25to26_sera_1055_d0,A/England/1822256/2025_H1N1,458.2,interpolated,27.55,2,midpoint
 seqneut25to26_sera_1055_d0,A/England/1837734/2025_H3N2,63.16,interpolated,15.95,2,midpoint
 seqneut25to26_sera_1055_d0,A/England/1837737/2025_H3N2,136.6,interpolated,27.61,2,midpoint
@@ -13461,7 +13460,7 @@ seqneut25to26_sera_1055_d28,A/DistrictOfColumbia/27/2023_H3N2,261,interpolated,2
 seqneut25to26_sera_1055_d28,A/DistrictOfColumbia/57/2025_H3N2,272.5,interpolated,53.81,2,midpoint
 seqneut25to26_sera_1055_d28,A/DistritoFederal/250106000728/2025_H3N2,385.5,interpolated,9.189,2,midpoint
 seqneut25to26_sera_1055_d28,A/DistritoFederal/2578578201/2025_H3N2,376.8,interpolated,206.9,2,midpoint
-seqneut25to26_sera_1055_d28,A/England/174/2025_H3N2,252.9,interpolated,64.08,2,midpoint
+seqneut25to26_sera_1055_d28,A/England/174/2025_H3N2,317,interpolated,,1,midpoint
 seqneut25to26_sera_1055_d28,A/England/1822256/2025_H1N1,580.9,interpolated,2.939,2,midpoint
 seqneut25to26_sera_1055_d28,A/England/1837734/2025_H3N2,166.9,interpolated,7.123,2,midpoint
 seqneut25to26_sera_1055_d28,A/England/1837737/2025_H3N2,235.5,interpolated,3.543,2,midpoint
@@ -13552,7 +13551,7 @@ seqneut25to26_sera_1056_d0,A/DistrictOfColumbia/27/2023_H3N2,796.3,interpolated,
 seqneut25to26_sera_1056_d0,A/DistrictOfColumbia/57/2025_H3N2,830.3,interpolated,59.86,2,midpoint
 seqneut25to26_sera_1056_d0,A/DistritoFederal/250106000728/2025_H3N2,738.2,interpolated,101.9,2,midpoint
 seqneut25to26_sera_1056_d0,A/DistritoFederal/2578578201/2025_H3N2,487.2,interpolated,143.7,2,midpoint
-seqneut25to26_sera_1056_d0,A/England/174/2025_H3N2,1057,interpolated,401.7,2,midpoint
+seqneut25to26_sera_1056_d0,A/England/174/2025_H3N2,655.7,interpolated,,1,midpoint
 seqneut25to26_sera_1056_d0,A/England/1822256/2025_H1N1,697.8,interpolated,15.62,2,midpoint
 seqneut25to26_sera_1056_d0,A/England/1837734/2025_H3N2,883.4,interpolated,110.8,2,midpoint
 seqneut25to26_sera_1056_d0,A/England/1837737/2025_H3N2,461.8,interpolated,74.19,2,midpoint
@@ -13643,7 +13642,7 @@ seqneut25to26_sera_1056_d28,A/DistrictOfColumbia/27/2023_H3N2,3124,interpolated,
 seqneut25to26_sera_1056_d28,A/DistrictOfColumbia/57/2025_H3N2,2146,interpolated,40.74,2,midpoint
 seqneut25to26_sera_1056_d28,A/DistritoFederal/250106000728/2025_H3N2,1055,interpolated,2.556,2,midpoint
 seqneut25to26_sera_1056_d28,A/DistritoFederal/2578578201/2025_H3N2,1673,interpolated,218.7,2,midpoint
-seqneut25to26_sera_1056_d28,A/England/174/2025_H3N2,3573,interpolated,219.4,2,midpoint
+seqneut25to26_sera_1056_d28,A/England/174/2025_H3N2,3354,interpolated,,1,midpoint
 seqneut25to26_sera_1056_d28,A/England/1822256/2025_H1N1,2430,interpolated,51.15,2,midpoint
 seqneut25to26_sera_1056_d28,A/England/1837734/2025_H3N2,2940,interpolated,535.9,2,midpoint
 seqneut25to26_sera_1056_d28,A/England/1837737/2025_H3N2,1738,interpolated,94.98,2,midpoint
@@ -13734,7 +13733,7 @@ seqneut25to26_sera_1057_d0,A/DistrictOfColumbia/27/2023_H3N2,549.4,interpolated,
 seqneut25to26_sera_1057_d0,A/DistrictOfColumbia/57/2025_H3N2,488.6,interpolated,200.2,2,midpoint
 seqneut25to26_sera_1057_d0,A/DistritoFederal/250106000728/2025_H3N2,468.9,interpolated,3.242,2,midpoint
 seqneut25to26_sera_1057_d0,A/DistritoFederal/2578578201/2025_H3N2,712.7,interpolated,371.1,2,midpoint
-seqneut25to26_sera_1057_d0,A/England/174/2025_H3N2,962,interpolated,314.8,2,midpoint
+seqneut25to26_sera_1057_d0,A/England/174/2025_H3N2,647.2,interpolated,,1,midpoint
 seqneut25to26_sera_1057_d0,A/England/1822256/2025_H1N1,220.7,interpolated,23.59,2,midpoint
 seqneut25to26_sera_1057_d0,A/England/1837734/2025_H3N2,675.8,interpolated,201.2,2,midpoint
 seqneut25to26_sera_1057_d0,A/England/1837737/2025_H3N2,884.2,interpolated,378.3,2,midpoint
@@ -13825,7 +13824,7 @@ seqneut25to26_sera_1057_d28,A/DistrictOfColumbia/27/2023_H3N2,5964,interpolated,
 seqneut25to26_sera_1057_d28,A/DistrictOfColumbia/57/2025_H3N2,2848,interpolated,65.96,2,midpoint
 seqneut25to26_sera_1057_d28,A/DistritoFederal/250106000728/2025_H3N2,2366,interpolated,370.1,2,midpoint
 seqneut25to26_sera_1057_d28,A/DistritoFederal/2578578201/2025_H3N2,4249,interpolated,955.3,2,midpoint
-seqneut25to26_sera_1057_d28,A/England/174/2025_H3N2,4276,interpolated,586.4,2,midpoint
+seqneut25to26_sera_1057_d28,A/England/174/2025_H3N2,4862,interpolated,,1,midpoint
 seqneut25to26_sera_1057_d28,A/England/1822256/2025_H1N1,499,interpolated,44.95,2,midpoint
 seqneut25to26_sera_1057_d28,A/England/1837734/2025_H3N2,3088,interpolated,257.1,2,midpoint
 seqneut25to26_sera_1057_d28,A/England/1837737/2025_H3N2,2082,interpolated,28.61,2,midpoint
@@ -13916,7 +13915,7 @@ seqneut25to26_sera_1058_d0,A/DistrictOfColumbia/27/2023_H3N2,150.3,interpolated,
 seqneut25to26_sera_1058_d0,A/DistrictOfColumbia/57/2025_H3N2,133.5,interpolated,71.41,2,midpoint
 seqneut25to26_sera_1058_d0,A/DistritoFederal/250106000728/2025_H3N2,78.96,interpolated,9.193,2,midpoint
 seqneut25to26_sera_1058_d0,A/DistritoFederal/2578578201/2025_H3N2,113.3,interpolated,19.22,2,midpoint
-seqneut25to26_sera_1058_d0,A/England/174/2025_H3N2,451.7,interpolated,196,2,midpoint
+seqneut25to26_sera_1058_d0,A/England/174/2025_H3N2,255.7,interpolated,,1,midpoint
 seqneut25to26_sera_1058_d0,A/England/1822256/2025_H1N1,1146,interpolated,179.2,2,midpoint
 seqneut25to26_sera_1058_d0,A/England/1837734/2025_H3N2,77.91,interpolated,1.198,2,midpoint
 seqneut25to26_sera_1058_d0,A/England/1837737/2025_H3N2,130.6,interpolated,5.597,2,midpoint
@@ -14007,7 +14006,7 @@ seqneut25to26_sera_1058_d28,A/DistrictOfColumbia/27/2023_H3N2,1844,interpolated,
 seqneut25to26_sera_1058_d28,A/DistrictOfColumbia/57/2025_H3N2,664.8,interpolated,128.7,2,midpoint
 seqneut25to26_sera_1058_d28,A/DistritoFederal/250106000728/2025_H3N2,1236,interpolated,19.79,2,midpoint
 seqneut25to26_sera_1058_d28,A/DistritoFederal/2578578201/2025_H3N2,1759,interpolated,251.7,2,midpoint
-seqneut25to26_sera_1058_d28,A/England/174/2025_H3N2,2278,interpolated,295.1,2,midpoint
+seqneut25to26_sera_1058_d28,A/England/174/2025_H3N2,1983,interpolated,,1,midpoint
 seqneut25to26_sera_1058_d28,A/England/1822256/2025_H1N1,1.362e+04,lower,0,2,midpoint
 seqneut25to26_sera_1058_d28,A/England/1837734/2025_H3N2,421.8,interpolated,134.1,2,midpoint
 seqneut25to26_sera_1058_d28,A/England/1837737/2025_H3N2,883.1,interpolated,38.75,2,midpoint
@@ -14098,7 +14097,7 @@ seqneut25to26_sera_1059_d0,A/DistrictOfColumbia/27/2023_H3N2,439.7,interpolated,
 seqneut25to26_sera_1059_d0,A/DistrictOfColumbia/57/2025_H3N2,404.7,interpolated,17.59,2,midpoint
 seqneut25to26_sera_1059_d0,A/DistritoFederal/250106000728/2025_H3N2,311.1,interpolated,64.12,2,midpoint
 seqneut25to26_sera_1059_d0,A/DistritoFederal/2578578201/2025_H3N2,366.9,interpolated,99.29,2,midpoint
-seqneut25to26_sera_1059_d0,A/England/174/2025_H3N2,650.8,interpolated,44.06,2,midpoint
+seqneut25to26_sera_1059_d0,A/England/174/2025_H3N2,694.9,interpolated,,1,midpoint
 seqneut25to26_sera_1059_d0,A/England/1822256/2025_H1N1,138,interpolated,9.909,2,midpoint
 seqneut25to26_sera_1059_d0,A/England/1837734/2025_H3N2,313.1,interpolated,77.25,2,midpoint
 seqneut25to26_sera_1059_d0,A/England/1837737/2025_H3N2,201.2,interpolated,53.96,2,midpoint
@@ -14189,7 +14188,7 @@ seqneut25to26_sera_1059_d28,A/DistrictOfColumbia/27/2023_H3N2,312.2,interpolated
 seqneut25to26_sera_1059_d28,A/DistrictOfColumbia/57/2025_H3N2,652.9,interpolated,196.8,2,midpoint
 seqneut25to26_sera_1059_d28,A/DistritoFederal/250106000728/2025_H3N2,368.1,interpolated,5.79,2,midpoint
 seqneut25to26_sera_1059_d28,A/DistritoFederal/2578578201/2025_H3N2,567.1,interpolated,90.9,2,midpoint
-seqneut25to26_sera_1059_d28,A/England/174/2025_H3N2,794.8,interpolated,255.2,2,midpoint
+seqneut25to26_sera_1059_d28,A/England/174/2025_H3N2,539.5,interpolated,,1,midpoint
 seqneut25to26_sera_1059_d28,A/England/1822256/2025_H1N1,144.9,interpolated,5.977,2,midpoint
 seqneut25to26_sera_1059_d28,A/England/1837734/2025_H3N2,524.1,interpolated,148.9,2,midpoint
 seqneut25to26_sera_1059_d28,A/England/1837737/2025_H3N2,400.4,interpolated,12.38,2,midpoint
@@ -14280,7 +14279,7 @@ seqneut25to26_sera_3001,A/DistrictOfColumbia/27/2023_H3N2,1279,interpolated,310.
 seqneut25to26_sera_3001,A/DistrictOfColumbia/57/2025_H3N2,422.5,interpolated,219.9,2,midpoint
 seqneut25to26_sera_3001,A/DistritoFederal/250106000728/2025_H3N2,338.3,interpolated,100.4,2,midpoint
 seqneut25to26_sera_3001,A/DistritoFederal/2578578201/2025_H3N2,339.7,interpolated,10.63,2,midpoint
-seqneut25to26_sera_3001,A/England/174/2025_H3N2,1248,interpolated,558.2,2,midpoint
+seqneut25to26_sera_3001,A/England/174/2025_H3N2,689.5,interpolated,,1,midpoint
 seqneut25to26_sera_3001,A/England/1822256/2025_H1N1,240.3,interpolated,32.48,2,midpoint
 seqneut25to26_sera_3001,A/England/1837734/2025_H3N2,503.7,interpolated,105.1,2,midpoint
 seqneut25to26_sera_3001,A/England/1837737/2025_H3N2,132.7,interpolated,54.75,2,midpoint
@@ -14371,7 +14370,7 @@ seqneut25to26_sera_3002,A/DistrictOfColumbia/27/2023_H3N2,706.5,interpolated,79.
 seqneut25to26_sera_3002,A/DistrictOfColumbia/57/2025_H3N2,209.8,interpolated,17.15,2,midpoint
 seqneut25to26_sera_3002,A/DistritoFederal/250106000728/2025_H3N2,400.2,interpolated,10.33,2,midpoint
 seqneut25to26_sera_3002,A/DistritoFederal/2578578201/2025_H3N2,320,interpolated,14.5,2,midpoint
-seqneut25to26_sera_3002,A/England/174/2025_H3N2,1111,interpolated,432.4,2,midpoint
+seqneut25to26_sera_3002,A/England/174/2025_H3N2,678.1,interpolated,,1,midpoint
 seqneut25to26_sera_3002,A/England/1822256/2025_H1N1,504.1,interpolated,26.94,2,midpoint
 seqneut25to26_sera_3002,A/England/1837734/2025_H3N2,375.9,interpolated,8.294,2,midpoint
 seqneut25to26_sera_3002,A/England/1837737/2025_H3N2,229.9,interpolated,69.7,2,midpoint
@@ -14462,7 +14461,7 @@ seqneut25to26_sera_3003,A/DistrictOfColumbia/27/2023_H3N2,43.9,interpolated,3.68
 seqneut25to26_sera_3003,A/DistrictOfColumbia/57/2025_H3N2,60.43,interpolated,,1,midpoint
 seqneut25to26_sera_3003,A/DistritoFederal/250106000728/2025_H3N2,186.1,interpolated,65.45,2,midpoint
 seqneut25to26_sera_3003,A/DistritoFederal/2578578201/2025_H3N2,107.9,interpolated,,1,midpoint
-seqneut25to26_sera_3003,A/England/174/2025_H3N2,59.62,upper,19.62,2,midpoint
+seqneut25to26_sera_3003,A/England/174/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_3003,A/England/1822256/2025_H1N1,822.9,interpolated,28.04,2,midpoint
 seqneut25to26_sera_3003,A/England/1837734/2025_H3N2,90.45,interpolated,,1,midpoint
 seqneut25to26_sera_3003,A/France/ARA-HCL025155099501/2025_H1N1,585.2,interpolated,,1,midpoint
@@ -14551,7 +14550,7 @@ seqneut25to26_sera_3004,A/DistrictOfColumbia/27/2023_H3N2,5921,lower,0,2,midpoin
 seqneut25to26_sera_3004,A/DistrictOfColumbia/57/2025_H3N2,4503,lower,1418,2,midpoint
 seqneut25to26_sera_3004,A/DistritoFederal/250106000728/2025_H3N2,5921,lower,0,2,midpoint
 seqneut25to26_sera_3004,A/DistritoFederal/2578578201/2025_H3N2,5921,lower,0,2,midpoint
-seqneut25to26_sera_3004,A/England/174/2025_H3N2,5921,lower,0,2,midpoint
+seqneut25to26_sera_3004,A/England/174/2025_H3N2,5921,lower,,1,midpoint
 seqneut25to26_sera_3004,A/England/1822256/2025_H1N1,3377,interpolated,394.8,2,midpoint
 seqneut25to26_sera_3004,A/England/1837734/2025_H3N2,2566,interpolated,679.3,2,midpoint
 seqneut25to26_sera_3004,A/England/1837737/2025_H3N2,2284,interpolated,554.7,2,midpoint
@@ -14821,6 +14820,7 @@ seqneut25to26_sera_3007,A/DistrictOfColumbia/27/2023_H3N2,100.2,interpolated,19.
 seqneut25to26_sera_3007,A/DistrictOfColumbia/57/2025_H3N2,198.4,interpolated,89.16,2,midpoint
 seqneut25to26_sera_3007,A/DistritoFederal/250106000728/2025_H3N2,302.5,interpolated,40.52,2,midpoint
 seqneut25to26_sera_3007,A/DistritoFederal/2578578201/2025_H3N2,103.7,interpolated,11.41,2,midpoint
+seqneut25to26_sera_3007,A/England/174/2025_H3N2,49.02,interpolated,,1,midpoint
 seqneut25to26_sera_3007,A/England/1822256/2025_H1N1,1198,interpolated,215,2,midpoint
 seqneut25to26_sera_3007,A/England/1837734/2025_H3N2,141,interpolated,24.27,2,midpoint
 seqneut25to26_sera_3007,A/England/1837737/2025_H3N2,136.6,interpolated,68.38,2,midpoint
@@ -15001,7 +15001,7 @@ seqneut25to26_sera_3009,A/DistrictOfColumbia/27/2023_H3N2,727,interpolated,252.4
 seqneut25to26_sera_3009,A/DistrictOfColumbia/57/2025_H3N2,534,interpolated,39.2,2,midpoint
 seqneut25to26_sera_3009,A/DistritoFederal/250106000728/2025_H3N2,1121,interpolated,282.4,2,midpoint
 seqneut25to26_sera_3009,A/DistritoFederal/2578578201/2025_H3N2,819.5,interpolated,73.72,2,midpoint
-seqneut25to26_sera_3009,A/England/174/2025_H3N2,356.3,interpolated,69.98,2,midpoint
+seqneut25to26_sera_3009,A/England/174/2025_H3N2,426.2,interpolated,,1,midpoint
 seqneut25to26_sera_3009,A/England/1822256/2025_H1N1,115.6,interpolated,28.38,2,midpoint
 seqneut25to26_sera_3009,A/England/1837734/2025_H3N2,1332,interpolated,268.9,2,midpoint
 seqneut25to26_sera_3009,A/England/1837737/2025_H3N2,94.85,interpolated,11.19,2,midpoint
@@ -15182,7 +15182,7 @@ seqneut25to26_sera_3011,A/DistrictOfColumbia/27/2023_H3N2,964.6,interpolated,309
 seqneut25to26_sera_3011,A/DistrictOfColumbia/57/2025_H3N2,1271,interpolated,133.4,2,midpoint
 seqneut25to26_sera_3011,A/DistritoFederal/250106000728/2025_H3N2,3916,interpolated,1463,2,midpoint
 seqneut25to26_sera_3011,A/DistritoFederal/2578578201/2025_H3N2,5439,lower,482.3,2,midpoint
-seqneut25to26_sera_3011,A/England/174/2025_H3N2,2014,interpolated,1108,2,midpoint
+seqneut25to26_sera_3011,A/England/174/2025_H3N2,906.7,interpolated,,1,midpoint
 seqneut25to26_sera_3011,A/England/1822256/2025_H1N1,444.4,interpolated,11.94,2,midpoint
 seqneut25to26_sera_3011,A/England/1837734/2025_H3N2,1498,interpolated,644.4,2,midpoint
 seqneut25to26_sera_3011,A/England/1837737/2025_H3N2,1237,interpolated,172.8,2,midpoint
@@ -15273,7 +15273,7 @@ seqneut25to26_sera_3012,A/DistrictOfColumbia/27/2023_H3N2,78.13,interpolated,,1,
 seqneut25to26_sera_3012,A/DistrictOfColumbia/57/2025_H3N2,102.4,interpolated,0.1074,2,midpoint
 seqneut25to26_sera_3012,A/DistritoFederal/250106000728/2025_H3N2,438.4,interpolated,45.58,2,midpoint
 seqneut25to26_sera_3012,A/DistritoFederal/2578578201/2025_H3N2,797.9,interpolated,94.8,2,midpoint
-seqneut25to26_sera_3012,A/England/174/2025_H3N2,441.5,interpolated,170.7,2,midpoint
+seqneut25to26_sera_3012,A/England/174/2025_H3N2,270.9,interpolated,,1,midpoint
 seqneut25to26_sera_3012,A/England/1822256/2025_H1N1,382.7,interpolated,13.05,2,midpoint
 seqneut25to26_sera_3012,A/England/1837734/2025_H3N2,138.1,interpolated,29.51,2,midpoint
 seqneut25to26_sera_3012,A/England/1837737/2025_H3N2,116,interpolated,12,2,midpoint
@@ -15364,7 +15364,7 @@ seqneut25to26_sera_3013,A/DistrictOfColumbia/27/2023_H3N2,695.2,interpolated,182
 seqneut25to26_sera_3013,A/DistrictOfColumbia/57/2025_H3N2,741.9,interpolated,68.12,2,midpoint
 seqneut25to26_sera_3013,A/DistritoFederal/250106000728/2025_H3N2,588.1,interpolated,235.9,2,midpoint
 seqneut25to26_sera_3013,A/DistritoFederal/2578578201/2025_H3N2,1695,interpolated,202.1,2,midpoint
-seqneut25to26_sera_3013,A/England/174/2025_H3N2,5009,interpolated,2090,2,midpoint
+seqneut25to26_sera_3013,A/England/174/2025_H3N2,2919,interpolated,,1,midpoint
 seqneut25to26_sera_3013,A/England/1822256/2025_H1N1,344.6,interpolated,64.25,2,midpoint
 seqneut25to26_sera_3013,A/England/1837734/2025_H3N2,565,interpolated,19.13,2,midpoint
 seqneut25to26_sera_3013,A/England/1837737/2025_H3N2,375.5,interpolated,11.18,2,midpoint
@@ -15546,7 +15546,7 @@ seqneut25to26_sera_3015,A/DistrictOfColumbia/27/2023_H3N2,553.2,interpolated,196
 seqneut25to26_sera_3015,A/DistrictOfColumbia/57/2025_H3N2,208.2,interpolated,16.36,2,midpoint
 seqneut25to26_sera_3015,A/DistritoFederal/250106000728/2025_H3N2,336.5,interpolated,116,2,midpoint
 seqneut25to26_sera_3015,A/DistritoFederal/2578578201/2025_H3N2,106.9,interpolated,0.1811,2,midpoint
-seqneut25to26_sera_3015,A/England/174/2025_H3N2,285.8,interpolated,155.3,2,midpoint
+seqneut25to26_sera_3015,A/England/174/2025_H3N2,441.1,interpolated,,1,midpoint
 seqneut25to26_sera_3015,A/England/1822256/2025_H1N1,108.5,interpolated,8.71,2,midpoint
 seqneut25to26_sera_3015,A/England/1837734/2025_H3N2,378.8,interpolated,106.6,2,midpoint
 seqneut25to26_sera_3015,A/England/1837737/2025_H3N2,357.1,interpolated,80.09,2,midpoint
@@ -15637,7 +15637,7 @@ seqneut25to26_sera_3016,A/DistrictOfColumbia/27/2023_H3N2,435.4,interpolated,64.
 seqneut25to26_sera_3016,A/DistrictOfColumbia/57/2025_H3N2,179.4,interpolated,12.07,2,midpoint
 seqneut25to26_sera_3016,A/DistritoFederal/250106000728/2025_H3N2,357.6,interpolated,185.8,2,midpoint
 seqneut25to26_sera_3016,A/DistritoFederal/2578578201/2025_H3N2,276.1,interpolated,28.69,2,midpoint
-seqneut25to26_sera_3016,A/England/174/2025_H3N2,364.4,interpolated,112.8,2,midpoint
+seqneut25to26_sera_3016,A/England/174/2025_H3N2,251.7,interpolated,,1,midpoint
 seqneut25to26_sera_3016,A/England/1822256/2025_H1N1,215.6,interpolated,0.1076,2,midpoint
 seqneut25to26_sera_3016,A/England/1837734/2025_H3N2,337.8,interpolated,20.14,2,midpoint
 seqneut25to26_sera_3016,A/England/1837737/2025_H3N2,294.4,interpolated,2.048,2,midpoint
@@ -15728,7 +15728,7 @@ seqneut25to26_sera_3017,A/DistrictOfColumbia/27/2023_H3N2,491.1,interpolated,247
 seqneut25to26_sera_3017,A/DistrictOfColumbia/57/2025_H3N2,1581,interpolated,125.9,2,midpoint
 seqneut25to26_sera_3017,A/DistritoFederal/250106000728/2025_H3N2,352.7,interpolated,50.87,2,midpoint
 seqneut25to26_sera_3017,A/DistritoFederal/2578578201/2025_H3N2,887.2,interpolated,117.5,2,midpoint
-seqneut25to26_sera_3017,A/England/174/2025_H3N2,1067,interpolated,428,2,midpoint
+seqneut25to26_sera_3017,A/England/174/2025_H3N2,1495,interpolated,,1,midpoint
 seqneut25to26_sera_3017,A/England/1822256/2025_H1N1,1542,interpolated,153,2,midpoint
 seqneut25to26_sera_3017,A/England/1837734/2025_H3N2,1453,interpolated,226.5,2,midpoint
 seqneut25to26_sera_3017,A/England/1837737/2025_H3N2,1266,interpolated,510.2,2,midpoint
@@ -15819,7 +15819,7 @@ seqneut25to26_sera_3018,A/DistrictOfColumbia/27/2023_H3N2,182.1,interpolated,66.
 seqneut25to26_sera_3018,A/DistrictOfColumbia/57/2025_H3N2,203.6,interpolated,83.29,2,midpoint
 seqneut25to26_sera_3018,A/DistritoFederal/250106000728/2025_H3N2,268.2,interpolated,172.9,2,midpoint
 seqneut25to26_sera_3018,A/DistritoFederal/2578578201/2025_H3N2,203.9,interpolated,14.04,2,midpoint
-seqneut25to26_sera_3018,A/England/174/2025_H3N2,390,interpolated,131,2,midpoint
+seqneut25to26_sera_3018,A/England/174/2025_H3N2,259,interpolated,,1,midpoint
 seqneut25to26_sera_3018,A/England/1822256/2025_H1N1,6355,interpolated,115.3,2,midpoint
 seqneut25to26_sera_3018,A/England/1837734/2025_H3N2,299.6,interpolated,82.32,2,midpoint
 seqneut25to26_sera_3018,A/England/1837737/2025_H3N2,116.3,interpolated,34.57,2,midpoint
@@ -15910,7 +15910,7 @@ seqneut25to26_sera_3019,A/DistrictOfColumbia/27/2023_H3N2,83.79,interpolated,26.
 seqneut25to26_sera_3019,A/DistrictOfColumbia/57/2025_H3N2,172.2,interpolated,58.96,2,midpoint
 seqneut25to26_sera_3019,A/DistritoFederal/250106000728/2025_H3N2,181,interpolated,35.39,2,midpoint
 seqneut25to26_sera_3019,A/DistritoFederal/2578578201/2025_H3N2,98.28,interpolated,3.413,2,midpoint
-seqneut25to26_sera_3019,A/England/174/2025_H3N2,165.4,interpolated,69.59,2,midpoint
+seqneut25to26_sera_3019,A/England/174/2025_H3N2,95.77,interpolated,,1,midpoint
 seqneut25to26_sera_3019,A/England/1822256/2025_H1N1,302.3,interpolated,32.76,2,midpoint
 seqneut25to26_sera_3019,A/England/1837734/2025_H3N2,129.5,interpolated,9.284,2,midpoint
 seqneut25to26_sera_3019,A/England/1837737/2025_H3N2,72.76,interpolated,10.88,2,midpoint
@@ -16000,7 +16000,7 @@ seqneut25to26_sera_3020,A/DistrictOfColumbia/27/2023_H3N2,225.6,interpolated,77.
 seqneut25to26_sera_3020,A/DistrictOfColumbia/57/2025_H3N2,1768,interpolated,494.7,2,midpoint
 seqneut25to26_sera_3020,A/DistritoFederal/250106000728/2025_H3N2,228,interpolated,71.14,2,midpoint
 seqneut25to26_sera_3020,A/DistritoFederal/2578578201/2025_H3N2,130.9,interpolated,2.505,2,midpoint
-seqneut25to26_sera_3020,A/England/174/2025_H3N2,1128,interpolated,343.9,2,midpoint
+seqneut25to26_sera_3020,A/England/174/2025_H3N2,784.4,interpolated,,1,midpoint
 seqneut25to26_sera_3020,A/England/1822256/2025_H1N1,341.3,interpolated,17.81,2,midpoint
 seqneut25to26_sera_3020,A/England/1837734/2025_H3N2,1067,interpolated,393.5,2,midpoint
 seqneut25to26_sera_3020,A/England/1837737/2025_H3N2,657.5,interpolated,0.8972,2,midpoint
@@ -16091,7 +16091,7 @@ seqneut25to26_sera_3021,A/DistrictOfColumbia/27/2023_H3N2,177.1,interpolated,39.
 seqneut25to26_sera_3021,A/DistrictOfColumbia/57/2025_H3N2,200.6,interpolated,,1,midpoint
 seqneut25to26_sera_3021,A/DistritoFederal/250106000728/2025_H3N2,161.9,interpolated,22.15,2,midpoint
 seqneut25to26_sera_3021,A/DistritoFederal/2578578201/2025_H3N2,227.9,interpolated,43.67,2,midpoint
-seqneut25to26_sera_3021,A/England/174/2025_H3N2,774.8,interpolated,364.7,2,midpoint
+seqneut25to26_sera_3021,A/England/174/2025_H3N2,410.1,interpolated,,1,midpoint
 seqneut25to26_sera_3021,A/England/1822256/2025_H1N1,638.9,interpolated,0.8088,2,midpoint
 seqneut25to26_sera_3021,A/England/1837734/2025_H3N2,206.9,interpolated,53.85,2,midpoint
 seqneut25to26_sera_3021,A/England/1837737/2025_H3N2,233.9,interpolated,81.26,2,midpoint
@@ -16182,7 +16182,7 @@ seqneut25to26_sera_3022,A/DistrictOfColumbia/27/2023_H3N2,348.1,interpolated,45.
 seqneut25to26_sera_3022,A/DistrictOfColumbia/57/2025_H3N2,407.9,interpolated,111.1,2,midpoint
 seqneut25to26_sera_3022,A/DistritoFederal/250106000728/2025_H3N2,544.2,interpolated,156.3,2,midpoint
 seqneut25to26_sera_3022,A/DistritoFederal/2578578201/2025_H3N2,362.4,interpolated,18.32,2,midpoint
-seqneut25to26_sera_3022,A/England/174/2025_H3N2,610.6,interpolated,40.42,2,midpoint
+seqneut25to26_sera_3022,A/England/174/2025_H3N2,570.2,interpolated,,1,midpoint
 seqneut25to26_sera_3022,A/England/1822256/2025_H1N1,225.3,interpolated,5.776,2,midpoint
 seqneut25to26_sera_3022,A/England/1837734/2025_H3N2,463.2,interpolated,12.71,2,midpoint
 seqneut25to26_sera_3022,A/England/1837737/2025_H3N2,340.7,interpolated,41.91,2,midpoint
@@ -17274,7 +17274,7 @@ seqneut25to26_sera_3034,A/DistrictOfColumbia/27/2023_H3N2,1679,interpolated,246.
 seqneut25to26_sera_3034,A/DistrictOfColumbia/57/2025_H3N2,1682,interpolated,252.3,2,midpoint
 seqneut25to26_sera_3034,A/DistritoFederal/250106000728/2025_H3N2,3739,interpolated,145.1,2,midpoint
 seqneut25to26_sera_3034,A/DistritoFederal/2578578201/2025_H3N2,3757,interpolated,766.3,2,midpoint
-seqneut25to26_sera_3034,A/England/174/2025_H3N2,2191,interpolated,701.9,2,midpoint
+seqneut25to26_sera_3034,A/England/174/2025_H3N2,2893,interpolated,,1,midpoint
 seqneut25to26_sera_3034,A/England/1822256/2025_H1N1,541.4,interpolated,25.84,2,midpoint
 seqneut25to26_sera_3034,A/England/1837734/2025_H3N2,1700,interpolated,773.7,2,midpoint
 seqneut25to26_sera_3034,A/England/1837737/2025_H3N2,991.8,interpolated,206.6,2,midpoint
@@ -17365,7 +17365,7 @@ seqneut25to26_sera_3035,A/DistrictOfColumbia/27/2023_H3N2,346,interpolated,255.2
 seqneut25to26_sera_3035,A/DistrictOfColumbia/57/2025_H3N2,115.1,interpolated,12.9,2,midpoint
 seqneut25to26_sera_3035,A/DistritoFederal/250106000728/2025_H3N2,308.5,interpolated,21.37,2,midpoint
 seqneut25to26_sera_3035,A/DistritoFederal/2578578201/2025_H3N2,302.3,interpolated,5.359,2,midpoint
-seqneut25to26_sera_3035,A/England/174/2025_H3N2,162.6,interpolated,33.42,2,midpoint
+seqneut25to26_sera_3035,A/England/174/2025_H3N2,196,interpolated,,1,midpoint
 seqneut25to26_sera_3035,A/England/1822256/2025_H1N1,284.3,interpolated,28.89,2,midpoint
 seqneut25to26_sera_3035,A/England/1837734/2025_H3N2,191.8,interpolated,22.02,2,midpoint
 seqneut25to26_sera_3035,A/England/1837737/2025_H3N2,185.7,interpolated,69.6,2,midpoint
@@ -17638,7 +17638,7 @@ seqneut25to26_sera_3038,A/DistrictOfColumbia/27/2023_H3N2,126.9,interpolated,63.
 seqneut25to26_sera_3038,A/DistrictOfColumbia/57/2025_H3N2,136.9,interpolated,,1,midpoint
 seqneut25to26_sera_3038,A/DistritoFederal/250106000728/2025_H3N2,131.1,interpolated,32.86,2,midpoint
 seqneut25to26_sera_3038,A/DistritoFederal/2578578201/2025_H3N2,160.7,interpolated,36.22,2,midpoint
-seqneut25to26_sera_3038,A/England/174/2025_H3N2,177,upper,137,2,midpoint
+seqneut25to26_sera_3038,A/England/174/2025_H3N2,40,upper,,1,midpoint
 seqneut25to26_sera_3038,A/England/1822256/2025_H1N1,529.8,interpolated,64.29,2,midpoint
 seqneut25to26_sera_3038,A/England/1837734/2025_H3N2,198.8,interpolated,34.43,2,midpoint
 seqneut25to26_sera_3038,A/England/1837737/2025_H3N2,78.79,interpolated,3.032,2,midpoint
@@ -17729,7 +17729,7 @@ seqneut25to26_sera_3039,A/DistrictOfColumbia/27/2023_H3N2,147.3,interpolated,59.
 seqneut25to26_sera_3039,A/DistrictOfColumbia/57/2025_H3N2,227.2,interpolated,43.06,2,midpoint
 seqneut25to26_sera_3039,A/DistritoFederal/250106000728/2025_H3N2,234.5,interpolated,50.18,2,midpoint
 seqneut25to26_sera_3039,A/DistritoFederal/2578578201/2025_H3N2,149.6,interpolated,12.6,2,midpoint
-seqneut25to26_sera_3039,A/England/174/2025_H3N2,250.7,interpolated,11.5,2,midpoint
+seqneut25to26_sera_3039,A/England/174/2025_H3N2,262.2,interpolated,,1,midpoint
 seqneut25to26_sera_3039,A/England/1822256/2025_H1N1,374.2,interpolated,36.09,2,midpoint
 seqneut25to26_sera_3039,A/England/1837734/2025_H3N2,266.2,interpolated,65.66,2,midpoint
 seqneut25to26_sera_3039,A/England/1837737/2025_H3N2,130.5,interpolated,2.522,2,midpoint
@@ -17820,7 +17820,7 @@ seqneut25to26_sera_3040,A/DistrictOfColumbia/27/2023_H3N2,127.2,interpolated,4.9
 seqneut25to26_sera_3040,A/DistrictOfColumbia/57/2025_H3N2,122.3,interpolated,9.339,2,midpoint
 seqneut25to26_sera_3040,A/DistritoFederal/250106000728/2025_H3N2,152.6,interpolated,4.27,2,midpoint
 seqneut25to26_sera_3040,A/DistritoFederal/2578578201/2025_H3N2,152,interpolated,38.21,2,midpoint
-seqneut25to26_sera_3040,A/England/174/2025_H3N2,273.8,interpolated,33.29,2,midpoint
+seqneut25to26_sera_3040,A/England/174/2025_H3N2,240.5,interpolated,,1,midpoint
 seqneut25to26_sera_3040,A/England/1822256/2025_H1N1,250,interpolated,24.18,2,midpoint
 seqneut25to26_sera_3040,A/England/1837734/2025_H3N2,192.5,interpolated,53.42,2,midpoint
 seqneut25to26_sera_3040,A/England/1837737/2025_H3N2,142.2,interpolated,17.67,2,midpoint
@@ -17911,7 +17911,7 @@ seqneut25to26_sera_3041,A/DistrictOfColumbia/27/2023_H3N2,492.3,interpolated,98.
 seqneut25to26_sera_3041,A/DistrictOfColumbia/57/2025_H3N2,451.7,interpolated,50.32,2,midpoint
 seqneut25to26_sera_3041,A/DistritoFederal/250106000728/2025_H3N2,523.3,interpolated,112.8,2,midpoint
 seqneut25to26_sera_3041,A/DistritoFederal/2578578201/2025_H3N2,445,interpolated,16.77,2,midpoint
-seqneut25to26_sera_3041,A/England/174/2025_H3N2,232.7,interpolated,98.71,2,midpoint
+seqneut25to26_sera_3041,A/England/174/2025_H3N2,331.4,interpolated,,1,midpoint
 seqneut25to26_sera_3041,A/England/1822256/2025_H1N1,143.3,interpolated,23.74,2,midpoint
 seqneut25to26_sera_3041,A/England/1837734/2025_H3N2,559.5,interpolated,282.7,2,midpoint
 seqneut25to26_sera_3041,A/England/1837737/2025_H3N2,505.7,interpolated,197.6,2,midpoint
@@ -18002,6 +18002,7 @@ seqneut25to26_sera_3042,A/DistrictOfColumbia/27/2023_H3N2,320.6,interpolated,77.
 seqneut25to26_sera_3042,A/DistrictOfColumbia/57/2025_H3N2,156.2,interpolated,66.31,2,midpoint
 seqneut25to26_sera_3042,A/DistritoFederal/250106000728/2025_H3N2,571.6,interpolated,154.7,2,midpoint
 seqneut25to26_sera_3042,A/DistritoFederal/2578578201/2025_H3N2,503.7,interpolated,224.4,2,midpoint
+seqneut25to26_sera_3042,A/England/174/2025_H3N2,205.9,interpolated,,1,midpoint
 seqneut25to26_sera_3042,A/England/1822256/2025_H1N1,194.2,interpolated,33.51,2,midpoint
 seqneut25to26_sera_3042,A/England/1837734/2025_H3N2,430.1,interpolated,263.6,2,midpoint
 seqneut25to26_sera_3042,A/England/1837737/2025_H3N2,332.3,interpolated,139,2,midpoint
@@ -18092,7 +18093,7 @@ seqneut25to26_sera_3043,A/DistrictOfColumbia/27/2023_H3N2,225.5,interpolated,68.
 seqneut25to26_sera_3043,A/DistrictOfColumbia/57/2025_H3N2,161.1,interpolated,26.63,2,midpoint
 seqneut25to26_sera_3043,A/DistritoFederal/250106000728/2025_H3N2,443.2,interpolated,22.7,2,midpoint
 seqneut25to26_sera_3043,A/DistritoFederal/2578578201/2025_H3N2,362.6,interpolated,64.89,2,midpoint
-seqneut25to26_sera_3043,A/England/174/2025_H3N2,387.1,interpolated,215.8,2,midpoint
+seqneut25to26_sera_3043,A/England/174/2025_H3N2,171.3,interpolated,,1,midpoint
 seqneut25to26_sera_3043,A/England/1822256/2025_H1N1,176.7,interpolated,25.45,2,midpoint
 seqneut25to26_sera_3043,A/England/1837734/2025_H3N2,212.1,interpolated,27.1,2,midpoint
 seqneut25to26_sera_3043,A/England/1837737/2025_H3N2,193.8,interpolated,15.68,2,midpoint
@@ -18183,7 +18184,7 @@ seqneut25to26_sera_3044,A/DistrictOfColumbia/27/2023_H3N2,106.9,interpolated,24.
 seqneut25to26_sera_3044,A/DistrictOfColumbia/57/2025_H3N2,106.2,interpolated,22.38,2,midpoint
 seqneut25to26_sera_3044,A/DistritoFederal/250106000728/2025_H3N2,227.6,interpolated,66.02,2,midpoint
 seqneut25to26_sera_3044,A/DistritoFederal/2578578201/2025_H3N2,81.64,interpolated,8.638,2,midpoint
-seqneut25to26_sera_3044,A/England/174/2025_H3N2,305.6,interpolated,180.7,2,midpoint
+seqneut25to26_sera_3044,A/England/174/2025_H3N2,124.9,interpolated,,1,midpoint
 seqneut25to26_sera_3044,A/England/1822256/2025_H1N1,162.6,interpolated,38.48,2,midpoint
 seqneut25to26_sera_3044,A/England/1837734/2025_H3N2,167.5,interpolated,47.85,2,midpoint
 seqneut25to26_sera_3044,A/England/1837737/2025_H3N2,62.1,interpolated,18.58,2,midpoint
@@ -18364,7 +18365,7 @@ seqneut25to26_sera_3046,A/DistrictOfColumbia/27/2023_H3N2,117,interpolated,20.06
 seqneut25to26_sera_3046,A/DistrictOfColumbia/57/2025_H3N2,670.5,interpolated,90.52,2,midpoint
 seqneut25to26_sera_3046,A/DistritoFederal/250106000728/2025_H3N2,438,interpolated,40.74,2,midpoint
 seqneut25to26_sera_3046,A/DistritoFederal/2578578201/2025_H3N2,222.3,interpolated,53.61,2,midpoint
-seqneut25to26_sera_3046,A/England/174/2025_H3N2,649.9,interpolated,355.2,2,midpoint
+seqneut25to26_sera_3046,A/England/174/2025_H3N2,294.7,interpolated,,1,midpoint
 seqneut25to26_sera_3046,A/England/1822256/2025_H1N1,117.4,interpolated,0.9681,2,midpoint
 seqneut25to26_sera_3046,A/England/1837734/2025_H3N2,520.4,interpolated,38.32,2,midpoint
 seqneut25to26_sera_3046,A/England/1837737/2025_H3N2,238.9,interpolated,5.921,2,midpoint
@@ -18455,7 +18456,7 @@ seqneut25to26_sera_3047,A/DistrictOfColumbia/27/2023_H3N2,310.8,interpolated,38.
 seqneut25to26_sera_3047,A/DistrictOfColumbia/57/2025_H3N2,146.7,interpolated,16.68,2,midpoint
 seqneut25to26_sera_3047,A/DistritoFederal/250106000728/2025_H3N2,483.5,interpolated,109.7,2,midpoint
 seqneut25to26_sera_3047,A/DistritoFederal/2578578201/2025_H3N2,310.5,interpolated,74.83,2,midpoint
-seqneut25to26_sera_3047,A/England/174/2025_H3N2,952.7,interpolated,553.6,2,midpoint
+seqneut25to26_sera_3047,A/England/174/2025_H3N2,1506,interpolated,,1,midpoint
 seqneut25to26_sera_3047,A/England/1822256/2025_H1N1,106.5,interpolated,13.97,2,midpoint
 seqneut25to26_sera_3047,A/England/1837734/2025_H3N2,166.9,interpolated,26.13,2,midpoint
 seqneut25to26_sera_3047,A/England/1837737/2025_H3N2,110.5,interpolated,6.093,2,midpoint
@@ -18603,97 +18604,97 @@ seqneut25to26_sera_3048,A/Victoria/4897/2022_IVR-238_H1N1,1727,interpolated,84.3
 seqneut25to26_sera_3048,A/Wisconsin/588/2019_H1N1,594.2,interpolated,37.61,3,midpoint
 seqneut25to26_sera_3048,A/Wisconsin/67/2022_H1N1,682.4,interpolated,103.5,3,midpoint
 seqneut25to26_sera_3048,A/Zacapa/FLU-261/2025_H1N1,1276,interpolated,501.8,2,midpoint
-seqneut25to26_sera_4001,A/Alagoas/4130/2025_H3N2,579.8,interpolated,74.82,2,midpoint
-seqneut25to26_sera_4001,A/Anapolis/LEIAL6543/2025_H3N2,199.7,interpolated,26.21,2,midpoint
-seqneut25to26_sera_4001,A/Andalucia/PMC-00977/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Aragon/2046/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Arica/59150/2025_H3N2,275.2,interpolated,65.27,2,midpoint
-seqneut25to26_sera_4001,A/Bahia/3102/2025_H3N2,336.5,interpolated,22.94,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/1803/2025_H1N1,93.35,upper,1.347,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/P2229/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/P2323/2025_H3N2,573.1,interpolated,93.94,2,midpoint
+seqneut25to26_sera_4001,A/Alagoas/4130/2025_H3N2,581.4,interpolated,73.86,2,midpoint
+seqneut25to26_sera_4001,A/Anapolis/LEIAL6543/2025_H3N2,226.1,interpolated,5.632,2,midpoint
+seqneut25to26_sera_4001,A/Andalucia/PMC-00977/2025_H1N1,58.17,interpolated,14.92,2,midpoint
+seqneut25to26_sera_4001,A/Aragon/2046/2025_H1N1,57.97,interpolated,5.329,2,midpoint
+seqneut25to26_sera_4001,A/Arica/59150/2025_H3N2,279,interpolated,66.04,2,midpoint
+seqneut25to26_sera_4001,A/Bahia/3102/2025_H3N2,345.1,interpolated,13.83,2,midpoint
+seqneut25to26_sera_4001,A/Bangkok/1803/2025_H1N1,114,interpolated,2.933,2,midpoint
+seqneut25to26_sera_4001,A/Bangkok/P2229/2025_H1N1,67.36,interpolated,19.77,2,midpoint
+seqneut25to26_sera_4001,A/Bangkok/P2323/2025_H3N2,573.2,interpolated,93.91,2,midpoint
 seqneut25to26_sera_4001,A/Bangkok/P2390/2025_H3N2,788.9,interpolated,172,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/P2391/2025_H3N2,339.6,interpolated,,1,midpoint
+seqneut25to26_sera_4001,A/Bangkok/P2391/2025_H3N2,254,interpolated,86.41,2,midpoint
 seqneut25to26_sera_4001,A/Bangkok/P2572/2025_H3N2,617,interpolated,56.39,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/P2921/2025_H3N2,846.6,interpolated,31.9,2,midpoint
-seqneut25to26_sera_4001,A/Bangkok/P3067/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/Bangkok/P2921/2025_H3N2,846.5,interpolated,32.03,2,midpoint
+seqneut25to26_sera_4001,A/Bangkok/P3067/2025_H1N1,65.59,interpolated,10.93,2,midpoint
 seqneut25to26_sera_4001,A/Bangkok/P3263/2025_H3N2,711,interpolated,107.2,2,midpoint
 seqneut25to26_sera_4001,A/Belgium/H0097/2025_H3N2,4784,interpolated,1884,2,midpoint
 seqneut25to26_sera_4001,A/Bhutan/1267/2025_H3N2,840.8,interpolated,63.58,2,midpoint
 seqneut25to26_sera_4001,A/Bhutan/7/2025_H3N2,718.6,interpolated,30.39,2,midpoint
-seqneut25to26_sera_4001,A/BritishColumbia/PHL-2473/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/California/61/2025_H3N2,733.6,interpolated,77.91,2,midpoint
-seqneut25to26_sera_4001,A/California/63/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Canberra/465/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Canberra/530/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Catalonia/NSVH102689455/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Colorado/105/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/CoteDIvoire/2007/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Croatia/10136RV/2023-egg_H3N2,7264,interpolated,,1,midpoint
-seqneut25to26_sera_4001,A/Darwin/1405/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/BritishColumbia/PHL-2473/2025_H1N1,52.98,interpolated,2.04,2,midpoint
+seqneut25to26_sera_4001,A/California/61/2025_H3N2,733.4,interpolated,77.88,2,midpoint
+seqneut25to26_sera_4001,A/California/63/2025_H1N1,52.38,interpolated,0.1499,2,midpoint
+seqneut25to26_sera_4001,A/Canberra/465/2025_H1N1,78.85,interpolated,15.49,2,midpoint
+seqneut25to26_sera_4001,A/Canberra/530/2025_H1N1,55.43,interpolated,5.371,2,midpoint
+seqneut25to26_sera_4001,A/Catalonia/NSVH102689455/2025_H1N1,90.29,interpolated,8.576,2,midpoint
+seqneut25to26_sera_4001,A/Colorado/105/2025_H1N1,48.87,interpolated,6.322,2,midpoint
+seqneut25to26_sera_4001,A/CoteDIvoire/2007/2025_H1N1,83.64,interpolated,9.666,2,midpoint
+seqneut25to26_sera_4001,A/Croatia/10136RV/2023-egg_H3N2,5071,interpolated,2207,2,midpoint
+seqneut25to26_sera_4001,A/Darwin/1405/2025_H1N1,86.43,interpolated,9.068,2,midpoint
 seqneut25to26_sera_4001,A/Darwin/1461/2025_H3N2,1924,interpolated,273.6,2,midpoint
-seqneut25to26_sera_4001,A/Denmark/3070/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/DistrictOfColumbia/27/2023_H3N2,2591,interpolated,993.8,2,midpoint
+seqneut25to26_sera_4001,A/Denmark/3070/2025_H1N1,70.12,interpolated,5.732,2,midpoint
+seqneut25to26_sera_4001,A/DistrictOfColumbia/27/2023_H3N2,2591,interpolated,994.1,2,midpoint
 seqneut25to26_sera_4001,A/DistrictOfColumbia/57/2025_H3N2,726.6,interpolated,208.1,2,midpoint
-seqneut25to26_sera_4001,A/DistritoFederal/250106000728/2025_H3N2,531.3,interpolated,85.38,2,midpoint
-seqneut25to26_sera_4001,A/DistritoFederal/2578578201/2025_H3N2,153.7,interpolated,2.928,2,midpoint
-seqneut25to26_sera_4001,A/England/174/2025_H3N2,1964,interpolated,948.3,2,midpoint
-seqneut25to26_sera_4001,A/England/1822256/2025_H1N1,113.9,upper,21.93,2,midpoint
-seqneut25to26_sera_4001,A/England/1837734/2025_H3N2,842.1,interpolated,115.2,2,midpoint
-seqneut25to26_sera_4001,A/England/1837737/2025_H3N2,438.5,interpolated,12.09,2,midpoint
-seqneut25to26_sera_4001,A/France/ARA-HCL025155099501/2025_H1N1,92,upper,,1,midpoint
+seqneut25to26_sera_4001,A/DistritoFederal/250106000728/2025_H3N2,539.8,interpolated,70.71,2,midpoint
+seqneut25to26_sera_4001,A/DistritoFederal/2578578201/2025_H3N2,162.9,interpolated,2.14,2,midpoint
+seqneut25to26_sera_4001,A/England/174/2025_H3N2,1015,interpolated,,1,midpoint
+seqneut25to26_sera_4001,A/England/1822256/2025_H1N1,124,interpolated,31.14,2,midpoint
+seqneut25to26_sera_4001,A/England/1837734/2025_H3N2,842.1,interpolated,115.4,2,midpoint
+seqneut25to26_sera_4001,A/England/1837737/2025_H3N2,439,interpolated,12.15,2,midpoint
+seqneut25to26_sera_4001,A/France/ARA-HCL025155099501/2025_H1N1,72.21,interpolated,,1,midpoint
 seqneut25to26_sera_4001,A/Galicia/GA-CHUAC-451/2025_H3N2,666.6,interpolated,129.2,2,midpoint
-seqneut25to26_sera_4001,A/Ghana/ARI-25-1125/2025_H1N1,191.1,interpolated,34.52,2,midpoint
+seqneut25to26_sera_4001,A/Ghana/ARI-25-1125/2025_H1N1,198.8,interpolated,38.27,2,midpoint
 seqneut25to26_sera_4001,A/Ghana/FS-25-7077/2025_H3N2,652.8,interpolated,56.68,2,midpoint
-seqneut25to26_sera_4001,A/Guangdong-Maonan/11438/2025_H3N2,1004,interpolated,98.4,2,midpoint
+seqneut25to26_sera_4001,A/Guangdong-Maonan/11438/2025_H3N2,1004,interpolated,98.61,2,midpoint
 seqneut25to26_sera_4001,A/Guangdong-Meijiang/11256/2025_H3N2,723.6,interpolated,19.28,2,midpoint
 seqneut25to26_sera_4001,A/Guangxi-Daxin/1643/2025_H3N2,817.2,interpolated,295.4,2,midpoint
-seqneut25to26_sera_4001,A/Guangxi-Qingxiu/SWL11742/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Hawaii/44/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Hawaii/70/2019_H1N1,397,interpolated,5.46,3,midpoint
+seqneut25to26_sera_4001,A/Guangxi-Qingxiu/SWL11742/2025_H1N1,88.28,interpolated,9.816,2,midpoint
+seqneut25to26_sera_4001,A/Hawaii/44/2025_H1N1,50.88,interpolated,3.012,2,midpoint
+seqneut25to26_sera_4001,A/Hawaii/70/2019_H1N1,397.7,interpolated,5.547,3,midpoint
 seqneut25to26_sera_4001,A/HongKong/1257/2025_H3N2,1084,interpolated,135.4,2,midpoint
-seqneut25to26_sera_4001,A/HongKong/1382/2025_H3N2,1078,interpolated,77.79,2,midpoint
+seqneut25to26_sera_4001,A/HongKong/1382/2025_H3N2,1078,interpolated,77.85,2,midpoint
 seqneut25to26_sera_4001,A/Indonesia/BIOKES-I-BT074/2025_H3N2,9654,interpolated,1228,2,midpoint
-seqneut25to26_sera_4001,A/Indonesia/BIOKES-INAD491/2025_H3N2,1616,interpolated,30.97,2,midpoint
-seqneut25to26_sera_4001,A/Lao/820-2750/2025_H3N2,2577,interpolated,458.3,2,midpoint
+seqneut25to26_sera_4001,A/Indonesia/BIOKES-INAD491/2025_H3N2,1601,interpolated,37.73,2,midpoint
+seqneut25to26_sera_4001,A/Lao/820-2750/2025_H3N2,2576,interpolated,458,2,midpoint
 seqneut25to26_sera_4001,A/Malaysia/IMR/SARI/2028/2025_H3N2,824.1,interpolated,27.09,2,midpoint
-seqneut25to26_sera_4001,A/Malaysia/IMR/SARI/2406/2025_H3N2,366.6,interpolated,15.88,2,midpoint
-seqneut25to26_sera_4001,A/Malaysia/IMR/SARI/2517/2025_H3N2,515.6,interpolated,29.01,2,midpoint
+seqneut25to26_sera_4001,A/Malaysia/IMR/SARI/2406/2025_H3N2,366.6,interpolated,15.87,2,midpoint
+seqneut25to26_sera_4001,A/Malaysia/IMR/SARI/2517/2025_H3N2,515.6,interpolated,29.08,2,midpoint
 seqneut25to26_sera_4001,A/Massachusetts/18/2022_H3N2,1008,interpolated,199.5,3,midpoint
-seqneut25to26_sera_4001,A/Michigan/110/2025_H3N2,2112,interpolated,1149,2,midpoint
+seqneut25to26_sera_4001,A/Michigan/110/2025_H3N2,2106,interpolated,1143,2,midpoint
 seqneut25to26_sera_4001,A/Minnesota/96/2025_H3N2,915.9,interpolated,330.6,2,midpoint
-seqneut25to26_sera_4001,A/Missouri/11/2025_H1N1,99.35,interpolated,,1,midpoint
+seqneut25to26_sera_4001,A/Missouri/11/2025_H1N1,72.1,interpolated,25.14,2,midpoint
 seqneut25to26_sera_4001,A/NewSouthWales/2526015582/2025_H3N2,757.9,interpolated,16.98,2,midpoint
 seqneut25to26_sera_4001,A/NewSouthWales/2526015584/2025_H3N2,687.2,interpolated,116.3,2,midpoint
 seqneut25to26_sera_4001,A/Norway/8765/2025_H3N2,783.2,interpolated,50.04,2,midpoint
 seqneut25to26_sera_4001,A/Norway/8976/2025_H3N2,655.8,interpolated,55.75,2,midpoint
-seqneut25to26_sera_4001,A/Norway/9107/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/Norway/9556/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/Norway/9107/2025_H1N1,66.06,interpolated,0.14,2,midpoint
+seqneut25to26_sera_4001,A/Norway/9556/2025_H1N1,63.54,interpolated,5.455,2,midpoint
 seqneut25to26_sera_4001,A/Peru/GIHSN-04-1089/2025_H3N2,669.2,interpolated,4.701,2,midpoint
-seqneut25to26_sera_4001,A/Philippines/SARI25-1425/2025_H1N1,97.56,upper,5.564,2,midpoint
+seqneut25to26_sera_4001,A/Philippines/SARI25-1425/2025_H1N1,110.9,interpolated,7.022,2,midpoint
 seqneut25to26_sera_4001,A/Queensland/2526516675/2025_H3N2,729.9,interpolated,159.6,2,midpoint
-seqneut25to26_sera_4001,A/SouthAfrica/PET37604/2025_H3N2,2295,interpolated,753.9,2,midpoint
+seqneut25to26_sera_4001,A/SouthAfrica/PET37604/2025_H3N2,2296,interpolated,754.1,2,midpoint
 seqneut25to26_sera_4001,A/SouthAfrica/PET37625/2025_H3N2,989.1,interpolated,130.6,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2519001037/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2520702747/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2523012764/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2519001037/2025_H1N1,89.44,interpolated,9.385,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2520702747/2025_H1N1,57.95,interpolated,7.621,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2523012764/2025_H1N1,85.47,interpolated,9.991,2,midpoint
 seqneut25to26_sera_4001,A/SouthAustralia/2523812314/2025_H3N2,1018,interpolated,157.7,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2524408801/2025_H3N2,817.9,interpolated,23.2,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2524712956/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2524408801/2025_H3N2,817.8,interpolated,23.13,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2524712956/2025_H1N1,103.2,interpolated,15.55,2,midpoint
 seqneut25to26_sera_4001,A/SouthAustralia/2525607496/2025_H3N2,2115,interpolated,125.9,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2527003588/2025_H3N2,507.8,interpolated,53.7,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2527213276/2025_H3N2,385,interpolated,3.244,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2527612456/2025_H1N1,92,upper,0,2,midpoint
-seqneut25to26_sera_4001,A/SouthAustralia/2527902708/2025_H3N2,324.1,interpolated,0.8051,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2527003588/2025_H3N2,507.9,interpolated,53.69,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2527213276/2025_H3N2,386.3,interpolated,2.258,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2527612456/2025_H1N1,46.97,interpolated,4.08,2,midpoint
+seqneut25to26_sera_4001,A/SouthAustralia/2527902708/2025_H3N2,325,interpolated,1.669,2,midpoint
 seqneut25to26_sera_4001,A/Sydney/1359/2024_H3N2,898.5,interpolated,3.497,2,midpoint
-seqneut25to26_sera_4001,A/Sydney/400/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/Sydney/400/2025_H1N1,58.41,interpolated,4.022,2,midpoint
 seqneut25to26_sera_4001,A/Tasmania/2521815682/2025_H3N2,655.1,interpolated,10.86,2,midpoint
-seqneut25to26_sera_4001,A/Thailand/8/2022_H3N2,2055,interpolated,803.5,3,midpoint
-seqneut25to26_sera_4001,A/Vermont/73/2025_H3N2,366.4,interpolated,61.58,2,midpoint
+seqneut25to26_sera_4001,A/Thailand/8/2022_H3N2,2055,interpolated,806.7,3,midpoint
+seqneut25to26_sera_4001,A/Vermont/73/2025_H3N2,367.4,interpolated,60.65,2,midpoint
 seqneut25to26_sera_4001,A/Victoria/4897/2022_IVR-238_H1N1,2248,interpolated,421.9,3,midpoint
 seqneut25to26_sera_4001,A/Wisconsin/588/2019_H1N1,635.1,interpolated,75.32,3,midpoint
-seqneut25to26_sera_4001,A/Wisconsin/67/2022_H1N1,92,upper,0,3,midpoint
-seqneut25to26_sera_4001,A/Zacapa/FLU-261/2025_H1N1,92,upper,0,2,midpoint
+seqneut25to26_sera_4001,A/Wisconsin/67/2022_H1N1,69.73,interpolated,10.18,3,midpoint
+seqneut25to26_sera_4001,A/Zacapa/FLU-261/2025_H1N1,79.16,interpolated,9.584,2,midpoint
 seqneut25to26_sera_4002,A/Alagoas/4130/2025_H3N2,870.8,interpolated,480.5,2,midpoint
 seqneut25to26_sera_4002,A/Anapolis/LEIAL6543/2025_H3N2,685.3,interpolated,64.6,2,midpoint
 seqneut25to26_sera_4002,A/Andalucia/PMC-00977/2025_H1N1,54.08,interpolated,6.113,2,midpoint
@@ -18728,7 +18729,7 @@ seqneut25to26_sera_4002,A/DistrictOfColumbia/27/2023_H3N2,553.2,interpolated,227
 seqneut25to26_sera_4002,A/DistrictOfColumbia/57/2025_H3N2,666.3,interpolated,104.4,2,midpoint
 seqneut25to26_sera_4002,A/DistritoFederal/250106000728/2025_H3N2,508,interpolated,57.75,2,midpoint
 seqneut25to26_sera_4002,A/DistritoFederal/2578578201/2025_H3N2,333.3,interpolated,59.58,2,midpoint
-seqneut25to26_sera_4002,A/England/174/2025_H3N2,605.9,interpolated,27.18,2,midpoint
+seqneut25to26_sera_4002,A/England/174/2025_H3N2,633.1,interpolated,,1,midpoint
 seqneut25to26_sera_4002,A/England/1822256/2025_H1N1,96.27,interpolated,12.15,2,midpoint
 seqneut25to26_sera_4002,A/England/1837734/2025_H3N2,1157,interpolated,32.38,2,midpoint
 seqneut25to26_sera_4002,A/England/1837737/2025_H3N2,245.2,interpolated,34.3,2,midpoint
@@ -18819,7 +18820,7 @@ seqneut25to26_sera_4003,A/DistrictOfColumbia/27/2023_H3N2,1.264e+04,lower,979.9,
 seqneut25to26_sera_4003,A/DistrictOfColumbia/57/2025_H3N2,7519,interpolated,1583,2,midpoint
 seqneut25to26_sera_4003,A/DistritoFederal/250106000728/2025_H3N2,1.064e+04,lower,2978,2,midpoint
 seqneut25to26_sera_4003,A/DistritoFederal/2578578201/2025_H3N2,7849,interpolated,3103,2,midpoint
-seqneut25to26_sera_4003,A/England/174/2025_H3N2,1.062e+04,interpolated,2058,2,midpoint
+seqneut25to26_sera_4003,A/England/174/2025_H3N2,8559,interpolated,,1,midpoint
 seqneut25to26_sera_4003,A/England/1822256/2025_H1N1,244.5,interpolated,13.76,2,midpoint
 seqneut25to26_sera_4003,A/England/1837734/2025_H3N2,1.101e+04,interpolated,2380,2,midpoint
 seqneut25to26_sera_4003,A/England/1837737/2025_H3N2,774.8,interpolated,33.27,2,midpoint
@@ -18910,7 +18911,7 @@ seqneut25to26_sera_4004,A/DistrictOfColumbia/27/2023_H3N2,157.7,interpolated,67.
 seqneut25to26_sera_4004,A/DistrictOfColumbia/57/2025_H3N2,192,interpolated,11.22,2,midpoint
 seqneut25to26_sera_4004,A/DistritoFederal/250106000728/2025_H3N2,60.97,upper,20.97,2,midpoint
 seqneut25to26_sera_4004,A/DistritoFederal/2578578201/2025_H3N2,40,upper,0,2,midpoint
-seqneut25to26_sera_4004,A/England/174/2025_H3N2,146,interpolated,45.7,2,midpoint
+seqneut25to26_sera_4004,A/England/174/2025_H3N2,191.7,interpolated,,1,midpoint
 seqneut25to26_sera_4004,A/England/1822256/2025_H1N1,40,upper,0,2,midpoint
 seqneut25to26_sera_4004,A/England/1837734/2025_H3N2,546.4,interpolated,178.4,2,midpoint
 seqneut25to26_sera_4004,A/England/1837737/2025_H3N2,72.68,interpolated,1.923,2,midpoint
@@ -19001,7 +19002,7 @@ seqneut25to26_sera_4005,A/DistrictOfColumbia/27/2023_H3N2,235.9,interpolated,130
 seqneut25to26_sera_4005,A/DistrictOfColumbia/57/2025_H3N2,133.5,interpolated,17.78,2,midpoint
 seqneut25to26_sera_4005,A/DistritoFederal/250106000728/2025_H3N2,154.7,interpolated,58.35,2,midpoint
 seqneut25to26_sera_4005,A/DistritoFederal/2578578201/2025_H3N2,108.3,interpolated,29.18,2,midpoint
-seqneut25to26_sera_4005,A/England/174/2025_H3N2,205.8,interpolated,44.1,2,midpoint
+seqneut25to26_sera_4005,A/England/174/2025_H3N2,161.6,interpolated,,1,midpoint
 seqneut25to26_sera_4005,A/England/1822256/2025_H1N1,544.5,interpolated,12.03,2,midpoint
 seqneut25to26_sera_4005,A/England/1837734/2025_H3N2,210,interpolated,7.874,2,midpoint
 seqneut25to26_sera_4005,A/England/1837737/2025_H3N2,86.72,interpolated,28.18,2,midpoint
@@ -19092,7 +19093,7 @@ seqneut25to26_sera_4006,A/DistrictOfColumbia/27/2023_H3N2,62.32,interpolated,5.6
 seqneut25to26_sera_4006,A/DistrictOfColumbia/57/2025_H3N2,47.33,interpolated,2.569,2,midpoint
 seqneut25to26_sera_4006,A/DistritoFederal/250106000728/2025_H3N2,78.26,interpolated,21.4,2,midpoint
 seqneut25to26_sera_4006,A/DistritoFederal/2578578201/2025_H3N2,42.51,upper,2.513,2,midpoint
-seqneut25to26_sera_4006,A/England/174/2025_H3N2,477.3,interpolated,294.2,2,midpoint
+seqneut25to26_sera_4006,A/England/174/2025_H3N2,183,interpolated,,1,midpoint
 seqneut25to26_sera_4006,A/England/1822256/2025_H1N1,137.3,interpolated,13.44,2,midpoint
 seqneut25to26_sera_4006,A/England/1837734/2025_H3N2,43.48,interpolated,,1,midpoint
 seqneut25to26_sera_4006,A/England/1837737/2025_H3N2,40,upper,0,2,midpoint
@@ -19273,7 +19274,7 @@ seqneut25to26_sera_4008,A/DistrictOfColumbia/27/2023_H3N2,87.53,interpolated,31.
 seqneut25to26_sera_4008,A/DistrictOfColumbia/57/2025_H3N2,73.42,interpolated,24.6,2,midpoint
 seqneut25to26_sera_4008,A/DistritoFederal/250106000728/2025_H3N2,104.2,interpolated,40.74,2,midpoint
 seqneut25to26_sera_4008,A/DistritoFederal/2578578201/2025_H3N2,43.43,interpolated,0.2722,2,midpoint
-seqneut25to26_sera_4008,A/England/174/2025_H3N2,200.1,interpolated,53.41,2,midpoint
+seqneut25to26_sera_4008,A/England/174/2025_H3N2,146.7,interpolated,,1,midpoint
 seqneut25to26_sera_4008,A/England/1822256/2025_H1N1,245.6,interpolated,34.48,2,midpoint
 seqneut25to26_sera_4008,A/England/1837734/2025_H3N2,199.4,interpolated,81.38,2,midpoint
 seqneut25to26_sera_4008,A/England/1837737/2025_H3N2,45.33,upper,5.332,2,midpoint
@@ -19364,7 +19365,7 @@ seqneut25to26_sera_5001,A/DistrictOfColumbia/27/2023_H3N2,72.54,interpolated,0.7
 seqneut25to26_sera_5001,A/DistrictOfColumbia/57/2025_H3N2,104.6,interpolated,35.06,2,midpoint
 seqneut25to26_sera_5001,A/DistritoFederal/250106000728/2025_H3N2,233.8,interpolated,6.015,2,midpoint
 seqneut25to26_sera_5001,A/DistritoFederal/2578578201/2025_H3N2,209.9,interpolated,18.2,2,midpoint
-seqneut25to26_sera_5001,A/England/174/2025_H3N2,343.7,interpolated,185.6,2,midpoint
+seqneut25to26_sera_5001,A/England/174/2025_H3N2,158.1,interpolated,,1,midpoint
 seqneut25to26_sera_5001,A/England/1822256/2025_H1N1,272.8,interpolated,45.16,2,midpoint
 seqneut25to26_sera_5001,A/England/1837734/2025_H3N2,244.8,interpolated,69.15,2,midpoint
 seqneut25to26_sera_5001,A/England/1837737/2025_H3N2,98.38,interpolated,6.144,2,midpoint
@@ -19455,7 +19456,7 @@ seqneut25to26_sera_5002,A/DistrictOfColumbia/27/2023_H3N2,554.2,interpolated,4.6
 seqneut25to26_sera_5002,A/DistrictOfColumbia/57/2025_H3N2,435.2,interpolated,53.34,2,midpoint
 seqneut25to26_sera_5002,A/DistritoFederal/250106000728/2025_H3N2,383.2,interpolated,31.68,2,midpoint
 seqneut25to26_sera_5002,A/DistritoFederal/2578578201/2025_H3N2,432.4,interpolated,11.6,2,midpoint
-seqneut25to26_sera_5002,A/England/174/2025_H3N2,1114,interpolated,471.6,2,midpoint
+seqneut25to26_sera_5002,A/England/174/2025_H3N2,1585,interpolated,,1,midpoint
 seqneut25to26_sera_5002,A/England/1822256/2025_H1N1,400.1,interpolated,6.438,2,midpoint
 seqneut25to26_sera_5002,A/England/1837734/2025_H3N2,663.2,interpolated,7.044,2,midpoint
 seqneut25to26_sera_5002,A/England/1837737/2025_H3N2,287.2,interpolated,50.17,2,midpoint
@@ -19546,7 +19547,7 @@ seqneut25to26_sera_5003,A/DistrictOfColumbia/27/2023_H3N2,168.8,interpolated,33.
 seqneut25to26_sera_5003,A/DistrictOfColumbia/57/2025_H3N2,173.2,interpolated,36.69,2,midpoint
 seqneut25to26_sera_5003,A/DistritoFederal/250106000728/2025_H3N2,218,interpolated,7.251,2,midpoint
 seqneut25to26_sera_5003,A/DistritoFederal/2578578201/2025_H3N2,298.5,interpolated,105.8,2,midpoint
-seqneut25to26_sera_5003,A/England/174/2025_H3N2,510.2,interpolated,175.3,2,midpoint
+seqneut25to26_sera_5003,A/England/174/2025_H3N2,334.8,interpolated,,1,midpoint
 seqneut25to26_sera_5003,A/England/1822256/2025_H1N1,578,interpolated,27.39,2,midpoint
 seqneut25to26_sera_5003,A/England/1837734/2025_H3N2,237.4,interpolated,11.98,2,midpoint
 seqneut25to26_sera_5003,A/England/1837737/2025_H3N2,248.2,interpolated,173.6,2,midpoint
@@ -19636,7 +19637,7 @@ seqneut25to26_sera_5004,A/DistrictOfColumbia/27/2023_H3N2,68.45,interpolated,5.4
 seqneut25to26_sera_5004,A/DistrictOfColumbia/57/2025_H3N2,168.9,interpolated,50.44,2,midpoint
 seqneut25to26_sera_5004,A/DistritoFederal/250106000728/2025_H3N2,185.9,interpolated,19.63,2,midpoint
 seqneut25to26_sera_5004,A/DistritoFederal/2578578201/2025_H3N2,84.38,interpolated,1.911,2,midpoint
-seqneut25to26_sera_5004,A/England/174/2025_H3N2,287.6,interpolated,9.785,2,midpoint
+seqneut25to26_sera_5004,A/England/174/2025_H3N2,297.4,interpolated,,1,midpoint
 seqneut25to26_sera_5004,A/England/1822256/2025_H1N1,200.2,interpolated,23.63,2,midpoint
 seqneut25to26_sera_5004,A/England/1837734/2025_H3N2,220.5,interpolated,127.8,2,midpoint
 seqneut25to26_sera_5004,A/England/1837737/2025_H3N2,81.98,interpolated,11.63,2,midpoint
@@ -19727,7 +19728,7 @@ seqneut25to26_sera_5005,A/DistrictOfColumbia/27/2023_H3N2,1.071e+04,interpolated
 seqneut25to26_sera_5005,A/DistrictOfColumbia/57/2025_H3N2,750.1,interpolated,109.7,2,midpoint
 seqneut25to26_sera_5005,A/DistritoFederal/250106000728/2025_H3N2,1328,interpolated,601.6,2,midpoint
 seqneut25to26_sera_5005,A/DistritoFederal/2578578201/2025_H3N2,793.9,interpolated,210.9,2,midpoint
-seqneut25to26_sera_5005,A/England/174/2025_H3N2,3992,interpolated,1143,2,midpoint
+seqneut25to26_sera_5005,A/England/174/2025_H3N2,5135,interpolated,,1,midpoint
 seqneut25to26_sera_5005,A/England/1822256/2025_H1N1,1676,interpolated,226.7,2,midpoint
 seqneut25to26_sera_5005,A/England/1837734/2025_H3N2,1101,interpolated,124.5,2,midpoint
 seqneut25to26_sera_5005,A/England/1837737/2025_H3N2,707.1,interpolated,41.8,2,midpoint
@@ -19818,7 +19819,7 @@ seqneut25to26_sera_5006,A/DistrictOfColumbia/27/2023_H3N2,2212,interpolated,89.4
 seqneut25to26_sera_5006,A/DistrictOfColumbia/57/2025_H3N2,2551,interpolated,291.2,2,midpoint
 seqneut25to26_sera_5006,A/DistritoFederal/250106000728/2025_H3N2,1547,interpolated,145,2,midpoint
 seqneut25to26_sera_5006,A/DistritoFederal/2578578201/2025_H3N2,1865,interpolated,620.9,2,midpoint
-seqneut25to26_sera_5006,A/England/174/2025_H3N2,6586,interpolated,1511,2,midpoint
+seqneut25to26_sera_5006,A/England/174/2025_H3N2,8097,interpolated,,1,midpoint
 seqneut25to26_sera_5006,A/England/1822256/2025_H1N1,488.1,interpolated,40.16,2,midpoint
 seqneut25to26_sera_5006,A/England/1837734/2025_H3N2,2777,interpolated,37.46,2,midpoint
 seqneut25to26_sera_5006,A/England/1837737/2025_H3N2,2397,interpolated,386.2,2,midpoint
@@ -19909,7 +19910,7 @@ seqneut25to26_sera_5007,A/DistrictOfColumbia/27/2023_H3N2,434.7,interpolated,133
 seqneut25to26_sera_5007,A/DistrictOfColumbia/57/2025_H3N2,657.8,interpolated,231.8,2,midpoint
 seqneut25to26_sera_5007,A/DistritoFederal/250106000728/2025_H3N2,301.1,interpolated,70,2,midpoint
 seqneut25to26_sera_5007,A/DistritoFederal/2578578201/2025_H3N2,496.4,interpolated,42.24,2,midpoint
-seqneut25to26_sera_5007,A/England/174/2025_H3N2,816.7,interpolated,111.5,2,midpoint
+seqneut25to26_sera_5007,A/England/174/2025_H3N2,705.1,interpolated,,1,midpoint
 seqneut25to26_sera_5007,A/England/1822256/2025_H1N1,302,interpolated,0.8227,2,midpoint
 seqneut25to26_sera_5007,A/England/1837734/2025_H3N2,432.2,interpolated,28.27,2,midpoint
 seqneut25to26_sera_5007,A/England/1837737/2025_H3N2,416.9,interpolated,210.4,2,midpoint
@@ -20000,7 +20001,7 @@ seqneut25to26_sera_5008,A/DistrictOfColumbia/27/2023_H3N2,161,interpolated,3.648
 seqneut25to26_sera_5008,A/DistrictOfColumbia/57/2025_H3N2,211.1,interpolated,102.7,2,midpoint
 seqneut25to26_sera_5008,A/DistritoFederal/250106000728/2025_H3N2,536.3,interpolated,85.74,2,midpoint
 seqneut25to26_sera_5008,A/DistritoFederal/2578578201/2025_H3N2,546.6,interpolated,150.1,2,midpoint
-seqneut25to26_sera_5008,A/England/174/2025_H3N2,832.5,interpolated,238.3,2,midpoint
+seqneut25to26_sera_5008,A/England/174/2025_H3N2,594.2,interpolated,,1,midpoint
 seqneut25to26_sera_5008,A/England/1822256/2025_H1N1,1024,interpolated,138.9,2,midpoint
 seqneut25to26_sera_5008,A/England/1837734/2025_H3N2,174.1,interpolated,2.969,2,midpoint
 seqneut25to26_sera_5008,A/England/1837737/2025_H3N2,178.8,interpolated,51.56,2,midpoint
@@ -20182,7 +20183,7 @@ seqneut25to26_sera_5010,A/DistrictOfColumbia/27/2023_H3N2,655.8,interpolated,303
 seqneut25to26_sera_5010,A/DistrictOfColumbia/57/2025_H3N2,226.1,interpolated,99.34,2,midpoint
 seqneut25to26_sera_5010,A/DistritoFederal/250106000728/2025_H3N2,379.3,interpolated,85.32,2,midpoint
 seqneut25to26_sera_5010,A/DistritoFederal/2578578201/2025_H3N2,243,interpolated,8.763,2,midpoint
-seqneut25to26_sera_5010,A/England/174/2025_H3N2,667.6,interpolated,63.16,2,midpoint
+seqneut25to26_sera_5010,A/England/174/2025_H3N2,730.7,interpolated,,1,midpoint
 seqneut25to26_sera_5010,A/England/1822256/2025_H1N1,132.5,interpolated,7.273,2,midpoint
 seqneut25to26_sera_5010,A/England/1837734/2025_H3N2,223.2,interpolated,171.7,2,midpoint
 seqneut25to26_sera_5010,A/England/1837737/2025_H3N2,310.6,interpolated,14.54,2,midpoint
@@ -20364,7 +20365,7 @@ seqneut25to26_sera_5012,A/DistrictOfColumbia/27/2023_H3N2,901,interpolated,35.34
 seqneut25to26_sera_5012,A/DistrictOfColumbia/57/2025_H3N2,357.7,interpolated,76.33,2,midpoint
 seqneut25to26_sera_5012,A/DistritoFederal/250106000728/2025_H3N2,759.3,interpolated,53.27,2,midpoint
 seqneut25to26_sera_5012,A/DistritoFederal/2578578201/2025_H3N2,768.6,interpolated,278,2,midpoint
-seqneut25to26_sera_5012,A/England/174/2025_H3N2,1490,interpolated,105.1,2,midpoint
+seqneut25to26_sera_5012,A/England/174/2025_H3N2,1595,interpolated,,1,midpoint
 seqneut25to26_sera_5012,A/England/1822256/2025_H1N1,1283,interpolated,44.73,2,midpoint
 seqneut25to26_sera_5012,A/England/1837734/2025_H3N2,323.7,interpolated,142.7,2,midpoint
 seqneut25to26_sera_5012,A/England/1837737/2025_H3N2,487.5,interpolated,188,2,midpoint
@@ -20546,7 +20547,7 @@ seqneut25to26_sera_5014,A/DistrictOfColumbia/27/2023_H3N2,309.4,interpolated,72.
 seqneut25to26_sera_5014,A/DistrictOfColumbia/57/2025_H3N2,229.3,interpolated,4.606,2,midpoint
 seqneut25to26_sera_5014,A/DistritoFederal/250106000728/2025_H3N2,375.8,interpolated,77.7,2,midpoint
 seqneut25to26_sera_5014,A/DistritoFederal/2578578201/2025_H3N2,297.5,interpolated,25.76,2,midpoint
-seqneut25to26_sera_5014,A/England/174/2025_H3N2,1071,interpolated,468.4,2,midpoint
+seqneut25to26_sera_5014,A/England/174/2025_H3N2,602.3,interpolated,,1,midpoint
 seqneut25to26_sera_5014,A/England/1822256/2025_H1N1,1184,interpolated,66.17,2,midpoint
 seqneut25to26_sera_5014,A/England/1837734/2025_H3N2,319.2,interpolated,236.7,2,midpoint
 seqneut25to26_sera_5014,A/England/1837737/2025_H3N2,463.2,interpolated,342.1,2,midpoint
@@ -20637,7 +20638,7 @@ seqneut25to26_sera_5015,A/DistrictOfColumbia/27/2023_H3N2,751.3,interpolated,241
 seqneut25to26_sera_5015,A/DistrictOfColumbia/57/2025_H3N2,544.9,interpolated,4.706,2,midpoint
 seqneut25to26_sera_5015,A/DistritoFederal/250106000728/2025_H3N2,950.8,interpolated,20.41,2,midpoint
 seqneut25to26_sera_5015,A/DistritoFederal/2578578201/2025_H3N2,1107,interpolated,94.53,2,midpoint
-seqneut25to26_sera_5015,A/England/174/2025_H3N2,888.4,interpolated,51.58,2,midpoint
+seqneut25to26_sera_5015,A/England/174/2025_H3N2,836.8,interpolated,,1,midpoint
 seqneut25to26_sera_5015,A/England/1822256/2025_H1N1,1383,interpolated,66.46,2,midpoint
 seqneut25to26_sera_5015,A/England/1837734/2025_H3N2,316.6,interpolated,57.86,2,midpoint
 seqneut25to26_sera_5015,A/England/1837737/2025_H3N2,614.3,interpolated,109.1,2,midpoint
@@ -20728,7 +20729,7 @@ seqneut25to26_sera_5016,A/DistrictOfColumbia/27/2023_H3N2,368.7,interpolated,135
 seqneut25to26_sera_5016,A/DistrictOfColumbia/57/2025_H3N2,631.8,interpolated,390.8,2,midpoint
 seqneut25to26_sera_5016,A/DistritoFederal/250106000728/2025_H3N2,698.6,interpolated,150.6,2,midpoint
 seqneut25to26_sera_5016,A/DistritoFederal/2578578201/2025_H3N2,872,interpolated,93.79,2,midpoint
-seqneut25to26_sera_5016,A/England/174/2025_H3N2,598.9,interpolated,182.9,2,midpoint
+seqneut25to26_sera_5016,A/England/174/2025_H3N2,781.7,interpolated,,1,midpoint
 seqneut25to26_sera_5016,A/England/1822256/2025_H1N1,3545,interpolated,269.4,2,midpoint
 seqneut25to26_sera_5016,A/England/1837734/2025_H3N2,546.4,interpolated,44.93,2,midpoint
 seqneut25to26_sera_5016,A/England/1837737/2025_H3N2,961.8,interpolated,203.9,2,midpoint
@@ -20819,7 +20820,7 @@ seqneut25to26_sera_5017,A/DistrictOfColumbia/27/2023_H3N2,1121,interpolated,101.
 seqneut25to26_sera_5017,A/DistrictOfColumbia/57/2025_H3N2,710.2,interpolated,68.85,2,midpoint
 seqneut25to26_sera_5017,A/DistritoFederal/250106000728/2025_H3N2,769.1,interpolated,248.3,2,midpoint
 seqneut25to26_sera_5017,A/DistritoFederal/2578578201/2025_H3N2,956.4,interpolated,91.99,2,midpoint
-seqneut25to26_sera_5017,A/England/174/2025_H3N2,1001,interpolated,353.2,2,midpoint
+seqneut25to26_sera_5017,A/England/174/2025_H3N2,1354,interpolated,,1,midpoint
 seqneut25to26_sera_5017,A/England/1822256/2025_H1N1,708.5,interpolated,88.89,2,midpoint
 seqneut25to26_sera_5017,A/England/1837734/2025_H3N2,557.9,interpolated,25.93,2,midpoint
 seqneut25to26_sera_5017,A/England/1837737/2025_H3N2,755.3,interpolated,231.2,2,midpoint
@@ -20910,7 +20911,7 @@ seqneut25to26_sera_5018,A/DistrictOfColumbia/27/2023_H3N2,7931,interpolated,798.
 seqneut25to26_sera_5018,A/DistrictOfColumbia/57/2025_H3N2,1332,interpolated,640.1,2,midpoint
 seqneut25to26_sera_5018,A/DistritoFederal/250106000728/2025_H3N2,1487,interpolated,53.93,2,midpoint
 seqneut25to26_sera_5018,A/DistritoFederal/2578578201/2025_H3N2,1454,interpolated,347.6,2,midpoint
-seqneut25to26_sera_5018,A/England/174/2025_H3N2,1.157e+04,lower,2053,2,midpoint
+seqneut25to26_sera_5018,A/England/174/2025_H3N2,9512,interpolated,,1,midpoint
 seqneut25to26_sera_5018,A/England/1822256/2025_H1N1,558.7,interpolated,29.24,2,midpoint
 seqneut25to26_sera_5018,A/England/1837734/2025_H3N2,1002,interpolated,185.2,2,midpoint
 seqneut25to26_sera_5018,A/England/1837737/2025_H3N2,2893,interpolated,503.5,2,midpoint
@@ -22091,7 +22092,7 @@ seqneut25to26_sera_5031,A/DistrictOfColumbia/27/2023_H3N2,1.362e+04,lower,0,2,mi
 seqneut25to26_sera_5031,A/DistrictOfColumbia/57/2025_H3N2,3008,interpolated,210.4,2,midpoint
 seqneut25to26_sera_5031,A/DistritoFederal/250106000728/2025_H3N2,1.154e+04,interpolated,892.6,2,midpoint
 seqneut25to26_sera_5031,A/DistritoFederal/2578578201/2025_H3N2,1.015e+04,interpolated,1014,2,midpoint
-seqneut25to26_sera_5031,A/England/174/2025_H3N2,1.362e+04,lower,0,2,midpoint
+seqneut25to26_sera_5031,A/England/174/2025_H3N2,1.362e+04,lower,,1,midpoint
 seqneut25to26_sera_5031,A/England/1822256/2025_H1N1,488.4,interpolated,17.13,2,midpoint
 seqneut25to26_sera_5031,A/England/1837734/2025_H3N2,2902,interpolated,52.35,2,midpoint
 seqneut25to26_sera_5031,A/England/1837737/2025_H3N2,9828,interpolated,1325,2,midpoint
@@ -22182,7 +22183,7 @@ seqneut25to26_sera_5032,A/DistrictOfColumbia/27/2023_H3N2,3687,interpolated,26.6
 seqneut25to26_sera_5032,A/DistrictOfColumbia/57/2025_H3N2,2063,interpolated,222.4,2,midpoint
 seqneut25to26_sera_5032,A/DistritoFederal/250106000728/2025_H3N2,1265,interpolated,21.84,2,midpoint
 seqneut25to26_sera_5032,A/DistritoFederal/2578578201/2025_H3N2,1227,interpolated,33.56,2,midpoint
-seqneut25to26_sera_5032,A/England/174/2025_H3N2,3440,interpolated,379.6,2,midpoint
+seqneut25to26_sera_5032,A/England/174/2025_H3N2,3060,interpolated,,1,midpoint
 seqneut25to26_sera_5032,A/England/1822256/2025_H1N1,321.3,interpolated,26.61,2,midpoint
 seqneut25to26_sera_5032,A/England/1837734/2025_H3N2,1359,interpolated,82.73,2,midpoint
 seqneut25to26_sera_5032,A/England/1837737/2025_H3N2,3022,interpolated,323.3,2,midpoint
@@ -22273,7 +22274,7 @@ seqneut25to26_sera_5033,A/DistrictOfColumbia/27/2023_H3N2,4326,interpolated,1641
 seqneut25to26_sera_5033,A/DistrictOfColumbia/57/2025_H3N2,7802,interpolated,805.6,2,midpoint
 seqneut25to26_sera_5033,A/DistritoFederal/250106000728/2025_H3N2,7802,interpolated,1293,2,midpoint
 seqneut25to26_sera_5033,A/DistritoFederal/2578578201/2025_H3N2,1.297e+04,lower,647.5,2,midpoint
-seqneut25to26_sera_5033,A/England/174/2025_H3N2,9246,interpolated,2976,2,midpoint
+seqneut25to26_sera_5033,A/England/174/2025_H3N2,1.222e+04,interpolated,,1,midpoint
 seqneut25to26_sera_5033,A/England/1822256/2025_H1N1,1045,interpolated,186.6,2,midpoint
 seqneut25to26_sera_5033,A/England/1837734/2025_H3N2,8018,interpolated,3690,2,midpoint
 seqneut25to26_sera_5033,A/England/1837737/2025_H3N2,4129,interpolated,180.1,2,midpoint
@@ -22455,7 +22456,7 @@ seqneut25to26_sera_5035,A/DistrictOfColumbia/27/2023_H3N2,872.8,interpolated,357
 seqneut25to26_sera_5035,A/DistrictOfColumbia/57/2025_H3N2,999.2,interpolated,265,2,midpoint
 seqneut25to26_sera_5035,A/DistritoFederal/250106000728/2025_H3N2,1423,interpolated,735.2,2,midpoint
 seqneut25to26_sera_5035,A/DistritoFederal/2578578201/2025_H3N2,2266,interpolated,26.77,2,midpoint
-seqneut25to26_sera_5035,A/England/174/2025_H3N2,1775,interpolated,841.7,2,midpoint
+seqneut25to26_sera_5035,A/England/174/2025_H3N2,2617,interpolated,,1,midpoint
 seqneut25to26_sera_5035,A/England/1822256/2025_H1N1,1147,interpolated,136.5,2,midpoint
 seqneut25to26_sera_5035,A/England/1837734/2025_H3N2,1106,interpolated,157,2,midpoint
 seqneut25to26_sera_5035,A/England/1837737/2025_H3N2,1018,interpolated,244.9,2,midpoint
@@ -22546,7 +22547,7 @@ seqneut25to26_sera_5036,A/DistrictOfColumbia/27/2023_H3N2,6500,interpolated,2347
 seqneut25to26_sera_5036,A/DistrictOfColumbia/57/2025_H3N2,2586,interpolated,513.2,2,midpoint
 seqneut25to26_sera_5036,A/DistritoFederal/250106000728/2025_H3N2,6626,interpolated,233.3,2,midpoint
 seqneut25to26_sera_5036,A/DistritoFederal/2578578201/2025_H3N2,6334,interpolated,1662,2,midpoint
-seqneut25to26_sera_5036,A/England/174/2025_H3N2,7670,interpolated,594.5,2,midpoint
+seqneut25to26_sera_5036,A/England/174/2025_H3N2,8264,interpolated,,1,midpoint
 seqneut25to26_sera_5036,A/England/1822256/2025_H1N1,4258,interpolated,195.1,2,midpoint
 seqneut25to26_sera_5036,A/England/1837734/2025_H3N2,2874,interpolated,17.08,2,midpoint
 seqneut25to26_sera_5036,A/England/1837737/2025_H3N2,2173,interpolated,1354,2,midpoint
@@ -22637,7 +22638,7 @@ seqneut25to26_sera_5037,A/DistrictOfColumbia/27/2023_H3N2,835.1,interpolated,287
 seqneut25to26_sera_5037,A/DistrictOfColumbia/57/2025_H3N2,258.7,interpolated,113.1,2,midpoint
 seqneut25to26_sera_5037,A/DistritoFederal/250106000728/2025_H3N2,1548,interpolated,477.4,2,midpoint
 seqneut25to26_sera_5037,A/DistritoFederal/2578578201/2025_H3N2,679.1,interpolated,157.3,2,midpoint
-seqneut25to26_sera_5037,A/England/174/2025_H3N2,432.1,interpolated,108.6,2,midpoint
+seqneut25to26_sera_5037,A/England/174/2025_H3N2,540.8,interpolated,,1,midpoint
 seqneut25to26_sera_5037,A/England/1822256/2025_H1N1,334.3,interpolated,29.93,2,midpoint
 seqneut25to26_sera_5037,A/England/1837734/2025_H3N2,487.4,interpolated,46.53,2,midpoint
 seqneut25to26_sera_5037,A/England/1837737/2025_H3N2,274.6,interpolated,86.51,2,midpoint
@@ -22728,7 +22729,7 @@ seqneut25to26_sera_5038,A/DistrictOfColumbia/27/2023_H3N2,5219,interpolated,1161
 seqneut25to26_sera_5038,A/DistrictOfColumbia/57/2025_H3N2,2606,interpolated,744.6,2,midpoint
 seqneut25to26_sera_5038,A/DistritoFederal/250106000728/2025_H3N2,3341,interpolated,1617,2,midpoint
 seqneut25to26_sera_5038,A/DistritoFederal/2578578201/2025_H3N2,5826,interpolated,1170,2,midpoint
-seqneut25to26_sera_5038,A/England/174/2025_H3N2,4443,interpolated,872.5,2,midpoint
+seqneut25to26_sera_5038,A/England/174/2025_H3N2,3570,interpolated,,1,midpoint
 seqneut25to26_sera_5038,A/England/1822256/2025_H1N1,5971,interpolated,908.9,2,midpoint
 seqneut25to26_sera_5038,A/England/1837734/2025_H3N2,2703,interpolated,715.9,2,midpoint
 seqneut25to26_sera_5038,A/England/1837737/2025_H3N2,4212,interpolated,1315,2,midpoint
@@ -22910,7 +22911,7 @@ seqneut25to26_sera_5040,A/DistrictOfColumbia/27/2023_H3N2,928.9,interpolated,213
 seqneut25to26_sera_5040,A/DistrictOfColumbia/57/2025_H3N2,483.9,interpolated,143,2,midpoint
 seqneut25to26_sera_5040,A/DistritoFederal/250106000728/2025_H3N2,989,interpolated,452.7,2,midpoint
 seqneut25to26_sera_5040,A/DistritoFederal/2578578201/2025_H3N2,2829,interpolated,887.9,2,midpoint
-seqneut25to26_sera_5040,A/England/174/2025_H3N2,1179,interpolated,912.6,2,midpoint
+seqneut25to26_sera_5040,A/England/174/2025_H3N2,2091,interpolated,,1,midpoint
 seqneut25to26_sera_5040,A/England/1822256/2025_H1N1,830.1,interpolated,101.3,2,midpoint
 seqneut25to26_sera_5040,A/England/1837734/2025_H3N2,978.1,interpolated,263.5,2,midpoint
 seqneut25to26_sera_5040,A/England/1837737/2025_H3N2,1379,interpolated,125.6,2,midpoint

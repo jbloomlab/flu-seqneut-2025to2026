@@ -43,7 +43,6 @@ human,seqneut25to26_sera_1004_d0,A/California/61/2025_H3N2,plate9-AGAGGCCGGACGTA
 human,seqneut25to26_sera_1004_d0,A/California/61/2025_H3N2,plate9-CCAGGATCTATCCTTC,0.01125,interpolated,0.01348,0.01348,interpolated,1.956,0.8514,0,0.7445,0.134
 human,seqneut25to26_sera_1004_d0,A/Darwin/1461/2025_H3N2,plate9-CAGGTACGCGTTTCTG,0.01036,interpolated,0.01709,0.01709,interpolated,0.8,0.835,0,0.7843,0.08251
 human,seqneut25to26_sera_1004_d0,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.01379,interpolated,0.01536,0.01536,interpolated,2.693,0.8743,0,0.9134,0.0714
-human,seqneut25to26_sera_1004_d0,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.0007193,interpolated,0.00177,0.00177,interpolated,1.477,0.6323,0,0.7185,0.139
 human,seqneut25to26_sera_1004_d0,A/Lao/820-2750/2025_H3N2,plate9-AGGAAGATCAAAAGCG,0.01754,interpolated,0.01943,0.01943,interpolated,3.385,0.8537,0,0.816,0.09342
 human,seqneut25to26_sera_1004_d0,A/Lao/820-2750/2025_H3N2,plate9-TTGAAACTCTTGTCCT,0.00839,interpolated,0.009576,0.009576,interpolated,1.932,0.8873,0,0.9064,0.08465
 human,seqneut25to26_sera_1004_d0,A/DistrictOfColumbia/57/2025_H3N2,plate9-ACATTTAGCGGACCGT,0.003371,interpolated,0.005619,0.005619,interpolated,0.8,0.8323,0,0.8442,0.09019
@@ -298,7 +297,6 @@ human,seqneut25to26_sera_1004_d28,A/Massachusetts/18/2022_H3N2,plate9-CGATCTTTAC
 human,seqneut25to26_sera_1004_d28,A/Alagoas/4130/2025_H3N2,plate9-TAGTACTAACACCAGA,0.001645,interpolated,0.001902,0.001902,interpolated,0.8,0.9453,0,0.9285,0.07744
 human,seqneut25to26_sera_1004_d28,A/Alagoas/4130/2025_H3N2,plate9-GAGGACAGCGGTCGTC,0.001802,interpolated,0.003892,0.003892,interpolated,1.676,0.6376,0,0.959,0.04967
 human,seqneut25to26_sera_1004_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.002925,interpolated,0.003416,0.003416,interpolated,2.707,0.8286,0,0.9092,0.1078
-human,seqneut25to26_sera_1004_d28,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.0004169,interpolated,0.0004169,0.0004169,interpolated,0.8,1,0,0.5784,0.192
 human,seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/27/2023_H3N2,plate9-GAATAATAGAACAGAG,0.001877,interpolated,0.00253,0.00253,interpolated,1.262,0.8429,0,0.9397,0.07593
 human,seqneut25to26_sera_1004_d28,A/DistrictOfColumbia/27/2023_H3N2,plate9-AAGAAGCTATAGAAGT,0.001226,interpolated,0.001226,0.001226,interpolated,0.8,1,0,0.9284,0.083
 human,seqneut25to26_sera_1004_d28,A/Croatia/10136RV/2023-egg_H3N2,plate9-GAAGTGCTGCTGAAGT,0.003897,interpolated,0.004171,0.004171,interpolated,10,0.7539,0,0.7987,0.1506
@@ -537,7 +535,6 @@ human,seqneut25to26_sera_1054_d0,A/Thailand/8/2022_H3N2,plate9-CATAAAAGACTGTATA,
 human,seqneut25to26_sera_1054_d0,A/Thailand/8/2022_H3N2,plate9-AGACCATCGCACCCAA,0.001513,interpolated,0.001672,0.001672,interpolated,10,0.6847,0,0.8002,0.1561
 human,seqneut25to26_sera_1054_d0,A/Thailand/8/2022_H3N2,plate9-CGTACGTATGTCCCAG,0.0002722,interpolated,0.0002722,0.0002722,interpolated,0.9386,1,0,0.8132,0.1323
 human,seqneut25to26_sera_1054_d0,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.0009233,interpolated,0.001037,0.001037,interpolated,1.543,0.9179,0,0.9594,0.07245
-human,seqneut25to26_sera_1054_d0,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.0003481,interpolated,0.0004215,0.0004215,interpolated,2.055,0.8376,0,0.9853,0.03988
 human,seqneut25to26_sera_1054_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate9-AAGTTAAGAGAAAGTT,0.002124,interpolated,0.002203,0.002203,interpolated,4.023,0.9317,0,0.9929,0.03388
 human,seqneut25to26_sera_1054_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate9-AATCCGAAATTTATTC,0.001126,interpolated,0.001184,0.001184,interpolated,1.526,0.9633,0,0.8917,0.1313
 human,seqneut25to26_sera_1054_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate9-AGAGCTAAAAAGAGGA,0.001977,interpolated,0.002023,0.002023,interpolated,2.793,0.9691,0,0.9919,0.03675
@@ -729,10 +726,9 @@ human,seqneut25to26_sera_1054_d28,A/SouthAfrica/PET37604/2025_H3N2,plate9-ATCAAG
 human,seqneut25to26_sera_1054_d28,A/SouthAfrica/PET37604/2025_H3N2,plate9-CGACGCGCCGTCGCTG,0.0003906,interpolated,0.0003906,0.0003906,interpolated,2.232,1,0,0.9611,0.07679
 human,seqneut25to26_sera_1054_d28,A/Bangkok/P2921/2025_H3N2,plate9-ATTTCATGAGATAGGG,0.001587,interpolated,0.001879,0.001879,interpolated,2.409,0.8324,0,0.956,0.07795
 human,seqneut25to26_sera_1054_d28,A/Bangkok/P2921/2025_H3N2,plate9-GAGATAAAAGAGCTCT,0.001041,interpolated,0.001117,0.001117,interpolated,1.229,0.9587,0,0.9724,0.06054
-human,seqneut25to26_sera_1054_d28,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.0003139,interpolated,0.0003139,0.0003139,interpolated,9.579,1,0,0.9786,0.06029
-human,seqneut25to26_sera_1054_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.00148,interpolated,0.001932,0.001932,interpolated,2.845,0.7343,0,0.9351,0.0863
 human,seqneut25to26_sera_1054_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-CATGTGGAGGGTCGAG,0.001003,interpolated,0.00158,0.00158,interpolated,2.032,0.6986,0,0.9832,0.0389
 human,seqneut25to26_sera_1054_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-TAGCCTATAATCAAGT,0.001321,interpolated,0.002275,0.002275,interpolated,2.091,0.6604,0,0.9428,0.06875
+human,seqneut25to26_sera_1054_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.00148,interpolated,0.001932,0.001932,interpolated,2.845,0.7343,0,0.9351,0.0863
 human,seqneut25to26_sera_1054_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate9-CGTTGCATGTAGCAGG,0.0005601,interpolated,0.0008809,0.0008809,interpolated,1.212,0.7888,0,0.9408,0.07314
 human,seqneut25to26_sera_1054_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate9-TCCCTTCTTCGCAACT,0.0003006,interpolated,0.0003006,0.0003006,interpolated,0.8006,1,0,0.8917,0.09301
 human,seqneut25to26_sera_1054_d28,A/Bahia/3102/2025_H3N2,plate9-GAACCTACAAGCAGTC,0.0006554,interpolated,0.001201,0.001201,interpolated,2.657,0.6,0,0.9715,0.04347
@@ -1102,10 +1098,9 @@ human,seqneut25to26_sera_1033_d28,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate9-AT
 human,seqneut25to26_sera_1033_d28,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate9-CATCGACAGGTCCCAC,0.001794,interpolated,0.002567,0.002567,interpolated,1.755,0.7667,0,0.9357,0.0812
 human,seqneut25to26_sera_1033_d28,A/SouthAustralia/2525607496/2025_H3N2,plate9-CAAATATAATGTCCTG,0.001554,interpolated,0.001606,0.001606,interpolated,1.556,0.9751,0,0.9754,0.06196
 human,seqneut25to26_sera_1033_d28,A/SouthAustralia/2525607496/2025_H3N2,plate9-GTTGATTCGATCATAT,0.001642,interpolated,0.001957,0.001957,interpolated,1.685,0.8721,0,0.949,0.08125
-human,seqneut25to26_sera_1033_d28,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.000674,interpolated,0.000674,0.000674,interpolated,1.111,1,0,0.8394,0.1526
-human,seqneut25to26_sera_1033_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001344,interpolated,0.001485,0.001485,interpolated,1.39,0.9349,0,0.9749,0.0575
 human,seqneut25to26_sera_1033_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-CATGTGGAGGGTCGAG,0.001895,interpolated,0.002596,0.002596,interpolated,2.102,0.7578,0,0.9625,0.06118
 human,seqneut25to26_sera_1033_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-TAGCCTATAATCAAGT,0.001852,interpolated,0.002318,0.002318,interpolated,2.003,0.819,0,0.9095,0.1067
+human,seqneut25to26_sera_1033_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001344,interpolated,0.001485,0.001485,interpolated,1.39,0.9349,0,0.9749,0.0575
 human,seqneut25to26_sera_1033_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate9-CGTTGCATGTAGCAGG,0.001811,interpolated,0.001896,0.001896,interpolated,10,0.8152,0,0.955,0.08012
 human,seqneut25to26_sera_1033_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate9-TCCCTTCTTCGCAACT,0.00235,interpolated,0.002567,0.002567,interpolated,3.748,0.8594,0,0.9262,0.1069
 human,seqneut25to26_sera_1033_d28,A/Peru/GIHSN-04-1089/2025_H3N2,plate9-GATTGAGGGGTCCGGG,0.001932,interpolated,0.002012,0.002012,interpolated,10,0.8317,0,0.9557,0.08118
@@ -1465,12 +1460,11 @@ human,seqneut25to26_sera_1051_d28,A/SouthAustralia/2525607496/2025_H3N2,plate9-C
 human,seqneut25to26_sera_1051_d28,A/SouthAustralia/2525607496/2025_H3N2,plate9-GTTGATTCGATCATAT,0.0007121,interpolated,0.0007121,0.0007121,interpolated,1.544,1,0,0.9752,0.06279
 human,seqneut25to26_sera_1051_d28,A/HongKong/1257/2025_H3N2,plate9-CACACCTCTCTCGCCG,0.002161,interpolated,0.003237,0.003237,interpolated,1.564,0.7658,0,0.8943,0.1039
 human,seqneut25to26_sera_1051_d28,A/HongKong/1257/2025_H3N2,plate9-GTATAGAAATGGGTCA,0.0009129,interpolated,0.001422,0.001422,interpolated,1.36,0.7737,0,0.9514,0.06837
-human,seqneut25to26_sera_1051_d28,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.000694,interpolated,0.00072,0.00072,interpolated,10,0.846,0,0.8849,0.1404
-human,seqneut25to26_sera_1051_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001619,interpolated,0.00229,0.00229,interpolated,1.782,0.7694,0,0.9463,0.07586
 human,seqneut25to26_sera_1051_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate9-CCATACCACGCCCTGT,0.002009,interpolated,0.002167,0.002167,interpolated,1.628,0.942,0,0.9276,0.1076
 human,seqneut25to26_sera_1051_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate9-GAACACAATTACTTAG,0.003667,interpolated,0.003906,0.003906,interpolated,10,0.7658,0,0.9102,0.1112
 human,seqneut25to26_sera_1051_d28,A/Ghana/ARI-25-1125/2025_H1N1,plate9-CCGTTAGGGATTCCTC,0.001812,interpolated,0.002041,0.002041,interpolated,4.219,0.8026,0,0.915,0.1121
 human,seqneut25to26_sera_1051_d28,A/Ghana/ARI-25-1125/2025_H1N1,plate9-GACGGACTATCAACGA,0.0009476,interpolated,0.001012,0.001012,interpolated,1.976,0.9395,0,0.975,0.06252
+human,seqneut25to26_sera_1051_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001619,interpolated,0.00229,0.00229,interpolated,1.782,0.7694,0,0.9463,0.07586
 human,seqneut25to26_sera_1051_d28,A/Bhutan/1267/2025_H3N2,plate9-CTGAGTATGGGGCTCA,0.0008147,interpolated,0.0008854,0.0008854,interpolated,1.365,0.9463,0,0.9761,0.05671
 human,seqneut25to26_sera_1051_d28,A/Bhutan/1267/2025_H3N2,plate9-TAAAAGCTCCCATTAC,0.0007512,interpolated,0.000934,0.000934,interpolated,1.284,0.8781,0,0.9517,0.07333
 human,seqneut25to26_sera_1051_d28,A/SouthAustralia/2527612456/2025_H1N1,plate9-GAAAGACCGATGCCAG,0.002538,interpolated,0.002779,0.002779,interpolated,4.497,0.8327,0,0.9992,0.01066
@@ -1558,7 +1552,6 @@ human,seqneut25to26_sera_1044_d0,A/HongKong/1257/2025_H3N2,plate9-CACACCTCTCTCGC
 human,seqneut25to26_sera_1044_d0,A/Michigan/110/2025_H3N2,plate9-GACTTCTTCCGCTCTT,0.004607,interpolated,0.004921,0.004921,interpolated,1.602,0.9499,0,0.9807,0.04663
 human,seqneut25to26_sera_1044_d0,A/Michigan/110/2025_H3N2,plate9-GCTCCTGGTCATATAT,0.006605,interpolated,0.007374,0.007374,interpolated,1.067,0.9446,0,0.9094,0.08536
 human,seqneut25to26_sera_1044_d0,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.004046,interpolated,0.004576,0.004576,interpolated,2.099,0.886,0,0.855,0.1344
-human,seqneut25to26_sera_1044_d0,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.006419,interpolated,0.007569,0.007569,interpolated,1.859,0.8681,0,0.6869,0.1927
 human,seqneut25to26_sera_1044_d0,A/Belgium/H0097/2025_H3N2,plate9-ATCGATCGAGATAACG,0.00512,interpolated,0.005593,0.005593,interpolated,1.526,0.937,0,0.9675,0.05904
 human,seqneut25to26_sera_1044_d0,A/Belgium/H0097/2025_H3N2,plate9-AAGCAGTTTGCCCCCA,0.005265,interpolated,0.006153,0.006153,interpolated,1.747,0.8807,0,0.9357,0.0795
 human,seqneut25to26_sera_1044_d0,A/Bahia/3102/2025_H3N2,plate9-TGAGTGTCCAGGTACT,0.004046,interpolated,0.004241,0.004241,interpolated,2.351,0.9477,0,0.9677,0.06575
@@ -1839,10 +1832,9 @@ human,seqneut25to26_sera_1044_d28,A/HongKong/1257/2025_H3N2,plate9-CACACCTCTCTCG
 human,seqneut25to26_sera_1044_d28,A/HongKong/1257/2025_H3N2,plate9-GTATAGAAATGGGTCA,0.001156,interpolated,0.001278,0.001278,interpolated,2.058,0.9067,0,0.9818,0.05142
 human,seqneut25to26_sera_1044_d28,A/Ghana/FS-25-7077/2025_H3N2,plate9-CACATACAACACGACC,0.002901,interpolated,0.002901,0.002901,interpolated,2.161,1,0,0.9912,0.03886
 human,seqneut25to26_sera_1044_d28,A/Ghana/FS-25-7077/2025_H3N2,plate9-TTTCGGGGCCCCAATG,0.003178,interpolated,0.003805,0.003805,interpolated,2.165,0.8387,0,0.8851,0.1237
-human,seqneut25to26_sera_1044_d28,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.001304,interpolated,0.001379,0.001379,interpolated,4.334,0.8921,0,0.9479,0.09779
-human,seqneut25to26_sera_1044_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001386,interpolated,0.001733,0.001733,interpolated,2.732,0.7712,0,0.9995,0.007487
 human,seqneut25to26_sera_1044_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-CATGTGGAGGGTCGAG,0.002988,interpolated,0.003613,0.003613,interpolated,4.248,0.7229,0,0.9418,0.07964
 human,seqneut25to26_sera_1044_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate9-TAGCCTATAATCAAGT,0.001639,interpolated,0.001829,0.001829,interpolated,1.561,0.9211,0,0.9665,0.06923
+human,seqneut25to26_sera_1044_d28,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.001386,interpolated,0.001733,0.001733,interpolated,2.732,0.7712,0,0.9995,0.007487
 human,seqneut25to26_sera_1044_d28,A/Darwin/1405/2025_H1N1,plate9-CGTCAATGGGTCATCG,0.002393,interpolated,0.002643,0.002643,interpolated,3.182,0.8644,0,0.9819,0.05208
 human,seqneut25to26_sera_1044_d28,A/Darwin/1405/2025_H1N1,plate9-TCGCTTTAGCCGGACC,0.002197,interpolated,0.002293,0.002293,interpolated,2.937,0.941,0,0.9938,0.03277
 human,seqneut25to26_sera_1044_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate9-CGTTGCATGTAGCAGG,0.001064,interpolated,0.001142,0.001142,interpolated,1.575,0.9474,0,0.9808,0.05336
@@ -2033,10 +2025,9 @@ human,seqneut25to26_sera_0033,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate9-ATTACA
 human,seqneut25to26_sera_0033,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate9-CATCGACAGGTCCCAC,0.0008132,interpolated,0.0008132,0.0008132,interpolated,2.223,1,0,0.9987,0.01527
 human,seqneut25to26_sera_0033,A/HongKong/1257/2025_H3N2,plate9-CACACCTCTCTCGCCG,0.001956,interpolated,0.002709,0.002709,interpolated,3.221,0.675,0,0.8964,0.1012
 human,seqneut25to26_sera_0033,A/HongKong/1257/2025_H3N2,plate9-GTATAGAAATGGGTCA,0.001604,interpolated,0.001909,0.001909,interpolated,1.638,0.8763,0,0.9841,0.04419
-human,seqneut25to26_sera_0033,A/England/174/2025_H3N2,plate9-CACGGCTGGAGCGGCC,0.0007859,interpolated,0.00122,0.00122,interpolated,2.676,0.6541,0,0.8059,0.1413
-human,seqneut25to26_sera_0033,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.0009677,interpolated,0.001215,0.001215,interpolated,1.107,0.8888,0,0.9069,0.1016
 human,seqneut25to26_sera_0033,A/Guangxi-Daxin/1643/2025_H3N2,plate9-CCATACCACGCCCTGT,0.001387,interpolated,0.002039,0.002039,interpolated,1.294,0.8036,0,0.9851,0.03733
 human,seqneut25to26_sera_0033,A/Guangxi-Daxin/1643/2025_H3N2,plate9-GAACACAATTACTTAG,0.002189,interpolated,0.002214,0.002214,interpolated,1.015,0.9943,0,0.8789,0.1272
+human,seqneut25to26_sera_0033,A/England/174/2025_H3N2,plate9-CCTTATGAATTACGCG,0.0009677,interpolated,0.001215,0.001215,interpolated,1.107,0.8888,0,0.9069,0.1016
 human,seqneut25to26_sera_0033,A/Bhutan/1267/2025_H3N2,plate9-CTGAGTATGGGGCTCA,0.00134,interpolated,0.001499,0.001499,interpolated,3.393,0.8417,0,0.9594,0.07758
 human,seqneut25to26_sera_0033,A/Bhutan/1267/2025_H3N2,plate9-TAAAAGCTCCCATTAC,0.001909,interpolated,0.002067,0.002067,interpolated,2.171,0.9206,0,0.9779,0.05985
 human,seqneut25to26_sera_0033,A/DistritoFederal/2578578201/2025_H3N2,plate9-GAACGGAGATCTGTTG,0.00184,interpolated,0.002439,0.002439,interpolated,2.085,0.7779,0,0.9575,0.0664

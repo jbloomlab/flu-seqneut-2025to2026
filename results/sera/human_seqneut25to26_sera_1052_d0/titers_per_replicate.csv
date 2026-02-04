@@ -170,7 +170,6 @@ human,seqneut25to26_sera_1052_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate13-AGAGC
 human,seqneut25to26_sera_1052_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate13-AAGTTAAGAGAAAGTT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,4.462
 human,seqneut25to26_sera_1052_d0,A/Victoria/4897/2022_IVR-238_H1N1,plate13-AATCCGAAATTTATTC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,10
 human,seqneut25to26_sera_1052_d0,A/England/174/2025_H3N2,plate13-CCTTATGAATTACGCG,1717,interpolated,midpoint,2059,1717,0.9004,0,1.224
-human,seqneut25to26_sera_1052_d0,A/England/174/2025_H3N2,plate13-CACGGCTGGAGCGGCC,895.3,interpolated,midpoint,994.4,895.3,0.7274,0,7.507
 human,seqneut25to26_sera_1052_d0,A/DistrictOfColumbia/27/2023_H3N2,plate13-AAGAAGCTATAGAAGT,497.5,interpolated,midpoint,528.3,497.5,0.7745,0,10
 human,seqneut25to26_sera_1052_d0,A/DistrictOfColumbia/27/2023_H3N2,plate13-GAATAATAGAACAGAG,312.3,interpolated,midpoint,330.9,312.3,0.8536,0,5.996
 human,seqneut25to26_sera_1052_d0,A/Guangdong-Maonan/11438/2025_H3N2,plate13-AAGACGAAGCGTTTGC,1128,interpolated,midpoint,1235,1128,0.7018,0,10

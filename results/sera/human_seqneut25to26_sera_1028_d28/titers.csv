@@ -33,7 +33,7 @@ human,seqneut25to26_sera_1028_d28,A/DistrictOfColumbia/27/2023_H3N2,508.2,interp
 human,seqneut25to26_sera_1028_d28,A/DistrictOfColumbia/57/2025_H3N2,313.6,interpolated,48.67,2,midpoint
 human,seqneut25to26_sera_1028_d28,A/DistritoFederal/250106000728/2025_H3N2,282.8,interpolated,140.9,2,midpoint
 human,seqneut25to26_sera_1028_d28,A/DistritoFederal/2578578201/2025_H3N2,306.3,interpolated,24.69,2,midpoint
-human,seqneut25to26_sera_1028_d28,A/England/174/2025_H3N2,542.5,interpolated,13.25,2,midpoint
+human,seqneut25to26_sera_1028_d28,A/England/174/2025_H3N2,529.2,interpolated,,1,midpoint
 human,seqneut25to26_sera_1028_d28,A/England/1822256/2025_H1N1,96.71,interpolated,25.45,2,midpoint
 human,seqneut25to26_sera_1028_d28,A/England/1837734/2025_H3N2,395.1,interpolated,42.53,2,midpoint
 human,seqneut25to26_sera_1028_d28,A/England/1837737/2025_H3N2,446.9,interpolated,178.3,2,midpoint

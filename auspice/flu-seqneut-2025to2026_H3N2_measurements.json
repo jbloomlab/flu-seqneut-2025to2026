@@ -246,13 +246,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0001_All",
           "strain": "A/England/174/2025",
-          "value": 7.1518
+          "value": 7.0179
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0001_SCH",
           "strain": "A/England/174/2025",
-          "value": 7.1518
+          "value": 7.0179
         },
         {
           "cohort": "All",
@@ -894,13 +894,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0002_All",
           "strain": "A/England/174/2025",
-          "value": 12.433
+          "value": 12.937
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0002_SCH",
           "strain": "A/England/174/2025",
-          "value": 12.433
+          "value": 12.937
         },
         {
           "cohort": "All",
@@ -2753,18 +2753,6 @@
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_0005_All",
-          "strain": "A/England/174/2025",
-          "value": 8.7448
-        },
-        {
-          "cohort": "SCH",
-          "serum": "seqneut25to26_sera_0005_SCH",
-          "strain": "A/England/174/2025",
-          "value": 8.7448
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_0005_All",
           "strain": "A/England/1837734/2025",
           "value": 5.8607
         },
@@ -3378,13 +3366,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0006_All",
           "strain": "A/England/174/2025",
-          "value": 9.3072
+          "value": 9.7761
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0006_SCH",
           "strain": "A/England/174/2025",
-          "value": 9.3072
+          "value": 9.7761
         },
         {
           "cohort": "All",
@@ -4614,13 +4602,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0008_All",
           "strain": "A/England/174/2025",
-          "value": 11.848
+          "value": 11.219
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0008_SCH",
           "strain": "A/England/174/2025",
-          "value": 11.848
+          "value": 11.219
         },
         {
           "cohort": "All",
@@ -5262,13 +5250,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0009_All",
           "strain": "A/England/174/2025",
-          "value": 11.328
+          "value": 11.246
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0009_SCH",
           "strain": "A/England/174/2025",
-          "value": 11.328
+          "value": 11.246
         },
         {
           "cohort": "All",
@@ -5898,13 +5886,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0010_All",
           "strain": "A/England/174/2025",
-          "value": 8.5706
+          "value": 8.3033
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0010_SCH",
           "strain": "A/England/174/2025",
-          "value": 8.5706
+          "value": 8.3033
         },
         {
           "cohort": "All",
@@ -6546,13 +6534,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0011_All",
           "strain": "A/England/174/2025",
-          "value": 6.9612
+          "value": 7.0011
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0011_SCH",
           "strain": "A/England/174/2025",
-          "value": 6.9612
+          "value": 7.0011
         },
         {
           "cohort": "All",
@@ -7194,13 +7182,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0012_All",
           "strain": "A/England/174/2025",
-          "value": 11.126
+          "value": 11.058
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0012_SCH",
           "strain": "A/England/174/2025",
-          "value": 11.126
+          "value": 11.058
         },
         {
           "cohort": "All",
@@ -7842,13 +7830,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0013_All",
           "strain": "A/England/174/2025",
-          "value": 8.7218
+          "value": 8.5173
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0013_SCH",
           "strain": "A/England/174/2025",
-          "value": 8.7218
+          "value": 8.5173
         },
         {
           "cohort": "All",
@@ -9114,13 +9102,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0015_All",
           "strain": "A/England/174/2025",
-          "value": 7.566
+          "value": 6.3418
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0015_SCH",
           "strain": "A/England/174/2025",
-          "value": 7.566
+          "value": 6.3418
         },
         {
           "cohort": "All",
@@ -10398,13 +10386,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0017_All",
           "strain": "A/England/174/2025",
-          "value": 10.527
+          "value": 10.262
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0017_SCH",
           "strain": "A/England/174/2025",
-          "value": 10.527
+          "value": 10.262
         },
         {
           "cohort": "All",
@@ -11046,13 +11034,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0018_All",
           "strain": "A/England/174/2025",
-          "value": 6.5515
+          "value": 5.8902
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0018_SCH",
           "strain": "A/England/174/2025",
-          "value": 6.5515
+          "value": 5.8902
         },
         {
           "cohort": "All",
@@ -11694,13 +11682,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0019_All",
           "strain": "A/England/174/2025",
-          "value": 12.358
+          "value": 11.585
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0019_SCH",
           "strain": "A/England/174/2025",
-          "value": 12.358
+          "value": 11.585
         },
         {
           "cohort": "All",
@@ -12966,13 +12954,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0021_All",
           "strain": "A/England/174/2025",
-          "value": 9.1609
+          "value": 9.2121
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0021_SCH",
           "strain": "A/England/174/2025",
-          "value": 9.1609
+          "value": 9.2121
         },
         {
           "cohort": "All",
@@ -14226,13 +14214,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0023_All",
           "strain": "A/England/174/2025",
-          "value": 12.603
+          "value": 13.129
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0023_SCH",
           "strain": "A/England/174/2025",
-          "value": 12.603
+          "value": 13.129
         },
         {
           "cohort": "All",
@@ -16170,13 +16158,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0026_All",
           "strain": "A/England/174/2025",
-          "value": 7.3811
+          "value": 5.3219
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0026_SCH",
           "strain": "A/England/174/2025",
-          "value": 7.3811
+          "value": 5.3219
         },
         {
           "cohort": "All",
@@ -16818,13 +16806,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0027_All",
           "strain": "A/England/174/2025",
-          "value": 5.4799
+          "value": 5.405
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0027_SCH",
           "strain": "A/England/174/2025",
-          "value": 5.4799
+          "value": 5.405
         },
         {
           "cohort": "All",
@@ -18114,13 +18102,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0029_All",
           "strain": "A/England/174/2025",
-          "value": 10.756
+          "value": 10.662
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0029_SCH",
           "strain": "A/England/174/2025",
-          "value": 10.756
+          "value": 10.662
         },
         {
           "cohort": "All",
@@ -18762,13 +18750,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0030_All",
           "strain": "A/England/174/2025",
-          "value": 13.529
+          "value": 13.291
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0030_SCH",
           "strain": "A/England/174/2025",
-          "value": 13.529
+          "value": 13.291
         },
         {
           "cohort": "All",
@@ -19410,13 +19398,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0031_All",
           "strain": "A/England/174/2025",
-          "value": 10.253
+          "value": 10.379
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0031_SCH",
           "strain": "A/England/174/2025",
-          "value": 10.253
+          "value": 10.379
         },
         {
           "cohort": "All",
@@ -20058,13 +20046,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0032_All",
           "strain": "A/England/174/2025",
-          "value": 8.3953
+          "value": 8.9504
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0032_SCH",
           "strain": "A/England/174/2025",
-          "value": 8.3953
+          "value": 8.9504
         },
         {
           "cohort": "All",
@@ -20706,13 +20694,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0033_All",
           "strain": "A/England/174/2025",
-          "value": 9.6819
+          "value": 9.6853
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0033_SCH",
           "strain": "A/England/174/2025",
-          "value": 9.6819
+          "value": 9.6853
         },
         {
           "cohort": "All",
@@ -21354,13 +21342,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0034_All",
           "strain": "A/England/174/2025",
-          "value": 7.2668
+          "value": 7.5322
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0034_SCH",
           "strain": "A/England/174/2025",
-          "value": 7.2668
+          "value": 7.5322
         },
         {
           "cohort": "All",
@@ -22002,13 +21990,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0035_All",
           "strain": "A/England/174/2025",
-          "value": 9.5032
+          "value": 9.7567
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0035_SCH",
           "strain": "A/England/174/2025",
-          "value": 9.5032
+          "value": 9.7567
         },
         {
           "cohort": "All",
@@ -22650,13 +22638,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0036_All",
           "strain": "A/England/174/2025",
-          "value": 10.63
+          "value": 10.786
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0036_SCH",
           "strain": "A/England/174/2025",
-          "value": 10.63
+          "value": 10.786
         },
         {
           "cohort": "All",
@@ -23298,13 +23286,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_0037_All",
           "strain": "A/England/174/2025",
-          "value": 5.5874
+          "value": 5.7955
         },
         {
           "cohort": "SCH",
           "serum": "seqneut25to26_sera_0037_SCH",
           "strain": "A/England/174/2025",
-          "value": 5.5874
+          "value": 5.7955
         },
         {
           "cohort": "All",
@@ -25356,19 +25344,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1001_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 10.906
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1001_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 10.906
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1001_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 10.906
         },
         {
           "cohort": "All",
@@ -26328,19 +26316,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1001_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.407
+          "value": 11.231
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1001_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.407
+          "value": 11.231
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1001_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.407
+          "value": 11.231
         },
         {
           "cohort": "All",
@@ -27300,19 +27288,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1002_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.5058
+          "value": 6.9612
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1002_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.5058
+          "value": 6.9612
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1002_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.5058
+          "value": 6.9612
         },
         {
           "cohort": "All",
@@ -30216,19 +30204,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1003_d28_All",
           "strain": "A/England/174/2025",
-          "value": 8.1339
+          "value": 8.136
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1003_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.1339
+          "value": 8.136
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1003_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.1339
+          "value": 8.136
         },
         {
           "cohort": "All",
@@ -31188,19 +31176,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1004_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.2997
+          "value": 6.0248
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1004_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.2997
+          "value": 6.0248
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1004_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.2997
+          "value": 6.0248
         },
         {
           "cohort": "All",
@@ -32160,19 +32148,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1004_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.395
+          "value": 8.1933
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1004_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.395
+          "value": 8.1933
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1004_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.395
+          "value": 8.1933
         },
         {
           "cohort": "All",
@@ -33114,19 +33102,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1005_d0_All",
           "strain": "A/England/174/2025",
-          "value": 11.204
+          "value": 11.967
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1005_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.204
+          "value": 11.967
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1005_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.204
+          "value": 11.967
         },
         {
           "cohort": "All",
@@ -34086,19 +34074,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1005_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.356
+          "value": 12.191
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1005_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.356
+          "value": 12.191
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1005_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.356
+          "value": 12.191
         },
         {
           "cohort": "All",
@@ -35058,19 +35046,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1006_d0_All",
           "strain": "A/England/174/2025",
-          "value": 11.123
+          "value": 10.572
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1006_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.123
+          "value": 10.572
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1006_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.123
+          "value": 10.572
         },
         {
           "cohort": "All",
@@ -36030,19 +36018,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1006_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 11.26
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1006_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 11.26
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1006_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.566
+          "value": 11.26
         },
         {
           "cohort": "All",
@@ -37974,19 +37962,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1007_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.105
+          "value": 11.888
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1007_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.105
+          "value": 11.888
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1007_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.105
+          "value": 11.888
         },
         {
           "cohort": "All",
@@ -38946,19 +38934,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1008_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.8869
+          "value": 7.9431
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1008_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.8869
+          "value": 7.9431
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1008_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.8869
+          "value": 7.9431
         },
         {
           "cohort": "All",
@@ -39918,19 +39906,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1008_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.824
+          "value": 10.682
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1008_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.824
+          "value": 10.682
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1008_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.824
+          "value": 10.682
         },
         {
           "cohort": "All",
@@ -40890,19 +40878,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1009_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.5024
+          "value": 9.8581
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1009_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.5024
+          "value": 9.8581
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1009_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.5024
+          "value": 9.8581
         },
         {
           "cohort": "All",
@@ -41857,6 +41845,24 @@
           "serum": "seqneut25to26_sera_1009_d28_PENN_28d-post-vax",
           "strain": "A/DistritoFederal/2578578201/2025",
           "value": 8.1184
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_1009_d28_All",
+          "strain": "A/England/174/2025",
+          "value": 8.5341
+        },
+        {
+          "cohort": "PENN",
+          "serum": "seqneut25to26_sera_1009_d28_PENN",
+          "strain": "A/England/174/2025",
+          "value": 8.5341
+        },
+        {
+          "cohort": "PENN_28d-post-vax",
+          "serum": "seqneut25to26_sera_1009_d28_PENN_28d-post-vax",
+          "strain": "A/England/174/2025",
+          "value": 8.5341
         },
         {
           "cohort": "All",
@@ -42816,19 +42822,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1010_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.8633
+          "value": 9.2126
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1010_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.8633
+          "value": 9.2126
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1010_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.8633
+          "value": 9.2126
         },
         {
           "cohort": "All",
@@ -43788,19 +43794,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1010_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.8386
+          "value": 10.36
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1010_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.8386
+          "value": 10.36
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1010_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.8386
+          "value": 10.36
         },
         {
           "cohort": "All",
@@ -44760,19 +44766,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1011_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.5343
+          "value": 9.3492
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1011_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.5343
+          "value": 9.3492
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1011_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.5343
+          "value": 9.3492
         },
         {
           "cohort": "All",
@@ -45732,19 +45738,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1011_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.839
+          "value": 10.665
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1011_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.839
+          "value": 10.665
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1011_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.839
+          "value": 10.665
         },
         {
           "cohort": "All",
@@ -46704,19 +46710,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1012_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.9884
+          "value": 9.5837
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1012_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.9884
+          "value": 9.5837
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1012_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.9884
+          "value": 9.5837
         },
         {
           "cohort": "All",
@@ -48648,19 +48654,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1013_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.6446
+          "value": 7.0411
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1013_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.6446
+          "value": 7.0411
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1013_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.6446
+          "value": 7.0411
         },
         {
           "cohort": "All",
@@ -49620,19 +49626,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1013_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.0688
+          "value": 9.2826
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1013_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.0688
+          "value": 9.2826
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1013_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.0688
+          "value": 9.2826
         },
         {
           "cohort": "All",
@@ -50592,19 +50598,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1014_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.6997
+          "value": 7.375
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1014_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.6997
+          "value": 7.375
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1014_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.6997
+          "value": 7.375
         },
         {
           "cohort": "All",
@@ -51564,19 +51570,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1014_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.7074
+          "value": 8.2216
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1014_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.7074
+          "value": 8.2216
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1014_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.7074
+          "value": 8.2216
         },
         {
           "cohort": "All",
@@ -52536,19 +52542,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1015_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.1915
+          "value": 9.0912
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1015_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.1915
+          "value": 9.0912
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1015_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.1915
+          "value": 9.0912
         },
         {
           "cohort": "All",
@@ -53508,19 +53514,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1015_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.955
+          "value": 12.044
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1015_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.955
+          "value": 12.044
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1015_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.955
+          "value": 12.044
         },
         {
           "cohort": "All",
@@ -55452,19 +55458,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1016_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.177
+          "value": 11.588
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1016_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.177
+          "value": 11.588
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1016_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.177
+          "value": 11.588
         },
         {
           "cohort": "All",
@@ -56424,19 +56430,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1017_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.9293
+          "value": 6.7642
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1017_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.9293
+          "value": 6.7642
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1017_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.9293
+          "value": 6.7642
         },
         {
           "cohort": "All",
@@ -57378,19 +57384,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1017_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.3038
+          "value": 9.6931
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1017_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.3038
+          "value": 9.6931
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1017_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.3038
+          "value": 9.6931
         },
         {
           "cohort": "All",
@@ -58327,24 +58333,6 @@
           "serum": "seqneut25to26_sera_1018_d0_PENN_0d-post-vax",
           "strain": "A/DistritoFederal/2578578201/2025",
           "value": 5.6044
-        },
-        {
-          "cohort": "All",
-          "serum": "seqneut25to26_sera_1018_d0_All",
-          "strain": "A/England/174/2025",
-          "value": 8.0731
-        },
-        {
-          "cohort": "PENN",
-          "serum": "seqneut25to26_sera_1018_d0_PENN",
-          "strain": "A/England/174/2025",
-          "value": 8.0731
-        },
-        {
-          "cohort": "PENN_0d-post-vax",
-          "serum": "seqneut25to26_sera_1018_d0_PENN_0d-post-vax",
-          "strain": "A/England/174/2025",
-          "value": 8.0731
         },
         {
           "cohort": "All",
@@ -59304,19 +59292,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1018_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.1096
+          "value": 7.1324
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1018_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.1096
+          "value": 7.1324
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1018_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.1096
+          "value": 7.1324
         },
         {
           "cohort": "All",
@@ -60276,19 +60264,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1019_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.583
+          "value": 10.027
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1019_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.583
+          "value": 10.027
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1019_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.583
+          "value": 10.027
         },
         {
           "cohort": "All",
@@ -61248,19 +61236,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1019_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.969
+          "value": 10.524
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1019_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.969
+          "value": 10.524
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1019_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.969
+          "value": 10.524
         },
         {
           "cohort": "All",
@@ -62220,19 +62208,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1020_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.7046
+          "value": 9.2955
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1020_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.7046
+          "value": 9.2955
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1020_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.7046
+          "value": 9.2955
         },
         {
           "cohort": "All",
@@ -63192,19 +63180,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1020_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.802
+          "value": 10.873
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1020_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.802
+          "value": 10.873
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1020_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.802
+          "value": 10.873
         },
         {
           "cohort": "All",
@@ -64164,19 +64152,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1021_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.504
+          "value": 11.182
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1021_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.504
+          "value": 11.182
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1021_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.504
+          "value": 11.182
         },
         {
           "cohort": "All",
@@ -65136,19 +65124,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1021_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.563
+          "value": 11.188
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1021_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.563
+          "value": 11.188
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1021_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.563
+          "value": 11.188
         },
         {
           "cohort": "All",
@@ -66108,19 +66096,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1022_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.732
+          "value": 7.5887
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1022_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.732
+          "value": 7.5887
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1022_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.732
+          "value": 7.5887
         },
         {
           "cohort": "All",
@@ -67080,19 +67068,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1022_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.231
+          "value": 10.822
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1022_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.231
+          "value": 10.822
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1022_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.231
+          "value": 10.822
         },
         {
           "cohort": "All",
@@ -68052,19 +68040,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1023_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.587
+          "value": 10.629
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1023_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.587
+          "value": 10.629
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1023_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.587
+          "value": 10.629
         },
         {
           "cohort": "All",
@@ -69024,19 +69012,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1023_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.886
+          "value": 12.18
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1023_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.886
+          "value": 12.18
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1023_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.886
+          "value": 12.18
         },
         {
           "cohort": "All",
@@ -70968,19 +70956,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1024_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.694
+          "value": 11.156
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1024_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.694
+          "value": 11.156
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1024_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.694
+          "value": 11.156
         },
         {
           "cohort": "All",
@@ -72912,19 +72900,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1025_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.5269
+          "value": 9.8895
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1025_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.5269
+          "value": 9.8895
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1025_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.5269
+          "value": 9.8895
         },
         {
           "cohort": "All",
@@ -74838,19 +74826,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1026_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0235
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1026_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0235
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1026_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0235
         },
         {
           "cohort": "All",
@@ -75810,19 +75798,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1027_d0_All",
           "strain": "A/England/174/2025",
-          "value": 6.5735
+          "value": 6.6496
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1027_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 6.5735
+          "value": 6.6496
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1027_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 6.5735
+          "value": 6.6496
         },
         {
           "cohort": "All",
@@ -76782,19 +76770,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1027_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.1989
+          "value": 7.9652
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1027_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.1989
+          "value": 7.9652
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1027_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.1989
+          "value": 7.9652
         },
         {
           "cohort": "All",
@@ -77754,19 +77742,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1028_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.6337
+          "value": 8.4094
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1028_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.6337
+          "value": 8.4094
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1028_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.6337
+          "value": 8.4094
         },
         {
           "cohort": "All",
@@ -78726,19 +78714,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1028_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.0835
+          "value": 9.0477
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1028_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.0835
+          "value": 9.0477
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1028_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.0835
+          "value": 9.0477
         },
         {
           "cohort": "All",
@@ -79698,19 +79686,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1029_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.7944
+          "value": 8.5333
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1029_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.7944
+          "value": 8.5333
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1029_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.7944
+          "value": 8.5333
         },
         {
           "cohort": "All",
@@ -81642,19 +81630,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1030_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.8464
+          "value": 9.2201
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1030_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.8464
+          "value": 9.2201
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1030_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.8464
+          "value": 9.2201
         },
         {
           "cohort": "All",
@@ -82614,19 +82602,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1030_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.467
+          "value": 10.378
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1030_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.467
+          "value": 10.378
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1030_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.467
+          "value": 10.378
         },
         {
           "cohort": "All",
@@ -83586,19 +83574,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1031_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.105
+          "value": 10.568
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1031_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.105
+          "value": 10.568
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1031_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.105
+          "value": 10.568
         },
         {
           "cohort": "All",
@@ -84558,19 +84546,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1031_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.533
+          "value": 10.884
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1031_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.533
+          "value": 10.884
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1031_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.533
+          "value": 10.884
         },
         {
           "cohort": "All",
@@ -85530,19 +85518,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1032_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.047
+          "value": 9.8998
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1032_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.047
+          "value": 9.8998
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1032_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.047
+          "value": 9.8998
         },
         {
           "cohort": "All",
@@ -86502,19 +86490,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1032_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.176
+          "value": 12.199
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1032_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.176
+          "value": 12.199
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1032_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.176
+          "value": 12.199
         },
         {
           "cohort": "All",
@@ -88446,19 +88434,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1033_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.074
+          "value": 9.3949
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1033_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.074
+          "value": 9.3949
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1033_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.074
+          "value": 9.3949
         },
         {
           "cohort": "All",
@@ -90390,19 +90378,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1034_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.437
+          "value": 10.671
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1034_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.437
+          "value": 10.671
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1034_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.437
+          "value": 10.671
         },
         {
           "cohort": "All",
@@ -91362,19 +91350,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1035_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0123
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1035_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0123
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1035_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0123
         },
         {
           "cohort": "All",
@@ -92334,19 +92322,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1035_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.1762
+          "value": 9.5112
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1035_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.1762
+          "value": 9.5112
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1035_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.1762
+          "value": 9.5112
         },
         {
           "cohort": "All",
@@ -94278,19 +94266,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1036_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.915
+          "value": 11.543
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1036_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.915
+          "value": 11.543
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1036_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.915
+          "value": 11.543
         },
         {
           "cohort": "All",
@@ -95250,19 +95238,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1037_d0_All",
           "strain": "A/England/174/2025",
-          "value": 11.888
+          "value": 11.509
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1037_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.888
+          "value": 11.509
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1037_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.888
+          "value": 11.509
         },
         {
           "cohort": "All",
@@ -96222,19 +96210,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1037_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.171
+          "value": 10.943
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1037_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.171
+          "value": 10.943
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1037_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.171
+          "value": 10.943
         },
         {
           "cohort": "All",
@@ -97194,19 +97182,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1038_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.659
+          "value": 10.676
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1038_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.659
+          "value": 10.676
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1038_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.659
+          "value": 10.676
         },
         {
           "cohort": "All",
@@ -98166,19 +98154,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1038_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.269
+          "value": 11.55
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1038_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.269
+          "value": 11.55
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1038_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.269
+          "value": 11.55
         },
         {
           "cohort": "All",
@@ -99138,19 +99126,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1039_d0_All",
           "strain": "A/England/174/2025",
-          "value": 11.661
+          "value": 11.498
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1039_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.661
+          "value": 11.498
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1039_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.661
+          "value": 11.498
         },
         {
           "cohort": "All",
@@ -100110,19 +100098,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1039_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.986
+          "value": 11.796
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1039_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.986
+          "value": 11.796
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1039_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.986
+          "value": 11.796
         },
         {
           "cohort": "All",
@@ -102054,19 +102042,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1040_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.6
+          "value": 11.174
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1040_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.6
+          "value": 11.174
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1040_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.6
+          "value": 11.174
         },
         {
           "cohort": "All",
@@ -103998,19 +103986,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1041_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.3846
+          "value": 7.122
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1041_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.3846
+          "value": 7.122
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1041_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.3846
+          "value": 7.122
         },
         {
           "cohort": "All",
@@ -105924,19 +105912,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1042_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.0507
+          "value": 9.8657
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1042_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.0507
+          "value": 9.8657
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1042_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.0507
+          "value": 9.8657
         },
         {
           "cohort": "All",
@@ -106896,19 +106884,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1043_d0_All",
           "strain": "A/England/174/2025",
-          "value": 6.5503
+          "value": 6.3688
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1043_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 6.5503
+          "value": 6.3688
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1043_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 6.5503
+          "value": 6.3688
         },
         {
           "cohort": "All",
@@ -108804,19 +108792,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1044_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.4537
+          "value": 7.7715
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1044_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.4537
+          "value": 7.7715
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1044_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.4537
+          "value": 7.7715
         },
         {
           "cohort": "All",
@@ -109776,19 +109764,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1044_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.3467
+          "value": 9.1724
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1044_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.3467
+          "value": 9.1724
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1044_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.3467
+          "value": 9.1724
         },
         {
           "cohort": "All",
@@ -110748,19 +110736,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1045_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.8304
+          "value": 7.8297
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1045_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.8304
+          "value": 7.8297
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1045_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.8304
+          "value": 7.8297
         },
         {
           "cohort": "All",
@@ -111720,19 +111708,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1045_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.008
+          "value": 9.2919
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1045_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.008
+          "value": 9.2919
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1045_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.008
+          "value": 9.2919
         },
         {
           "cohort": "All",
@@ -112692,19 +112680,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1046_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.9972
+          "value": 9.0323
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1046_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.9972
+          "value": 9.0323
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1046_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.9972
+          "value": 9.0323
         },
         {
           "cohort": "All",
@@ -113664,19 +113652,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1046_d28_All",
           "strain": "A/England/174/2025",
-          "value": 8.5236
+          "value": 8.9102
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1046_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.5236
+          "value": 8.9102
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1046_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.5236
+          "value": 8.9102
         },
         {
           "cohort": "All",
@@ -114636,19 +114624,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1047_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.6728
+          "value": 8.3273
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1047_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.6728
+          "value": 8.3273
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1047_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.6728
+          "value": 8.3273
         },
         {
           "cohort": "All",
@@ -115590,19 +115578,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1047_d28_All",
           "strain": "A/England/174/2025",
-          "value": 8.8842
+          "value": 9.4684
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1047_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.8842
+          "value": 9.4684
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1047_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.8842
+          "value": 9.4684
         },
         {
           "cohort": "All",
@@ -118506,19 +118494,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1049_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.7635
+          "value": 7.2564
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1049_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.7635
+          "value": 7.2564
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1049_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.7635
+          "value": 7.2564
         },
         {
           "cohort": "All",
@@ -120432,19 +120420,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1050_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.6029
+          "value": 6.96
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1050_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.6029
+          "value": 6.96
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1050_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.6029
+          "value": 6.96
         },
         {
           "cohort": "All",
@@ -121404,19 +121392,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1050_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.4254
+          "value": 7.7853
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1050_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.4254
+          "value": 7.7853
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1050_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.4254
+          "value": 7.7853
         },
         {
           "cohort": "All",
@@ -123348,19 +123336,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1051_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.8341
+          "value": 8.7702
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1051_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.8341
+          "value": 8.7702
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1051_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.8341
+          "value": 8.7702
         },
         {
           "cohort": "All",
@@ -124320,19 +124308,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1052_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.351
+          "value": 10.746
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1052_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.351
+          "value": 10.746
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1052_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.351
+          "value": 10.746
         },
         {
           "cohort": "All",
@@ -125292,19 +125280,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1052_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.787
+          "value": 10.146
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1052_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.787
+          "value": 10.146
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1052_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.787
+          "value": 10.146
         },
         {
           "cohort": "All",
@@ -127236,19 +127224,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1053_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.992
+          "value": 10.566
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1053_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.992
+          "value": 10.566
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1053_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.992
+          "value": 10.566
         },
         {
           "cohort": "All",
@@ -128208,19 +128196,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1054_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.704
+          "value": 9.9132
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1054_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.704
+          "value": 9.9132
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1054_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.704
+          "value": 9.9132
         },
         {
           "cohort": "All",
@@ -129180,19 +129168,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1054_d28_All",
           "strain": "A/England/174/2025",
-          "value": 10.854
+          "value": 9.016
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1054_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.854
+          "value": 9.016
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1054_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.854
+          "value": 9.016
         },
         {
           "cohort": "All",
@@ -130152,19 +130140,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1055_d0_All",
           "strain": "A/England/174/2025",
-          "value": 7.0715
+          "value": 7.4279
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1055_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.0715
+          "value": 7.4279
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1055_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.0715
+          "value": 7.4279
         },
         {
           "cohort": "All",
@@ -131124,19 +131112,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1055_d28_All",
           "strain": "A/England/174/2025",
-          "value": 7.9824
+          "value": 8.3083
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1055_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 7.9824
+          "value": 8.3083
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1055_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 7.9824
+          "value": 8.3083
         },
         {
           "cohort": "All",
@@ -132096,19 +132084,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1056_d0_All",
           "strain": "A/England/174/2025",
-          "value": 10.046
+          "value": 9.3569
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1056_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 10.046
+          "value": 9.3569
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1056_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 10.046
+          "value": 9.3569
         },
         {
           "cohort": "All",
@@ -133068,19 +133056,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1056_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.803
+          "value": 11.712
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1056_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.803
+          "value": 11.712
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1056_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.803
+          "value": 11.712
         },
         {
           "cohort": "All",
@@ -134040,19 +134028,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1057_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.9099
+          "value": 9.3381
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1057_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.9099
+          "value": 9.3381
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1057_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.9099
+          "value": 9.3381
         },
         {
           "cohort": "All",
@@ -135012,19 +135000,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1057_d28_All",
           "strain": "A/England/174/2025",
-          "value": 12.062
+          "value": 12.247
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1057_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 12.062
+          "value": 12.247
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1057_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 12.062
+          "value": 12.247
         },
         {
           "cohort": "All",
@@ -135984,19 +135972,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1058_d0_All",
           "strain": "A/England/174/2025",
-          "value": 8.8192
+          "value": 7.9983
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1058_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 8.8192
+          "value": 7.9983
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1058_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 8.8192
+          "value": 7.9983
         },
         {
           "cohort": "All",
@@ -136956,19 +136944,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1058_d28_All",
           "strain": "A/England/174/2025",
-          "value": 11.154
+          "value": 10.954
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1058_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 11.154
+          "value": 10.954
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1058_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 11.154
+          "value": 10.954
         },
         {
           "cohort": "All",
@@ -137928,19 +137916,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1059_d0_All",
           "strain": "A/England/174/2025",
-          "value": 9.3461
+          "value": 9.4407
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1059_d0_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.3461
+          "value": 9.4407
         },
         {
           "cohort": "PENN_0d-post-vax",
           "serum": "seqneut25to26_sera_1059_d0_PENN_0d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.3461
+          "value": 9.4407
         },
         {
           "cohort": "All",
@@ -138900,19 +138888,19 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_1059_d28_All",
           "strain": "A/England/174/2025",
-          "value": 9.6344
+          "value": 9.0755
         },
         {
           "cohort": "PENN",
           "serum": "seqneut25to26_sera_1059_d28_PENN",
           "strain": "A/England/174/2025",
-          "value": 9.6344
+          "value": 9.0755
         },
         {
           "cohort": "PENN_28d-post-vax",
           "serum": "seqneut25to26_sera_1059_d28_PENN_28d-post-vax",
           "strain": "A/England/174/2025",
-          "value": 9.6344
+          "value": 9.0755
         },
         {
           "cohort": "All",
@@ -139758,13 +139746,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3001_All",
           "strain": "A/England/174/2025",
-          "value": 10.285
+          "value": 9.4294
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3001_HKU",
           "strain": "A/England/174/2025",
-          "value": 10.285
+          "value": 9.4294
         },
         {
           "cohort": "All",
@@ -140406,13 +140394,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3002_All",
           "strain": "A/England/174/2025",
-          "value": 10.118
+          "value": 9.4054
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3002_HKU",
           "strain": "A/England/174/2025",
-          "value": 10.118
+          "value": 9.4054
         },
         {
           "cohort": "All",
@@ -141054,13 +141042,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3003_All",
           "strain": "A/England/174/2025",
-          "value": 5.8977
+          "value": 5.3219
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3003_HKU",
           "strain": "A/England/174/2025",
-          "value": 5.8977
+          "value": 5.3219
         },
         {
           "cohort": "All",
@@ -143597,6 +143585,18 @@
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_3007_All",
+          "strain": "A/England/174/2025",
+          "value": 5.6153
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3007_HKU",
+          "strain": "A/England/174/2025",
+          "value": 5.6153
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3007_All",
           "strain": "A/England/1837734/2025",
           "value": 7.1395
         },
@@ -144870,13 +144870,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3009_All",
           "strain": "A/England/174/2025",
-          "value": 8.477
+          "value": 8.7354
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3009_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.477
+          "value": 8.7354
         },
         {
           "cohort": "All",
@@ -146154,13 +146154,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3011_All",
           "strain": "A/England/174/2025",
-          "value": 10.976
+          "value": 9.8245
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3011_HKU",
           "strain": "A/England/174/2025",
-          "value": 10.976
+          "value": 9.8245
         },
         {
           "cohort": "All",
@@ -146802,13 +146802,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3012_All",
           "strain": "A/England/174/2025",
-          "value": 8.7863
+          "value": 8.0816
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3012_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.7863
+          "value": 8.0816
         },
         {
           "cohort": "All",
@@ -147450,13 +147450,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3013_All",
           "strain": "A/England/174/2025",
-          "value": 12.29
+          "value": 11.511
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3013_HKU",
           "strain": "A/England/174/2025",
-          "value": 12.29
+          "value": 11.511
         },
         {
           "cohort": "All",
@@ -148746,13 +148746,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3015_All",
           "strain": "A/England/174/2025",
-          "value": 8.1589
+          "value": 8.785
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3015_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.1589
+          "value": 8.785
         },
         {
           "cohort": "All",
@@ -149394,13 +149394,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3016_All",
           "strain": "A/England/174/2025",
-          "value": 8.5094
+          "value": 7.9756
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3016_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.5094
+          "value": 7.9756
         },
         {
           "cohort": "All",
@@ -150042,13 +150042,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3017_All",
           "strain": "A/England/174/2025",
-          "value": 10.059
+          "value": 10.546
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3017_HKU",
           "strain": "A/England/174/2025",
-          "value": 10.059
+          "value": 10.546
         },
         {
           "cohort": "All",
@@ -150690,13 +150690,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3018_All",
           "strain": "A/England/174/2025",
-          "value": 8.6073
+          "value": 8.0168
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3018_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.6073
+          "value": 8.0168
         },
         {
           "cohort": "All",
@@ -151338,13 +151338,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3019_All",
           "strain": "A/England/174/2025",
-          "value": 7.3698
+          "value": 6.5815
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3019_HKU",
           "strain": "A/England/174/2025",
-          "value": 7.3698
+          "value": 6.5815
         },
         {
           "cohort": "All",
@@ -151974,13 +151974,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3020_All",
           "strain": "A/England/174/2025",
-          "value": 10.14
+          "value": 9.6154
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3020_HKU",
           "strain": "A/England/174/2025",
-          "value": 10.14
+          "value": 9.6154
         },
         {
           "cohort": "All",
@@ -152622,13 +152622,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3021_All",
           "strain": "A/England/174/2025",
-          "value": 9.5977
+          "value": 8.6798
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3021_HKU",
           "strain": "A/England/174/2025",
-          "value": 9.5977
+          "value": 8.6798
         },
         {
           "cohort": "All",
@@ -153270,13 +153270,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3022_All",
           "strain": "A/England/174/2025",
-          "value": 9.2541
+          "value": 9.1553
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3022_HKU",
           "strain": "A/England/174/2025",
-          "value": 9.2541
+          "value": 9.1553
         },
         {
           "cohort": "All",
@@ -161046,13 +161046,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3034_All",
           "strain": "A/England/174/2025",
-          "value": 11.097
+          "value": 11.498
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3034_HKU",
           "strain": "A/England/174/2025",
-          "value": 11.097
+          "value": 11.498
         },
         {
           "cohort": "All",
@@ -161694,13 +161694,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3035_All",
           "strain": "A/England/174/2025",
-          "value": 7.3452
+          "value": 7.6147
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3035_HKU",
           "strain": "A/England/174/2025",
-          "value": 7.3452
+          "value": 7.6147
         },
         {
           "cohort": "All",
@@ -163638,13 +163638,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3038_All",
           "strain": "A/England/174/2025",
-          "value": 7.4676
+          "value": 5.3219
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3038_HKU",
           "strain": "A/England/174/2025",
-          "value": 7.4676
+          "value": 5.3219
         },
         {
           "cohort": "All",
@@ -164286,13 +164286,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3039_All",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0345
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3039_HKU",
           "strain": "A/England/174/2025",
-          "value": 7.9698
+          "value": 8.0345
         },
         {
           "cohort": "All",
@@ -164934,13 +164934,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3040_All",
           "strain": "A/England/174/2025",
-          "value": 8.097
+          "value": 7.9099
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3040_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.097
+          "value": 7.9099
         },
         {
           "cohort": "All",
@@ -165582,13 +165582,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3041_All",
           "strain": "A/England/174/2025",
-          "value": 7.8623
+          "value": 8.3724
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3041_HKU",
           "strain": "A/England/174/2025",
-          "value": 7.8623
+          "value": 8.3724
         },
         {
           "cohort": "All",
@@ -166225,6 +166225,18 @@
           "serum": "seqneut25to26_sera_3042_HKU",
           "strain": "A/DistritoFederal/2578578201/2025",
           "value": 8.9764
+        },
+        {
+          "cohort": "All",
+          "serum": "seqneut25to26_sera_3042_All",
+          "strain": "A/England/174/2025",
+          "value": 7.6858
+        },
+        {
+          "cohort": "HKU",
+          "serum": "seqneut25to26_sera_3042_HKU",
+          "strain": "A/England/174/2025",
+          "value": 7.6858
         },
         {
           "cohort": "All",
@@ -166866,13 +166878,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3043_All",
           "strain": "A/England/174/2025",
-          "value": 8.5966
+          "value": 7.4204
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3043_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.5966
+          "value": 7.4204
         },
         {
           "cohort": "All",
@@ -167514,13 +167526,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3044_All",
           "strain": "A/England/174/2025",
-          "value": 8.2555
+          "value": 6.9646
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3044_HKU",
           "strain": "A/England/174/2025",
-          "value": 8.2555
+          "value": 6.9646
         },
         {
           "cohort": "All",
@@ -168798,13 +168810,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3046_All",
           "strain": "A/England/174/2025",
-          "value": 9.3441
+          "value": 8.2031
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3046_HKU",
           "strain": "A/England/174/2025",
-          "value": 9.3441
+          "value": 8.2031
         },
         {
           "cohort": "All",
@@ -169446,13 +169458,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3047_All",
           "strain": "A/England/174/2025",
-          "value": 9.8959
+          "value": 10.556
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3047_HKU",
           "strain": "A/England/174/2025",
-          "value": 9.8959
+          "value": 10.556
         },
         {
           "cohort": "All",
@@ -170514,61 +170526,61 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Alagoas/4130/2025",
-          "value": 9.1794
+          "value": 9.1834
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Alagoas/4130/2025",
-          "value": 9.1794
+          "value": 9.1834
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Anapolis/LEIAL6543/2025",
-          "value": 7.6417
+          "value": 7.8208
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Anapolis/LEIAL6543/2025",
-          "value": 7.6417
+          "value": 7.8208
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Arica/59150/2025",
-          "value": 8.1043
+          "value": 8.1241
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Arica/59150/2025",
-          "value": 8.1043
+          "value": 8.1241
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Bahia/3102/2025",
-          "value": 8.3945
+          "value": 8.4309
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Bahia/3102/2025",
-          "value": 8.3945
+          "value": 8.4309
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Bangkok/P2323/2025",
-          "value": 9.1626
+          "value": 9.1629
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Bangkok/P2323/2025",
-          "value": 9.1626
+          "value": 9.1629
         },
         {
           "cohort": "All",
@@ -170586,13 +170598,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Bangkok/P2391/2025",
-          "value": 8.4077
+          "value": 7.9887
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Bangkok/P2391/2025",
-          "value": 8.4077
+          "value": 7.9887
         },
         {
           "cohort": "All",
@@ -170610,13 +170622,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Bangkok/P2921/2025",
-          "value": 9.7255
+          "value": 9.7254
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Bangkok/P2921/2025",
-          "value": 9.7255
+          "value": 9.7254
         },
         {
           "cohort": "All",
@@ -170670,13 +170682,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/California/61/2025",
-          "value": 9.5189
+          "value": 9.5185
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/California/61/2025",
-          "value": 9.5189
+          "value": 9.5185
         },
         {
           "cohort": "All",
@@ -170718,37 +170730,37 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/DistritoFederal/250106000728/2025",
-          "value": 9.0534
+          "value": 9.0763
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/DistritoFederal/250106000728/2025",
-          "value": 9.0534
+          "value": 9.0763
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/DistritoFederal/2578578201/2025",
-          "value": 7.264
+          "value": 7.3478
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/DistritoFederal/2578578201/2025",
-          "value": 7.264
+          "value": 7.3478
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/England/174/2025",
-          "value": 10.94
+          "value": 9.9873
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/England/174/2025",
-          "value": 10.94
+          "value": 9.9873
         },
         {
           "cohort": "All",
@@ -170766,13 +170778,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/England/1837737/2025",
-          "value": 8.7764
+          "value": 8.7781
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/England/1837737/2025",
-          "value": 8.7764
+          "value": 8.7781
         },
         {
           "cohort": "All",
@@ -170874,25 +170886,25 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Indonesia/BIOKES-INAD491/2025",
-          "value": 10.658
+          "value": 10.645
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Indonesia/BIOKES-INAD491/2025",
-          "value": 10.658
+          "value": 10.645
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Lao/820-2750/2025",
-          "value": 11.332
+          "value": 11.331
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Lao/820-2750/2025",
-          "value": 11.332
+          "value": 11.331
         },
         {
           "cohort": "All",
@@ -170934,13 +170946,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Michigan/110/2025",
-          "value": 11.044
+          "value": 11.04
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Michigan/110/2025",
-          "value": 11.044
+          "value": 11.04
         },
         {
           "cohort": "All",
@@ -171030,13 +171042,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/SouthAfrica/PET37604/2025",
-          "value": 11.164
+          "value": 11.165
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/SouthAfrica/PET37604/2025",
-          "value": 11.164
+          "value": 11.165
         },
         {
           "cohort": "All",
@@ -171066,13 +171078,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/SouthAustralia/2524408801/2025",
-          "value": 9.6758
+          "value": 9.6756
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/SouthAustralia/2524408801/2025",
-          "value": 9.6758
+          "value": 9.6756
         },
         {
           "cohort": "All",
@@ -171090,37 +171102,37 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/SouthAustralia/2527003588/2025",
-          "value": 8.9881
+          "value": 8.9884
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/SouthAustralia/2527003588/2025",
-          "value": 8.9881
+          "value": 8.9884
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/SouthAustralia/2527213276/2025",
-          "value": 8.5887
+          "value": 8.5936
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/SouthAustralia/2527213276/2025",
-          "value": 8.5887
+          "value": 8.5936
         },
         {
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/SouthAustralia/2527902708/2025",
-          "value": 8.3403
+          "value": 8.3443
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/SouthAustralia/2527902708/2025",
-          "value": 8.3403
+          "value": 8.3443
         },
         {
           "cohort": "All",
@@ -171150,13 +171162,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4001_All",
           "strain": "A/Vermont/73/2025",
-          "value": 8.5173
+          "value": 8.5212
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4001_NIID",
           "strain": "A/Vermont/73/2025",
-          "value": 8.5173
+          "value": 8.5212
         },
         {
           "cohort": "All",
@@ -171390,13 +171402,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4002_All",
           "strain": "A/England/174/2025",
-          "value": 9.2429
+          "value": 9.3063
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4002_NIID",
           "strain": "A/England/174/2025",
-          "value": 9.2429
+          "value": 9.3063
         },
         {
           "cohort": "All",
@@ -172038,13 +172050,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4003_All",
           "strain": "A/England/174/2025",
-          "value": 13.374
+          "value": 13.063
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4003_NIID",
           "strain": "A/England/174/2025",
-          "value": 13.374
+          "value": 13.063
         },
         {
           "cohort": "All",
@@ -172686,13 +172698,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4004_All",
           "strain": "A/England/174/2025",
-          "value": 7.1898
+          "value": 7.5827
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4004_NIID",
           "strain": "A/England/174/2025",
-          "value": 7.1898
+          "value": 7.5827
         },
         {
           "cohort": "All",
@@ -173334,13 +173346,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4005_All",
           "strain": "A/England/174/2025",
-          "value": 7.6851
+          "value": 7.3363
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4005_NIID",
           "strain": "A/England/174/2025",
-          "value": 7.6851
+          "value": 7.3363
         },
         {
           "cohort": "All",
@@ -173982,13 +173994,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4006_All",
           "strain": "A/England/174/2025",
-          "value": 8.8987
+          "value": 7.5157
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4006_NIID",
           "strain": "A/England/174/2025",
-          "value": 8.8987
+          "value": 7.5157
         },
         {
           "cohort": "All",
@@ -175266,13 +175278,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4008_All",
           "strain": "A/England/174/2025",
-          "value": 7.6446
+          "value": 7.1967
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4008_NIID",
           "strain": "A/England/174/2025",
-          "value": 7.6446
+          "value": 7.1967
         },
         {
           "cohort": "All",
@@ -175914,13 +175926,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5001_All",
           "strain": "A/England/174/2025",
-          "value": 8.425
+          "value": 7.3047
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5001_CTS",
           "strain": "A/England/174/2025",
-          "value": 8.425
+          "value": 7.3047
         },
         {
           "cohort": "All",
@@ -176562,13 +176574,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5002_All",
           "strain": "A/England/174/2025",
-          "value": 10.121
+          "value": 10.63
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5002_CTS",
           "strain": "A/England/174/2025",
-          "value": 10.121
+          "value": 10.63
         },
         {
           "cohort": "All",
@@ -177210,13 +177222,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5003_All",
           "strain": "A/England/174/2025",
-          "value": 8.9949
+          "value": 8.3872
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5003_CTS",
           "strain": "A/England/174/2025",
-          "value": 8.9949
+          "value": 8.3872
         },
         {
           "cohort": "All",
@@ -177846,13 +177858,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5004_All",
           "strain": "A/England/174/2025",
-          "value": 8.1679
+          "value": 8.2163
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5004_CTS",
           "strain": "A/England/174/2025",
-          "value": 8.1679
+          "value": 8.2163
         },
         {
           "cohort": "All",
@@ -178494,13 +178506,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5005_All",
           "strain": "A/England/174/2025",
-          "value": 11.963
+          "value": 12.326
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5005_CTS",
           "strain": "A/England/174/2025",
-          "value": 11.963
+          "value": 12.326
         },
         {
           "cohort": "All",
@@ -179142,13 +179154,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5006_All",
           "strain": "A/England/174/2025",
-          "value": 12.685
+          "value": 12.983
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5006_CTS",
           "strain": "A/England/174/2025",
-          "value": 12.685
+          "value": 12.983
         },
         {
           "cohort": "All",
@@ -179790,13 +179802,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5007_All",
           "strain": "A/England/174/2025",
-          "value": 9.6737
+          "value": 9.4617
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5007_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.6737
+          "value": 9.4617
         },
         {
           "cohort": "All",
@@ -180438,13 +180450,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5008_All",
           "strain": "A/England/174/2025",
-          "value": 9.7013
+          "value": 9.2148
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5008_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.7013
+          "value": 9.2148
         },
         {
           "cohort": "All",
@@ -181734,13 +181746,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5010_All",
           "strain": "A/England/174/2025",
-          "value": 9.3828
+          "value": 9.5131
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5010_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.3828
+          "value": 9.5131
         },
         {
           "cohort": "All",
@@ -183030,13 +183042,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5012_All",
           "strain": "A/England/174/2025",
-          "value": 10.541
+          "value": 10.639
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5012_CTS",
           "strain": "A/England/174/2025",
-          "value": 10.541
+          "value": 10.639
         },
         {
           "cohort": "All",
@@ -184326,13 +184338,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5014_All",
           "strain": "A/England/174/2025",
-          "value": 10.065
+          "value": 9.2343
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5014_CTS",
           "strain": "A/England/174/2025",
-          "value": 10.065
+          "value": 9.2343
         },
         {
           "cohort": "All",
@@ -184974,13 +184986,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5015_All",
           "strain": "A/England/174/2025",
-          "value": 9.7951
+          "value": 9.7087
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5015_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.7951
+          "value": 9.7087
         },
         {
           "cohort": "All",
@@ -185622,13 +185634,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5016_All",
           "strain": "A/England/174/2025",
-          "value": 9.2262
+          "value": 9.6105
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5016_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.2262
+          "value": 9.6105
         },
         {
           "cohort": "All",
@@ -186270,13 +186282,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5017_All",
           "strain": "A/England/174/2025",
-          "value": 9.9672
+          "value": 10.403
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5017_CTS",
           "strain": "A/England/174/2025",
-          "value": 9.9672
+          "value": 10.403
         },
         {
           "cohort": "All",
@@ -186918,13 +186930,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5018_All",
           "strain": "A/England/174/2025",
-          "value": 13.498
+          "value": 13.216
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5018_CTS",
           "strain": "A/England/174/2025",
-          "value": 13.498
+          "value": 13.216
         },
         {
           "cohort": "All",
@@ -195966,13 +195978,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5032_All",
           "strain": "A/England/174/2025",
-          "value": 11.748
+          "value": 11.579
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5032_CTS",
           "strain": "A/England/174/2025",
-          "value": 11.748
+          "value": 11.579
         },
         {
           "cohort": "All",
@@ -196614,13 +196626,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5033_All",
           "strain": "A/England/174/2025",
-          "value": 13.175
+          "value": 13.577
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5033_CTS",
           "strain": "A/England/174/2025",
-          "value": 13.175
+          "value": 13.577
         },
         {
           "cohort": "All",
@@ -197910,13 +197922,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5035_All",
           "strain": "A/England/174/2025",
-          "value": 10.794
+          "value": 11.354
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5035_CTS",
           "strain": "A/England/174/2025",
-          "value": 10.794
+          "value": 11.354
         },
         {
           "cohort": "All",
@@ -198558,13 +198570,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5036_All",
           "strain": "A/England/174/2025",
-          "value": 12.905
+          "value": 13.013
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5036_CTS",
           "strain": "A/England/174/2025",
-          "value": 12.905
+          "value": 13.013
         },
         {
           "cohort": "All",
@@ -199206,13 +199218,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5037_All",
           "strain": "A/England/174/2025",
-          "value": 8.7552
+          "value": 9.079
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5037_CTS",
           "strain": "A/England/174/2025",
-          "value": 8.7552
+          "value": 9.079
         },
         {
           "cohort": "All",
@@ -199854,13 +199866,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5038_All",
           "strain": "A/England/174/2025",
-          "value": 12.117
+          "value": 11.802
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5038_CTS",
           "strain": "A/England/174/2025",
-          "value": 12.117
+          "value": 11.802
         },
         {
           "cohort": "All",
@@ -201150,13 +201162,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5040_All",
           "strain": "A/England/174/2025",
-          "value": 10.203
+          "value": 11.03
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5040_CTS",
           "strain": "A/England/174/2025",
-          "value": 10.203
+          "value": 11.03
         },
         {
           "cohort": "All",

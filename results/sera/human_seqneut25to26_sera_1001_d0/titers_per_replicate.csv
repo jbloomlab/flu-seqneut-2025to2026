@@ -149,8 +149,6 @@ human,seqneut25to26_sera_1001_d0,A/SouthAustralia/2525607496/2025_H3N2,plate4-CA
 human,seqneut25to26_sera_1001_d0,A/SouthAustralia/2525607496/2025_H3N2,plate4-GTTGATTCGATCATAT,1085,interpolated,midpoint,1085,1085,1,0,3.089
 human,seqneut25to26_sera_1001_d0,A/HongKong/1257/2025_H3N2,plate4-CACACCTCTCTCGCCG,1366,interpolated,midpoint,1488,1366,0.869,0,3.539
 human,seqneut25to26_sera_1001_d0,A/HongKong/1257/2025_H3N2,plate4-GTATAGAAATGGGTCA,823.5,interpolated,midpoint,823.5,823.5,1,0,2.421
-human,seqneut25to26_sera_1001_d0,A/England/174/2025_H3N2,plate4-CACGGCTGGAGCGGCC,1114,interpolated,midpoint,3303,1114,0.6,0,1.481
-human,seqneut25to26_sera_1001_d0,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,1919,interpolated,midpoint,1964,1919,0.9672,0,2.881
 human,seqneut25to26_sera_1001_d0,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-CATGTGGAGGGTCGAG,2219,interpolated,midpoint,2219,2219,1,0,1.721
 human,seqneut25to26_sera_1001_d0,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-TAGCCTATAATCAAGT,1276,interpolated,midpoint,1276,1276,1,0,2.78
 human,seqneut25to26_sera_1001_d0,A/Massachusetts/18/2022_H3N2,plate4-CATTTCTGATGAATTG,2710,interpolated,midpoint,2710,2710,1,0,1.837
@@ -160,6 +158,7 @@ human,seqneut25to26_sera_1001_d0,A/Philippines/SARI25-1425/2025_H1N1,plate4-CCGT
 human,seqneut25to26_sera_1001_d0,A/Philippines/SARI25-1425/2025_H1N1,plate4-TGATGCCGTCAGCCTT,637.2,interpolated,midpoint,637.2,637.2,1,0,1.986
 human,seqneut25to26_sera_1001_d0,A/Ghana/ARI-25-1125/2025_H1N1,plate4-CCGTTAGGGATTCCTC,883.5,interpolated,midpoint,894.1,883.5,0.9871,0,2.21
 human,seqneut25to26_sera_1001_d0,A/Ghana/ARI-25-1125/2025_H1N1,plate4-GACGGACTATCAACGA,798.6,interpolated,midpoint,798.6,798.6,1,0,2.347
+human,seqneut25to26_sera_1001_d0,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,1919,interpolated,midpoint,1964,1919,0.9672,0,2.881
 human,seqneut25to26_sera_1001_d0,A/Bangkok/P3067/2025_H1N1,plate4-CGAACATGGGAACTAA,1181,interpolated,midpoint,1181,1181,1,0,1.842
 human,seqneut25to26_sera_1001_d0,A/Bangkok/P3067/2025_H1N1,plate4-GTTGACTGCCTTTCTT,1164,interpolated,midpoint,1166,1164,0.9978,0,2.331
 human,seqneut25to26_sera_1001_d0,A/Sydney/400/2025_H1N1,plate4-CGATTACGCTTTCCGG,1295,interpolated,midpoint,1295,1295,1,0,3.131

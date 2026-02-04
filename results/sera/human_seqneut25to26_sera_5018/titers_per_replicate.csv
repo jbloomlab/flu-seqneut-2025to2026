@@ -155,8 +155,6 @@ human,seqneut25to26_sera_5018,A/SouthAustralia/2525607496/2025_H3N2,plate22-CAAA
 human,seqneut25to26_sera_5018,A/SouthAustralia/2525607496/2025_H3N2,plate22-GTTGATTCGATCATAT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,1.239
 human,seqneut25to26_sera_5018,A/HongKong/1257/2025_H3N2,plate22-CACACCTCTCTCGCCG,1.306e+04,interpolated,midpoint,1.362e+04,1.306e+04,0.6,0,1.498
 human,seqneut25to26_sera_5018,A/HongKong/1257/2025_H3N2,plate22-GTATAGAAATGGGTCA,8212,interpolated,midpoint,8212,8212,1,0,2.025
-human,seqneut25to26_sera_5018,A/England/174/2025_H3N2,plate22-CACGGCTGGAGCGGCC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,0.9377
-human,seqneut25to26_sera_5018,A/England/174/2025_H3N2,plate22-CCTTATGAATTACGCG,9512,interpolated,midpoint,9512,9512,1,0,3.25
 human,seqneut25to26_sera_5018,A/Galicia/GA-CHUAC-451/2025_H3N2,plate22-CATGTGGAGGGTCGAG,9893,interpolated,midpoint,1.079e+04,9893,0.937,0,1.554
 human,seqneut25to26_sera_5018,A/Galicia/GA-CHUAC-451/2025_H3N2,plate22-TAGCCTATAATCAAGT,7105,interpolated,midpoint,7271,7105,0.9642,0,3.207
 human,seqneut25to26_sera_5018,A/Massachusetts/18/2022_H3N2,plate22-CATTTCTGATGAATTG,7471,interpolated,midpoint,7471,7471,1,0,1.638
@@ -164,6 +162,7 @@ human,seqneut25to26_sera_5018,A/Massachusetts/18/2022_H3N2,plate22-CGATCTTTACGAA
 human,seqneut25to26_sera_5018,A/Massachusetts/18/2022_H3N2,plate22-TCCACACCCCTAGCTA,3098,interpolated,midpoint,4459,3098,0.6,0,4.419
 human,seqneut25to26_sera_5018,A/Guangxi-Daxin/1643/2025_H3N2,plate22-CCATACCACGCCCTGT,2877,interpolated,midpoint,3119,2877,0.7235,0,10
 human,seqneut25to26_sera_5018,A/Guangxi-Daxin/1643/2025_H3N2,plate22-GAACACAATTACTTAG,3698,interpolated,midpoint,5100,3698,0.6135,0,4.613
+human,seqneut25to26_sera_5018,A/England/174/2025_H3N2,plate22-CCTTATGAATTACGCG,9512,interpolated,midpoint,9512,9512,1,0,3.25
 human,seqneut25to26_sera_5018,A/Bangkok/P2391/2025_H3N2,plate22-CGGGTCCTAGGCGAGG,1231,interpolated,midpoint,1231,1231,1,0,1.287
 human,seqneut25to26_sera_5018,A/Bangkok/P2391/2025_H3N2,plate22-TCGGAGAGCGATCCGC,1863,interpolated,midpoint,2535,1863,0.842,0,1.233
 human,seqneut25to26_sera_5018,A/Bangkok/P2572/2025_H3N2,plate22-CGTACTAATCACTCCG,844.1,interpolated,midpoint,1348,844.1,0.6,0,3.436

@@ -1,9 +1,7 @@
 wells:
   A3: avg_barcode_counts_per_well
   H9: avg_barcode_counts_per_well
-barcodes:
-  GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   AGACCATCGCACCCAA G11: max_frac_infectivity_per_viral_barcode_well
 barcode_serum_replicates:
@@ -11,11 +9,9 @@ barcode_serum_replicates:
   CGATCTTTACGAAAAA seqneut25to26_sera_1004_d0: goodness_of_fit
   TTTCGGGGCCCCAATG seqneut25to26_sera_1004_d0: goodness_of_fit
   TGGTAGTCCTTAACCG seqneut25to26_sera_1004_d28: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_1033_d0: goodness_of_fit
   GTCGCCGCTAATCCGA seqneut25to26_sera_1033_d0: goodness_of_fit
   TCCACACCCCTAGCTA seqneut25to26_sera_1033_d0: goodness_of_fit
   GAAGTGCTGCTGAAGT seqneut25to26_sera_1044_d28: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_1051_d0: goodness_of_fit
   CACATACAACACGACC seqneut25to26_sera_1054_d0: goodness_of_fit
   CTGCCGCCTGCTGTGT seqneut25to26_sera_1054_d28: goodness_of_fit
 serum_replicates: {}

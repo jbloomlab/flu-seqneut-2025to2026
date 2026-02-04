@@ -145,8 +145,6 @@ human,seqneut25to26_sera_0028,A/DistritoFederal/250106000728/2025_H3N2,plate4-GA
 human,seqneut25to26_sera_0028,A/France/ARA-HCL025155099501/2025_H1N1,plate4-ATTAACCAATTGAGCA,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.641
 human,seqneut25to26_sera_0028,A/Ghana/FS-25-7077/2025_H3N2,plate4-CACATACAACACGACC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,1.763
 human,seqneut25to26_sera_0028,A/Ghana/FS-25-7077/2025_H3N2,plate4-TTTCGGGGCCCCAATG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,1.559
-human,seqneut25to26_sera_0028,A/England/174/2025_H3N2,plate4-CACGGCTGGAGCGGCC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.9985,0,1.5
-human,seqneut25to26_sera_0028,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,9.241
 human,seqneut25to26_sera_0028,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-CATGTGGAGGGTCGAG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,2.843
 human,seqneut25to26_sera_0028,A/Galicia/GA-CHUAC-451/2025_H3N2,plate4-TAGCCTATAATCAAGT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,10
 human,seqneut25to26_sera_0028,A/Massachusetts/18/2022_H3N2,plate4-CATTTCTGATGAATTG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,3.812
@@ -158,6 +156,7 @@ human,seqneut25to26_sera_0028,A/Philippines/SARI25-1425/2025_H1N1,plate4-CCGTGTG
 human,seqneut25to26_sera_0028,A/Philippines/SARI25-1425/2025_H1N1,plate4-TGATGCCGTCAGCCTT,6959,interpolated,midpoint,6959,6959,1,0,3.328
 human,seqneut25to26_sera_0028,A/Ghana/ARI-25-1125/2025_H1N1,plate4-CCGTTAGGGATTCCTC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,4.649
 human,seqneut25to26_sera_0028,A/Ghana/ARI-25-1125/2025_H1N1,plate4-GACGGACTATCAACGA,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,4.516
+human,seqneut25to26_sera_0028,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,9.241
 human,seqneut25to26_sera_0028,A/NewSouthWales/2526015582/2025_H3N2,plate4-CGAAGATGAGCCCTCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,2.895
 human,seqneut25to26_sera_0028,A/NewSouthWales/2526015582/2025_H3N2,plate4-TTTGCTACAAGTGAGC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,2.42
 human,seqneut25to26_sera_0028,A/Bangkok/P2391/2025_H3N2,plate4-CGGGTCCTAGGCGAGG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,1.826

@@ -165,13 +165,12 @@ human,seqneut25to26_sera_1006_d28,A/SouthAustralia/2525607496/2025_H3N2,plate11-
 human,seqneut25to26_sera_1006_d28,A/SouthAustralia/2525607496/2025_H3N2,plate11-GTTGATTCGATCATAT,4471,interpolated,midpoint,4471,4471,1,0,1.649
 human,seqneut25to26_sera_1006_d28,A/Ghana/FS-25-7077/2025_H3N2,plate11-CACATACAACACGACC,1181,interpolated,midpoint,1612,1181,0.8063,0,1.574
 human,seqneut25to26_sera_1006_d28,A/Ghana/FS-25-7077/2025_H3N2,plate11-TTTCGGGGCCCCAATG,818.8,interpolated,midpoint,818.8,818.8,1,0,2.542
-human,seqneut25to26_sera_1006_d28,A/England/174/2025_H3N2,plate11-CACGGCTGGAGCGGCC,580.1,interpolated,midpoint,657.3,580.1,0.6433,0,10
-human,seqneut25to26_sera_1006_d28,A/England/174/2025_H3N2,plate11-CCTTATGAATTACGCG,2452,interpolated,midpoint,2535,2452,0.9635,0,2.274
 human,seqneut25to26_sera_1006_d28,A/Massachusetts/18/2022_H3N2,plate11-CATTTCTGATGAATTG,3090,interpolated,midpoint,1.35e+04,3090,0.6,0,1.092
 human,seqneut25to26_sera_1006_d28,A/Massachusetts/18/2022_H3N2,plate11-CGATCTTTACGAAAAA,9168,interpolated,midpoint,9168,9168,1,0,1.064
 human,seqneut25to26_sera_1006_d28,A/Massachusetts/18/2022_H3N2,plate11-TCCACACCCCTAGCTA,2533,interpolated,midpoint,5365,2533,0.6572,0,1.542
 human,seqneut25to26_sera_1006_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate11-CCATACCACGCCCTGT,527.4,interpolated,midpoint,570.8,527.4,0.7265,0,10
 human,seqneut25to26_sera_1006_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate11-GAACACAATTACTTAG,1189,interpolated,midpoint,1538,1189,0.8371,0,1.534
+human,seqneut25to26_sera_1006_d28,A/England/174/2025_H3N2,plate11-CCTTATGAATTACGCG,2452,interpolated,midpoint,2535,2452,0.9635,0,2.274
 human,seqneut25to26_sera_1006_d28,A/Bangkok/P2391/2025_H3N2,plate11-CGGGTCCTAGGCGAGG,2917,interpolated,midpoint,2917,2917,1,0,1.271
 human,seqneut25to26_sera_1006_d28,A/Bangkok/P2391/2025_H3N2,plate11-TCGGAGAGCGATCCGC,1268,interpolated,midpoint,1331,1268,0.9571,0,1.853
 human,seqneut25to26_sera_1006_d28,A/Guangdong-Meijiang/11256/2025_H3N2,plate11-CGTTGCATGTAGCAGG,3292,interpolated,midpoint,3292,3292,1,0,1.256

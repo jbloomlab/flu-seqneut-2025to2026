@@ -2,7 +2,6 @@ group,serum,virus,replicate,titer,titer_bound,titer_as,nt50,midpoint,top,bottom,
 human,seqneut25to26_sera_1011_d0,A/Bangkok/P2921/2025_H3N2,plate4-ATTTCATGAGATAGGG,588.4,interpolated,midpoint,588.4,588.4,1,0,0.8674
 human,seqneut25to26_sera_1011_d0,A/Bangkok/P2921/2025_H3N2,plate4-GAGATAAAAGAGCTCT,537.3,interpolated,midpoint,537.3,537.3,1,0,0.8698
 human,seqneut25to26_sera_1011_d0,A/England/174/2025_H3N2,plate4-CCTTATGAATTACGCG,652.2,interpolated,midpoint,652.2,652.2,1,0,0.9502
-human,seqneut25to26_sera_1011_d0,A/England/174/2025_H3N2,plate4-CACGGCTGGAGCGGCC,830.7,interpolated,midpoint,1057,830.7,0.7133,0,3.541
 human,seqneut25to26_sera_1011_d0,A/Anapolis/LEIAL6543/2025_H3N2,plate4-AAATATTGAGACTAAT,1010,interpolated,midpoint,1055,1010,0.9828,0,0.8
 human,seqneut25to26_sera_1011_d0,A/Anapolis/LEIAL6543/2025_H3N2,plate4-AACACTCAATACCGGT,659.9,interpolated,midpoint,659.9,659.9,1,0,1.344
 human,seqneut25to26_sera_1011_d0,A/Peru/GIHSN-04-1089/2025_H3N2,plate4-TTTAGCCGGCTGTAAC,401.3,interpolated,midpoint,449,401.3,0.9304,0,1.335
