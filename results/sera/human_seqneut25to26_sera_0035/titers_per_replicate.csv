@@ -172,10 +172,9 @@ human,seqneut25to26_sera_0035,A/SouthAustralia/2525607496/2025_H3N2,plate11-CAAA
 human,seqneut25to26_sera_0035,A/SouthAustralia/2525607496/2025_H3N2,plate11-GTTGATTCGATCATAT,534.8,interpolated,midpoint,542.8,534.8,0.9311,0,10
 human,seqneut25to26_sera_0035,A/HongKong/1257/2025_H3N2,plate11-CACACCTCTCTCGCCG,756.1,interpolated,midpoint,892.1,756.1,0.8645,0,1.912
 human,seqneut25to26_sera_0035,A/HongKong/1257/2025_H3N2,plate11-GTATAGAAATGGGTCA,1156,interpolated,midpoint,1156,1156,1,0,1.207
-human,seqneut25to26_sera_0035,A/England/174/2025_H3N2,plate11-CACGGCTGGAGCGGCC,586.4,interpolated,midpoint,616.7,586.4,0.8019,0,10
-human,seqneut25to26_sera_0035,A/England/174/2025_H3N2,plate11-CCTTATGAATTACGCG,865.1,interpolated,midpoint,865.1,865.1,1,0,1.457
 human,seqneut25to26_sera_0035,A/Galicia/GA-CHUAC-451/2025_H3N2,plate11-CATGTGGAGGGTCGAG,646.6,interpolated,midpoint,765.7,646.6,0.8665,0,1.837
 human,seqneut25to26_sera_0035,A/Galicia/GA-CHUAC-451/2025_H3N2,plate11-TAGCCTATAATCAAGT,481.3,interpolated,midpoint,489.2,481.3,0.9246,0,10
+human,seqneut25to26_sera_0035,A/England/174/2025_H3N2,plate11-CCTTATGAATTACGCG,865.1,interpolated,midpoint,865.1,865.1,1,0,1.457
 human,seqneut25to26_sera_0035,A/Bhutan/1267/2025_H3N2,plate11-CTGAGTATGGGGCTCA,821.3,interpolated,midpoint,915.7,821.3,0.8643,0,2.911
 human,seqneut25to26_sera_0035,A/Bhutan/1267/2025_H3N2,plate11-TAAAAGCTCCCATTAC,712.1,interpolated,midpoint,820.3,712.1,0.7739,0,4.256
 human,seqneut25to26_sera_0035,A/Michigan/110/2025_H3N2,plate11-GACTTCTTCCGCTCTT,1353,interpolated,midpoint,1496,1353,0.9469,0,1.117

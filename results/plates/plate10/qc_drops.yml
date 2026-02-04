@@ -1,11 +1,7 @@
 wells: {}
-barcodes:
-  GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
-barcode_wells:
-  CACGGCTGGAGCGGCC H2: max_frac_infectivity_per_viral_barcode_well
+barcodes: {}
+barcode_wells: {}
 barcode_serum_replicates:
-  CACGGCTGGAGCGGCC seqneut25to26_sera_1003_d0: goodness_of_fit
   CCATACCACGCCCTGT seqneut25to26_sera_1003_d28: goodness_of_fit
   CTGCCGCCTGCTGTGT seqneut25to26_sera_1003_d28: goodness_of_fit
   GAACACAATTACTTAG seqneut25to26_sera_1055_d0: goodness_of_fit

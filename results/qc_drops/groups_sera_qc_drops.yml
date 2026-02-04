@@ -58,8 +58,7 @@ human:
   seqneut25to26_sera_1008_d0: {}
   seqneut25to26_sera_1008_d28: {}
   seqneut25to26_sera_1009_d0: {}
-  seqneut25to26_sera_1009_d28:
-    A/England/174/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1009_d28: {}
   seqneut25to26_sera_1010_d0: {}
   seqneut25to26_sera_1010_d28: {}
   seqneut25to26_sera_1011_d0: {}
@@ -171,8 +170,7 @@ human:
   seqneut25to26_sera_3004: {}
   seqneut25to26_sera_3005: {}
   seqneut25to26_sera_3006: {}
-  seqneut25to26_sera_3007:
-    A/England/174/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3007: {}
   seqneut25to26_sera_3008: {}
   seqneut25to26_sera_3009: {}
   seqneut25to26_sera_3010: {}
@@ -207,8 +205,7 @@ human:
   seqneut25to26_sera_3039: {}
   seqneut25to26_sera_3040: {}
   seqneut25to26_sera_3041: {}
-  seqneut25to26_sera_3042:
-    A/England/174/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3042: {}
   seqneut25to26_sera_3043: {}
   seqneut25to26_sera_3044: {}
   seqneut25to26_sera_3045:

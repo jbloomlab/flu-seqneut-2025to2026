@@ -35,8 +35,6 @@ human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2527213276/2025_H3N2,plate8-T
 human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2527213276/2025_H3N2,plate8-GCTGATAAACAATCTA,562,interpolated,midpoint,867.7,562,0.8433,0,0.8657
 human,seqneut25to26_sera_1009_d28,A/Bangkok/P2391/2025_H3N2,plate8-CGGGTCCTAGGCGAGG,454.6,interpolated,midpoint,701.5,454.6,0.8065,0,1.128
 human,seqneut25to26_sera_1009_d28,A/Bangkok/P2391/2025_H3N2,plate8-TCGGAGAGCGATCCGC,357,interpolated,midpoint,518.1,357,0.8368,0,1.061
-human,seqneut25to26_sera_1009_d28,A/England/174/2025_H3N2,plate8-CACGGCTGGAGCGGCC,5419,interpolated,midpoint,5419,5419,1,0,1.128
-human,seqneut25to26_sera_1009_d28,A/England/174/2025_H3N2,plate8-CCTTATGAATTACGCG,370.7,interpolated,midpoint,555.3,370.7,0.7315,0,1.906
 human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2523812314/2025_H3N2,plate8-GCGGACAGCGGTTATC,251.3,interpolated,midpoint,670.4,251.3,0.6381,0,1.311
 human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2523812314/2025_H3N2,plate8-TTTACTCGATCCTCGC,263.6,interpolated,midpoint,522.9,263.6,0.6853,0,1.45
 human,seqneut25to26_sera_1009_d28,A/Bhutan/1267/2025_H3N2,plate8-CTGAGTATGGGGCTCA,214.5,interpolated,midpoint,352.3,214.5,0.7604,0,1.316
@@ -117,6 +115,7 @@ human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2523012764/2025_H1N1,plate8-A
 human,seqneut25to26_sera_1009_d28,A/SouthAustralia/2523012764/2025_H1N1,plate8-TTCGACAAGTATACGT,243.2,interpolated,midpoint,272,243.2,0.8325,0,3.652
 human,seqneut25to26_sera_1009_d28,A/Canberra/530/2025_H1N1,plate8-ATCTTGTATGATATGT,214.1,interpolated,midpoint,255.8,214.1,0.8672,0,1.733
 human,seqneut25to26_sera_1009_d28,A/Canberra/530/2025_H1N1,plate8-ATCTCGGCCGGCCAAT,206.5,interpolated,midpoint,269.8,206.5,0.8403,0,1.44
+human,seqneut25to26_sera_1009_d28,A/England/174/2025_H3N2,plate8-CCTTATGAATTACGCG,370.7,interpolated,midpoint,555.3,370.7,0.7315,0,1.906
 human,seqneut25to26_sera_1009_d28,A/Zacapa/FLU-261/2025_H1N1,plate8-CTCGCGGGTATATAGA,233.8,interpolated,midpoint,293.8,233.8,0.862,0,1.414
 human,seqneut25to26_sera_1009_d28,A/Zacapa/FLU-261/2025_H1N1,plate8-CTTGAACCAGCAGTGT,353.4,interpolated,midpoint,353.4,353.4,1,0,1.48
 human,seqneut25to26_sera_1009_d28,A/Ghana/ARI-25-1125/2025_H1N1,plate8-GACGGACTATCAACGA,1085,interpolated,midpoint,1277,1085,0.8953,0,1.436

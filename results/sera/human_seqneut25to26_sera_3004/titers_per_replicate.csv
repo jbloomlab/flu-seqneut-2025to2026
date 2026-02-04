@@ -170,10 +170,9 @@ human,seqneut25to26_sera_3004,A/Bangkok/P2921/2025_H3N2,plate17-ATTTCATGAGATAGGG
 human,seqneut25to26_sera_3004,A/Bangkok/P2921/2025_H3N2,plate17-GAGATAAAAGAGCTCT,5921,lower,midpoint,5921,5921,1,0,3.66
 human,seqneut25to26_sera_3004,A/SouthAustralia/2525607496/2025_H3N2,plate17-CAAATATAATGTCCTG,5921,lower,midpoint,5921,5921,1,0,10
 human,seqneut25to26_sera_3004,A/SouthAustralia/2525607496/2025_H3N2,plate17-GTTGATTCGATCATAT,5921,lower,midpoint,5921,5921,0.6,0,2.655
-human,seqneut25to26_sera_3004,A/England/174/2025_H3N2,plate17-CACGGCTGGAGCGGCC,5921,lower,midpoint,5921,5921,1,0,9.013
-human,seqneut25to26_sera_3004,A/England/174/2025_H3N2,plate17-CCTTATGAATTACGCG,5921,lower,midpoint,5921,5921,1,0,5.767
 human,seqneut25to26_sera_3004,A/Guangxi-Daxin/1643/2025_H3N2,plate17-CCATACCACGCCCTGT,5921,lower,midpoint,5921,5921,1,0,2.217
 human,seqneut25to26_sera_3004,A/Guangxi-Daxin/1643/2025_H3N2,plate17-GAACACAATTACTTAG,5921,lower,midpoint,5921,5921,0.6,0,2.483
+human,seqneut25to26_sera_3004,A/England/174/2025_H3N2,plate17-CCTTATGAATTACGCG,5921,lower,midpoint,5921,5921,1,0,5.767
 human,seqneut25to26_sera_3004,A/Bhutan/1267/2025_H3N2,plate17-CTGAGTATGGGGCTCA,5921,lower,midpoint,5921,5921,0.6,0,1.693
 human,seqneut25to26_sera_3004,A/Bhutan/1267/2025_H3N2,plate17-TAAAAGCTCCCATTAC,3804,interpolated,midpoint,5921,3804,0.6,0,2.743
 human,seqneut25to26_sera_3004,A/Bangkok/P3263/2025_H3N2,plate17-CTGCCGCCTGCTGTGT,3605,interpolated,midpoint,5921,3605,0.6,0,2.648

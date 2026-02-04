@@ -1,8 +1,6 @@
 wells:
   H9: avg_barcode_counts_per_well
-barcodes:
-  GCCCTACCTAACTACC: min_neut_standard_frac_per_well
-  TCCGCACTGCGATCAC: min_neut_standard_frac_per_well
+barcodes: {}
 barcode_wells:
   GAAGTGCTGCTGAAGT C4: max_frac_infectivity_per_viral_barcode_well
   GAAGTGCTGCTGAAGT F4: max_frac_infectivity_per_viral_barcode_well
@@ -19,7 +17,6 @@ barcode_serum_replicates:
   AGCAGTCCCGCTAGTC seqneut25to26_sera_0014: goodness_of_fit
   AGGAACATGTCCATAC seqneut25to26_sera_0014: goodness_of_fit
   ATCGCAAGTACCAGTT seqneut25to26_sera_0014: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_0014: goodness_of_fit
   CATGTGGAGGGTCGAG seqneut25to26_sera_0014: goodness_of_fit
   CCTTATGAATTACGCG seqneut25to26_sera_0014: goodness_of_fit
   CGTACGTATGTCCCAG seqneut25to26_sera_0014: goodness_of_fit
@@ -50,7 +47,6 @@ barcode_serum_replicates:
   TCGGAGAGCGATCCGC seqneut25to26_sera_0015: goodness_of_fit
   TTTAGCCGGCTGTAAC seqneut25to26_sera_0015: goodness_of_fit
   TTTCGGGGCCCCAATG seqneut25to26_sera_0015: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_0016: goodness_of_fit
   GTCGCCGCTAATCCGA seqneut25to26_sera_0016: goodness_of_fit
   TCGGAGAGCGATCCGC seqneut25to26_sera_0016: goodness_of_fit
   AACACTCAATACCGGT seqneut25to26_sera_0018: goodness_of_fit
@@ -64,7 +60,6 @@ barcode_serum_replicates:
   TTTATTACTCTTATGG seqneut25to26_sera_0018: goodness_of_fit
   AGGAAGATCAAAAGCG seqneut25to26_sera_0020: goodness_of_fit
   ATACATCCGACGCTTT seqneut25to26_sera_0020: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_0020: goodness_of_fit
   GCTCCTGGTCATATAT seqneut25to26_sera_0020: goodness_of_fit
   GTGCAATTCCGCGTCC seqneut25to26_sera_0020: goodness_of_fit
   TACACTCAAACGATGC seqneut25to26_sera_0020: goodness_of_fit
@@ -89,7 +84,6 @@ barcode_serum_replicates:
   ATACATCCGACGCTTT seqneut25to26_sera_0022: goodness_of_fit
   ATCCGTTGGGCGACAA seqneut25to26_sera_0022: goodness_of_fit
   ATTGGCTGTCGTGGCC seqneut25to26_sera_0022: goodness_of_fit
-  CACGGCTGGAGCGGCC seqneut25to26_sera_0022: goodness_of_fit
   CATGTGGAGGGTCGAG seqneut25to26_sera_0022: goodness_of_fit
   CCATACCACGCCCTGT seqneut25to26_sera_0022: goodness_of_fit
   GAACACAATTACTTAG seqneut25to26_sera_0022: goodness_of_fit

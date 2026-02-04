@@ -161,13 +161,12 @@ human,seqneut25to26_sera_5031,A/SouthAustralia/2525607496/2025_H3N2,plate24-CAAA
 human,seqneut25to26_sera_5031,A/SouthAustralia/2525607496/2025_H3N2,plate24-GTTGATTCGATCATAT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,1.238
 human,seqneut25to26_sera_5031,A/Ghana/FS-25-7077/2025_H3N2,plate24-CACATACAACACGACC,2760,interpolated,midpoint,2760,2760,1,0,1.484
 human,seqneut25to26_sera_5031,A/Ghana/FS-25-7077/2025_H3N2,plate24-TTTCGGGGCCCCAATG,1531,interpolated,midpoint,1531,1531,1,0,2.642
-human,seqneut25to26_sera_5031,A/England/174/2025_H3N2,plate24-CACGGCTGGAGCGGCC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,1.797
-human,seqneut25to26_sera_5031,A/England/174/2025_H3N2,plate24-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.539
 human,seqneut25to26_sera_5031,A/Massachusetts/18/2022_H3N2,plate24-CATTTCTGATGAATTG,1.157e+04,interpolated,midpoint,1.362e+04,1.157e+04,0.6419,0,1.979
 human,seqneut25to26_sera_5031,A/Massachusetts/18/2022_H3N2,plate24-CGATCTTTACGAAAAA,1.33e+04,interpolated,midpoint,1.362e+04,1.33e+04,0.9278,0,3.087
 human,seqneut25to26_sera_5031,A/Massachusetts/18/2022_H3N2,plate24-TCCACACCCCTAGCTA,1.318e+04,interpolated,midpoint,1.318e+04,1.318e+04,1,0,3.445
 human,seqneut25to26_sera_5031,A/Guangxi-Daxin/1643/2025_H3N2,plate24-CCATACCACGCCCTGT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,4.7
 human,seqneut25to26_sera_5031,A/Guangxi-Daxin/1643/2025_H3N2,plate24-GAACACAATTACTTAG,1.198e+04,interpolated,midpoint,1.362e+04,1.198e+04,0.6,0,3.627
+human,seqneut25to26_sera_5031,A/England/174/2025_H3N2,plate24-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.539
 human,seqneut25to26_sera_5031,A/Bangkok/P2391/2025_H3N2,plate24-CGGGTCCTAGGCGAGG,1.282e+04,interpolated,midpoint,1.282e+04,1.282e+04,1,0,3.447
 human,seqneut25to26_sera_5031,A/Bangkok/P2391/2025_H3N2,plate24-TCGGAGAGCGATCCGC,8706,interpolated,midpoint,8706,8706,1,0,3.978
 human,seqneut25to26_sera_5031,A/Bangkok/P3263/2025_H3N2,plate24-CTGCCGCCTGCTGTGT,2991,interpolated,midpoint,2991,2991,1,0,6.025

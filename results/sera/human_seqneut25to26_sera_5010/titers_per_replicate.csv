@@ -160,8 +160,6 @@ human,seqneut25to26_sera_5010,A/Guangxi-Daxin/1643/2025_H3N2,plate22-CCATACCACGC
 human,seqneut25to26_sera_5010,A/Massachusetts/18/2022_H3N2,plate22-TCCACACCCCTAGCTA,778.1,interpolated,midpoint,778.1,778.1,1,0,0.992
 human,seqneut25to26_sera_5010,A/Massachusetts/18/2022_H3N2,plate22-CATTTCTGATGAATTG,1222,interpolated,midpoint,1222,1222,1,0,0.8454
 human,seqneut25to26_sera_5010,A/Massachusetts/18/2022_H3N2,plate22-CGATCTTTACGAAAAA,923.6,interpolated,midpoint,923.6,923.6,1,0,0.868
-human,seqneut25to26_sera_5010,A/England/174/2025_H3N2,plate22-CACGGCTGGAGCGGCC,604.4,interpolated,midpoint,709.9,604.4,0.6,0,10
-human,seqneut25to26_sera_5010,A/England/174/2025_H3N2,plate22-CCTTATGAATTACGCG,730.7,interpolated,midpoint,777.8,730.7,0.9401,0,2.045
 human,seqneut25to26_sera_5010,A/Guangdong-Maonan/11438/2025_H3N2,plate22-AAGACGAAGCGTTTGC,1040,interpolated,midpoint,1085,1040,0.976,0,1.171
 human,seqneut25to26_sera_5010,A/Guangdong-Maonan/11438/2025_H3N2,plate22-TTTATTACTCTTATGG,2805,interpolated,midpoint,2920,2805,0.8346,0,10
 human,seqneut25to26_sera_5010,A/Peru/GIHSN-04-1089/2025_H3N2,plate22-TTTAGCCGGCTGTAAC,554.8,interpolated,midpoint,699,554.8,0.8424,0,1.638
@@ -178,6 +176,7 @@ human,seqneut25to26_sera_5010,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate22-ATTAC
 human,seqneut25to26_sera_5010,A/Indonesia/BIOKES-I-BT074/2025_H3N2,plate22-CATCGACAGGTCCCAC,1261,interpolated,midpoint,1261,1261,1,0,0.9255
 human,seqneut25to26_sera_5010,A/Galicia/GA-CHUAC-451/2025_H3N2,plate22-CATGTGGAGGGTCGAG,614.1,interpolated,midpoint,614.1,614.1,1,0,0.9265
 human,seqneut25to26_sera_5010,A/Galicia/GA-CHUAC-451/2025_H3N2,plate22-TAGCCTATAATCAAGT,860,interpolated,midpoint,860,860,1,0,1.578
+human,seqneut25to26_sera_5010,A/England/174/2025_H3N2,plate22-CCTTATGAATTACGCG,730.7,interpolated,midpoint,777.8,730.7,0.9401,0,2.045
 human,seqneut25to26_sera_5010,A/Guangdong-Meijiang/11256/2025_H3N2,plate22-CGTTGCATGTAGCAGG,1725,interpolated,midpoint,1783,1725,0.9814,0,1.143
 human,seqneut25to26_sera_5010,A/Guangdong-Meijiang/11256/2025_H3N2,plate22-TCCCTTCTTCGCAACT,1752,interpolated,midpoint,1752,1752,1,0,0.8
 human,seqneut25to26_sera_5010,A/Malaysia/IMR/SARI/2028/2025_H3N2,plate22-GCCAGCCGAAAGCCGT,992.7,interpolated,midpoint,1268,992.7,0.8728,0,1.2

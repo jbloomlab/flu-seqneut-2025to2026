@@ -94,8 +94,6 @@ human,seqneut25to26_sera_0003,A/Massachusetts/18/2022_H3N2,plate1-TCCACACCCCTAGC
 human,seqneut25to26_sera_0003,A/Massachusetts/18/2022_H3N2,plate1-CGATCTTTACGAAAAA,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.158
 human,seqneut25to26_sera_0003,A/Anapolis/LEIAL6543/2025_H3N2,plate1-AACACTCAATACCGGT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6881,0,1.261
 human,seqneut25to26_sera_0003,A/Anapolis/LEIAL6543/2025_H3N2,plate1-AAATATTGAGACTAAT,1.003e+04,interpolated,midpoint,1.362e+04,1.003e+04,0.6,0,1.972
-human,seqneut25to26_sera_0003,A/England/174/2025_H3N2,plate1-CACGGCTGGAGCGGCC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,9.541
-human,seqneut25to26_sera_0003,A/England/174/2025_H3N2,plate1-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,4.305
 human,seqneut25to26_sera_0003,A/SouthAfrica/PET37604/2025_H3N2,plate1-CGACGCGCCGTCGCTG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,1.152
 human,seqneut25to26_sera_0003,A/SouthAfrica/PET37604/2025_H3N2,plate1-ATCAAGGACCCTGGGC,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6001,0,2.655
 human,seqneut25to26_sera_0003,A/Michigan/110/2025_H3N2,plate1-GACTTCTTCCGCTCTT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.07
@@ -170,6 +168,7 @@ human,seqneut25to26_sera_0003,A/HongKong/1257/2025_H3N2,plate1-CACACCTCTCTCGCCG,
 human,seqneut25to26_sera_0003,A/HongKong/1257/2025_H3N2,plate1-GTATAGAAATGGGTCA,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.251
 human,seqneut25to26_sera_0003,A/Galicia/GA-CHUAC-451/2025_H3N2,plate1-CATGTGGAGGGTCGAG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,4.441
 human,seqneut25to26_sera_0003,A/Galicia/GA-CHUAC-451/2025_H3N2,plate1-TAGCCTATAATCAAGT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,4.036
+human,seqneut25to26_sera_0003,A/England/174/2025_H3N2,plate1-CCTTATGAATTACGCG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,4.305
 human,seqneut25to26_sera_0003,A/Guangdong-Meijiang/11256/2025_H3N2,plate1-CGTTGCATGTAGCAGG,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,1,0,4.58
 human,seqneut25to26_sera_0003,A/Guangdong-Meijiang/11256/2025_H3N2,plate1-TCCCTTCTTCGCAACT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,5.318
 human,seqneut25to26_sera_0003,A/Bangkok/P3263/2025_H3N2,plate1-CTGCCGCCTGCTGTGT,1.362e+04,lower,midpoint,1.362e+04,1.362e+04,0.6,0,3.514

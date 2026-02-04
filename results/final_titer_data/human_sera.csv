@@ -2,7 +2,6 @@ serum,cohort,age,sex,serum_collection_date,age_numeric,exposure_info,subject_id,
 seqneut25to26_sera_3001,HKU,10-19y,Female,2025-08,14.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3002,HKU,10-19y,Female,2025-08,14.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3003,HKU,10-19y,Male,2025-09,14.5,Rountine FU - no reported infection,,
-seqneut25to26_sera_3004,HKU,10-19y,Female,2025-11,14.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3005,HKU,10-19y,Female,2025-09,14.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3006,HKU,10-19y,Female,2025-10,14.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3007,HKU,20-29y,Male,2025-08,24.5,Rountine FU - no reported infection,,
@@ -89,11 +88,9 @@ seqneut25to26_sera_1057_d0,PENN,76,Female,2025-10,76.0,d0 egg-based Flulaval vac
 seqneut25to26_sera_1057_d28,PENN,76,Female,2025-11,76.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1057,28.0
 seqneut25to26_sera_1028_d0,PENN,50,Male,2025-10,50.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1028,0.0
 seqneut25to26_sera_1028_d28,PENN,50,Male,2025-11,50.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1028,28.0
-seqneut25to26_sera_1031_d0,PENN,51,Male,2025-10,51.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1031,0.0
 seqneut25to26_sera_1031_d28,PENN,51,Male,2025-11,51.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1031,28.0
 seqneut25to26_sera_1023_d0,PENN,48,Female,2025-10,48.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1023,0.0
 seqneut25to26_sera_1023_d28,PENN,48,Female,2025-11,48.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1023,28.0
-seqneut25to26_sera_1040_d0,PENN,61,Female,2025-10,61.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1040,0.0
 seqneut25to26_sera_1040_d28,PENN,61,Female,2025-11,61.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1040,28.0
 seqneut25to26_sera_1036_d0,PENN,57,Male,2025-10,57.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1036,0.0
 seqneut25to26_sera_1036_d28,PENN,57,Male,2025-11,57.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1036,28.0
@@ -103,7 +100,6 @@ seqneut25to26_sera_1008_d0,PENN,30,Male,2025-10,30.0,d0 egg-based Flulaval vacci
 seqneut25to26_sera_1008_d28,PENN,30,Male,2025-11,30.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1008,28.0
 seqneut25to26_sera_1007_d0,PENN,29,Female,2025-10,29.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1007,0.0
 seqneut25to26_sera_1007_d28,PENN,29,Female,2025-11,29.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1007,28.0
-seqneut25to26_sera_1005_d0,PENN,28,Male,2025-10,28.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1005,0.0
 seqneut25to26_sera_1005_d28,PENN,28,Male,2025-11,28.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1005,28.0
 seqneut25to26_sera_1009_d0,PENN,31,Female,2025-10,31.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1009,0.0
 seqneut25to26_sera_1009_d28,PENN,31,Female,2025-11,31.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1009,28.0
@@ -113,7 +109,6 @@ seqneut25to26_sera_1013_d0,PENN,36,Female,2025-10,36.0,d0 egg-based Flulaval vac
 seqneut25to26_sera_1013_d28,PENN,36,Female,2025-11,36.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1013,28.0
 seqneut25to26_sera_1004_d0,PENN,26,Male,2025-10,26.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1004,0.0
 seqneut25to26_sera_1004_d28,PENN,26,Male,2025-11,26.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1004,28.0
-seqneut25to26_sera_1054_d0,PENN,72,Male,2025-10,72.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1054,0.0
 seqneut25to26_sera_1054_d28,PENN,72,Male,2025-11,72.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1054,28.0
 seqneut25to26_sera_1033_d0,PENN,53,Female,2025-10,53.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1033,0.0
 seqneut25to26_sera_1033_d28,PENN,53,Female,2025-11,53.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1033,28.0
@@ -163,7 +158,6 @@ seqneut25to26_sera_1050_d0,PENN,70,Female,2025-10,70.0,d0 egg-based Flulaval vac
 seqneut25to26_sera_1050_d28,PENN,70,Female,2025-11,70.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1050,28.0
 seqneut25to26_sera_1042_d0,PENN,62,Male,2025-10,62.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1042,0.0
 seqneut25to26_sera_1042_d28,PENN,62,Male,2025-11,62.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1042,28.0
-seqneut25to26_sera_1010_d0,PENN,32,Female,2025-10,32.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1010,0.0
 seqneut25to26_sera_1010_d28,PENN,32,Female,2025-11,32.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1010,28.0
 seqneut25to26_sera_1029_d0,PENN,50,Female,2025-10,50.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1029,0.0
 seqneut25to26_sera_1029_d28,PENN,50,Female,2025-11,50.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1029,28.0
@@ -175,13 +169,11 @@ seqneut25to26_sera_1019_d0,PENN,41,Male,2025-10,41.0,d0 egg-based Flulaval vacci
 seqneut25to26_sera_1019_d28,PENN,41,Male,2025-11,41.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1019,28.0
 seqneut25to26_sera_0001,SCH,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0002,SCH,5-10y,Female,2025-11,7.5,,,
-seqneut25to26_sera_0003,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0004,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0005,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0006,SCH,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0007,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0008,SCH,11-15y,Male,2025-11,13.0,,,
-seqneut25to26_sera_0009,SCH,2-4y,Male,2025-11,3.0,,,
 seqneut25to26_sera_0010,SCH,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0011,SCH,0-1y,Female,2025-11,0.5,,,
 seqneut25to26_sera_0012,SCH,11-15y,Male,2025-11,13.0,,,
@@ -197,7 +189,6 @@ seqneut25to26_sera_0021,SCH,5-10y,Male,2025-11,7.5,,,
 seqneut25to26_sera_0022,SCH,2-4y,Male,2025-11,3.0,,,
 seqneut25to26_sera_0023,SCH,5-10y,Male,2025-11,7.5,,,
 seqneut25to26_sera_0024,SCH,2-4y,Male,2025-11,3.0,,,
-seqneut25to26_sera_0025,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0026,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0027,SCH,11-15y,Male,2025-11,13.0,,,
 seqneut25to26_sera_0028,SCH,11-15y,Female,2025-11,13.0,,,

@@ -172,14 +172,13 @@ human,seqneut25to26_sera_1014_d28,A/SouthAustralia/2525607496/2025_H3N2,plate14-
 human,seqneut25to26_sera_1014_d28,A/SouthAustralia/2525607496/2025_H3N2,plate14-GTTGATTCGATCATAT,451.8,interpolated,midpoint,451.8,451.8,1,0,3.283
 human,seqneut25to26_sera_1014_d28,A/Ghana/FS-25-7077/2025_H3N2,plate14-CACATACAACACGACC,480.4,interpolated,midpoint,543.6,480.4,0.9288,0,1.245
 human,seqneut25to26_sera_1014_d28,A/Ghana/FS-25-7077/2025_H3N2,plate14-TTTCGGGGCCCCAATG,363.9,interpolated,midpoint,552.5,363.9,0.6562,0,2.786
-human,seqneut25to26_sera_1014_d28,A/England/174/2025_H3N2,plate14-CACGGCTGGAGCGGCC,119.6,interpolated,midpoint,131.6,119.6,0.6913,0,10
-human,seqneut25to26_sera_1014_d28,A/England/174/2025_H3N2,plate14-CCTTATGAATTACGCG,298.5,interpolated,midpoint,426.6,298.5,0.7323,0,2.147
 human,seqneut25to26_sera_1014_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate14-CATGTGGAGGGTCGAG,410.1,interpolated,midpoint,615.4,410.1,0.7774,0,1.452
 human,seqneut25to26_sera_1014_d28,A/Galicia/GA-CHUAC-451/2025_H3N2,plate14-TAGCCTATAATCAAGT,314.4,interpolated,midpoint,378.1,314.4,0.8448,0,2.016
 human,seqneut25to26_sera_1014_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate14-CCATACCACGCCCTGT,688.7,interpolated,midpoint,688.7,688.7,1,0,1.5
 human,seqneut25to26_sera_1014_d28,A/Guangxi-Daxin/1643/2025_H3N2,plate14-GAACACAATTACTTAG,237.1,interpolated,midpoint,246.9,237.1,0.8339,0,10
 human,seqneut25to26_sera_1014_d28,A/BritishColumbia/PHL-2473/2025_H1N1,plate14-CCTAGCCGGAAACATG,317.3,interpolated,midpoint,353.9,317.3,0.8269,0,3.892
 human,seqneut25to26_sera_1014_d28,A/BritishColumbia/PHL-2473/2025_H1N1,plate14-TCGCGGATTAAACCAT,282.2,interpolated,midpoint,318.5,282.2,0.8001,0,4.219
+human,seqneut25to26_sera_1014_d28,A/England/174/2025_H3N2,plate14-CCTTATGAATTACGCG,298.5,interpolated,midpoint,426.6,298.5,0.7323,0,2.147
 human,seqneut25to26_sera_1014_d28,A/Zacapa/FLU-261/2025_H1N1,plate14-CTCGCGGGTATATAGA,444.1,interpolated,midpoint,543,444.1,0.8297,0,2.071
 human,seqneut25to26_sera_1014_d28,A/Zacapa/FLU-261/2025_H1N1,plate14-CTTGAACCAGCAGTGT,761.8,interpolated,midpoint,873.4,761.8,0.8986,0,1.658
 human,seqneut25to26_sera_1014_d28,A/DistritoFederal/2578578201/2025_H3N2,plate14-GAACGGAGATCTGTTG,309.4,interpolated,midpoint,342.1,309.4,0.8063,0,4.877

@@ -177,7 +177,6 @@ human,seqneut25to26_sera_4006,A/Wisconsin/67/2022_H1N1,plate15-CTGAACTTGTCGATAT,
 human,seqneut25to26_sera_4006,A/Wisconsin/67/2022_H1N1,plate15-AAAGCTCTTTTCGTTC,200.9,interpolated,midpoint,203.4,200.9,0.9771,0,3.655
 human,seqneut25to26_sera_4006,A/Wisconsin/67/2022_H1N1,plate15-AGGAAAGAAACTGGAG,195.7,interpolated,midpoint,205.4,195.7,0.9452,0,2.388
 human,seqneut25to26_sera_4006,A/England/174/2025_H3N2,plate15-CCTTATGAATTACGCG,183,interpolated,midpoint,365.4,183,0.7028,0,1.305
-human,seqneut25to26_sera_4006,A/England/174/2025_H3N2,plate15-CACGGCTGGAGCGGCC,771.5,interpolated,midpoint,824.2,771.5,0.9415,0,1.886
 human,seqneut25to26_sera_4006,A/Victoria/4897/2022_IVR-238_H1N1,plate15-AAGTTAAGAGAAAGTT,1593,interpolated,midpoint,1827,1593,0.8537,0,2.525
 human,seqneut25to26_sera_4006,A/Victoria/4897/2022_IVR-238_H1N1,plate15-AATCCGAAATTTATTC,1660,interpolated,midpoint,1660,1660,1,0,3
 human,seqneut25to26_sera_4006,A/Victoria/4897/2022_IVR-238_H1N1,plate15-AGAGCTAAAAAGAGGA,1669,interpolated,midpoint,1762,1669,0.9367,0,2.501

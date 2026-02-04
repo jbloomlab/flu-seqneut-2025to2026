@@ -63,8 +63,6 @@ human,seqneut25to26_sera_4002,A/Sydney/400/2025_H1N1,plate15-TTCTAACGATTGTAGG,97
 human,seqneut25to26_sera_4002,A/Sydney/400/2025_H1N1,plate15-CGATTACGCTTTCCGG,84.54,interpolated,midpoint,89.29,84.54,0.9391,0,2.38
 human,seqneut25to26_sera_4002,A/Malaysia/IMR/SARI/2406/2025_H3N2,plate15-AATCATACATGCTTCT,204.4,interpolated,midpoint,265.9,204.4,0.8385,0,1.482
 human,seqneut25to26_sera_4002,A/Malaysia/IMR/SARI/2406/2025_H3N2,plate15-CCTACGCTCGTATCCC,261.8,interpolated,midpoint,261.8,261.8,1,0,1.3
-human,seqneut25to26_sera_4002,A/England/174/2025_H3N2,plate15-CACGGCTGGAGCGGCC,578.8,interpolated,midpoint,791.7,578.8,0.66,0,3.638
-human,seqneut25to26_sera_4002,A/England/174/2025_H3N2,plate15-CCTTATGAATTACGCG,633.1,interpolated,midpoint,690.4,633.1,0.9435,0,1.385
 human,seqneut25to26_sera_4002,A/Peru/GIHSN-04-1089/2025_H3N2,plate15-TTTAGCCGGCTGTAAC,360.2,interpolated,midpoint,437.9,360.2,0.8219,0,2.252
 human,seqneut25to26_sera_4002,A/Peru/GIHSN-04-1089/2025_H3N2,plate15-GATTGAGGGGTCCGGG,287.6,interpolated,midpoint,368,287.6,0.7998,0,2.076
 human,seqneut25to26_sera_4002,A/Guangxi-Daxin/1643/2025_H3N2,plate15-CCATACCACGCCCTGT,350,interpolated,midpoint,570.9,350,0.8032,0,1.022
@@ -182,6 +180,7 @@ human,seqneut25to26_sera_4002,A/HongKong/1257/2025_H3N2,plate15-CACACCTCTCTCGCCG
 human,seqneut25to26_sera_4002,A/HongKong/1257/2025_H3N2,plate15-GTATAGAAATGGGTCA,689.7,interpolated,midpoint,824.2,689.7,0.8765,0,1.591
 human,seqneut25to26_sera_4002,A/Ghana/FS-25-7077/2025_H3N2,plate15-CACATACAACACGACC,502.3,interpolated,midpoint,700.7,502.3,0.7998,0,1.537
 human,seqneut25to26_sera_4002,A/Ghana/FS-25-7077/2025_H3N2,plate15-TTTCGGGGCCCCAATG,2019,interpolated,midpoint,2019,2019,1,0,0.8926
+human,seqneut25to26_sera_4002,A/England/174/2025_H3N2,plate15-CCTTATGAATTACGCG,633.1,interpolated,midpoint,690.4,633.1,0.9435,0,1.385
 human,seqneut25to26_sera_4002,A/Guangdong-Meijiang/11256/2025_H3N2,plate15-CGTTGCATGTAGCAGG,565.2,interpolated,midpoint,731.6,565.2,0.8161,0,1.777
 human,seqneut25to26_sera_4002,A/Guangdong-Meijiang/11256/2025_H3N2,plate15-TCCCTTCTTCGCAACT,689.3,interpolated,midpoint,783.7,689.3,0.8891,0,1.954
 human,seqneut25to26_sera_4002,A/SouthAustralia/2527213276/2025_H3N2,plate15-GCTGATAAACAATCTA,705.1,interpolated,midpoint,745.1,705.1,0.8918,0,4.427

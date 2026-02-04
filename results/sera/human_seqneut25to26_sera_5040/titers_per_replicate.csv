@@ -119,7 +119,6 @@ human,seqneut25to26_sera_5040,A/SouthAustralia/2520702747/2025_H1N1,plate24-TCGT
 human,seqneut25to26_sera_5040,A/SouthAustralia/2519001037/2025_H1N1,plate24-ACGATCGTCGGAGGTC,892,interpolated,midpoint,1016,892,0.86,0,2.525
 human,seqneut25to26_sera_5040,A/SouthAustralia/2519001037/2025_H1N1,plate24-TATGTCCGCACCGCCG,1185,interpolated,midpoint,1683,1185,0.775,0,1.702
 human,seqneut25to26_sera_5040,A/England/174/2025_H3N2,plate24-CCTTATGAATTACGCG,2091,interpolated,midpoint,2091,2091,1,0,1.099
-human,seqneut25to26_sera_5040,A/England/174/2025_H3N2,plate24-CACGGCTGGAGCGGCC,266.1,interpolated,midpoint,288.5,266.1,0.7229,0,10
 human,seqneut25to26_sera_5040,A/Victoria/4897/2022_IVR-238_H1N1,plate24-AAGTTAAGAGAAAGTT,4601,interpolated,midpoint,4601,4601,1,0,2.423
 human,seqneut25to26_sera_5040,A/Victoria/4897/2022_IVR-238_H1N1,plate24-AATCCGAAATTTATTC,7438,interpolated,midpoint,7438,7438,1,0,5.809
 human,seqneut25to26_sera_5040,A/Victoria/4897/2022_IVR-238_H1N1,plate24-AGAGCTAAAAAGAGGA,3456,interpolated,midpoint,3875,3456,0.855,0,2.993
