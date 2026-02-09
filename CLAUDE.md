@@ -22,6 +22,7 @@ This study uses **sequencing-based neutralization assays** to measure titers to 
 - ✅ **Aggregated Titers**: Pipeline producing titer results in `results/aggregated_titers/`
 - ✅ **Final Titer Processing**: QC'd titer data with sera/virus metadata (see `scripts/process_final_titer_data.py`)
 - ✅ **Titer Summary Plots**: Interactive Altair visualizations of titer data (see `notebooks/plot_titer_summaries.py`)
+- ✅ **Fold-Change Titer Plots**: Interactive fold-change comparisons between paired sera cohorts (see `notebooks/plot_fold_changes.py`)
 
 ### Ongoing
 - 🔄 Additional plates being added as experiments complete
@@ -109,7 +110,8 @@ flu-seqneut-2025to2026/
 │   ├── process_final_titer_data.py  # Final titer data processing and QC
 │   └── nextstrain_prot_titers_tree_alignment_and_metadata.py  # Tree input prep
 ├── notebooks/
-│   └── plot_titer_summaries.py    # Marimo notebook for titer summary plots
+│   ├── plot_titer_summaries.py    # Marimo notebook for titer summary plots
+│   └── plot_fold_changes.py       # Marimo notebook for fold-change titer plots
 ├── data/
 │   ├── viral_libraries/         # Barcode-to-strain mappings
 │   ├── neut_standard_sets/      # Neutralization control barcodes
@@ -304,6 +306,24 @@ The rule `plot_titer_summaries` (in `Snakefile`) generates charts for each group
 - Interactive filtering by cohort, age range, and virus subclade/vaccine type
 - Axis labels show derived_haplotype (if defined) or strain name
 - Tooltips show both virus name and derived_haplotype
+
+### Fold-Change Titer Plots Configuration
+The `plot_fold_changes` section in `config.yml` controls fold-change plots comparing paired sera cohorts. Each key defines one fold-change comparison:
+- `species`: Which species group to use (must match a group in `results/final_titer_data/`)
+- `title`: Display title for charts
+- `cohorts`: Ordered dict mapping cohort names (from `sera_multicohort`) to display labels. The first entry is the baseline for fold-change computation.
+- `condition_colors`: List of hex colors, one per cohort
+
+Visual parameters (axis limits, colors, facet sizes) are shared from `plot_titer_summaries_params`.
+
+The rule `plot_fold_changes` (in `Snakefile`) pairs sera across cohorts by `subject_id`, computes fold changes relative to baseline, and generates two-panel charts (titers + fold changes) for each subtype × strain type × chart type. Outputs go to `results/titer_plots/` and are added to docs via `add_htmls_to_docs`.
+
+**Notebook**: `notebooks/plot_fold_changes.py` implements the visualizations. Key features:
+- Pairs sera by `subject_id` across specified cohorts (subjects must be in all cohorts)
+- Pre-computes fold change in pandas for validation and fail-fast behavior
+- Two-panel layout: top panel shows titers, bottom panel shows fold changes with reference line at 1.0
+- Linked mouseover selections across panels
+- Interactive filtering by condition, age range, and virus subclade/vaccine type
 
 ## Common Tasks for Claude
 
