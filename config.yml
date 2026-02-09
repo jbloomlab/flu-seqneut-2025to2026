@@ -157,6 +157,18 @@ plot_titer_summaries_params:
     - "#bebada"
     - "#8dd3c7"
 
+# Plot fold changes in titers. Other plot parameters come
+# from `plot_titer_summaries_params`
+plot_fold_changes:
+  PENN_pre_post_vax:
+    species: human  # plot is for this species (group)
+    title: titer change after vaccination for PENN cohort
+    cohorts:  # cohorts and names assigned, first listed is baseline
+      PENN_0d-post-vax: pre-vaccination
+      PENN_28d-post-vax: 28 days post-vaccination
+    condition_colors:  # colors assigned to conditions
+      - "#4d4d4d"  # dark gray
+      - "#1b5e8a" # dark blue, use #9f2222 for a dark-red alternative
 
 # --- Configuration for `seqneut-pipeline` ----------------------------------------------
 

@@ -417,6 +417,43 @@ The pipeline validates viral library CSVs against the specifications above using
 
 **Notebook**: `notebooks/plot_titer_summaries.py` - Marimo notebook implementing the visualizations
 
+### 13. Fold-Change Titer Plots
+
+**Pipeline Rule**: `plot_fold_changes`
+
+**Goal**: Generate interactive Altair visualizations comparing titers between paired sera cohorts (e.g., pre- vs post-vaccination), with fold-change panels.
+
+**Process**:
+- Reads final titer data, sera multi-cohort assignments, and virus metadata
+- Pairs sera across cohorts by `subject_id` (only subjects present in all specified cohorts are included)
+- Computes fold change in titers relative to a baseline cohort (first listed in config)
+- Creates two-panel charts: top panel shows titers, bottom panel shows fold changes
+- Outputs both vertical and horizontal orientations for each chart
+- Adds charts to auto-generated pipeline documentation
+
+**Chart Types**:
+- `individual_sera`: Per-subject lines colored by condition + median points, in both titer and fold-change panels
+- `interquartile_range`: IQR error bands per condition + median points, in both titer and fold-change panels
+
+**Interactive Features**:
+- Click legend to filter by condition (cohort) or virus subclade/vaccine type
+- Adjust age range sliders to filter sera by donor age
+- Hover for linked tooltips across titer and fold-change panels (virus name, derived haplotype, subject ID, condition, titer/fold-change values)
+
+**Key Outputs** (in `results/titer_plots/`, not tracked in git but included in GitHub Pages documentation):
+- `{fold_change_name}_plot_fold_changes_{orientation}.html` - Full marimo notebook
+- `{fold_change_name}_{subtype}_{strain_type}_{chart_type}_{orientation}.html` - Individual chart HTMLs (8 per fold_change_name per orientation)
+
+**Configuration**: Parameters in `config.yml` under `plot_fold_changes`. Each entry specifies:
+- `species`: Which species group to use (e.g., `human`)
+- `title`: Display title for the charts
+- `cohorts`: Ordered mapping of cohort names to display labels (first is baseline for fold change)
+- `condition_colors`: List of hex colors for each condition
+
+Visual parameters (axis limits, colors, facet sizes) are shared from `plot_titer_summaries_params`.
+
+**Notebook**: `notebooks/plot_fold_changes.py` - Marimo notebook implementing the visualizations
+
 ## Quality Control Philosophy
 
 The pipeline implements **multi-stage QC**:
