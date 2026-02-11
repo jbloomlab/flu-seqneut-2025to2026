@@ -457,6 +457,7 @@ def _(
     strain_color_prop,
     subtypes,
     viral_strain_plot_order,
+    viruses,
 ):
     facet_size = plot_titer_summaries_params["facet_size"]
     titer_lower_limit = plot_titer_summaries_params["titer_lower_limit"]
@@ -523,10 +524,6 @@ def _(
         fields=["condition"], bind="legend", empty="all", toggle="true", clear=False
     )
 
-    # Add color_prop to paired_titers_full for filtering
-    virus_color_map = strain_color_prop.set_index("virus")["color_prop"].to_dict()
-    paired_titers_full["color_prop"] = paired_titers_full["virus"].map(virus_color_map)
-
     # --- Build and save charts ---
     made_chart = {c: False for c in chart_htmls}
 
@@ -555,6 +552,32 @@ def _(
             (paired_titers_full["subtype"] == _subtype)
             & (paired_titers_full["strain_type"].isin(strain_types))
         ].copy()
+
+        # Minimal chart data for Altair (reduces serialized spec size via transform_lookup)
+        chart_data_minimal = chart_data[
+            ["serum", "virus", "titer", "baseline_titer", "fold_change"]
+        ]
+        chart_viruses = viruses[viruses["virus"].isin(chart_data["virus"].unique())][
+            [
+                "virus",
+                "strain_type",
+                "subclade",
+                "derived_haplotype",
+                "vaccine_type",
+                "color_prop",
+            ]
+        ]
+        chart_sera = chart_data[
+            [
+                "serum",
+                "subject_id",
+                "condition",
+                "age",
+                "age_numeric",
+                "sex",
+                "serum_collection_date",
+            ]
+        ].drop_duplicates(subset=["serum"])
 
         if len(chart_data) == 0:
             mo.output.append(
@@ -616,7 +639,36 @@ def _(
 
         # Base chart for titer panel
         titer_base = (
-            alt.Chart(chart_data)
+            alt.Chart(chart_data_minimal)
+            .transform_lookup(
+                lookup="virus",
+                from_=alt.LookupData(
+                    data=chart_viruses,
+                    key="virus",
+                    fields=[
+                        "strain_type",
+                        "subclade",
+                        "derived_haplotype",
+                        "vaccine_type",
+                        "color_prop",
+                    ],
+                ),
+            )
+            .transform_lookup(
+                lookup="serum",
+                from_=alt.LookupData(
+                    data=chart_sera,
+                    key="serum",
+                    fields=[
+                        "subject_id",
+                        "condition",
+                        "age",
+                        "age_numeric",
+                        "sex",
+                        "serum_collection_date",
+                    ],
+                ),
+            )
             .add_params(
                 color_prop_selection,
                 condition_selection,
@@ -633,7 +685,36 @@ def _(
 
         # Base chart for fold-change panel
         fc_base = (
-            alt.Chart(chart_data)
+            alt.Chart(chart_data_minimal)
+            .transform_lookup(
+                lookup="virus",
+                from_=alt.LookupData(
+                    data=chart_viruses,
+                    key="virus",
+                    fields=[
+                        "strain_type",
+                        "subclade",
+                        "derived_haplotype",
+                        "vaccine_type",
+                        "color_prop",
+                    ],
+                ),
+            )
+            .transform_lookup(
+                lookup="serum",
+                from_=alt.LookupData(
+                    data=chart_sera,
+                    key="serum",
+                    fields=[
+                        "subject_id",
+                        "condition",
+                        "age",
+                        "age_numeric",
+                        "sex",
+                        "serum_collection_date",
+                    ],
+                ),
+            )
             .transform_filter(f"datum.condition !== '{baseline_label}'")
             .transform_filter(color_prop_selection)
             .transform_filter(condition_selection)
