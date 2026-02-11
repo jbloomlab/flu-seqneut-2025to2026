@@ -198,6 +198,12 @@ def _(fold_change_config, mo, pd, sera_multicohort_csv, titers_csv):
         )
     mo.output.append(mo.md(f"\nFound {len(paired_subjects)} paired subjects"))
 
+    if "all subjects" in paired_subjects:
+        raise ValueError(
+            "Found subject_id 'all subjects' in data; this conflicts with "
+            "the dropdown label used in individual_sera plots"
+        )
+
     # Filter to paired subjects and add condition labels
     sera_paired = sera_filtered[
         sera_filtered["subject_id"].isin(paired_subjects)
@@ -451,6 +457,7 @@ def _(
     strain_color_prop,
     subtypes,
     viral_strain_plot_order,
+    viruses,
 ):
     facet_size = plot_titer_summaries_params["facet_size"]
     titer_lower_limit = plot_titer_summaries_params["titer_lower_limit"]
@@ -517,10 +524,6 @@ def _(
         fields=["condition"], bind="legend", empty="all", toggle="true", clear=False
     )
 
-    # Add color_prop to paired_titers_full for filtering
-    virus_color_map = strain_color_prop.set_index("virus")["color_prop"].to_dict()
-    paired_titers_full["color_prop"] = paired_titers_full["virus"].map(virus_color_map)
-
     # --- Build and save charts ---
     made_chart = {c: False for c in chart_htmls}
 
@@ -549,6 +552,32 @@ def _(
             (paired_titers_full["subtype"] == _subtype)
             & (paired_titers_full["strain_type"].isin(strain_types))
         ].copy()
+
+        # Minimal chart data for Altair (reduces serialized spec size via transform_lookup)
+        chart_data_minimal = chart_data[
+            ["serum", "virus", "titer", "baseline_titer", "fold_change"]
+        ]
+        chart_viruses = viruses[viruses["virus"].isin(chart_data["virus"].unique())][
+            [
+                "virus",
+                "strain_type",
+                "subclade",
+                "derived_haplotype",
+                "vaccine_type",
+                "color_prop",
+            ]
+        ]
+        chart_sera = chart_data[
+            [
+                "serum",
+                "subject_id",
+                "condition",
+                "age",
+                "age_numeric",
+                "sex",
+                "serum_collection_date",
+            ]
+        ].drop_duplicates(subset=["serum"])
 
         if len(chart_data) == 0:
             mo.output.append(
@@ -610,7 +639,36 @@ def _(
 
         # Base chart for titer panel
         titer_base = (
-            alt.Chart(chart_data)
+            alt.Chart(chart_data_minimal)
+            .transform_lookup(
+                lookup="virus",
+                from_=alt.LookupData(
+                    data=chart_viruses,
+                    key="virus",
+                    fields=[
+                        "strain_type",
+                        "subclade",
+                        "derived_haplotype",
+                        "vaccine_type",
+                        "color_prop",
+                    ],
+                ),
+            )
+            .transform_lookup(
+                lookup="serum",
+                from_=alt.LookupData(
+                    data=chart_sera,
+                    key="serum",
+                    fields=[
+                        "subject_id",
+                        "condition",
+                        "age",
+                        "age_numeric",
+                        "sex",
+                        "serum_collection_date",
+                    ],
+                ),
+            )
             .add_params(
                 color_prop_selection,
                 condition_selection,
@@ -627,7 +685,36 @@ def _(
 
         # Base chart for fold-change panel
         fc_base = (
-            alt.Chart(chart_data)
+            alt.Chart(chart_data_minimal)
+            .transform_lookup(
+                lookup="virus",
+                from_=alt.LookupData(
+                    data=chart_viruses,
+                    key="virus",
+                    fields=[
+                        "strain_type",
+                        "subclade",
+                        "derived_haplotype",
+                        "vaccine_type",
+                        "color_prop",
+                    ],
+                ),
+            )
+            .transform_lookup(
+                lookup="serum",
+                from_=alt.LookupData(
+                    data=chart_sera,
+                    key="serum",
+                    fields=[
+                        "subject_id",
+                        "condition",
+                        "age",
+                        "age_numeric",
+                        "sex",
+                        "serum_collection_date",
+                    ],
+                ),
+            )
             .transform_filter(f"datum.condition !== '{baseline_label}'")
             .transform_filter(color_prop_selection)
             .transform_filter(condition_selection)
@@ -637,9 +724,31 @@ def _(
             .properties(**step_props)
         )
 
+        # Subject dropdown filter (only active for individual_sera charts)
+        if chart_desc == "individual_sera":
+            chart_subject_ids = sorted(chart_data["subject_id"].unique())
+            subject_dropdown = alt.param(
+                name="subject_dropdown",
+                value="all subjects",
+                bind=alt.binding_select(
+                    options=["all subjects"] + chart_subject_ids,
+                    name="subject ",
+                ),
+            )
+            subject_filter_expr = (
+                "subject_dropdown == 'all subjects' "
+                "|| datum.subject_id == subject_dropdown"
+            )
+            titer_base_filtered = titer_base.transform_filter(subject_filter_expr)
+            fc_base_filtered = fc_base.transform_filter(subject_filter_expr)
+        else:
+            subject_dropdown = None
+            titer_base_filtered = titer_base
+            fc_base_filtered = fc_base
+
         # --- Titer panel median points ---
         titer_median = (
-            titer_base.transform_aggregate(
+            titer_base_filtered.transform_aggregate(
                 median_titer="median(titer)",
                 groupby=[
                     "virus",
@@ -671,7 +780,7 @@ def _(
 
         # --- Fold-change panel median points ---
         fc_median = (
-            fc_base.transform_aggregate(
+            fc_base_filtered.transform_aggregate(
                 median_fold_change="median(fold_change)",
                 groupby=[
                     "virus",
@@ -721,7 +830,7 @@ def _(
 
         if chart_desc == "individual_sera":
             # --- Titer panel: individual lines ---
-            titer_lines = titer_base.encode(
+            titer_lines = titer_base_filtered.encode(
                 **{titer_enc_key: alt.X("titer:Q", scale=titer_scale)},
                 detail="subject_id:N",
                 color=condition_color_enc,
@@ -745,7 +854,7 @@ def _(
             titer_panel = titer_lines + titer_median
 
             # --- Fold-change panel: individual lines ---
-            fc_lines = fc_base.encode(
+            fc_lines = fc_base_filtered.encode(
                 **{
                     titer_enc_key: alt.X(
                         "fold_change:Q",
@@ -839,13 +948,17 @@ def _(
         # vertical orientation: viruses on Y → hconcat (side-by-side) shares Y axis
         # horizontal orientation: viruses on X → vconcat (stacked) shares X axis
         # Mouseover selections added here so they work bidirectionally across panels.
+        concat_params = [virus_selection, subject_selection]
+        if subject_dropdown is not None:
+            concat_params.append(subject_dropdown)
+
         if facet_orientation == "vertical":
             panels_concat = alt.hconcat(titer_panel, fc_panel, spacing=5).add_params(
-                virus_selection, subject_selection
+                *concat_params
             )
         else:
             panels_concat = alt.vconcat(titer_panel, fc_panel, spacing=5).add_params(
-                virus_selection, subject_selection
+                *concat_params
             )
 
         chart = (
