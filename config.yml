@@ -125,15 +125,11 @@ process_final_titer_data:
   min_frac_sera: 0.8  # only include viral strains w titers against this fraction of sera
   min_frac_action: drop  # "drop" sera / strains below min_frac, or "raise" an error
   sera_to_drop:  # list names of sera to drop
-    # - seqneut25to26_sera_0003 # (missing lower bound, plate 1 well A3)
-    # - seqneut25to26_sera_0025 # (missing lower bound, plate 3 well A3)
-    # - seqneut25to26_sera_1040_d0 # (missing lower bound, plate 7 well A3)
-    # - seqneut25to26_sera_1005_d0 # (missing lower bound, plate 8 well A3)
-    # - seqneut25to26_sera_1054_d0 # (missing lower bound, plate 9 well A3)
-    # - seqneut25to26_sera_1010_d0 # (missing lower bound, plate 14 well A3)
-    # - seqneut25to26_sera_0009 # (missing upper bound, plate 1 well H9)
-    # - seqneut25to26_sera_1031_d0 # (missing upper bound, plate 6 well H9)
     - seqneut25to26_sera_3004 # (missing upper bound, plate 17 well H4)
+    - seqneut25to26_sera_3043 # collected Jan-2025
+    - seqneut25to26_sera_3044 # collected Jan-2025
+    - seqneut25to26_sera_3046 # collected Apr-2025
+    - seqneut25to26_sera_3048 # collected Jun-2025
   viruses_to_drop: []  # list names of viral strains to drop
   titer_cutoffs: *titer_cutoffs  # report fraction below cutoff
 
