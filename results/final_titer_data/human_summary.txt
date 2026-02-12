@@ -3,7 +3,7 @@ Processing final titer data for group: human
 ======================================================================
 
 Loading input data...
-  Loaded 22969 titer measurements from results/aggregated_titers/titers_human.csv
+  Loaded 27864 titer measurements from results/aggregated_titers/titers_human.csv
   Loaded 446 sera from results/sera_metadata/all_sera_metadata.csv
   Loaded 186 barcodes from data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
 
@@ -14,23 +14,23 @@ Validating input data...
   All viruses found in viral library
 
 Processing titer data...
-  Initial: 22969 rows, 253 sera, 91 viruses
+  Initial: 27864 rows, 307 sera, 91 viruses
 
 Step 1: Dropping explicitly specified sera and viruses...
   No viruses specified in viruses_to_drop
-  Dropped 817 rows for 9 sera in sera_to_drop
+  Dropped 91 rows for 1 sera in sera_to_drop
 
 Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
   min_frac filters converged after 1 iterations
 
 Processing complete:
-  Final: 22152 rows, 244 sera, 91 viruses
-  Dropped: 817 rows, 9 sera, 0 viruses
+  Final: 27773 rows, 306 sera, 91 viruses
+  Dropped: 91 rows, 1 sera, 0 viruses
 
 Generating output files...
-  Written: results/final_titer_data/human_titers.csv (22152 rows)
-  Written: results/final_titer_data/human_sera.csv (244 rows)
-  Written: results/final_titer_data/human_sera_multicohort.csv (601 rows)
+  Written: results/final_titer_data/human_titers.csv (27773 rows)
+  Written: results/final_titer_data/human_sera.csv (306 rows)
+  Written: results/final_titer_data/human_sera_multicohort.csv (730 rows)
   Written: results/final_titer_data/human_viruses.csv (91 rows)
   Written: results/final_titer_data/human_titers_summarized_by_virus.csv (728 rows)
 
@@ -38,18 +38,18 @@ Generating output files...
 FINAL SUMMARY
 ======================================================================
 Group: human
-Sera: 244
+Sera: 306
 Viruses: 91
-Total titers: 22152
+Total titers: 27773
 
 Cohorts in titers_summarized_by_virus.csv:
-  All: 244 sera, 22152 titers
+  All: 306 sera, 27773 titers
   CTS: 40 sera, 3637 titers
   HKU: 47 sera, 4268 titers
-  NIID: 8 sera, 727 titers
-  PENN: 113 sera, 10267 titers
-  SCH: 36 sera, 3253 titers
-  PENN_0d-post-vax: 54 sera, 4902 titers
+  NIID: 61 sera, 5530 titers
+  PENN: 118 sera, 10721 titers
+  SCH: 40 sera, 3617 titers
+  PENN_0d-post-vax: 59 sera, 5356 titers
   PENN_28d-post-vax: 59 sera, 5365 titers
 
 Viruses per subtype:

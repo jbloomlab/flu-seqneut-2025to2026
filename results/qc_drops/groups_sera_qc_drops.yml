@@ -7,8 +7,7 @@ human:
   seqneut25to26_sera_0006: {}
   seqneut25to26_sera_0007: {}
   seqneut25to26_sera_0008: {}
-  seqneut25to26_sera_0009:
-    A/England/1837737/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_0009: {}
   seqneut25to26_sera_0010: {}
   seqneut25to26_sera_0011: {}
   seqneut25to26_sera_0012: {}
@@ -39,6 +38,7 @@ human:
   seqneut25to26_sera_0037: {}
   seqneut25to26_sera_0038: {}
   seqneut25to26_sera_0039: {}
+  seqneut25to26_sera_0040: {}
   seqneut25to26_sera_1001_d0: {}
   seqneut25to26_sera_1001_d28: {}
   seqneut25to26_sera_1002_d0:
@@ -221,6 +221,70 @@ human:
   seqneut25to26_sera_4006: {}
   seqneut25to26_sera_4007: {}
   seqneut25to26_sera_4008: {}
+  seqneut25to26_sera_4009: {}
+  seqneut25to26_sera_4010: {}
+  seqneut25to26_sera_4011: {}
+  seqneut25to26_sera_4012: {}
+  seqneut25to26_sera_4013: {}
+  seqneut25to26_sera_4014: {}
+  seqneut25to26_sera_4015: {}
+  seqneut25to26_sera_4016: {}
+  seqneut25to26_sera_4017: {}
+  seqneut25to26_sera_4018:
+    A/Ghana/FS-25-7077/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4019: {}
+  seqneut25to26_sera_4020: {}
+  seqneut25to26_sera_4021: {}
+  seqneut25to26_sera_4022: {}
+  seqneut25to26_sera_4023: {}
+  seqneut25to26_sera_4024:
+    A/SouthAustralia/2525607496/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4025: {}
+  seqneut25to26_sera_4026: {}
+  seqneut25to26_sera_4027: {}
+  seqneut25to26_sera_4028:
+    A/HongKong/1382/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4029: {}
+  seqneut25to26_sera_4030: {}
+  seqneut25to26_sera_4031: {}
+  seqneut25to26_sera_4032:
+    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4033:
+    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4034:
+    A/Ghana/FS-25-7077/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4035:
+    A/California/61/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4036: {}
+  seqneut25to26_sera_4037:
+    A/SouthAustralia/2527902708/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4038: {}
+  seqneut25to26_sera_4039: {}
+  seqneut25to26_sera_4040: {}
+  seqneut25to26_sera_4041: {}
+  seqneut25to26_sera_4042: {}
+  seqneut25to26_sera_4043: {}
+  seqneut25to26_sera_4044: {}
+  seqneut25to26_sera_4045: {}
+  seqneut25to26_sera_4046: {}
+  seqneut25to26_sera_4047: {}
+  seqneut25to26_sera_4048:
+    A/Bhutan/1267/2025_H3N2: max_fold_change_from_median
+    A/SouthAustralia/2527003588/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4049: {}
+  seqneut25to26_sera_4050: {}
+  seqneut25to26_sera_4077: {}
+  seqneut25to26_sera_4078: {}
+  seqneut25to26_sera_4079: {}
+  seqneut25to26_sera_4080: {}
+  seqneut25to26_sera_4081: {}
+  seqneut25to26_sera_4082: {}
+  seqneut25to26_sera_4083: {}
+  seqneut25to26_sera_4084:
+    A/Vermont/73/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4085: {}
+  seqneut25to26_sera_4086: {}
+  seqneut25to26_sera_4087: {}
   seqneut25to26_sera_5001: {}
   seqneut25to26_sera_5002: {}
   seqneut25to26_sera_5003: {}

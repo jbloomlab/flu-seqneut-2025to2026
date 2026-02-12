@@ -1,7 +1,5 @@
 plate1:
-  wells:
-    A3: avg_barcode_counts_per_well
-    H9: avg_barcode_counts_per_well
+  wells: {}
   barcodes: {}
   barcode_wells:
     GAAGTGCTGCTGAAGT D1: max_frac_infectivity_per_viral_barcode_well
@@ -195,7 +193,6 @@ plate2:
   serum_replicates: {}
 plate3:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells:
@@ -204,12 +201,12 @@ plate3:
     AATCCGAAATTTATTC seqneut25to26_sera_0024: goodness_of_fit
     AGACCATCGCACCCAA seqneut25to26_sera_0025: goodness_of_fit
     ATCCGTTGGGCGACAA seqneut25to26_sera_0025: goodness_of_fit
-    CAGGTACGCGTTTCTG seqneut25to26_sera_0025: goodness_of_fit
-    CGACGCGCCGTCGCTG seqneut25to26_sera_0025: goodness_of_fit
-    CTGCCGCCTGCTGTGT seqneut25to26_sera_0025: goodness_of_fit
+    ATTGGCTGTCGTGGCC seqneut25to26_sera_0025: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_0025: goodness_of_fit
     GAAGTGCTGCTGAAGT seqneut25to26_sera_0025: goodness_of_fit
     TCCCTTCTTCGCAACT seqneut25to26_sera_0025: goodness_of_fit
     TCGGAGAGCGATCCGC seqneut25to26_sera_0025: goodness_of_fit
+    TTTAGCCGGCTGTAAC seqneut25to26_sera_0025: goodness_of_fit
     TTTATTACTCTTATGG seqneut25to26_sera_0025: goodness_of_fit
     AAACTCTAACTGAGTT seqneut25to26_sera_0026: goodness_of_fit
     AATCATACATGCTTCT seqneut25to26_sera_0026: goodness_of_fit
@@ -310,7 +307,6 @@ plate5:
 plate6:
   wells:
     A3: avg_barcode_counts_per_well
-    H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells: {}
   barcode_serum_replicates:
@@ -323,7 +319,6 @@ plate6:
   serum_replicates: {}
 plate7:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells: {}
@@ -338,7 +333,6 @@ plate7:
     GTTGACTGCCTTTCTT seqneut25to26_sera_1036_d0: goodness_of_fit
     AAGAAGCTATAGAAGT seqneut25to26_sera_1040_d0: goodness_of_fit
     ATACATCCGACGCTTT seqneut25to26_sera_1040_d0: goodness_of_fit
-    GAAGTGCTGCTGAAGT seqneut25to26_sera_1040_d0: goodness_of_fit
     GCTCCTGGTCATATAT seqneut25to26_sera_1040_d0: goodness_of_fit
     ATCGCAAGTACCAGTT seqneut25to26_sera_1040_d28: goodness_of_fit
     GAACCTACAAGCAGTC seqneut25to26_sera_1040_d28: goodness_of_fit
@@ -367,7 +361,6 @@ plate7:
   serum_replicates: {}
 plate8:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells: {}
@@ -376,9 +369,6 @@ plate8:
     GTATCACGTCGTTTAC seqneut25to26_sera_0032: goodness_of_fit
     GTCGCCGCTAATCCGA seqneut25to26_sera_0032: goodness_of_fit
     TGGTAGTCCTTAACCG seqneut25to26_sera_0032: goodness_of_fit
-    AAAGGAAGCCCCTCAC seqneut25to26_sera_1005_d0: goodness_of_fit
-    ACGAGAAGCAGGGGGC seqneut25to26_sera_1005_d0: goodness_of_fit
-    ACGTCGCTAGACTTTA seqneut25to26_sera_1005_d0: goodness_of_fit
     GTGCAATTCCGCGTCC seqneut25to26_sera_1005_d0: goodness_of_fit
     ACGTCGCTAGACTTTA seqneut25to26_sera_1013_d0: goodness_of_fit
     CTGCCGCCTGCTGTGT seqneut25to26_sera_1017_d0: goodness_of_fit
@@ -390,7 +380,6 @@ plate8:
   serum_replicates: {}
 plate9:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells:
@@ -403,7 +392,7 @@ plate9:
     GTCGCCGCTAATCCGA seqneut25to26_sera_1033_d0: goodness_of_fit
     TCCACACCCCTAGCTA seqneut25to26_sera_1033_d0: goodness_of_fit
     GAAGTGCTGCTGAAGT seqneut25to26_sera_1044_d28: goodness_of_fit
-    CACATACAACACGACC seqneut25to26_sera_1054_d0: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_1054_d0: goodness_of_fit
     CTGCCGCCTGCTGTGT seqneut25to26_sera_1054_d28: goodness_of_fit
   serum_replicates: {}
 plate10:
@@ -518,7 +507,6 @@ plate13:
   serum_replicates: {}
 plate14:
   wells:
-    A3: avg_barcode_counts_per_well
     H9: avg_barcode_counts_per_well
   barcodes: {}
   barcode_wells:
@@ -531,7 +519,6 @@ plate14:
     GTGCAATTCCGCGTCC seqneut25to26_sera_0038: goodness_of_fit
     GTTGATTCGATCATAT seqneut25to26_sera_0038: goodness_of_fit
     TTTCGGGGCCCCAATG seqneut25to26_sera_0038: goodness_of_fit
-    GTGCAATTCCGCGTCC seqneut25to26_sera_1010_d0: goodness_of_fit
     CGATCTTTACGAAAAA seqneut25to26_sera_1010_d28: goodness_of_fit
     CCATACCACGCCCTGT seqneut25to26_sera_1022_d0: goodness_of_fit
     CTGCCGCCTGCTGTGT seqneut25to26_sera_1022_d0: goodness_of_fit
@@ -873,4 +860,365 @@ plate24:
     CTGCCGCCTGCTGTGT E10: max_frac_infectivity_per_viral_barcode_well
   barcode_serum_replicates:
     GTGCAATTCCGCGTCC seqneut25to26_sera_5037: goodness_of_fit
+  serum_replicates: {}
+plate25:
+  wells: {}
+  barcodes:
+    CTGCCGCCTGCTGTGT: min_neut_standard_frac_per_well
+  barcode_wells:
+    ACATCCGCCCTTCGGT E3: max_frac_infectivity_per_viral_barcode_well
+    ATCTTGTATGATATGT H3: max_frac_infectivity_per_viral_barcode_well
+    ATGCCGGGCCGTTACT C4: max_frac_infectivity_per_viral_barcode_well
+    CTTGAACCAGCAGTGT G4: max_frac_infectivity_per_viral_barcode_well
+    AGGACCTAAATGAAGT H5: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC H5: max_frac_infectivity_per_viral_barcode_well
+    GTCGCCGCTAATCCGA H5: max_frac_infectivity_per_viral_barcode_well
+    GTCGCCGCTAATCCGA E6: max_frac_infectivity_per_viral_barcode_well
+    CGATTACGCTTTCCGG E6: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT E6: max_frac_infectivity_per_viral_barcode_well
+    GCAGAAAGAGGTAATA H7: max_frac_infectivity_per_viral_barcode_well
+    ACATCCGCCCTTCGGT G8: max_frac_infectivity_per_viral_barcode_well
+    GTCGCCGCTAATCCGA H8: max_frac_infectivity_per_viral_barcode_well
+    GTTGACTGCCTTTCTT H10: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC F11: max_frac_infectivity_per_viral_barcode_well
+    TATATTAGTAACATAA G11: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC G11: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT H11: max_frac_infectivity_per_viral_barcode_well
+  barcode_serum_replicates:
+    ACGTCGCTAGACTTTA seqneut25to26_sera_4018: goodness_of_fit
+    ATAGCCCTAACGAAAG seqneut25to26_sera_4019: goodness_of_fit
+    TGGTAGTCCTTAACCG seqneut25to26_sera_4019: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4019: goodness_of_fit
+    CAAATGGGCTGCAGGG seqneut25to26_sera_4020: goodness_of_fit
+    TGTCTGCGCTTAAGTT seqneut25to26_sera_4020: goodness_of_fit
+    CGGGTCCTAGGCGAGG seqneut25to26_sera_4021: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4021: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4022: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4023: goodness_of_fit
+    CACACCTCTCTCGCCG seqneut25to26_sera_4023: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4023: goodness_of_fit
+    CGTACGTATGTCCCAG seqneut25to26_sera_4023: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4023: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4023: goodness_of_fit
+    TTGAAACTCTTGTCCT seqneut25to26_sera_4023: goodness_of_fit
+    CACACCTCTCTCGCCG seqneut25to26_sera_4024: goodness_of_fit
+    CAGGTACGCGTTTCTG seqneut25to26_sera_4024: goodness_of_fit
+    ATCCGTTGGGCGACAA seqneut25to26_sera_4025: goodness_of_fit
+    CGTACTAATCACTCCG seqneut25to26_sera_4025: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4025: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4025: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4025: goodness_of_fit
+    TAGCCTATAATCAAGT seqneut25to26_sera_4025: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4025: goodness_of_fit
+    TCGGAGAGCGATCCGC seqneut25to26_sera_4025: goodness_of_fit
+    TTTAGCCGGCTGTAAC seqneut25to26_sera_4025: goodness_of_fit
+    CAAATATAATGTCCTG seqneut25to26_sera_4026: goodness_of_fit
+    CCAGGATCTATCCTTC seqneut25to26_sera_4026: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4026: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4028: goodness_of_fit
+    TCCACACCCCTAGCTA seqneut25to26_sera_4028: goodness_of_fit
+    TGGTAGTCCTTAACCG seqneut25to26_sera_4028: goodness_of_fit
+  serum_replicates: {}
+plate26:
+  wells: {}
+  barcodes: {}
+  barcode_wells:
+    CTTGAACCAGCAGTGT F1: max_frac_infectivity_per_viral_barcode_well
+    GTCACAGTCATCGTGT D4: max_frac_infectivity_per_viral_barcode_well
+    AAGCGACGCGCGACGG F4: max_frac_infectivity_per_viral_barcode_well
+    TGTCTGCGCTTAAGTT G5: max_frac_infectivity_per_viral_barcode_well
+    CACAGCGCTGGCCTTG F6: max_frac_infectivity_per_viral_barcode_well
+    ACGGCATCCCAATTGA G6: max_frac_infectivity_per_viral_barcode_well
+    GCTTGTTAGCCTGAAG G6: max_frac_infectivity_per_viral_barcode_well
+    CACAGCGCTGGCCTTG H6: max_frac_infectivity_per_viral_barcode_well
+    CGACTCTGTCGGGTAA H6: max_frac_infectivity_per_viral_barcode_well
+    ACATCCGCCCTTCGGT C7: max_frac_infectivity_per_viral_barcode_well
+    TTTTCGATAATAATCT G7: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT G7: max_frac_infectivity_per_viral_barcode_well
+    GTACACTCTTTCAATT G8: max_frac_infectivity_per_viral_barcode_well
+    ACGATCGTCGGAGGTC H9: max_frac_infectivity_per_viral_barcode_well
+    GTTGATTCGATCATAT C10: max_frac_infectivity_per_viral_barcode_well
+    GTCGTCCGTAAGTTCA E11: max_frac_infectivity_per_viral_barcode_well
+  barcode_serum_replicates:
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4029: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4029: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4029: goodness_of_fit
+    TACACTCAAACGATGC seqneut25to26_sera_4029: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4030: goodness_of_fit
+    CGGTAAGTTTCGAGGA seqneut25to26_sera_4030: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4030: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4030: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4031: goodness_of_fit
+    CGACGCGCCGTCGCTG seqneut25to26_sera_4031: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4031: goodness_of_fit
+    CGTACTAATCACTCCG seqneut25to26_sera_4032: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4032: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4032: goodness_of_fit
+    AGCAGTCCCGCTAGTC seqneut25to26_sera_4033: goodness_of_fit
+    AGGAACATGTCCATAC seqneut25to26_sera_4033: goodness_of_fit
+    CACATACAACACGACC seqneut25to26_sera_4033: goodness_of_fit
+    CGACGCGCCGTCGCTG seqneut25to26_sera_4033: goodness_of_fit
+    CTGAACTTGTCGATAT seqneut25to26_sera_4033: goodness_of_fit
+    AGGAACATGTCCATAC seqneut25to26_sera_4034: goodness_of_fit
+    AACACTCAATACCGGT seqneut25to26_sera_4035: goodness_of_fit
+    AGGAACATGTCCATAC seqneut25to26_sera_4035: goodness_of_fit
+    CTGCCGCCTGCTGTGT seqneut25to26_sera_4035: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4035: goodness_of_fit
+    TTTCGGGGCCCCAATG seqneut25to26_sera_4035: goodness_of_fit
+    AGGAAGATCAAAAGCG seqneut25to26_sera_4036: goodness_of_fit
+    ATAAATTCTTTATGGA seqneut25to26_sera_4036: goodness_of_fit
+    CTGCCGCCTGCTGTGT seqneut25to26_sera_4036: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4036: goodness_of_fit
+    AAGAAGCTATAGAAGT seqneut25to26_sera_4037: goodness_of_fit
+    ACGAGAAGCAGGGGGC seqneut25to26_sera_4037: goodness_of_fit
+    ATTGGCTGTCGTGGCC seqneut25to26_sera_4037: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4037: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4037: goodness_of_fit
+    TACACTCAAACGATGC seqneut25to26_sera_4037: goodness_of_fit
+    ATTGGCTGTCGTGGCC seqneut25to26_sera_4038: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4038: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4038: goodness_of_fit
+    TGGTAGTCCTTAACCG seqneut25to26_sera_4038: goodness_of_fit
+    TTTCCAGGGCTTCCCG seqneut25to26_sera_4038: goodness_of_fit
+    TTTCGGGGCCCCAATG seqneut25to26_sera_4038: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4038: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4039: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4039: goodness_of_fit
+  serum_replicates: {}
+plate27:
+  wells: {}
+  barcodes: {}
+  barcode_wells:
+    CTGCCGCCTGCTGTGT D2: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT E3: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC F4: max_frac_infectivity_per_viral_barcode_well
+    TGTCTGCGCTTAAGTT D5: max_frac_infectivity_per_viral_barcode_well
+    CGACTCTGTCGGGTAA F5: max_frac_infectivity_per_viral_barcode_well
+    GAAGTGCTGCTGAAGT D6: max_frac_infectivity_per_viral_barcode_well
+    GTCGCCGCTAATCCGA D7: max_frac_infectivity_per_viral_barcode_well
+    GCTTGTTAGCCTGAAG E7: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT F7: max_frac_infectivity_per_viral_barcode_well
+    TTCGACAAGTATACGT G7: max_frac_infectivity_per_viral_barcode_well
+    CCGTGTGTTGTGCGCA G7: max_frac_infectivity_per_viral_barcode_well
+    CTTGAACCAGCAGTGT H7: max_frac_infectivity_per_viral_barcode_well
+    GTCACAGTCATCGTGT E8: max_frac_infectivity_per_viral_barcode_well
+    CTTGAACCAGCAGTGT E9: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC F9: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT F9: max_frac_infectivity_per_viral_barcode_well
+    CTTGAACCAGCAGTGT G9: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT G9: max_frac_infectivity_per_viral_barcode_well
+    GAAGTGCTGCTGAAGT H9: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT H9: max_frac_infectivity_per_viral_barcode_well
+    ATACATCCGACGCTTT E10: max_frac_infectivity_per_viral_barcode_well
+    AGGACCTAAATGAAGT G10: max_frac_infectivity_per_viral_barcode_well
+    GTCGCCGCTAATCCGA H10: max_frac_infectivity_per_viral_barcode_well
+    GAAGTGCTGCTGAAGT H10: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT H10: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT H10: max_frac_infectivity_per_viral_barcode_well
+    TCCCTTCTTCGCAACT F11: max_frac_infectivity_per_viral_barcode_well
+  barcode_serum_replicates:
+    CTGCCGCCTGCTGTGT seqneut25to26_sera_4048: 
+      min_dilutions_per_barcode_serum_replicate
+    TTTTCTGACGATGCAG seqneut25to26_sera_4040: goodness_of_fit
+    AAGCAGTTTGCCCCCA seqneut25to26_sera_4041: goodness_of_fit
+    AAGCGCTTCCCAGCCA seqneut25to26_sera_4041: goodness_of_fit
+    ACATTTAGCGGACCGT seqneut25to26_sera_4041: goodness_of_fit
+    AGCAGTCCCGCTAGTC seqneut25to26_sera_4041: goodness_of_fit
+    AGGAAGATCAAAAGCG seqneut25to26_sera_4041: goodness_of_fit
+    CACATACAACACGACC seqneut25to26_sera_4041: goodness_of_fit
+    CGTACTAATCACTCCG seqneut25to26_sera_4041: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4041: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4041: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4041: goodness_of_fit
+    TCGGTCGGGCGAAGGC seqneut25to26_sera_4041: goodness_of_fit
+    TGGTAGTCCTTAACCG seqneut25to26_sera_4041: goodness_of_fit
+    TTTCGGGGCCCCAATG seqneut25to26_sera_4041: goodness_of_fit
+    AAAGCTCTTTTCGTTC seqneut25to26_sera_4042: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4042: goodness_of_fit
+    GATTGAGGGGTCCGGG seqneut25to26_sera_4042: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4042: goodness_of_fit
+    AAGCGCTTCCCAGCCA seqneut25to26_sera_4044: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4044: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4044: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4044: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4044: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4045: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4045: goodness_of_fit
+    TCGGAGAGCGATCCGC seqneut25to26_sera_4045: goodness_of_fit
+    AGCTCCACATTTGGCC seqneut25to26_sera_4046: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4046: goodness_of_fit
+    TCCCTTCTTCGCAACT seqneut25to26_sera_4046: goodness_of_fit
+    TTTATTACTCTTATGG seqneut25to26_sera_4046: goodness_of_fit
+    ACATCCGCCCTTCGGT seqneut25to26_sera_4047: goodness_of_fit
+    AGGACCTAAATGAAGT seqneut25to26_sera_4047: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4047: goodness_of_fit
+    CCTACGCTCGTATCCC seqneut25to26_sera_4047: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4047: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4047: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4047: goodness_of_fit
+    ATACATCCGACGCTTT seqneut25to26_sera_4048: goodness_of_fit
+    ATAGCCCTAACGAAAG seqneut25to26_sera_4048: goodness_of_fit
+    CACACCTCTCTCGCCG seqneut25to26_sera_4048: goodness_of_fit
+    CAGGCTGCTGGGCCGC seqneut25to26_sera_4048: goodness_of_fit
+    CCTACGCTCGTATCCC seqneut25to26_sera_4048: goodness_of_fit
+    GTCACAGTCATCGTGT seqneut25to26_sera_4048: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4048: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4048: goodness_of_fit
+    TTTACTCGATCCTCGC seqneut25to26_sera_4048: goodness_of_fit
+    ATCCGTTGGGCGACAA seqneut25to26_sera_4049: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4049: goodness_of_fit
+    TCCCTTCTTCGCAACT seqneut25to26_sera_4049: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4050: goodness_of_fit
+    ATTGGCTGTCGTGGCC seqneut25to26_sera_4050: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4050: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4050: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4050: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4050: goodness_of_fit
+    GTCGCCGCTAATCCGA seqneut25to26_sera_4050: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4050: goodness_of_fit
+    TTTACTCGATCCTCGC seqneut25to26_sera_4050: goodness_of_fit
+  serum_replicates: {}
+plate28:
+  wells: {}
+  barcodes:
+    CTGCCGCCTGCTGTGT: min_neut_standard_frac_per_well
+  barcode_wells:
+    CACAGCGCTGGCCTTG E5: max_frac_infectivity_per_viral_barcode_well
+    CTTGAACCAGCAGTGT G6: max_frac_infectivity_per_viral_barcode_well
+    ACGGCATCCCAATTGA E7: max_frac_infectivity_per_viral_barcode_well
+    ACGGCATCCCAATTGA G7: max_frac_infectivity_per_viral_barcode_well
+    GAGTGCCCAGGTGTTG H8: max_frac_infectivity_per_viral_barcode_well
+    TCGTGCTGTCATGCAG F11: max_frac_infectivity_per_viral_barcode_well
+    GCAGCTTGAATGATGT F11: max_frac_infectivity_per_viral_barcode_well
+  barcode_serum_replicates:
+    AGCAGTCCCGCTAGTC seqneut25to26_sera_4077: goodness_of_fit
+    ATACATCCGACGCTTT seqneut25to26_sera_4077: goodness_of_fit
+    ATGCGTTTATCGATTT seqneut25to26_sera_4077: goodness_of_fit
+    CACATACAACACGACC seqneut25to26_sera_4077: goodness_of_fit
+    CAGGCTGCTGGGCCGC seqneut25to26_sera_4077: goodness_of_fit
+    CATCGACAGGTCCCAC seqneut25to26_sera_4077: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4077: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4077: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4077: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4078: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4078: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4078: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4078: goodness_of_fit
+    AAGCGCTTCCCAGCCA seqneut25to26_sera_4079: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4079: goodness_of_fit
+    TTCGACAAGTATACGT seqneut25to26_sera_4079: goodness_of_fit
+    TTCTAACGATTGTAGG seqneut25to26_sera_4079: goodness_of_fit
+    ACATCCGCCCTTCGGT seqneut25to26_sera_4080: goodness_of_fit
+    CACACCTCTCTCGCCG seqneut25to26_sera_4080: goodness_of_fit
+    CACAGCGCTGGCCTTG seqneut25to26_sera_4080: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4080: goodness_of_fit
+    CGATTACGCTTTCCGG seqneut25to26_sera_4080: goodness_of_fit
+    GAAGTGCTGCTGAAGT seqneut25to26_sera_4080: goodness_of_fit
+    GACTTCTTCCGCTCTT seqneut25to26_sera_4080: goodness_of_fit
+    GTATAGAAATGGGTCA seqneut25to26_sera_4080: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4080: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4080: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4080: goodness_of_fit
+    TCGTGCTGTCATGCAG seqneut25to26_sera_4080: goodness_of_fit
+    TTTATTACTCTTATGG seqneut25to26_sera_4080: goodness_of_fit
+    AATCCGAAATTTATTC seqneut25to26_sera_4081: goodness_of_fit
+    ATGCGTTTATCGATTT seqneut25to26_sera_4081: goodness_of_fit
+    CACAGCGCTGGCCTTG seqneut25to26_sera_4081: goodness_of_fit
+    CAGGCTGCTGGGCCGC seqneut25to26_sera_4081: goodness_of_fit
+    CGATTACGCTTTCCGG seqneut25to26_sera_4081: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4081: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4081: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4081: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4081: goodness_of_fit
+    CCTACGCTCGTATCCC seqneut25to26_sera_4082: goodness_of_fit
+    CACAGCGCTGGCCTTG seqneut25to26_sera_4083: goodness_of_fit
+    AAGAAGCTATAGAAGT seqneut25to26_sera_4084: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4084: goodness_of_fit
+    AAGCAGTTTGCCCCCA seqneut25to26_sera_4084: goodness_of_fit
+    AGGAACATGTCCATAC seqneut25to26_sera_4084: goodness_of_fit
+    ATACATCCGACGCTTT seqneut25to26_sera_4084: goodness_of_fit
+    CGTACGTATGTCCCAG seqneut25to26_sera_4084: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4084: goodness_of_fit
+    GTCGCCGCTAATCCGA seqneut25to26_sera_4084: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4084: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4084: goodness_of_fit
+    TTTACTCGATCCTCGC seqneut25to26_sera_4084: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4084: goodness_of_fit
+    CACATACAACACGACC seqneut25to26_sera_4085: goodness_of_fit
+    GCTGATAAACAATCTA seqneut25to26_sera_4085: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4085: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4085: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4085: goodness_of_fit
+    TCGGAGAGCGATCCGC seqneut25to26_sera_4085: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4085: goodness_of_fit
+    TGTCTGCGCTTAAGTT seqneut25to26_sera_4086: goodness_of_fit
+    ATTGCAACGCCGGTGT seqneut25to26_sera_4087: goodness_of_fit
+    CGTACTAATCACTCCG seqneut25to26_sera_4087: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4087: goodness_of_fit
+    GCAGCTTGAATGATGT seqneut25to26_sera_4087: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4087: goodness_of_fit
+    TCCCAAGACAAGCGAC seqneut25to26_sera_4087: goodness_of_fit
+  serum_replicates: {}
+plate16-2:
+  wells: {}
+  barcodes: {}
+  barcode_wells:
+    CTGCCGCCTGCTGTGT D1: max_frac_infectivity_per_viral_barcode_well
+    TTCGACAAGTATACGT F1: max_frac_infectivity_per_viral_barcode_well
+    CCGTTAGGGATTCCTC G1: max_frac_infectivity_per_viral_barcode_well
+    GTCACAGTCATCGTGT F2: max_frac_infectivity_per_viral_barcode_well
+    GTATCACGTCGTTTAC G3: max_frac_infectivity_per_viral_barcode_well
+    TTTTCGATAATAATCT G3: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT H3: max_frac_infectivity_per_viral_barcode_well
+    CCGTGTGTTGTGCGCA E4: max_frac_infectivity_per_viral_barcode_well
+    CCGTGTGTTGTGCGCA H4: max_frac_infectivity_per_viral_barcode_well
+    GTATCACGTCGTTTAC G5: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT F6: max_frac_infectivity_per_viral_barcode_well
+    GTCACAGTCATCGTGT G6: max_frac_infectivity_per_viral_barcode_well
+    AGTCCTATCCTCAAAT H6: max_frac_infectivity_per_viral_barcode_well
+    GCTTGTTAGCCTGAAG H6: max_frac_infectivity_per_viral_barcode_well
+    TTCGACAAGTATACGT F9: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT E10: max_frac_infectivity_per_viral_barcode_well
+    CTGCCGCCTGCTGTGT F11: max_frac_infectivity_per_viral_barcode_well
+  barcode_serum_replicates:
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_0040: goodness_of_fit
+    GATTGAGGGGTCCGGG seqneut25to26_sera_0040: goodness_of_fit
+    GCCAACTTTCACTTGG seqneut25to26_sera_0040: goodness_of_fit
+    GTCGCCGCTAATCCGA seqneut25to26_sera_0040: goodness_of_fit
+    AAATATTGAGACTAAT seqneut25to26_sera_4009: goodness_of_fit
+    ATGCGTTTATCGATTT seqneut25to26_sera_4009: goodness_of_fit
+    CACACCTCTCTCGCCG seqneut25to26_sera_4009: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4009: goodness_of_fit
+    CGATCTTTACGAAAAA seqneut25to26_sera_4009: goodness_of_fit
+    CGGGTCCTAGGCGAGG seqneut25to26_sera_4009: goodness_of_fit
+    CGTACGTATGTCCCAG seqneut25to26_sera_4009: goodness_of_fit
+    GACTTCTTCCGCTCTT seqneut25to26_sera_4009: goodness_of_fit
+    GAGGACAGCGGTCGTC seqneut25to26_sera_4009: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4009: goodness_of_fit
+    TACACTCAAACGATGC seqneut25to26_sera_4009: goodness_of_fit
+    TAGATAACTCGCTAGG seqneut25to26_sera_4009: goodness_of_fit
+    TCCCTTCTTCGCAACT seqneut25to26_sera_4009: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4009: goodness_of_fit
+    AGGAACATGTCCATAC seqneut25to26_sera_4010: goodness_of_fit
+    GTATCACGTCGTTTAC seqneut25to26_sera_4010: goodness_of_fit
+    TCACACCGCTCAGCCT seqneut25to26_sera_4010: goodness_of_fit
+    CAGGTACGCGTTTCTG seqneut25to26_sera_4011: goodness_of_fit
+    AAGACGAAGCGTTTGC seqneut25to26_sera_4012: goodness_of_fit
+    CCATACCACGCCCTGT seqneut25to26_sera_4012: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4012: goodness_of_fit
+    GTCACAGTCATCGTGT seqneut25to26_sera_4012: goodness_of_fit
+    GTCGCCGCTAATCCGA seqneut25to26_sera_4012: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4012: goodness_of_fit
+    GTTGATTCGATCATAT seqneut25to26_sera_4012: goodness_of_fit
+    ATTGCAACGCCGGTGT seqneut25to26_sera_4015: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4015: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4015: goodness_of_fit
+    ACATCCGCCCTTCGGT seqneut25to26_sera_4016: goodness_of_fit
+    ACGGCATCCCAATTGA seqneut25to26_sera_4016: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4016: goodness_of_fit
+    GTCGCCGCTAATCCGA seqneut25to26_sera_4016: goodness_of_fit
+    GTGCAATTCCGCGTCC seqneut25to26_sera_4016: goodness_of_fit
+    TCCCTTCTTCGCAACT seqneut25to26_sera_4016: goodness_of_fit
+    GAGTGCCCAGGTGTTG seqneut25to26_sera_4017: goodness_of_fit
+    TTTTCTGACGATGCAG seqneut25to26_sera_4017: goodness_of_fit
   serum_replicates: {}

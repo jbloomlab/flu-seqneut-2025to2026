@@ -1,6 +1,4 @@
-wells:
-  A3: avg_barcode_counts_per_well
-  H9: avg_barcode_counts_per_well
+wells: {}
 barcodes: {}
 barcode_wells:
   GAAGTGCTGCTGAAGT D1: max_frac_infectivity_per_viral_barcode_well

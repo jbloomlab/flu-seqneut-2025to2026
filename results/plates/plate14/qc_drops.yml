@@ -1,5 +1,4 @@
 wells:
-  A3: avg_barcode_counts_per_well
   H9: avg_barcode_counts_per_well
 barcodes: {}
 barcode_wells:
@@ -12,7 +11,6 @@ barcode_serum_replicates:
   GTGCAATTCCGCGTCC seqneut25to26_sera_0038: goodness_of_fit
   GTTGATTCGATCATAT seqneut25to26_sera_0038: goodness_of_fit
   TTTCGGGGCCCCAATG seqneut25to26_sera_0038: goodness_of_fit
-  GTGCAATTCCGCGTCC seqneut25to26_sera_1010_d0: goodness_of_fit
   CGATCTTTACGAAAAA seqneut25to26_sera_1010_d28: goodness_of_fit
   CCATACCACGCCCTGT seqneut25to26_sera_1022_d0: goodness_of_fit
   CTGCCGCCTGCTGTGT seqneut25to26_sera_1022_d0: goodness_of_fit
