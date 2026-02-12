@@ -1,6 +1,5 @@
 wells:
   A3: avg_barcode_counts_per_well
-  H9: avg_barcode_counts_per_well
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:

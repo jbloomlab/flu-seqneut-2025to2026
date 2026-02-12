@@ -15,7 +15,7 @@ E2,seqneut25to26_sera_0002,1119,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260
 F2,seqneut25to26_sera_0002,2575,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_14_S14_R1_001.fastq.gz
 G2,seqneut25to26_sera_0002,5921,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_15_S15_R1_001.fastq.gz
 H2,seqneut25to26_sera_0002,13619,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_16_S16_R1_001.fastq.gz
-A3,seqneut25to26_sera_0003,40,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_17_S17_R1_001.fastq.gz
+A3,seqneut25to26_sera_0003,40,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260210_VH00319_602_AAF2FVWHV/Unaligned/Project_bloom_lab/PlateA_17_S97_R1_001.fastq.gz
 B3,seqneut25to26_sera_0003,92,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_18_S18_R1_001.fastq.gz
 C3,seqneut25to26_sera_0003,212,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_19_S19_R1_001.fastq.gz
 D3,seqneut25to26_sera_0003,487,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_20_S20_R1_001.fastq.gz
@@ -70,7 +70,7 @@ D9,seqneut25to26_sera_0009,487,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/2601
 E9,seqneut25to26_sera_0009,1119,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_69_S69_R1_001.fastq.gz
 F9,seqneut25to26_sera_0009,2575,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_70_S70_R1_001.fastq.gz
 G9,seqneut25to26_sera_0009,5921,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_71_S71_R1_001.fastq.gz
-H9,seqneut25to26_sera_0009,13619,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_72_S72_R1_001.fastq.gz
+H9,seqneut25to26_sera_0009,13619,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260210_VH00319_602_AAF2FVWHV/Unaligned/Project_bloom_lab/PlateA_23_S103_R1_001.fastq.gz
 A10,seqneut25to26_sera_0010,40,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_73_S73_R1_001.fastq.gz
 B10,seqneut25to26_sera_0010,92,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_74_S74_R1_001.fastq.gz
 C10,seqneut25to26_sera_0010,212,1,/fh/fast/bloom_j/SR/ngs/illumina/bloom_lab/260121_VH00699_605_AACWY3MHV/Unaligned/Project_bloom_lab/PlateB_75_S75_R1_001.fastq.gz

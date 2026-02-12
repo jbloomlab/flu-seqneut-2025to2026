@@ -125,15 +125,11 @@ process_final_titer_data:
   min_frac_sera: 0.8  # only include viral strains w titers against this fraction of sera
   min_frac_action: drop  # "drop" sera / strains below min_frac, or "raise" an error
   sera_to_drop:  # list names of sera to drop
-    - seqneut25to26_sera_0003 # (missing lower bound, plate 1 well A3)
-    - seqneut25to26_sera_0025 # (missing lower bound, plate 3 well A3)
-    - seqneut25to26_sera_1040_d0 # (missing lower bound, plate 7 well A3)
-    - seqneut25to26_sera_1005_d0 # (missing lower bound, plate 8 well A3)
-    - seqneut25to26_sera_1054_d0 # (missing lower bound, plate 9 well A3)
-    - seqneut25to26_sera_1010_d0 # (missing lower bound, plate 14 well A3)
-    - seqneut25to26_sera_0009 # (missing upper bound, plate 1 well H9)
-    - seqneut25to26_sera_1031_d0 # (missing upper bound, plate 6 well H9)
     - seqneut25to26_sera_3004 # (missing upper bound, plate 17 well H4)
+    - seqneut25to26_sera_3043 # collected Jan-2025
+    - seqneut25to26_sera_3044 # collected Jan-2025
+    - seqneut25to26_sera_3046 # collected Apr-2025
+    - seqneut25to26_sera_3048 # collected Jun-2025
   viruses_to_drop: []  # list names of viral strains to drop
   titer_cutoffs: *titer_cutoffs  # report fraction below cutoff
 
@@ -648,6 +644,108 @@ plates:
       <<: *default_process_plate_curvefit_qc
     illumina_barcode_parser_params:
       upstream2: CGAGCT # Fwd8
+      upstream2_mismatch: 1
+
+  plate25:
+    group: human
+    date: 2026-02-11
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-02-11_plate25.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: GCTACA # Fwd1
+      upstream2_mismatch: 1
+
+  plate26:
+    group: human
+    date: 2026-02-11
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-02-11_plate26.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ATCGAT # Fwd2
+      upstream2_mismatch: 1
+
+  plate27:
+    group: human
+    date: 2026-02-11
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-02-11_plate27.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: TGACGC # Fwd3
+      upstream2_mismatch: 1
+
+  plate28:
+    group: human
+    date: 2026-02-11
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-02-11_plate28.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: CAGTTG # Fwd4
+      upstream2_mismatch: 1
+  
+  # plate15-2: # Dropped due to noisy curvefits
+  #   group: human
+  #   date: 2026-02-11
+  #   viral_library: actual
+  #   neut_standard_set: loes2023
+  #   samples_csv: data/plates/2026-02-11_plate15-2.csv
+  #   manual_drops: {}
+  #   qc_thresholds:
+  #     <<: *default_process_plate_qc_thresholds
+  #   curvefit_params:
+  #     <<: *default_process_plate_curvefit_params
+  #   curvefit_qc:
+  #     <<: *default_process_plate_curvefit_qc
+  #   illumina_barcode_parser_params:
+  #     upstream2: GTCTAA # Fwd5
+  #     upstream2_mismatch: 1
+
+  plate16-2:
+    group: human
+    date: 2026-02-11
+    viral_library: actual
+    neut_standard_set: loes2023
+    samples_csv: data/plates/2026-02-11_plate16-2.csv
+    manual_drops: {}
+    qc_thresholds:
+      <<: *default_process_plate_qc_thresholds
+    curvefit_params:
+      <<: *default_process_plate_curvefit_params
+    curvefit_qc:
+      <<: *default_process_plate_curvefit_qc
+    illumina_barcode_parser_params:
+      upstream2: ACGCTG # Fwd6
       upstream2_mismatch: 1
 
 

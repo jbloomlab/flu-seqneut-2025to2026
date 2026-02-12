@@ -81,18 +81,10 @@ seqneut25to26_sera_3041,All,70-79y,Male,2025-09,74.5,Rountine FU - no reported i
 seqneut25to26_sera_3041,HKU,70-79y,Male,2025-09,74.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3042,All,70-79y,Male,2025-09,74.5,Rountine FU - no reported infection,,
 seqneut25to26_sera_3042,HKU,70-79y,Male,2025-09,74.5,Rountine FU - no reported infection,,
-seqneut25to26_sera_3043,All,60-69y,Female,2025-01,64.5,Rountine FU - pre-infection (infection on Aug-2025),,
-seqneut25to26_sera_3043,HKU,60-69y,Female,2025-01,64.5,Rountine FU - pre-infection (infection on Aug-2025),,
-seqneut25to26_sera_3044,All,70-79y,Male,2025-01,74.5,Rountine FU - pre-infection (infection on Aug-2025),,
-seqneut25to26_sera_3044,HKU,70-79y,Male,2025-01,74.5,Rountine FU - pre-infection (infection on Aug-2025),,
 seqneut25to26_sera_3045,All,40-49y,Male,2025-07,44.5,Rountine FU - pre-infection (infection on Aug-2025),,
 seqneut25to26_sera_3045,HKU,40-49y,Male,2025-07,44.5,Rountine FU - pre-infection (infection on Aug-2025),,
-seqneut25to26_sera_3046,All,50-59y,Female,2025-04,54.5,Rountine FU - pre-infection (infection on May-2025),,
-seqneut25to26_sera_3046,HKU,50-59y,Female,2025-04,54.5,Rountine FU - pre-infection (infection on May-2025),,
 seqneut25to26_sera_3047,All,40-49y,Male,2025-09,44.5,Active surv - post-infection ARI day 28 (infection on Aug-2025),,
 seqneut25to26_sera_3047,HKU,40-49y,Male,2025-09,44.5,Active surv - post-infection ARI day 28 (infection on Aug-2025),,
-seqneut25to26_sera_3048,All,50-59y,Female,2025-06,54.5,Active surv - post-infection ARI day 28 (infection on May-2025),,
-seqneut25to26_sera_3048,HKU,50-59y,Female,2025-06,54.5,Active surv - post-infection ARI day 28 (infection on May-2025),,
 seqneut25to26_sera_4001,All,45,Male,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
 seqneut25to26_sera_4001,NIID,45,Male,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
 seqneut25to26_sera_4002,All,41,Female,2025-11,41.0,"2024 vaccine:no, 2023 vaccine:yes, 2022 vaccine:yes",,
@@ -109,6 +101,112 @@ seqneut25to26_sera_4007,All,42,Female,2025-11,42.0,"2024 vaccine:yes, 2023 vacci
 seqneut25to26_sera_4007,NIID,42,Female,2025-11,42.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
 seqneut25to26_sera_4008,All,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
 seqneut25to26_sera_4008,NIID,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4009,All,45,Female,2025-11,45.0,"2024 vaccine:no, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4009,NIID,45,Female,2025-11,45.0,"2024 vaccine:no, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4010,All,64,Female,2025-11,64.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4010,NIID,64,Female,2025-11,64.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4011,All,64,Male,2025-11,64.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4011,NIID,64,Male,2025-11,64.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4012,All,64,Male,2025-11,64.0,"2024 vaccine:no, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4012,NIID,64,Male,2025-11,64.0,"2024 vaccine:no, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4013,All,46,Female,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4013,NIID,46,Female,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4014,All,43,Male,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4014,NIID,43,Male,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4015,All,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4015,NIID,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4016,All,43,Male,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4016,NIID,43,Male,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4017,All,46,Female,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4017,NIID,46,Female,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4018,All,41,Male,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4018,NIID,41,Male,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4019,All,46,Male,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4019,NIID,46,Male,2025-11,46.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4020,All,44,Female,2025-11,44.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4020,NIID,44,Female,2025-11,44.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4021,All,34,Female,2025-11,34.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4021,NIID,34,Female,2025-11,34.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4022,All,53,Male,2025-11,53.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4022,NIID,53,Male,2025-11,53.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4023,All,48,Female,2025-11,48.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4023,NIID,48,Female,2025-11,48.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4024,All,52,Female,2025-11,52.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4024,NIID,52,Female,2025-11,52.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4025,All,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4025,NIID,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4026,All,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4026,NIID,54,Female,2025-11,54.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4027,All,27,Female,2025-11,27.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4027,NIID,27,Female,2025-11,27.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4028,All,63,Female,2025-11,63.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4028,NIID,63,Female,2025-11,63.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4029,All,47,Female,2025-11,47.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4029,NIID,47,Female,2025-11,47.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4030,All,45,Female,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4030,NIID,45,Female,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4031,All,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4031,NIID,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4032,All,41,Female,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4032,NIID,41,Female,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4033,All,51,Male,2025-11,51.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4033,NIID,51,Male,2025-11,51.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4034,All,45,Male,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4034,NIID,45,Male,2025-11,45.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4035,All,41,Female,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4035,NIID,41,Female,2025-11,41.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4036,All,26,Male,2025-11,26.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4036,NIID,26,Male,2025-11,26.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4037,All,29,Female,2025-11,29.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4037,NIID,29,Female,2025-11,29.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4038,All,40,Male,2025-11,40.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4038,NIID,40,Male,2025-11,40.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4039,All,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4039,NIID,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4040,All,39,Female,2025-11,39.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4040,NIID,39,Female,2025-11,39.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4041,All,25,Female,2025-11,25.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4041,NIID,25,Female,2025-11,25.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:no",,
+seqneut25to26_sera_4042,All,49,Female,2025-11,49.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4042,NIID,49,Female,2025-11,49.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4043,All,47,Female,2025-11,47.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:yes",,
+seqneut25to26_sera_4043,NIID,47,Female,2025-11,47.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:yes",,
+seqneut25to26_sera_4044,All,42,Female,2025-11,42.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4044,NIID,42,Female,2025-11,42.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4045,All,43,Female,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4045,NIID,43,Female,2025-11,43.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4046,All,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4046,NIID,38,Female,2025-11,38.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4047,All,30,Male,2025-11,30.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4047,NIID,30,Male,2025-11,30.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4048,All,57,Female,2025-11,57.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4048,NIID,57,Female,2025-11,57.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4049,All,42,Male,2025-11,42.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4049,NIID,42,Male,2025-11,42.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4050,All,52,Male,2025-11,52.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4050,NIID,52,Male,2025-11,52.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4077,All,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4077,NIID,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4078,All,87,Female,2025-11,87.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:unknown",,
+seqneut25to26_sera_4078,NIID,87,Female,2025-11,87.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:unknown",,
+seqneut25to26_sera_4079,All,76,Male,2025-11,76.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4079,NIID,76,Male,2025-11,76.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4080,All,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4080,NIID,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4081,All,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4081,NIID,84,Female,2025-11,84.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4082,All,84,Male,2025-11,84.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4082,NIID,84,Male,2025-11,84.0,"2024 vaccine:yes, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4083,All,86,Female,2025-11,86.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4083,NIID,86,Female,2025-11,86.0,"2024 vaccine:unknown, 2023 vaccine:unknown, 2022 vaccine:unknown",,
+seqneut25to26_sera_4084,All,87,Male,2025-11,87.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4084,NIID,87,Male,2025-11,87.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4085,All,103,Female,2025-11,103.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4085,NIID,103,Female,2025-11,103.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4086,All,86,Female,2025-11,86.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4086,NIID,86,Female,2025-11,86.0,"2024 vaccine:yes, 2023 vaccine:no, 2022 vaccine:unknown",,
+seqneut25to26_sera_4087,All,94,Female,2025-11,94.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
+seqneut25to26_sera_4087,NIID,94,Female,2025-11,94.0,"2024 vaccine:yes, 2023 vaccine:yes, 2022 vaccine:yes",,
 seqneut25to26_sera_1016_d0,All,40,Female,2025-10,40.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1016,0.0
 seqneut25to26_sera_1016_d0,PENN,40,Female,2025-10,40.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1016,0.0
 seqneut25to26_sera_1016_d0,PENN_0d-post-vax,40,Female,2025-10,40.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1016,0.0
@@ -211,6 +309,9 @@ seqneut25to26_sera_1028_d0,PENN_0d-post-vax,50,Male,2025-10,50.0,d0 egg-based Fl
 seqneut25to26_sera_1028_d28,All,50,Male,2025-11,50.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1028,28.0
 seqneut25to26_sera_1028_d28,PENN,50,Male,2025-11,50.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1028,28.0
 seqneut25to26_sera_1028_d28,PENN_28d-post-vax,50,Male,2025-11,50.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1028,28.0
+seqneut25to26_sera_1031_d0,All,51,Male,2025-10,51.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1031,0.0
+seqneut25to26_sera_1031_d0,PENN,51,Male,2025-10,51.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1031,0.0
+seqneut25to26_sera_1031_d0,PENN_0d-post-vax,51,Male,2025-10,51.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1031,0.0
 seqneut25to26_sera_1031_d28,All,51,Male,2025-11,51.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1031,28.0
 seqneut25to26_sera_1031_d28,PENN,51,Male,2025-11,51.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1031,28.0
 seqneut25to26_sera_1031_d28,PENN_28d-post-vax,51,Male,2025-11,51.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1031,28.0
@@ -220,6 +321,9 @@ seqneut25to26_sera_1023_d0,PENN_0d-post-vax,48,Female,2025-10,48.0,d0 egg-based 
 seqneut25to26_sera_1023_d28,All,48,Female,2025-11,48.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1023,28.0
 seqneut25to26_sera_1023_d28,PENN,48,Female,2025-11,48.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1023,28.0
 seqneut25to26_sera_1023_d28,PENN_28d-post-vax,48,Female,2025-11,48.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1023,28.0
+seqneut25to26_sera_1040_d0,All,61,Female,2025-10,61.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1040,0.0
+seqneut25to26_sera_1040_d0,PENN,61,Female,2025-10,61.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1040,0.0
+seqneut25to26_sera_1040_d0,PENN_0d-post-vax,61,Female,2025-10,61.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1040,0.0
 seqneut25to26_sera_1040_d28,All,61,Female,2025-11,61.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1040,28.0
 seqneut25to26_sera_1040_d28,PENN,61,Female,2025-11,61.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1040,28.0
 seqneut25to26_sera_1040_d28,PENN_28d-post-vax,61,Female,2025-11,61.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1040,28.0
@@ -247,6 +351,9 @@ seqneut25to26_sera_1007_d0,PENN_0d-post-vax,29,Female,2025-10,29.0,d0 egg-based 
 seqneut25to26_sera_1007_d28,All,29,Female,2025-11,29.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1007,28.0
 seqneut25to26_sera_1007_d28,PENN,29,Female,2025-11,29.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1007,28.0
 seqneut25to26_sera_1007_d28,PENN_28d-post-vax,29,Female,2025-11,29.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1007,28.0
+seqneut25to26_sera_1005_d0,All,28,Male,2025-10,28.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1005,0.0
+seqneut25to26_sera_1005_d0,PENN,28,Male,2025-10,28.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1005,0.0
+seqneut25to26_sera_1005_d0,PENN_0d-post-vax,28,Male,2025-10,28.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1005,0.0
 seqneut25to26_sera_1005_d28,All,28,Male,2025-11,28.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1005,28.0
 seqneut25to26_sera_1005_d28,PENN,28,Male,2025-11,28.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1005,28.0
 seqneut25to26_sera_1005_d28,PENN_28d-post-vax,28,Male,2025-11,28.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1005,28.0
@@ -274,6 +381,9 @@ seqneut25to26_sera_1004_d0,PENN_0d-post-vax,26,Male,2025-10,26.0,d0 egg-based Fl
 seqneut25to26_sera_1004_d28,All,26,Male,2025-11,26.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1004,28.0
 seqneut25to26_sera_1004_d28,PENN,26,Male,2025-11,26.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1004,28.0
 seqneut25to26_sera_1004_d28,PENN_28d-post-vax,26,Male,2025-11,26.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1004,28.0
+seqneut25to26_sera_1054_d0,All,72,Male,2025-10,72.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1054,0.0
+seqneut25to26_sera_1054_d0,PENN,72,Male,2025-10,72.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1054,0.0
+seqneut25to26_sera_1054_d0,PENN_0d-post-vax,72,Male,2025-10,72.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1054,0.0
 seqneut25to26_sera_1054_d28,All,72,Male,2025-11,72.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1054,28.0
 seqneut25to26_sera_1054_d28,PENN,72,Male,2025-11,72.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1054,28.0
 seqneut25to26_sera_1054_d28,PENN_28d-post-vax,72,Male,2025-11,72.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1054,28.0
@@ -421,6 +531,9 @@ seqneut25to26_sera_1042_d0,PENN_0d-post-vax,62,Male,2025-10,62.0,d0 egg-based Fl
 seqneut25to26_sera_1042_d28,All,62,Male,2025-11,62.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1042,28.0
 seqneut25to26_sera_1042_d28,PENN,62,Male,2025-11,62.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1042,28.0
 seqneut25to26_sera_1042_d28,PENN_28d-post-vax,62,Male,2025-11,62.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1042,28.0
+seqneut25to26_sera_1010_d0,All,32,Female,2025-10,32.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1010,0.0
+seqneut25to26_sera_1010_d0,PENN,32,Female,2025-10,32.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1010,0.0
+seqneut25to26_sera_1010_d0,PENN_0d-post-vax,32,Female,2025-10,32.0,d0 egg-based Flulaval vaccine,seqneut25to26_sera_1010,0.0
 seqneut25to26_sera_1010_d28,All,32,Female,2025-11,32.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1010,28.0
 seqneut25to26_sera_1010_d28,PENN,32,Female,2025-11,32.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1010,28.0
 seqneut25to26_sera_1010_d28,PENN_28d-post-vax,32,Female,2025-11,32.0,d28 egg-based Flulaval vaccine,seqneut25to26_sera_1010,28.0
@@ -452,6 +565,8 @@ seqneut25to26_sera_0001,All,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0001,SCH,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0002,All,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0002,SCH,5-10y,Female,2025-11,7.5,,,
+seqneut25to26_sera_0003,All,2-4y,Female,2025-11,3.0,,,
+seqneut25to26_sera_0003,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0004,All,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0004,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0005,All,2-4y,Female,2025-11,3.0,,,
@@ -462,6 +577,8 @@ seqneut25to26_sera_0007,All,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0007,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0008,All,11-15y,Male,2025-11,13.0,,,
 seqneut25to26_sera_0008,SCH,11-15y,Male,2025-11,13.0,,,
+seqneut25to26_sera_0009,All,2-4y,Male,2025-11,3.0,,,
+seqneut25to26_sera_0009,SCH,2-4y,Male,2025-11,3.0,,,
 seqneut25to26_sera_0010,All,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0010,SCH,11-15y,Female,2025-11,13.0,,,
 seqneut25to26_sera_0011,All,0-1y,Female,2025-11,0.5,,,
@@ -492,6 +609,8 @@ seqneut25to26_sera_0023,All,5-10y,Male,2025-11,7.5,,,
 seqneut25to26_sera_0023,SCH,5-10y,Male,2025-11,7.5,,,
 seqneut25to26_sera_0024,All,2-4y,Male,2025-11,3.0,,,
 seqneut25to26_sera_0024,SCH,2-4y,Male,2025-11,3.0,,,
+seqneut25to26_sera_0025,All,5-10y,Female,2025-11,7.5,,,
+seqneut25to26_sera_0025,SCH,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0026,All,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0026,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0027,All,11-15y,Male,2025-11,13.0,,,
@@ -520,6 +639,8 @@ seqneut25to26_sera_0038,All,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0038,SCH,2-4y,Female,2025-11,3.0,,,
 seqneut25to26_sera_0039,All,5-10y,Female,2025-11,7.5,,,
 seqneut25to26_sera_0039,SCH,5-10y,Female,2025-11,7.5,,,
+seqneut25to26_sera_0040,All,0-1y,Male,2025-11,0.5,,,
+seqneut25to26_sera_0040,SCH,0-1y,Male,2025-11,0.5,,,
 seqneut25to26_sera_5001,All,45-59,Male,2025-11,52.0,,,
 seqneut25to26_sera_5001,CTS,45-59,Male,2025-11,52.0,,,
 seqneut25to26_sera_5002,All,45-59,Female,2025-11,52.0,,,
