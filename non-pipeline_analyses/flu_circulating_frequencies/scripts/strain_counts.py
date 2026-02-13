@@ -57,10 +57,13 @@ print(f"Defining a recent sequence as one after {recent_date=}")
 
 assert "other" not in strain_prots
 accessions = set()
-n_incomplete_date = 0
+n_incomplete_date = n_invalid = 0
 for prot in Bio.SeqIO.parse(snakemake.input.protset, "fasta"):
 
     p = str(prot.seq).upper()
+    if not regex.fullmatch(f"[{aas}]+", p):
+        n_invalid += 1
+        continue
 
     try:
         accession, _, _, date = (t.strip() for t in prot.description.split("|"))
@@ -101,6 +104,7 @@ for prot in Bio.SeqIO.parse(snakemake.input.protset, "fasta"):
             unmatched_recent_seq_counts[p] += 1
         
 
+print(f"Dropped {n_invalid} for having invalid amino acids")
 print(f"Dropped {n_incomplete_date} for having an incomplete date")
 
 strain_matches = pd.DataFrame(

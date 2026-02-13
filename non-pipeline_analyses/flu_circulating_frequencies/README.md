@@ -3,7 +3,8 @@
 ## Overview 
 The goal of this analysis is to determine how well all known recent HA sequences are represented in the library.
 To do this, we obtain all recent available sequeences.
-Then we compare protein sequences beteween the set of sequences and those in our library, and identify exact and close matches. 
+Then we compare protein sequences between the set of sequences and those in our library, and identify exact and close matches, ignoring sequences with ambiguous amino acids.
+
 
 ## Input data 
 The configuration for the analysis is in [config.yml](config.yml), which as more explanation about what is in each input file.
