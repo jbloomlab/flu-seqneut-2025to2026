@@ -12,7 +12,7 @@ strain_prots:
 # The files below contain sequences from John Huddleston of all sequences with Nextclade
 # QC annotations of “good”, complete collection date, non-egg-passaged status,
 # and minimum collection date of 16 months ago, and were generated as of
-# August-28-2025.
+# Feb-02-2026.
 # They are NOT filtered for completeness or quality (ie, some may contain an 'X', etc.)
 gisaid_prots: 
   H1N1: data/h1n1pdm_HA_with_metadata.fasta

@@ -6,7 +6,7 @@ To do this, we obtain all recent available sequeences.
 Then we compare protein sequences beteween the set of sequences and those in our library, and identify exact and close matches. 
 
 ## Input data 
-The configuration for the analysis is in [config.yaml](config.yaml), which as more explanation about what is in each input file.
+The configuration for the analysis is in [config.yml](config.yml), which as more explanation about what is in each input file.
 
 Note that the input data in `./data/` are **not** tracked in this repo due to data sharing rules.
 
