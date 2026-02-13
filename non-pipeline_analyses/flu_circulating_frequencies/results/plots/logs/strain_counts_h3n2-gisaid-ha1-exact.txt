@@ -1,4 +1,0 @@
-Input Notebook:  notebooks/plot_strain_frequencies.ipynb
-Output Notebook: results/plots/strain_counts_h3n2-gisaid-ha1-exact.ipynb
-Executing:   0%|          | 0/13 [00:00<?, ?cell/s]Executing notebook with kernel: python3
-Executing:   8%|▊         | 1/13 [00:06<01:18,  6.57s/cell]Executing:  31%|███       | 4/13 [00:10<00:21,  2.42s/cell]Executing:  62%|██████▏   | 8/13 [00:11<00:05,  1.01s/cell]Executing:  77%|███████▋  | 10/13 [00:11<00:02,  1.25cell/s]Executing:  92%|█████████▏| 12/13 [00:13<00:00,  1.18cell/s]Executing: 100%|██████████| 13/13 [00:14<00:00,  1.13s/cell]
