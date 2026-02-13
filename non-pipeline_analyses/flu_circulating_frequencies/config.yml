@@ -55,7 +55,7 @@ protsets:
     trim: [1, 500]
     maxdiff: 1
     group: H1N1
-    plot_title: H1N1 strains with HA ectodomain exactly matching library strain
+    plot_title: H1N1 strains within one HA ectodomain mutation of library strain
   h3n2-gisaid-ha1-within1:
     protset: data/h3n2_HA_with_metadata.fasta
     trim: [1, 328]
@@ -73,4 +73,4 @@ protsets:
     trim: [1, 501]
     maxdiff: 1
     group: H3N2
-    plot_title: H3N2 strains with HA ectodomain exactly matching library strain
+    plot_title: H3N2 strains within one HA ectodomain mutation of library strain
