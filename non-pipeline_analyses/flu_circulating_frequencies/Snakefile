@@ -1,0 +1,95 @@
+"""
+``snakemake`` file that runs analysis.
+"""
+
+# Identify configuration file
+configfile: "config.yml"
+
+
+# Specify output files
+rule all:
+    """ 
+    Target rule.
+    """
+    input:
+        expand(
+            "results/plots/strain_counts_{protset}.ipynb",
+            protset=config["protsets"],
+        ),
+        expand(
+            "results/plots/strain_counts_{protset}.html",
+            protset=config["protsets"],
+        ),
+        expand(
+            "results/plots/strain_counts_{protset}.svg",
+            protset=config["protsets"],
+        ),
+
+
+rule get_strain_prots:
+    """Get proteins in library protset."""
+    input:
+        fasta=config["actual_lib_seqs"],
+    output:
+        **config["strain_prots"],
+    params:
+        subtypes=list(config["strain_prots"]),
+    conda:
+        "environment.yml"
+    script:
+        "scripts/get_strain_prots.py"
+
+
+rule strain_counts:
+    """Get counts of each strain."""
+    input:
+        strain_prots=lambda wc: config["strain_prots"][config["protsets"][wc.protset]["group"]],
+        protset=lambda wc: config["protsets"][wc.protset]["protset"],
+    output:
+        counts_overall="results/strain_counts/{protset}_counts_overall.csv",
+        counts_by_date="results/strain_counts/{protset}_counts_by_date.csv",
+        strain_matches="results/strain_counts/{protset}_strain_matches.csv",
+        counts_unmatched_sequences="results/strain_counts/{protset}_unmatched_sequence_counts.csv",
+        counts_recent_unmatched_sequences="results/strain_counts/{protset}_counts_recent_unmatched_sequences.csv",
+    params:
+        trim=lambda wc: config["protsets"][wc.protset]["trim"],
+        maxdiff=lambda wc: config["protsets"][wc.protset]["maxdiff"],
+        recent_date="2025-03-01",  # for the recent unmatched sequences, use this date to define "recent"
+    log:
+        "results/strain_counts/logs/strain_counts_{protset}.txt",
+    conda:
+        "environment.yml"
+    script:
+        "scripts/strain_counts.py"
+
+
+rule plot_strain_frequencies:
+    input:
+        counts_by_date="results/strain_counts/{protset}_counts_by_date.csv"
+    output:
+        nb="results/plots/strain_counts_{protset}.ipynb",
+        svg="results/plots/strain_counts_{protset}.svg",
+    params:
+        plot_title=lambda wc: config["protsets"][wc.protset]["plot_title"],
+    log:
+        "results/plots/logs/strain_counts_{protset}.txt",
+    conda:
+        "environment.yml"
+    shell:
+        """
+        papermill notebooks/plot_strain_frequencies.ipynb {output.nb} \
+            -p counts_by_date {input.counts_by_date} \
+            -p svg {output.svg} \
+            -p plot_title "{params.plot_title}" \
+            &> {log}
+        """
+
+rule notebook_to_html:
+    input:
+        notebook="results/plots/{notebook}.ipynb"
+    output:
+        html="results/plots/{notebook}.html",
+    conda:
+        "environment.yml"
+    shell:
+        "jupyter nbconvert --to html {input.notebook}"

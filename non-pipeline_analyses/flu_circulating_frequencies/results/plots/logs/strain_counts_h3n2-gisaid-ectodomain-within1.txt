@@ -1,0 +1,4 @@
+Input Notebook:  notebooks/plot_strain_frequencies.ipynb
+Output Notebook: results/plots/strain_counts_h3n2-gisaid-ectodomain-within1.ipynb
+Executing:   0%|          | 0/13 [00:00<?, ?cell/s]Executing notebook with kernel: python3
+Executing:   8%|▊         | 1/13 [00:02<00:31,  2.59s/cell]Executing:  31%|███       | 4/13 [00:06<00:13,  1.46s/cell]Executing:  62%|██████▏   | 8/13 [00:06<00:03,  1.66cell/s]Executing:  77%|███████▋  | 10/13 [00:06<00:01,  1.98cell/s]Executing:  92%|█████████▏| 12/13 [00:08<00:00,  1.71cell/s]Executing: 100%|██████████| 13/13 [00:09<00:00,  1.40cell/s]

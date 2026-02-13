@@ -1,0 +1,15 @@
+name: flu_circulating_frequencies
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - altair=5.5
+  - biopython
+  - jupyterlab
+  - pandas=2.3
+  - papermill
+  - python=3.13
+  - regex
+  - snakemake=9
+  - vl-convert-python
