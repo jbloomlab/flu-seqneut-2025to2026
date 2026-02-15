@@ -69,6 +69,7 @@ nextstrain-prot-titers-tree_config:
       color_by: median_titer_All_sera
       distance_measure: div
       branch_label: aa
+      tip_label: derived_haplotype
     results_subdir: results/nextstrain-prot-titers-tree/H3N2/pipeline_results
     auspice_json: auspice/flu-seqneut-2025to2026_H3N2.json
     addtl_export_args:
@@ -102,6 +103,7 @@ nextstrain-prot-titers-tree_config:
       color_by: median_titer_All_sera
       distance_measure: div
       branch_label: aa
+      tip_label: derived_haplotype
     results_subdir: results/nextstrain-prot-titers-tree/H1N1/pipeline_results
     auspice_json: auspice/flu-seqneut-2025to2026_H1N1.json
     addtl_export_args:
