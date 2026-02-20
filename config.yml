@@ -75,7 +75,7 @@ nextstrain-prot-titers-tree_config:
     addtl_export_args:
       title: Near real-time data on human neutralizing antibody landscape to H3N2 influenza virus for February 2026 vaccine selection
       build-url: https://github.com/jbloomlab/flu-seqneut-2025to2026
-      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://doi.org/10.64898/2026.02.18.706711>
   H1N1:
     alignment: results/nextstrain-prot-titers-tree/H1N1/alignment.fa  # built by pipeline
     outgroup: data/nextstrain-prot-titers-tree_data/H1N1_outgroup.fa
@@ -109,7 +109,7 @@ nextstrain-prot-titers-tree_config:
     addtl_export_args:
       title: Near real-time data on human neutralizing antibody landscape to H1N1 influenza virus for February 2026 vaccine selection
       build-url: https://github.com/jbloomlab/flu-seqneut-2025to2026
-      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://jbloomlab.org>
+      maintainers: Caroline Kikawa, John Huddleston, Jesse Bloom <https://doi.org/10.64898/2026.02.18.706711>
 
 # Sera metadata files to aggregate
 sera_metadata:
@@ -173,9 +173,9 @@ plot_fold_changes:
 seqneut-pipeline: seqneut-pipeline
 
 description: |
-  # Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection for the Northern Hemisphere in February 2026
+  # Near real-time data on the human neutralizing antibody landscape to influenza virus as of early 2026 to inform vaccine-strain selection
 
-  Briefly, this study used sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in the fall-winter of 2025-2026 against a set of human sera collected in 2025.
+  See [Kikawa et al (2026)](https://doi.org/10.64898/2026.02.18.706711) for study details.
 
   The numerical data and computer code are at [https://github.com/jbloomlab/flu-seqneut-2025to2026](https://github.com/jbloomlab/flu-seqneut-2025to2026)
 

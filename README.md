@@ -1,10 +1,8 @@
-# Near real-time data on the human neutralizing antibody landscape to influenza virus in late 2025 to early 2026 to inform vaccine-strain selection in February 2026
+# Near real-time data on the human neutralizing antibody landscape to influenza virus as of early 2026 to inform vaccine-strain selection
 
 This study uses sequencing-based neutralization assays to measure titers to influenza viruses with HAs from seasonal H3N2 and H1N1 viruses representative of those circulating in late 2025 and early 2026 against human sera collected in mid to late 2025.
 
-The goal is to provide near real-time neutralization data to inform the **February 2026 Northern Hemisphere vaccine-strain selection** decision.
-
-The data here are described in *Add link to preprint*.
+The data here are described in [Kikawa et al, 2026](https://www.biorxiv.org/content/10.64898/2026.02.18.706711v1); see that paper for fully study details.
 
 ## Quick links to key results
 Here are quick links with key data/results:
@@ -26,7 +24,8 @@ Here are quick links with key data/results:
 ## Study Overview
 
 ### Assay Method
-Sequencing-based neutralization assays as described in [Loes et al. (2024), *Journal of Virology*](https://doi.org/10.1128/jvi.00689-24) and [Kikawa et al. (2025), *Virus Evolution*](https://academic.oup.com/ve/article/11/1/veaf086/8313343).
+See [Kikawa et al (2026)](https://www.biorxiv.org/content/10.64898/2026.02.18.706711v1) for details on this particular the study.
+It uses sequencing-based neutralization assays as also described in [Loes et al. (2024), *Journal of Virology*](https://doi.org/10.1128/jvi.00689-24) and [Kikawa et al. (2025), *Virus Evolution*](https://academic.oup.com/ve/article/11/1/veaf086/8313343).
 
 ### Final QC-ed titer data
 If you don't care to understand the overall repo structure and are just looking for final QC-ed titer data and information on the sera / viruses for which those titers were generated, look in [results/final_titer_data/](results/final_titer_data/).
@@ -466,15 +465,17 @@ All QC thresholds are configurable in `config.yml`. QC decisions are logged in Y
 
 ## References
 
-1. **Assay Methodology**: Loes, A. N. et al. (2024). High-throughput sequencing-based neutralization assay reveals how repeated vaccinations impact titers to recent human H1N1 influenza strains. *Journal of Virology* 98(5):e00689-24. [https://doi.org/10.1128/jvi.00689-24](https://doi.org/10.1128/jvi.00689-24)
+1. **Full details on current study**: Kikawa, C. et al. Near real-time data on the human neutralizing antibody landscape to influenza virus as of early 2026 to inform vaccine-strain selection. *bioRxiv*. [https://doi.org/10.64898/2026.02.18.706711](https://doi.org/10.64898/2026.02.18.706711)
 
-2. **Previous Application**:
+2. **Assay Methodology**: Loes, A. N. et al. (2024). High-throughput sequencing-based neutralization assay reveals how repeated vaccinations impact titers to recent human H1N1 influenza strains. *Journal of Virology* 98(5):e00689-24. [https://doi.org/10.1128/jvi.00689-24](https://doi.org/10.1128/jvi.00689-24)
+
+3. **Previous Application**:
  - Kikawa, C. et al. (2025). Near real-time data on the human neutralizing antibody landscape to influenza virus to inform vaccine-strain selection in September 2025. *Virus Evolution*. [https://academic.oup.com/ve/article/11/1/veaf086/8313343]([https://academic.oup.com/ve/article/11/1/veaf086/8313343])
  - Kikawa, C. et al. (2025). High-throughput neutralization measurements correlate strongly with evolutionary success of human influenza strains. *eLife*. [https://elifesciences.org/reviewed-preprints/106811](https://elifesciences.org/reviewed-preprints/106811)
 
-3. **Pipeline Repository**: [https://github.com/jbloomlab/seqneut-pipeline](https://github.com/jbloomlab/seqneut-pipeline)
+4. **Pipeline Repository**: [https://github.com/jbloomlab/seqneut-pipeline](https://github.com/jbloomlab/seqneut-pipeline)
 
-4. **Curve Fitting Package**: [https://jbloomlab.github.io/neutcurve/](https://jbloomlab.github.io/neutcurve/)
+5. **Curve Fitting Package**: [https://jbloomlab.github.io/neutcurve/](https://jbloomlab.github.io/neutcurve/)
 
 ## Related Projects
 
