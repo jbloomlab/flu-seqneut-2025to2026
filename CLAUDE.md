@@ -377,11 +377,12 @@ This repository follows the same structure as [flu-seqneut-2025](https://github.
 
 ## Key Publications and References
 
-1. **Pipeline Methods**: [Loes et al. (2024)](https://doi.org/10.1128/jvi.00689-24) - Journal of Virology
+1. **Citation for this project**: [Kikawa et al (2026)](https://doi.org/10.64898/2026.02.18.706711)
+2. **Pipeline Methods**: [Loes et al. (2024)](https://doi.org/10.1128/jvi.00689-24) - Journal of Virology
    - Describes sequencing-based neutralization assay methodology
-2. **Previous Application**: [Kikawa et al. (2025)](https://academic.oup.com/ve/article/11/1/veaf086/8313343) - Virus Evolution
+3. **Previous Application**: [Kikawa et al. (2025)](https://academic.oup.com/ve/article/11/1/veaf086/8313343) - Virus Evolution
    - flu-seqneut-2025 project for September 2025 vaccine selection
-3. **Pipeline Repository**: [seqneut-pipeline on GitHub](https://github.com/jbloomlab/seqneut-pipeline)
+4. **Pipeline Repository**: [seqneut-pipeline on GitHub](https://github.com/jbloomlab/seqneut-pipeline)
    - Modular Snakemake pipeline used as submodule
 
 ## Getting Help
