@@ -299,8 +299,6 @@ def _(
         i+=1
 
 
-
-
     # Reindex for last 8 plate slots
     n=0
 
@@ -328,13 +326,19 @@ def _(
         outfile = os.path.join(plasmiddir, f'{plasmid_name}.gb')
         with open(outfile, 'w') as f:
             SeqIO.write(record, f, 'genbank')
-
+    
+        strain_to_plasmid_log_map.append([name, f'{plasmid_name}.gb'])
         n+=1
 
     strain_to_plasmid_log_map_df = pd.DataFrame(strain_to_plasmid_log_map, columns=['strain', 'plasmid_log_ID'])
     outfile = notebook_directory / 'flu-seqneut-2025to2026-strain-to-plasmid-log.csv'
     print(f'saving strain to plasmid log ID map to {outfile}...')
     strain_to_plasmid_log_map_df.to_csv(outfile, index=False)
+    return
+
+
+@app.cell
+def _():
     return
 
 
