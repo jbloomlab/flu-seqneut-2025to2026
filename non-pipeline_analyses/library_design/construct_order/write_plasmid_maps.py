@@ -84,6 +84,7 @@ def _(
         strain_name,
         accession,
         plasmid_name, # the name assigned in the Bloom lab plasmid log
+        shorthand_name, # the name assigned in form 'flu-seqneut-2025_H3N2_1_bc1'
         subtype, 
         ectodomain,
         barcode='NNNNNNNNNNNNNNNN',
@@ -93,7 +94,7 @@ def _(
 
         definition = (
             f"This pHH plasmid contains the HA ectodomain sequence for a {subtype} variant {strain_name}. " +
-            f"This plasmid was generated for the {library_name} library. " +
+            f"This plasmid was generated for the {library_name} library and corresponds to strain {shorthand_name}. " +
             f"Signal peptide and 3'NCR from WSN, ectodomain from {strain_name} HA with Genbank accession {accession}, and last 46 aa recoded WSN transmembrane and c-terminal domain. " +
             f"With duplicated 5' packaging signals from WSN with a single stop codon in the duplicated packaging signal, with the 16-nucleotide barcode {barcode}. " +
             "This plasmid was cloned and sequence confirmed by Twist, and designed and logged by Caroline Kikawa"
@@ -172,6 +173,17 @@ def _(
 def _(designed_viral_library_df):
     # We only need to log the newly ordered strains
     circulating_designed_viral_library_df = designed_viral_library_df.query('strain_type=="circulating_2025to2026"')
+
+    # Drop any strains without glycerol stocks
+    strains_without_glycerol_stocks = [
+        'flu-seqneut-25to26_H1N1_6_bc2',
+        'flu-seqneut-25to26_H1N1_20_bc1',
+        'flu-seqneut-25to26_H1N1_20_bc2'
+    ]
+
+    circulating_designed_viral_library_df = circulating_designed_viral_library_df[~circulating_designed_viral_library_df['name'].isin(strains_without_glycerol_stocks)]
+
+    circulating_designed_viral_library_df
     return (circulating_designed_viral_library_df,)
 
 
@@ -198,7 +210,7 @@ def _(
     plates = range(5, 8)    # plates 5, 6, 7
 
     # Generate the list
-    # First 108 indexes: plate 5 and part of plate 6
+    # First 192 indexes: plate 5 and part of plate 6
     plate = 5
     count = 0
     for p in [5, 6]:
@@ -206,23 +218,33 @@ def _(
             for row in rows:
                 plasmid_index.append(f"plate{p}-{row}{col}")
                 count += 1
-                if count == 108:
+                if count == 192:
                     break
-            if count == 108:
+            if count == 192:
                 break
-        if count == 108:
+        if count == 192:
             break
 
-    # Next 96 indexes: plate 7 (full plate)
+    # Next 9 indexes: plate 7 (full plate)
+    count=0
     plate = 7
     for col in columns:
-        for row in rows:
-            plasmid_index.append(f"plate{plate}-{row}{col}")
+        if col < 2:
+            pass
+        elif col >= 3:
+            for row in rows:
+                plasmid_index.append(f"plate{plate}-{row}{col}")
+                count+=1
+                if count == 9:
+                    break
+            if count == 9:
+                break
 
-    # Final 8 wells: plate 8, A1-H1
-    plate = 8
+    # Final 8 wells: plate 7, A1-H1
+    later_plasmid_index = []
+    plate = 7
     for row in rows:
-        plasmid_index.append(f"plate{plate}-{row}1")
+        later_plasmid_index.append(f"plate{plate}-{row}1")
 
 
     later_names = [
@@ -236,6 +258,7 @@ def _(
         'flu-seqneut-25to26_H3N2_58_bc2',
                   ]
 
+
     # Index for loop
     i=0
     # Generate maps
@@ -246,11 +269,13 @@ def _(
         # Skip 4 later strains that are added to a 4th plate
         if name in later_names:
             pass
+        if i>=201:
+            break
 
         barcode_id = temp_df.name.values[0].split('bc')[1]
         subtype = temp_df.subtype.values[0]
         strain_name = temp_df.strain.values[0].replace(f'_{subtype}', '') 
-        plasmid_name = plasmid_index[i] + '_' + strain_name + '_bc' + barcode_id
+        plasmid_name = plasmid_index[i] + '_phh21_' + strain_name + '_bc' + barcode_id
         plasmid_name = plasmid_name.replace('/', '_')
 
 
@@ -258,6 +283,7 @@ def _(
             strain_name = strain_name,
             accession = temp_df.accession.values[0],
             plasmid_name = plasmid_name,
+            shorthand_name = temp_df.name.values[0],
             subtype = subtype,
             barcode = temp_df.barcode.values[0],
             ectodomain = temp_df.nt_sequence_HA_ectodomain.values[0]
@@ -272,8 +298,11 @@ def _(
 
         i+=1
 
+
+
+
     # Reindex for last 8 plate slots
-    n=204
+    n=0
 
     for name in later_names:
 
@@ -282,13 +311,14 @@ def _(
         barcode_id = temp_df.name.values[0].split('bc')[1]
         subtype = temp_df.subtype.values[0]
         strain_name = temp_df.strain.values[0].replace(f'_{subtype}', '') 
-        plasmid_name = plasmid_index[n] + '_' + strain_name + '_bc' + barcode_id
+        plasmid_name = later_plasmid_index[n] + '_phh21_' + strain_name + '_bc' + barcode_id
         plasmid_name = plasmid_name.replace('/', '_')
 
         map, defintion, record = (write_genbank(
             strain_name = strain_name,
             accession = temp_df.accession.values[0],
             plasmid_name = plasmid_name,
+            shorthand_name = temp_df.name.values[0],
             subtype = subtype,
             barcode = temp_df.barcode.values[0],
             ectodomain = temp_df.nt_sequence_HA_ectodomain.values[0]
