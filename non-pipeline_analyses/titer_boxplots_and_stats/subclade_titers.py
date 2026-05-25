@@ -51,7 +51,10 @@ def _(Path, pd):
 
     titers_raw = pd.read_csv(titers_path)
     viruses = pd.read_csv(viruses_path)
-    return titers_raw, viruses
+
+    results_dir = HERE / "results"
+    results_dir.mkdir(exist_ok=True)
+    return titers_raw, viruses, results_dir
 
 
 @app.cell
@@ -97,10 +100,7 @@ def _(np, titers_raw, viruses):
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ## H3N2
-    ### Observations per subclade
-    """)
+    mo.md("## H3N2\n### Observations per subclade")
     return
 
 
@@ -111,16 +111,7 @@ def _(counts_h3n2):
 
 
 @app.cell
-def _(
-    H3N2_SUBCLADE_ORDER,
-    df_h3n2,
-    itertools,
-    mo,
-    multipletests,
-    np,
-    pd,
-    stats,
-):
+def _(df_h3n2, H3N2_SUBCLADE_ORDER, itertools, mo, multipletests, np, pd, stats):
     # ---------------------------------------------------------------------------
     # H3N2 statistics
     # ---------------------------------------------------------------------------
@@ -170,9 +161,7 @@ def _(
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ### Pairwise tests (BH-corrected)
-    """)
+    mo.md("### Pairwise tests (BH-corrected)")
     return
 
 
@@ -193,6 +182,8 @@ def _(
     p_k_vs_all,
     pairwise_df_h3n2,
     plt,
+    results_dir,
+    stats,
 ):
     # ---------------------------------------------------------------------------
     # Shared figure helper — reused for H3N2 and H1N1
@@ -325,17 +316,14 @@ def _(
         fold_primary=fold_k_vs_all,
     )
 
+    fig_h3n2.savefig(results_dir / "subclade_titers_H3N2.svg", bbox_inches="tight")
     mo.mpl.interactive(fig_h3n2)
-    return (make_subclade_figure,)
+    return make_subclade_figure,
 
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ---
-    ## H1N1
-    ### Observations per subclade
-    """)
+    mo.md("---\n## H1N1\n### Observations per subclade")
     return
 
 
@@ -370,11 +358,10 @@ def _(np, titers_raw, viruses):
 @app.cell
 def _(counts_h1n1):
     counts_h1n1
-    return
 
 
 @app.cell
-def _(df_h1n1, mo, multipletests, np, pd, stats):
+def _(df_h1n1, H1N1_SUBCLADE_ORDER, mo, multipletests, np, pd, stats):
     # ---------------------------------------------------------------------------
     # H1N1 statistics
     # ---------------------------------------------------------------------------
@@ -415,6 +402,7 @@ def _(
     mo,
     p_d311_vs_d31,
     pairwise_df_h1n1,
+    results_dir,
 ):
     fig_h1n1 = make_subclade_figure(
         df=df_h1n1,
@@ -425,6 +413,7 @@ def _(
         p_primary=p_d311_vs_d31,
         fold_primary=fold_d311_vs_d31,
     )
+    fig_h1n1.savefig(results_dir / "subclade_titers_H1N1.svg", bbox_inches="tight")
     mo.mpl.interactive(fig_h1n1)
     return
 

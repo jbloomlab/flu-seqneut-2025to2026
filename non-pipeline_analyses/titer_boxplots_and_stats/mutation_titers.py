@@ -44,11 +44,14 @@ def _(Path, pd):
 
     titers_raw = pd.read_csv(DATA_DIR / "human_titers.csv")
     viruses = pd.read_csv(DATA_DIR / "human_viruses.csv")
-    return titers_raw, viruses
+
+    results_dir = HERE / "results"
+    results_dir.mkdir(exist_ok=True)
+    return titers_raw, viruses, results_dir
 
 
 @app.cell
-def _(np, titers_raw, viruses):
+def _(np, pd, titers_raw, viruses):
     # ---------------------------------------------------------------------------
     # Pre-merge all titer data with virus metadata
     # Covers all subclades/subtypes — comparisons filter by subclade via COMPARISONS
@@ -69,9 +72,7 @@ def _(np, titers_raw, viruses):
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ### Virus haplotypes (all subclades)
-    """)
+    mo.md("### Virus haplotypes (all subclades)")
     return
 
 
@@ -170,29 +171,19 @@ def _(has_mutation, has_mutation_at_sites):
     # H1N1 — D.3.1 + D.3.1.1 (pooled so mutations can span both subclades)
     H1N1_COMPARISONS = [
         {
-            "title": "Any mutation at sites 155 or 157",
+            "title": "Mut at sites 155 or 157",
             "subclades": ["D.3.1", "D.3.1.1"],
             "with_label": "mut@155/157",
             "without_label": "no mut@155/157",
             "filter_fn": lambda h: has_mutation_at_sites(h, [155, 157]),
         },
     ]
+
     return H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS
 
 
 @app.cell
-def _(
-    H1N1_COMPARISONS,
-    H3N2_J24_COMPARISONS,
-    H3N2_K_COMPARISONS,
-    df_all,
-    mo,
-    np,
-    pd,
-    plt,
-    stats,
-    viruses,
-):
+def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, mo, np, pd, plt, results_dir, stats, viruses):
     # ---------------------------------------------------------------------------
     # Build figures — one per comparison group, original layout preserved
     # ---------------------------------------------------------------------------
@@ -313,8 +304,12 @@ def _(
     fig_h3n2_j24, stats_h3n2_j24 = _make_figure(H3N2_J24_COMPARISONS)
     fig_h1n1,     stats_h1n1     = _make_figure(H1N1_COMPARISONS)
 
+    fig_h3n2_k.savefig(results_dir / "mutation_titers_H3N2_K.svg", bbox_inches="tight")
+    fig_h3n2_j24.savefig(results_dir / "mutation_titers_H3N2_J24.svg", bbox_inches="tight")
+    fig_h1n1.savefig(results_dir / "mutation_titers_H1N1.svg", bbox_inches="tight")
+
     mo.mpl.interactive(fig_h3n2_k)
-    return fig_h1n1, fig_h3n2_j24, stats_h1n1, stats_h3n2_j24, stats_h3n2_k
+    return fig_h3n2_j24, fig_h1n1, stats_h3n2_k, stats_h3n2_j24, stats_h1n1
 
 
 @app.cell
@@ -331,14 +326,12 @@ def _(fig_h1n1, mo):
 
 @app.cell
 def _(mo):
-    mo.md("""
-    ### Statistical summary
-    """)
+    mo.md("### Statistical summary")
     return
 
 
 @app.cell
-def _(mo, stats_h1n1, stats_h3n2_j24, stats_h3n2_k):
+def _(mo, stats_h3n2_k, stats_h3n2_j24, stats_h1n1):
     mo.vstack([
         mo.md("**K subclade**"),
         stats_h3n2_k.style.format({"fold_change_with_vs_without": "{:.2f}", "p_mannwhitney": "{:.3e}"}),
