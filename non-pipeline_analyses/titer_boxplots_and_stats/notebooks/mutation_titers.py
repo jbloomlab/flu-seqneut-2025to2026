@@ -10,11 +10,19 @@ def _():
     import pandas as pd
     import numpy as np
     import matplotlib.pyplot as plt
-    import matplotlib.gridspec as gridspec
     from scipy import stats
     import re
     from pathlib import Path
-    return Path, mo, np, pd, plt, re, stats
+    import sys
+
+    # Load lab theme (sets rcParams globally, provides format_pvalue)
+    HERE_IMPORT = Path(__file__).parent
+    if str(HERE_IMPORT) not in sys.path:
+        sys.path.insert(0, str(HERE_IMPORT))
+    import theme
+    from theme import format_pvalue
+
+    return Path, format_pvalue, mo, np, pd, plt, re, stats
 
 
 @app.cell
@@ -39,13 +47,13 @@ def _(Path, pd):
     # Paths — relative to this notebook's location
     # ---------------------------------------------------------------------------
     HERE = Path(__file__).parent
-    REPO_ROOT = HERE.parent.parent
+    REPO_ROOT = HERE.parent.parent.parent
     DATA_DIR = REPO_ROOT / "results" / "final_titer_data"
 
     titers_raw = pd.read_csv(DATA_DIR / "human_titers.csv")
     viruses = pd.read_csv(DATA_DIR / "human_viruses.csv")
 
-    results_dir = HERE / "results"
+    results_dir = HERE.parent / "results"
     results_dir.mkdir(exist_ok=True)
     return titers_raw, viruses, results_dir
 
@@ -118,10 +126,10 @@ def _(mo):
 
     Edit the list below to add or remove comparisons.
     Each entry is a dict with:
-    - `title`: panel title
+    - `title`: panel title — should include subclade and mutation name (e.g. `"K subclade: K135E"`)
     - `filter_fn`: function(haplotype) → bool, True = "with mutation" group
     - `subclades`: **list** of subclades to draw viruses from (can mix subtypes)
-    - `with_label` / `without_label`: group labels for the two boxes
+    - `with_label` / `without_label`: x-axis group labels — use `"present"` / `"absent"` (mutation context is in the title)
     """)
     return
 
@@ -135,24 +143,24 @@ def _(has_mutation, has_mutation_at_sites):
     # H3N2 — K subclade
     H3N2_K_COMPARISONS = [
         {
-            "title": "K135E",
+            "title": "K subclade: K135E",
             "subclades": ["K"],
-            "with_label": "K:K135E",
-            "without_label": "K: no K135E",
+            "with_label": "present",
+            "without_label": "absent",
             "filter_fn": lambda h: has_mutation(h, "K135E"),
         },
         {
-            "title": "R189K",
+            "title": "K subclade: R189K",
             "subclades": ["K"],
-            "with_label": "K:R189K",
-            "without_label": "K: no R189K",
+            "with_label": "present",
+            "without_label": "absent",
             "filter_fn": lambda h: has_mutation(h, "R189K"),
         },
         {
-            "title": "Any mutation at sites 96, 207, 223, or 261",
+            "title": "K subclade: mut at\nsites 96, 207, 223, or 261",
             "subclades": ["K"],
-            "with_label": "K: mut@96/207/223/261",
-            "without_label": "K: no mut@96/207/223/261",
+            "with_label": "present",
+            "without_label": "absent",
             "filter_fn": lambda h: has_mutation_at_sites(h, [96, 207, 223, 261]),
         },
     ]
@@ -160,10 +168,10 @@ def _(has_mutation, has_mutation_at_sites):
     # H3N2 — J.2.4 subclade
     H3N2_J24_COMPARISONS = [
         {
-            "title": "K135N",
+            "title": "J.2.4 subclade: K135N",
             "subclades": ["J.2.4"],
-            "with_label": "J.2.4:K135N",
-            "without_label": "J.2.4: no K135N",
+            "with_label": "present",
+            "without_label": "absent",
             "filter_fn": lambda h: has_mutation(h, "K135N"),
         },
     ]
@@ -171,10 +179,10 @@ def _(has_mutation, has_mutation_at_sites):
     # H1N1 — D.3.1 + D.3.1.1 (pooled so mutations can span both subclades)
     H1N1_COMPARISONS = [
         {
-            "title": "Mut at sites 155 or 157",
+            "title": "D.3.1/D.3.1.1: mut at\nsites 155 or 157",
             "subclades": ["D.3.1", "D.3.1.1"],
-            "with_label": "mut@155/157",
-            "without_label": "no mut@155/157",
+            "with_label": "present",
+            "without_label": "absent",
             "filter_fn": lambda h: has_mutation_at_sites(h, [155, 157]),
         },
     ]
@@ -183,12 +191,17 @@ def _(has_mutation, has_mutation_at_sites):
 
 
 @app.cell
-def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, mo, np, pd, plt, results_dir, stats, viruses):
+def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, format_pvalue, mo, np, pd, plt, results_dir, stats, viruses):
     # ---------------------------------------------------------------------------
-    # Build figures — one per comparison group, original layout preserved
+    # Build figures — one per comparison group
     # ---------------------------------------------------------------------------
     COLOR_WITH    = "#0072B2"
     COLOR_WITHOUT = "#E69F00"
+
+    tick_values = [40, 80, 160, 320, 640, 1280, 2560, 5120, 10240, 16384]
+    log2_ticks  = np.log2(tick_values)
+    y_data_min  = log2_ticks[0]
+    y_data_max  = log2_ticks[-1]
 
     def _sig_label(p):
         if p < 0.001: return "***"
@@ -196,16 +209,14 @@ def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, mo, np
         elif p < 0.05: return "*"
         else: return "ns"
 
-    def _make_figure(comparisons, suptitle=None):
+    def _make_figure(comparisons):
         n_panels = len(comparisons)
-        fig, axes = plt.subplots(1, n_panels, figsize=(4 * n_panels, 5.5), sharey=True)
+        # ~2.4" per panel wide, 3.2" tall — matches reference notebook proportions
+        fig, axes = plt.subplots(1, n_panels, figsize=(2.4 * n_panels, 4.5), sharey=True)
         if n_panels == 1:
             axes = [axes]
 
         stat_rows = []
-
-        tick_values = [40, 80, 160, 320, 640, 1280, 2560, 5120, 10240, 16384]
-        log2_ticks  = np.log2(tick_values)
 
         for ax, comp in zip(axes, comparisons):
             sc_viruses = viruses[viruses["subclade"].isin(comp["subclades"])][
@@ -244,59 +255,49 @@ def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, mo, np
                 "significance": _sig_label(p_val),
             })
 
-            data_groups = [df_without, df_with]
-            colors      = [COLOR_WITHOUT, COLOR_WITH]
-            positions   = [0, 1]
-
             bp = ax.boxplot(
-                data_groups,
+                [df_without, df_with],
                 patch_artist=True,
-                positions=positions,
-                widths=0.5,
-                medianprops=dict(color="black", linewidth=2),
-                whiskerprops=dict(linewidth=1.2),
-                capprops=dict(linewidth=1.2),
-                flierprops=dict(marker="o", markersize=3, alpha=0.4, linestyle="none"),
-                boxprops=dict(linewidth=1.2),
+                positions=[0, 1],
+                widths=0.45,
+                medianprops=dict(color="black", linewidth=1.5),
+                whiskerprops=dict(linewidth=0.8),
+                capprops=dict(linewidth=0.8),
+                flierprops=dict(marker="", linestyle="none"),
+                boxprops=dict(linewidth=0.8),
+                showfliers=False,
             )
-            for patch, color in zip(bp["boxes"], colors):
+            for patch, color in zip(bp["boxes"], [COLOR_WITHOUT, COLOR_WITH]):
                 patch.set_facecolor(color)
-                patch.set_alpha(0.75)
-
-            rng = np.random.default_rng(42)
-            for pos, vals, color in zip(positions, data_groups, colors):
-                jitter = rng.uniform(-0.18, 0.18, size=len(vals))
-                ax.scatter(pos + jitter, vals, color=color, s=3, alpha=0.25, zorder=3)
+                patch.set_alpha(0.85)
 
             ax.set_xticks([0, 1])
             ax.set_xticklabels(
-                [f"{comp['without_label']}\n({n_without_v} viruses)",
-                 f"{comp['with_label']}\n({n_with_v} virus{'es' if n_with_v != 1 else ''})"],
-                fontsize=8.5
+                [f"{comp['without_label']}\n(n={n_without_v})",
+                 f"{comp['with_label']}\n(n={n_with_v})"],
             )
 
+            # p-value + fold change as floating text above a bracket
             y_top = max(
-                np.max(df_with)    if len(df_with)    > 0 else 0,
-                np.max(df_without) if len(df_without) > 0 else 0,
+                np.max(df_with)    if len(df_with)    > 0 else y_data_min,
+                np.max(df_without) if len(df_without) > 0 else y_data_min,
             )
-            bar_y = y_top + 0.3
-            fc_str = f"{fold_change:.2f}x" if not np.isnan(fold_change) else ""
-            ax.plot([0, 0, 1, 1], [bar_y, bar_y + 0.1, bar_y + 0.1, bar_y],
-                    lw=1.5, color="black")
-            ax.text(0.5, bar_y + 0.15,
-                    f"{_sig_label(p_val)}, {fc_str}\np={p_val:.2e}",
-                    ha="center", va="bottom", fontsize=9)
+            bar_y  = y_top + 0.6
+            fc_str = f"{fold_change:.2f}×" if not np.isnan(fold_change) else ""
+            ax.plot([0, 0, 1, 1], [bar_y, bar_y + 0.08, bar_y + 0.08, bar_y], lw=1.0, color="black")
+            ax.text(0.5, bar_y + 0.12,
+                    f"{_sig_label(p_val)}, {fc_str}, {format_pvalue(p_val)}",
+                    ha="center", va="bottom")
 
-            ax.set_title(comp["title"], fontsize=10, pad=8)
-            ax.spines[["top", "right"]].set_visible(False)
+            ax.set_title(comp["title"], pad=6)
+            ax.spines["left"].set_bounds(y_data_min, y_data_max)
+            ax.set_xlim(-0.6, 1.6)
 
             if ax == axes[0]:
                 ax.set_yticks(log2_ticks)
-                ax.set_yticklabels([str(v) for v in tick_values], fontsize=9)
-                ax.set_ylabel("neutralization titer", fontsize=11)
+                ax.set_yticklabels([str(v) for v in tick_values])
+                ax.set_ylabel("neutralization titer")
 
-        if suptitle:
-            fig.suptitle(suptitle, fontsize=11, y=1.01)
         plt.tight_layout()
         return fig, pd.DataFrame(stat_rows)
 

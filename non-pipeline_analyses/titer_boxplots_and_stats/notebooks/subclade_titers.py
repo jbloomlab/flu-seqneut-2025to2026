@@ -16,7 +16,16 @@ def _():
     import itertools
     import re
     from pathlib import Path
-    return Path, itertools, mo, multipletests, np, pd, plt, stats
+    import sys
+
+    # Load lab theme (sets rcParams globally, provides format_pvalue)
+    HERE_IMPORT = Path(__file__).parent
+    if str(HERE_IMPORT) not in sys.path:
+        sys.path.insert(0, str(HERE_IMPORT))
+    import theme
+    from theme import format_pvalue
+
+    return Path, format_pvalue, itertools, mo, multipletests, np, pd, plt, stats
 
 
 @app.cell
@@ -43,7 +52,7 @@ def _(Path, pd):
     # Paths — relative to this notebook's location
     # ---------------------------------------------------------------------------
     HERE = Path(__file__).parent
-    REPO_ROOT = HERE.parent.parent
+    REPO_ROOT = HERE.parent.parent.parent
     DATA_DIR = REPO_ROOT / "results" / "final_titer_data"
 
     titers_path = DATA_DIR / "human_titers.csv"
@@ -52,7 +61,7 @@ def _(Path, pd):
     titers_raw = pd.read_csv(titers_path)
     viruses = pd.read_csv(viruses_path)
 
-    results_dir = HERE / "results"
+    results_dir = HERE.parent / "results"
     results_dir.mkdir(exist_ok=True)
     return titers_raw, viruses, results_dir
 
@@ -177,6 +186,7 @@ def _(
     H3N2_SUBCLADE_ORDER,
     df_h3n2,
     fold_k_vs_all,
+    format_pvalue,
     mo,
     np,
     p_k_vs_all,
@@ -222,84 +232,59 @@ def _(
         subclades_ordered = [s for s in subclade_order if s in df["subclade"].unique()]
         grouped = [df.loc[df["subclade"] == s, "log2_titer"].values for s in subclades_ordered]
 
-        fig, ax = plt.subplots(figsize=(7, 5))
+        n_sc = len(subclades_ordered)
+        # Panel proportions: ~1.6" per subclade wide, 3.5" tall
+        fig, ax = plt.subplots(figsize=(1.6 * n_sc + 0.8, 3.5))
 
         bp = ax.boxplot(
             grouped,
             patch_artist=True,
-            positions=range(len(subclades_ordered)),
-            widths=0.55,
-            medianprops=dict(color="black", linewidth=2),
-            whiskerprops=dict(linewidth=1.2),
-            capprops=dict(linewidth=1.2),
-            flierprops=dict(marker="o", markersize=2.5, alpha=0.4, linestyle="none"),
-            boxprops=dict(linewidth=1.2),
+            positions=range(n_sc),
+            widths=0.45,
+            medianprops=dict(color="black", linewidth=1.5),
+            whiskerprops=dict(linewidth=0.8),
+            capprops=dict(linewidth=0.8),
+            flierprops=dict(marker="", linestyle="none"),   # no outlier dots
+            boxprops=dict(linewidth=0.8),
+            showfliers=False,
         )
         for patch, sc in zip(bp["boxes"], subclades_ordered):
             patch.set_facecolor(subclade_colors[sc])
-            patch.set_alpha(0.75)
-
-        rng = np.random.default_rng(42)
-        for i, (sc, vals) in enumerate(zip(subclades_ordered, grouped)):
-            jitter = rng.uniform(-0.22, 0.22, size=len(vals))
-            ax.scatter(i + jitter, vals, color=subclade_colors[sc], s=3, alpha=0.25, zorder=3)
+            patch.set_alpha(0.85)
 
         ax.set_yticks(log2_ticks)
-        ax.set_yticklabels([str(v) for v in tick_values], fontsize=9)
-        ax.set_ylabel("neutralization titer", fontsize=11)
+        ax.set_yticklabels([str(v) for v in tick_values])
+        ax.set_ylabel("neutralization titer")
 
-        ax.set_xticks(range(len(subclades_ordered)))
+        ax.set_xticks(range(n_sc))
         n_labels = [
-            f"{sc}\n(n={df[df['subclade']==sc]['virus'].nunique()} viruses)"
+            f"{sc}\n(n={df[df['subclade']==sc]['virus'].nunique()})"
             for sc in subclades_ordered
         ]
-        ax.set_xticklabels(n_labels, fontsize=10)
-        ax.set_xlabel("subclade", fontsize=11)
+        ax.set_xticklabels(n_labels)
+        ax.set_xlabel("subclade")
 
         if title:
-            ax.set_title(title, fontsize=11)
+            ax.set_title(title)
 
-        # Primary hypothesis annotation
-        p_idx     = subclades_ordered.index(primary_subclade)
-        last_idx  = len(subclades_ordered) - 1
-        y_top     = ax.get_ylim()[1]
-        bar_y     = y_top + 0.15
+        # Primary hypothesis annotation — single bar + floating text
+        p_idx    = subclades_ordered.index(primary_subclade)
+        last_idx = n_sc - 1
+        y_top    = ax.get_ylim()[1]
+        bar_y    = y_top + 0.15
         ax.annotate("", xy=(last_idx, bar_y), xytext=(p_idx, bar_y),
-                    arrowprops=dict(arrowstyle="-", lw=1.5, color="black"))
+                    arrowprops=dict(arrowstyle="-", lw=1.2, color="black"))
         ax.text(
             (p_idx + last_idx) / 2, bar_y + 0.05,
-            f"{primary_subclade} vs others: {_sig_label(p_primary)}, {fold_primary:.2f}× "
-            f"(p={p_primary:.2e}, uncorrected)",
-            ha="center", va="bottom", fontsize=8.5,
+            f"{primary_subclade} vs others: {_sig_label(p_primary)}, {fold_primary:.2f}×  "
+            f"{format_pvalue(p_primary)} (uncorrected)",
+            ha="center", va="bottom",
         )
 
-        # BH-corrected pairwise annotations (significant pairs only)
-        sig_pairs   = pairwise_df[pairwise_df["significant"]]
-        step        = 0.55
         annotation_y = bar_y + 0.55
-        for _, row in sig_pairs.iterrows():
-            if row["subclade_1"] not in subclades_ordered or row["subclade_2"] not in subclades_ordered:
-                continue
-            x1 = subclades_ordered.index(row["subclade_1"])
-            x2 = subclades_ordered.index(row["subclade_2"])
-            ax.annotate("", xy=(x2, annotation_y), xytext=(x1, annotation_y),
-                        arrowprops=dict(arrowstyle="-", lw=1.2, color="#444444"))
-            ax.text(
-                (x1 + x2) / 2, annotation_y + 0.04,
-                f"{_sig_label(row['p_bh'])}, {row['fold_change_1_vs_2']:.2f}× "
-                f"(BH p={row['p_bh']:.2e})",
-                ha="center", va="bottom", fontsize=7.5, color="#444444",
-            )
-            annotation_y += step
-
         ax.set_ylim(ax.get_ylim()[0], annotation_y + 0.3)
-        ax.spines[["top", "right"]].set_visible(False)
         ax.spines["left"].set_bounds(y_data_min, y_data_max)
-        y_label_center = (y_data_min + y_data_max) / 2
-        ax.yaxis.set_label_coords(
-            -0.08,
-            (y_label_center - ax.get_ylim()[0]) / (ax.get_ylim()[1] - ax.get_ylim()[0]),
-        )
+        ax.set_ylabel("neutralization titer", labelpad=8)
         plt.tight_layout()
         return fig
 
