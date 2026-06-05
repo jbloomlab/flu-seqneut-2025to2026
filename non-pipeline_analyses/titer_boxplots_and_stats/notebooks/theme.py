@@ -75,10 +75,78 @@ def format_pvalue(p: float) -> str:
     """
     superscripts = str.maketrans("0123456789-", "⁰¹²³⁴⁵⁶⁷⁸⁹⁻")
     if p < 1e-5:
-        return "p < 1 × 10⁻⁵"
+        return "< 1 × 10⁻⁵"
     elif p < 1e-3:
         base, exp = f"{p:.0e}".split("e")
         exp_str = str(int(exp)).translate(superscripts)
-        return f"p = {base} × 10{exp_str}"
+        return f"{base} × 10{exp_str}"
     else:
         return f"p = {p:.2g}"
+
+
+def sig_stars(p: float) -> str:
+    """Return significance stars for a p-value."""
+    if p < 0.001: return "***"
+    elif p < 0.01: return "**"
+    elif p < 0.05: return "*"
+    else: return "ns"
+
+
+def make_stats_table(df, path, col_widths=None):
+    """
+    Save a styled matplotlib table as SVG.
+
+    Parameters
+    ----------
+    df         : DataFrame to render — columns are used as headers
+    path       : Path to save the SVG
+    col_widths : list of column widths in inches (defaults to equal widths of 1.1")
+    """
+    import matplotlib.pyplot as plt
+
+    n_rows = len(df)
+    n_cols = len(df.columns)
+
+    if col_widths is None:
+        col_widths = [1.1] * n_cols
+
+    fig_w = sum(col_widths) + 0.3
+    fig_h = (n_rows + 1) * 0.38 + 0.2
+
+    fig, ax = plt.subplots(figsize=(fig_w, fig_h))
+    ax.axis("off")
+
+    tbl = ax.table(
+        cellText=df.values,
+        colLabels=df.columns,
+        cellLoc="center",
+        loc="center",
+        colWidths=[w / fig_w for w in col_widths],
+    )
+    tbl.auto_set_font_size(False)
+    tbl.set_fontsize(9)
+
+    for j in range(n_cols):
+        cell = tbl[0, j]
+        cell.set_facecolor("#2c2c2c")
+        cell.set_text_props(color="white", fontweight="bold")
+        cell.set_edgecolor("white")
+        cell.set_height(0.13)
+
+    sig_col = df.columns.get_loc("Sig.") if "Sig." in df.columns else None
+    for i in range(n_rows):
+        sig = sig_col is not None and df.iloc[i, sig_col] != "ns"
+        for j in range(n_cols):
+            cell = tbl[i + 1, j]
+            cell.set_edgecolor("#cccccc")
+            cell.set_height(0.10)
+            if sig:
+                cell.set_facecolor("#e8f4e8")
+            elif i % 2 == 0:
+                cell.set_facecolor("#f7f7f7")
+            else:
+                cell.set_facecolor("white")
+
+    plt.tight_layout(pad=0.2)
+    fig.savefig(path, bbox_inches="tight")
+    plt.close(fig)

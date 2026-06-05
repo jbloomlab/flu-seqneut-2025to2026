@@ -309,8 +309,32 @@ def _(H1N1_COMPARISONS, H3N2_J24_COMPARISONS, H3N2_K_COMPARISONS, df_all, format
     fig_h3n2_j24.savefig(results_dir / "mutation_titers_H3N2_J24.svg", bbox_inches="tight")
     fig_h1n1.savefig(results_dir / "mutation_titers_H1N1.svg", bbox_inches="tight")
 
+    # --- CSV + table SVG output ---
+    from theme import make_stats_table, sig_stars as _sig_stars
+
+    def _fmt(raw_df):
+        rows = []
+        for _, r in raw_df.iterrows():
+            rows.append({
+                "Comparison":  r["comparison"],
+                "Fold change": f"{r['fold_change_with_vs_without']:.2f}×",
+                "Sig.":        _sig_stars(r["p_mannwhitney"]),
+                "p (raw)":     format_pvalue(r["p_mannwhitney"]),
+            })
+        return pd.DataFrame(rows)
+
+    _col_widths = [2.2, 1.1, 0.45, 1.2]
+    for _stem, _raw in [
+        ("mutation_stats_H3N2_K",   stats_h3n2_k),
+        ("mutation_stats_H3N2_J24", stats_h3n2_j24),
+        ("mutation_stats_H1N1",     stats_h1n1),
+    ]:
+        _tbl = _fmt(_raw)
+        _tbl.to_csv(results_dir / f"{_stem}.csv", index=False)
+        make_stats_table(_tbl, results_dir / f"{_stem}.svg", col_widths=_col_widths)
+
     mo.mpl.interactive(fig_h3n2_k)
-    return fig_h3n2_j24, fig_h1n1, stats_h3n2_k, stats_h3n2_j24, stats_h1n1
+    return fig_h3n2_j24, fig_h1n1
 
 
 @app.cell

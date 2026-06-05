@@ -277,7 +277,7 @@ def _(
         ax.text(
             (p_idx + last_idx) / 2, bar_y + 0.05,
             f"{primary_subclade} vs others: {_sig_label(p_primary)}, {fold_primary:.2f}×  "
-            f"{format_pvalue(p_primary)} (uncorrected)",
+            f"{format_pvalue(p_primary)}",
             ha="center", va="bottom",
         )
 
@@ -383,12 +383,19 @@ def _(
     H1N1_SUBCLADE_ORDER,
     df_h1n1,
     fold_d311_vs_d31,
+    fold_k_vs_all,
+    format_pvalue,
     make_subclade_figure,
     mo,
     p_d311_vs_d31,
+    p_k_vs_all,
+    pd,
     pairwise_df_h1n1,
+    pairwise_df_h3n2,
     results_dir,
 ):
+    from theme import make_stats_table, sig_stars as _sig_stars
+
     fig_h1n1 = make_subclade_figure(
         df=df_h1n1,
         subclade_order=H1N1_SUBCLADE_ORDER,
@@ -400,6 +407,38 @@ def _(
     )
     fig_h1n1.savefig(results_dir / "subclade_titers_H1N1.svg", bbox_inches="tight")
     mo.mpl.interactive(fig_h1n1)
+
+    # --- CSV + table SVG output ---
+    def _fmt_pairwise(pairwise_df, primary_label, p_primary, fold_primary):
+        rows = [
+            {
+                "Comparison":  primary_label,
+                "Fold change": f"{fold_primary:.2f}×",
+                "Sig.":        _sig_stars(p_primary),
+                "p (BH)":      "uncorrected",
+                "p (raw)":     format_pvalue(p_primary),
+            }
+        ]
+        for _, r in pairwise_df.iterrows():
+            rows.append({
+                "Comparison":  f"{r['subclade_1']} vs. {r['subclade_2']}",
+                "Fold change": f"{r['fold_change_1_vs_2']:.2f}×",
+                "Sig.":        _sig_stars(r["p_bh"]),
+                "p (BH)":      format_pvalue(r["p_bh"]),
+                "p (raw)":     format_pvalue(r["p_raw"]),
+            })
+        _df = pd.DataFrame(rows)
+        return pd.concat([_df.iloc[:1], _df.iloc[1:].sort_values("Comparison")]).reset_index(drop=True)
+
+    _col_widths = [1.9, 1.1, 0.45, 1.2, 1.2]
+    for _stem, _pairwise_df, _label, _p, _fc in [
+        ("subclade_stats_H3N2", pairwise_df_h3n2, "K vs. all others (primary)",         p_k_vs_all,     fold_k_vs_all),
+        ("subclade_stats_H1N1", pairwise_df_h1n1, "D.3.1.1 vs. D.3.1 (primary)", p_d311_vs_d31, fold_d311_vs_d31),
+    ]:
+        _tbl = _fmt_pairwise(_pairwise_df, _label, _p, _fc)
+        _tbl.to_csv(results_dir / f"{_stem}.csv", index=False)
+        make_stats_table(_tbl, results_dir / f"{_stem}.svg", col_widths=_col_widths)
+
     return
 
 
