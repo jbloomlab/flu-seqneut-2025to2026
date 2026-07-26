@@ -1,0 +1,4 @@
+partition,n,pct_of_union
+shared (both runs),27801,99.63
+only in no_collapse,63,0.23
+only in collapse,40,0.14

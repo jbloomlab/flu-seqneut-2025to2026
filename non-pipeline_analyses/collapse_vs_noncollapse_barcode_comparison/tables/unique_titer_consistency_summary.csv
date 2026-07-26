@@ -1,0 +1,4 @@
+run,status,n,median_sd_log2
+collapse,shared,90,0.47524067325445
+collapse,unique_to_collapse,1,0.7467778594521786
+no_collapse,shared,90,0.4276877412906647

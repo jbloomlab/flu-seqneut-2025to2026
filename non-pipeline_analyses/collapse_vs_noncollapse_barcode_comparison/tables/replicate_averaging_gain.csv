@@ -1,0 +1,2 @@
+run,within_plate_sd_log2,between_plate_sd_log2,mean_replicates_per_plate,predicted_sd_single_replicate,predicted_sd_averaging_k_replicates,predicted_pct_sd_reduction_from_averaging
+no_collapse,0.284,0.4335,1.997,0.5182,0.4778,7.8

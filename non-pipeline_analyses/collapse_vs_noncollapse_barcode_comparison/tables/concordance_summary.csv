@@ -1,0 +1,11 @@
+metric,value
+n matched uncensored pairs,26470.0
+Pearson r (log2 titer),0.989
+Spearman rho,0.9873
+median log2 FC (b/a): systematic bias,0.0
+  as fold-change,1.0
+median |log2 FC|: typical disagreement,0.0812
+  as fold-change,1.0579
+fraction differing > 2-fold,0.0087
+fraction differing > 4-fold,0.0004
+fraction differing > 10-fold,0.0

@@ -1,0 +1,3 @@
+run,collapse_strain_barcodes,n_barcodes,n_strains,median_barcodes_per_strain,min_barcodes_per_strain,max_barcodes_per_strain
+no_collapse,False,235,114,2.0,2,3
+collapse,True,235,114,2.0,2,3

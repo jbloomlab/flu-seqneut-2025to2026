@@ -1,0 +1,33 @@
+comparison_id,run_a,run_b,run_a_commit,run_b_commit,section,metric,stratum,value_a,value_b,delta,n,test,statistic,p_value,higher_is_better,note
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_titers,all,27864.0,27841.0,-23.0,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_shared_titers,all,27801.0,27801.0,0.0,27904.0,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_titers_unique_to_run,all,63.0,40.0,-23.0,27904.0,,,,,unique titers are not automatically bad; section 3 adjudicates them
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_missing__lost_at_barcode_or_well_qc,missing_from=collapse,,63.0,,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_missing__dropped_by_per_serum_qc,missing_from=no_collapse,21.0,,,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coverage,n_missing__lost_at_barcode_or_well_qc,missing_from=no_collapse,19.0,,,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,frac_differing_gt_2fold,all,0.008689,0.008689,0.0,26470.0,,,,,"symmetric measure of disagreement, not per-run"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,frac_differing_gt_4fold,all,0.000378,0.000378,0.0,26470.0,,,,,"symmetric measure of disagreement, not per-run"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,frac_differing_gt_10fold,all,0.0,0.0,0.0,26470.0,,,,,"symmetric measure of disagreement, not per-run"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,pearson_r_log2,all,0.988972,0.988972,0.0,26470.0,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,spearman_rho,all,0.98733,0.98733,0.0,26470.0,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,median_log2_fc_b_minus_a,all,0.0,0.0,0.0,26470.0,wilcoxon_signed_rank,170452461.5,0.000147012934370392,,positive means run b reports higher titers
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,concordance,median_abs_log2_fc,all,0.081189,0.081189,0.0,26470.0,,,,False,symmetric: how much the two runs disagree at all
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,adjudication,median_sd_log2_unique_vs_shared,run=collapse__UNDERPOWERED,0.475241,0.746778,0.27153700000000003,1.0,,,,False,UNDERPOWERED: only 1 unique titers have multi-plate data
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,variance,median_within_plate_sd_log2,run=no_collapse,0.284,,,25480.0,,,,,"NaN/absent when a run has one replicate per plate, e.g. collapsed"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,variance,median_between_plate_sd_log2,run=no_collapse,0.4335,,,91.0,,,,False,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,variance,median_within_plate_sd_log2,run=collapse,,,,0.0,,,,,"NaN/absent when a run has one replicate per plate, e.g. collapsed"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,variance,median_between_plate_sd_log2,run=collapse,,0.4754,,91.0,,,,False,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,variance,predicted_pct_sd_reduction_from_replicate_averaging,run=no_collapse,7.8007,,,25480.0,,,,,upper bound on what keeping replicates separate can buy; compare against the observed reproducibility gap in section 2
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,curvefits,median_r2,all,0.9471,0.9611,0.013999999999999901,,,,,True,distributions over all fitted curves; curve counts differ by design
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,curvefits,mean_r2,all,0.9028,0.924,0.021199999999999997,,,,,True,distributions over all fitted curves; curve counts differ by design
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,curvefits,frac_r2_below_0.9,all,0.3137,0.2297,-0.08399999999999999,,,,,False,distributions over all fitted curves; curve counts differ by design
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,curvefits,median_rmsd,all,0.0716,0.0614,-0.010199999999999994,,,,,False,distributions over all fitted curves; curve counts differ by design
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,curvefits,n_curves,all,56403.0,27932.0,-28471.0,,,,,,"not a quality metric: collapsing fits one curve per strain, not per barcode"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,retention,barcode_or_well_stage_drops,all,192.0,31.0,-161.0,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,retention,curvefit_stage_drops,all,863.0,96.0,-767.0,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,retention,per_serum_qc_titer_drops,all,21.0,0.0,-21.0,,,,,,CONFOUNDED: see the note in this section
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,retention,n_final_titers,all,27864.0,27841.0,-23.0,,,,,,
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,retention,frac_titers_with_1_replicate,all,0.0479,0.9967,0.9488000000000001,,,,,False,a titer with one replicate cannot fail max_fold_change_from_median
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,coherence,pc1_to_5_cum_frac_var,all,0.8995,0.8979,-0.0015999999999999348,12375.0,,,,True,identical 225 sera x 55 strains submatrix
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,context,median_barcodes_per_strain,all,2.0,2.0,0.0,,,,,,"library property, identical in both runs unless the library changed"
+collapse_vs_noncollapse_barcode_comparison,no_collapse,collapse,f584e886,69656005,context,frac_barcode_wells_below_50_counts,all,0.065349,0.065349,0.0,74400.0,,,,,sampled 400 of 2681 count files; dataset property

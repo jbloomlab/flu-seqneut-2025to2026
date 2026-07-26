@@ -1,0 +1,3 @@
+run,collapsed,barcode_or_well_stage_drops,curvefit_stage_drops,per_serum_qc_titer_drops,n_final_titers,frac_titers_with_1_replicate,median_n_replicates
+no_collapse,False,192,863,21,27864,0.0479,2.0
+collapse,True,31,96,0,27841,0.9967,1.0

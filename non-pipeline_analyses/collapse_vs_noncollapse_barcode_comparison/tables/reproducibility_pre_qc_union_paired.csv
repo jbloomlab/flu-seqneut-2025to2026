@@ -1,0 +1,2 @@
+run_a,group,serum,plate_1,plate_2,n_strains_a,median_log2_offset_a,sd_log2_centered_a,rmsd_log2_a,pearson_r_a,run_b,n_strains_b,median_log2_offset_b,sd_log2_centered_b,rmsd_log2_b,pearson_r_b
+no_collapse,human,seqneut25to26_sera_4018,plate16-2,plate25,91,-0.48,0.7881,0.9139,0.6576,collapse,91,-0.5367,0.7896,0.9095,0.6658

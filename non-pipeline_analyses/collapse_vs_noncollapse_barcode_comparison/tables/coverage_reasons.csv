@@ -1,0 +1,4 @@
+missing_from,reason_missing,n
+collapse,lost_at_barcode_or_well_qc,63
+no_collapse,dropped_by_per_serum_qc,21
+no_collapse,lost_at_barcode_or_well_qc,19
