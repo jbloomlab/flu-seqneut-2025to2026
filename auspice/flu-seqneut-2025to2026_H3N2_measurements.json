@@ -151374,13 +151374,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_3019_All",
           "strain": "A/England/1837737/2025",
-          "value": 6.1851
+          "value": 6.1853
         },
         {
           "cohort": "HKU",
           "serum": "seqneut25to26_sera_3019_HKU",
           "strain": "A/England/1837737/2025",
-          "value": 6.1851
+          "value": 6.1853
         },
         {
           "cohort": "All",
@@ -179058,13 +179058,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_4018_All",
           "strain": "A/Bangkok/P3263/2025",
-          "value": 9.5448
+          "value": 9.5446
         },
         {
           "cohort": "NIID",
           "serum": "seqneut25to26_sera_4018_NIID",
           "strain": "A/Bangkok/P3263/2025",
-          "value": 9.5448
+          "value": 9.5446
         },
         {
           "cohort": "All",
@@ -208218,13 +208218,13 @@
           "cohort": "All",
           "serum": "seqneut25to26_sera_5002_All",
           "strain": "A/Indonesia/BIOKES-I-BT074/2025",
-          "value": 9.633
+          "value": 9.6332
         },
         {
           "cohort": "CTS",
           "serum": "seqneut25to26_sera_5002_CTS",
           "strain": "A/Indonesia/BIOKES-I-BT074/2025",
-          "value": 9.633
+          "value": 9.6332
         },
         {
           "cohort": "All",
