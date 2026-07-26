@@ -3,7 +3,7 @@ Processing final titer data for group: human
 ======================================================================
 
 Loading input data...
-  Loaded 27864 titer measurements from results/aggregated_titers/titers_human.csv
+  Loaded 27841 titer measurements from results/aggregated_titers/titers_human.csv
   Loaded 446 sera from results/sera_metadata/all_sera_metadata.csv
   Loaded 186 barcodes from data/viral_libraries/flu-seqneut-2025to2026-barcode-to-strain-actual.csv
 
@@ -14,21 +14,21 @@ Validating input data...
   All viruses found in viral library
 
 Processing titer data...
-  Initial: 27864 rows, 307 sera, 91 viruses
+  Initial: 27841 rows, 307 sera, 91 viruses
 
 Step 1: Dropping explicitly specified sera and viruses...
   No viruses specified in viruses_to_drop
-  Dropped 455 rows for 5 sera in sera_to_drop
+  Dropped 454 rows for 5 sera in sera_to_drop
 
 Step 2: Applying min_frac_viruses=0.9, min_frac_sera=0.8 (action=drop)...
   min_frac filters converged after 1 iterations
 
 Processing complete:
-  Final: 27409 rows, 302 sera, 91 viruses
-  Dropped: 455 rows, 5 sera, 0 viruses
+  Final: 27387 rows, 302 sera, 91 viruses
+  Dropped: 454 rows, 5 sera, 0 viruses
 
 Generating output files...
-  Written: results/final_titer_data/human_titers.csv (27409 rows)
+  Written: results/final_titer_data/human_titers.csv (27387 rows)
   Written: results/final_titer_data/human_sera.csv (302 rows)
   Written: results/final_titer_data/human_sera_multicohort.csv (722 rows)
   Written: results/final_titer_data/human_viruses.csv (91 rows)
@@ -40,17 +40,17 @@ FINAL SUMMARY
 Group: human
 Sera: 302
 Viruses: 91
-Total titers: 27409
+Total titers: 27387
 
 Cohorts in titers_summarized_by_virus.csv:
-  All: 302 sera, 27409 titers
+  All: 302 sera, 27387 titers
   CTS: 40 sera, 3637 titers
-  HKU: 43 sera, 3904 titers
-  NIID: 61 sera, 5530 titers
-  PENN: 118 sera, 10721 titers
-  SCH: 40 sera, 3617 titers
-  PENN_0d-post-vax: 59 sera, 5356 titers
-  PENN_28d-post-vax: 59 sera, 5365 titers
+  HKU: 43 sera, 3905 titers
+  NIID: 61 sera, 5525 titers
+  PENN: 118 sera, 10714 titers
+  SCH: 40 sera, 3606 titers
+  PENN_0d-post-vax: 59 sera, 5348 titers
+  PENN_28d-post-vax: 59 sera, 5366 titers
 
 Viruses per subtype:
   H1N1: 34

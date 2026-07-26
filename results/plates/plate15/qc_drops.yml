@@ -3,22 +3,6 @@ wells:
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
-  GTCGCCGCTAATCCGA seqneut25to26_sera_1019_d0: goodness_of_fit
-  ACGTCGCTAGACTTTA seqneut25to26_sera_4004: goodness_of_fit
-  ACATCCGCCCTTCGGT seqneut25to26_sera_4005: goodness_of_fit
-  ACGTCGCTAGACTTTA seqneut25to26_sera_4005: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_4005: goodness_of_fit
-  TCGGAGAGCGATCCGC seqneut25to26_sera_4005: goodness_of_fit
-  CATAAAAGACTGTATA seqneut25to26_sera_4006: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_4006: goodness_of_fit
-  TCACACCGCTCAGCCT seqneut25to26_sera_4006: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_4007: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_4007: goodness_of_fit
-  GTGCAATTCCGCGTCC seqneut25to26_sera_4007: goodness_of_fit
-  TGGTAGTCCTTAACCG seqneut25to26_sera_4007: goodness_of_fit
-  CGTACGTATGTCCCAG seqneut25to26_sera_4008: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_4008: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_4008: goodness_of_fit
-  GTGCAATTCCGCGTCC seqneut25to26_sera_4008: goodness_of_fit
-  TTTATTACTCTTATGG seqneut25to26_sera_4008: goodness_of_fit
+  A/England/1837734/2025_H3N2 seqneut25to26_sera_4006: goodness_of_fit
+  A/SouthAustralia/2527902708/2025_H3N2 seqneut25to26_sera_4007: goodness_of_fit
 serum_replicates: {}

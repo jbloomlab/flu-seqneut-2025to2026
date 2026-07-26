@@ -1,28 +1,10 @@
 wells:
   H9: avg_barcode_counts_per_well
 barcodes: {}
-barcode_wells:
-  GAGTGCCCAGGTGTTG H5: max_frac_infectivity_per_viral_barcode_well
+barcode_wells: {}
 barcode_serum_replicates:
-  TTTATTACTCTTATGG seqneut25to26_sera_1012_d28: goodness_of_fit
-  AAGACGAAGCGTTTGC seqneut25to26_sera_1018_d0: goodness_of_fit
-  AAGCAGTTTGCCCCCA seqneut25to26_sera_1018_d0: goodness_of_fit
-  AGAGGCCGGACGTAAA seqneut25to26_sera_1018_d0: goodness_of_fit
-  AGGCGGACTAACTGCA seqneut25to26_sera_1018_d0: goodness_of_fit
-  ATAGCCCTAACGAAAG seqneut25to26_sera_1018_d0: goodness_of_fit
-  ATCGATCGAGATAACG seqneut25to26_sera_1018_d0: goodness_of_fit
-  CCTTATGAATTACGCG seqneut25to26_sera_1018_d0: goodness_of_fit
-  CGATCTTTACGAAAAA seqneut25to26_sera_1018_d0: goodness_of_fit
-  CGTACGTATGTCCCAG seqneut25to26_sera_1018_d0: goodness_of_fit
-  CTTGAACCAGCAGTGT seqneut25to26_sera_1018_d0: goodness_of_fit
-  GAACACAATTACTTAG seqneut25to26_sera_1018_d0: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_1018_d0: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_1018_d0: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_1018_d0: goodness_of_fit
-  TCCCTTCTTCGCAACT seqneut25to26_sera_1018_d0: goodness_of_fit
-  TGGTAGTCCTTAACCG seqneut25to26_sera_1018_d0: goodness_of_fit
-  TTGAAACTCTTGTCCT seqneut25to26_sera_1018_d0: goodness_of_fit
-  TTTCGGGGCCCCAATG seqneut25to26_sera_1018_d0: goodness_of_fit
-  CACATACAACACGACC seqneut25to26_sera_1018_d28: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_1038_d28: goodness_of_fit
+  A/Bangkok/P2323/2025_H3N2 seqneut25to26_sera_1018_d0: goodness_of_fit
+  A/California/61/2025_H3N2 seqneut25to26_sera_1018_d0: goodness_of_fit
+  A/England/174/2025_H3N2 seqneut25to26_sera_1018_d0: goodness_of_fit
+  A/Guangxi-Daxin/1643/2025_H3N2 seqneut25to26_sera_1018_d0: goodness_of_fit
 serum_replicates: {}

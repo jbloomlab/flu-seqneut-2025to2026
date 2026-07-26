@@ -1,29 +1,6 @@
 wells: {}
 barcodes: {}
-barcode_wells:
-  GAGTGCCCAGGTGTTG E4: max_frac_infectivity_per_viral_barcode_well
-  CCGTTAGGGATTCCTC H6: max_frac_infectivity_per_viral_barcode_well
-  GAAGTGCTGCTGAAGT F7: max_frac_infectivity_per_viral_barcode_well
-  GTCGCCGCTAATCCGA G7: max_frac_infectivity_per_viral_barcode_well
-  GTCGCCGCTAATCCGA H7: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG F8: max_frac_infectivity_per_viral_barcode_well
-  GTCGCCGCTAATCCGA G8: max_frac_infectivity_per_viral_barcode_well
-  CTTGAACCAGCAGTGT H8: max_frac_infectivity_per_viral_barcode_well
+barcode_wells: {}
 barcode_serum_replicates:
-  AAGAAGCTATAGAAGT seqneut25to26_sera_3012: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_3012: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3013: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_3016: goodness_of_fit
-  ATCCGTTGGGCGACAA seqneut25to26_sera_3018: goodness_of_fit
-  CACACCTCTCTCGCCG seqneut25to26_sera_3018: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3018: goodness_of_fit
-  GTGCAATTCCGCGTCC seqneut25to26_sera_3018: goodness_of_fit
-  CACACCTCTCTCGCCG seqneut25to26_sera_3019: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3019: goodness_of_fit
-  GATTGAGGGGTCCGGG seqneut25to26_sera_3019: goodness_of_fit
-  TTTAGCCGGCTGTAAC seqneut25to26_sera_3019: goodness_of_fit
-  TTTCGGGGCCCCAATG seqneut25to26_sera_3019: goodness_of_fit
-  AGGAACATGTCCATAC seqneut25to26_sera_3021: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3021: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_3021: goodness_of_fit
+  A/Peru/GIHSN-04-1089/2025_H3N2 seqneut25to26_sera_3019: goodness_of_fit
 serum_replicates: {}

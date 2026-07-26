@@ -1,28 +1,9 @@
 wells:
-  A3: avg_barcode_counts_per_well
   H9: avg_barcode_counts_per_well
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
-  CCATACCACGCCCTGT seqneut25to26_sera_1026_d0: goodness_of_fit
-  CCTTATGAATTACGCG seqneut25to26_sera_1026_d0: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_1026_d0: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_1026_d0: goodness_of_fit
-  TACACTCAAACGATGC seqneut25to26_sera_1026_d0: goodness_of_fit
-  TTTATTACTCTTATGG seqneut25to26_sera_1026_d0: goodness_of_fit
-  TTTCGGGGCCCCAATG seqneut25to26_sera_1026_d0: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_1026_d28: goodness_of_fit
-  AGGAACATGTCCATAC seqneut25to26_sera_1046_d0: goodness_of_fit
-  CGATCTTTACGAAAAA seqneut25to26_sera_1046_d0: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_1046_d0: goodness_of_fit
-  TCACACCGCTCAGCCT seqneut25to26_sera_1046_d0: goodness_of_fit
-  TTTACTCGATCCTCGC seqneut25to26_sera_1046_d0: goodness_of_fit
-  AAGAAGCTATAGAAGT seqneut25to26_sera_1046_d28: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_1046_d28: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_1048_d0: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_1048_d0: goodness_of_fit
-  TACACTCAAACGATGC seqneut25to26_sera_1048_d0: goodness_of_fit
-  TGGTAGTCCTTAACCG seqneut25to26_sera_1048_d0: goodness_of_fit
-  TTTCGGGGCCCCAATG seqneut25to26_sera_1048_d0: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_1048_d28: goodness_of_fit
+  A/Croatia/10136RV/2023-egg_H3N2 seqneut25to26_sera_1026_d0: goodness_of_fit
+  A/England/174/2025_H3N2 seqneut25to26_sera_1026_d0: goodness_of_fit
+  A/Ghana/FS-25-7077/2025_H3N2 seqneut25to26_sera_1026_d0: goodness_of_fit
 serum_replicates: {}

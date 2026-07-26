@@ -41,15 +41,13 @@ human:
   seqneut25to26_sera_0040: {}
   seqneut25to26_sera_1001_d0: {}
   seqneut25to26_sera_1001_d28: {}
-  seqneut25to26_sera_1002_d0:
-    A/Thailand/8/2022_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1002_d0: {}
   seqneut25to26_sera_1002_d28: {}
   seqneut25to26_sera_1003_d0: {}
   seqneut25to26_sera_1003_d28: {}
   seqneut25to26_sera_1004_d0: {}
   seqneut25to26_sera_1004_d28: {}
-  seqneut25to26_sera_1005_d0:
-    A/Darwin/1461/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1005_d0: {}
   seqneut25to26_sera_1005_d28: {}
   seqneut25to26_sera_1006_d0: {}
   seqneut25to26_sera_1006_d28: {}
@@ -74,8 +72,7 @@ human:
   seqneut25to26_sera_1016_d0: {}
   seqneut25to26_sera_1016_d28: {}
   seqneut25to26_sera_1017_d0: {}
-  seqneut25to26_sera_1017_d28:
-    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1017_d28: {}
   seqneut25to26_sera_1018_d0: {}
   seqneut25to26_sera_1018_d28: {}
   seqneut25to26_sera_1019_d0: {}
@@ -99,8 +96,7 @@ human:
   seqneut25to26_sera_1028_d0: {}
   seqneut25to26_sera_1028_d28: {}
   seqneut25to26_sera_1029_d0: {}
-  seqneut25to26_sera_1029_d28:
-    A/Thailand/8/2022_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1029_d28: {}
   seqneut25to26_sera_1030_d0: {}
   seqneut25to26_sera_1030_d28: {}
   seqneut25to26_sera_1031_d0: {}
@@ -125,15 +121,13 @@ human:
   seqneut25to26_sera_1040_d28: {}
   seqneut25to26_sera_1041_d0: {}
   seqneut25to26_sera_1041_d28: {}
-  seqneut25to26_sera_1042_d0:
-    A/Guangdong-Meijiang/11256/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1042_d0: {}
   seqneut25to26_sera_1042_d28: {}
   seqneut25to26_sera_1043_d0: {}
   seqneut25to26_sera_1043_d28: {}
   seqneut25to26_sera_1044_d0: {}
   seqneut25to26_sera_1044_d28: {}
-  seqneut25to26_sera_1045_d0:
-    A/Thailand/8/2022_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1045_d0: {}
   seqneut25to26_sera_1045_d28: {}
   seqneut25to26_sera_1046_d0: {}
   seqneut25to26_sera_1046_d28: {}
@@ -145,8 +139,7 @@ human:
   seqneut25to26_sera_1049_d28: {}
   seqneut25to26_sera_1050_d0: {}
   seqneut25to26_sera_1050_d28: {}
-  seqneut25to26_sera_1051_d0:
-    A/Massachusetts/18/2022_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_1051_d0: {}
   seqneut25to26_sera_1051_d28: {}
   seqneut25to26_sera_1052_d0: {}
   seqneut25to26_sera_1052_d28: {}
@@ -208,8 +201,7 @@ human:
   seqneut25to26_sera_3042: {}
   seqneut25to26_sera_3043: {}
   seqneut25to26_sera_3044: {}
-  seqneut25to26_sera_3045:
-    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_3045: {}
   seqneut25to26_sera_3046: {}
   seqneut25to26_sera_3047: {}
   seqneut25to26_sera_3048: {}
@@ -230,34 +222,26 @@ human:
   seqneut25to26_sera_4015: {}
   seqneut25to26_sera_4016: {}
   seqneut25to26_sera_4017: {}
-  seqneut25to26_sera_4018:
-    A/Ghana/FS-25-7077/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4018: {}
   seqneut25to26_sera_4019: {}
   seqneut25to26_sera_4020: {}
   seqneut25to26_sera_4021: {}
   seqneut25to26_sera_4022: {}
   seqneut25to26_sera_4023: {}
-  seqneut25to26_sera_4024:
-    A/SouthAustralia/2525607496/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4024: {}
   seqneut25to26_sera_4025: {}
   seqneut25to26_sera_4026: {}
   seqneut25to26_sera_4027: {}
-  seqneut25to26_sera_4028:
-    A/HongKong/1382/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4028: {}
   seqneut25to26_sera_4029: {}
   seqneut25to26_sera_4030: {}
   seqneut25to26_sera_4031: {}
-  seqneut25to26_sera_4032:
-    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
-  seqneut25to26_sera_4033:
-    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
-  seqneut25to26_sera_4034:
-    A/Ghana/FS-25-7077/2025_H3N2: max_fold_change_from_median
-  seqneut25to26_sera_4035:
-    A/California/61/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4032: {}
+  seqneut25to26_sera_4033: {}
+  seqneut25to26_sera_4034: {}
+  seqneut25to26_sera_4035: {}
   seqneut25to26_sera_4036: {}
-  seqneut25to26_sera_4037:
-    A/SouthAustralia/2527902708/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4037: {}
   seqneut25to26_sera_4038: {}
   seqneut25to26_sera_4039: {}
   seqneut25to26_sera_4040: {}
@@ -268,9 +252,7 @@ human:
   seqneut25to26_sera_4045: {}
   seqneut25to26_sera_4046: {}
   seqneut25to26_sera_4047: {}
-  seqneut25to26_sera_4048:
-    A/Bhutan/1267/2025_H3N2: max_fold_change_from_median
-    A/SouthAustralia/2527003588/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4048: {}
   seqneut25to26_sera_4049: {}
   seqneut25to26_sera_4050: {}
   seqneut25to26_sera_4077: {}
@@ -280,16 +262,14 @@ human:
   seqneut25to26_sera_4081: {}
   seqneut25to26_sera_4082: {}
   seqneut25to26_sera_4083: {}
-  seqneut25to26_sera_4084:
-    A/Vermont/73/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_4084: {}
   seqneut25to26_sera_4085: {}
   seqneut25to26_sera_4086: {}
   seqneut25to26_sera_4087: {}
   seqneut25to26_sera_5001: {}
   seqneut25to26_sera_5002: {}
   seqneut25to26_sera_5003: {}
-  seqneut25to26_sera_5004:
-    A/Bangkok/P3263/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_5004: {}
   seqneut25to26_sera_5005: {}
   seqneut25to26_sera_5006: {}
   seqneut25to26_sera_5007: {}
@@ -314,8 +294,7 @@ human:
   seqneut25to26_sera_5026: {}
   seqneut25to26_sera_5027: {}
   seqneut25to26_sera_5028: {}
-  seqneut25to26_sera_5029:
-    A/HongKong/1382/2025_H3N2: max_fold_change_from_median
+  seqneut25to26_sera_5029: {}
   seqneut25to26_sera_5030: {}
   seqneut25to26_sera_5031: {}
   seqneut25to26_sera_5032: {}

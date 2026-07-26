@@ -3,39 +3,9 @@ wells:
 barcodes: {}
 barcode_wells: {}
 barcode_serum_replicates:
-  CCATACCACGCCCTGT seqneut25to26_sera_1008_d0: goodness_of_fit
-  ACGAGAAGCAGGGGGC seqneut25to26_sera_1036_d0: goodness_of_fit
-  ACGGCATCCCAATTGA seqneut25to26_sera_1036_d0: goodness_of_fit
-  ACGTCGCTAGACTTTA seqneut25to26_sera_1036_d0: goodness_of_fit
-  AGGAACATGTCCATAC seqneut25to26_sera_1036_d0: goodness_of_fit
-  CGAACATGGGAACTAA seqneut25to26_sera_1036_d0: goodness_of_fit
-  CTTTTCCGTGTCCTCT seqneut25to26_sera_1036_d0: goodness_of_fit
-  GTTGACTGCCTTTCTT seqneut25to26_sera_1036_d0: goodness_of_fit
-  AAGAAGCTATAGAAGT seqneut25to26_sera_1040_d0: goodness_of_fit
-  ATACATCCGACGCTTT seqneut25to26_sera_1040_d0: goodness_of_fit
-  GCTCCTGGTCATATAT seqneut25to26_sera_1040_d0: goodness_of_fit
-  ATCGCAAGTACCAGTT seqneut25to26_sera_1040_d28: goodness_of_fit
-  GAACCTACAAGCAGTC seqneut25to26_sera_1040_d28: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_1040_d28: goodness_of_fit
-  ACGATTTTTTCTACAT seqneut25to26_sera_1041_d0: goodness_of_fit
-  ACGTCGCTAGACTTTA seqneut25to26_sera_1041_d0: goodness_of_fit
-  AGACCATCGCACCCAA seqneut25to26_sera_1041_d0: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_1041_d0: goodness_of_fit
-  GAAAGACCGATGCCAG seqneut25to26_sera_1041_d0: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_1041_d0: goodness_of_fit
-  GTCACAGTCATCGTGT seqneut25to26_sera_1041_d0: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_1041_d0: goodness_of_fit
-  TACACTCAAACGATGC seqneut25to26_sera_1041_d0: goodness_of_fit
-  ATACATCCGACGCTTT seqneut25to26_sera_1041_d28: goodness_of_fit
-  ATTGGCTGTCGTGGCC seqneut25to26_sera_1041_d28: goodness_of_fit
-  CACACCTCTCTCGCCG seqneut25to26_sera_1041_d28: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_1041_d28: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_1041_d28: goodness_of_fit
-  GAAGGACTTGGGGCTC seqneut25to26_sera_1041_d28: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_1041_d28: goodness_of_fit
-  GCTCCTGGTCATATAT seqneut25to26_sera_1041_d28: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_1041_d28: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_1041_d28: goodness_of_fit
-  GTGCAATTCCGCGTCC seqneut25to26_sera_1041_d28: goodness_of_fit
-  TTTTCTGACGATGCAG seqneut25to26_sera_1041_d28: goodness_of_fit
+  A/SouthAustralia/2527003588/2025_H3N2 seqneut25to26_sera_1036_d0: 
+    goodness_of_fit
+  A/England/1837737/2025_H3N2 seqneut25to26_sera_1041_d0: goodness_of_fit
+  A/Missouri/11/2025_H1N1 seqneut25to26_sera_1041_d0: goodness_of_fit
+  A/Vermont/73/2025_H3N2 seqneut25to26_sera_1041_d28: goodness_of_fit
 serum_replicates: {}

@@ -1,38 +1,6 @@
 wells: {}
 barcodes: {}
-barcode_wells:
-  GTCGCCGCTAATCCGA H2: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT C3: max_frac_infectivity_per_viral_barcode_well
-  CTTGAACCAGCAGTGT F3: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT G3: max_frac_infectivity_per_viral_barcode_well
-  AGTCCTATCCTCAAAT F4: max_frac_infectivity_per_viral_barcode_well
-  AATCCGAAATTTATTC G4: max_frac_infectivity_per_viral_barcode_well
-  GTCGCCGCTAATCCGA G8: max_frac_infectivity_per_viral_barcode_well
-  GTCGCCGCTAATCCGA G9: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT E10: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT E11: max_frac_infectivity_per_viral_barcode_well
+barcode_wells: {}
 barcode_serum_replicates:
-  AACTCCAATTTGTTTT seqneut25to26_sera_3023: goodness_of_fit
-  ACATCCGCCCTTCGGT seqneut25to26_sera_3023: goodness_of_fit
-  CATCGACAGGTCCCAC seqneut25to26_sera_3023: goodness_of_fit
-  CGATCTTTACGAAAAA seqneut25to26_sera_3023: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_3023: goodness_of_fit
-  CATAAAAGACTGTATA seqneut25to26_sera_3024: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_3024: goodness_of_fit
-  GTATTGAATGTCCGGC seqneut25to26_sera_3025: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_3025: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_3027: goodness_of_fit
-  AATCCGAAATTTATTC seqneut25to26_sera_3030: goodness_of_fit
-  CCGTTAGGGATTCCTC seqneut25to26_sera_3030: goodness_of_fit
-  GATTGAGGGGTCCGGG seqneut25to26_sera_3030: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_3030: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_3030: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_3030: goodness_of_fit
-  TCCCTTCTTCGCAACT seqneut25to26_sera_3030: goodness_of_fit
-  ATTGGCTGTCGTGGCC seqneut25to26_sera_3031: goodness_of_fit
-  CACACCTCTCTCGCCG seqneut25to26_sera_3031: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3031: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_3031: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_3033: goodness_of_fit
-  TACACTCAAACGATGC seqneut25to26_sera_3033: goodness_of_fit
+  A/Croatia/10136RV/2023-egg_H3N2 seqneut25to26_sera_3030: goodness_of_fit
 serum_replicates: {}

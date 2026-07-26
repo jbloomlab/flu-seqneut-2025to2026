@@ -1,35 +1,6 @@
 wells: {}
 barcodes: {}
-barcode_wells:
-  CTGCCGCCTGCTGTGT B2: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG G3: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG H4: max_frac_infectivity_per_viral_barcode_well
-  ACATCCGCCCTTCGGT G5: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG D6: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG F6: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG G7: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT H7: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG E8: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG H8: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG H9: max_frac_infectivity_per_viral_barcode_well
-  GAGTGCCCAGGTGTTG F10: max_frac_infectivity_per_viral_barcode_well
+barcode_wells: {}
 barcode_serum_replicates:
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3035: goodness_of_fit
-  AAGACGAAGCGTTTGC seqneut25to26_sera_3036: goodness_of_fit
-  ATACATCCGACGCTTT seqneut25to26_sera_3036: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_3036: goodness_of_fit
-  CGGGTCCTAGGCGAGG seqneut25to26_sera_3036: goodness_of_fit
-  GCTCCTGGTCATATAT seqneut25to26_sera_3036: goodness_of_fit
-  AAGAAGCTATAGAAGT seqneut25to26_sera_3037: goodness_of_fit
-  CCATACCACGCCCTGT seqneut25to26_sera_3037: goodness_of_fit
-  CGGGTCCTAGGCGAGG seqneut25to26_sera_3037: goodness_of_fit
-  CTGCCGCCTGCTGTGT seqneut25to26_sera_3037: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_3037: goodness_of_fit
-  AAAGGAAGCCCCTCAC seqneut25to26_sera_3038: goodness_of_fit
-  AGGAACATGTCCATAC seqneut25to26_sera_3038: goodness_of_fit
-  GTCGCCGCTAATCCGA seqneut25to26_sera_3038: goodness_of_fit
-  CGATCTTTACGAAAAA seqneut25to26_sera_3039: goodness_of_fit
-  TGGTAGTCCTTAACCG seqneut25to26_sera_3043: goodness_of_fit
-  GAGTGCCCAGGTGTTG seqneut25to26_sera_3044: goodness_of_fit
-  TCCCTTCTTCGCAACT seqneut25to26_sera_3044: goodness_of_fit
+  A/Guangdong-Meijiang/11256/2025_H3N2 seqneut25to26_sera_3044: goodness_of_fit
 serum_replicates: {}

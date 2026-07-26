@@ -172,6 +172,8 @@ plot_fold_changes:
 
 seqneut-pipeline: seqneut-pipeline
 
+collapse_strain_barcodes: true
+
 description: |
   # Near real-time data on the human neutralizing antibody landscape to influenza virus as of early 2026 to inform vaccine-strain selection
 

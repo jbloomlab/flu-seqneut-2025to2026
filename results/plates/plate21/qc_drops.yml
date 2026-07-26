@@ -1,15 +1,5 @@
 wells: {}
 barcodes: {}
-barcode_wells:
-  GTCGTCCGTAAGTTCA H1: max_frac_infectivity_per_viral_barcode_well
-  AAGACGAAGCGTTTGC E2: max_frac_infectivity_per_viral_barcode_well
-  TCCACACCCCTAGCTA H2: max_frac_infectivity_per_viral_barcode_well
-barcode_serum_replicates:
-  ACGTCGCTAGACTTTA seqneut25to26_sera_3045: goodness_of_fit
-  CCGTTAGGGATTCCTC seqneut25to26_sera_3046: goodness_of_fit
-  CTTGAACCAGCAGTGT seqneut25to26_sera_3046: goodness_of_fit
-  TCCCTTCTTCGCAACT seqneut25to26_sera_3048: goodness_of_fit
-  GTATCACGTCGTTTAC seqneut25to26_sera_5001: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_5003: goodness_of_fit
-  GTTGATTCGATCATAT seqneut25to26_sera_5004: goodness_of_fit
+barcode_wells: {}
+barcode_serum_replicates: {}
 serum_replicates: {}

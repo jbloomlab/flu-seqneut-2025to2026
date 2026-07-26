@@ -1,12 +1,6 @@
 wells:
   C12: avg_barcode_counts_per_well
 barcodes: {}
-barcode_wells:
-  ACATCCGCCCTTCGGT H1: max_frac_infectivity_per_viral_barcode_well
-  CTTGAACCAGCAGTGT F2: max_frac_infectivity_per_viral_barcode_well
-  AGAGGCCGGACGTAAA H2: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT G5: max_frac_infectivity_per_viral_barcode_well
-  CTGCCGCCTGCTGTGT E10: max_frac_infectivity_per_viral_barcode_well
-barcode_serum_replicates:
-  GTGCAATTCCGCGTCC seqneut25to26_sera_5037: goodness_of_fit
+barcode_wells: {}
+barcode_serum_replicates: {}
 serum_replicates: {}
